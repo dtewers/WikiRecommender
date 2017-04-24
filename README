@@ -1,1 +1,5 @@
-WikiRecommender is a project for CS410 at UIUC.
+WikiRecommender is a project for CS410 at UIUC. The goal is to recommend related Wikipedia articles based on a given article.
+
+Required Python packages:
+wikipedia
+scikit-learn
