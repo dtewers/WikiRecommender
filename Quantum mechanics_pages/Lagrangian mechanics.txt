@@ -1,0 +1,6719 @@
+Lagrangian mechanics is a reformulation of classical mechanics, introduced by the Italian-French mathematician and astronomer Joseph-Louis Lagrange in 1788.
+In Lagrangian mechanics, the trajectory of a system of particles is derived by solving the Lagrange equations in one of two forms, either the Lagrange equations of the first kind, which treat constraints explicitly as extra equations, often using Lagrange multipliers; or the Lagrange equations of the second kind, which incorporate the constraints directly by judicious choice of generalized coordinates. In each case, a mathematical function called the Lagrangian is a function of the generalized coordinates, their time derivatives, and time, and contains the information about the dynamics of the system.
+No new physics is introduced in Lagrangian mechanics compared to Newtonian mechanics. Newton's laws can include non-conservative forces like friction; however, they must include constraint forces explicitly and are best suited to Cartesian coordinates. Lagrangian mechanics is ideal for systems with conservative forces and for bypassing constraint forces in any coordinate system. Dissipative and driven forces can be accounted for by splitting the external forces into a sum of potential and non-potential forces, leading to a set of modified Euler-Lagrange (EL) equations. Generalized coordinates can be chosen by convenience, to exploit symmetries in the system or the geometry of the constraints, which may simplify solving for the motion of the system. Lagrangian mechanics also reveals conserved quantities and their symmetries in a direct way, as a special case of Noether's theorem.
+Lagrangian mechanics is important not just for its broad applications, but also for its role in advancing deep understanding of physics. Although Lagrange only sought to describe classical mechanics in his treatise Mécanique analytique,William Rowan Hamilton later developed Hamilton's principle that can be used to derive the Lagrange equation and was later recognized to be applicable to much of fundamental theoretical physics as well, particularly quantum mechanics and the theory of relativity. It can also be applied to other systems by analogy, for instance to coupled electric circuits with inductances and capacitances.
+Lagrangian mechanics is widely used to solve mechanical problems in physics and engineering when Newton's formulation of classical mechanics is not convenient. Lagrangian mechanics applies to the dynamics of particles, fields are described using a Lagrangian density. Lagrange's equations are also used in optimisation problems of dynamic systems. In mechanics, Lagrange's equations of the second kind are used much more than those of the first kind.
+
+
+== Introduction ==
+
+Suppose we have a bead sliding around on a wire, or a swinging simple pendulum, etc. If one tracks each of the massive objects (bead, pendulum bob, etc.) as a particle, calculation of the motion of the particle using Newtonian mechanics would require solving for the time-varying constraint force required to keep the particle in the constrained motion (reaction force exerted by the wire on the bead, or tension in the pendulum rod). For the same problem using Lagrangian mechanics, one looks at the path the particle can take and chooses a convenient set of independent generalized coordinates that completely characterize the possible motion of the particle. This choice eliminates the need for the constraint force to enter into the resultant system of equations. There are fewer equations since one is not directly calculating the influence of the constraint on the particle at a given moment.
+For a wide variety of physical systems, if the size and shape of a massive object are negligible, it is a useful simplification to treat it as a point particle. For a system of N point particles with masses m1, m2, ..., mN, each particle has a position vector, denoted r1, r2, ... rN. Cartesian coordinates are often sufficient, so r1 = (x1, y1, z1), r2 = (x2, y2, z2) and so on. In three dimensional space, each position vector requires three coordinates to uniquely define the location of a point, so there are 3N coordinates to uniquely define the configuration of the system. These are all specific points in space to locate the particles, a general point in space is written r = (x, y, z). The velocity of each particle is how fast the particle moves along its path of motion, and is the time derivative of its position, thus 
+  
+    
+      
+        
+          v
+          
+            1
+          
+        
+        =
+        
+          
+            
+              d
+              
+                r
+                
+                  1
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        ,
+        
+          v
+          
+            2
+          
+        
+        =
+        
+          
+            
+              d
+              
+                r
+                
+                  2
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+      
+    
+    {\displaystyle v_{1}={\frac {dr_{1}}{dt}},v_{2}={\frac {dr_{2}}{dt}}}
+  and so on.
+In Newtonian mechanics, the equations of motion are given by Newton's laws. The second law "net force equals mass times acceleration", 
+  
+    
+      
+        ∑
+        F
+        =
+        
+          
+            
+              m
+              
+                d
+                
+                  2
+                
+              
+              r
+            
+            
+              d
+              
+                t
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \sum F={\frac {md^{2}r}{dt^{2}}}}
+  , applies to each particle. For an N particle system in 3d, there are 3N second order ordinary differential equations in the positions of the particles to solve for.
+Instead of forces, Lagrangian mechanics uses the energies in the system. The central quantity of Lagrangian mechanics is the Lagrangian, a function which summarizes the dynamics of the entire system. Overall, the Lagrangian has units of energy, but no single expression for all physical systems. Any function which generates the correct equations of motion, in agreement with physical laws, can be taken as a Lagrangian. It is nevertheless possible to construct general expressions for large classes of applications. The non-relativistic Lagrangian for a system of particles can be defined by
+
+  
+    
+      
+        L
+        =
+        T
+        −
+        V
+      
+    
+    {\displaystyle L=T-V}
+  
+where
+
+  
+    
+      
+        T
+        =
+        
+          
+            1
+            2
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          m
+          
+            k
+          
+        
+        
+          v
+          
+            k
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle T={\frac {1}{2}}\sum _{k=1}^{N}m_{k}v_{k}^{2}}
+  
+is the total kinetic energy of the system, equalling the sum Σ of the kinetic energies of the particles, and V is the potential energy of the system.
+Kinetic energy is the energy of the system's motion, and vk2 = vk · vk is the magnitude squared of velocity, equivalent to the dot product of the velocity with itself. The kinetic energy is a function only of the velocities vk, not the positions rk nor time t, so T = T(v1, v2, ...).
+The potential energy of the system reflects the energy of interaction between the particles, i.e. how much energy any one particle will have due to all the others and other external influences. For conservative forces (e.g. Newtonian gravity), it is a function of the position vectors of the particles only, so V = V(r1, r2, ...). For those non-conservative forces which can be derived from an appropriate potential (e.g. electromagnetic potential), the velocities will appear also, V = V(r1, r2, ..., v1, v2, ...). If there is some external field or external driving force changing with time, the potential will change with time, so most generally V = V(r1, r2, ..., v1, v2, ..., t).
+The above form of L does not hold in relativistic Lagrangian mechanics, and must be replaced by a function consistent with special or general relativity. Also, for dissipative forces another function must be introduced alongside L.
+One or more of the particles may each be subject to one or more holonomic constraints, such a constraint is described by an equation of the form f(r, t) = 0. If the number of constraints in the system is C, then each constraint has an equation, f1(r, t) = 0, f2(r, t) = 0, ... fC(r, t) = 0, each could apply to any of the particles. If particle k is subject to constraint i, then fi(rk, t) = 0. At any instant of time, the coordinates of a constrained particle are linked together and not independent. The constraint equations determine the allowed paths the particles can move along, but not where they are or how fast they go at every instant of time. Nonholonomic constraints depend on the particle velocities, accelerations, or higher derivatives of position. Lagrangian mechanics can only be applied to systems with holonomic constraints. Three examples are when the constraint equations are nonintegrable, when the constraints have inequalities, or with complicated non-conservative forces like friction. Nonholonomic constraints require special treatment, and one may revert to Newtonian mechanics, or use other methods.
+If T or V or both depend explicitly on time due to time-varying constraints or external influences, the Lagrangian L(r1, r2, ... v1, v2, ... t) is explicitly time-dependent. If neither the potential nor the kinetic energy depend on time, then the Lagrangian L(r1, r2, ... v1, v2, ...) is explicitly independent of time. In either case, the Lagrangian will always have implicit time-dependence through the generalized coordinates.
+With these definitions Lagrange's equations of the first kind are
+
+where k = 1, 2, ..., N labels the particles, there is a Lagrange multiplier λi for each constraint equation fi, and
+
+  
+    
+      
+        
+          
+            ∂
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+          
+        
+        ≡
+        
+          (
+          
+            
+              ∂
+              
+                ∂
+                
+                  x
+                  
+                    k
+                  
+                
+              
+            
+          
+          ,
+          
+            
+              ∂
+              
+                ∂
+                
+                  y
+                  
+                    k
+                  
+                
+              
+            
+          
+          ,
+          
+            
+              ∂
+              
+                ∂
+                
+                  z
+                  
+                    k
+                  
+                
+              
+            
+          
+          )
+        
+        
+        ,
+        
+        
+          
+            ∂
+            
+              ∂
+              
+                
+                  
+                    
+                      
+                        r
+                      
+                      ˙
+                    
+                  
+                
+                
+                  k
+                
+              
+            
+          
+        
+        ≡
+        
+          (
+          
+            
+              ∂
+              
+                ∂
+                
+                  
+                    
+                      
+                        x
+                        ˙
+                      
+                    
+                  
+                  
+                    k
+                  
+                
+              
+            
+          
+          ,
+          
+            
+              ∂
+              
+                ∂
+                
+                  
+                    
+                      
+                        y
+                        ˙
+                      
+                    
+                  
+                  
+                    k
+                  
+                
+              
+            
+          
+          ,
+          
+            
+              ∂
+              
+                ∂
+                
+                  
+                    
+                      
+                        z
+                        ˙
+                      
+                    
+                  
+                  
+                    k
+                  
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {\frac {\partial }{\partial \mathbf {r} _{k}}}\equiv \left({\frac {\partial }{\partial x_{k}}},{\frac {\partial }{\partial y_{k}}},{\frac {\partial }{\partial z_{k}}}\right)\,,\quad {\frac {\partial }{\partial {\dot {\mathbf {r} }}_{k}}}\equiv \left({\frac {\partial }{\partial {\dot {x}}_{k}}},{\frac {\partial }{\partial {\dot {y}}_{k}}},{\frac {\partial }{\partial {\dot {z}}_{k}}}\right)}
+  
+are each shorthands for a vector of partial derivatives ∂/∂ with respect to the indicated variables (not a derivative with respect to the entire vector). Each overdot is a shorthand for a time derivative. This procedure does increase the number of equations to solve compared to Newton's laws, from 3N to 3N + C, because there are 3N coupled second order differential equations in the position coordinates and multipliers, plus C constraint equations. However, when solved alongside the position coordinates of the particles, the multipliers can yield information about the constraint forces. The coordinates do not need to be eliminated by solving the constraint equations.
+In the Lagrangian, the position coordinates and velocity components are all independent variables, and derivatives of the Lagrangian are taken with respect to these separately according to the usual differentiation rules (e.g. the derivative of L with respect to the z-velocity component of particle 2, vz2 = dz2/dt, is just that; no awkward chain rules or total derivatives need to be used to relate the velocity component to the corresponding coordinate z2).
+In each constraint equation, one coordinate is redundant because it is determined from the other two. The number of independent coordinates is therefore n = 3N − C. We can transform each position vector to a common set of n generalized coordinates, conveniently written as an n-tuple q = (q1, q2, ... qn), by expressing each position vector, and hence the position coordinates, as functions of the generalized coordinates and time,
+
+  
+    
+      
+        
+          
+            r
+          
+          
+            k
+          
+        
+        =
+        
+          
+            r
+          
+          
+            k
+          
+        
+        (
+        
+          q
+        
+        ,
+        t
+        )
+        =
+        (
+        
+          x
+          
+            k
+          
+        
+        (
+        
+          q
+        
+        ,
+        t
+        )
+        ,
+        
+          y
+          
+            k
+          
+        
+        (
+        
+          q
+        
+        ,
+        t
+        )
+        ,
+        
+          z
+          
+            k
+          
+        
+        (
+        
+          q
+        
+        ,
+        t
+        )
+        ,
+        t
+        )
+        
+        .
+      
+    
+    {\displaystyle \mathbf {r} _{k}=\mathbf {r} _{k}(\mathbf {q} ,t)=(x_{k}(\mathbf {q} ,t),y_{k}(\mathbf {q} ,t),z_{k}(\mathbf {q} ,t),t)\,.}
+  
+The vector q is a point in the configuration space of the system. The time derivatives of the generalized coordinates are called the generalized velocities, and for each particle the transformation of its velocity vector, the total derivative of its position with respect to time, is
+
+  
+    
+      
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            j
+          
+        
+        =
+        
+          
+            
+              
+                d
+              
+              
+                q
+                
+                  j
+                
+              
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+        ,
+        
+        
+          
+            v
+          
+          
+            k
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            j
+          
+        
+        +
+        
+          
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\dot {q}}_{j}={\frac {\mathrm {d} q_{j}}{\mathrm {d} t}}\,,\quad \mathbf {v} _{k}=\sum _{j=1}^{n}{\frac {\partial \mathbf {r} _{k}}{\partial q_{j}}}{\dot {q}}_{j}+{\frac {\partial \mathbf {r} _{k}}{\partial t}}\,.}
+  
+Given this vk, the kinetic energy in generalized coordinates depends on the generalized velocities, generalized coordinates, and time if the position vectors depend explicitly on time due to time-varying constraints, so T = T(q, dq/dt, t).
+With these definitions we have the Euler–Lagrange equations, or Lagrange's equations of the second kind
+
+are mathematical results from the calculus of variations, which can also be used in mechanics. Substituting in the Lagrangian L(q, dq/dt, t), gives the equations of motion of the system. The number of equations has decreased compared to Newtonian mechanics, from 3N to n = 3N − C coupled second order differential equations in the generalized coordinates. These equations do not include constraint forces at all, only non-constraint forces need to be accounted for.
+Although the equations of motion include partial derivatives, the results of the partial derivatives are still ordinary differential equations in the position coordinates of the particles. The total time derivative denoted d/dt often involves implicit differentiation. Both equations are linear in the Lagrangian, but will generally be nonlinear coupled equations in the coordinates.
+
+
+== From Newtonian to Lagrangian mechanics ==
+
+
+=== Newton's laws ===
+
+For simplicity, Newton's laws can be illustrated for one particle without much loss of generality (for a system of N particles, all of these equations apply to each particle in the system). The equation of motion for particle of mass m is Newton's second law of 1687, in modern vector notation
+
+  
+    
+      
+        
+          F
+        
+        =
+        m
+        
+          a
+        
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {F} =m\mathbf {a} \,,}
+  
+where a is its acceleration and F the resultant force acting on it. In three spatial dimensions, this is a system of three coupled second order ordinary differential equations to solve, since there are three components in this vector equation. The solutions are the position vectors r of the particles at time t, subject to the initial conditions of r and v when t = 0.
+Newton's laws are easy to use in Cartesian coordinates, but Cartesian coordinates are not always convenient, and for other coordinate systems the equations of motion can become complicated. In a set of curvilinear coordinates ξ = (ξ1, ξ2, ξ3), the law in tensor index notation is the "Lagrangian form"
+
+  
+    
+      
+        
+          F
+          
+            a
+          
+        
+        =
+        m
+        
+          (
+          
+            
+              
+                
+                  
+                    d
+                  
+                  
+                    2
+                  
+                
+                
+                  ξ
+                  
+                    a
+                  
+                
+              
+              
+                
+                  d
+                
+                
+                  t
+                  
+                    2
+                  
+                
+              
+            
+          
+          +
+          
+            Γ
+            
+              a
+            
+          
+          
+            
+
+            
+            
+              b
+              c
+            
+          
+          
+            
+              
+                
+                  d
+                
+                
+                  ξ
+                  
+                    b
+                  
+                
+              
+              
+                
+                  d
+                
+                t
+              
+            
+          
+          
+            
+              
+                
+                  d
+                
+                
+                  ξ
+                  
+                    c
+                  
+                
+              
+              
+                
+                  d
+                
+                t
+              
+            
+          
+          )
+        
+        =
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              T
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      ξ
+                      ˙
+                    
+                  
+                
+                
+                  a
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              ∂
+              T
+            
+            
+              ∂
+              
+                ξ
+                
+                  a
+                
+              
+            
+          
+        
+        
+        ,
+        
+        
+          
+            
+              
+                ξ
+                ˙
+              
+            
+          
+          
+            a
+          
+        
+        ≡
+        
+          
+            
+              
+                d
+              
+              
+                ξ
+                
+                  a
+                
+              
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle F^{a}=m\left({\frac {\mathrm {d} ^{2}\xi ^{a}}{\mathrm {d} t^{2}}}+\Gamma ^{a}{}_{bc}{\frac {\mathrm {d} \xi ^{b}}{\mathrm {d} t}}{\frac {\mathrm {d} \xi ^{c}}{\mathrm {d} t}}\right)={\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial T}{\partial {\dot {\xi }}^{a}}}-{\frac {\partial T}{\partial \xi ^{a}}}\,,\quad {\dot {\xi }}^{a}\equiv {\frac {\mathrm {d} \xi ^{a}}{\mathrm {d} t}}\,,}
+  
+where Fa is the ath contravariant components of the resultant force acting on the particle, Γabc are the Christoffel symbols of the second kind,
+
+  
+    
+      
+        T
+        =
+        
+          
+            1
+            2
+          
+        
+        m
+        
+          g
+          
+            b
+            c
+          
+        
+        
+          
+            
+              
+                d
+              
+              
+                ξ
+                
+                  b
+                
+              
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              
+                d
+              
+              
+                ξ
+                
+                  c
+                
+              
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle T={\frac {1}{2}}mg_{bc}{\frac {\mathrm {d} \xi ^{b}}{\mathrm {d} t}}{\frac {\mathrm {d} \xi ^{c}}{\mathrm {d} t}}\,,}
+  
+is the kinetic energy of the particle, and gbc the covariant components of the metric tensor of the curvilinear coordinate system. All the indices a, b, c, each take the values 1, 2, 3. Curvilinear coordinates are not the same as generalized coordinates.
+It may seem like an overcomplication to cast Newton's law in this form, but there are advantages. The acceleration components in terms of the Christoffel symbols can be avoided by evaluating derivatives of the kinetic energy instead. If there is no resultant force acting on the particle, F = 0, it does not accelerate, but moves with constant velocity in a straight line. Mathematically, the solutions of the differential equation are geodesics, the curves of extremal length between two points in space (These may end up being minimal so the shortest paths, but that is not necessary). In flat 3d real space the geodesics are simply straight lines. So for a free particle, Newton's second law coincides with the geodesic equation, and states free particles follow geodesics, the extremal trajectories it can move along. If the particle is subject to forces, F ≠ 0, the particle accelerates due to forces acting on it, and deviates away from the geodesics it would follow if free. With appropriate extensions of the quantities given here in flat 3d space to 4d curved spacetime, the above form of Newton's law also carries over to Einstein's general relativity, in which case free particles follow geodesics in curved spacetime that are no longer "straight lines" in the ordinary sense.
+However, we still need to know the total resultant force F acting on the particle, which in turn requires the resultant non-constraint force N plus the resultant constraint force C,
+
+  
+    
+      
+        
+          F
+        
+        =
+        
+          C
+        
+        +
+        
+          N
+        
+        
+        .
+      
+    
+    {\displaystyle \mathbf {F} =\mathbf {C} +\mathbf {N} \,.}
+  
+The constraint forces can be complicated, since they will generally depend on time. Also, if there are constraints, the curvilinear coordinates are not independent but related by one or more constraint equations.
+The constraint forces can either be eliminated from the equations of motion so only the non-constraint forces remain, or included by including the constraint equations in the equations of motion.
+
+
+=== D'Alembert's principle ===
+
+A fundamental result in analytical mechanics is D'Alembert's principle, introduced in 1708 by Jacques Bernoulli to understand static equilibrium, and developed by D'Alembert in 1743 to solve dynamical problems. The principle asserts for N particles
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        (
+        
+          
+            N
+          
+          
+            k
+          
+        
+        +
+        
+          
+            C
+          
+          
+            k
+          
+        
+        −
+        
+          m
+          
+            k
+          
+        
+        
+          
+            a
+          
+          
+            k
+          
+        
+        )
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            k
+          
+        
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle \sum _{k=1}^{N}(\mathbf {N} _{k}+\mathbf {C} _{k}-m_{k}\mathbf {a} _{k})\cdot \delta \mathbf {r} _{k}=0\,.}
+  
+The δrk are virtual displacements, by definition they are infinitesimal changes in the configuration of the system consistent with the constraint forces acting on the system at an instant of time, i.e. in such a way that the constraint forces maintain the constrained motion. They are not the same as the actual displacements in the system, which are caused by the resultant constraint and non-constraint forces acting on the particle to accelerate and move it. Virtual work is the work done along a virtual displacement for any force (constraint or non-constraint).
+Since the constraint forces act perpendicular to the motion of each particle in the system to maintain the constraints, the total virtual work by the constraint forces acting on the system is zero;
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            C
+          
+          
+            k
+          
+        
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            k
+          
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle \sum _{k=1}^{N}\mathbf {C} _{k}\cdot \delta \mathbf {r} _{k}=0\,,}
+  
+so that
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        (
+        
+          
+            N
+          
+          
+            k
+          
+        
+        −
+        
+          m
+          
+            k
+          
+        
+        
+          
+            a
+          
+          
+            k
+          
+        
+        )
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            k
+          
+        
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle \sum _{k=1}^{N}(\mathbf {N} _{k}-m_{k}\mathbf {a} _{k})\cdot \delta \mathbf {r} _{k}=0\,.}
+  
+Thus D'Alembert's principle allows us to concentrate on only the applied non-constraint forces, and exclude the constraint forces in the equations of motion. The form shown is also independent of the choice of coordinates. However, it cannot be readily used to set up the equations of motion in an arbitrary coordinate system since the displacements δrk might be connected by a constraint equation, which prevents us from setting the N individual summands to 0. We will therefore seek a system of mutually independent coordinates for which the total sum will be 0 if and only if the individual summands are 0. Setting each of the summands to 0 will eventually give us our separated equations of motion.
+
+
+=== Equations of motion from D'Alembert's principle ===
+If there are constraints on particle k, then since the coordinates of the position rk = (xk, yk, zk) are linked together by a constraint equation, so are those of the virtual displacements δrk = (δxk, δyk, δzk). Since the generalized coordinates are independent, we can avoid the complications with the δrk by converting to virtual displacements in the generalized coordinates. These are related in the same form as a total differential,
+
+  
+    
+      
+        δ
+        
+          
+            r
+          
+          
+            k
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        δ
+        
+          q
+          
+            j
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \delta \mathbf {r} _{k}=\sum _{j=1}^{n}{\frac {\partial \mathbf {r} _{k}}{\partial q_{j}}}\delta q_{j}\,.}
+  
+There is no partial time derivative with respect to time multiplied by a time increment, since this is a virtual displacement, one along the constraints in an instant of time.
+The first term in D'Alembert's principle above is the virtual work done by the non-constraint forces Nk along the virtual displacements δrk, and can without loss of generality be converted into the generalized analogues by the definition of generalized forces
+
+  
+    
+      
+        
+          Q
+          
+            j
+          
+        
+        =
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            N
+          
+          
+            k
+          
+        
+        ⋅
+        
+          
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle Q_{j}=\sum _{k=1}^{N}\mathbf {N} _{k}\cdot {\frac {\partial \mathbf {r} _{k}}{\partial q_{j}}}\,,}
+  
+so that
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            N
+          
+          
+            k
+          
+        
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            k
+          
+        
+        =
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            N
+          
+          
+            k
+          
+        
+        ⋅
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        δ
+        
+          q
+          
+            j
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          Q
+          
+            j
+          
+        
+        δ
+        
+          q
+          
+            j
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \sum _{k=1}^{N}\mathbf {N} _{k}\cdot \delta \mathbf {r} _{k}=\sum _{k=1}^{N}\mathbf {N} _{k}\cdot \sum _{j=1}^{n}{\frac {\partial \mathbf {r} _{k}}{\partial q_{j}}}\delta q_{j}=\sum _{j=1}^{n}Q_{j}\delta q_{j}\,.}
+  
+This is half of the conversion to generalized coordinates. It remains to convert the acceleration term into generalized coordinates, which is not immediately obvious. Recalling the Lagrange form of Newton's second law, the partial derivatives of the kinetic energy with respect to the generalized coordinates and velocities can be found to give the desired result;
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          m
+          
+            k
+          
+        
+        
+          
+            a
+          
+          
+            k
+          
+        
+        ⋅
+        
+          
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              T
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  j
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              ∂
+              T
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \sum _{k=1}^{N}m_{k}\mathbf {a} _{k}\cdot {\frac {\partial \mathbf {r} _{k}}{\partial q_{j}}}={\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial T}{\partial {\dot {q}}_{j}}}-{\frac {\partial T}{\partial q_{j}}}\,.}
+  
+Now D'Alembert's principle is in the generalized coordinates as required,
+
+  
+    
+      
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          [
+          
+            Q
+            
+              j
+            
+          
+          −
+          
+            (
+            
+              
+                
+                  d
+                
+                
+                  
+                    d
+                  
+                  t
+                
+              
+            
+            
+              
+                
+                  ∂
+                  T
+                
+                
+                  ∂
+                  
+                    
+                      
+                        
+                          q
+                          ˙
+                        
+                      
+                    
+                    
+                      j
+                    
+                  
+                
+              
+            
+            −
+            
+              
+                
+                  ∂
+                  T
+                
+                
+                  ∂
+                  
+                    q
+                    
+                      j
+                    
+                  
+                
+              
+            
+            )
+          
+          ]
+        
+        δ
+        
+          q
+          
+            j
+          
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle \sum _{j=1}^{n}\left[Q_{j}-\left({\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial T}{\partial {\dot {q}}_{j}}}-{\frac {\partial T}{\partial q_{j}}}\right)\right]\delta q_{j}=0\,,}
+  
+and since these virtual displacements δqj are independent and nonzero, the coefficients can be equated to zero, resulting in Lagrange's equations or the generalized equations of motion,
+
+  
+    
+      
+        
+          Q
+          
+            j
+          
+        
+        =
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              T
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  j
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              ∂
+              T
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle Q_{j}={\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial T}{\partial {\dot {q}}_{j}}}-{\frac {\partial T}{\partial q_{j}}}}
+  
+These equations are equivalent to Newton's laws for the non-constraint forces. The generalized forces in this equation are derived from the non-constraint forces only – the constraint forces they have been excluded from D'Alembert's principle and do not need to be found. The generalized forces may be non-conservative, provided they satisfy D'Alembert's principle.
+
+
+=== Euler–Lagrange equations and Hamilton's principle ===
+
+For a non-conservative force which depends on velocity, it may be possible to find a potential energy function V that depends on positions and velocities. If the generalized forces Qi can be derived from a potential V such that
+
+  
+    
+      
+        
+          Q
+          
+            j
+          
+        
+        =
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              V
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  j
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              ∂
+              V
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle Q_{j}={\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial V}{\partial {\dot {q}}_{j}}}-{\frac {\partial V}{\partial q_{j}}}\,,}
+  
+equating to Lagrange's equations and defining the Lagrangian as L = T − V obtains Lagrange's equations of the second kind or the Euler–Lagrange equations of motion
+
+  
+    
+      
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  j
+                
+              
+            
+          
+        
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle {\frac {\partial L}{\partial q_{j}}}-{\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial L}{\partial {\dot {q}}_{j}}}=0\,.}
+  
+However, the Euler–Lagrange equations can only account for non-conservative forces if a potential can be found as shown. This may not always be possible for non-conservative forces, and Lagrange's equations do not involve any potential, only generalized forces; therefore they are more general than the Euler–Lagrange equations.
+The Euler–Lagrange equations also follow from the calculus of variations. The variation of the Lagrangian is
+
+  
+    
+      
+        δ
+        L
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  q
+                  
+                    j
+                  
+                
+              
+            
+          
+          δ
+          
+            q
+            
+              j
+            
+          
+          +
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  
+                    
+                      
+                        q
+                        ˙
+                      
+                    
+                  
+                  
+                    j
+                  
+                
+              
+            
+          
+          δ
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              j
+            
+          
+          )
+        
+        
+        ,
+        
+        δ
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            j
+          
+        
+        ≡
+        δ
+        
+          
+            
+              
+                d
+              
+              
+                q
+                
+                  j
+                
+              
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        ≡
+        
+          
+            
+              
+                d
+              
+              (
+              δ
+              
+                q
+                
+                  j
+                
+              
+              )
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \delta L=\sum _{j=1}^{n}\left({\frac {\partial L}{\partial q_{j}}}\delta q_{j}+{\frac {\partial L}{\partial {\dot {q}}_{j}}}\delta {\dot {q}}_{j}\right)\,,\quad \delta {\dot {q}}_{j}\equiv \delta {\frac {\mathrm {d} q_{j}}{\mathrm {d} t}}\equiv {\frac {\mathrm {d} (\delta q_{j})}{\mathrm {d} t}}\,,}
+  
+which has a similar form to the total differential of L, but the virtual displacements and their time derivatives replace differentials, and there is no time increment in accordance with the definition of the virtual displacements. An integration by parts with respect to time can transfer the time derivative of δqj to the ∂L/∂(dqj/dt), in the process exchanging d(δqj)/dt for δqj, allowing the independent virtual displacements to be factorized from the derivatives of the Lagrangian,
+
+  
+    
+      
+        
+          ∫
+          
+            
+              t
+              
+                1
+              
+            
+          
+          
+            
+              t
+              
+                2
+              
+            
+          
+        
+        δ
+        L
+        
+        
+          d
+        
+        t
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            [
+            
+              
+                
+                  ∂
+                  L
+                
+                
+                  ∂
+                  
+                    
+                      
+                        
+                          q
+                          ˙
+                        
+                      
+                    
+                    
+                      j
+                    
+                  
+                
+              
+            
+            δ
+            
+              q
+              
+                j
+              
+            
+            ]
+          
+          
+            
+              t
+              
+                1
+              
+            
+          
+          
+            
+              t
+              
+                2
+              
+            
+          
+        
+        +
+        
+          ∫
+          
+            
+              t
+              
+                1
+              
+            
+          
+          
+            
+              t
+              
+                2
+              
+            
+          
+        
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  q
+                  
+                    j
+                  
+                
+              
+            
+          
+          −
+          
+            
+              
+                d
+              
+              
+                
+                  d
+                
+                t
+              
+            
+          
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  
+                    
+                      
+                        q
+                        ˙
+                      
+                    
+                  
+                  
+                    j
+                  
+                
+              
+            
+          
+          )
+        
+        δ
+        
+          q
+          
+            j
+          
+        
+        
+        
+          d
+        
+        t
+        
+        .
+      
+    
+    {\displaystyle \int _{t_{1}}^{t_{2}}\delta L\,\mathrm {d} t=\sum _{j=1}^{n}\left[{\frac {\partial L}{\partial {\dot {q}}_{j}}}\delta q_{j}\right]_{t_{1}}^{t_{2}}+\int _{t_{1}}^{t_{2}}\sum _{j=1}^{n}\left({\frac {\partial L}{\partial q_{j}}}-{\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial L}{\partial {\dot {q}}_{j}}}\right)\delta q_{j}\,\mathrm {d} t\,.}
+  
+Now, if the condition δqj(t1) = δqj(t2) = 0 holds for all j, the terms not integrated are zero. If in addition the entire time integral of δL is zero, then because the δqj are independent, and the only way for a definite integral to be zero is if the integrand equals zero, each of the coefficients of δqj must also be zero. Then we obtain the equations of motion. This can be summarized by Hamilton's principle;
+
+  
+    
+      
+        
+          ∫
+          
+            
+              t
+              
+                1
+              
+            
+          
+          
+            
+              t
+              
+                2
+              
+            
+          
+        
+        δ
+        L
+        
+        
+          d
+        
+        t
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle \int _{t_{1}}^{t_{2}}\delta L\,\mathrm {d} t=0\,.}
+  
+The time integral of the Lagrangian is another quantity called the action, defined as
+
+  
+    
+      
+        S
+        =
+        
+          ∫
+          
+            
+              t
+              
+                1
+              
+            
+          
+          
+            
+              t
+              
+                2
+              
+            
+          
+        
+        L
+        
+        
+          d
+        
+        t
+        
+        ,
+      
+    
+    {\displaystyle S=\int _{t_{1}}^{t_{2}}L\,\mathrm {d} t\,,}
+  
+which is a functional; it takes in the Lagrangian function for all times between t1 and t2 and returns a scalar value. Its dimensions are the same as [ angular momentum ], [energy]·[time], or [length]·[momentum]. With this definition Hamilton's principle is
+
+  
+    
+      
+        δ
+        S
+        =
+        0
+        
+        .
+        
+        
+      
+    
+    {\displaystyle \delta S=0\,.\,\!}
+  
+Thus, instead of thinking about particles accelerating in response to applied forces, one might think of them picking out the path with a stationary action, with the end points of the path in configuration space held fixed at the initial and final times. Hamilton's principle is sometimes referred to as the principle of least action, however the action functional need only be stationary, not necessarily a maximum or a minimum value. Any variation of the functional gives an increase in the functional integral of the action.
+Historically, the idea of finding the shortest path a particle can follow subject to a force motivated the first applications of the calculus of variations to mechanical problems, such as the Brachistochrone problem solved by Jean Bernoulli in 1696, as well as Leibniz, Daniel Bernoulli, L'Hôpital around the same time, and Newton the following year. Newton himself was thinking along the lines of the variational calculus, but did not publish. These ideas in turn lead to the variational principles of mechanics, of Fermat, Maupertuis, Euler, Hamilton, and others.
+Hamilton's principle can be applied to nonholonomic constraints if the constraint equations can be put into a certain form, a linear combination of first order differentials in the coordinates. The resulting constraint equation can be rearranged into first order differential equation. This will not be given here.
+
+
+=== Lagrange multipliers and constraints ===
+The Lagrangian L can be varied in the Cartesian rk coordinates, for N particles,
+
+  
+    
+      
+        
+          ∫
+          
+            
+              t
+              
+                1
+              
+            
+          
+          
+            
+              t
+              
+                2
+              
+            
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  
+                    r
+                  
+                  
+                    k
+                  
+                
+              
+            
+          
+          −
+          
+            
+              
+                d
+              
+              
+                
+                  d
+                
+                t
+              
+            
+          
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  
+                    
+                      
+                        
+                          r
+                        
+                        ˙
+                      
+                    
+                  
+                  
+                    k
+                  
+                
+              
+            
+          
+          )
+        
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            k
+          
+        
+        
+        
+          d
+        
+        t
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle \int _{t_{1}}^{t_{2}}\sum _{k=1}^{N}\left({\frac {\partial L}{\partial \mathbf {r} _{k}}}-{\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial L}{\partial {\dot {\mathbf {r} }}_{k}}}\right)\cdot \delta \mathbf {r} _{k}\,\mathrm {d} t=0\,.}
+  
+Hamilton's principle is still valid even if the coordinates L is expressed in are not independent, here rk, but the constraints are still assumed to be holonomic. As always the end points are fixed δrk(t1) = δrk(t2) = 0 for all k. What cannot be done is to simply equate the coefficients of δrk to zero because the δrk are not independent. Instead, the method of Lagrange multipliers can be used to include the constraints. Multiplying each constraint equation fi(rk, t) = 0 by a Lagrange multiplier λi for i = 1, 2, ..., C, and adding the results to the original Lagrangian, gives the new Lagrangian
+
+  
+    
+      
+        
+          L
+          ′
+        
+        =
+        L
+        (
+        
+          
+            r
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            r
+          
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          
+            
+              
+                
+                  r
+                
+                ˙
+              
+            
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            
+              
+                
+                  r
+                
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        t
+        )
+        +
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            C
+          
+        
+        
+          λ
+          
+            i
+          
+        
+        (
+        t
+        )
+        
+          f
+          
+            i
+          
+        
+        (
+        
+          
+            r
+          
+          
+            k
+          
+        
+        ,
+        t
+        )
+        
+        .
+      
+    
+    {\displaystyle L'=L(\mathbf {r} _{1},\mathbf {r} _{2},\ldots ,{\dot {\mathbf {r} }}_{1},{\dot {\mathbf {r} }}_{2},\ldots ,t)+\sum _{i=1}^{C}\lambda _{i}(t)f_{i}(\mathbf {r} _{k},t)\,.}
+  
+The Lagrange multipliers are arbitrary functions of time t, but not functions of the coordinates rk, so the multipliers are on equal footing with the position coordinates. Varying this new Lagrangian and integrating with respect to time gives
+
+  
+    
+      
+        
+          ∫
+          
+            
+              t
+              
+                1
+              
+            
+          
+          
+            
+              t
+              
+                2
+              
+            
+          
+        
+        δ
+        
+          L
+          ′
+        
+        
+          d
+        
+        t
+        =
+        
+          ∫
+          
+            
+              t
+              
+                1
+              
+            
+          
+          
+            
+              t
+              
+                2
+              
+            
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  
+                    r
+                  
+                  
+                    k
+                  
+                
+              
+            
+          
+          −
+          
+            
+              
+                d
+              
+              
+                
+                  d
+                
+                t
+              
+            
+          
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  
+                    
+                      
+                        
+                          r
+                        
+                        ˙
+                      
+                    
+                  
+                  
+                    k
+                  
+                
+              
+            
+          
+          +
+          
+            ∑
+            
+              i
+              =
+              1
+            
+            
+              C
+            
+          
+          
+            λ
+            
+              i
+            
+          
+          
+            
+              
+                ∂
+                
+                  f
+                  
+                    i
+                  
+                
+              
+              
+                ∂
+                
+                  
+                    r
+                  
+                  
+                    k
+                  
+                
+              
+            
+          
+          )
+        
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            k
+          
+        
+        
+        
+          d
+        
+        t
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle \int _{t_{1}}^{t_{2}}\delta L'\mathrm {d} t=\int _{t_{1}}^{t_{2}}\sum _{k=1}^{N}\left({\frac {\partial L}{\partial \mathbf {r} _{k}}}-{\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial L}{\partial {\dot {\mathbf {r} }}_{k}}}+\sum _{i=1}^{C}\lambda _{i}{\frac {\partial f_{i}}{\partial \mathbf {r} _{k}}}\right)\cdot \delta \mathbf {r} _{k}\,\mathrm {d} t=0\,.}
+  
+The introduced multipliers can be found so that the coefficients of δrk are zero, even though the rk are not independent. The equations of motion follow. From the preceding analysis, obtaining the solution to this integral is equivalent to the statement
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                L
+                ′
+              
+            
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              
+                L
+                ′
+              
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      
+                        r
+                      
+                      ˙
+                    
+                  
+                
+                
+                  k
+                
+              
+            
+          
+        
+        =
+        0
+        
+        ⇒
+        
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      
+                        r
+                      
+                      ˙
+                    
+                  
+                
+                
+                  k
+                
+              
+            
+          
+        
+        +
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            C
+          
+        
+        
+          λ
+          
+            i
+          
+        
+        
+          
+            
+              ∂
+              
+                f
+                
+                  i
+                
+              
+            
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+          
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle {\frac {\partial L'}{\partial \mathbf {r} _{k}}}-{\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial L'}{\partial {\dot {\mathbf {r} }}_{k}}}=0\quad \Rightarrow \quad {\frac {\partial L}{\partial \mathbf {r} _{k}}}-{\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial L}{\partial {\dot {\mathbf {r} }}_{k}}}+\sum _{i=1}^{C}\lambda _{i}{\frac {\partial f_{i}}{\partial \mathbf {r} _{k}}}=0\,,}
+  
+which are Lagrange's equations of the first kind. Also, the λi Euler-Lagrange equations for the new Lagrangian return the constraint equations
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                L
+                ′
+              
+            
+            
+              ∂
+              
+                λ
+                
+                  i
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              
+                L
+                ′
+              
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      λ
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        0
+        
+        ⇒
+        
+        
+          f
+          
+            i
+          
+        
+        (
+        
+          
+            r
+          
+          
+            k
+          
+        
+        ,
+        t
+        )
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle {\frac {\partial L'}{\partial \lambda _{i}}}-{\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial L'}{\partial {\dot {\lambda }}_{i}}}=0\quad \Rightarrow \quad f_{i}(\mathbf {r} _{k},t)=0\,.}
+  
+For the case of a conservative force given by the gradient of some potential energy V, a function of the rk coordinates only, substituting the Lagrangian L = T − V gives
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      ∂
+                      T
+                    
+                    
+                      ∂
+                      
+                        
+                          r
+                        
+                        
+                          k
+                        
+                      
+                    
+                  
+                
+                −
+                
+                  
+                    
+                      d
+                    
+                    
+                      
+                        d
+                      
+                      t
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      T
+                    
+                    
+                      ∂
+                      
+                        
+                          
+                            
+                              
+                                r
+                              
+                              ˙
+                            
+                          
+                        
+                        
+                          k
+                        
+                      
+                    
+                  
+                
+              
+              ⏟
+            
+          
+          
+            −
+            
+              
+                F
+              
+              
+                k
+              
+            
+          
+        
+        +
+        
+          
+            
+              
+                −
+                
+                  
+                    
+                      ∂
+                      V
+                    
+                    
+                      ∂
+                      
+                        
+                          r
+                        
+                        
+                          k
+                        
+                      
+                    
+                  
+                
+              
+              ⏟
+            
+          
+          
+            
+              
+                N
+              
+              
+                k
+              
+            
+          
+        
+        +
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            C
+          
+        
+        
+          λ
+          
+            i
+          
+        
+        
+          
+            
+              ∂
+              
+                f
+                
+                  i
+                
+              
+            
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+          
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle \underbrace {{\frac {\partial T}{\partial \mathbf {r} _{k}}}-{\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial T}{\partial {\dot {\mathbf {r} }}_{k}}}} _{-\mathbf {F} _{k}}+\underbrace {-{\frac {\partial V}{\partial \mathbf {r} _{k}}}} _{\mathbf {N} _{k}}+\sum _{i=1}^{C}\lambda _{i}{\frac {\partial f_{i}}{\partial \mathbf {r} _{k}}}=0\,,}
+  
+and identifying the derivatives of kinetic energy as the (negative of the) resultant force, and the derivatives of the potential equaling the non-constraint force, it follows the constraint forces are
+
+  
+    
+      
+        
+          
+            C
+          
+          
+            k
+          
+        
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            C
+          
+        
+        
+          λ
+          
+            i
+          
+        
+        
+          
+            
+              ∂
+              
+                f
+                
+                  i
+                
+              
+            
+            
+              ∂
+              
+                
+                  r
+                
+                
+                  k
+                
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {C} _{k}=\sum _{i=1}^{C}\lambda _{i}{\frac {\partial f_{i}}{\partial \mathbf {r} _{k}}}\,,}
+  
+thus giving the constraint forces explicitly in terms of the constraint equations and the Lagrange multipliers.
+
+
+== Properties of the Euler–Lagrange equation ==
+In some cases, the Lagrangian has properties which can provide information about the system without solving the equations of motion. These follow from Lagrange's equations of the second kind.
+
+
+=== Non uniqueness ===
+The Lagrangian of a given system is not unique. A Lagrangian L can be multiplied by a nonzero constant a, an arbitrary constant b can be added, and the new Lagrangian aL + b will describe exactly the same motion as L. A less obvious result is that two Lagrangians describing the same system can differ by the total derivative (not partial) of some function f(q, t) with respect to time;
+
+  
+    
+      
+        
+          L
+          ′
+        
+        =
+        L
+        +
+        
+          
+            
+              
+                d
+              
+              f
+              (
+              
+                q
+              
+              ,
+              t
+              )
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle L'=L+{\frac {\mathrm {d} f(\mathbf {q} ,t)}{\mathrm {d} t}}\,.}
+  
+Each Lagrangian will obtain exactly the same equations of motion.
+
+
+=== Invariance under point transformations ===
+Given a set of generalized coordinates q, if we change these variables to a new set of generalized coordinates s according to a point transformation q = q(s, t), the new Lagrangian L′ is a function of the new coordinates
+
+  
+    
+      
+        L
+        (
+        
+          q
+        
+        (
+        
+          s
+        
+        ,
+        t
+        )
+        ,
+        
+          
+            
+              
+                q
+              
+              ˙
+            
+          
+        
+        (
+        
+          s
+        
+        ,
+        
+          
+            
+              
+                s
+              
+              ˙
+            
+          
+        
+        ,
+        t
+        )
+        ,
+        t
+        )
+        =
+        
+          L
+          ′
+        
+        (
+        
+          s
+        
+        ,
+        
+          
+            
+              
+                s
+              
+              ˙
+            
+          
+        
+        ,
+        t
+        )
+        
+        ,
+      
+    
+    {\displaystyle L(\mathbf {q} (\mathbf {s} ,t),{\dot {\mathbf {q} }}(\mathbf {s} ,{\dot {\mathbf {s} }},t),t)=L'(\mathbf {s} ,{\dot {\mathbf {s} }},t)\,,}
+  
+and by the chain rule for partial differentiation, Lagrange's equations are invariant under this transformation;
+
+  
+    
+      
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              
+                L
+                ′
+              
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      s
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              ∂
+              
+                L
+                ′
+              
+            
+            
+              ∂
+              
+                s
+                
+                  i
+                
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial L'}{\partial {\dot {s}}_{i}}}={\frac {\partial L'}{\partial s_{i}}}\,.}
+  
+This may simplify the equations of motion.
+
+
+=== Cyclic coordinates and conserved momenta ===
+An important property of the Lagrangian is that conserved quantities can easily be read off from it. The generalized momentum "canonically conjugate to" the coordinate qi is defined by
+
+  
+    
+      
+        
+          p
+          
+            i
+          
+        
+        =
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle p_{i}={\frac {\partial L}{\partial {\dot {q}}_{i}}}.}
+  
+If the Lagrangian L does not depend on some coordinate qi, it follows immediately from the Euler–Lagrange equations that
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        =
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                q
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle {\dot {p}}_{i}={\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial L}{\partial {\dot {q}}_{i}}}={\frac {\partial L}{\partial q_{i}}}=0\,.}
+  
+and integrating shows the corresponding generalized momentum equals a constant, a conserved quantity. This is a special case of Noether's theorem. Such coordinates are called "cyclic" or "ignorable".
+For example, a system may have a Lagrangian
+
+  
+    
+      
+        L
+        (
+        r
+        ,
+        θ
+        ,
+        
+          
+            
+              s
+              ˙
+            
+          
+        
+        ,
+        
+          
+            
+              z
+              ˙
+            
+          
+        
+        ,
+        
+          
+            
+              r
+              ˙
+            
+          
+        
+        ,
+        
+          
+            
+              θ
+              ˙
+            
+          
+        
+        ,
+        
+          
+            
+              ϕ
+              ˙
+            
+          
+        
+        ,
+        t
+        )
+        
+        ,
+      
+    
+    {\displaystyle L(r,\theta ,{\dot {s}},{\dot {z}},{\dot {r}},{\dot {\theta }},{\dot {\phi }},t)\,,}
+  
+where r and z are lengths along straight lines, s is an arc length along some curve, and θ and φ are angles. Notice z, s, and φ are all absent in the Lagrangian even though their velocities are not. Then the momenta
+
+  
+    
+      
+        
+          p
+          
+            z
+          
+        
+        =
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    z
+                    ˙
+                  
+                
+              
+            
+          
+        
+        
+        ,
+        
+        
+          p
+          
+            s
+          
+        
+        =
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    s
+                    ˙
+                  
+                
+              
+            
+          
+        
+        
+        ,
+        
+        
+          p
+          
+            ϕ
+          
+        
+        =
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    ϕ
+                    ˙
+                  
+                
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle p_{z}={\frac {\partial L}{\partial {\dot {z}}}}\,,\quad p_{s}={\frac {\partial L}{\partial {\dot {s}}}}\,,\quad p_{\phi }={\frac {\partial L}{\partial {\dot {\phi }}}}\,,}
+  
+are all conserved quantities. The units and nature of each generalized momentum will depend on the corresponding coordinate; in this case pz is a translational momentum in the z direction, ps is also a translational momentum along the curve s is measured, and pφ is an angular momentum in the plane the angle φ is measured in. However complicated the motion of the system is, all the coordinates and velocities will vary in such a way that these momenta are conserved.
+
+
+=== Energy conservation ===
+Taking the total derivative of the Lagrangian L = T − V with respect to time leads to the general result
+
+  
+    
+      
+        −
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          (
+          
+            ∑
+            
+              i
+              =
+              1
+            
+            
+              n
+            
+          
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              i
+            
+          
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  
+                    
+                      
+                        q
+                        ˙
+                      
+                    
+                  
+                  
+                    i
+                  
+                
+              
+            
+          
+          −
+          L
+          )
+        
+        
+        .
+      
+    
+    {\displaystyle -{\frac {\partial L}{\partial t}}={\frac {\mathrm {d} }{\mathrm {d} t}}\left(\sum _{i=1}^{n}{\dot {q}}_{i}{\frac {\partial L}{\partial {\dot {q}}_{i}}}-L\right)\,.}
+  
+If the entire Lagrangian is explicitly independent of time, it follows the partial time derivative of the Lagrangian is zero, ∂L/∂t = 0, so the quantity under the total time derivative in brackets
+
+  
+    
+      
+        E
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+        −
+        L
+      
+    
+    {\displaystyle E=\sum _{i=1}^{n}{\dot {q}}_{i}{\frac {\partial L}{\partial {\dot {q}}_{i}}}-L}
+  
+must be a constant for all times during the motion of the system, and it also follows the kinetic energy is a homogenous function of degree 2 in the generalized velocities. If in addition the potential V is only a function of coordinates and independent of velocities, it follows by direct calculation, or use of Euler's theorem for homogenous functions, that
+
+  
+    
+      
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        
+          
+            
+              ∂
+              T
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        2
+        T
+        
+        .
+      
+    
+    {\displaystyle \sum _{i=1}^{n}{\dot {q}}_{i}{\frac {\partial L}{\partial {\dot {q}}_{i}}}=\sum _{i=1}^{n}{\dot {q}}_{i}{\frac {\partial T}{\partial {\dot {q}}_{i}}}=2T\,.}
+  
+Under all these circumstances, the constant
+
+  
+    
+      
+        E
+        =
+        T
+        +
+        V
+      
+    
+    {\displaystyle E=T+V}
+  
+is the total conserved energy of the system. The kinetic and potential energies still change as the system evolves, but the motion of the system will be such that their sum, the total energy, is constant. This is a valuable simplification, since the energy E is a constant of integration that counts as an arbitrary constant for the problem, and it may be possible to integrate the velocities from this energy relation to solve for the coordinates. In the case the velocity or kinetic energy or both depends on time, then the energy is not conserved.
+
+
+=== Mechanical similarity ===
+
+If the potential energy is a homogeneous function of the coordinates and independent of time, and all position vectors are scaled by the same nonzero constant α, rk′ = αrk, so that
+
+  
+    
+      
+        V
+        (
+        α
+        
+          
+            r
+          
+          
+            1
+          
+        
+        ,
+        α
+        
+          
+            r
+          
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        α
+        
+          
+            r
+          
+          
+            N
+          
+        
+        )
+        =
+        
+          α
+          
+            N
+          
+        
+        V
+        (
+        
+          
+            r
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            r
+          
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          
+            r
+          
+          
+            N
+          
+        
+        )
+      
+    
+    {\displaystyle V(\alpha \mathbf {r} _{1},\alpha \mathbf {r} _{2},\ldots ,\alpha \mathbf {r} _{N})=\alpha ^{N}V(\mathbf {r} _{1},\mathbf {r} _{2},\ldots ,\mathbf {r} _{N})}
+  
+and time is scaled by a factor β, t′ = βt, then the velocities vk are scaled by a factor of α/β and the kinetic energy T by (α/β)2. The entire Lagrangian has been scaled by the same factor if
+
+  
+    
+      
+        
+          
+            
+              α
+              
+                2
+              
+            
+            
+              β
+              
+                2
+              
+            
+          
+        
+        =
+        
+          α
+          
+            N
+          
+        
+        
+        ⇒
+        
+        β
+        =
+        
+          α
+          
+            1
+            −
+            N
+            
+              /
+            
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\frac {\alpha ^{2}}{\beta ^{2}}}=\alpha ^{N}\quad \Rightarrow \quad \beta =\alpha ^{1-N/2}\,.}
+  
+Since the lengths and times have been scaled, the trajectories of the particles in the system follow geometrically similar paths differing in size. The length l traversed in time t in the original trajectory corresponds to a new length l′ traversed in time t′ in the new trajectory, given by the ratios
+
+  
+    
+      
+        
+          
+            
+              t
+              ′
+            
+            t
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  l
+                  ′
+                
+                l
+              
+            
+            )
+          
+          
+            1
+            −
+            N
+            
+              /
+            
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\frac {t'}{t}}=\left({\frac {l'}{l}}\right)^{1-N/2}\,.}
+  
+
+
+=== Interacting particles ===
+For a given system, if two subsystems A and B are non-interacting, the Lagrangian L of the overall system is the sum of the Lagrangians LA and LB for the subsystems:
+
+  
+    
+      
+        L
+        =
+        
+          L
+          
+            A
+          
+        
+        +
+        
+          L
+          
+            B
+          
+        
+        
+        .
+      
+    
+    {\displaystyle L=L_{A}+L_{B}\,.}
+  
+If they do interact this is not possible. In some situations, it may be possible to separate the Lagrangian of the system L into the sum of non-interacting Lagrangians, plus another Lagrangian LAB containing information about the interaction,
+
+  
+    
+      
+        L
+        =
+        
+          L
+          
+            A
+          
+        
+        +
+        
+          L
+          
+            B
+          
+        
+        +
+        
+          L
+          
+            A
+            B
+          
+        
+        
+        .
+      
+    
+    {\displaystyle L=L_{A}+L_{B}+L_{AB}\,.}
+  
+This may be physically motivated by taking the non-interacting Lagrangians to be kinetic energies only, while the interaction Lagrangian is the system's total potential energy. Also, in the limiting case of negligible interaction, LAB tends to zero reducing to the non-interacting case above.
+The extension to more than two non-interacting subsystems is straightforwards – the overall Lagrangian is the sum of the separate Lagrangians for each subsystem. If there are interactions, then interaction Lagrangians may be added.
+
+
+== Examples ==
+The following examples apply Lagrange's equations of the second kind to mechanical problems.
+
+
+=== Conservative force ===
+A particle of mass m moves under the influence of a conservative force derived from the gradient ∇ of a scalar potential,
+
+  
+    
+      
+        
+          F
+        
+        =
+        −
+        ∇
+        V
+        (
+        
+          r
+        
+        )
+        
+        .
+      
+    
+    {\displaystyle \mathbf {F} =-\nabla V(\mathbf {r} )\,.}
+  
+If there are more particles, in accordance with the above results, the total kinetic energy is a sum over all the particle kinetic energies, and the potential is a function of all the coordinates.
+
+
+==== Cartesian coordinates ====
+The Lagrangian of the particle can be written
+
+  
+    
+      
+        L
+        (
+        x
+        ,
+        y
+        ,
+        z
+        ,
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        ,
+        
+          
+            
+              y
+              ˙
+            
+          
+        
+        ,
+        
+          
+            
+              z
+              ˙
+            
+          
+        
+        )
+        =
+        
+          
+            1
+            2
+          
+        
+        m
+        (
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        +
+        
+          
+            
+              
+                y
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        +
+        
+          
+            
+              
+                z
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        )
+        −
+        V
+        (
+        x
+        ,
+        y
+        ,
+        z
+        )
+        
+        .
+      
+    
+    {\displaystyle L(x,y,z,{\dot {x}},{\dot {y}},{\dot {z}})={\frac {1}{2}}m({\dot {x}}^{2}+{\dot {y}}^{2}+{\dot {z}}^{2})-V(x,y,z)\,.}
+  
+The equations of motion for the particle are found by applying the Euler–Lagrange equation, for the x coordinate
+
+  
+    
+      
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  
+                    
+                      x
+                      ˙
+                    
+                  
+                
+              
+            
+          
+          )
+        
+        =
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              x
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}\left({\frac {\partial L}{\partial {\dot {x}}}}\right)={\frac {\partial L}{\partial x}}\,,}
+  
+with derivatives
+
+  
+    
+      
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              x
+            
+          
+        
+        =
+        −
+        
+          
+            
+              ∂
+              V
+            
+            
+              ∂
+              x
+            
+          
+        
+        
+        ,
+        
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    x
+                    ˙
+                  
+                
+              
+            
+          
+        
+        =
+        m
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        
+        ,
+        
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  
+                    
+                      x
+                      ˙
+                    
+                  
+                
+              
+            
+          
+          )
+        
+        =
+        m
+        
+          
+            
+              x
+              ¨
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle {\frac {\partial L}{\partial x}}=-{\frac {\partial V}{\partial x}}\,,\quad {\frac {\partial L}{\partial {\dot {x}}}}=m{\dot {x}}\,,\quad {\frac {\mathrm {d} }{\mathrm {d} t}}\left({\frac {\partial L}{\partial {\dot {x}}}}\right)=m{\ddot {x}}\,,}
+  
+hence
+
+  
+    
+      
+        m
+        
+          
+            
+              x
+              ¨
+            
+          
+        
+        =
+        −
+        
+          
+            
+              ∂
+              V
+            
+            
+              ∂
+              x
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle m{\ddot {x}}=-{\frac {\partial V}{\partial x}}\,,}
+  
+and similarly for the y and z coordinates. Collecting the equations in vector form we find
+
+  
+    
+      
+        m
+        
+          
+            
+              
+                r
+              
+              ¨
+            
+          
+        
+        =
+        −
+        ∇
+        V
+      
+    
+    {\displaystyle m{\ddot {\mathbf {r} }}=-\nabla V}
+  
+which is Newton's second law of motion for a particle subject to a conservative force.
+
+
+==== Polar coordinates in 2d and 3d ====
+The Lagrangian for the above problem in spherical coordinates, with a central potential, is
+
+  
+    
+      
+        L
+        =
+        
+          
+            m
+            2
+          
+        
+        (
+        
+          
+            
+              
+                r
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        +
+        
+          r
+          
+            2
+          
+        
+        
+          
+            
+              
+                θ
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        +
+        
+          r
+          
+            2
+          
+        
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+        
+        
+          
+            
+              
+                φ
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        )
+        −
+        V
+        (
+        r
+        )
+        
+        ,
+      
+    
+    {\displaystyle L={\frac {m}{2}}({\dot {r}}^{2}+r^{2}{\dot {\theta }}^{2}+r^{2}\sin ^{2}\theta \,{\dot {\varphi }}^{2})-V(r)\,,}
+  
+so the Euler–Lagrange equations are
+
+  
+    
+      
+        m
+        
+          
+            
+              r
+              ¨
+            
+          
+        
+        −
+        m
+        r
+        (
+        
+          
+            
+              
+                θ
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        +
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+        
+        
+          
+            
+              
+                φ
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        )
+        +
+        
+          
+            
+              ∂
+              V
+            
+            
+              ∂
+              r
+            
+          
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle m{\ddot {r}}-mr({\dot {\theta }}^{2}+\sin ^{2}\theta \,{\dot {\varphi }}^{2})+{\frac {\partial V}{\partial r}}=0\,,}
+  
+
+  
+    
+      
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        (
+        m
+        
+          r
+          
+            2
+          
+        
+        
+          
+            
+              θ
+              ˙
+            
+          
+        
+        )
+        −
+        m
+        
+          r
+          
+            2
+          
+        
+        sin
+        ⁡
+        θ
+        cos
+        ⁡
+        θ
+        
+        
+          
+            
+              
+                φ
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}(mr^{2}{\dot {\theta }})-mr^{2}\sin \theta \cos \theta \,{\dot {\varphi }}^{2}=0\,,}
+  
+
+  
+    
+      
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        (
+        m
+        
+          r
+          
+            2
+          
+        
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+        
+        
+          
+            
+              φ
+              ˙
+            
+          
+        
+        )
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}(mr^{2}\sin ^{2}\theta \,{\dot {\varphi }})=0\,.}
+  
+The φ coordinate is cyclic since it does not appear in the Lagrangian, so the conserved momentum in the system is the angular momentum
+
+  
+    
+      
+        
+          p
+          
+            φ
+          
+        
+        =
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    φ
+                    ˙
+                  
+                
+              
+            
+          
+        
+        =
+        m
+        
+          r
+          
+            2
+          
+        
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+        
+          
+            
+              φ
+              ˙
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle p_{\varphi }={\frac {\partial L}{\partial {\dot {\varphi }}}}=mr^{2}\sin ^{2}\theta {\dot {\varphi }}\,,}
+  
+in which r, θ and dφ/dt can all vary with time, but only in such a way that pφ is constant.
+
+
+=== Pendulum on a movable support ===
+
+Consider a pendulum of mass m and length ℓ, which is attached to a support with mass M, which can move along a line in the x-direction. Let x be the coordinate along the line of the support, and let us denote the position of the pendulum by the angle θ from the vertical. The coordinates and velocity components of the pendulum bob are
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  x
+                  
+                    
+                      p
+                      e
+                      n
+                      d
+                    
+                  
+                
+                =
+                x
+                +
+                ℓ
+                sin
+                ⁡
+                θ
+              
+              
+                
+                ⇒
+                
+                
+                  
+                    
+                      
+                        x
+                        ˙
+                      
+                    
+                  
+                  
+                    
+                      p
+                      e
+                      n
+                      d
+                    
+                  
+                
+                =
+                
+                  
+                    
+                      x
+                      ˙
+                    
+                  
+                
+                +
+                ℓ
+                
+                  
+                    
+                      θ
+                      ˙
+                    
+                  
+                
+                cos
+                ⁡
+                θ
+              
+            
+            
+              
+              
+                
+                  y
+                  
+                    
+                      p
+                      e
+                      n
+                      d
+                    
+                  
+                
+                =
+                −
+                ℓ
+                cos
+                ⁡
+                θ
+              
+              
+                
+                ⇒
+                
+                
+                  
+                    
+                      
+                        y
+                        ˙
+                      
+                    
+                  
+                  
+                    
+                      p
+                      e
+                      n
+                      d
+                    
+                  
+                
+                =
+                ℓ
+                
+                  
+                    
+                      θ
+                      ˙
+                    
+                  
+                
+                sin
+                ⁡
+                θ
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{array}{rll}&x_{\mathrm {pend} }=x+\ell \sin \theta &\quad \Rightarrow \quad {\dot {x}}_{\mathrm {pend} }={\dot {x}}+\ell {\dot {\theta }}\cos \theta \\&y_{\mathrm {pend} }=-\ell \cos \theta &\quad \Rightarrow \quad {\dot {y}}_{\mathrm {pend} }=\ell {\dot {\theta }}\sin \theta \end{array}}}
+  
+The generalized coordinates can be taken to be x and θ. The kinetic energy of the system is then
+
+  
+    
+      
+        T
+        =
+        
+          
+            1
+            2
+          
+        
+        M
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        +
+        
+          
+            1
+            2
+          
+        
+        m
+        
+          (
+          
+            
+              
+                
+                  x
+                  ˙
+                
+              
+            
+            
+              
+                p
+                e
+                n
+                d
+              
+            
+            
+              2
+            
+          
+          +
+          
+            
+              
+                
+                  y
+                  ˙
+                
+              
+            
+            
+              
+                p
+                e
+                n
+                d
+              
+            
+            
+              2
+            
+          
+          )
+        
+      
+    
+    {\displaystyle T={\frac {1}{2}}M{\dot {x}}^{2}+{\frac {1}{2}}m\left({\dot {x}}_{\mathrm {pend} }^{2}+{\dot {y}}_{\mathrm {pend} }^{2}\right)}
+  
+and the potential energy is
+
+  
+    
+      
+        V
+        =
+        m
+        g
+        
+          y
+          
+            
+              p
+              e
+              n
+              d
+            
+          
+        
+      
+    
+    {\displaystyle V=mgy_{\mathrm {pend} }}
+  
+giving the Lagrangian
+
+  
+    
+      
+        
+          
+            
+              
+                L
+              
+              
+                =
+              
+              
+                T
+                −
+                V
+              
+            
+            
+              
+              
+                =
+              
+              
+                
+                  
+                    1
+                    2
+                  
+                
+                M
+                
+                  
+                    
+                      
+                        x
+                        ˙
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+                m
+                
+                  [
+                  
+                    
+                      (
+                      
+                        
+                          
+                            x
+                            ˙
+                          
+                        
+                      
+                      +
+                      ℓ
+                      
+                        
+                          
+                            θ
+                            ˙
+                          
+                        
+                      
+                      cos
+                      ⁡
+                      θ
+                      )
+                    
+                    
+                      2
+                    
+                  
+                  +
+                  
+                    
+                      (
+                      ℓ
+                      
+                        
+                          
+                            θ
+                            ˙
+                          
+                        
+                      
+                      sin
+                      ⁡
+                      θ
+                      )
+                    
+                    
+                      2
+                    
+                  
+                  ]
+                
+                +
+                m
+                g
+                ℓ
+                cos
+                ⁡
+                θ
+              
+            
+            
+              
+              
+                =
+              
+              
+                
+                  
+                    1
+                    2
+                  
+                
+                
+                  (
+                  M
+                  +
+                  m
+                  )
+                
+                
+                  
+                    
+                      
+                        x
+                        ˙
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+                +
+                m
+                
+                  
+                    
+                      x
+                      ˙
+                    
+                  
+                
+                ℓ
+                
+                  
+                    
+                      θ
+                      ˙
+                    
+                  
+                
+                cos
+                ⁡
+                θ
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+                m
+                
+                  ℓ
+                  
+                    2
+                  
+                
+                
+                  
+                    
+                      
+                        θ
+                        ˙
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+                +
+                m
+                g
+                ℓ
+                cos
+                ⁡
+                θ
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{array}{rcl}L&=&T-V\\&=&{\frac {1}{2}}M{\dot {x}}^{2}+{\frac {1}{2}}m\left[\left({\dot {x}}+\ell {\dot {\theta }}\cos \theta \right)^{2}+\left(\ell {\dot {\theta }}\sin \theta \right)^{2}\right]+mg\ell \cos \theta \\&=&{\frac {1}{2}}\left(M+m\right){\dot {x}}^{2}+m{\dot {x}}\ell {\dot {\theta }}\cos \theta +{\frac {1}{2}}m\ell ^{2}{\dot {\theta }}^{2}+mg\ell \cos \theta \end{array}}}
+  
+Since x is absent from the Lagrangian, it is a cyclic coordinate. The conserved momentum is
+
+  
+    
+      
+        
+          p
+          
+            x
+          
+        
+        =
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    x
+                    ˙
+                  
+                
+              
+            
+          
+        
+        =
+        (
+        M
+        +
+        m
+        )
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        +
+        m
+        ℓ
+        
+          
+            
+              θ
+              ˙
+            
+          
+        
+        cos
+        ⁡
+        θ
+        
+        .
+      
+    
+    {\displaystyle p_{x}={\frac {\partial L}{\partial {\dot {x}}}}=(M+m){\dot {x}}+m\ell {\dot {\theta }}\cos \theta \,.}
+  
+and the Lagrange equation for the support coordinate x is
+
+  
+    
+      
+        (
+        M
+        +
+        m
+        )
+        
+          
+            
+              x
+              ¨
+            
+          
+        
+        +
+        m
+        ℓ
+        
+          
+            
+              θ
+              ¨
+            
+          
+        
+        cos
+        ⁡
+        θ
+        −
+        m
+        ℓ
+        
+          
+            
+              
+                θ
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        sin
+        ⁡
+        θ
+        =
+        0
+      
+    
+    {\displaystyle (M+m){\ddot {x}}+m\ell {\ddot {\theta }}\cos \theta -m\ell {\dot {\theta }}^{2}\sin \theta =0}
+  
+The Lagrange equation for the angle θ is
+
+  
+    
+      
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          [
+          m
+          (
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          ℓ
+          cos
+          ⁡
+          θ
+          +
+          
+            ℓ
+            
+              2
+            
+          
+          
+            
+              
+                θ
+                ˙
+              
+            
+          
+          )
+          ]
+        
+        +
+        m
+        ℓ
+        (
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        
+          
+            
+              θ
+              ˙
+            
+          
+        
+        +
+        g
+        )
+        sin
+        ⁡
+        θ
+        =
+        0
+        ;
+      
+    
+    {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}\left[m({\dot {x}}\ell \cos \theta +\ell ^{2}{\dot {\theta }})\right]+m\ell ({\dot {x}}{\dot {\theta }}+g)\sin \theta =0;}
+  
+and simplifying
+
+  
+    
+      
+        
+          
+            
+              θ
+              ¨
+            
+          
+        
+        +
+        
+          
+            
+              
+                x
+                ¨
+              
+            
+            ℓ
+          
+        
+        cos
+        ⁡
+        θ
+        +
+        
+          
+            g
+            ℓ
+          
+        
+        sin
+        ⁡
+        θ
+        =
+        0.
+        
+      
+    
+    {\displaystyle {\ddot {\theta }}+{\frac {\ddot {x}}{\ell }}\cos \theta +{\frac {g}{\ell }}\sin \theta =0.\,}
+  
+These equations may look quite complicated, but finding them with Newton's laws would have required carefully identifying all forces, which would have been much more laborious and prone to errors. By considering limit cases, the correctness of this system can be verified: For example, 
+  
+    
+      
+        
+          
+            
+              x
+              ¨
+            
+          
+        
+        →
+        0
+      
+    
+    {\displaystyle {\ddot {x}}\to 0}
+   should give the equations of motion for a simple pendulum that is at rest in some inertial frame, while 
+  
+    
+      
+        
+          
+            
+              θ
+              ¨
+            
+          
+        
+        →
+        0
+      
+    
+    {\displaystyle {\ddot {\theta }}\to 0}
+   should give the equations for a pendulum in a constantly accelerating system, etc. Furthermore, it is trivial to obtain the results numerically, given suitable starting conditions and a chosen time step, by stepping through the results iteratively.
+
+
+=== Two-body central force problem ===
+
+Two bodies of masses m1 and m2 with position vectors r1 and r2 are in orbit about each other due to an attractive central potential V. We may write down the Lagrangian in terms of the position coordinates as they are, but it is an established procedure to convert the two-body problem into a one-body problem as follows. Introduce the Jacobi coordinates; the separation of the bodies r = r2 − r1 and the location of the center of mass R = (m1r1 + m2r2)/(m1 + m2). The Lagrangian is then
+
+  
+    
+      
+        L
+        =
+        
+          
+            
+              
+                
+                  
+                    1
+                    2
+                  
+                
+                M
+                
+                  
+                    
+                      
+                        
+                          R
+                        
+                        ˙
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+              
+              ⏟
+            
+          
+          
+            
+              L
+              
+                cm
+              
+            
+          
+        
+        +
+        
+          
+            
+              
+                
+                  
+                    1
+                    2
+                  
+                
+                μ
+                
+                  
+                    
+                      
+                        
+                          r
+                        
+                        ˙
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+                −
+                V
+                (
+                
+                  |
+                
+                
+                  r
+                
+                
+                  |
+                
+                )
+              
+              ⏟
+            
+          
+          
+            
+              L
+              
+                rel
+              
+            
+          
+        
+      
+    
+    {\displaystyle L=\underbrace {{\frac {1}{2}}M{\dot {\mathbf {R} }}^{2}} _{L_{\text{cm}}}+\underbrace {{\frac {1}{2}}\mu {\dot {\mathbf {r} }}^{2}-V(|\mathbf {r} |)} _{L_{\text{rel}}}}
+  
+where M = m1 + m2 is the total mass, μ = m1m2/(m1 + m2) is the reduced mass, and V the potential of the radial force, which depends only on the magnitude of the separation |r| = |r2 − r1|. The Lagrangian splits into a center-of-mass term Lcm and a relative motion term Lrel.
+The Euler–Lagrange equation for R is simply
+
+  
+    
+      
+        M
+        
+          
+            
+              
+                R
+              
+              ¨
+            
+          
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle M{\ddot {\mathbf {R} }}=0\,,}
+  
+which states the center of mass moves in a straight line at constant velocity.
+Since the relative motion only depends on the magnitude of the separation, it is ideal to use polar coordinates (r, θ) and take r = |r|,
+
+  
+    
+      
+        
+          L
+          
+            rel
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        μ
+        (
+        
+          
+            
+              
+                r
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        +
+        
+          r
+          
+            2
+          
+        
+        
+          
+            
+              
+                θ
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        )
+        −
+        V
+        (
+        r
+        )
+        
+        ,
+      
+    
+    {\displaystyle L_{\text{rel}}={\frac {1}{2}}\mu ({\dot {r}}^{2}+r^{2}{\dot {\theta }}^{2})-V(r)\,,}
+  
+so θ is an ignorable coordinate with the corresponding conserved (angular) momentum
+
+  
+    
+      
+        
+          p
+          
+            θ
+          
+        
+        =
+        
+          
+            
+              ∂
+              
+                L
+                
+                  rel
+                
+              
+            
+            
+              ∂
+              
+                
+                  
+                    θ
+                    ˙
+                  
+                
+              
+            
+          
+        
+        =
+        μ
+        
+          r
+          
+            2
+          
+        
+        
+          
+            
+              θ
+              ˙
+            
+          
+        
+        =
+        ℓ
+        
+        .
+      
+    
+    {\displaystyle p_{\theta }={\frac {\partial L_{\text{rel}}}{\partial {\dot {\theta }}}}=\mu r^{2}{\dot {\theta }}=\ell \,.}
+  
+The radial coordinate r and angular velocity dθ/dt can vary with time, but only in such a way that ℓ is constant. The Lagrange equation for r is
+
+  
+    
+      
+        μ
+        r
+        
+          
+            
+              
+                θ
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        −
+        
+          
+            
+              d
+              V
+            
+            
+              d
+              r
+            
+          
+        
+        =
+        μ
+        
+          
+            
+              r
+              ¨
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \mu r{\dot {\theta }}^{2}-{\frac {dV}{dr}}=\mu {\ddot {r}}\,.}
+  
+This equation is identical to the radial equation obtained using Newton's laws in a co-rotating reference frame, that is, a frame rotating with the reduced mass so it appears stationary. Eliminating the angular velocity dθ/dt from this radial equation,
+
+  
+    
+      
+        μ
+        
+          
+            
+              r
+              ¨
+            
+          
+        
+        =
+        −
+        
+          
+            
+              
+                d
+              
+              V
+            
+            
+              
+                d
+              
+              r
+            
+          
+        
+        +
+        
+          
+            
+              ℓ
+              
+                2
+              
+            
+            
+              μ
+              
+                r
+                
+                  3
+                
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \mu {\ddot {r}}=-{\frac {\mathrm {d} V}{\mathrm {d} r}}+{\frac {\ell ^{2}}{\mu r^{3}}}\,.}
+  
+which is the equation of motion for a one-dimensional problem in which a particle of mass μ is subjected to the inward central force − dV/dr and a second outward force, called in this context the centrifugal force
+
+  
+    
+      
+        
+          F
+          
+            
+              c
+              f
+            
+          
+        
+        =
+        μ
+        r
+        
+          
+            
+              
+                θ
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        =
+        
+          
+            
+              ℓ
+              
+                2
+              
+            
+            
+              μ
+              
+                r
+                
+                  3
+                
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle F_{\mathrm {cf} }=\mu r{\dot {\theta }}^{2}={\frac {\ell ^{2}}{\mu r^{3}}}\,.}
+  
+Of course, if one remains entirely within the one-dimensional formulation, ℓ enters only as some imposed parameter of the external outward force, and its interpretation as angular momentum depends upon the more general two-dimensional problem from which the one-dimensional problem originated.
+If one arrives at this equation using Newtonian mechanics in a co-rotating frame, the interpretation is evident as the centrifugal force in that frame due to the rotation of the frame itself. If one arrives at this equation directly by using the generalized coordinates (r, θ) and simply following the Lagrangian formulation without thinking about frames at all, the interpretation is that the centrifugal force is an outgrowth of using polar coordinates. As Hildebrand says:
+"Since such quantities are not true physical forces, they are often called inertia forces. Their presence or absence depends, not upon the particular problem at hand, but upon the coordinate system chosen." In particular, if Cartesian coordinates are chosen, the centrifugal force disappears, and the formulation involves only the central force itself, which provides the centripetal force for a curved motion.
+This viewpoint, that fictitious forces originate in the choice of coordinates, often is expressed by users of the Lagrangian method. This view arises naturally in the Lagrangian approach, because the frame of reference is (possibly unconsciously) selected by the choice of coordinates. For example, see for a comparison of Lagrangians in an inertial and in a noninertial frame of reference. See also the discussion of "total" and "updated" Lagrangian formulations in. Unfortunately, this usage of "inertial force" conflicts with the Newtonian idea of an inertial force. In the Newtonian view, an inertial force originates in the acceleration of the frame of observation (the fact that it is not an inertial frame of reference), not in the choice of coordinate system. To keep matters clear, it is safest to refer to the Lagrangian inertial forces as generalized inertial forces, to distinguish them from the Newtonian vector inertial forces. That is, one should avoid following Hildebrand when he says (p. 155) "we deal always with generalized forces, velocities accelerations, and momenta. For brevity, the adjective "generalized" will be omitted frequently."
+It is known that the Lagrangian of a system is not unique. Within the Lagrangian formalism the Newtonian fictitious forces can be identified by the existence of alternative Lagrangians in which the fictitious forces disappear, sometimes found by exploiting the symmetry of the system.
+
+
+=== Electromagnetism ===
+A test particle is a particle whose mass and charge are assumed to be so small that its effect on external system is insignificant. It is often a hypothetical simplified point particle with no properties other than mass and charge. Real particles like electrons and up quarks are more complex and have additional terms in their Lagrangians.
+The Lagrangian for a charged particle with electrical charge q, interacting with an electromagnetic field, is the prototypical example of a velocity-dependent potential. The electric scalar potential ϕ = ϕ(r, t) and magnetic vector potential A = A(r, t) are defined from the electric field E = E(r, t) and magnetic field B = B(r, t) as follows;
+
+  
+    
+      
+        
+          E
+        
+        =
+        −
+        ∇
+        ϕ
+        −
+        
+          
+            
+              ∂
+              
+                A
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        
+        ,
+        
+        
+          B
+        
+        =
+        ∇
+        ×
+        
+          A
+        
+        
+        .
+      
+    
+    {\displaystyle \mathbf {E} =-\nabla \phi -{\frac {\partial \mathbf {A} }{\partial t}}\,,\quad \mathbf {B} =\nabla \times \mathbf {A} \,.}
+  
+The Lagrangian of a massive charged test particle in an electromagnetic field is
+
+  
+    
+      
+        L
+        =
+        
+          
+            m
+            2
+          
+        
+        
+          
+            
+              
+                
+                  r
+                
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        −
+        q
+        ϕ
+        +
+        q
+        
+          
+            
+              
+                r
+              
+              ˙
+            
+          
+        
+        ⋅
+        
+          A
+        
+        
+        ,
+      
+    
+    {\displaystyle L={\frac {m}{2}}{\dot {\mathbf {r} }}^{2}-q\phi +q{\dot {\mathbf {r} }}\cdot \mathbf {A} \,,}
+  
+which produces the Lorentz force law
+
+  
+    
+      
+        m
+        
+          
+            
+              
+                r
+              
+              ¨
+            
+          
+        
+        =
+        q
+        
+          E
+        
+        +
+        q
+        
+          
+            
+              
+                r
+              
+              ˙
+            
+          
+        
+        ×
+        
+          B
+        
+        
+        .
+      
+    
+    {\displaystyle m{\ddot {\mathbf {r} }}=q\mathbf {E} +q{\dot {\mathbf {r} }}\times \mathbf {B} \,.}
+  
+An interesting detail in this example is the generalized momentum conjugate to r is the ordinary momentum plus a contribution from the A field,
+
+  
+    
+      
+        
+          p
+        
+        =
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      r
+                    
+                    ˙
+                  
+                
+              
+            
+          
+        
+        =
+        m
+        
+          
+            
+              
+                r
+              
+              ˙
+            
+          
+        
+        +
+        q
+        
+          A
+        
+        
+        .
+      
+    
+    {\displaystyle \mathbf {p} ={\frac {\partial L}{\partial {\dot {\mathbf {r} }}}}=m{\dot {\mathbf {r} }}+q\mathbf {A} \,.}
+  
+If r is cyclic, which happens if the ϕ and A fields are uniform (independent of position), then this expression for p given here is the conserved momentum, while the usual quantity mv is not. This relation is also used in the minimal coupling prescription in quantum mechanics and quantum field theory.
+
+
+== Extensions to include non-conservative forces ==
+Dissipation (i.e. non-conservative systems) can also be treated with an effective Lagrangian formulated by a certain doubling of the degrees of freedom; see.
+In a more general formulation, the forces could be both conservative and viscous. If an appropriate transformation can be found from the Fi, Rayleigh suggests using a dissipation function, D, of the following form:
+
+  
+    
+      
+        D
+        =
+        
+          
+            1
+            2
+          
+        
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            m
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            m
+          
+        
+        
+          C
+          
+            j
+            k
+          
+        
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            j
+          
+        
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            k
+          
+        
+        
+        .
+      
+    
+    {\displaystyle D={\frac {1}{2}}\sum _{j=1}^{m}\sum _{k=1}^{m}C_{jk}{\dot {q}}_{j}{\dot {q}}_{k}\,.}
+  
+where Cjk are constants that are related to the damping coefficients in the physical system, though not necessarily equal to them. If D is defined this way, then
+
+  
+    
+      
+        
+          Q
+          
+            j
+          
+        
+        =
+        −
+        
+          
+            
+              ∂
+              V
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              ∂
+              D
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  j
+                
+              
+            
+          
+        
+        
+      
+    
+    {\displaystyle Q_{j}=-{\frac {\partial V}{\partial q_{j}}}-{\frac {\partial D}{\partial {\dot {q}}_{j}}}\,}
+  
+and
+
+  
+    
+      
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                L
+              
+              
+                ∂
+                
+                  
+                    
+                      
+                        q
+                        ˙
+                      
+                    
+                  
+                  
+                    j
+                  
+                
+              
+            
+          
+          )
+        
+        −
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        +
+        
+          
+            
+              ∂
+              D
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  j
+                
+              
+            
+          
+        
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}\left({\frac {\partial L}{\partial {\dot {q}}_{j}}}\right)-{\frac {\partial L}{\partial q_{j}}}+{\frac {\partial D}{\partial {\dot {q}}_{j}}}=0\,.}
+  
+
+
+== Other contexts and formulations ==
+The ideas in Lagrangian mechanics have numerous applications in other areas of physics, and can adopt generalized results from the calculus of variations.
+
+
+=== Alternative formulations of classical mechanics ===
+A closely related formulation of classical mechanics is Hamiltonian mechanics. The Hamiltonian is defined by
+
+  
+    
+      
+        H
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+        −
+        L
+        
+        .
+      
+    
+    {\displaystyle H=\sum _{i=1}^{n}{\dot {q}}_{i}{\frac {\partial L}{\partial {\dot {q}}_{i}}}-L\,.}
+  
+and can be obtained by performing a Legendre transformation on the Lagrangian, which introduces new variables canonically conjugate to the original variables. For example, given a set of generalized coordinates, the variables canonically conjugate are the generalized momenta. This doubles the number of variables, but makes differential equations first order. The Hamiltonian is a particularly ubiquitous quantity in quantum mechanics (see Hamiltonian (quantum mechanics)).
+Routhian mechanics is a hybrid formulation of Lagrangian and Hamiltonian mechanics, which is not often used in practice but an efficient formulation for cyclic coordinates.
+
+
+=== Momentum space formulation ===
+
+The Euler–Lagrange equations can also be formulated in terms of the generalized momenta rather than generalized coordinates. Performing a Legendre transformation on the generalized coordinate Lagrangian L(q, dq/dt, t) obtains the generalized momenta Lagrangian L′(p, dp/dt, t) in terms of the original Lagrangian, as well the EL equations in terms of the generalized momenta. Both Lagrangians contain the same information, and either can be used to solve for the motion of the system. In practice generalized coordinates are more convenient to use and interpret than generalized momenta.
+
+
+=== Higher derivatives of generalized coordinates ===
+There is no reason to restrict the derivatives of generalized coordinates to first order only. It is possible to derive modified EL equations for a Lagrangian containing higher order derivatives, see Euler-Lagrange equation for details.
+
+
+=== Optics ===
+
+Lagrangian mechanics can be applied to geometrical optics, by applying variational principles to rays of light in a medium, and solving the EL equations gives the equations of the paths the light rays follow.
+
+
+=== Relativistic formulation ===
+
+Lagrangian mechanics can be formulated in special relativity and general relativity. Some features of Lagrangian mechanics are retained in the relativistic theories but difficulties quickly appear in other respects. In particular, the EL equations take the same form, and the connection between cyclic coordinates and conserved momenta still applies, however the Lagrangian must be modified and is not simply the kinetic minus the potential energy of a particle. Also, it is not straightforwards to handle multiparticle systems in a manifestly covariant way, it may be possible if a particular frame of reference is singled out.
+
+
+=== Quantum mechanics ===
+In quantum mechanics, action and quantum-mechanical phase are related via Planck's constant, and the principle of stationary action can be understood in terms of constructive interference of wave functions.
+In 1948, Feynman discovered the path integral formulation extending the principle of least action to quantum mechanics for electrons and photons. In this formulation, particles travel every possible path between the initial and final states; the probability of a specific final state is obtained by summing over all possible trajectories leading to it. In the classical regime, the path integral formulation cleanly reproduces Hamilton's principle, and Fermat's principle in optics.
+
+
+=== Classical field theory ===
+In Lagrangian mechanics, the generalized coordinates form a discrete set of variables that define the configuration of a system. In classical field theory, the physical system is not a set of discrete particles, but rather a continuous field ϕ(r, t) defined over a region of 3d space. Associated with the field is a Lagrangian density
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        (
+        ϕ
+        ,
+        ∇
+        ϕ
+        ,
+        ∂
+        ϕ
+        
+          /
+        
+        ∂
+        t
+        ,
+        
+          r
+        
+        ,
+        t
+        )
+      
+    
+    {\displaystyle {\mathcal {L}}(\phi ,\nabla \phi ,\partial \phi /\partial t,\mathbf {r} ,t)}
+  
+defined in terms of the field and its space and time derivatives at a location r and time t. Analogous to the particle case, for non-relativistic applications the Lagrangian density is also the kinetic energy density of the field, minus its potential energy density (this is not true in general, and the Lagrangian density has to be "reverse engineered"). The Lagrangian is then the volume integral of the Lagrangian density over 3d space
+
+  
+    
+      
+        L
+        (
+        t
+        )
+        =
+        ∫
+        
+          
+            L
+          
+        
+        
+        
+          
+            d
+          
+          
+            3
+          
+        
+        
+          r
+        
+        
+      
+    
+    {\displaystyle L(t)=\int {\mathcal {L}}\,\mathrm {d} ^{3}\mathbf {r} \,}
+  
+where d3r is a 3d differential volume element. The Lagrangian is a function of time since the Lagrangian density has implicit space dependence via the fields, and may have explicit spatial dependence, but these are removed in the integral, leaving only time in as the variable for the Lagrangian.
+
+
+=== Noether's theorem ===
+The action principle, and the Lagrangian formalism, are tied closely to Noether's theorem, which connects physical conserved quantities to continuous symmetries of a physical system.
+If the Lagrangian is invariant under a symmetry, then the resulting equations of motion are also invariant under that symmetry. This characteristic is very helpful in showing that theories are consistent with either special relativity or general relativity.
+
+
+== See also ==
+Fundamental lemma of the calculus of variations
+Canonical coordinates
+Functional derivative
+Generalized coordinates
+Hamiltonian mechanics
+Hamiltonian optics
+Lagrangian and Eulerian specification of the flow field
+Lagrangian point
+Lagrangian system
+Non-autonomous mechanics
+Restricted three-body problem
+Plateau's problem
+Inverse problem for Lagrangian mechanics, the general topic of finding a Lagrangian for a system given the equations of motion.
+
+
+== Footnotes ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Gupta, Kiran Chandra, Classical mechanics of particles and rigid bodies (Wiley, 1988).
+Cassel, Kevin W.: Variational Methods with Applications in Science and Engineering, Cambridge University Press, 2013.
+
+
+== External links ==
+Tong, David, Classical Dynamics Cambridge lecture notes
+Principle of least action interactive Excellent interactive explanation/webpage
+Joseph Louis de Lagrange - Œuvres complètes (Gallica-Math)
+[1], page 4

@@ -1,0 +1,31 @@
+Nathaniel David Mermin (/ˈmɜːrmɪn/; born 1935) is a solid-state physicist at Cornell University best known for the eponymous Mermin–Wagner theorem, his application of the term "Boojum" to superfluidity, and for the quote "shut up and calculate!" (in the context of the interpretation of quantum mechanics).
+In 1976, Neil Ashcroft and Mermin published a textbook on solid-state physics. As a proponent of Quantum Bayesianism, Mermin described the concept in Nature.
+In 2003, the journal Foundations of Physics published a bibliography of Mermin’s writing that included three books, 125 technical articles, 18 pedagogical articles, 21 general articles, 34 book reviews, and 24 "Reference Frame" articles from Physics Today.
+
+
+== Mermin's foot ==
+Mermin has contributed to special relativity with two books and several articles. In It's About Time (2005) he suggests that the English foot (0.3048 meters) be slightly modified:
+Henceforth, by 1 foot we shall mean the distance light travels in a nanosecond. A foot, if you will, is a light nanosecond (and a nanosecond, even more nicely, can be viewed as a light foot). …If it offends you to redefine the foot … then you may define 0.299792458 meters to be 1 phoot, and think "phoot" (conveniently evocative of the Greek φωτος, "light") whenever you read "foot".
+This adaptation of a physical unit is one of several ploys that Mermin uses to draw students into space-time geometry.
+
+
+== Works ==
+1976: (with Neil Ashcroft) Solid State Physics, Holt, Rinehart and Winston ISBN 0-03-083993-9
+1968: Space and Time in Special Relativity, McGraw Hill ISBN 0-88133-420-0
+1990: Boojums All the Way Through, Cambridge University Press ISBN 0-521-38880-5
+2005: It's About Time: Understanding Einstein's Relativity, Princeton University Press ISBN 978-0-691-12201-4
+2007: Quantum Computer Science, Cambridge University Press ISBN 978-0-521-87658-2
+2016: Why Quark Rhymes with Pork, and Other Scientific Diversions, Cambridge University Press ISBN 978-1-107-02430-4
+
+
+== References ==
+
+
+== Further reading ==
+Daniel Greenberger & Abner Shimony (2003) "The Presence of David Mermin", Foundations of Physics 33(10) doi:10.1023/A:1026033228750
+Abner Shimony (2003) "Four Poems dedicated to David Mermin", Foundations of Physics 33(11) doi:10.1023/A:1026069319123
+
+
+== External links ==
+Mermin's homepage
+Mermin's festschrift in Foundations of Physics

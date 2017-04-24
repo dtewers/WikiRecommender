@@ -1,0 +1,19 @@
+The Quantum Universe: Everything That Can Happen Does Happen is a 2011 book by the theoretical physicists Brian Cox and Jeff Forshaw.
+
+
+== Overview ==
+The book aims to provide an explanation of quantum mechanics and its impact on the modern world that is accessible to a general reader. The authors say that "our goal in writing this book is to demystify quantum theory". Starting with the concepts of wave–particle duality and a non-technical description of the path integral formulation of quantum mechanics, the book explains the uncertainty principle, energy levels in atoms, the physics of semi-conductors and transistors, and the Standard Model of particle physics. A more mathematical Epilogue discusses the role of quantum mechanics in models of stellar evolution, and derives the Chandrasekhar limit for the maximum mass of a stable white dwarf.
+
+
+== See also ==
+Quantum field
+Quantum mechanics
+
+
+== References ==
+The Quantum Universe: Everything That Can Happen Does Happen, 2011, Brian Cox and Jeff Forshaw, ISBN 978-1-84614-432-5
+Review by Doug Johnstone, 23 October 2011, The Independent
+Review by Chrqis Cook, 28 October 2011, The Financial Times
+Review by David Kaiser, 16 November 2011, The Guardian
+Review by Manpit Kumar, 24 October 2011, The Daily Telegraph
+Review by Elmar Bergeler, 8 January 2013, Science Niblets

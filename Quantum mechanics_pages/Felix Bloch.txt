@@ -1,0 +1,45 @@
+Felix Bloch (23 October 1905 – 10 September 1983) was a Swiss physicist, working mainly in the U.S. He and Edward Mills Purcell were awarded the 1952 Nobel Prize for "their development of new ways and methods for nuclear magnetic precision measurements." In 1954–1955, he served for one year as the first Director-General of CERN.
+
+
+== Life and work ==
+
+Bloch was born in Zürich, Switzerland to Jewish parents Gustav and Agnes Bloch.
+He was educated at the Cantonal Gymnasium in Zurich and at the Eidgenössische Technische Hochschule (ETHZ), also in Zürich. Initially studying engineering he soon changed to physics. During this time he attended lectures and seminars given by Peter Debye and Hermann Weyl at ETH Zürich and Erwin Schrödinger at the neighboring University of Zürich. A fellow student in these seminars was John von Neumann. Graduating in 1927 he continued his physics studies at the University of Leipzig with Werner Heisenberg, gaining his doctorate in 1928. His doctoral thesis established the quantum theory of solids, using Bloch waves to describe the electrons.
+In 1940 he married Lore Misch.
+He remained in European academia, studying with Wolfgang Pauli in Zürich, Niels Bohr in Copenhagen and Enrico Fermi in Rome before he went back to Leipzig assuming a position as privatdozent (lecturer). In 1933, immediately after Hitler came to power, he left Germany because he was Jewish. He emigrated to work at Stanford University in 1934. In the fall of 1938, Bloch began working with the 37" cyclotron at the University of California at Berkeley (although he didn't hold any formal appointment at Berkeley) to determine the magnetic moment of the neutron. Bloch went on to become the first professor for theoretical physics at Stanford. In 1939, he became a naturalized citizen of the United States. During WW II he worked on nuclear power at Los Alamos National Laboratory, before resigning to join the radar project at Harvard University.
+After the war he concentrated on investigations into nuclear induction and nuclear magnetic resonance, which are the underlying principles of MRI.   In 1946 he proposed the Bloch equations which determine the time evolution of nuclear magnetization. When CERN was being set up in the early 1950s, its founders were searching for someone of the stature and international prestige to head the fledgling international laboratory, and in 1954 Professor Bloch became CERN's first Director-General, at the time when construction was getting under way on the present Meyrin site and plans for the first machines were being drawn up. After leaving CERN, he returned to Stanford University, where he in 1961 was made Max Stein Professor of Physics.
+At Stanford, he was the advisor of Carson D. Jeffries, who became a professor of Physics at the University of California, Berkeley.
+In 1964, he was elected a foreign member of the Royal Netherlands Academy of Arts and Sciences.
+He died in Zurich.
+
+
+== See also ==
+List of Jewish Nobel laureates
+List of things named after Felix Bloch
+
+
+== Footnotes ==
+
+
+== References ==
+"Nobel Prize for Physics, 1952". Nature. 170 (4335): 911–912. 1952. Bibcode:1952Natur.170R.911.. doi:10.1038/170911b0. 
+"Deputy Director-General: Prof. E. Amaldi". Nature. 174 (4434): 774–775. 1954. Bibcode:1954Natur.174R.774.. doi:10.1038/174774c0. 
+McGraw-Hill Modern Men of Science. 1. McGraw-Hill. 1966. pp. 45–46. ISBN 978-0-07-045217-6. 
+National Cyclopaedia of American Biography. 61. James T. White & Co. 1984. pp. 310–312. ISBN 0-88371-040-4. 
+
+
+== Further reading ==
+Bloch, F.; Staub, H. "Fission Spectrum", Los Alamos National Laboratory (LANL) (through predecessor agency Los Alamos Scientific Lab), United States Department of Energy (through predecessor agency the US Atomic Energy Commission), (August 18, 1943).
+
+
+== External links ==
+Felix Bloch: Pioneer of Electricity & Magnetism at the National High Magnetic Field Laboratory
+Biography and Bibliographic Resources, from the Office of Scientific and Technical Information, United States Department of Energy
+http://nobelprize.org/physics/laureates/1952/bloch-bio.html
+http://www-sul.stanford.edu/depts/spc/xml/sc0303.xml
+Oral History interview transcript with Felix Bloch 14 May 1964, American Institute of Physics, Niels Bohr Library and Archives
+Oral History interview transcript with Felix Bloch 15 August 1968, American Institute of Physics, Niels Bohr Library and Archives
+Oral History interview transcript with Felix Bloch 15 December 1981, American Institute of Physics, Niels Bohr Library and Archives
+Felix Bloch Papers, 1931–1987 (33 linear ft.) are housed in the Department of Special Collections and University Archives at Stanford University Libraries
+National Academy of Sciences Biographical Memoir
+Felix Bloch Papers

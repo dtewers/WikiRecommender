@@ -1,0 +1,768 @@
+In quantum mechanics, the position operator is the operator that corresponds to the position observable of a particle. The eigenvalue of the operator is the position vector of the particle.
+
+
+== Introduction ==
+In one dimension, the square modulus of the wave function, 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          ψ
+          
+            ∗
+          
+        
+        ψ
+      
+    
+    {\displaystyle |\psi |^{2}=\psi ^{*}\psi }
+  , represents the probability density of finding the particle at position 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  . Hence the expected value of a measurement of the position of the particle is
+
+  
+    
+      
+        ⟨
+        x
+        ⟩
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            +
+            ∞
+          
+        
+        x
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+        d
+        x
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            +
+            ∞
+          
+        
+        
+          ψ
+          
+            ∗
+          
+        
+        x
+        ψ
+        d
+        x
+      
+    
+    {\displaystyle \langle x\rangle =\int _{-\infty }^{+\infty }x|\psi |^{2}dx=\int _{-\infty }^{+\infty }\psi ^{*}x\psi dx}
+  
+Accordingly, the quantum mechanical operator corresponding to position is 
+  
+    
+      
+        
+          
+            
+              x
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {x}}}
+  , where
+
+  
+    
+      
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        ψ
+        (
+        x
+        )
+        =
+        x
+        ψ
+        (
+        x
+        )
+      
+    
+    {\displaystyle {\hat {x}}\psi (x)=x\psi (x)}
+  
+The circumflex over the x on the left side indicates an operator, so that this equation may be read The result of the operator x acting on any function ψ(x) equals x multiplied by ψ(x). Or more simply, the operator x multiplies any function ψ(x) by x.
+
+
+== Eigenstates ==
+The eigenfunctions of the position operator, represented in position space, are Dirac delta functions. To show this, suppose that 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   is an eigenstate of the position operator with eigenvalue 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x_{0}}
+  . We write the eigenvalue equation in position coordinates,
+
+  
+    
+      
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        ψ
+        (
+        x
+        )
+        =
+        x
+        ψ
+        (
+        x
+        )
+        =
+        
+          x
+          
+            0
+          
+        
+        ψ
+        (
+        x
+        )
+      
+    
+    {\displaystyle {\hat {x}}\psi (x)=x\psi (x)=x_{0}\psi (x)}
+  
+recalling that 
+  
+    
+      
+        
+          
+            
+              x
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {x}}}
+   simply multiplies the function by 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   in the position representation. Since 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   is a variable while 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x_{0}}
+   is a constant, 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   must be zero everywhere except at 
+  
+    
+      
+        x
+        =
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x=x_{0}}
+  . The normalized solution to this is
+
+  
+    
+      
+        ψ
+        (
+        x
+        )
+        =
+        δ
+        (
+        x
+        −
+        
+          x
+          
+            0
+          
+        
+        )
+      
+    
+    {\displaystyle \psi (x)=\delta (x-x_{0})}
+  
+Although such a state is physically unrealizable and, strictly speaking, not a function, it can be thought of as an "ideal state" whose position is known exactly (any measurement of the position always returns the eigenvalue 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x_{0}}
+  ). Hence, by the uncertainty principle, nothing is known about the momentum of such a state.
+
+
+== Three dimensions ==
+The generalisation to three dimensions is straightforward. The wavefunction is now 
+  
+    
+      
+        ψ
+        (
+        
+          
+            r
+          
+        
+        ,
+        t
+        )
+      
+    
+    {\displaystyle \psi ({\mathbf {r}},t)}
+   and the expectation value of the position is
+
+  
+    
+      
+        ⟨
+        
+          
+            r
+          
+        
+        ⟩
+        =
+        ∫
+        
+          
+            r
+          
+        
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          d
+          
+            3
+          
+        
+        
+          
+            r
+          
+        
+      
+    
+    {\displaystyle \langle {\mathbf {r}}\rangle =\int {\mathbf {r}}|\psi |^{2}d^{3}{\mathbf {r}}}
+  
+where the integral is taken over all space. The position operator is
+
+  
+    
+      
+        
+          
+            
+              
+                r
+                ^
+              
+            
+          
+        
+        ψ
+        =
+        
+          
+            r
+          
+        
+        ψ
+      
+    
+    {\displaystyle {\mathbf {\hat {r}}}\psi ={\mathbf {r}}\psi }
+  
+
+
+== Momentum space ==
+In momentum space, the position operator in one dimension is
+
+  
+    
+      
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        =
+        i
+        ℏ
+        
+          
+            d
+            
+              d
+              p
+            
+          
+        
+        =
+        i
+        
+          
+            d
+            
+              d
+              
+                k
+                
+                  x
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {x}}=i\hbar {\frac {d}{dp}}=i{\frac {d}{dk_{x}}}}
+  
+
+
+== Formalism ==
+Consider, for example, the case of a spinless particle moving in one spatial dimension (i.e. in a line). The state space for such a particle is L2(R), the Hilbert space of complex-valued and square-integrable (with respect to the Lebesgue measure) functions on the real line. The position operator, Q, is then defined by:
+
+  
+    
+      
+        Q
+        (
+        ψ
+        )
+        (
+        x
+        )
+        =
+        x
+        ψ
+        (
+        x
+        )
+      
+    
+    {\displaystyle Q(\psi )(x)=x\psi (x)}
+  
+with domain
+
+  
+    
+      
+        D
+        (
+        Q
+        )
+        =
+        {
+        ψ
+        ∈
+        
+          L
+          
+            2
+          
+        
+        (
+        
+          
+            R
+          
+        
+        )
+        
+        
+          |
+        
+        
+        Q
+        ψ
+        ∈
+        
+          L
+          
+            2
+          
+        
+        (
+        
+          
+            R
+          
+        
+        )
+        }
+        .
+      
+    
+    {\displaystyle D(Q)=\{\psi \in L^{2}({\mathbf {R} })\,|\,Q\psi \in L^{2}({\mathbf {R} })\}.}
+  
+Since all continuous functions with compact support lie in D(Q), Q is densely defined. Q, being simply multiplication by x, is a self adjoint operator, thus satisfying the requirement of a quantum mechanical observable. Immediately from the definition we can deduce that the spectrum consists of the entire real line and that Q has purely continuous spectrum, therefore no discrete eigenvalues. The three-dimensional case is defined analogously. We shall keep the one-dimensional assumption in the following discussion.
+
+
+== Measurement ==
+As with any quantum mechanical observable, in order to discuss measurement, we need to calculate the spectral resolution of Q:
+
+  
+    
+      
+        Q
+        =
+        ∫
+        λ
+        d
+        
+          Ω
+          
+            Q
+          
+        
+        (
+        λ
+        )
+        .
+      
+    
+    {\displaystyle Q=\int \lambda d\Omega _{Q}(\lambda ).}
+  
+Since Q is just multiplication by x, its spectral resolution is simple. For a Borel subset B of the real line, let 
+  
+    
+      
+        
+          χ
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \chi _{B}}
+   denote the indicator function of B. We see that the projection-valued measure ΩQ is given by
+
+  
+    
+      
+        
+          Ω
+          
+            Q
+          
+        
+        (
+        B
+        )
+        ψ
+        =
+        
+          χ
+          
+            B
+          
+        
+        ψ
+        ,
+      
+    
+    {\displaystyle \Omega _{Q}(B)\psi =\chi _{B}\psi ,}
+  
+i.e. ΩQ is multiplication by the indicator function of B. Therefore, if the system is prepared in state ψ, then the probability of the measured position of the particle being in a Borel set B is
+
+  
+    
+      
+        
+          |
+        
+        
+          Ω
+          
+            Q
+          
+        
+        (
+        B
+        )
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          |
+        
+        
+          χ
+          
+            B
+          
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          ∫
+          
+            B
+          
+        
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+        d
+        μ
+        ,
+      
+    
+    {\displaystyle |\Omega _{Q}(B)\psi |^{2}=|\chi _{B}\psi |^{2}=\int _{B}|\psi |^{2}d\mu ,}
+  
+where μ is the Lebesgue measure. After the measurement, the wave function collapses to either
+
+  
+    
+      
+        
+          
+            
+              
+                Ω
+                
+                  Q
+                
+              
+              (
+              B
+              )
+              ψ
+            
+            
+              ∥
+              
+                Ω
+                
+                  Q
+                
+              
+              (
+              B
+              )
+              ψ
+              ∥
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\Omega _{Q}(B)\psi }{\|\Omega _{Q}(B)\psi \|}}}
+  
+or
+
+  
+    
+      
+        
+          
+            
+              (
+              1
+              −
+              
+                χ
+                
+                  B
+                
+              
+              )
+              ψ
+            
+            
+              ∥
+              (
+              1
+              −
+              
+                χ
+                
+                  B
+                
+              
+              )
+              ψ
+              ∥
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {(1-\chi _{B})\psi }{\|(1-\chi _{B})\psi \|}}}
+  , where 
+  
+    
+      
+        ∥
+        ⋯
+        ∥
+      
+    
+    {\displaystyle \|\cdots \|}
+   is the Hilbert space norm on L2(R).
+
+
+== See also ==
+Position and momentum space
+Momentum operator
+
+
+== References ==

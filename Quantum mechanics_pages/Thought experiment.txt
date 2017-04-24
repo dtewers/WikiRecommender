@@ -1,0 +1,320 @@
+A thought experiment (German: Gedankenexperiment, Gedanken experiment or Gedankenerfahrung) considers some hypothesis, theory, or principle for the purpose of thinking through its consequences. Given the structure of the experiment, it may not be possible to perform it, and even if it could be performed, there need not be an intention to perform it.
+The common goal of a thought experiment is to explore the potential consequences of the principle in question: "A thought experiment is a device with which one performs an intentional, structured process of intellectual deliberation in order to speculate, within a specifiable problem domain, about potential consequents (or antecedents) for a designated antecedent (or consequent)" (Yeates, 2004, p. 150).
+Examples of thought experiments include Schrödinger's cat, illustrating quantum indeterminacy through the manipulation of a perfectly sealed environment and a tiny bit of radioactive substance, and Maxwell's demon, which attempts to demonstrate the ability of a hypothetical finite being to violate the 2nd law of thermodynamics.
+
+
+== Overview ==
+The ancient Greek δείκνυμι (transl.: deiknymi), or thought experiment, "was the most ancient pattern of mathematical proof", and existed before Euclidean mathematics, where the emphasis was on the conceptual, rather than on the experimental part of a thought-experiment. Perhaps the key experiment in the history of modern science is Galileo's demonstration that falling objects must fall at the same rate regardless of their masses. This is widely thought to have been a straightforward physical demonstration, involving climbing up the Leaning Tower of Pisa and dropping two heavy weights off it, whereas in fact, it was a logical demonstration, using the 'thought experiment' technique. The 'experiment' is described by Galileo in Discorsi e dimostrazioni matematiche (1638) (literally, 'Discourses and Mathematical Demonstrations') thus:
+
+Salviati. If then we take two bodies whose natural speeds are different, it is clear that on uniting the two, the more rapid one will be partly retarded by the slower, and the slower will be somewhat hastened by the swifter. Do you not agree with me in this opinion?
+Simplicio. You are unquestionably right.
+Salviati. But if this is true, and if a large stone moves with a speed of, say, eight while a smaller moves with a speed of four, then when they are united, the system will move with a speed less than eight; but the two stones when tied together make a stone larger than that which before moved with a speed of eight. Hence the heavier body moves with less speed than the lighter; an effect which is contrary to your supposition. Thus you see how, from your assumption that the heavier body moves more rapidly than the lighter one, I infer that the heavier body moves more slowly.
+
+Although the extract does not convey the elegance and power of the 'demonstration' terribly well, it is clear that it is a 'thought' experiment, rather than a practical one. Strange then, as Cohen says, that philosophers and scientists alike refuse to acknowledge either Galileo in particular, or the thought experiment technique in general for its pivotal role in both science and philosophy. (The exception proves the rule — the iconoclastic philosopher of science, Paul Feyerabend, has also observed this methodological prejudice.)
+Instead, many philosophers prefer to consider 'Thought Experiments' to be merely the use of a hypothetical scenario to help understand the way things are.
+
+
+== Variety ==
+Thought experiments have been used in a variety of fields, including philosophy, law, physics, and mathematics. In philosophy, they have been used at least since classical antiquity, some pre-dating Socrates. In law, they were well-known to Roman lawyers quoted in the Digest. In physics and other sciences, notable thought experiments date from the 19th and especially the 20th century, but examples can be found at least as early as Galileo.
+
+
+== Origins and use of the literal term ==
+Johann Witt-Hansen established that Hans Christian Ørsted was the first to use the Latin-German mixed term Gedankenexperiment (lit. thought experiment) circa 1812. Ørsted was also the first to use its entirely German equivalent, Gedankenversuch, in 1820.
+Much later, Ernst Mach used the term Gedankenexperiment in a different way, to denote exclusively the imaginary conduct of a real experiment that would be subsequently performed as a real physical experiment by his students. Physical and mental experimentation could then be contrasted: Mach asked his students to provide him with explanations whenever the results from their subsequent, real, physical experiment differed from those of their prior, imaginary experiment.
+The English term thought experiment was coined (as a calque) from Mach's Gedankenexperiment, and it first appeared in the 1897 English translation of one of Mach’s papers. Prior to its emergence, the activity of posing hypothetical questions that employed subjunctive reasoning had existed for a very long time (for both scientists and philosophers). However, people had no way of categorizing it or speaking about it. This helps to explain the extremely wide and diverse range of the application of the term "thought experiment" once it had been introduced into English.
+
+
+== Uses ==
+Thought experiments, which are well-structured, well-defined hypothetical questions that employ subjunctive reasoning (irrealis moods) – "What might happen (or, what might have happened) if . . . " – have been used to pose questions in philosophy at least since Greek antiquity, some pre-dating Socrates. In physics and other sciences many thought experiments date from the 19th and especially the 20th Century, but examples can be found at least as early as Galileo.
+In thought experiments we gain new information by rearranging or reorganizing already known empirical data in a new way and drawing new (a priori) inferences from them or by looking at these data from a different and unusual perspective. In Galileo’s thought experiment, for example, the rearrangement of empirical experience consists in the original idea of combining bodies of different weight.
+Thought experiments have been used in philosophy (especially ethics), physics, and other fields (such as cognitive psychology, history, political science, economics, social psychology, law, organizational studies, marketing, and epidemiology). In law, the synonym "hypothetical" is frequently used for such experiments.
+Regardless of their intended goal, all thought experiments display a patterned way of thinking that is designed to allow us to explain, predict and control events in a better and more productive way.
+
+
+=== Theoretical consequences ===
+In terms of their theoretical consequences, thought experiments generally:
+challenge (or even refute) a prevailing theory, often involving the device known as reductio ad absurdum, (as in Galileo's original argument, a proof by contradiction),
+confirm a prevailing theory,
+establish a new theory, or
+simultaneously refute a prevailing theory and establish a new theory through a process of mutual exclusion
+
+
+=== Practical applications ===
+Thought experiments can produce some very important and different outlooks on previously unknown or unaccepted theories. However, they may make those theories themselves irrelevant, and could possibly create new problems that are just as difficult, or possibly more difficult to resolve.
+In terms of their practical application, thought experiments are generally created to:
+challenge the prevailing status quo (which includes activities such as correcting misinformation (or misapprehension), identify flaws in the argument(s) presented, to preserve (for the long-term) objectively established fact, and to refute specific assertions that some particular thing is permissible, forbidden, known, believed, possible, or necessary);
+extrapolate beyond (or interpolate within) the boundaries of already established fact;
+predict and forecast the (otherwise) indefinite and unknowable future;
+explain the past;
+the retrodiction, postdiction and hindcasting of the (otherwise) indefinite and unknowable past;
+facilitate decision making, choice and strategy selection;
+solve problems, and generate ideas;
+move current (often insoluble) problems into another, more helpful and more productive problem space (e.g.: functional fixedness);
+attribute causation, preventability, blame and responsibility for specific outcomes;
+assess culpability and compensatory damages in social and legal contexts;
+ensure the repeat of past success; or
+examine the extent to which past events might have occurred differently.
+ensure the (future) avoidance of past failures
+
+
+== In science ==
+Scientists tend to use thought experiments as imaginary, "proxy" experiments prior to a real, "physical" experiment (Ernst Mach always argued that these gedankenexperiments were "a necessary precondition for physical experiment"). In these cases, the result of the "proxy" experiment will often be so clear that there will be no need to conduct a physical experiment at all.
+Scientists also use thought experiments when particular physical experiments are impossible to conduct (Carl Gustav Hempel labeled these sorts of experiment "theoretical experiments-in-imagination"), such as Einstein's thought experiment of chasing a light beam, leading to Special Relativity. This is a unique use of a scientific thought experiment, in that it was never carried out, but led to a successful theory, proven by other empirical means.
+
+
+== Relation to real experiments ==
+The relation to real experiments can be quite complex, as can be seen again from an example going back to Albert Einstein. In 1935, with two coworkers, he published a paper on a newly created subject called later the EPR effect (EPR paradox). In this paper, starting from certain philosophical assumptions, on the basis of a rigorous analysis of a certain, complicated, but in the meantime assertedly realizable model, he came to the conclusion that quantum mechanics should be described as "incomplete". Niels Bohr asserted a refutation of Einstein's analysis immediately, and his view prevailed. After some decades, it was asserted that feasible experiments could prove the error of the EPR paper. These experiments tested the Bell inequalities published in 1964 in a purely theoretical paper. The above-mentioned EPR philosophical starting assumptions were considered to be falsified by empirical fact (e.g. by the optical real experiments of Alain Aspect).
+Thus thought experiments belong to a theoretical discipline, usually to theoretical physics, but often to theoretical philosophy. In any case, it must be distinguished from a real experiment, which belongs naturally to the experimental discipline and has "the final decision on true or not true", at least in physics.
+
+
+== Causal reasoning ==
+The first characteristic pattern that thought experiments display is their orientation in time. They are either:
+Antefactual speculations: experiments that speculate about what might have happened prior to a specific, designated event, or
+Postfactual speculations: experiments that speculate about what may happen subsequent to (or consequent upon) a specific, designated event.
+The second characteristic pattern is their movement in time in relation to “the present moment standpoint” of the individual performing the experiment; namely, in terms of:
+Their temporal direction: are they past-oriented or future-oriented?
+Their temporal sense:
+(a) in the case of past-oriented thought experiments, are they examining the consequences of temporal “movement” from the present to the past, or from the past to the present? or,
+(b) in the case of future-oriented thought experiments, are they examining the consequences of temporal “movement” from the present to the future, or from the future to the present?
+
+
+== Seven types ==
+
+Generally speaking, there are seven types of thought experiments in which one reasons from causes to effects, or effects to causes:
+
+
+=== Prefactual ===
+Prefactual (before the fact) thought experiments — the term prefactual was coined by Lawrence J. Sanna in 1998 — speculate on possible future outcomes, given the present, and ask "What will be the outcome if event E occurs?"
+
+
+=== Counterfactual ===
+
+Counterfactual (contrary to established fact) thought experiments — the term counterfactual was coined by Nelson Goodman in 1947, extending Roderick Chisholm's (1946) notion of a "contrary-to-fact conditional" — speculate on the possible outcomes of a different past; and ask "What might have happened if A had happened instead of B?" (e.g., "If Isaac Newton and Gottfried Leibniz had cooperated with each other, what would mathematics look like today?").
+The study of counterfactual speculation has increasingly engaged the interest of scholars in a wide range of domains such as philosophy, psychology, cognitive psychology, history, political science, economics, social psychology, law, organizational theory, marketing, and epidemiology.
+
+
+=== Semifactual ===
+
+Semifactual thought experiments — the term semifactual was coined by Nelson Goodman in 1947 — speculate on the extent to which things might have remained the same, despite there being a different past; and asks the question Even though X happened instead of E, would Y have still occurred? (e.g., Even if the goalie had moved left, rather than right, could he have intercepted a ball that was traveling at such a speed?).
+Semifactual speculations are an important part of clinical medicine.
+
+
+=== Prediction ===
+
+The activity of prediction attempts to project the circumstances of the present into the future. According to David Sarewitz and Roger Pielke (1999, p123), scientific prediction takes two forms:
+(1) “The elucidation of invariant — and therefore predictive — principles of nature”; and
+(2) “[Using] suites of observational data and sophisticated numerical models in an effort to foretell the behavior or evolution of complex phenomena”.
+Although they perform different social and scientific functions, the only difference between the qualitatively identical activities of predicting, forecasting, and nowcasting is the distance of the speculated future from the present moment occupied by the user. Whilst the activity of nowcasting, defined as “a detailed description of the current weather along with forecasts obtained by extrapolation up to 2 hours ahead”, is essentially concerned with describing the current state of affairs, it is common practice to extend the term “to cover very-short-range forecasting up to 12 hours ahead” (Browning, 1982, p.ix).
+
+
+=== Hindcasting ===
+
+The activity of hindcasting involves running a forecast model after an event has happened in order to test whether the model's simulation is valid.
+In 2003, Dake Chen and his colleagues “trained” a computer using the data of the surface temperature of the oceans from the last 20 years. Then, using data that had been collected on the surface temperature of the oceans for the period 1857 to 2003, they went through a hindcasting exercise and discovered that their simulation not only accurately predicted every El Niño event for the last 148 years, it also identified the (up to 2 years) looming foreshadow of every single one of those El Niño events.
+
+
+=== Retrodiction ===
+
+The activity of retrodiction (or postdiction) involves moving backwards in time, step-by-step, in as many stages as are considered necessary, from the present into the speculated past to establish the ultimate cause of a specific event (e.g., reverse engineering and forensics).
+Given that retrodiction is a process in which "past observations, events and data are used as evidence to infer the process(es) the produced them" and that diagnosis "involve[s] going from visible effects such as symptoms, signs and the like to their prior causes", the essential balance between prediction and retrodiction could be characterized as:
+
+retrodiction : diagnosis :: prediction : prognosis
+
+regardless of whether the prognosis is of the course of the disease in the absence of treatment, or of the application of a specific treatment regimen to a specific disorder in a particular patient.
+
+
+=== Backcasting ===
+
+The activity of backcasting — the term backcasting was coined by John Robinson in 1982 — involves establishing the description of a very definite and very specific future situation. It then involves an imaginary moving backwards in time, step-by-step, in as many stages as are considered necessary, from the future to the present to reveal the mechanism through which that particular specified future could be attained from the present.
+Backcasting is not concerned with predicting the future:
+
+The major distinguishing characteristic of backcasting analyses is the concern, not with likely energy futures, but with how desirable futures can be attained. It is thus explicitly normative, involving 'working backwards' from a particular future end-point to the present to determine what policy measures would be required to reach that future.
+
+According to Jansen (1994, p. 503:
+
+Within the framework of technological development, “forecasting” concerns the extrapolation of developments towards the future and the exploration of achievements that can be realized through technology in the long term. Conversely, the reasoning behind “backcasting” is: on the basis of an interconnecting picture of demands technology must meet in the future — “sustainability criteria” — to direct and determine the process that technology development must take and possibly also the pace at which this development process must take effect.
+Backcasting [is] both an important aid in determining the direction technology development must take and in specifying the targets to be set for this purpose. As such, backcasting is an ideal search toward determining the nature and scope of the technological challenge posed by sustainable development, and it can thus serve to direct the search process toward new — sustainable — technology.
+
+
+== In philosophy ==
+In philosophy, a thought experiment typically presents an imagined scenario with the intention of eliciting an intuitive or reasoned response about the way things are in the thought experiment. (Philosophers might also supplement their thought experiments with theoretical reasoning designed to support the desired intuitive response.) The scenario will typically be designed to target a particular philosophical notion, such as morality, or the nature of the mind or linguistic reference. The response to the imagined scenario is supposed to tell us about the nature of that notion in any scenario, real or imagined.
+For example, a thought experiment might present a situation in which an agent intentionally kills an innocent for the benefit of others. Here, the relevant question is not whether the action is moral or not, but more broadly whether a moral theory is correct that says morality is determined solely by an action's consequences (See Consequentialism). John Searle imagines a man in a locked room who receives written sentences in Chinese, and returns written sentences in Chinese, according to a sophisticated instruction manual. Here, the relevant question is not whether or not the man understands Chinese, but more broadly, whether a functionalist theory of mind is correct.
+It is generally hoped that there is universal agreement about the intuitions that a thought experiment elicits. (Hence, in assessing their own thought experiments, philosophers may appeal to "what we should say," or some such locution.) A successful thought experiment will be one in which intuitions about it are widely shared. But often, philosophers differ in their intuitions about the scenario.
+Other philosophical uses of imagined scenarios arguably are thought experiments also. In one use of scenarios, philosophers might imagine persons in a particular situation (maybe ourselves), and ask what they would do.
+For example, in the veil of ignorance, John Rawls asks us to imagine a group of persons in a situation where they know nothing about themselves, and are charged with devising a social or political organization. The use of the state of nature to imagine the origins of government, as by Thomas Hobbes and John Locke, may also be considered a thought experiment. Søren Kierkegaard explored the possible ethical and religious implications of Abraham's binding of Isaac in Fear and Trembling Similarly, Friedrich Nietzsche, in On the Genealogy of Morals, speculated about the historical development of Judeo-Christian morality, with the intent of questioning its legitimacy.
+An early written thought experiment was Plato's allegory of the cave. Another historic thought experiment was Avicenna's "Floating Man" thought experiment in the 11th century. He asked his readers to imagine themselves suspended in the air isolated from all sensations in order to demonstrate human self-awareness and self-consciousness, and the substantiality of the soul.
+
+
+=== Possibility ===
+The scenario presented in a thought experiment must be possible in some sense. In many thought experiments, the scenario would be nomologically possible, or possible according to the laws of nature. John Searle's Chinese room is nomologically possible.
+Some thought experiments present scenarios that are not nomologically possible. In his Twin Earth thought experiment, Hilary Putnam asks us to imagine a scenario in which there is a substance with all of the observable properties of water (e.g., taste, color, boiling point), but is chemically different from water. It has been argued that this thought experiment is not nomologically possible, although it may be possible in some other sense, such as metaphysical possibility. It is debatable whether the nomological impossibility of a thought experiment renders intuitions about it moot.
+In some cases, the hypothetical scenario might be considered metaphysically impossible, or impossible in any sense at all. David Chalmers says that we can imagine that there are zombies, or persons who are physically identical to us in every way but who lack consciousness. This is supposed to show that physicalism is false. However, some argue that zombies are inconceivable: we can no more imagine a zombie than we can imagine that 1+1=3. Others have claimed that the conceivability of a scenario may not entail its possibility.
+
+
+== Examples ==
+Buttered cat paradox
+Braitenberg vehicles (robotics, neural control and sensing systems) (some have been built)
+Doomsday argument (anthropic principle)
+Dyson sphere
+The Lady, or the Tiger? (human nature)
+The Planiverse
+
+
+=== Physics ===
+Bell's spaceship paradox (special relativity)
+Brownian ratchet (Richard Feynman's "perpetual motion" machine that does not violate the second law and does no work at thermal equilibrium)
+Bucket argument – argues that space is absolute, not relational
+Double-slit experiment (quantum mechanics)
+Elitzur–Vaidman bomb-tester (quantum mechanics)
+Einstein's box
+EPR paradox (quantum mechanics) (forms of this have been performed)
+Feynman sprinkler (classical mechanics)
+Galileo's ship (classical relativity principle) 1632
+Galileo's Leaning Tower of Pisa experiment (rebuttal of Aristotelian Gravity)
+GHZ experiment (quantum mechanics)
+Heisenberg's microscope (quantum mechanics)
+Kepler's Dream (change of point of view as support for the Copernican hypothesis)
+Ladder paradox (special relativity)
+Laplace's demon
+Maxwell's demon (thermodynamics) 1871
+The Monkey and the Hunter (gravitation)
+Moving magnet and conductor problem
+Newton's cannonball (Newton's laws of motion)
+Popper's experiment (quantum mechanics)
+Quantum pseudo telepathy (quantum mechanics)
+Quantum suicide (quantum mechanics)
+Schrödinger's cat (quantum mechanics)
+Sticky bead argument (general relativity)
+Renninger negative-result experiment (quantum mechanics)
+Twin paradox (special relativity)
+Wheeler's delayed choice experiment (quantum mechanics)
+Wigner's friend (quantum mechanics)
+
+
+=== Philosophy ===
+Artificial brain
+Avicenna's Floating Man
+Beetle in a box
+Bellum omnium contra omnes
+Big Book (ethics)
+Brain-in-a-vat (epistemology, philosophy of mind)
+Brainstorm machine
+Buridan's ass
+Changing places (reflexive monism, philosophy of mind)
+China brain (physicalism, philosophy of mind)
+Chinese room (philosophy of mind, artificial intelligence, cognitive science)
+Coherence (philosophical gambling strategy)
+Condillac's Statue (epistemology)
+Experience machine (ethics)
+Gettier problem (epistemology)
+Ḥayy ibn Yaqẓān (epistemology)
+Hilary Putnam's Twin Earth thought experiment in the philosophy of language and philosophy of mind
+How many men? (taxation as theft)
+Inverted spectrum
+Kavka's toxin puzzle
+Mary's room (philosophy of mind)
+Molyneux's Problem (admittedly, this oscillated between empirical and a-priori assessment)
+Newcomb's paradox
+Original position (politics)
+Philosophical zombie (philosophy of mind, artificial intelligence, cognitive science)
+Plank of Carneades
+Prisoner's Dilemma
+Ship of Theseus, The (concept of identity)
+Simulated reality (philosophy, computer science, cognitive science)
+Social contract theories
+Survival lottery, The (ethics)
+Swamp man (personal identity, philosophy of mind)
+Shoemaker's "Time Without Change" (metaphysics)
+Ticking time bomb scenario (ethics)
+Teleportation (metaphysics)
+The Transparent eyeball
+Trolley problem (ethics)
+The Violinist (ethics)
+Utility monster (ethics)
+Zeno's paradoxes (classical Greek problems of the infinite)
+
+
+=== Mathematics ===
+Balls and vase problem (infinity and cardinality)
+Gabriel's Horn (infinity)
+Infinite monkey theorem (probability)
+Lottery paradox (probability)
+Sleeping beauty paradox (probability)
+
+
+=== Biology ===
+Levinthal paradox
+Rotating locomotion in living systems
+
+
+=== Computer science ===
+Halting problem (limits of computability)
+Turing machine (limits of computability)
+Two Generals' Problem
+Dining Philosophers (computer science)
+
+
+=== Economics ===
+Broken window fallacy (law of unintended consequences, opportunity cost)
+Laffer Curve
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Brendal, Elke, "Intuition Pumps and the Proper Use of Thought Experiments", Dialectica, Vol.58, No.1, (March 2004, pp.89–108.
+Dennett, D.C., "Intuition Pumps", pp. 180–197 in Brockman, J., The Third Culture: Beyond the Scientific Revolution, Simon & Schuster, (New York), 1995.
+Cucic, D.A. & Nikolic, A.S., "A short insight about thought experiment in modern physics", 6th International Conference of the Balkan Physical Union BPU6, Istanbul – Turkey, 2006.
+Galton, F., "Statistics of Mental Imagery", Mind, Vol.5, No.19, (July 1880), pp. 301–318.
+Hempel, C.G., "Typological Methods in the Natural and Social Sciences", pp. 155–171 in Hempel, C.G. (ed.), Aspects of Scientific Explanation and Other Essays in the Philosophy of Science, The Free Press, (New York), 1965.
+Jacques, V., Wu, E., Grosshans, F., Treussart, F., Grangier, P. Aspect, A., & Roch, J. (2007). Experimental Realization of Wheeler's Delayed-Choice Gedanken Experiment, Science, 315, p. 966–968.
+Kuhn, T., "A Function for Thought Experiments", in The Essential Tension (Chicago: University of Chicago Press, 1979), pp. 240–
+Mach, E., "On Thought Experiments", pp. 134–147 in Mach, E., Knowledge and Error: Sketches on the Psychology of Enquiry, D. Reidel Publishing Co., (Dordrecht), 1976. [Translation of Erkenntnis und Irrtum (5th edition, 1926.].
+Popper, K., "On the Use and Misuse of Imaginary Experiments, Especially in Quantum Theory", pp. 442–456, in Popper, K., The Logic of Scientific Discovery, Harper Torchbooks, (New York), 1968.
+Witt-Hansen, J., "H.C. Ørsted, Immanuel Kant and the Thought Experiment", Danish Yearbook of Philosophy, Vol.13, (1976), pp. 48–65.
+
+
+== Bibliography ==
+Adams, Scott, God's Debris: A Thought Experiment, Andrews McMeel Publishing, (USA), 2001
+Brendal, Elke, "Intuition Pumps and the Proper Use of Thought Experiments". Dialectica. V.58, Issue 1, p 89–108, March 2004
+Browning, K.A. (ed.), Nowcasting, Academic Press, (London), 1982.
+Buzzoni, M., Thought Experiment in the Natural Sciences, Koenigshausen+Neumann, Wuerzburg 2008
+Cohen, Martin, "Wittgenstein's Beetle and Other Classic Thought Experiments", Blackwell (Oxford) 2005
+Cohnitz, D., Gedankenexperimente in der Philosophie, Mentis Publ., (Paderborn, Germany), 2006.
+Craik, K.J.W., The Nature of Explanation, Cambridge University Press, (Cambridge), 1943.
+Cushing, J.T., Philosophical Concepts in Physics: The Historical Relation Between Philosophy and Scientific Theories, Cambridge University Press, (Cambridge), 1998.
+DePaul, M. & Ramsey, W. (eds.), Rethinking Intuition: The Psychology of Intuition and Its Role in Philosophical Inquiry, Rowman & Littlefield Publishers, (Lanham), 1998.
+Gendler, T.S., Thought Experiment: On the Powers and Limits of Imaginary Cases, Garland, (New York), 2000.
+Gendler, T.S. & Hawthorne, J., Conceivability and Possibility, Oxford University Press, (Oxford), 2002.
+Häggqvist, S., Thought Experiments in Philosophy, Almqvist & Wiksell International, (Stockholm), 1996.
+Hanson, N.R., Patterns of Discovery: An Inquiry into the Conceptual Foundations of Science, Cambridge University Press, (Cambridge), 1962.
+Harper, W.L., Stalnaker, R. & Pearce, G. (eds.), Ifs: Conditionals, Belief, Decision, Chance, and Time, D. Reidel Publishing Co., (Dordrecht), 1981.
+Hesse, M.B., Models and Analogies in Science, Sheed and Ward, (London), 1963.
+Holyoak, K.J. & Thagard, P., Mental Leaps: Analogy in Creative Thought, A Bradford Book, The MIT Press, (Cambridge), 1995.
+Horowitz, T. & Massey, G.J. (eds.), Thought Experiments in Science and Philosophy, Rowman & Littlefield, (Savage), 1991.
+Kahn, H., Thinking About the Unthinkable, Discus Books, (New York), 1971.
+Kuhne, U., Die Methode des Gedankenexperiments, Suhrkamp Publ., (Frankfurt/M, Germany), 2005.
+Leatherdale, W.H., The Role of Analogy, Model and Metaphor in Science, North-Holland Publishing Company, (Amsterdam), 1974.
+Ørsted, Hans Christian (1997). Selected Scientific Works of Hans Christian Ørsted. Princeton. ISBN 0-691-04334-5. . Translated to English by Karen Jelved, Andrew D. Jackson, and Ole Knudsen, (translators 1997).
+Roese, N.J. & Olson, J.M. (eds.), What Might Have Been: The Social Psychology of Counterfactual Thinking, Lawrence Erlbaum Associates, (Mahwah), 1995.
+Shanks, N. (ed.), Idealization IX: Idealization in Contemporary Physics (Poznan Studies in the Philosophy of the Sciences and the Humanities, Volume 63), Rodopi, (Amsterdam), 1998.
+Shick, T. & Vaugn, L., Doing Philosophy: An Introduction through Thought Experiments (Second Edition), McGraw Hill, (New York), 2003.
+Sorensen, R.A., Thought Experiments, Oxford University Press, (Oxford), 1992.
+Tetlock, P.E. & Belkin, A. (eds.), Counterfactual Thought Experiments in World Politics, Princeton University Press, (Princeton), 1996.
+Thomson, J.J. {Parent, W. (ed.)}, Rights, Restitution, and Risks: Essays in Moral Theory, Harvard University Press, (Cambridge), 1986 .
+Vosniadou, S. & Ortony. A. (eds.), Similarity and Analogical Reasoning, Cambridge University Press, (Cambridge), 1989.
+Wilkes, K.V., Real People: Personal Identity without Thought Experiments, Oxford University Press, (Oxford), 1988.
+Yeates, L.B., Thought Experimentation: A Cognitive Approach, Graduate Diploma in Arts (By Research) dissertation, University of New South Wales, 2004.
+
+
+== External links ==
+Thought experiment at PhilPapers
+Thought experiment at the Indiana Philosophy Ontology Project
+Philosophy Bites podcast: Nigel Warburton interviews Julian Baggini on Thought Experiments
+Stevinus, Galileo, and Thought Experiments Short essay by S. Abbas Raza of 3 Quarks Daily
+Thought experiment generator, an entertaining visual aid to running your own thought experiment
+Articles on Thought Experiments in the PhilSci Archive, an electronic archive for preprints in the philosophy of science.

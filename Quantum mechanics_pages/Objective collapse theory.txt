@@ -1,0 +1,29 @@
+Objective collapse theories, also known as quantum mechanical spontaneous localization models (QMSL), are an approach to the interpretational problems of quantum mechanics. They are realistic, indeterministic and reject hidden variables. The approach is similar to the Copenhagen interpretation, but more firmly objective.
+The most well-known examples of such theories are:
+Ghirardi–Rimini–Weber theory
+Penrose interpretation
+
+
+== Compared to other approaches ==
+Collapse theories stand in opposition to many-worlds interpretation theories, in that they hold that a process of wavefunction collapse curtails the branching of the wavefunction and removes unobserved behaviour. Objective collapse theories differ from the Copenhagen interpretation in regarding both the wavefunction and the process of collapse as ontologically objective. The Copenhagen interpretation includes collapse, but it is non-committal about the objective reality of the wave function, and because of that it is possible to regard Copenhagen-style collapse as a subjective or informational phenomenon. The ontology of objective theories regards the wave as real; the wave corresponds to the mathematical wave function, and collapse occurs randomly ("spontaneous localization"), or when some physical threshold is reached, with observers having no special role, as an indifferent wave in an ocean.
+
+
+== Variations ==
+Objective collapse theories regard the present formalism of quantum mechanics as incomplete, in some sense. (For that reason it is more correct to call them theories than interpretations.) They divide into two subtypes, depending on how the hypothesised mechanism of collapse stands in relation to the unitary evolution of the wavefunction.
+Collapse is found "within" the evolution of the wavefunction, often by modifying the equations to introduce small amounts of non-linearity. A well-known example is the Ghirardi–Rimini–Weber theory (GRW).
+The evolution of the wavefunction remains unchanged, and an additional collapse process ("objective reduction") is added, or at least hypothesised. A well-known example is the Penrose interpretation, which links collapse to gravitational stress in general relativistic spacetime, with the threshold value being one graviton.
+Another example is the deterministic variant of an objective collapse theory
+
+
+== Problems and drawbacks of GRW ==
+GRW collapse theories have unique problems. In order to keep these theories from violating the principle of the conservation of energy, the mathematics requires that any collapse be incomplete. Almost all of the wave function is contained at the one measurable (and measured) value, but there are one or more small tails where the function should intuitively equal zero but mathematically does not. Critics of collapse theories argue that it is not clear how to interpret these tails. Under the premise that the absolute square of the wave function is to be interpreted as a probability density for the positions of point particles, as is the case in standard quantum mechanics, the tails would mean that a small bit of matter has collapsed elsewhere than the measurement indicates, or that with very low probability an object might jump from one collapsed state to another. These options are counterintuitive and physically unlikely. Supporters of collapse theories mostly dismiss this criticism as a misunderstanding of the theory, as in the context of dynamical collapse theories, the absolute square of the wave function is often interpreted not as a probability density of positions, but as an actual matter density. In this case, the tails merely represent an immeasurably small amount of smeared out matter, while from a macroscopic perspective, all particles appear to be point-like for all practical purposes.
+The original QMSL models had the drawback that they did not allow dealing with systems with several identical particles, as they did not respect the symmetries or antisymmetries involved. This problem was addressed by a revision of the original GRW proposal known as CSL (continuous spontaneous localization) developed by Ghirardi, Pearle, and Rimini in 1990.
+The straightforward generalization of continuous collapse theories, such as CSL, to the relativistic case, leads to problematic divergencies of the particle density. The formulation of a proper Lorentz covariant theory of continuous objective collapse is still a matter of research, although suggestions have been published e.g. by Philip Pearle.
+
+
+== Notes ==
+
+Giancarlo Ghirardi, Collapse Theories, Stanford Encyclopedia of Philosophy (First published Thu Mar 7, 2002; substantive revision Tue Nov 8, 2011)
+
+
+== See also ==

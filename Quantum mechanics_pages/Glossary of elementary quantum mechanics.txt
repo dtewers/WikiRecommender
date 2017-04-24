@@ -1,0 +1,1941 @@
+This is a glossary for the terminology often encountered in undergraduate quantum mechanics courses.
+Cautions:
+Different authors may have different definitions for the same term.
+The discussions are restricted to Schrödinger picture and non-relativistic quantum mechanics.
+Notation:
+
+  
+    
+      
+        
+          |
+        
+        x
+        ⟩
+      
+    
+    {\displaystyle |x\rangle }
+   - position eigenstate
+
+  
+    
+      
+        
+          |
+        
+        α
+        ⟩
+        ,
+        
+          |
+        
+        β
+        ⟩
+        ,
+        
+          |
+        
+        γ
+        ⟩
+        .
+        .
+        .
+      
+    
+    {\displaystyle |\alpha \rangle ,|\beta \rangle ,|\gamma \rangle ...}
+   - wave function of the state of the system
+
+  
+    
+      
+        Ψ
+      
+    
+    {\displaystyle \Psi }
+   - total wave function of a system
+
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   - wave function of a system (maybe a particle)
+
+  
+    
+      
+        
+          ψ
+          
+            α
+          
+        
+        (
+        x
+        ,
+        t
+        )
+      
+    
+    {\displaystyle \psi _{\alpha }(x,t)}
+   - wave function of a particle in position representation, equal to 
+  
+    
+      
+        ⟨
+        x
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle \langle x|\alpha \rangle }
+  
+
+
+== Formalism ==
+
+
+=== Kinematical postulates ===
+a complete set of wave functions
+A basis of the Hilbert space of wave functions with respect to a system.
+bra
+The Hermitian conjugate of a ket is called a bra. 
+  
+    
+      
+        ⟨
+        α
+        
+          |
+        
+        =
+        (
+        
+          |
+        
+        α
+        ⟩
+        
+          )
+          
+            †
+          
+        
+      
+    
+    {\displaystyle \langle \alpha |=(|\alpha \rangle )^{\dagger }}
+  . See "bra–ket notation".
+Bra–ket notation
+The bra–ket notation is a way to represent the states and operators of a system by angle brackets and vertical bars, for example, 
+  
+    
+      
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle |\alpha \rangle }
+   and 
+  
+    
+      
+        
+          |
+        
+        α
+        ⟩
+        ⟨
+        β
+        
+          |
+        
+      
+    
+    {\displaystyle |\alpha \rangle \langle \beta |}
+  .
+Density matrix
+Physically, the density matrix is a way to represent pure states and mixed states. The density matrix of pure state whose ket is 
+  
+    
+      
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle |\alpha \rangle }
+   is 
+  
+    
+      
+        
+          |
+        
+        α
+        ⟩
+        ⟨
+        α
+        
+          |
+        
+      
+    
+    {\displaystyle |\alpha \rangle \langle \alpha |}
+  .
+Mathematically, a density matrix has to satisfy the following conditions:
+
+  
+    
+      
+        Tr
+        ⁡
+        (
+        ρ
+        )
+        =
+        1
+      
+    
+    {\displaystyle \operatorname {Tr} (\rho )=1}
+  
+
+  
+    
+      
+        
+          ρ
+          
+            †
+          
+        
+        =
+        ρ
+      
+    
+    {\displaystyle \rho ^{\dagger }=\rho }
+  
+
+Density operator
+Synonymous to "density matrix".
+Dirac notation
+Synonymous to "bra–ket notation".
+Hilbert space
+Given a system, the possible pure state can be represented as a vector in a Hilbert space. Each ray (vectors differ by phase and magnitude only) in the corresponding Hilbert space represent a state.
+Ket
+A wave function expressed in the form 
+  
+    
+      
+        
+          |
+        
+        a
+        ⟩
+      
+    
+    {\displaystyle |a\rangle }
+   is called a ket. See "bra–ket notation".
+Mixed state
+A mixed state is a statistical ensemble of pure state.
+criterion:
+Pure state: 
+  
+    
+      
+        Tr
+        ⁡
+        (
+        
+          ρ
+          
+            2
+          
+        
+        )
+        =
+        1
+      
+    
+    {\displaystyle \operatorname {Tr} (\rho ^{2})=1}
+  
+Mixed state: 
+  
+    
+      
+        Tr
+        ⁡
+        (
+        
+          ρ
+          
+            2
+          
+        
+        )
+        <
+        1
+      
+    
+    {\displaystyle \operatorname {Tr} (\rho ^{2})<1}
+  
+
+Normalizable wave function
+A wave function 
+  
+    
+      
+        
+          |
+        
+        
+          α
+          ′
+        
+        ⟩
+      
+    
+    {\displaystyle |\alpha '\rangle }
+   is said to be normalizable if 
+  
+    
+      
+        ⟨
+        
+          α
+          ′
+        
+        
+          |
+        
+        
+          α
+          ′
+        
+        ⟩
+        <
+        ∞
+      
+    
+    {\displaystyle \langle \alpha '|\alpha '\rangle <\infty }
+  . A normalizable wave function can be made to be normalized by 
+  
+    
+      
+        
+          |
+        
+        
+          a
+          ′
+        
+        ⟩
+        →
+        α
+        =
+        
+          
+            
+              
+                |
+              
+              
+                α
+                ′
+              
+              ⟩
+            
+            
+              ⟨
+              
+                α
+                ′
+              
+              
+                |
+              
+              
+                α
+                ′
+              
+              ⟩
+            
+          
+        
+      
+    
+    {\displaystyle |a'\rangle \to \alpha ={\frac {|\alpha '\rangle }{\sqrt {\langle \alpha '|\alpha '\rangle }}}}
+  .
+Normalized wave function
+A wave function 
+  
+    
+      
+        
+          |
+        
+        a
+        ⟩
+      
+    
+    {\displaystyle |a\rangle }
+   is said to be normalized if 
+  
+    
+      
+        ⟨
+        a
+        
+          |
+        
+        a
+        ⟩
+        =
+        1
+      
+    
+    {\displaystyle \langle a|a\rangle =1}
+  .
+Pure state
+A state which can be represented as a wave function / ket in Hilbert space / solution of Schrödinger equation is called pure state. See "mixed state".
+Quantum numbers
+a way of representing a state by several numbers, which corresponds to a complete set of commuting observables.
+A common example of quantum numbers is the possible state of an electron in a central potential: 
+  
+    
+      
+        (
+        n
+        ,
+        l
+        ,
+        m
+        ,
+        s
+        )
+      
+    
+    {\displaystyle (n,l,m,s)}
+  , which corresponds to the eigenstate of observables 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+   (in terms of 
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+  ), 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+   (magnitude of angular momentum), 
+  
+    
+      
+        
+          L
+          
+            z
+          
+        
+      
+    
+    {\displaystyle L_{z}}
+   (angular momentum in 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  -direction), and 
+  
+    
+      
+        
+          S
+          
+            z
+          
+        
+      
+    
+    {\displaystyle S_{z}}
+  .
+Spin wave function
+Part of a wave function of particle(s). See "total wave function of a particle".
+Spinor
+Synonymous to "spin wave function".
+Spatial wave function
+Part of a wave function of particle(s). See "total wave function of a particle".
+State
+A state is a complete description of the observable properties of a physical system.
+Sometimes the word is used as a synonym of "wave function" or "pure state".
+State vector
+synonymous to "wave function".
+Statistical ensemble
+A large number of copies of a system.
+System
+A sufficiently isolated part in the universe for investigation.
+Tensor product of Hilbert space
+When we are considering the total system as a composite system of two subsystems A and B, the wave functions of the composite system are in a Hilbert space 
+  
+    
+      
+        
+          H
+          
+            A
+          
+        
+        ⊗
+        
+          H
+          
+            B
+          
+        
+      
+    
+    {\displaystyle H_{A}\otimes H_{B}}
+  , if the Hilbert space of the wave functions for A and B are 
+  
+    
+      
+        
+          H
+          
+            A
+          
+        
+      
+    
+    {\displaystyle H_{A}}
+   and 
+  
+    
+      
+        
+          H
+          
+            B
+          
+        
+      
+    
+    {\displaystyle H_{B}}
+   respectively.
+Total wave function of a particle
+For single-particle system, the total wave function 
+  
+    
+      
+        Ψ
+      
+    
+    {\displaystyle \Psi }
+   of a particle can be expressed as a product of spatial wave function and the spinor. The total wave functions are in the tensor product space of the Hilbert space of the spatial part (which is spanned by the position eigenstates) and the Hilbert space for the spin.
+Wave function
+The word "wave function" could mean one of following:
+A vector in Hilbert space which can represent a state; synonymous to "ket" or "state vector".
+The state vector in a specific basis. It can be seen as a covariant vector in this case.
+The state vector in position representation, e.g. 
+  
+    
+      
+        
+          ψ
+          
+            α
+          
+        
+        (
+        
+          x
+          
+            0
+          
+        
+        )
+        =
+        ⟨
+        
+          x
+          
+            0
+          
+        
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle \psi _{\alpha }(x_{0})=\langle x_{0}|\alpha \rangle }
+  , where 
+  
+    
+      
+        
+          |
+        
+        
+          x
+          
+            0
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |x_{0}\rangle }
+   is the position eigenstate.
+
+
+=== Dynamics ===
+
+Degeneracy
+See "degenerate energy level".
+Degenerate energy level
+If the energy of different state (wave functions which are not scalar multiple of each other) is the same, the energy level is called degenerate.
+There is no degeneracy in 1D system.
+Energy spectrum
+The energy spectrum refers to the possible energy of a system.
+For bound system (bound states), the energy spectrum is discrete; for unbound system (scattering states), the energy spectrum is continuous.
+related mathematical topics: Sturm–Liouville equation
+
+Hamiltonian 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+  
+The operator represents the total energy of the system.
+Schrödinger equation
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        
+          |
+        
+        α
+        ⟩
+        =
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle i\hbar {\frac {\partial }{\partial t}}|\alpha \rangle ={\hat {H}}|\alpha \rangle }
+   -- (1)
+
+(1) is sometimes called "Time-Dependent Schrödinger equation" (TDSE).
+Time-Independent Schrödinger Equation (TISE)
+A modification of the Time-Dependent Schrödinger equation as an eigenvalue problem. The solutions are energy eigenstate of the system.
+
+  
+    
+      
+        E
+        α
+        ⟩
+        =
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle E\alpha \rangle ={\hat {H}}|\alpha \rangle }
+   -- (2)
+
+
+==== Dynamics related to single particle in a potential / other spatial properties ====
+
+In this situation, the SE is given by the form
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        
+          Ψ
+          
+            α
+          
+        
+        (
+        
+          r
+        
+        ,
+        
+        t
+        )
+        =
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        Ψ
+        =
+        
+          (
+          −
+          
+            
+              
+                ℏ
+                
+                  2
+                
+              
+              
+                2
+                m
+              
+            
+          
+          
+            ∇
+            
+              2
+            
+          
+          +
+          V
+          (
+          
+            r
+          
+          )
+          )
+        
+        
+          Ψ
+          
+            α
+          
+        
+        (
+        
+          r
+        
+        ,
+        
+        t
+        )
+        =
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          ∇
+          
+            2
+          
+        
+        
+          Ψ
+          
+            α
+          
+        
+        (
+        
+          r
+        
+        ,
+        
+        t
+        )
+        +
+        V
+        (
+        
+          r
+        
+        )
+        
+          Ψ
+          
+            α
+          
+        
+        (
+        
+          r
+        
+        ,
+        
+        t
+        )
+      
+    
+    {\displaystyle i\hbar {\frac {\partial }{\partial t}}\Psi _{\alpha }(\mathbf {r} ,\,t)={\hat {H}}\Psi =\left(-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}+V(\mathbf {r} )\right)\Psi _{\alpha }(\mathbf {r} ,\,t)=-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}\Psi _{\alpha }(\mathbf {r} ,\,t)+V(\mathbf {r} )\Psi _{\alpha }(\mathbf {r} ,\,t)}
+  
+
+It can be derived from (1) by considering 
+  
+    
+      
+        
+          Ψ
+          
+            α
+          
+        
+        (
+        x
+        ,
+        t
+        )
+        :=
+        ⟨
+        x
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle \Psi _{\alpha }(x,t):=\langle x|\alpha \rangle }
+   and 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        :=
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          ∇
+          
+            2
+          
+        
+        +
+        
+          
+            
+              V
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}:=-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}+{\hat {V}}}
+  
+
+Bound state
+A state is called bound state if its position probability density at infinite tends to zero for all the time. Roughly speaking, we can expect to find the particle(s) in a finite size region with certain probability. More precisely, 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        →
+        0
+      
+    
+    {\displaystyle |\psi (\mathbf {r} ,t)|^{2}\to 0}
+   when 
+  
+    
+      
+        
+          |
+        
+        
+          r
+        
+        
+          |
+        
+        →
+        +
+        ∞
+      
+    
+    {\displaystyle |\mathbf {r} |\to +\infty }
+  , for all 
+  
+    
+      
+        t
+        >
+        0
+      
+    
+    {\displaystyle t>0}
+  .
+There is a criterion in terms of energy:
+Let 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   be the expectation energy of the state. It is a bound state iff 
+  
+    
+      
+        E
+        <
+        min
+        ⁡
+        {
+        V
+        (
+        r
+        →
+        −
+        ∞
+        )
+        ,
+        V
+        (
+        r
+        →
+        +
+        ∞
+        )
+        }
+      
+    
+    {\displaystyle E<\operatorname {min} \{V(r\to -\infty ),V(r\to +\infty )\}}
+  .
+
+Position representation and momentum representation
+Position representation of a wave function: 
+  
+    
+      
+        
+          Ψ
+          
+            α
+          
+        
+        (
+        x
+        ,
+        t
+        )
+        :=
+        ⟨
+        x
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle \Psi _{\alpha }(x,t):=\langle x|\alpha \rangle }
+  ,
+momentum representation of a wave function: 
+  
+    
+      
+        
+          
+            
+              
+                Ψ
+                ~
+              
+            
+          
+          
+            α
+          
+        
+        (
+        p
+        ,
+        t
+        )
+        :=
+        ⟨
+        p
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle {\tilde {\Psi }}_{\alpha }(p,t):=\langle p|\alpha \rangle }
+   ;
+where 
+  
+    
+      
+        
+          |
+        
+        x
+        ⟩
+      
+    
+    {\displaystyle |x\rangle }
+   is the position eigenstate and 
+  
+    
+      
+        
+          |
+        
+        p
+        ⟩
+      
+    
+    {\displaystyle |p\rangle }
+   the momentum eigenstate respectively.
+The two representations are linked by Fourier transform.
+Probability amplitude
+A probability amplitude is of the form 
+  
+    
+      
+        ⟨
+        α
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle \langle \alpha |\psi \rangle }
+  .
+Probability current
+Having the metaphor of probability density as mass density, then probability current 
+  
+    
+      
+        J
+      
+    
+    {\displaystyle J}
+   is the current:
+
+  
+    
+      
+        J
+        (
+        x
+        ,
+        t
+        )
+        =
+        
+          
+            
+              i
+              ℏ
+            
+            
+              2
+              m
+            
+          
+        
+        (
+        ψ
+        
+          
+            
+              ∂
+              
+                ψ
+                
+                  ∗
+                
+              
+            
+            
+              ∂
+              x
+            
+          
+        
+        −
+        
+          
+            
+              ∂
+              ψ
+            
+            
+              ∂
+              x
+            
+          
+        
+        ψ
+        )
+      
+    
+    {\displaystyle J(x,t)={\frac {i\hbar }{2m}}(\psi {\frac {\partial \psi ^{*}}{\partial x}}-{\frac {\partial \psi }{\partial x}}\psi )}
+  
+
+The probability current and probability density together satisfy the continuity equation:
+
+  
+    
+      
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        
+          |
+        
+        ψ
+        (
+        x
+        ,
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        +
+        ∇
+        ⋅
+        
+          J
+          (
+          x
+          ,
+          t
+          )
+        
+        =
+        0
+      
+    
+    {\displaystyle {\frac {\partial }{\partial t}}|\psi (x,t)|^{2}+\nabla \cdot \mathbf {J(x,t)} =0}
+  
+
+Probability density
+Given the wave function of a particle, 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        x
+        ,
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi (x,t)|^{2}}
+   is the probability density at position 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   and time 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  . 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        
+          x
+          
+            0
+          
+        
+        ,
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+        d
+        x
+      
+    
+    {\displaystyle |\psi (x_{0},t)|^{2}\,dx}
+   means the probability of finding the particle near 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x_{0}}
+  .
+Scattering state
+The wave function of scattering state can be understood as a propagating wave. See also "bound state".
+There is a criterion in terms of energy:
+Let 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   be the expectation energy of the state. It is a scattering state iff 
+  
+    
+      
+        E
+        >
+        min
+        ⁡
+        {
+        V
+        (
+        r
+        →
+        −
+        ∞
+        )
+        ,
+        V
+        (
+        r
+        →
+        +
+        ∞
+        )
+        }
+      
+    
+    {\displaystyle E>\operatorname {min} \{V(r\to -\infty ),V(r\to +\infty )\}}
+  .
+
+Square-integrable
+Square-integrable is a necessary condition for a function being the position/momentum representation of a wave function of a bound state of the system.
+Given the position representation 
+  
+    
+      
+        Ψ
+        (
+        x
+        ,
+        t
+        )
+      
+    
+    {\displaystyle \Psi (x,t)}
+   of a state vector of a wave function, square-integrable means:
+1D case: 
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            +
+            ∞
+          
+        
+        
+          |
+        
+        Ψ
+        (
+        x
+        ,
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+        d
+        x
+        <
+        +
+        ∞
+      
+    
+    {\displaystyle \int _{-\infty }^{+\infty }|\Psi (x,t)|^{2}\,dx<+\infty }
+  .
+3D case: 
+  
+    
+      
+        
+          ∫
+          
+            V
+          
+        
+        
+          |
+        
+        Ψ
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+        d
+        V
+        <
+        +
+        ∞
+      
+    
+    {\displaystyle \int _{V}|\Psi (\mathbf {r} ,t)|^{2}\,dV<+\infty }
+  .
+
+Stationary state
+A stationary state of a bound system is an eigenstate of Hamiltonian operator. Classically, it corresponds to standing wave. It is equivalent to the following things:an eigenstate of the Hamiltonian operator
+an eigenfunction of Time-Independent Schrödinger Equation
+a state of definite energy
+a state which "every expectation value is constant in time"
+a state whose probability density (
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        x
+        ,
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi (x,t)|^{2}}
+  ) does not change with respect to time, i.e. 
+  
+    
+      
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        
+          |
+        
+        Ψ
+        (
+        x
+        ,
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle {\frac {d}{dt}}|\Psi (x,t)|^{2}=0}
+  
+
+
+=== Measurement postulates ===
+
+Born's rule
+The probability of the state 
+  
+    
+      
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle |\alpha \rangle }
+   collapse to an eigenstate 
+  
+    
+      
+        
+          |
+        
+        k
+        ⟩
+      
+    
+    {\displaystyle |k\rangle }
+   of an observable is given by 
+  
+    
+      
+        
+          |
+        
+        ⟨
+        k
+        
+          |
+        
+        α
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\langle k|\alpha \rangle |^{2}}
+  .
+Collapse
+"Collapse" means the sudden process which the state of the system will "suddenly" change to an eigenstate of the observable during measurement.
+Eigenstates
+An eigenstate of an operator 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   is a vector satisfied the eigenvalue equation: 
+  
+    
+      
+        A
+        
+          |
+        
+        α
+        ⟩
+        =
+        c
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle A|\alpha \rangle =c|\alpha \rangle }
+  , where 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+   is a scalar.
+Usually, in bra–ket notation, the eigenstate will be represented by its corresponding eigenvalue if the corresponding observable is understood.
+Expectation value
+The expectation value 
+  
+    
+      
+        <
+        M
+        >
+      
+    
+    {\displaystyle <M>}
+   of the observable M with respect to a state 
+  
+    
+      
+        
+          |
+        
+        α
+      
+    
+    {\displaystyle |\alpha }
+   is the average outcome of measuring 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+   with respect to an ensemble of state 
+  
+    
+      
+        
+          |
+        
+        α
+      
+    
+    {\displaystyle |\alpha }
+   .
+
+  
+    
+      
+        <
+        M
+        >
+      
+    
+    {\displaystyle <M>}
+   can be calculated by:
+
+  
+    
+      
+        <
+        M
+        >=
+        ⟨
+        α
+        
+          |
+        
+        M
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle <M>=\langle \alpha |M|\alpha \rangle }
+  .
+
+If the state is given by a density matrix 
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+  , 
+  
+    
+      
+        <
+        M
+        >=
+        Tr
+        ⁡
+        (
+        M
+        ρ
+        )
+      
+    
+    {\displaystyle <M>=\operatorname {Tr} (M\rho )}
+  .
+Hermitian operator
+An operator satisfying 
+  
+    
+      
+        A
+        =
+        
+          A
+          
+            †
+          
+        
+      
+    
+    {\displaystyle A=A^{\dagger }}
+  .
+Equivalently, 
+  
+    
+      
+        ⟨
+        α
+        
+          |
+        
+        A
+        
+          |
+        
+        α
+        ⟩
+        =
+        ⟨
+        α
+        
+          |
+        
+        
+          A
+          
+            †
+          
+        
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle \langle \alpha |A|\alpha \rangle =\langle \alpha |A^{\dagger }|\alpha \rangle }
+   for all allowable wave function 
+  
+    
+      
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle |\alpha \rangle }
+  .
+Observable
+Mathematically, it is represented by a Hermitian operator.
+Quantum Zeno effect
+The phenomenon that a frequent measurement leads to "freezing" of the state.
+
+
+=== Indistinguishable particles ===
+Exchange
+Intrinsically identical particles
+If the intrinsic properties (properties that can be measured but are independent of the quantum state, e.g. charge, total spin, mass) of two particles are the same, they are said to be (intrinsically) identical.
+Indistinguishable particles
+If a system shows measurable differences when one of its particles is replaced by another particle, these two particles are called distinguishable.
+Bosons
+Bosons are particles with integer spin (s = 0, 1, 2, ... ). They can either be elementary (like photons) or composite (such as mesons, nuclei or even atoms). There are five known elementary bosons: the four force carrying gauge bosons γ (photon), g (gluon), Z (Z boson) and W (W boson), as well as the Higgs boson.
+Fermions
+Fermions are particles with half-integer spin (s = 1/2, 3/2, 5/2, ... ). Like bosons, they can be elementary or composite particles. There are two types of elementary fermions: quarks and leptons, which are the main constituents of ordinary matter.
+Anti-symmetrization of wave functions
+Symmetrization of wave functions
+Pauli exclusion principle
+
+
+=== Quantum statistical mechanics ===
+Bose–Einstein distribution
+Bose–Einstein condensation
+Bose–Einstein condensation state (BEC state)
+Fermi energy
+Fermi–Dirac distribution
+Slater determinant
+
+
+== Nonlocality ==
+Entanglement
+Bell's inequality
+Entangled state
+separable state
+no cloning theorem
+
+
+== Rotation: spin/angular momentum ==
+Spin
+angular momentum
+Clebsch–Gordan coefficients
+singlet state and triplet state
+
+
+== Approximation methods ==
+adiabatic approximation
+Born–Oppenheimer approximation
+WKB approximation
+time-dependent perturbation theory
+time-independent perturbation theory
+
+
+== Historical Terms / semi-classical treatment ==
+Ehrenfest theorem
+A theorem connecting the classical mechanics and result dervied from Schrödinger equation.
+first quantization
+
+  
+    
+      
+        x
+        →
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        ,
+        
+        p
+        →
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+      
+    
+    {\displaystyle x\to {\hat {x}},\,p\to i\hbar {\frac {\partial }{\partial x}}}
+  
+wave–particle duality
+
+
+== Uncategorized terms ==
+uncertainty principle
+Canonical commutation relations
+Path integral
+wavenumber
+
+
+== See also ==
+Mathematical formulations of quantum mechanics
+List of mathematical topics in quantum theory
+List of quantum-mechanical potentials
+Introduction to quantum mechanics
+
+
+== Notes ==
+
+
+== References ==
+
+Elementary textbooks
+Griffiths, David J. (2004). Introduction to Quantum Mechanics (2nd ed.). Prentice Hall. ISBN 0-13-805326-X. 
+Liboff, Richard L. (2002). Introductory Quantum Mechanics. Addison-Wesley. ISBN 0-8053-8714-5. 
+Shankar, R. (1994). Principles of Quantum Mechanics. Springer. ISBN 0-306-44790-8. 
+Claude Cohen-Tannoudji; Bernard Diu; Frank Laloë (2006). Quantum Mechanics. Wiley-Interscience. ISBN 978-0-471-56952-7. 
+
+Graduate textook
+Sakurai, J. J. (1994). Modern Quantum Mechanics. Addison Wesley. ISBN 0-201-53929-2. 
+
+Other
+Greenberger, Daniel; Hentschel, Klaus; Weinert, Friedel (Eds.) (2009). Compendium of Quantum Physics - Concepts, Experiments, History and Philosophy. Springer. ISBN 978-3-540-70622-9.  CS1 maint: Multiple names: authors list (link)
+d'Espagnat, Bernard (2003). Veiled Reality: An Analysis of Quantum Mechanical Concepts (1st ed.). US: Westview Press.

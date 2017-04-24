@@ -1,0 +1,140 @@
+Valve Corporation (commonly referred to as Valve) is an American video game developer and digital distribution company headquartered in Bellevue, Washington. The company is known for the Half-Life, Counter-Strike, Portal, Day of Defeat, Team Fortress, Left 4 Dead, and Dota 2 games, and its software distribution platform Steam.
+Valve was founded in 1996 as a limited liability company by former Microsoft employees Gabe Newell and Mike Harrington. Their debut product, the PC first-person shooter Half-Life, was released in 1998 to critical acclaim and commercial success, after which Harrington left the company. In 2004, Valve launched Steam alongside the critically acclaimed Half-Life 2. By 2011, over half of digital PC game sales were through Steam, and Valve was the most profitable company per employee in the United States. In 2015, Valve entered the game hardware market with the Steam Machine, a line of prebuilt gaming computers running SteamOS, a Valve-developed fork of the Debian operating system.
+
+
+== History ==
+
+
+=== Founding and incorporation ===
+Valve was founded by former longtime Microsoft employees Gabe Newell and Mike Harrington on August 24, 1996, as Valve L.L.C., based in Kirkland, Washington on the Seattle Eastside. Harrington left the company in 2000. After incorporation in April 2003, it moved from its original location to Bellevue, Washington, the same city in which their original publisher, Sierra On-Line, Inc., was based. In 2010, the office was moved again to a larger location in Bellevue. In 2016, Valve signed a nine-floor lease in the Lincoln Square complex in downtown Bellevue, doubling the size of their offices.
+
+
+=== Half-Life ===
+
+After securing a license to the Quake engine through the help of friend Michael Abrash of id Software in late 1996, Newell and Harrington began working on Half-Life. Originally planned for release in late 1997, Half-Life launched on November 19, 1998. Valve acquired TF Software Pty. Ltd., the makers of the Team Fortress mod for Quake, in May 1998 with the intent to create a standalone Team Fortress game. The Team Fortress Classic mod, essentially a port of the original Team Fortress mod for Quake, was released for Half-Life in 1999. Gearbox contributed much after the release of Half-Life. Gearbox Software is responsible for the Half-Life expansion packs, Half-Life: Opposing Force and Half-Life: Blue Shift, along with the home console versions of Half-Life for the Sega Dreamcast and Sony PlayStation 2 which included a third expansion pack called Half-Life: Decay, which enabled two-player split-screen co-op.
+
+
+=== Source game engine ===
+
+After the success of Half-Life, the team worked on mods, spin-offs, and sequels, including Half-Life 2. All current Valve games are built on its Source engine. The company has developed six game series: Half-Life, Team Fortress, Portal, Counter-Strike, Left 4 Dead and Day of Defeat. Valve is noted for its support of its games' modding community, most prominently, Counter-Strike, Team Fortress, and Day of Defeat. Valve has branched out with this tradition to continue developing Dota 2 as the standalone sequel to the Warcraft III mod. Each of these games began as a third-party mod that Valve purchased and developed into a full game. They also distribute community mods on Steam. Valve announced the Source 2 engine in March 2015, later porting the entirety of Dota 2 to the engine in September of that year.
+
+
+=== Acquisitions and awards ===
+Valve has grown both in scope and commercial value. On January 10, 2008, Valve announced the acquisition of Turtle Rock Studios. On April 8, 2010, Valve won The Escapist Magazine's March Mayhem tournament for the best developer of 2010, beating out Zynga in the semi-finals and BioWare in the final.
+In 2012, the company acquired Star Filled Studios, a two-man gaming company to open a San Francisco office. In August 2013, however, Valve ended the operation when it was decided that there was little benefit coming from the arrangement.
+
+
+=== Network intrusions ===
+Valve's internal network has been infiltrated by hackers three times, in 2003 where content of the yet to be released Half-Life 2 was leaked onto the internet, Newell's email account was compromised, and keyloggers were installed on several Valve systems. In 2011 the Steam customer databases and official forums were compromised. In September 2011, a hacker broke into the network and downloaded the yet to be released beta code of Call of Duty: Modern Warfare 3.
+In June 2014, a developer from SCS Software reported an exploit that allowed announcement pages to be injected with code, and after no response, he edited an announcement to redirect users to a Harlem Shake video. In March 2016, a vulnerability on the Steam Store allowed a user to publish a game without any authorization from Valve.
+
+
+== Games ==
+
+Valve has developed and published the main games in both the Half-Life and Portal series, as well as published both and developed one of the Left 4 Dead games, the other of which was developed by Valve South (now Turtle Rock Studios). Valve also developed and published Team Fortress, Team Fortress 2, and Dota 2.
+As several of Valve's series feature only two primary games, named with numerals such as Half-Life and Half-Life 2, and with no apparent announcements on a third title in these series, Valve has developed a lighthearted joking reputation for not being able to count to 3, or scared of this number. This has also created a humorous myth-like nature among players and journalists as to whether Half-Life 3 actually exists or not.
+
+
+=== Cancelled games ===
+Incomplete games include a fairy-themed role-playing game, Prospero and Stars of Blood.
+Valve worked with Arkane Studios on The Crossing, which was canceled in May 2009. Arkane later tried to produce Return to Ravenholm (a.k.a. Half-Life 2: Episode Four) without consensus by Valve, which was then also canceled.
+
+
+== Steam ==
+
+Valve announced its games platform Steam in 2002. At the time it looked to be merely a method of streamlining the patch process common in online video games, but was later revealed as a replacement for much of the framework of the World Opponent Network service and also as a distribution and digital rights management system for entire games.
+By July 2014, there were over 3,400 games available on Steam, and the platform had surpassed 75 million active user accounts by January 2014. On August 1, 2012, Valve announced revisions to the Steam Subscriber Agreement (SSA) to prohibit class action lawsuits by users against the service provider.
+Alongside these changes to the SSA, the company also declared publicly the incorporation of Valve S.a.r.l., a subsidiary based in Luxembourg. Valve set up a physical office in Luxembourg Kirchberg. According to Valve's project manager Mike Dunkle, the location was chosen for eCommerce capabilities and infrastructure, talent acquisition, tax advantages and central geographic location – most major partners are accessible, with 50% within driving distance.
+Valve S.a.r.l. was used to sell games to United Kingdom–based users to avoid paying the full 20% VAT. The tax loophole was expected to be closed on January 1, 2015. In December 2015, the French consumer group UFC Que Choisir initiated a lawsuit against Valve for several of their Steam policies that conflict or run afoul of French law. One of the reasons was for using the tax loophole. Valve S.a.r.l. stopped doing business on January 1, 2017, with the main company taking over EU sales again.
+
+
+== Other projects ==
+
+
+=== PowerPlay ===
+PowerPlay was a technological initiative headed by Valve and Cisco Systems to decrease the latency for online computer games. Gabe Newell, the managing director of Valve, announced the project in January 2000 and after 12 months the project was quietly abandoned.
+PowerPlay was described as a set of protocols and deployment standards at the router level to improve performance. It was claimed that a player with 1000 ms ping was able to play against another player on a LAN connection with no noticeable disadvantage. Initially the protocol was to be released with PowerPlay 1.0 focusing on Quality of Service (QoS) and later a revision, PowerPlay 2.0 that would focus on functionality. Cisco and Valve intended to deliver a single dial-up service in Q1 2000 in the United States with a 30-day free trial with a bundled copy of Team Fortress modified to support PowerPlay. Despite never deploying the dial-up plan featuring PowerPlay 1.0, Valve announced in January 2001 that the standard had indeed been finalized.
+The standard was to involve purchasing PowerPlay approved Cisco hardware and infrastructure that had adequate bandwidth and QoS standards that prioritize PowerPlay gaming packets at the expense of all others. Gabe Newell conceded that Internet service providers (ISPs) would bear the brunt of this expense: "The ISPs are going to need to spend a fair amount of money to be compliant with PowerPlay. But how they get that back is up to them. Some will have a tiered service, and some will just try to recoup their investment through reduced customer churn and customer acquisition."
+
+
+==== Steam Machine ====
+
+Newell has been critical of the direction that Microsoft has taken with the Windows operating system in making it a closed architecture similar to Apple's products, and has stated that he believes that the changes made in Windows 8 are "a catastrophe for everyone in the PC space". Newell identified the open-source Linux platform as an ideal platform for Steam, noting that the only thing holding back its adoption is the lack of games.
+In 2012, Valve announced that they were working on a console/PC hybrid for the living room which was unofficially dubbed by media as the "Steam Box". A precursor to such a unit is SteamOS, a freely available Linux-based operating system that builds upon the Steam client functionality that includes media services, live streaming across home networks, game sharing within families, and parental controls. SteamOS was officially announced in September 2013 as the first of several announcements related to the Steam Machine platform as well as their unique game controller. In May 2014, Valve announced that the company's own SteamOS-powered Steam Machine would be delayed until 2015 due to problems with the game controller.
+
+
+=== Pipeline ===
+In July 2013, Valve announced Pipeline, an intern project consisting of ten high school students working together to learn how to create video game content. Pipeline serves to discuss and answer questions that teenagers often ask about the video game industry, and see if it is possible to train a group of teenagers with minimal work experience to work for a company like Valve. The latter purpose breaks Valve's tradition of employing experienced developers, as the company is not good at "teaching people straight out of school".
+
+
+=== J. J. Abrams collaboration ===
+At the 2013 D.I.C.E. Summit, Gabe Newell confirmed that he and director J. J. Abrams were collaborating to produce a Half-Life or Portal film, as well as a possible new game.
+
+
+=== HTC Vive ===
+
+In March 2015, Valve and Taiwanese electronics company HTC announced a joint project to develop the Vive, a virtual reality headset with motion tracked controllers. The companies are working with Google, Lions Gate, and HBO to develop content for the device.
+
+
+== Finances ==
+Valve does not make its finances public. In 2005, Forbes estimated that Valve had grossed $70 million that year. Ed Barton, a Screen Digest analyst, estimated Valve's 2010 revenue to be in the "high hundreds of millions of dollars". As of 2011, the company had an estimated worth of $2 to 4 billion, and according to Newell it was the most profitable company per employee in the United States. Most of Valve's revenue comes from its Steam service, which controls 50 to 70% of the market for downloaded PC games.
+
+
+== Organizational structure ==
+In Valve's early days, the company's structure was similar to other development firms; this was principally driven by the nature of physical game releases through publishers that required tasks to be completed by given deadlines, requiring a more regimented structure. As the company moved to digital releases where they serve as their own publisher, the company structure has become more as a flat organization. Valve published their employee handbook to the public in 2012, demonstrating at that time that outside of executive management, there were no bosses, and the company used an open allocation system, allowing employees to move between departments at will. This approach allows employees to work on whatever interests them, but requires them to take ownership of their product and mistakes they may make, according to Newell. Newell recognized that this structure works well for some but that "there are plenty of great developers for whom this is a terrible place to work".
+Economist Yanis Varoufakis, a former economic consultant for Valve, and former Finance Minister of Greece, attempted to place Valve's organization in the context of theories of the firm and broader economic thinking. Former employee Jeri Ellsworth has, however, criticized the structure as "a lot like high school", where while the structure is flat, certain people within the company nevertheless have more say in decisions than others.
+
+
+== Legal disputes ==
+
+
+=== Valve Corporation v. Vivendi Universal Games ===
+Between 2002 and 2005, Valve was involved in a complex legal showdown with its publisher, Vivendi Universal Games (under Vivendi's brand Sierra Entertainment). It officially began on August 14, 2002, when Valve sued Sierra for copyright infringement, alleging that the publisher had illegally distributed copies of their games to Internet cafes. They later added claims of breach of contract, accusing their publisher of withholding royalties and delaying the release of Counter-Strike: Condition Zero until after the holiday season.
+Vivendi fought back, saying that Gabe Newell and marketing director Doug Lombardi had misrepresented Valve's position in meetings with the publisher. Vivendi later countersued, claiming that Valve's Steam content distribution system attempted to circumvent their publishing agreement. Vivendi sought intellectual property rights to Half-Life and a ruling preventing Valve from using Steam to distribute Half-Life 2.
+On November 29, 2004, Judge Thomas Samuel Zilly of the U.S. District Court for the Western District of Washington ruled in favor of Valve. Specifically, the ruling stated that Vivendi Universal and its affiliates (including Sierra) were not authorized to distribute Valve games, either directly or indirectly, through cyber cafés to end users for pay-to-play activities pursuant to the parties' publishing agreement. In addition, Judge Zilly ruled that Valve could recover copyright damages for infringements without regard to the publishing agreement's limitation of liability clause. Valve posted on the Steam website that the two companies had come to a settlement in court on April 29, 2005. Electronic Arts announced on July 18, 2005, that they would be teaming up with Valve in a multi-year deal to distribute their games, replacing Vivendi Universal from then onwards. As a result of the trial, the arbitrator also awarded Valve $2,391,932.
+
+
+=== Valve Corporation v. Activision Blizzard ===
+In April 2009, Valve sued Activision Blizzard, which acquired Sierra Entertainment after a merger with its parent company, Vivendi Universal Games. Activision had allegedly refused to honor the Valve v. Vivendi arbitration agreement. Activision had only paid Valve $1,967,796 of the $2,391,932 award, refusing to pay the remaining $424,136, claiming it had overpaid that sum in the past years.
+
+
+=== Blizzard Entertainment v. Valve Corporation ===
+Shortly after Valve filed its trademark for "Dota" to secure the franchising rights for Dota 2, DotA-Allstars, LLC, run by former contributors to the game's predecessor, Defense of the Ancients, filed an opposing trademark in August 2010. DotA-Allstars, LLC was sold to Blizzard Entertainment, the developer of DotA's platform Warcraft III and its world editor, in 2011. After the opposition was overruled in Valve's favor, Blizzard itself filed an opposition against Valve in November 2011, citing their license agreement with developers, as well as their ownership of DotA-Allstars, LLC. On May 11, 2012, Blizzard and Valve announced that the dispute had been settled. Valve retained the rights to the term "Dota" commercially, while Blizzard reserved the right for fans to use the trademark non-commercially, and changed the name of their StarCraft II map, Blizzard DOTA, to "Blizzard All-Stars". Blizzard All-Stars was adapted into a standalone game and renamed "Heroes of the Storm" on October 17, 2013.
+
+
+=== ACCC v. Valve Corporation ===
+The Australian Competition and Consumer Commission (ACCC) announced it was taking action against Valve in 2014. On March 29, 2016 Valve was found guilty of breaching Australian consumer law because:
+Valve claimed consumers were not entitled to a refund for digitally downloaded games purchased from Valve via the Steam website or Steam Client (in any circumstances);
+Valve had excluded statutory guarantees and/or warranties that goods would be of acceptable quality; and
+Valve had restricted or modified statutory guarantees and/or warranties of acceptable quality.
+During the prosecution of this case, Valve implemented a refund policy for Steam purchases, but the case still reviewed Valve's actions prior to the onset of the lawsuit. The court overseeing the case sided with the ACCC in assigning a A$3 million (about 2.1 million USD) fine against Valve in December 2016, as well as requiring Valve to inform Australian consumers of their rights when purchasing games from Steam.
+
+
+=== UFC Que Choisir v. Valve Corporation ===
+Consumer rights group UFC Que Choisir, based in France, filed a lawsuit against Valve in December 2015, claiming users should be able to resell their software.
+
+
+=== A.M. v. Valve Corporation ===
+A former employee filed a $3.1 million lawsuit in May 2016 alleging mistreatment after sex reassignment surgery, and that Valve was exploiting workers.
+
+
+=== Skins gambling ===
+
+Valve was named as a defendant in two lawsuits in June and July 2016 related to third-party gambling sites that use the Steamworks API to allow betting with the virtual currency of cosmetic weapon "skins" from Counter-Strike: Global Offensive, which through these sites can be converted from or to real-world money. Both suits assert Valve aiding in underaged gambling. Valve subsequently stated it has no commercial ties with these sites, and that it would demand these sites cease their use of the Steamworks API as they violate the authorized use policies. In October 2016, the Washington State Gambling Commission required Valve to stop the use of virtual skins for gambling on Steam, stating they would face legal repercussions if they failed to cooperate. Valve sent a letter on October 17, 2016 to the Washington State Gambling Commission stating, "Valve has no business relationship with such gambling sites, and indeed they can come into existence, operate, and go out of existence without Valve's knowledge" and that "We are not aware of any such law that Steam or our games are violating".
+
+
+=== European Commission ===
+In February 2017, the European Commission began investigating Valve and five publishers—Bandai Namco Entertainment, Capcom, Focus Home Interactive, Koch Media and ZeniMax Media—for anti-competitive practices, specifically the use of geo-blocking through the Steam storefront and Steam product keys to prevent access to software to citizens of certain countries. Such practices would be against the Digital Single Market imitative by the European Union.
+
+
+== "Valve Time" ==
+
+"Valve Time" is an industry term used jokingly with game releases from Valve, used to acknowledge the difference between the "promised" date for released content stated by Valve and to the "actual" release date; "Valve Time" includes predominant delays but also includes some content that was released earlier than expected. Valve itself has fully acknowledged the term, including tracking known discrepancies between ideal and actual releases on their public development wiki and using it in announcements about such delays. Valve ascribes delays to their mentality of team-driven initiatives over corporate deadlines to make sure they provide a high-quality product to their customers.
+Valve's former business development chief Jason Holtman stated that the company sees themselves as an "oddity" in an industry that looks towards punctual delivery of products; instead, Valve "[tries] as hard as we can to make the best thing possible in the right time frame and get people content they want to consume. And if that takes longer, that's fine". For that, Valve takes the concept of "Valve Time" as a compliment, and that "having customers consistently looking at our property or something you've done and saying, can you give me more" is evidence that they are making the right decisions with their game releases, according to Holtman. The company does try to avoid unintentional delays of their projects, and believes that the earlier occurrences of "Valve Time" delays, primarily from Half-Life development, has helped them improve their release schedules.
+
+
+== References ==
+
+
+== External links ==
+Official website

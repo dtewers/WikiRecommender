@@ -1,0 +1,3122 @@
+The framework of quantum mechanics requires a careful definition of measurement. The issue of measurement lies at the heart of the problem of the interpretation of quantum mechanics, for which there is currently no consensus.
+
+
+== Measurement from a practical point of view ==
+Measurement plays an important role in quantum mechanics, and it is viewed in different ways among various interpretations of quantum mechanics. In spite of considerable philosophical differences, different views of measurement almost universally agree on the practical question of what results form a routine quantum-physics laboratory measurement. To understand this, the Copenhagen interpretation, which has been commonly used, is employed in this article.
+
+
+=== Qualitative overview ===
+In classical mechanics, a simple system consisting of only one single particle is fully described by the position 
+  
+    
+      
+        
+          
+            
+              x
+              →
+            
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle {\vec {x}}(t)}
+   and momentum 
+  
+    
+      
+        
+          
+            
+              p
+              →
+            
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle {\vec {p}}(t)}
+   of the particle. As an analogue, in quantum mechanics a system is described by its quantum state, which contains the probabilities of possible positions and momenta. In mathematical language, all possible pure states of a system form an abstract vector space called Hilbert space, which is typically infinite-dimensional. A pure state is represented by a state vector in the Hilbert space.
+Once a quantum system has been prepared in laboratory, some measurable quantity such as position or energy is measured. For pedagogic reasons, the measurement is usually assumed to be ideally accurate. The state of a system after measurement is assumed to "collapse" into an eigenstate of the operator corresponding to the measurement. Repeating the same measurement without any evolution of the quantum state will lead to the same result. If the preparation is repeated, subsequent measurements will likely lead to different results.
+The predicted values of the measurement are described by a probability distribution, or an "average" (or "expectation") of the measurement operator based on the quantum state of the prepared system. The probability distribution is either continuous (such as position and momentum) or discrete (such as spin), depending on the quantity being measured.
+The measurement process is often considered as random and indeterministic. Nonetheless, there is considerable dispute over this issue. In some interpretations of quantum mechanics, the result merely appears random and indeterministic, whereas in other interpretations the indeterminism is core and irreducible. A significant element in this disagreement is the issue of "collapse of the wave function" associated with the change in state following measurement. There are many philosophical issues and stances (and some mathematical variations) taken—and near universal agreement that we do not yet fully understand quantum reality. In any case, our descriptions of dynamics involve probabilities, not certainties.
+
+
+=== Quantitative details ===
+The mathematical relationship between the quantum state and the probability distribution is, again, widely accepted among physicists, and has been experimentally confirmed countless times. This section summarizes this relationship, which is stated in terms of the mathematical formulation of quantum mechanics.
+
+
+==== Measurable quantities ("observables") as operators ====
+
+It is a postulate of quantum mechanics that all measurements have an associated operator (called an observable operator, or just an observable), with the following properties:
+The observable is a self-adjoint operator mapping a Hilbert space (namely, the state space, which consists of all possible quantum states) into itself.
+Thus, the observable's eigenvectors (called an eigenbasis) form an orthonormal basis that span the state space in which that observable exists. Any quantum state can be represented as a superposition of the eigenstates of an observable.
+Hermitian operators' eigenvalues are real. The possible outcomes of a measurement are precisely the eigenvalues of the given observable.
+For each eigenvalue there are one or more corresponding eigenvectors (eigenstates). A measurement results in the system being in the eigenstate corresponding to the eigenvalue result of the measurement. If the eigenvalue determined from the measurement corresponds to more than one eigenstate ("degeneracy"), instead of being in a definite state, the system is in a sub-space of the measurement operator corresponding to all the states having that eigenvalue.
+Important examples of observables are:
+The Hamiltonian operator 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+  , which represents the total energy of the system. In nonrelativistic quantum mechanics the nonrelativistic Hamiltonian operator is given by 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              T
+              ^
+            
+          
+        
+        +
+        
+          
+            
+              V
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    p
+                    ^
+                  
+                
+              
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        +
+        V
+        (
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        )
+      
+    
+    {\displaystyle {\hat {H}}={\hat {T}}+{\hat {V}}={{\hat {p}}^{2} \over 2m}+V({\hat {x}})}
+  .
+The momentum operator 
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {p}}}
+   is given by 
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {p}}=-i\hbar {\partial  \over \partial x}}
+   (in the position basis), or 
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        =
+        p
+      
+    
+    {\displaystyle {\hat {p}}=p}
+   (in the momentum basis).
+The position operator 
+  
+    
+      
+        
+          
+            
+              x
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {x}}}
+   is given by 
+  
+    
+      
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        =
+        x
+      
+    
+    {\displaystyle {\hat {x}}=x}
+   (in the position basis), or 
+  
+    
+      
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        =
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              p
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {x}}=i\hbar {\partial  \over \partial p}}
+   (in the momentum basis).
+Operators can be noncommuting. Two Hermitian operators commute if (and only if) there is at least one basis of vectors such that each of which is an eigenvector of both operators (this is sometimes called a simultaneous eigenbasis). Noncommuting observables are said to be incompatible and cannot in general be measured simultaneously. In fact, they are related by an uncertainty principle as discovered by Werner Heisenberg.
+
+
+==== Measurement probabilities and wave function collapse ====
+There are a few possible ways to mathematically describe the measurement process (both the probability distribution and the collapsed wave function). The most convenient description depends on the spectrum (i.e., set of eigenvalues) of the observable.
+
+
+===== Discrete, nondegenerate spectrum =====
+Let 
+  
+    
+      
+        
+          
+            
+              O
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {O}}}
+   be an observable. By assumption, 
+  
+    
+      
+        
+          
+            
+              O
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {O}}}
+   has discrete eigenstates 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+        ,
+        
+          |
+        
+        2
+        ⟩
+        ,
+        
+          |
+        
+        3
+        ⟩
+        ,
+        .
+        .
+        .
+      
+    
+    {\displaystyle |1\rangle ,|2\rangle ,|3\rangle ,...}
+   with corresponding distinct eigenvalues 
+  
+    
+      
+        
+          O
+          
+            1
+          
+        
+        ,
+        
+          O
+          
+            2
+          
+        
+        ,
+        
+          O
+          
+            3
+          
+        
+        ,
+        .
+        .
+        .
+      
+    
+    {\displaystyle O_{1},O_{2},O_{3},...}
+  . That is, the states are nondegenerate.
+Consider a system prepared in state 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  . Since the eigenstates of the observable 
+  
+    
+      
+        
+          
+            
+              O
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {O}}}
+   form a complete basis called eigenbasis, the state vector 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   can be written in terms of the eigenstates as
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        
+          c
+          
+            1
+          
+        
+        
+          |
+        
+        1
+        ⟩
+        +
+        
+          c
+          
+            2
+          
+        
+        
+          |
+        
+        2
+        ⟩
+        +
+        
+          c
+          
+            3
+          
+        
+        
+          |
+        
+        3
+        ⟩
+        +
+        ⋯
+        =
+        
+          ∑
+          
+            n
+          
+        
+        
+          c
+          
+            n
+          
+        
+        
+          |
+        
+        n
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle =c_{1}|1\rangle +c_{2}|2\rangle +c_{3}|3\rangle +\cdots =\sum _{n}c_{n}|n\rangle }
+  ,
+where 
+  
+    
+      
+        
+          c
+          
+            1
+          
+        
+        ,
+        
+          c
+          
+            2
+          
+        
+        ,
+        …
+      
+    
+    {\displaystyle c_{1},c_{2},\ldots }
+   are complex numbers in general. The eigenvalues 
+  
+    
+      
+        
+          O
+          
+            1
+          
+        
+        ,
+        
+          O
+          
+            2
+          
+        
+        ,
+        
+          O
+          
+            3
+          
+        
+        ,
+        .
+        .
+        .
+      
+    
+    {\displaystyle O_{1},O_{2},O_{3},...}
+   are all possible values of the measurement. The corresponding probabilities are given by
+
+  
+    
+      
+        Pr
+        (
+        
+          O
+          
+            n
+          
+        
+        )
+        =
+        
+          
+            
+              
+                |
+              
+              ⟨
+              n
+              
+                |
+              
+              ψ
+              ⟩
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+            
+            
+              
+                |
+              
+              ⟨
+              ψ
+              
+                |
+              
+              ψ
+              ⟩
+              
+                |
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                |
+              
+              
+                c
+                
+                  n
+                
+              
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+            
+            
+              
+                ∑
+                
+                  k
+                
+              
+              
+                |
+              
+              
+                c
+                
+                  k
+                
+              
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \Pr(O_{n})={\frac {|\langle n|\psi \rangle |^{2}}{|\langle \psi |\psi \rangle |}}={\frac {|c_{n}|^{2}}{\sum _{k}|c_{k}|^{2}}}}
+  
+Usually 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   is assumed to be normalized, i.e. 
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        1
+      
+    
+    {\displaystyle \langle \psi |\psi \rangle =1}
+  . Therefore, the expression above is reduced to
+
+  
+    
+      
+        Pr
+        (
+        
+          O
+          
+            n
+          
+        
+        )
+        =
+        
+          |
+        
+        ⟨
+        n
+        
+          |
+        
+        ψ
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          |
+        
+        
+          c
+          
+            n
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \Pr(O_{n})=|\langle n|\psi \rangle |^{2}=|c_{n}|^{2}}
+  
+If the result of the measurement is 
+  
+    
+      
+        
+          O
+          
+            n
+          
+        
+      
+    
+    {\displaystyle O_{n}}
+  , then the system (after measurement) is in pure state 
+  
+    
+      
+        
+          |
+        
+        n
+        ⟩
+      
+    
+    {\displaystyle |n\rangle }
+  . That is,
+
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          ′
+        
+        ⟩
+        =
+        
+          |
+        
+        n
+        ⟩
+      
+    
+    {\displaystyle |\psi '\rangle =|n\rangle }
+  
+so any repeated measurement of 
+  
+    
+      
+        
+          
+            
+              O
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {O}}}
+   will yield the same result 
+  
+    
+      
+        
+          O
+          
+            n
+          
+        
+      
+    
+    {\displaystyle O_{n}}
+  . When there is a discontinuous change in state due to a measurement that involves discrete eigenvalues, that is called wave function collapse. For some, this is simply a description of a reasonably accurate discontinuous change in a mathematical representation of physical reality; for others, depending on philosophical orientation, this is a fundamentally serious problem with quantum theory; others see this as statistically-justified approximation resulting from the fact that the entity performing this measurement has been excluded from the state-representation. In particular, multiple measurements of certain physically extended systems demonstrate predicted statistical correlations which would not be possible under classical assumptions.
+
+
+===== Continuous, nondegenerate spectrum =====
+Let 
+  
+    
+      
+        
+          
+            
+              O
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {O}}}
+   be an observable. By assumption, 
+  
+    
+      
+        
+          
+            
+              O
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {O}}}
+   has continuous eigenstate 
+  
+    
+      
+        
+          |
+        
+        x
+        ⟩
+      
+    
+    {\displaystyle |x\rangle }
+  , with corresponding distinct eigenvalue 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  . The eigenvalue forms a continuous spectrum filling the interval (a,b).
+Consider a system prepared in state 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  . Since the eigenstates of the observable 
+  
+    
+      
+        
+          
+            
+              O
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {O}}}
+   form a complete basis called eigenbasis, the state vector 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   can be written in terms of the eigenstates as
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        
+          ∫
+          
+            a
+          
+          
+            b
+          
+        
+        c
+        (
+        x
+        )
+        
+          |
+        
+        x
+        ⟩
+        
+        d
+        x
+      
+    
+    {\displaystyle |\psi \rangle =\int _{a}^{b}c(x)|x\rangle \,dx}
+  ,
+where 
+  
+    
+      
+        c
+        (
+        x
+        )
+      
+    
+    {\displaystyle c(x)}
+   is a complex-valued function. The eigenvalue that fills up the interval 
+  
+    
+      
+        (
+        a
+        ,
+        b
+        )
+      
+    
+    {\displaystyle (a,b)}
+   is the possible value of measurement. The corresponding probability is described by a probability function given by
+
+  
+    
+      
+        Pr
+        (
+        d
+        <
+        x
+        <
+        e
+        )
+        =
+        
+          
+            
+              
+                ∫
+                
+                  d
+                
+                
+                  e
+                
+              
+              
+                |
+              
+              ⟨
+              x
+              
+                |
+              
+              ψ
+              ⟩
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+              
+              d
+              x
+            
+            
+              
+                ∫
+                
+                  a
+                
+                
+                  b
+                
+              
+              ⟨
+              ψ
+              
+                |
+              
+              ψ
+              ⟩
+              
+              d
+              x
+            
+          
+        
+        =
+        
+          
+            
+              
+                ∫
+                
+                  d
+                
+                
+                  e
+                
+              
+              
+                |
+              
+              c
+              (
+              x
+              )
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+              
+              d
+              x
+            
+            
+              
+                ∫
+                
+                  a
+                
+                
+                  b
+                
+              
+              
+                |
+              
+              c
+              (
+              x
+              )
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+              
+              d
+              x
+            
+          
+        
+      
+    
+    {\displaystyle \Pr(d<x<e)={\frac {\int _{d}^{e}|\langle x|\psi \rangle |^{2}\,dx}{\int _{a}^{b}\langle \psi |\psi \rangle \,dx}}={\frac {\int _{d}^{e}|c(x)|^{2}\,dx}{\int _{a}^{b}|c(x)|^{2}\,dx}}}
+  
+where 
+  
+    
+      
+        (
+        d
+        ,
+        e
+        )
+        ⊆
+        (
+        a
+        ,
+        b
+        )
+      
+    
+    {\displaystyle (d,e)\subseteq (a,b)}
+  . Usually 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   is assumed to be normalized, i.e. 
+  
+    
+      
+        
+          ∫
+          
+            a
+          
+          
+            b
+          
+        
+        ⟨
+        ψ
+        
+          |
+        
+        ψ
+        ⟩
+        
+        d
+        x
+        =
+        1
+      
+    
+    {\displaystyle \int _{a}^{b}\langle \psi |\psi \rangle \,dx=1}
+  . Therefore, the expression above is reduced to
+
+  
+    
+      
+        Pr
+        (
+        d
+        <
+        x
+        <
+        e
+        )
+        =
+        
+          ∫
+          
+            d
+          
+          
+            e
+          
+        
+        
+          |
+        
+        c
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+        d
+        x
+      
+    
+    {\displaystyle \Pr(d<x<e)=\int _{d}^{e}|c(x)|^{2}\,dx}
+  
+If the result of the measurement is 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  , then the system (after measurement) is in pure state 
+  
+    
+      
+        
+          |
+        
+        x
+        ⟩
+      
+    
+    {\displaystyle |x\rangle }
+  . That is,
+
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          ′
+        
+        ⟩
+        =
+        
+          |
+        
+        x
+        ⟩
+        .
+      
+    
+    {\displaystyle |\psi '\rangle =|x\rangle .}
+  
+Alternatively, it is often possible and convenient to analyze a continuous-spectrum measurement by taking it to be the limit of a different measurement with a discrete spectrum. For example, an analysis of scattering involves a continuous spectrum of energies, but by adding a "box" potential (which bounds the volume in which the particle can be found), the spectrum becomes discrete. By considering larger and larger boxes, this approach need not involve any approximation, but rather can be regarded as an equally valid formalism in which this problem can be analyzed.
+
+
+===== Degenerate spectra =====
+If there are multiple eigenstates with the same eigenvalue (called degeneracies), the analysis is a bit less simple to state, but not essentially different. In the discrete case, for example, instead of finding a complete eigenbasis, it is a bit more convenient to write the Hilbert space as a direct sum of multiple eigenspaces. The probability of measuring a particular eigenvalue is the squared component of the state vector in the corresponding eigenspace, and the new state after measurement is the projection of the original state vector into the appropriate eigenspace.
+
+
+===== Density matrix formulation =====
+
+Instead of performing quantum-mechanics computations in terms of wave functions (kets), it is sometimes necessary to describe a quantum-mechanical system in terms of a density matrix. The analysis in this case is formally slightly different, but the physical content is the same, and indeed this case can be derived from the wave function formulation above. The result for the discrete, degenerate case, for example, is as follows:
+Let 
+  
+    
+      
+        
+          
+            
+              O
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {O}}}
+   be an observable, and suppose that it has discrete eigenvalues 
+  
+    
+      
+        
+          O
+          
+            1
+          
+        
+        ,
+        
+          O
+          
+            2
+          
+        
+        ,
+        
+          O
+          
+            3
+          
+        
+        ,
+        …
+      
+    
+    {\displaystyle O_{1},O_{2},O_{3},\ldots }
+  , associated with eigenspaces 
+  
+    
+      
+        
+          V
+          
+            1
+          
+        
+        ,
+        
+          V
+          
+            2
+          
+        
+        ,
+        …
+      
+    
+    {\displaystyle V_{1},V_{2},\ldots }
+   respectively. Let 
+  
+    
+      
+        
+          P
+          
+            n
+          
+        
+      
+    
+    {\displaystyle P_{n}}
+   be the projection operator into the space 
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+      
+    
+    {\displaystyle V_{n}}
+  .
+Assume the system is prepared in the state described by the density matrix ρ. Then measuring 
+  
+    
+      
+        
+          
+            
+              O
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {O}}}
+   can yield any of the results 
+  
+    
+      
+        
+          O
+          
+            1
+          
+        
+        ,
+        
+          O
+          
+            2
+          
+        
+        ,
+        
+          O
+          
+            3
+          
+        
+        ,
+        …
+      
+    
+    {\displaystyle O_{1},O_{2},O_{3},\ldots }
+  , with corresponding probabilities given by
+
+  
+    
+      
+        Pr
+        (
+        
+          O
+          
+            n
+          
+        
+        )
+        =
+        
+          T
+          r
+        
+        (
+        
+          P
+          
+            n
+          
+        
+        ρ
+        )
+      
+    
+    {\displaystyle \Pr(O_{n})=\mathrm {Tr} (P_{n}\rho )}
+  
+where 
+  
+    
+      
+        
+          T
+          r
+        
+      
+    
+    {\displaystyle \mathrm {Tr} }
+   denotes trace. If the result of the measurement is n, then the new density matrix will be
+
+  
+    
+      
+        
+          ρ
+          ′
+        
+        =
+        
+          
+            
+              
+                P
+                
+                  n
+                
+              
+              ρ
+              
+                P
+                
+                  n
+                
+              
+            
+            
+              
+                T
+                r
+              
+              (
+              
+                P
+                
+                  n
+                
+              
+              ρ
+              )
+            
+          
+        
+      
+    
+    {\displaystyle \rho '={\frac {P_{n}\rho P_{n}}{\mathrm {Tr} (P_{n}\rho )}}}
+  
+Alternatively, one can say that the measurement process results in the new density matrix
+
+  
+    
+      
+        
+          ρ
+          ″
+        
+        =
+        
+          ∑
+          
+            n
+          
+        
+        
+          P
+          
+            n
+          
+        
+        ρ
+        
+          P
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \rho ''=\sum _{n}P_{n}\rho P_{n}}
+  
+where the difference is that 
+  
+    
+      
+        
+          ρ
+          ″
+        
+      
+    
+    {\displaystyle \rho ''}
+   is the density matrix describing the entire ensemble, whereas 
+  
+    
+      
+        
+          ρ
+          ′
+        
+      
+    
+    {\displaystyle \rho '}
+   is the density matrix describing the sub-ensemble whose measurement result was 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  .
+
+
+==== Statistics of measurement ====
+As detailed above, the result of measuring a quantum-mechanical system is described by a probability distribution. Some properties of this distribution are as follows:
+Suppose we take a measurement corresponding to observable 
+  
+    
+      
+        
+          
+            
+              O
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {O}}}
+  , on a state whose quantum state is 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  .
+The mean (average) value of the measurement is
+
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        
+          
+            
+              O
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle \langle \psi |{\hat {O}}|\psi \rangle }
+   (see expectation value).
+
+The variance of the measurement is
+
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        
+          
+            
+              
+                O
+                ^
+              
+            
+          
+          
+            2
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        −
+        (
+        ⟨
+        ψ
+        
+          |
+        
+        
+          
+            
+              O
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \langle \psi |{\hat {O}}^{2}|\psi \rangle -(\langle \psi |{\hat {O}}|\psi \rangle )^{2}}
+  
+
+The standard deviation of the measurement is
+
+  
+    
+      
+        
+          
+            ⟨
+            ψ
+            
+              |
+            
+            
+              
+                
+                  
+                    O
+                    ^
+                  
+                
+              
+              
+                2
+              
+            
+            
+              |
+            
+            ψ
+            ⟩
+            −
+            (
+            ⟨
+            ψ
+            
+              |
+            
+            
+              
+                
+                  O
+                  ^
+                
+              
+            
+            
+              |
+            
+            ψ
+            ⟩
+            
+              )
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\sqrt {\langle \psi |{\hat {O}}^{2}|\psi \rangle -(\langle \psi |{\hat {O}}|\psi \rangle )^{2}}}}
+  
+
+These are direct consequences of the above formulas for measurement probabilities.
+
+
+==== Example ====
+Suppose that we have a particle in a 1-dimensional box, set up initially in the ground state 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            1
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{1}\rangle }
+  . As can be computed from the time-independent Schrödinger equation, the energy of this state is 
+  
+    
+      
+        
+          E
+          
+            1
+          
+        
+        =
+        
+          
+            
+              
+                π
+                
+                  2
+                
+              
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+              
+                L
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle E_{1}={\frac {\pi ^{2}\hbar ^{2}}{2mL^{2}}}}
+   (where m is the particle's mass and L is the box length), and the spatial wave function is 
+  
+    
+      
+        ⟨
+        x
+        
+          |
+        
+        
+          ψ
+          
+            1
+          
+        
+        ⟩
+        =
+        
+          
+            
+              2
+              L
+            
+          
+        
+         
+        
+          
+            s
+            i
+            n
+          
+        
+        
+          (
+          
+            
+              
+                π
+                x
+              
+              L
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \langle x|\psi _{1}\rangle ={\sqrt {\frac {2}{L}}}~{\rm {sin}}\left({\frac {\pi x}{L}}\right)}
+  . If the energy is now measured, the result will always certainly be 
+  
+    
+      
+        
+          E
+          
+            1
+          
+        
+      
+    
+    {\displaystyle E_{1}}
+  , and this measurement will not affect the wave function.
+Next suppose that the particle's position is measured. The position x will be measured with probability density
+
+  
+    
+      
+        Pr
+        (
+        S
+        <
+        x
+        <
+        S
+        +
+        d
+        S
+        )
+        =
+        
+          
+            2
+            L
+          
+        
+         
+        
+          
+            
+              s
+              i
+              n
+            
+          
+          
+            2
+          
+        
+        
+          (
+          
+            
+              
+                π
+                S
+              
+              L
+            
+          
+          )
+        
+        d
+        S
+        .
+      
+    
+    {\displaystyle \Pr(S<x<S+dS)={\frac {2}{L}}~{\rm {sin}}^{2}\left({\frac {\pi S}{L}}\right)dS.}
+  
+If the measurement result was x=S, then the wave function after measurement will be the position eigenstate 
+  
+    
+      
+        
+          |
+        
+        x
+        =
+        S
+        ⟩
+      
+    
+    {\displaystyle |x=S\rangle }
+  . If the particle's position is immediately measured again, the same position will be obtained.
+The new wave function 
+  
+    
+      
+        
+          |
+        
+        x
+        =
+        S
+        ⟩
+      
+    
+    {\displaystyle |x=S\rangle }
+   can, like any wave function, be written as a superposition of eigenstates of any observable. In particular, using energy eigenstates, 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{n}\rangle }
+  , we have
+
+  
+    
+      
+        
+          |
+        
+        x
+        =
+        S
+        ⟩
+        =
+        
+          ∑
+          
+            n
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+        
+          ⟨
+          
+            ψ
+            
+              n
+            
+          
+          
+            |
+          
+          x
+          =
+          S
+          ⟩
+        
+        =
+        
+          ∑
+          
+            n
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+        
+          
+            
+              2
+              L
+            
+          
+        
+         
+        
+          
+            s
+            i
+            n
+          
+        
+        
+          (
+          
+            
+              
+                n
+                π
+                S
+              
+              L
+            
+          
+          )
+        
+      
+    
+    {\displaystyle |x=S\rangle =\sum _{n}|\psi _{n}\rangle \left\langle \psi _{n}|x=S\right\rangle =\sum _{n}|\psi _{n}\rangle {\sqrt {\frac {2}{L}}}~{\rm {sin}}\left({\frac {n\pi S}{L}}\right)}
+  
+If we now leave this state alone, it will smoothly evolve in time according to the Schrödinger equation. But suppose instead that an energy measurement is immediately taken. Then the possible energy values 
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+      
+    
+    {\displaystyle E_{n}}
+   will be measured with relative probabilities:
+
+  
+    
+      
+        Pr
+        (
+        
+          E
+          
+            n
+          
+        
+        )
+        =
+        
+          |
+        
+        ⟨
+        
+          ψ
+          
+            n
+          
+        
+        
+          |
+        
+        S
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          
+            2
+            L
+          
+        
+         
+        
+          
+            
+              s
+              i
+              n
+            
+          
+          
+            2
+          
+        
+        
+          (
+          
+            
+              
+                n
+                π
+                S
+              
+              L
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \Pr(E_{n})=|\langle \psi _{n}|S\rangle |^{2}={\frac {2}{L}}~{\rm {sin}}^{2}\left({\frac {n\pi S}{L}}\right)}
+  
+and moreover if the measurement result is 
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+      
+    
+    {\displaystyle E_{n}}
+  , then the new state will be the energy eigenstate 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{n}\rangle }
+  .
+So in this example, due to the process of wave function collapse, a particle initially in the ground state can end up in any energy level, after just two subsequent non-commuting measurements are made.
+
+
+== Wave function collapse ==
+
+The process in which a quantum state becomes one of the eigenstates of the operator corresponding to the measured observable is called "collapse", or "wave function collapse". The final eigenstate appears randomly with a probability equal to the square of its overlap with the original state. The process of collapse has been studied in many experiments, most famously in the double-slit experiment. The wave function collapse raises serious questions regarding "the measurement problem", as well as questions of determinism and locality, as demonstrated in the EPR paradox and later in GHZ entanglement. (See below.)
+In the last few decades, major advances have been made toward a theoretical understanding of the collapse process. This new theoretical framework, called quantum decoherence, supersedes previous notions of instantaneous collapse and provides an explanation for the absence of quantum coherence after measurement. Decoherence correctly predicts the form and probability distribution of the final eigenstates, and explains the apparent randomness of the choice of final state in terms of einselection.
+
+
+=== von Neumann measurement scheme ===
+The von Neumann measurement scheme, the ancestor of quantum decoherence theory, describes measurements by taking into account the measuring apparatus which is also treated as a quantum object.
+
+
+==== "Measurement" of the first kind — premeasurement without detection ====
+Let the quantum state be in the superposition 
+  
+    
+      
+        
+          
+            |
+          
+          ψ
+          ⟩
+          =
+          
+            ∑
+            
+              n
+            
+          
+          
+            c
+            
+              n
+            
+          
+          
+            |
+          
+          
+            ψ
+            
+              n
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\psi \rangle =\sum _{n}c_{n}|\psi _{n}\rangle }
+  , where 
+  
+    
+      
+        
+          
+            |
+          
+          
+            ψ
+            
+              n
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\psi _{n}\rangle }
+   are eigenstates of the operator for the so-called "measurement" prior to von Neumann's second apparatus. In order to make the "measurement", the system described by 
+  
+    
+      
+        
+          
+            |
+          
+          ψ
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\psi \rangle }
+   needs to interact with the measuring apparatus described by the quantum state 
+  
+    
+      
+        
+          
+            |
+          
+          ϕ
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\phi \rangle }
+  , so that the total wave function before the measurement and interaction with the second apparatus is 
+  
+    
+      
+        
+          
+            |
+          
+          ψ
+          ⟩
+          
+            |
+          
+          ϕ
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\psi \rangle |\phi \rangle }
+  . During the interaction of object and measuring instrument the unitary evolution is supposed to realize the following transition from the initial to the final total wave function:
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        
+          |
+        
+        ϕ
+        ⟩
+        →
+        
+          ∑
+          
+            n
+          
+        
+        
+          c
+          
+            n
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+        
+          |
+        
+        
+          ϕ
+          
+            n
+          
+        
+        ⟩
+        
+        
+          (measurement of the first kind),
+        
+      
+    
+    {\displaystyle |\psi \rangle |\phi \rangle \rightarrow \sum _{n}c_{n}|\psi _{n}\rangle |\phi _{n}\rangle \quad {\text{(measurement of the first kind),}}}
+  
+where 
+  
+    
+      
+        
+          
+            |
+          
+          
+            ϕ
+            
+              n
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\phi _{n}\rangle }
+   are orthonormal states of the measuring apparatus. The unitary evolution above is referred to as premeasurement. The relation with wave function collapse is established by calculating the final density operator of the object 
+  
+    
+      
+        
+          
+            ∑
+            
+              n
+            
+          
+          
+            |
+          
+          
+            c
+            
+              n
+            
+          
+          
+            
+              |
+            
+            
+              2
+            
+          
+          
+            |
+          
+          
+            ψ
+            
+              n
+            
+          
+          ⟩
+          ⟨
+          
+            ψ
+            
+              n
+            
+          
+          
+            |
+          
+        
+      
+    
+    {\displaystyle \scriptstyle \sum _{n}|c_{n}|^{2}|\psi _{n}\rangle \langle \psi _{n}|}
+   from the final total wave function. This density operator is interpreted by von Neumann as describing an ensemble of objects being after the measurement with probability 
+  
+    
+      
+        
+          
+            |
+          
+          
+            c
+            
+              n
+            
+          
+          
+            
+              |
+            
+            
+              2
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle |c_{n}|^{2}}
+   in the state 
+  
+    
+      
+        
+          
+            |
+          
+          
+            ψ
+            
+              n
+            
+          
+          ⟩
+          .
+        
+      
+    
+    {\displaystyle \scriptstyle |\psi _{n}\rangle .}
+  
+The transition
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        →
+        
+          ∑
+          
+            n
+          
+        
+        
+          |
+        
+        
+          c
+          
+            n
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+        ⟨
+        
+          ψ
+          
+            n
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle \rightarrow \sum _{n}|c_{n}|^{2}|\psi _{n}\rangle \langle \psi _{n}|\psi \rangle }
+  
+is often referred to as weak von Neumann projection, the wave function collapse or strong von Neumann projection
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        →
+        
+          ∑
+          
+            n
+          
+        
+        
+          |
+        
+        
+          c
+          
+            n
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+        ⟨
+        
+          ψ
+          
+            n
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        →
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle \rightarrow \sum _{n}|c_{n}|^{2}|\psi _{n}\rangle \langle \psi _{n}|\psi \rangle \rightarrow |\psi _{n}\rangle }
+  
+being thought to correspond to an additional selection of a subensemble by means of observation.
+In case the measured observable has a degenerate spectrum, weak von Neumann projection is generalized to Lüders projection
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        →
+        
+          ∑
+          
+            n
+          
+        
+        
+          |
+        
+        
+          c
+          
+            n
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          P
+          
+            n
+          
+        
+        ,
+        
+        
+          P
+          
+            n
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            n
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          ψ
+          
+            n
+            i
+          
+        
+        
+          |
+        
+        ,
+      
+    
+    {\displaystyle |\psi \rangle \rightarrow \sum _{n}|c_{n}|^{2}P_{n},\;P_{n}=\sum _{i}|\psi _{ni}\rangle \langle \psi _{ni}|,}
+  
+in which the vectors 
+  
+    
+      
+        
+          
+            |
+          
+          
+            ψ
+            
+              n
+              i
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\psi _{ni}\rangle }
+   for fixed n are the degenerate eigenvectors of the measured observable. For an arbitrary state described by a density operator 
+  
+    
+      
+        
+          ρ
+        
+      
+    
+    {\displaystyle \scriptstyle \rho }
+   Lüders projection is given by
+
+  
+    
+      
+        ρ
+        →
+        
+          ∑
+          
+            n
+          
+        
+        
+          P
+          
+            n
+          
+        
+        ρ
+        
+          P
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle \rho \rightarrow \sum _{n}P_{n}\rho P_{n}.}
+  
+
+
+==== Measurement of the second kind — with irreversible detection ====
+In a measurement of the second kind the unitary evolution during the interaction of object and measuring instrument is supposed to be given by
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        
+          |
+        
+        ϕ
+        ⟩
+        →
+        
+          ∑
+          
+            n
+          
+        
+        
+          c
+          
+            n
+          
+        
+        
+          |
+        
+        
+          χ
+          
+            n
+          
+        
+        ⟩
+        
+          |
+        
+        
+          ϕ
+          
+            n
+          
+        
+        ⟩
+        ,
+      
+    
+    {\displaystyle |\psi \rangle |\phi \rangle \rightarrow \sum _{n}c_{n}|\chi _{n}\rangle |\phi _{n}\rangle ,}
+  
+in which the states 
+  
+    
+      
+        
+          
+            |
+          
+          
+            χ
+            
+              n
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\chi _{n}\rangle }
+   of the object are determined by specific properties of the interaction between object and measuring instrument. They are normalized but not necessarily mutually orthogonal. The relation with wave function collapse is analogous to that obtained for measurements of the first kind, the final state of the object now being 
+  
+    
+      
+        
+          
+            |
+          
+          
+            χ
+            
+              n
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\chi _{n}\rangle }
+   with probability 
+  
+    
+      
+        
+          
+            |
+          
+          
+            c
+            
+              n
+            
+          
+          
+            
+              |
+            
+            
+              2
+            
+          
+          .
+        
+      
+    
+    {\displaystyle \scriptstyle |c_{n}|^{2}.}
+   Note that many measurement procedures are measurements of the second kind, some even functioning correctly only as a consequence of being of the second kind. For instance, a photon counter, detecting a photon by absorbing and hence annihilating it, thus ideally leaving the electromagnetic field in the vacuum state rather than in the state corresponding to the number of detected photons; also the Stern–Gerlach experiment would not function at all if it really were a measurement of the first kind.
+
+
+=== Decoherence in quantum measurement ===
+One can also introduce the interaction with the environment 
+  
+    
+      
+        
+          
+            |
+          
+          e
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |e\rangle }
+  , so that, in a measurement of the first kind, after the interaction the total wave function takes a form
+
+  
+    
+      
+        
+          ∑
+          
+            n
+          
+        
+        
+          c
+          
+            n
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+        
+          |
+        
+        
+          ϕ
+          
+            n
+          
+        
+        ⟩
+        
+          |
+        
+        
+          e
+          
+            n
+          
+        
+        ⟩
+        ,
+      
+    
+    {\displaystyle \sum _{n}c_{n}|\psi _{n}\rangle |\phi _{n}\rangle |e_{n}\rangle ,}
+  
+which is related to the phenomenon of decoherence.
+The above is completely described by the Schrödinger equation and there are not any interpretational problems with this. Now the problematic wave function collapse does not need to be understood as a process 
+  
+    
+      
+        
+          
+            |
+          
+          ψ
+          ⟩
+          →
+          
+            |
+          
+          
+            ψ
+            
+              n
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\psi \rangle \rightarrow |\psi _{n}\rangle }
+   on the level of the measured system, but can also be understood as a process 
+  
+    
+      
+        
+          
+            |
+          
+          ϕ
+          ⟩
+          →
+          
+            |
+          
+          
+            ϕ
+            
+              n
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |\phi \rangle \rightarrow |\phi _{n}\rangle }
+   on the level of the measuring apparatus, or as a process 
+  
+    
+      
+        
+          
+            |
+          
+          e
+          ⟩
+          →
+          
+            |
+          
+          
+            e
+            
+              n
+            
+          
+          ⟩
+        
+      
+    
+    {\displaystyle \scriptstyle |e\rangle \rightarrow |e_{n}\rangle }
+   on the level of the environment. Studying these processes provides considerable insight into the measurement problem by avoiding the arbitrary boundary between the quantum and classical worlds, though it does not explain the presence of randomness in the choice of final eigenstate. If the set of states
+
+  
+    
+      
+        {
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+        }
+      
+    
+    {\displaystyle \{|\psi _{n}\rangle \}}
+  , 
+  
+    
+      
+        {
+        
+          |
+        
+        
+          ϕ
+          
+            n
+          
+        
+        ⟩
+        }
+      
+    
+    {\displaystyle \{|\phi _{n}\rangle \}}
+  , or 
+  
+    
+      
+        {
+        
+          |
+        
+        
+          e
+          
+            n
+          
+        
+        ⟩
+        }
+      
+    
+    {\displaystyle \{|e_{n}\rangle \}}
+  
+represents a set of states that do not overlap in space, the appearance of collapse can be generated by either the Bohm interpretation or the Everett interpretation which both deny the reality of wave function collapse. Both of these are stated to predict the same probabilities for collapses to various states as the conventional interpretation by their supporters. The Bohm interpretation is held to be correct only by a small minority of physicists, since there are difficulties with the generalization for use with relativistic quantum field theory. However, there is no proof that the Bohm interpretation is inconsistent with quantum field theory, and work to reconcile the two is ongoing. The Everett interpretation easily accommodates relativistic quantum field theory.
+
+
+== Philosophical problems of quantum measurements ==
+
+
+=== What physical interaction constitutes a measurement? ===
+Until the advent of quantum decoherence theory in the late 20th century, a major conceptual problem of quantum mechanics and especially the Copenhagen interpretation was the lack of a distinctive criterion for a given physical interaction to qualify as "a measurement" and cause a wave function to collapse. This is illustrated by the Schrödinger's cat paradox. Certain aspects of this question are now well understood in the framework of quantum decoherence theory, such as an understanding of weak measurements, and quantifying what measurements or interactions are sufficient to destroy quantum coherence. Nevertheless, there remains less than universal agreement among physicists on some aspects of the question of what constitutes a measurement.
+
+
+=== Does measurement actually determine the state? ===
+The question of whether (and in what sense) a measurement actually determines the state is one which differs among the different interpretations of quantum mechanics. (It is also closely related to the understanding of wave function collapse.) For example, in most versions of the Copenhagen interpretation, the measurement determines the state, and after measurement the state is definitely what was measured. But according to the many-worlds interpretation, measurement determines the state in a more restricted sense: In other "worlds", other measurement results were obtained, and the other possible states still exist.
+
+
+=== Is the measurement process random or deterministic? ===
+As described above, there is universal agreement that quantum mechanics appears random, in the sense that all experimental results yet uncovered can be predicted and understood in the framework of quantum mechanics measurements being fundamentally random. Nevertheless, it is not settled whether this is true, fundamental randomness, or merely "emergent" randomness resulting from underlying hidden variables which deterministically cause measurement results to happen a certain way each time. This continues to be an area of active research.
+If there are hidden variables, Bell's theorem suggests they would have to be "nonlocal".
+
+
+=== Does the measurement process violate locality? ===
+
+In physics, the Principle of locality is the concept that information cannot travel faster than the speed of light (also see special relativity). It is known experimentally (see Bell's theorem, which is related to the EPR paradox) that if quantum mechanics is deterministic (due to hidden variables, as described above), and counterfactual definiteness is true, then it is nonlocal (i.e. violates the principle of locality). Nevertheless, there is not universal agreement among physicists on whether quantum mechanics is nondeterministic, nonlocal, or both.
+
+
+== Quotes ==
+
+A measurement always causes the system to jump into an eigenstate of the dynamical variable that is being measured, the eigenvalue this eigenstate belongs to being equal to the result of the measurement.
+
+
+== See also ==
+Measurement related problems and paradoxes
+Afshar experiment
+Measurement problem
+Wave function collapse
+Quantum Zeno effect
+EPR paradox
+Quantum pseudo-telepathy
+Renninger negative-result experiment
+Elitzur–Vaidman bomb-testing problem
+Schrödinger's cat
+Popper's experiment
+
+Interpretations of quantum mechanics
+Transactional interpretation
+Copenhagen interpretation
+Many-worlds interpretation
+Hidden variables theory
+
+Quantum mechanics formalism
+Quantum mechanics
+Mathematical formulation of quantum mechanics
+Schrödinger equation
+Bra-ket notation
+Generalized measurement (POVM, Positive operator valued measure)
+
+
+== References ==
+
+
+== Further reading ==
+John A. Wheeler and Wojciech Hubert Zurek, eds. (1983). Quantum Theory and Measurement. Princeton University Press. ISBN 0-691-08316-9. 
+Vladimir B. Braginsky and Farid Ya. Khalili (1992). Quantum Measurement. Cambridge University Press. ISBN 0-521-41928-X. 
+George S. Greenstein & Arthur G. Zajonc (2006). The Quantum Challenge: Modern Research On The Foundations Of Quantum Mechanics (2nd ed.). ISBN 076372470X. 
+
+
+== External links ==
+"The Double Slit Experiment". (physicsweb.org)
+"Measurement in Quantum Mechanics" Henry Krips in the Stanford Encyclopedia of Philosophy
+Decoherence, the measurement problem, and interpretations of quantum mechanics
+Measurements and Decoherence
+The conditions for discrimination between quantum states with minimum error
+Quantum behavior of measurement apparatus

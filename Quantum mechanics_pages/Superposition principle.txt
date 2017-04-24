@@ -1,0 +1,818 @@
+In physics and systems theory, the superposition principle, also known as superposition property, states that, for all linear systems, the net response at a given place and time caused by two or more stimuli is the sum of the responses that would have been caused by each stimulus individually. So that if input A produces response X and input B produces response Y then input (A + B) produces response (X + Y).
+The homogeneity and additivity properties together are called the superposition principle. A linear function is one that satisfies the properties of superposition. It is defined as
+
+  
+    
+      
+        F
+        (
+        
+          x
+          
+            1
+          
+        
+        +
+        
+          x
+          
+            2
+          
+        
+        )
+        =
+        F
+        (
+        
+          x
+          
+            1
+          
+        
+        )
+        +
+        F
+        (
+        
+          x
+          
+            2
+          
+        
+        )
+        
+      
+    
+    {\displaystyle F(x_{1}+x_{2})=F(x_{1})+F(x_{2})\,}
+   Additivity
+
+  
+    
+      
+        F
+        (
+        a
+        x
+        )
+        =
+        a
+        F
+        (
+        x
+        )
+        
+      
+    
+    {\displaystyle F(ax)=aF(x)\,}
+   Homogeneity
+for scalar a.
+This principle has many applications in physics and engineering because many physical systems can be modeled as linear systems. For example, a beam can be modeled as a linear system where the input stimulus is the load on the beam and the output response is the deflection of the beam. The importance of linear systems is that they are easier to analyze mathematically; there is a large body of mathematical techniques, frequency domain linear transform methods such as Fourier, Laplace transforms, and linear operator theory, that are applicable. Because physical systems are generally only approximately linear, the superposition principle is only an approximation of the true physical behaviour.
+The superposition principle applies to any linear system, including algebraic equations, linear differential equations, and systems of equations of those forms. The stimuli and responses could be numbers, functions, vectors, vector fields, time-varying signals, or any other object that satisfies certain axioms. Note that when vectors or vector fields are involved, a superposition is interpreted as a vector sum.
+
+
+== Relation to Fourier analysis and similar methods ==
+By writing a very general stimulus (in a linear system) as the superposition of stimuli of a specific, simple form, often the response becomes easier to compute.
+For example, in Fourier analysis, the stimulus is written as the superposition of infinitely many sinusoids. Due to the superposition principle, each of these sinusoids can be analyzed separately, and its individual response can be computed. (The response is itself a sinusoid, with the same frequency as the stimulus, but generally a different amplitude and phase.) According to the superposition principle, the response to the original stimulus is the sum (or integral) of all the individual sinusoidal responses.
+As another common example, in Green's function analysis, the stimulus is written as the superposition of infinitely many impulse functions, and the response is then a superposition of impulse responses.
+Fourier analysis is particularly common for waves. For example, in electromagnetic theory, ordinary light is described as a superposition of plane waves (waves of fixed frequency, polarization, and direction). As long as the superposition principle holds (which is often but not always; see nonlinear optics), the behavior of any light wave can be understood as a superposition of the behavior of these simpler plane waves.
+
+
+== Wave superposition ==
+
+Waves are usually described by variations in some parameter through space and time—for example, height in a water wave, pressure in a sound wave, or the electromagnetic field in a light wave. The value of this parameter is called the amplitude of the wave, and the wave itself is a function specifying the amplitude at each point.
+In any system with waves, the waveform at a given time is a function of the sources (i.e., external forces, if any, that create or affect the wave) and initial conditions of the system. In many cases (for example, in the classic wave equation), the equation describing the wave is linear. When this is true, the superposition principle can be applied. That means that the net amplitude caused by two or more waves traversing the same space is the sum of the amplitudes that would have been produced by the individual waves separately. For example, two waves traveling towards each other will pass right through each other without any distortion on the other side. (See image at top.)
+
+
+=== Wave diffraction vs. wave interference ===
+With regard to wave superposition, Richard Feynman wrote:
+
+No-one has ever been able to define the difference between interference and diffraction satisfactorily. It is just a question of usage, and there is no specific, important physical difference between them. The best we can do is, roughly speaking, is to say that when there are only a few sources, say two, interfering, then the result is usually called interference, but if there is a large number of them, it seems that the word diffraction is more often used.
+
+Other authors elaborate:
+
+The difference is one of convenience and convention. If the waves to be superposed originate from a few coherent sources, say, two, the effect is called interference. On the other hand, if the waves to be superposed originate by subdividing a wavefront into infinitesimal coherent wavelets (sources), the effect is called diffraction. That is the difference between the two phenomena is [a matter] of degree only, and basically they are two limiting cases of superposition effects.
+
+Yet another source concurs:
+
+Inasmuch as the interference fringes observed by Young were the diffraction pattern of the double slit, this chapter [Fraunhofer diffraction] is therefore a continuation of Chapter 8 [Interference]. On the other hand, few opticians would regard the Michelson interferometer as an example of diffraction. Some of the important categories of diffraction relate to the interference that accompanies division of the wavefront, so Feynman's observation to some extent reflects the difficulty that we may have in distinguishing division of amplitude and division of wavefront.
+
+
+=== Wave interference ===
+
+The phenomenon of interference between waves is based on this idea. When two or more waves traverse the same space, the net amplitude at each point is the sum of the amplitudes of the individual waves. In some cases, such as in noise-cancelling headphones, the summed variation has a smaller amplitude than the component variations; this is called destructive interference. In other cases, such as in Line Array, the summed variation will have a bigger amplitude than any of the components individually; this is called constructive interference.
+
+
+=== Departures from linearity ===
+In most realistic physical situations, the equation governing the wave is only approximately linear. In these situations, the superposition principle only approximately holds. As a rule, the accuracy of the approximation tends to improve as the amplitude of the wave gets smaller. For examples of phenomena that arise when the superposition principle does not exactly hold, see the articles nonlinear optics and nonlinear acoustics.
+
+
+=== Quantum superposition ===
+
+In quantum mechanics, a principal task is to compute how a certain type of wave propagates and behaves. The wave is described by a wave function, and the equation governing its behavior is called the Schrödinger equation. A primary approach to computing the behavior of a wave function is to write it as a superposition (called "quantum superposition") of (possibly infinitely many) other wave functions of a certain type—stationary states whose behavior is particularly simple. Since the Schrödinger equation is linear, the behavior of the original wave function can be computed through the superposition principle this way.
+The projective nature of quantum-mechanical-state space makes an important difference: it does not permit superposition of the kind that is the topic of the present article. A quantum mechanical state is a ray in projective Hilbert space, not a vector. The sum of two rays is undefined. To obtain the relative phase, we must decompose or split the ray into components
+
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+        
+        ⟩
+        =
+        
+          ∑
+          
+            j
+          
+        
+        
+          
+            C
+            
+              j
+            
+          
+        
+        
+          |
+        
+        
+          ϕ
+          
+            j
+          
+        
+        ⟩
+        ,
+      
+    
+    {\displaystyle |\psi _{i}\rangle =\sum _{j}{C_{j}}|\phi _{j}\rangle ,}
+  
+where the 
+  
+    
+      
+        
+          C
+          
+            j
+          
+        
+        ∈
+        
+          
+            C
+          
+        
+      
+    
+    {\displaystyle C_{j}\in {\textbf {C}}}
+   and the 
+  
+    
+      
+        
+          |
+        
+        
+          ϕ
+          
+            j
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\phi _{j}\rangle }
+   belongs to an orthonormal basis set. The equivalence class of 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{i}\rangle }
+   allows a well-defined meaning to be given to the relative phases of the 
+  
+    
+      
+        
+          C
+          
+            j
+          
+        
+      
+    
+    {\displaystyle C_{j}}
+  .
+There are some likenesses between the superposition presented in the main on this page, and quantum superposition. Nevertheless, on the topic of quantum superposition, Kramers writes: "The principle of [quantum] superposition ... has no analogy in classical physics." According to Dirac: "the superposition that occurs in quantum mechanics is of an essentially different nature from any occurring in the classical theory [italics in original]." The topic of quantum superposition is discussed here in Wikipedia.
+
+
+== Boundary value problems ==
+
+A common type of boundary value problem is (to put it abstractly) finding a function y that satisfies some equation
+
+  
+    
+      
+        F
+        (
+        y
+        )
+        =
+        0
+      
+    
+    {\displaystyle F(y)=0}
+  
+with some boundary specification
+
+  
+    
+      
+        G
+        (
+        y
+        )
+        =
+        z
+      
+    
+    {\displaystyle G(y)=z}
+  
+For example, in Laplace's equation with Dirichlet boundary conditions, F would be the Laplacian operator in a region R, G would be an operator that restricts y to the boundary of R, and z would be the function that y is required to equal on the boundary of R.
+In the case that F and G are both linear operators, then the superposition principle says that a superposition of solutions to the first equation is another solution to the first equation:
+
+  
+    
+      
+        F
+        (
+        
+          y
+          
+            1
+          
+        
+        )
+        =
+        F
+        (
+        
+          y
+          
+            2
+          
+        
+        )
+        =
+        ⋯
+        =
+        0
+         
+        ⇒
+         
+        F
+        (
+        
+          y
+          
+            1
+          
+        
+        +
+        
+          y
+          
+            2
+          
+        
+        +
+        ⋯
+        )
+        =
+        0
+      
+    
+    {\displaystyle F(y_{1})=F(y_{2})=\cdots =0\ \Rightarrow \ F(y_{1}+y_{2}+\cdots )=0}
+  
+while the boundary values superpose:
+
+  
+    
+      
+        G
+        (
+        
+          y
+          
+            1
+          
+        
+        )
+        +
+        G
+        (
+        
+          y
+          
+            2
+          
+        
+        )
+        =
+        G
+        (
+        
+          y
+          
+            1
+          
+        
+        +
+        
+          y
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle G(y_{1})+G(y_{2})=G(y_{1}+y_{2})}
+  
+Using these facts, if a list can be compiled of solutions to the first equation, then these solutions can be carefully put into a superposition such that it will satisfy the second equation. This is one common method of approaching boundary value problems.
+
+
+== Additive state decomposition ==
+
+Consider a simple linear system :
+  
+    
+      
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        =
+        A
+        x
+        +
+        B
+        (
+        
+          u
+          
+            1
+          
+        
+        +
+        
+          u
+          
+            2
+          
+        
+        )
+        ,
+        x
+        (
+        0
+        )
+        =
+        
+          x
+          
+            0
+          
+        
+        .
+      
+    
+    {\displaystyle {\dot {x}}=Ax+B(u_{1}+u_{2}),x(0)=x_{0}.}
+  
+By superposition principle, the system can be decomposed into
+  
+    
+      
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            1
+          
+        
+        =
+        A
+        
+          x
+          
+            1
+          
+        
+        +
+        B
+        
+          u
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            1
+          
+        
+        (
+        0
+        )
+        =
+        
+          x
+          
+            0
+          
+        
+        .
+      
+    
+    {\displaystyle {\dot {x}}_{1}=Ax_{1}+Bu_{1},x_{1}(0)=x_{0}.}
+  
+  
+    
+      
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        =
+        A
+        
+          x
+          
+            2
+          
+        
+        +
+        B
+        
+          u
+          
+            2
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        (
+        0
+        )
+        =
+        0.
+      
+    
+    {\displaystyle {\dot {x}}_{2}=Ax_{2}+Bu_{2},x_{2}(0)=0.}
+  
+with
+  
+    
+      
+        x
+        =
+        
+          x
+          
+            1
+          
+        
+        +
+        
+          x
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle x=x_{1}+x_{2}.}
+   Superposition principle is only available for linear systems. However, the Additive state decomposition can be applied not only to linear systems but also nonlinear systems. Next, consider a nonlinear system
+  
+    
+      
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        =
+        A
+        x
+        +
+        B
+        (
+        
+          u
+          
+            1
+          
+        
+        +
+        
+          u
+          
+            2
+          
+        
+        )
+        +
+        ϕ
+        (
+        
+          c
+          
+            T
+          
+        
+        x
+        )
+        ,
+        x
+        (
+        0
+        )
+        =
+        
+          x
+          
+            0
+          
+        
+        .
+      
+    
+    {\displaystyle {\dot {x}}=Ax+B(u_{1}+u_{2})+\phi (c^{T}x),x(0)=x_{0}.}
+  
+where 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+   is a nonlinear function. By the additive state decomposition, the system can be ‘additively’ decomposed into
+  
+    
+      
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            1
+          
+        
+        =
+        A
+        
+          x
+          
+            1
+          
+        
+        +
+        B
+        
+          u
+          
+            1
+          
+        
+        +
+        ϕ
+        (
+        
+          y
+          
+            d
+          
+        
+        )
+        ,
+        
+          x
+          
+            1
+          
+        
+        (
+        0
+        )
+        =
+        
+          x
+          
+            0
+          
+        
+        .
+      
+    
+    {\displaystyle {\dot {x}}_{1}=Ax_{1}+Bu_{1}+\phi (y_{d}),x_{1}(0)=x_{0}.}
+  
+  
+    
+      
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            2
+          
+        
+        =
+        A
+        
+          x
+          
+            2
+          
+        
+        +
+        B
+        
+          u
+          
+            2
+          
+        
+        +
+        ϕ
+        (
+        
+          c
+          
+            T
+          
+        
+        
+          x
+          
+            1
+          
+        
+        +
+        
+          c
+          
+            T
+          
+        
+        
+          x
+          
+            2
+          
+        
+        )
+        −
+        ϕ
+        (
+        
+          y
+          
+            d
+          
+        
+        )
+        ,
+        
+          x
+          
+            2
+          
+        
+        (
+        0
+        )
+        =
+        0.
+      
+    
+    {\displaystyle {\dot {x}}_{2}=Ax_{2}+Bu_{2}+\phi (c^{T}x_{1}+c^{T}x_{2})-\phi (y_{d}),x_{2}(0)=0.}
+  
+with
+  
+    
+      
+        x
+        =
+        
+          x
+          
+            1
+          
+        
+        +
+        
+          x
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle x=x_{1}+x_{2}.}
+  
+This decomposition can help to simplify controller design.
+
+
+== Other example applications ==
+In electrical engineering, in a linear circuit, the input (an applied time-varying voltage signal) is related to the output (a current or voltage anywhere in the circuit) by a linear transformation. Thus, a superposition (i.e., sum) of input signals will yield the superposition of the responses. The use of Fourier analysis on this basis is particularly common. For another, related technique in circuit analysis, see Superposition theorem.
+In physics, Maxwell's equations imply that the (possibly time-varying) distributions of charges and currents are related to the electric and magnetic fields by a linear transformation. Thus, the superposition principle can be used to simplify the computation of fields which arise from given charge and current distribution. The principle also applies to other linear differential equations arising in physics, such as the heat equation.
+In mechanical engineering, superposition is used to solve for beam and structure deflections of combined loads when the effects are linear (i.e., each load does not affect the results of the other loads, and the effect of each load does not significantly alter the geometry of the structural system). Mode superposition method uses the natural frequencies and mode shapes to characterize the dynamic response of a linear structure.
+In hydrogeology, the superposition principle is applied to the drawdown of two or more water wells pumping in an ideal aquifer.
+In process control, the superposition principle is used in model predictive control.
+The superposition principle can be applied when small deviations from a known solution to a nonlinear system are analyzed by linearization.
+In music, theorist Joseph Schillinger used a form of the superposition principle as one basis of his Theory of Rhythm in his Schillinger System of Musical Composition.
+
+
+== History ==
+According to Léon Brillouin, the principle of superposition was first stated by Daniel Bernoulli in 1753: "The general motion of a vibrating system is given by a superposition of its proper vibrations." The principle was rejected by Leonhard Euler and then by Joseph Lagrange. Later it became accepted, largely through the work of Joseph Fourier.
+
+
+== See also ==
+Impulse response
+Green's function
+Quantum superposition
+Interference
+Beat (acoustics)
+Coherence (physics)
+Convolution
+Additive state decomposition
+
+
+== Further reading ==
+
+
+== References ==
+
+
+== External links ==

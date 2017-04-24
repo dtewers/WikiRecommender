@@ -1,0 +1,362 @@
+An interpretation of quantum mechanics is a set of statements which attempt to explain how quantum mechanics informs our understanding of nature. Although quantum mechanics has held up to rigorous and thorough experimental testing, many of these experiments are open to different interpretations. There exist a number of contending schools of thought, differing over whether quantum mechanics can be understood to be deterministic, which elements of quantum mechanics can be considered "real", and other matters.
+This question is of special interest to philosophers of physics, as physicists continue to show a strong interest in the subject. They usually consider an interpretation of quantum mechanics as an interpretation of the mathematical formalism of quantum mechanics, specifying the physical meaning of the mathematical entities of the theory.
+
+
+== History of interpretations ==
+
+The definition of quantum theorists' terms, such as wave functions and matrix mechanics, progressed through many stages. For instance, Erwin Schrödinger originally viewed the electron's wave function as its charge density smeared across the field, whereas Max Born reinterpreted it as the electron's probability density distributed across the field.
+Although the Copenhagen interpretation was originally most popular, quantum decoherence has gained popularity. Thus the many-worlds interpretation has been gaining acceptance. Moreover, the strictly formalist position, shunning interpretation, has been challenged by proposals for falsifiable experiments that might one day distinguish among interpretations, as by measuring an AI consciousness or via quantum computing.
+As a rough guide development of the mainstream view during the 1990s to 2000s, consider the "snapshot" of opinions collected in a poll by Schlosshauer et al. at the 2011 "Quantum Physics and the Nature of Reality" conference of July 2011. The authors reference a similarly informal poll carried out by Max Tegmark at the "Fundamental Problems in Quantum Theory" conference in August 1997. The main conclusion of the authors is that "the Copenhagen interpretation still reigns supreme", receiving the most votes in their poll (42%), besides the rise to mainstream notability of the many-worlds interpretations:
+"The Copenhagen interpretation still reigns supreme here, especially if we lump it together with intellectual offsprings such as information-based interpretations and the Quantum Bayesian interpretation. In Tegmark's poll, the Everett interpretation received 17% of the vote, which is similar to the number of votes (18%) in our poll."
+
+
+== Nature of interpretation ==
+More or less, all interpretations of quantum mechanics share two qualities:
+They interpret a formalism—a set of equations and principles to generate predictions via input of initial conditions
+They interpret a phenomenology—a set of observations, including those obtained by empirical research and those obtained informally, such as humans' experience of an unequivocal world
+Two qualities vary among interpretations:
+Ontology—claims about what things, such as categories and entities, exist in the world
+Epistemology—claims about the possibility, scope, and means toward relevant knowledge of the world
+In philosophy of science, the distinction of knowledge versus reality is termed epistemic versus ontic. A general law is a regularity of outcomes (epistemic), whereas a causal mechanism may regulate the outcomes (ontic). A phenomenon can receive interpretation either ontic or epistemic. For instance, indeterminism may be attributed to limitations of human observation and perception (epistemic), or may be explained as a real existing maybe encoded in the universe (ontic). Confusing the epistemic with the ontic, like if one were to presume that a general law actually "governs" outcomes—and that the statement of a regularity has the role of a causal mechanism—is a category mistake.
+In a broad sense, scientific theory can be viewed as offering scientific realism—approximately true description or explanation of the natural world—or might be perceived with antirealism. A realist stance seeks the epistemic and the ontic, whereas an antirealist stance seeks epistemic but not the ontic. In the 20th century's first half, antirealism was mainly logical positivism, which sought to exclude unobservable aspects of reality from scientific theory.
+Since the 1950s, antirealism is more modest, usually instrumentalism, permitting talk of unobservable aspects, but ultimately discarding the very question of realism and posing scientific theory as a tool to help humans make predictions, not to attain metaphysical understanding of the world. The instrumentalist view is carried by the famous quote of David Mermin, "Shut up and calculate", often misattributed to Richard Feynman.
+Other approaches to resolve conceptual problems introduce new mathematical formalism, and so propose alternative theories with their interpretations. An example is Bohmian mechanics, whose empirical equivalence with the three standard formalisms—Schrödinger's wave mechanics, Heisenberg's matrix mechanics, and Feynman's path integral formalism, all empirically equivalent—is doubtful.
+
+
+== Challenges to interpretation ==
+Difficulties reflect a number of points about quantum mechanics:
+Abstract, mathematical nature of quantum field theories
+Existence of apparently indeterministic and yet irreversible processes
+Role of the observer in determining outcomes
+Classically unexpected correlations between remote objects
+Complementarity of proffered descriptions
+Rapidly rising intricacy, far exceeding humans' present calculational capacity, as a system's size increases
+Lack of interest on this subject by Dirac and other notables (including Feynman)
+The mathematical structure of quantum mechanics is based on rather abstract mathematics, like Hilbert space. In classical field theory, a physical property at a given location in the field is readily derived. In Heisenberg's formalism, on the other hand, to derive physical information about a location in the field, one must apply a quantum operation to a quantum state, an elaborate mathematical process.
+Schrödinger's formalism describes a waveform governing probability of outcomes across a field. Yet how do we find in a specific location a particle whose wavefunction of mere probability distribution of existence spans a vast region of space?
+The act of measurement can interact with the system state in peculiar ways, as found in double-slit experiments. The Copenhagen interpretation holds that the myriad probabilities across a quantum field are unreal, yet that the act of observation/measurement collapses the wavefunction and sets a single possibility to become real. Yet quantum decoherence grants that all the possibilities can be real, and that the act of observation/measurement sets up new subsystems.
+Quantum entanglement, as illustrated in the EPR paradox, seemingly violates principles of local causality.
+Complementarity holds that no set of classical physical concepts can simultaneously refer to all properties of a quantum system. For instance, wave description A and particulate description B can each describe quantum system S, but not simultaneously. Still, complementarity does not usually imply that classical logic is at fault (although Hilary Putnam took such a view in "Is Logic Empirical?"); rather, the composition of physical properties of S does not obey the rules of classical propositional logic when using propositional connectives (see "Quantum logic"). As now well known, the "origin of complementarity lies in the non-commutativity of operators" that describe quantum objects (Omnès 1999).
+Since the intricacy of a quantum system is exponential, it is difficult to derive classical approximations.
+
+
+== Instrumentalist interpretation ==
+Any modern scientific theory requires at the very least an instrumentalist description that relates the mathematical formalism to experimental practice and prediction. In the case of quantum mechanics, the most common instrumentalist description is an assertion of statistical regularity between state preparation processes and measurement processes. That is, if a measurement of a real-value quantity is performed many times, each time starting with the same initial conditions, the outcome is a well-defined probability distribution agreeing with the real numbers; moreover, quantum mechanics provides a computational instrument to determine statistical properties of this distribution, such as its expectation value.
+Calculations for measurements performed on a system S postulate a Hilbert space H over the complex numbers. When the system S is prepared in a pure state, it is associated with a vector in H. Measurable quantities are associated with Hermitian operators acting on H: these are referred to as observables.
+Repeated measurement of an observable A where S is prepared in state ψ yields a distribution of values. The expectation value of this distribution is given by the expression
+
+  
+    
+      
+        ⟨
+        ψ
+        |
+        A
+        |
+        ψ
+        ⟩
+        .
+      
+    
+    {\displaystyle \langle \psi \vert A\vert \psi \rangle .}
+  
+This mathematical machinery gives a simple, direct way to compute a statistical property of the outcome of an experiment, once it is understood how to associate the initial state with a Hilbert space vector, and the measured quantity with an observable (that is, a specific Hermitian operator).
+As an example of such a computation, the probability of finding the system in a given state 
+  
+    
+      
+        |
+        ϕ
+        ⟩
+      
+    
+    {\displaystyle \vert \phi \rangle }
+   is given by computing the expectation value of a (rank-1) projection operator
+
+  
+    
+      
+        Π
+        =
+        |
+        ϕ
+        ⟩
+        ⟨
+        ϕ
+        |
+        .
+      
+    
+    {\displaystyle \Pi =\vert \phi \rangle \langle \phi \vert .}
+  
+The probability is then the non-negative real number given by
+
+  
+    
+      
+        P
+        =
+        ⟨
+        ψ
+        |
+        Π
+        |
+        ψ
+        ⟩
+        =
+        |
+        ⟨
+        ϕ
+        |
+        ψ
+        ⟩
+        
+          |
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle P=\langle \psi \vert \Pi \vert \psi \rangle =\vert \langle \phi \vert \psi \rangle \vert ^{2}.}
+  
+By abuse of language, a bare instrumentalist description could be referred to as an interpretation, although this usage is somewhat misleading since instrumentalism explicitly avoids any explanatory role; that is, it does not attempt to answer the question why.
+
+
+== Summary of common interpretations of quantum mechanics ==
+
+
+=== Classification adopted by Einstein ===
+An interpretation (i.e. a semantic explanation of the formal mathematics of quantum mechanics) can be characterized by its treatment of certain matters addressed by Einstein, such as:
+Realism
+Completeness
+Local realism
+Determinism
+To explain these properties, we need to be more explicit about the kind of picture an interpretation provides. To that end we will regard an interpretation as a correspondence between the elements of the mathematical formalism M and the elements of an interpreting structure I, where:
+The mathematical formalism M consists of the Hilbert space machinery of ket-vectors, self-adjoint operators acting on the space of ket-vectors, unitary time dependence of the ket-vectors, and measurement operations. In this context a measurement operation is a transformation which turns a ket-vector into a probability distribution (for a formalization of this concept see quantum operations).
+The interpreting structure I includes states, transitions between states, measurement operations, and possibly information about spatial extension of these elements. A measurement operation refers to an operation which returns a value and might result in a system state change. Spatial information would be exhibited by states represented as functions on configuration space. The transitions may be non-deterministic or probabilistic or there may be infinitely many states.
+The crucial aspect of an interpretation is whether the elements of I are regarded as physically real. Hence the bare instrumentalist view of quantum mechanics outlined in the previous section is not an interpretation at all, for it makes no claims about elements of physical reality.
+The current usage of realism and completeness originated in the 1935 paper in which Einstein and others proposed the EPR paradox. In that paper the authors proposed the concepts element of reality and the completeness of a physical theory. They characterised element of reality as a quantity whose value can be predicted with certainty before measuring or otherwise disturbing it, and defined a complete physical theory as one in which every element of physical reality is accounted for by the theory. In a semantic view of interpretation, an interpretation is complete if every element of the interpreting structure is present in the mathematics. Realism is also a property of each of the elements of the maths; an element is real if it corresponds to something in the interpreting structure. For example, in some interpretations of quantum mechanics (such as the many-worlds interpretation) the ket vector associated to the system state is said to correspond to an element of physical reality, while in other interpretations it is not.
+Determinism is a property characterizing state changes due to the passage of time, namely that the state at a future instant is a function of the state in the present (see time evolution). It may not always be clear whether a particular interpretation is deterministic or not, as there may not be a clear choice of a time parameter. Moreover, a given theory may have two interpretations, one of which is deterministic and the other not.
+Local realism has two aspects:
+The value returned by a measurement corresponds to the value of some function in the state space. In other words, that value is an element of reality;
+The effects of measurement have a propagation speed not exceeding some universal limit (e.g. the speed of light). In order for this to make sense, measurement operations in the interpreting structure must be localized.
+A precise formulation of local realism in terms of a local hidden variable theory was proposed by John Bell.
+Bell's theorem, combined with experimental testing, restricts the kinds of properties a quantum theory can have, the primary implication being that quantum mechanics cannot satisfy both the principle of locality and counterfactual definiteness.
+
+
+=== The Copenhagen interpretation ===
+
+The Copenhagen interpretation is the "standard" interpretation of quantum mechanics formulated by Niels Bohr and Werner Heisenberg while collaborating in Copenhagen around 1927. Bohr and Heisenberg extended the probabilistic interpretation of the wavefunction proposed originally by Max Born. The Copenhagen interpretation rejects questions like "where was the particle before I measured its position?" as meaningless. The measurement process randomly picks out exactly one of the many possibilities allowed for by the state's wave function in a manner consistent with the well-defined probabilities that are assigned to each possible state. According to the interpretation, the interaction of an observer or apparatus that is external to the quantum system is the cause of wave function collapse, thus according to Paul Davies, "reality is in the observations, not in the electron". What collapses in this interpretation is the knowledge of the observer and not an "objective" wavefunction.
+
+
+=== Many worlds ===
+
+The many-worlds interpretation is an interpretation of quantum mechanics in which a universal wavefunction obeys the same deterministic, reversible laws at all times; in particular there is no (indeterministic and irreversible) wavefunction collapse associated with measurement. The phenomena associated with measurement are claimed to be explained by decoherence, which occurs when states interact with the environment producing entanglement, repeatedly "splitting" the universe into mutually unobservable alternate histories—effectively distinct universes within a greater multiverse. In this interpretation the wavefunction has objective reality.
+
+
+=== Consistent histories ===
+
+The consistent histories interpretation generalizes the conventional Copenhagen interpretation and attempts to provide a natural interpretation of quantum cosmology. The theory is based on a consistency criterion that allows the history of a system to be described so that the probabilities for each history obey the additive rules of classical probability. It is claimed to be consistent with the Schrödinger equation.
+According to this interpretation, the purpose of a quantum-mechanical theory is to predict the relative probabilities of various alternative histories (for example, of a particle).
+
+
+=== Ensemble interpretation, or statistical interpretation ===
+
+The ensemble interpretation, also called the statistical interpretation, can be viewed as a minimalist interpretation. That is, it claims to make the fewest assumptions associated with the standard mathematics. It takes the statistical interpretation of Born to the fullest extent. The interpretation states that the wave function does not apply to an individual system – for example, a single particle – but is an abstract statistical quantity that only applies to an ensemble (a vast multitude) of similarly prepared systems or particles. Probably the most notable supporter of such an interpretation was Einstein:
+
+The attempt to conceive the quantum-theoretical description as the complete description of the individual systems leads to unnatural theoretical interpretations, which become immediately unnecessary if one accepts the interpretation that the description refers to ensembles of systems and not to individual systems.
+
+The most prominent current advocate of the ensemble interpretation is Leslie E. Ballentine, professor at Simon Fraser University, author of the graduate level text book Quantum Mechanics, A Modern Development. An experiment illustrating the ensemble interpretation is provided in Akira Tonomura's Video clip 1. It is evident from this double-slit experiment with an ensemble of individual electrons that, since the quantum mechanical wave function (absolutely squared) describes the completed interference pattern, it must describe an ensemble. A new version of the ensemble interpretation that relies on a reformulation of probability theory was introduced by Raed Shaiia.
+
+
+=== De Broglie–Bohm theory ===
+
+The de Broglie–Bohm theory of quantum mechanics is a theory by Louis de Broglie and extended later by David Bohm to include measurements. Particles, which always have positions, are guided by the wavefunction. The wavefunction evolves according to the Schrödinger wave equation, and the wavefunction never collapses. The theory takes place in a single space-time, is non-local, and is deterministic. The simultaneous determination of a particle's position and velocity is subject to the usual uncertainty principle constraint. The theory is considered to be a hidden variable theory, and by embracing non-locality it satisfies Bell's inequality. The measurement problem is resolved, since the particles have definite positions at all times. Collapse is explained as phenomenological.
+
+
+=== Relational quantum mechanics ===
+
+The essential idea behind relational quantum mechanics, following the precedent of special relativity, is that different observers may give different accounts of the same series of events: for example, to one observer at a given point in time, a system may be in a single, "collapsed" eigenstate, while to another observer at the same time, it may be in a superposition of two or more states. Consequently, if quantum mechanics is to be a complete theory, relational quantum mechanics argues that the notion of "state" describes not the observed system itself, but the relationship, or correlation, between the system and its observer(s). The state vector of conventional quantum mechanics becomes a description of the correlation of some degrees of freedom in the observer, with respect to the observed system. However, it is held by relational quantum mechanics that this applies to all physical objects, whether or not they are conscious or macroscopic. Any "measurement event" is seen simply as an ordinary physical interaction, an establishment of the sort of correlation discussed above. Thus the physical content of the theory has to do not with objects themselves, but the relations between them.
+An independent relational approach to quantum mechanics was developed in analogy with David Bohm's elucidation of special relativity, in which a detection event is regarded as establishing a relationship between the quantized field and the detector. The inherent ambiguity associated with applying Heisenberg's uncertainty principle is subsequently avoided.
+
+
+=== Transactional interpretation ===
+
+The transactional interpretation of quantum mechanics (TIQM) by John G. Cramer is an interpretation of quantum mechanics inspired by the Wheeler–Feynman absorber theory. It describes a quantum interaction in terms of a standing wave formed by the sum of a retarded (forward-in-time) and an advanced (backward-in-time) wave. The author argues that it avoids the philosophical problems with the Copenhagen interpretation and the role of the observer, and resolves various quantum paradoxes.
+
+
+=== Stochastic mechanics ===
+
+An entirely classical derivation and interpretation of Schrödinger's wave equation by analogy with Brownian motion was suggested by Princeton University professor Edward Nelson in 1966. Similar considerations had previously been published, for example by R. Fürth (1933), I. Fényes (1952), and Walter Weizel (1953), and are referenced in Nelson's paper. More recent work on the stochastic interpretation has been done by M. Pavon. An alternative stochastic interpretation was developed by Roumen Tsekov.
+
+
+=== Objective collapse theories ===
+
+Objective collapse theories differ from the Copenhagen interpretation in regarding both the wavefunction and the process of collapse as ontologically objective. In objective theories, collapse occurs randomly ("spontaneous localization"), or when some physical threshold is reached, with observers having no special role. Thus, they are realistic, indeterministic, no-hidden-variables theories. The mechanism of collapse is not specified by standard quantum mechanics, which needs to be extended if this approach is correct, meaning that Objective Collapse is more of a theory than an interpretation. Examples include the Ghirardi-Rimini-Weber theory and the Penrose interpretation.
+
+
+=== Consciousness causes collapse ===
+
+In his treatise The Mathematical Foundations of Quantum Mechanics, John von Neumann deeply analyzed the so-called measurement problem. He concluded that the entire physical universe could be made subject to the Schrödinger equation (the universal wave function). He also described how measurement could cause a collapse of the wave function. This point of view was prominently expanded on by Eugene Wigner, who argued that human experimenter consciousness (or maybe even dog consciousness) was critical for the collapse, but he later abandoned this interpretation.
+Variations of the consciousness causes collapse interpretation include:
+Subjective reduction research
+This principle, that consciousness causes the collapse, is the point of intersection between quantum mechanics and the mind/body problem; and researchers are working to detect conscious events correlated with physical events that, according to quantum theory, should involve a wave function collapse; but, thus far, results are inconclusive.
+
+Participatory anthropic principle (PAP)
+
+John Archibald Wheeler's participatory anthropic principle says that consciousness plays some role in bringing the universe into existence.
+
+Other physicists have elaborated their own variations of the consciousness causes collapse interpretation; including:
+Henry P. Stapp (Mindful Universe: Quantum Mechanics and the Participating Observer)
+Bruce Rosenblum and Fred Kuttner (Quantum Enigma: Physics Encounters Consciousness)
+Amit Goswami (The Self-Aware Universe)
+
+
+=== Many minds ===
+
+The many-minds interpretation of quantum mechanics extends the many-worlds interpretation by proposing that the distinction between worlds should be made at the level of the mind of an individual observer.
+
+
+=== Quantum logic ===
+
+Quantum logic can be regarded as a kind of propositional logic suitable for understanding the apparent anomalies regarding quantum measurement, most notably those concerning composition of measurement operations of complementary variables. This research area and its name originated in the 1936 paper by Garrett Birkhoff and John von Neumann, who attempted to reconcile some of the apparent inconsistencies of classical boolean logic with the facts related to measurement and observation in quantum mechanics.
+
+
+=== Quantum information theories ===
+Quantum informational approaches have attracted growing support. They subdivide into two kinds
+Information ontologies, such as J. A. Wheeler's "it from bit". These approaches have been described as a revival of immaterialism
+Interpretations where quantum mechanics is said to describe an observer's knowledge of the world, rather than the world itself. This approach has some similarity with Bohr's thinking. Collapse (also known as reduction) is often interpreted as an observer acquiring information from a measurement, rather than as an objective event. These approaches have been appraised as similar to instrumentalism.
+
+The state is not an objective property of an individual system but is that information, obtained from a knowledge of how a system was prepared, which can be used for making predictions about future measurements. ...A quantum mechanical state being a summary of the observer's information about an individual physical system changes both by dynamical laws, and whenever the observer acquires new information about the system through the process of measurement. The existence of two laws for the evolution of the state vector...becomes problematical only if it is believed that the state vector is an objective property of the system...The "reduction of the wavepacket" does take place in the consciousness of the observer, not because of any unique physical process which takes place there, but only because the state is a construct of the observer and not an objective property of the physical system
+
+
+=== Modal interpretations of quantum theory ===
+Modal interpretations of quantum mechanics were first conceived of in 1972 by B. van Fraassen, in his paper "A formal approach to the philosophy of science." However, this term now is used to describe a larger set of models that grew out of this approach. The Stanford Encyclopedia of Philosophy describes several versions:
+The Copenhagen variant
+Kochen-Dieks-Healey Interpretations
+Motivating Early Modal Interpretations, based on the work of R. Clifton, M. Dickson and J. Bub.
+
+
+=== Time-symmetric theories ===
+Several theories have been proposed which modify the equations of quantum mechanics to be symmetric with respect to time reversal. (E.g. see Wheeler-Feynman time-symmetric theory). This creates retrocausality: events in the future can affect ones in the past, exactly as events in the past can affect ones in the future. In these theories, a single measurement cannot fully determine the state of a system (making them a type of hidden variables theory), but given two measurements performed at different times, it is possible to calculate the exact state of the system at all intermediate times. The collapse of the wavefunction is therefore not a physical change to the system, just a change in our knowledge of it due to the second measurement. Similarly, they explain entanglement as not being a true physical state but just an illusion created by ignoring retrocausality. The point where two particles appear to "become entangled" is simply a point where each particle is being influenced by events that occur to the other particle in the future.
+Not all advocates of time-symmetric causality favour modifying the unitary dynamics of standard quantum mechanics. Thus a leading exponent of the two-state vector formalism, Lev Vaidman, highlights how well the two-state vector formalism dovetails with Hugh Everett's many-worlds interpretation.
+
+
+=== Branching space-time theories ===
+BST theories resemble the many worlds interpretation; however, "the main difference is that the BST interpretation takes the branching of history to be a feature of the topology of the set of events with their causal relationships... rather than a consequence of the separate evolution of different components of a state vector." In MWI, it is the wave functions that branches, whereas in BST, the space-time topology itself branches. BST has applications to Bell's theorem, quantum computation and quantum gravity. It also has some resemblance to hidden variable theories and the ensemble interpretation: particles in BST have multiple well defined trajectories at the microscopic level. These can only be treated stochastically at a coarse grained level, in line with the ensemble interpretation.
+
+
+=== Other interpretations ===
+
+As well as the mainstream interpretations discussed above, a number of other interpretations have been proposed which have not made a significant scientific impact for whatever reason. These range from proposals by mainstream physicists to the more occult ideas of quantum mysticism.
+
+
+== Comparison of interpretations ==
+The most common interpretations are summarized in the table below. The values shown in the cells of the table are not without controversy, for the precise meanings of some of the concepts involved are unclear and, in fact, are themselves at the center of the controversy surrounding the given interpretation. For another table comparing interpretations of quantum theory, see reference.
+No experimental evidence exists that distinguishes among these interpretations. To that extent, the physical theory stands, and is consistent with itself and with reality; difficulties arise only when one attempts to "interpret" the theory. Nevertheless, designing experiments which would test the various interpretations is the subject of active research.
+Most of these interpretations have variants. For example, it is difficult to get a precise definition of the Copenhagen interpretation as it was developed and argued about by many people.
+1 According to Bohr, the concept of a physical state independent of the conditions of its experimental observation does not have a well-defined meaning. According to Heisenberg the wavefunction represents a probability, but not an objective reality itself in space and time.
+2 According to the Copenhagen interpretation, the wavefunction collapses when a measurement is performed.
+3 Both particle AND guiding wavefunction are real.
+4 Unique particle history, but multiple wave histories.
+5 But quantum logic is more limited in applicability than Coherent Histories.
+6 Quantum mechanics is regarded as a way of predicting observations, or a theory of measurement.
+7 Observers separate the universal wavefunction into orthogonal sets of experiences.
+8 In the TI the collapse of the state vector is interpreted as the completion of the transaction between emitter and absorber.
+9 Comparing histories between systems in this interpretation has no well-defined meaning.
+10 Any physical interaction is treated as a collapse event relative to the systems involved, not just macroscopic or conscious observers.
+11 The state of the system is observer-dependent, i.e., the state is specific to the reference frame of the observer.
+12 The transactional interpretation is explicitly non-local.
+13 The assumption of intrinsic periodicity is an element of non-locality consistent with relativity as the periodicity varies in a causal way.
+14 In the stochastic interpretation is not possible to define velocities for particles, i.e. the paths are not smooth. Moreover, to know the motion of the particles at any moment, you have to know what the Markov process is. However, once we know the exactly initial conditions and the Markov process, the theory is in fact a realistic interpretation of quantum mechanics.
+15 The kind of non-locality required by the theory, sufficient to violate the Bell inequalities, is weaker than that assumed in EPR. In particular, this kind non-locality is compatible with no signaling theorem and Lorentz invariance.
+16 A wavefunction merely encodes an agent’s expectations for future experiences. It is no more real than a probability distribution is in subjective Bayesianism.
+17 Quantum theory is a tool any agent may use to help manage their expectations. The past comes into play only insofar as an agent’s individual experiences and temperament influence their priors.
+18 Although QBism would eschew this terminology. A change in the wavefunction that an agent ascribes to a system as a result of having an experience represents a change in his or her beliefs about further experiences they may have. See Doxastic logic.
+19 Observers, or more properly, participants, are as essential to the formalism as the systems they interact with.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Sources ==
+Bub, J.; Clifton, R. (1996). "A uniqueness theorem for interpretations of quantum mechanics". Studies in History and Philosophy of Modern Physics. 27B: 181–219. 
+Rudolf Carnap, 1939, "The interpretation of physics", in Foundations of Logic and Mathematics of the International Encyclopedia of Unified Science. University of Chicago Press.
+Dickson, M., 1994, "Wavefunction tails in the modal interpretation" in Hull, D., Forbes, M., and Burian, R., eds., Proceedings of the PSA 1" 366–76. East Lansing, Michigan: Philosophy of Science Association.
+--------, and Clifton, R., 1998, "Lorentz-invariance in modal interpretations" in Dieks, D. and Vermaas, P., eds., The Modal Interpretation of Quantum Mechanics. Dordrecht: Kluwer Academic Publishers: 9–48.
+Fuchs, Christopher, 2002, "Quantum Mechanics as Quantum Information (and only a little more)." arXiv:quant-ph/0205039
+-------- and A. Peres, 2000, "Quantum theory needs no ‘interpretation’", Physics Today.
+Herbert, N., 1985. Quantum Reality: Beyond the New Physics. New York: Doubleday. ISBN 0-385-23569-0.
+Hey, Anthony, and Walters, P., 2003. The New Quantum Universe, 2nd ed. Cambridge Univ. Press. ISBN 0-521-56457-3.
+Jackiw, Roman; Kleppner, D. (2000). "One Hundred Years of Quantum Physics". Science. 289 (5481): 893. 
+Max Jammer, 1966. The Conceptual Development of Quantum Mechanics. McGraw-Hill.
+--------, 1974. The Philosophy of Quantum Mechanics. Wiley & Sons.
+Al-Khalili, 2003. Quantum: A Guide for the Perplexed. London: Weidenfeld & Nicholson.
+de Muynck, W. M., 2002. Foundations of quantum mechanics, an empiricist approach. Dordrecht: Kluwer Academic Publishers. ISBN 1-4020-0932-1.
+Roland Omnès, 1999. Understanding Quantum Mechanics. Princeton Univ. Press.
+Karl Popper, 1963. Conjectures and Refutations. London: Routledge and Kegan Paul. The chapter "Three views Concerning Human Knowledge" addresses, among other things, instrumentalism in the physical sciences.
+Hans Reichenbach, 1944. Philosophic Foundations of Quantum Mechanics. Univ. of California Press.
+Tegmark, Max; Wheeler, J. A. (2001). "100 Years of Quantum Mysteries". Scientific American. 284: 68–75. doi:10.1038/scientificamerican0201-68. 
+Bas van Fraassen, 1972, "A formal approach to the philosophy of science", in R. Colodny, ed., Paradigms and Paradoxes: The Philosophical Challenge of the Quantum Domain. Univ. of Pittsburgh Press: 303-66.
+John A. Wheeler and Wojciech Hubert Zurek (eds), Quantum Theory and Measurement, Princeton: Princeton University Press, ISBN 0-691-08316-9, LoC QC174.125.Q38 1983.
+
+
+== Further reading ==
+Almost all authors below are professional physicists.
+David Z Albert, 1992. Quantum Mechanics and Experience. Harvard Univ. Press. ISBN 0-674-74112-9.
+John S. Bell, 1987. Speakable and Unspeakable in Quantum Mechanics. Cambridge Univ. Press, ISBN 0-521-36869-3. The 2004 edition (ISBN 0-521-52338-9) includes two additional papers and an introduction by Alain Aspect.
+Dmitrii Ivanovich Blokhintsev, 1968. The Philosophy of Quantum Mechanics. D. Reidel Publishing Company. ISBN 90-277-0105-9.
+David Bohm, 1980. Wholeness and the Implicate Order. London: Routledge. ISBN 0-7100-0971-2.
+Adan Cabello (15 November 2004). "Bibliographic guide to the foundations of quantum mechanics and quantum information". arXiv:quant-ph/0012089. 
+David Deutsch, 1997. The Fabric of Reality. London: Allen Lane. ISBN 0-14-027541-X; ISBN 0-7139-9061-9. Argues forcefully against instrumentalism. For general readers.
+Bernard d'Espagnat, 1976. Conceptual Foundation of Quantum Mechanics, 2nd ed. Addison Wesley. ISBN 0-8133-4087-X.
+Bernard d'Espagnat, 1983. In Search of Reality. Springer. ISBN 0-387-11399-1.
+Bernard d'Espagnat, 2003. Veiled Reality: An Analysis of Quantum Mechanical Concepts. Westview Press.
+Bernard d'Espagnat, 2006. On Physics and Philosophy. Princeton Univ. Press.
+Arthur Fine, 1986. The Shaky Game: Einstein Realism and the Quantum Theory. Science and its Conceptual Foundations. Univ. of Chicago Press. ISBN 0-226-24948-4.
+Ghirardi, Giancarlo, 2004. Sneaking a Look at God's Cards. Princeton Univ. Press.
+Gregg Jaeger (2009) Entanglement, Information, and the Interpretation of Quantum Mechanics. Springer. ISBN 978-3-540-92127-1.
+N. David Mermin (1990) Boojums all the way through. Cambridge Univ. Press. ISBN 0-521-38880-5.
+Roland Omnès, 1994. The Interpretation of Quantum Mechanics. Princeton Univ. Press. ISBN 0-691-03669-1.
+Roland Omnès, 1999. Understanding Quantum Mechanics. Princeton Univ. Press.
+Roland Omnès, 1999. Quantum Philosophy: Understanding and Interpreting Contemporary Science. Princeton Univ. Press.
+Roger Penrose, 1989. The Emperor's New Mind. Oxford Univ. Press. ISBN 0-19-851973-7. Especially chpt. 6.
+Roger Penrose, 1994. Shadows of the Mind. Oxford Univ. Press. ISBN 0-19-853978-9.
+Roger Penrose, 2004. The Road to Reality. New York: Alfred A. Knopf. Argues that quantum theory is incomplete.
+Styer, Daniel F.; Balkin, Miranda S.; Becker, Kathryn M.; Burns, Matthew R.; Dudley, Christopher E.; Forth, Scott T.; Gaumer, Jeremy S.; Kramer, Mark A.; et al. (March 2002). "Nine formulations of quantum mechanics". American Journal of Physics. 70 (3): 288–297. Bibcode:2002AmJPh..70..288S. doi:10.1119/1.1445404. 
+
+
+== External links ==
+Stanford Encyclopedia of Philosophy:
+"Bohmian mechanics" by Sheldon Goldstein.
+"Collapse Theories." by Giancarlo Ghirardi.
+"Copenhagen Interpretation of Quantum Mechanics" by Jan Faye.
+"Everett's Relative State Formulation of Quantum Mechanics" by Jeffrey Barrett.
+"Many-Worlds Interpretation of Quantum Mechanics" by Lev Vaidman.
+"Modal Interpretation of Quantum Mechanics" by Michael Dickson and Dennis Dieks.
+"Quantum Entanglement and Information" by Jeffrey Bub.
+"Quantum mechanics" by Jenann Ismael.
+"Relational Quantum Mechanics" by Federico Laudisa and Carlo Rovelli.
+"The Role of Decoherence in Quantum Mechanics" by Guido Bacciagaluppi.
+
+Internet Encyclopedia of Philosophy:
+Interpretations of Quantum Mechanics
+Everettian Interpretations of Quantum Mechanics
+
+Willem M. de Muynck, Broad overview of the realist vs. empiricist interpretations, against oversimplified view of the measurement process.
+Schreiber, Z., "The Nine Lives of Schrodinger's Cat." Overview of competing interpretations.
+Interpretations of quantum mechanics on arxiv.org.
+The many worlds of quantum mechanics.
+Erich Joos' Decoherence Website.
+Quantum Mechanics for Philosophers. Argues for the superiority of the Bohm interpretation.
+Hidden Variables in Quantum Theory: The Hidden Cultural Variables of their Rejection.
+Numerous Many Worlds-related Topics and Articles.
+Relational Approach to Quantum Physics.
+Theory of incomplete measurements. Deriving quantum mechanics axioms from properties of acceptable measurements.
+Alfred Neumaier's FAQ.
+Measurement in Quantum Mechanics FAQ.

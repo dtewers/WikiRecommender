@@ -1,0 +1,65 @@
+In physics, the Mach–Zehnder interferometer is a device used to determine the relative phase shift variations between two collimated beams derived by splitting light from a single source. The interferometer has been used, among other things, to measure phase shifts between the two beams caused by a sample or a change in length of one of the paths. The apparatus is named after the physicists Ludwig Mach (the son of Ernst Mach) and Ludwig Zehnder: Zehnder's proposal in an 1891 article was refined by Mach in an 1892 article.
+
+
+== Introduction ==
+The Mach–Zehnder interferometer is a highly configurable instrument. In contrast to the well-known Michelson interferometer, each of the well-separated light paths is traversed only once.
+If it is decided to produce fringes in white light, then, since white light has a limited coherence length, on the order of micrometers, great care must be taken to simultaneously equalize the optical paths over all wavelengths or no fringes will be visible. As seen in Fig. 1, a compensating cell made of the same type of glass as the test cell (so as to have equal optical dispersion) would be placed in the path of the reference beam to match the test cell. Note also the precise orientation of the beam splitters. The reflecting surfaces of the beam splitters would be oriented so that the test and reference beams pass through an equal amount of glass. In this orientation, the test and reference beams each experience two front-surface reflections, resulting in the same number of phase inversions. The result is that light traveling an equal optical path length in the test and reference beams produces a white light fringe of constructive interference.
+
+Collimated sources result in a nonlocalized fringe pattern. Localized fringes result when an extended source is used. In Fig. 2, we see that the fringes can be adjusted so that they are localized in any desired plane. In most cases, the fringes would be adjusted to lie in the same plane as the test object, so that fringes and test object can be photographed together.
+The Mach–Zehnder interferometer's relatively large and freely accessible working space, and its flexibility in locating the fringes has made it the interferometer of choice for visualizing flow in wind tunnels and for flow visualization studies in general. It is frequently used in the fields of aerodynamics, plasma physics and heat transfer to measure pressure, density, and temperature changes in gases.
+Mach–Zehnder interferometers are used in electro-optic modulators, electronic devices used in various fibre-optic communications applications. Mach-Zehnder modulators are incorporated in monolithic integrated circuits and offer well-behaved, high-bandwidth electro-optic amplitude and phase responses over a multiple GHz frequency range.
+Mach–Zehnder interferometers are also used to study one of the most counterintuitive predictions of quantum mechanics, the phenomenon known as quantum entanglement.
+The possibility to easily control the features of the light in the reference channel without disturbing the light in the object channel popularized the Mach–Zehnder configuration in holographic interferometry. In particular, optical heterodyne detection with an off-axis, frequency-shifted reference beam ensures good experimental conditions for shot-noise limited holography with video-rate cameras, vibrometry, and laser Doppler imaging of blood flow.
+
+
+== How it works ==
+
+
+=== Set-up ===
+A collimated beam is split by a half-silvered mirror. The two resulting beams (the "sample beam" and the "reference beam") are each reflected by a mirror. The two beams then pass a second half-silvered mirror and enter two detectors.
+
+
+=== Properties ===
+The Fresnel equations for reflection and transmission of a wave at a dielectric imply that there is a phase change for a reflection when a wave reflects off a change from low to high refractive index but not when it reflects off a change from high to low.
+In other words:
+A 180 degree phase shift occurs upon reflection from the front of a mirror, since the medium behind the mirror (glass) has a higher refractive index than the medium the light is traveling in (air).
+No phase shift accompanies a rear surface reflection, since the medium behind the mirror (air) has a lower refractive index than the medium the light is traveling in (glass).
+
+We also note that:
+The speed of light is slower in media with an index of refraction greater than that of a vacuum, which is 1. Specifically, its speed is: v = c/n, where c is the speed of light in vacuum and n is the index of refraction. This causes a phase shift increase proportional to (n − 1) × length traveled.
+If k is the constant phase shift incurred by passing through a glass plate on which a mirror resides, a total of 2k phase shift occurs when reflecting off the rear of a mirror. This is because light traveling toward the rear of a mirror will enter the glass plate, incurring k phase shift, and then reflect off the mirror with no additional phase shift since only air is now behind the mirror, and travel again back through the glass plate incurring an additional k phase shift.
+Caveat: The rule about phase shifts applies to beamsplitters constructed with a dielectric coating, and must be modified if a metallic coating is used, or when different polarizations are taken into account. Also, in real interferometers, the thicknesses of the beamsplitters may differ, and the path lengths are not necessarily equal. Regardless, in the absence of absorption, conservation of energy guarantees that the two paths must differ by a half wavelength phase shift. Also note that beamsplitters that are not 50/50 are frequently employed to improve the interferometer's performance in certain types of measurement.
+
+
+=== Observing the effect of a sample ===
+In Fig. 3, in the absence of a sample, both the sample beam SB and the reference beam RB will arrive in phase at detector 1, yielding constructive interference. Both SB and RB will have undergone a phase shift of (1×wavelength + k) due to two front-surface reflections and one transmission through a glass plate.
+At detector 2, in the absence of a sample, the sample beam and reference beam will arrive with a phase difference of half a wavelength, yielding complete destructive interference. The RB arriving at detector 2 will have undergone a phase shift of (0.5×wavelength + 2k) due to one front-surface reflection and two transmissions. The SB arriving at detector 2 will have undergone a (1×wavelength + 2k) phase shift due to two front-surface reflections and one rear-surface reflection. Therefore, when there is no sample, only detector 1 receives light.
+If a sample is placed in the path of the sample beam, the intensities of the beams entering the two detectors will change, allowing the calculation of the phase shift caused by the sample.
+
+
+== Use of the Mach–Zehnder interferometer ==
+The versatility of the Mach–Zehnder configuration has led to its being used in a wide range of fundamental research topics in quantum mechanics, including studies on counterfactual definiteness, quantum entanglement, quantum computation, quantum cryptography, quantum logic, Elitzur-Vaidman bomb tester, the quantum eraser experiment, the quantum Zeno effect, and neutron diffraction. In optical telecommunications it is used as an electro-optic modulator for phase as well as amplitude modulation of light. See their respective articles for further information on these topics.
+
+
+== See also ==
+Interferometry
+List of types of interferometers
+Fizeau interferometer
+Michelson interferometer
+Fabry–Pérot interferometer
+Jamin interferometer
+Ramsey-Bordé interferometer
+
+
+=== Related forms of interferometer ===
+Classical interference microscopy
+Dual polarisation interferometry
+
+
+=== Other flow visualisation techniques ===
+Schlieren
+Schlieren photography
+Shadowgraph
+
+
+== References ==

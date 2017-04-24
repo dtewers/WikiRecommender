@@ -1,0 +1,25 @@
+In physics, physical optics, or wave optics, is the branch of optics that studies interference, diffraction, polarization, and other phenomena for which the ray approximation of geometric optics is not valid. This usage tends not to include effects such as quantum noise in optical communication, which is studied in the sub-branch of coherence theory.
+
+
+== The physical optics approximation ==
+Physical optics is also the name of an approximation commonly used in optics, electrical engineering and applied physics. In this context, it is an intermediate method between geometric optics, which ignores wave effects, and full wave electromagnetism, which is a precise theory. The word "physical" means that it is more physical than geometric or ray optics and not that it is an exact physical theory.
+This approximation consists of using ray optics to estimate the field on a surface and then integrating that field over the surface to calculate the transmitted or scattered field. This resembles the Born approximation, in that the details of the problem are treated as a perturbation.
+In optics, it is a standard way of estimating diffraction effects. In radio, this approximation is used to estimate some effects that resemble optical effects. It models several interference, diffraction and polarization effects but not the dependence of diffraction on polarization. Since it is a high-frequency approximation, it is often more accurate in optics than for radio.
+In optics, it typically consists of integrating ray-estimated field over a lens, mirror or aperture to calculate the transmitted or scattered field.
+In radar scattering it usually means taking the current that would be found on a tangent plane of similar material as the current at each point on the front, i. e. the geometrically illuminated part, of a scatterer. Current on the shadowed parts is taken as zero. The approximate scattered field is then obtained by an integral over these approximate currents. This is useful for bodies with large smooth convex shapes and for lossy (low-reflection) surfaces.
+The ray-optics field or current is generally not accurate near edges or shadow boundaries, unless supplemented by diffraction and creeping wave calculations.
+The standard theory of physical optics has some defects in the evaluation of scattered fields, leading to decreased accuracy away from the specular direction. An improved theory introduced in 2004 gives exact solutions to problems involving wave diffraction by conducting scatterers.
+
+
+== See also ==
+Optical physics
+Electromagnetic modeling
+History of optics
+Negative-index metamaterials
+
+
+== References ==
+Serway, Raymond A.; Jewett, John W. (2004). Physics for Scientists and Engineers (6th ed.). Brooks/Cole. ISBN 0-534-40842-7. 
+Akhmanov, A; Nikitin, S. Yu (1997). Physical Optics. Oxford University Press. ISBN 0-19-851795-5. 
+"A double-edge-diffraction Gaussian-series method for efficient physical optics analysis of dual-shaped-reflector antennas". IEEE Transactions on Antennas and Propagation: 2597. August 2005. 
+Asvestas, J. S. (February 1980). "The physical optics method in electromagnetic scattering". Journal of Mathematical Physics. 21 (2): 290–299. Bibcode:1980JMP....21..290A. doi:10.1063/1.524413.

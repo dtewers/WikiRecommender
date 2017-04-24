@@ -1,0 +1,117 @@
+Bell test experiments or Bell's inequality experiments are designed to demonstrate the real world existence of certain theoretical consequences of the phenomenon of entanglement in quantum mechanics which could not occur according to a classical picture of the world, characterised by the notion of local realism. Under local realism, correlations between outcomes of different measurements performed on separated physical systems have to satisfy certain constraints, called Bell inequalities. John Bell derived the first inequality of this kind in his paper "On the Einstein-Podolsky-Rosen Paradox". Bell's Theorem states that the predictions of quantum mechanics, concerning correlations, being inconsistent with Bell's inequality, cannot be reproduced by any local hidden variable theory. However, this doesn't disprove hidden variable theories that are nonlocal such as Bohmian mechanics.
+The term "Bell inequality" can mean any one of a number of inequalities satisfied by local hidden variables theories; in practice, in present-day experiments, most often the CHSH; earlier the CH74 inequality. All these inequalities, like the original inequality of Bell, by assuming local realism, place restrictions on the statistical results of experiments on sets of particles that have taken part in an interaction and then separated. A Bell test experiment is one designed to test whether or not the real world satisfies local realism.
+
+
+== Conduct of optical Bell test experiments ==
+In practice most actual experiments have used light, assumed to be emitted in the form of particle-like photons (produced by atomic cascade or spontaneous parametric down conversion), rather than the atoms that Bell originally had in mind. The property of interest is, in the best known experiments, the polarisation direction, though other properties can be used. Such experiments fall into two classes, depending on whether the analysers used have one or two output channels.
+
+
+=== A typical CHSH (two-channel) experiment ===
+
+The diagram shows a typical optical experiment of the two-channel kind for which Alain Aspect set a precedent in 1982. Coincidences (simultaneous detections) are recorded, the results being categorised as '++', '+−', '−+' or '−−' and corresponding counts accumulated.
+Four separate subexperiments are conducted, corresponding to the four terms E(a, b) in the test statistic S (equation (2) shown below). The settings a, a′, b and b′ are generally in practice chosen to be 0, 45°, 22.5° and 67.5° respectively — the "Bell test angles" — these being the ones for which the quantum mechanical formula gives the greatest violation of the inequality.
+For each selected value of a and b, the numbers of coincidences in each category (N++, N−−, N+− and N−+) are recorded. The experimental estimate for E(a, b) is then calculated as:
+(1)        E = (N++ + N−− − N+− − N−+)/(N++ + N−− + N+− + N−+).
+Once all four E’s have been estimated, an experimental estimate of the test statistic
+(2)        S = E(a, b) − E(a, b′) + E(a′, b) + E(a′, b′)
+can be found. If S is numerically greater than 2 it has infringed the CHSH inequality. The experiment is declared to have supported the QM prediction and ruled out all local hidden variable theories.
+A strong assumption has had to be made, however, to justify use of expression (2). It has been assumed that the sample of detected pairs is representative of the pairs emitted by the source. That this assumption may not be true comprises the fair sampling loophole.
+The derivation of the inequality is given in the CHSH Bell test page.
+
+
+=== A typical CH74 (single-channel) experiment ===
+
+Prior to 1982 all actual Bell tests used "single-channel" polarisers and variations on an inequality designed for this setup. The latter is described in Clauser, Horne, Shimony and Holt's much-cited 1969 article as being the one suitable for practical use. As with the CHSH test, there are four subexperiments in which each polariser takes one of two possible settings, but in addition there are other subexperiments in which one or other polariser or both are absent. Counts are taken as before and used to estimate the test statistic.
+(3)        S = (N(a, b) − N(a, b′) + N(a′, b) + N(a′, b′) − N(a′, ∞) − N(∞, b)) / N(∞, ∞),
+where the symbol ∞ indicates absence of a polariser.
+If S exceeds 0 then the experiment is declared to have infringed Bell's inequality and hence to have "refuted local realism". In order to derive (3), CHSH in their 1969 paper had to make an extra assumption, the so-called "fair sampling" assumption. This means that the probability of detection of a given photon, once it has passed the polarizer, is independent of the polarizer setting (including the 'absence' setting). If this assumption were violated, then in principle a local hidden variable (LHV) model could violate the CHSH inequality.
+In a later 1974 article, Clauser and Horne replaced this assumption by a much weaker, "no enhancement" assumption, deriving a modified inequality, see the page on Clauser and Horne's 1974 Bell test.
+
+
+== Experimental assumptions ==
+In addition to the theoretical assumptions made, there are practical ones. There may, for example, be a number of "accidental coincidences" in addition to those of interest. It is assumed that no bias is introduced by subtracting their estimated number before calculating S, but that this is true is not considered by some to be obvious. There may be synchronisation problems — ambiguity in recognising pairs because in practice they will not be detected at exactly the same time.
+Nevertheless, despite all these deficiencies of the actual experiments, one striking fact emerges: the results are, to a very good approximation, what quantum mechanics predicts. If imperfect experiments give us such excellent overlap with quantum predictions, most working quantum physicists would agree with John Bell in expecting that, when a perfect Bell test is done, the Bell inequalities will still be violated. This attitude has led to the emergence of a new sub-field of physics which is now known as quantum information theory. One of the main achievements of this new branch of physics is showing that violation of Bell's inequalities leads to the possibility of a secure information transfer, which utilizes the so-called quantum cryptography (involving entangled states of pairs of particles).
+
+
+== Notable experiments ==
+Over the past thirty or so years, a great number of Bell test experiments have been conducted. The experiments are commonly interpreted to rule out local hidden variable theories, and recently an experiment has been performed that is not subject to either the locality loophole or the detection loophole (Hensen et al.). An experiment free of the locality loophole is one where for each separate measurement and in each wing of the experiment, a new setting is chosen and the measurement completed before signals could communicate the settings from one wing of the experiment to the other. An experiment free of the detection loophole is one where close to 100% of the successful measurement outcomes in one wing of the experiment are paired with a successful measurement in the other wing. This percentage is called the efficiency of the experiment. Advancements in technology have led to a great variety of methods to test the Bell Theorem.
+Some of the best known and recent experiments include:
+
+
+=== Freedman and Clauser, 1972 ===
+This was the first actual Bell test, using Freedman's inequality, a variant on the CH74 inequality.
+
+
+=== Aspect, 1981–2 ===
+Alain Aspect and his team at Orsay, Paris, conducted three Bell tests using calcium cascade sources. The first and last used the CH74 inequality. The second was the first application of the CHSH inequality. The third (and most famous) was arranged such that the choice between the two settings on each side was made during the flight of the photons (as originally suggested by John Bell).
+
+
+=== Tittel and the Geneva group, 1998 ===
+The Geneva 1998 Bell test experiments showed that distance did not destroy the "entanglement". Light was sent in fibre optic cables over distances of several kilometers before it was analysed. As with almost all Bell tests since about 1985, a "parametric down-conversion" (PDC) source was used.
+
+
+=== Weihs' experiment under "strict Einstein locality" conditions ===
+In 1998 Gregor Weihs and a team at Innsbruck, led by Anton Zeilinger, conducted an ingenious experiment that closed the "locality" loophole, improving on Aspect's of 1982. The choice of detector was made using a quantum process to ensure that it was random. This test violated the CHSH inequality by over 30 standard deviations, the coincidence curves agreeing with those predicted by quantum theory.
+
+
+=== Pan et al.'s (2000) experiment on the GHZ state ===
+This is the first of new Bell-type experiments on more than two particles; this one uses the so-called GHZ state of three particles.
+
+
+=== Rowe et al. (2001): the first to close the detection loophole ===
+The detection loophole was first closed in an experiment with two entangled trapped ions, carried out in the ion storage group of David Wineland at the National Institute of Standards and Technology in Boulder. The experiment had detection efficiencies well over 90%.
+
+
+=== Gröblacher et al.'s (2007) test of Leggett-type non-local realist theories ===
+A specific class of non-local theories suggested by Anthony Leggett is ruled out. Based on this, the authors conclude that any possible non-local hidden variable theory consistent with quantum mechanics must be highly counterintuitive.
+
+
+=== Salart et al. (2008): separation in a Bell Test ===
+This experiment filled a loophole by providing an 18 km separation between detectors, which is sufficient to allow the completion of the quantum state measurements before any information could have traveled between the two detectors.
+
+
+=== Ansmann et al. (2009): overcoming the detection loophole in solid state ===
+This was the first experiment testing Bell inequalities with solid-state qubits (superconducting Josephson phase qubits were used). This experiment surmounted the detection loophole using a pair of superconducting qubits in an entangled state. However, the experiment still suffered from the locality loophole because the qubits were only separated by a few millimeters.
+
+
+=== Giustina et al. (2013), Larsson et al (2014): overcoming the detection loophole for photons ===
+The detection loophole for photons has been closed for the first time in a group by Anton Zeilinger, using highly efficient detectors. This makes photons the first system for which all of the main loopholes have been closed, albeit in different experiments.
+
+
+=== Christensen et al. (2013): overcoming the detection loophole for photons ===
+The Christensen et al. (2013) experiment is similar to that of Giustina et al. Giustina et al. did just four long runs with constant measurement settings (one for each of the four pairs of settings). The experiment was not pulsed so that formation of "pairs" from the two records of measurement results (Alice and Bob) had to be done after the experiment which in fact exposes the experiment to the coincidence loophole. This led to a reanalysis of the experimental data in a way which removed the coincidence loophole, and fortunately the new analysis still showed a violation of the appropriate CHSH or CH inequality. On the other hand, the Christensen et al. experiment was pulsed and measurement settings were frequently reset in a random way, though only once every 1000 particle pairs, not every time.
+
+
+=== Hensen et al., Giustina et al., Shalm et al. (2015): loophole-free Bell tests ===
+In 2015 the first three significant-loophole-free Bell-tests were published within three months by independent groups in Delft, Vienna and Boulder. All three tests simultaneously addressed the detection loophole, the locality loophole, and the memory loophole. This makes them “loophole-free” in the sense that all remaining conceivable loopholes like superdeterminism require truly exotic hypotheses that might never get closed experimentally.
+The first published experiment by Hensen et al. used a photonic link to entangle the electron spins of two nitrogen-vacancy defect centres in diamonds 1.3 kilometers apart and measured a violation of the CHSH inequality (S = 2.42 ± 0.20). Thereby the local-realist hypothesis could be rejected with a p-value of 0.039, i.e. the chance of accidentally measuring the reported result in a local-realist world would be 3.9% at most.
+Both simultaneously published experiments by Giustina et al.  and Shalm et al.  used entangled photons to obtain a Bell inequality violation with high statistical significance (p-value ≪10−6). Notably, the experiment by Shalm et al. also combined three types of (quasi-)random number generators to determine the measurement basis choices. One of these methods, detailed in an ancillary file, is the “'Cultural' pseudorandom source” which involved using bit strings from popular media such as the Back to the Future films, Star Trek: Beyond the Final Frontier, Monty Python and the Holy Grail, and the television shows Saved by the Bell and Dr. Who.
+
+
+=== Johannes Handsteiner et al, 2017 Cosmic Bell Test: Measurement Settings from Milky Way Stars ===
+Measurements violated Bell’s upper limit, increasing confidence the polarized photons in the experiment demonstrate entanglement without the effect of hidden variables. The experiment “represents the first experiment to dramatically limit the space-time region in which hidden variables could be relevant.”
+
+
+== Loopholes ==
+
+Though the series of increasingly sophisticated Bell test experiments has convinced the physics community in general that local realism is untenable, local realism can never be excluded entirely. For example, the hypothesis of superdeterminism in which all experiments and outcomes (and everything else) are predetermined cannot be tested (it is unfalsifiable).
+Up to 2015, the outcome of all experiments that violate a Bell inequality could still theoretically be explained by exploiting the detection loophole and/or the locality loophole. The locality (or communication) loophole means that since in actual practice the two detections are separated by a time-like interval, the first detection may influence the second by some kind of signal. To avoid this loophole, the experimenter has to ensure that particles travel far apart before being measured, and that the measurement process is rapid. More serious is the detection (or unfair sampling) loophole, because particles are not always detected in both wings of the experiment. It can be imagined that the complete set of particles would behave randomly, but instruments only detect a subsample showing quantum correlations, by letting detection be dependent on a combination of local hidden variables and detector setting.
+Experimenters have repeatedly voiced that loophole-free tests could be expected in the near future. On the other hand, some researchers pointed out the logical possibility that quantum physics itself prevents a loophole-free test from ever being implemented.
+In 2015, a loophole-free Bell violation was reported using entangled diamond spins over 1.3 km and corroborated by two experiments using entangled photon pairs.
+The remaining possible theories that obey local realism can be further restricted by testing different spatial configurations, methods to determine the measurement settings, and recording devices. It has been suggested that using humans to generate the measurement settings and observe the outcomes provides a further test. David Kaiser of MIT told the New York Times in 2015 that a potential weakness of the "loophole-free" experiments is that the systems used to add randomness to the measurement, may be predetermined in a method that was not detected in experiments.
+
+
+== See also ==
+Determinism – Quantum mechanics and classical physics
+Principle of locality
+Quantum indeterminacy
+
+
+== References ==
+
+
+== Further reading ==
+J. Barrett; D. Collins; L. Hardy; A. Kent; S. Popescu (2002), "Quantum Nonlocality, Bell Inequalities and the Memory Loophole", Phys. Rev. A, 66 (4): 042111, arXiv:quant-ph/0205016, Bibcode:2002PhRvA..66d2111B, doi:10.1103/PhysRevA.66.042111 
+J. S. Bell (1987), Speakable and Unspeakable in Quantum Mechanics, Cambridge University Press 
+D. Kielpinski; A. Ben-Kish; J. Britton; V. Meyer; M.A. Rowe; C.A. Sackett; W.M. Itano; C. Monroe; D.J. Wineland (2001), Recent Results in Trapped-Ion Quantum Computing, arXiv:quant-ph/0102086, Bibcode:2001quant.ph..2086K 
+P.G. Kwiat; E. Waks; A.G. White; I. Appelbaum; P.H. Eberhard (1999), "Ultrabright source of polarization-entangled photons", Physical Review A, 60 (2): R773–6, arXiv:quant-ph/9810003, Bibcode:1999PhRvA..60..773K, doi:10.1103/PhysRevA.60.R773

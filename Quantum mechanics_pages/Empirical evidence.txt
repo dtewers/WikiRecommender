@@ -1,0 +1,39 @@
+Empirical evidence, also known as sense experience, is the knowledge or source of knowledge acquired by means of the senses, particularly by observation and experimentation. The term comes from the Greek word for experience, ἐμπειρία (empeiría). After Immanuel Kant, it is common in philosophy to call the knowledge thus gained a posteriori knowledge (in contrast to a priori knowledge).
+
+
+== Meaning ==
+Empirical evidence is information that justifies the truth or falsity of a claim. In the empiricist view, one can claim to have knowledge only when based on empirical evidence. This stands in contrast to the rationalist view under which reason or reflection alone is considered evidence for the truth or falsity of some propositions. Empirical evidence is information acquired by observation or experimentation. This data is recorded and analyzed by scientists. This is the primary source of empirical evidence. Secondary sources describe, discuss, interpret, comment upon, analyze, evaluate, summarize, and process primary sources. Secondary source materials can be articles in newspapers or popular magazines, book or movie reviews, or articles found in scholarly journals that discuss or evaluate someone else's original research.
+Empirical evidence may be synonymous with the outcome of an experiment. In this regard, an empirical result is a unified confirmation. In this context, the term semi-empirical is used for qualifying theoretical methods that use, in part, basic axioms or postulated scientific laws and experimental results. Such methods are opposed to theoretical ab initio methods, which are purely deductive and based on first principles.
+In science, empirical evidence is required for a hypothesis to gain acceptance in the scientific community. Normally, this validation is achieved by the scientific method of forming a hypothesis, experimental design, peer review, adversarial review, reproduction of results, conference presentation, and journal publication. This requires rigorous communication of hypothesis (usually expressed in mathematics), experimental constraints and controls (expressed necessarily in terms of standard experimental apparatus), and a common understanding of measurement.
+Statements and arguments depending on empirical evidence are often referred to as a posteriori ("following experience") as distinguished from a priori (preceding it). A priori knowledge or justification is independent of experience (for example "All bachelors are unmarried"), whereas a posteriori knowledge or justification is dependent on experience or empirical evidence (for example "Some bachelors are very happy"). The notion that the distinction between a posteriori and a priori is tantamount to the distinction between empirical and non-empirical knowledge comes from Kant's Critique of Pure Reason.
+The standard positivist view of empirically acquired information has been that observation, experience, and experiment serve as neutral arbiters between competing theories. However, since the 1960s, a persistent critique most associated with Thomas Kuhn, has argued that these methods are influenced by prior beliefs and experiences. Consequently, it cannot be expected that two scientists when observing, experiencing, or experimenting on the same event will make the same theory-neutral observations. The role of observation as a theory-neutral arbiter may not be possible. Theory-dependence of observation means that, even if there were agreed methods of inference and interpretation, scientists may still disagree on the nature of empirical data.
+
+
+== See also ==
+Anecdotal evidence
+Empirical distribution function
+Empirical formula
+Empirical measure
+Empirical research (more on the scientific usage)
+Experiential knowledge
+Phenomenology (philosophy)
+Scientific evidence
+Scientific method
+Theory
+
+
+== Footnotes ==
+
+
+== References ==
+Bird, Alexander (2013). Zalta, Edward N., ed. "Thomas Kuhn". Stanford Encyclopedia of Philosophy. Section 4.2 Perception, Observational Incommensurability, and World-Change. Retrieved 25 January 2012. 
+Craig, Edward (2005). "a posteriori". The Shorter Routledge Encyclopedia of Philosophy. Routledge. ISBN 9780415324953. 
+Feldman, Richard (2001) [1999]. "Evidence". In Audi, Robert. The Cambridge Dictionary of Philosophy (2nd ed.). Cambridge, UK: Cambridge University Press. pp. 293–294. ISBN 978-0521637220. 
+Kuhn, Thomas S. (1970) [1962]. The Structure of Scientific Revolutions (2nd ed.). Chicago: University of Chicago Press. ISBN 978-0226458045. 
+Pickett, Joseph P., ed. (2011). "Empirical". The American Heritage Dictionary of the English Language (5th ed.). Houghton Mifflin. ISBN 978-0-547-04101-8. 
+
+
+== External links ==
+ The dictionary definition of empirical at Wiktionary
+ The dictionary definition of evidence at Wiktionary
+"A Priori and A Posteriori". Internet Encyclopedia of Philosophy.

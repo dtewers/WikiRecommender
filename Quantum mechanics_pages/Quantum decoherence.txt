@@ -1,0 +1,4836 @@
+Quantum decoherence is the loss of quantum coherence. In quantum mechanics, particles such as electrons behave like waves and are described by a wavefunction. These waves can interfere, leading to the peculiar behaviour of quantum particles. As long as there exists a definite phase relation between different states, the system is said to be coherent. This coherence is a fundamental property of quantum mechanics, and is necessary for the function of quantum computers. However, when a quantum system is not perfectly isolated, but in contact with its surroundings, the coherence decays with time, a process called quantum decoherence. As a result of this process, the quantum behaviour is lost. Decoherence was first introduced in 1970 by the German physicist H. Dieter Zeh and has been a subject of active research since the 1980s.
+Decoherence can be viewed as the loss of information from a system into the environment (often modeled as a heat bath), since every system is loosely coupled with the energetic state of its surroundings. Viewed in isolation, the system's dynamics are non-unitary (although the combined system plus environment evolves in a unitary fashion). Thus the dynamics of the system alone are irreversible. As with any coupling, entanglements are generated between the system and environment. These have the effect of sharing quantum information with—or transferring it to—the surroundings.
+Decoherence has been used to understand the collapse of the wavefunction in quantum mechanics. Decoherence does not generate actual wave function collapse. It only provides an explanation for the observation of wave function collapse, as the quantum nature of the system "leaks" into the environment. That is, components of the wavefunction are decoupled from a coherent system, and acquire phases from their immediate surroundings. A total superposition of the global or universal wavefunction still exists (and remains coherent at the global level), but its ultimate fate remains an interpretational issue. Specifically, decoherence does not attempt to explain the measurement problem. Rather, decoherence provides an explanation for the transition of the system to a mixture of states that seem to correspond to those states observers perceive. Moreover, our observation tells us that this mixture looks like a proper quantum ensemble in a measurement situation, as we observe that measurements lead to the "realization" of precisely one state in the "ensemble".
+Decoherence represents a challenge for the practical realization of quantum computers, since such machines are expected to rely heavily on the undisturbed evolution of quantum coherences. Simply put, they require that coherent states be preserved and that decoherence is managed, in order to actually perform quantum computation.
+
+
+== Mechanisms ==
+To examine how decoherence operates, an "intuitive" model is presented. The model requires some familiarity with quantum theory basics. Analogies are made between visualisable classical phase spaces and Hilbert spaces. A more rigorous derivation in Dirac notation shows how decoherence destroys interference effects and the "quantum nature" of systems. Next, the density matrix approach is presented for perspective.
+
+
+=== Phase space picture ===
+An N-particle system can be represented in non-relativistic quantum mechanics by a wavefunction, 
+  
+    
+      
+        ψ
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          x
+          
+            N
+          
+        
+        )
+      
+    
+    {\displaystyle \psi (x_{1},x_{2},...,x_{N})}
+  , where each xi is a point in 3-dimensional space. This has analogies with the classical phase space. A classical phase space contains a real-valued function in 6N dimensions (each particle contributes 3 spatial coordinates and 3 momenta). Our "quantum" phase space, on the other hand, involves a complex-valued function on a 3N dimensional space. The position and momenta are represented by operators that do not commute, and ψ lives in the mathematical structure of a Hilbert space. Aside from these differences, however, the rough analogy holds.
+Different previously-isolated, non-interacting systems occupy different phase spaces. Alternatively we can say they occupy different, lower-dimensional subspaces in the phase space of the joint system. The effective dimensionality of a system's phase space is the number of degrees of freedom present which—in non-relativistic models—is 6 times the number of a system's free particles. For a macroscopic system this will be a very large dimensionality. When two systems (and the environment would be a system) start to interact, though, their associated state vectors are no longer constrained to the subspaces. Instead the combined state vector time-evolves a path through the "larger volume", whose dimensionality is the sum of the dimensions of the two subspaces. The extent to which two vectors interfere with each other is a measure of how "close" they are to each other (formally, their overlap or Hilbert space multiplies together) in the phase space. When a system couples to an external environment, the dimensionality of, and hence "volume" available to, the joint state vector increases enormously. Each environmental degree of freedom contributes an extra dimension.
+The original system's wavefunction can be expanded in many different ways as a sum of elements in a quantum superposition. Each expansion corresponds to a projection of the wave vector onto a basis. The basis can be chosen at will. Let us choose an expansion where the resulting basis elements interact with the environment in an element-specific way. Such elements will—with overwhelming probability—be rapidly separated from each other by their natural unitary time evolution along their own independent paths. After a very short interaction, there is almost no chance of any further interference. The process is effectively irreversible. The different elements effectively become "lost" from each other in the expanded phase space created by coupling with the environment; in phase space, this decoupling is monitored through the Wigner quasi-probability distribution. The original elements are said to have decohered. The environment has effectively selected out those expansions or decompositions of the original state vector that decohere (or lose phase coherence) with each other. This is called "environmentally-induced-superselection", or einselection. The decohered elements of the system no longer exhibit quantum interference between each other, as in a double-slit experiment. Any elements that decohere from each other via environmental interactions are said to be quantum entangled with the environment. The converse is not true: not all entangled states are decohered from each other.
+Any measuring device or apparatus acts as an environment since, at some stage along the measuring chain, it has to be large enough to be read by humans. It must possess a very large number of hidden degrees of freedom. In effect, the interactions may be considered to be quantum measurements. As a result of an interaction, the wave functions of the system and the measuring device become entangled with each other. Decoherence happens when different portions of the system's wavefunction become entangled in different ways with the measuring device. For two einselected elements of the entangled system's state to interfere, both the original system and the measuring in both elements device must significantly overlap, in the scalar product sense. If the measuring device has many degrees of freedom, it is very unlikely for this to happen.
+As a consequence, the system behaves as a classical statistical ensemble of the different elements rather than as a single coherent quantum superposition of them. From the perspective of each ensemble member's measuring device, the system appears to have irreversibly collapsed onto a state with a precise value for the measured attributes, relative to that element.
+
+
+=== Dirac notation ===
+Using Dirac notation, let the system initially be in the state
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        i
+        ⟩
+        ⟨
+        i
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle =\sum _{i}|i\rangle \langle i|\psi \rangle }
+  
+where the 
+  
+    
+      
+        
+          |
+        
+        i
+        ⟩
+      
+    
+    {\displaystyle |i\rangle }
+  s form an einselected basis (environmentally induced selected eigenbasis), and let the environment initially be in the state 
+  
+    
+      
+        
+          |
+        
+        ϵ
+        ⟩
+      
+    
+    {\displaystyle |\epsilon \rangle }
+  . The vector basis of the combination of the system and the environment consists of the tensor products of the basis vectors of the two subsystems. Thus, before any interaction between the two subsystems, the joint state can be written as
+
+  
+    
+      
+        
+          |
+        
+        
+          
+            before
+          
+        
+        ⟩
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        i
+        ⟩
+        
+          |
+        
+        ϵ
+        ⟩
+        ⟨
+        i
+        
+          |
+        
+        ψ
+        ⟩
+        ,
+      
+    
+    {\displaystyle |{\textrm {before}}\rangle =\sum _{i}|i\rangle |\epsilon \rangle \langle i|\psi \rangle ,}
+  
+where 
+  
+    
+      
+        
+          |
+        
+        i
+        ⟩
+        
+          |
+        
+        ϵ
+        ⟩
+      
+    
+    {\displaystyle |i\rangle |\epsilon \rangle }
+   is shorthand for the tensor product: 
+  
+    
+      
+        
+          |
+        
+        i
+        ⟩
+        ⊗
+        
+          |
+        
+        ϵ
+        ⟩
+      
+    
+    {\displaystyle |i\rangle \otimes |\epsilon \rangle }
+  . There are two extremes in the way the system can interact with its environment: either (1) the system loses its distinct identity and merges with the environment (e.g. photons in a cold, dark cavity get converted into molecular excitations within the cavity walls), or (2) the system is not disturbed at all, even though the environment is disturbed (e.g. the idealized non-disturbing measurement). In general an interaction is a mixture of these two extremes that we examine.
+
+
+==== System absorbed by environment ====
+If the environment absorbs the system, each element of the total system's basis interacts with the environment such that
+
+  
+    
+      
+        
+          |
+        
+        i
+        ⟩
+        
+          |
+        
+        ϵ
+        ⟩
+      
+    
+    {\displaystyle |i\rangle |\epsilon \rangle }
+   evolves into 
+  
+    
+      
+        
+          |
+        
+        
+          ϵ
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\epsilon _{i}\rangle }
+  
+and so
+
+  
+    
+      
+        
+          |
+        
+        
+          
+            before
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |{\textrm {before}}\rangle }
+   evolves into 
+  
+    
+      
+        
+          |
+        
+        
+          
+            after
+          
+        
+        ⟩
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ϵ
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        i
+        
+          |
+        
+        ψ
+        ⟩
+        .
+      
+    
+    {\displaystyle |{\textrm {after}}\rangle =\sum _{i}|\epsilon _{i}\rangle \langle i|\psi \rangle .}
+  
+The unitarity of time-evolution demands that the total state basis remains orthonormal, i.e. the scalar or inner products of the basis vectors must vanish, since 
+  
+    
+      
+        ⟨
+        i
+        
+          |
+        
+        j
+        ⟩
+        =
+        
+          δ
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle \langle i|j\rangle =\delta _{ij}}
+  :
+
+  
+    
+      
+        ⟨
+        
+          ϵ
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        =
+        
+          δ
+          
+            i
+            j
+          
+        
+        .
+      
+    
+    {\displaystyle \langle \epsilon _{i}|\epsilon _{j}\rangle =\delta _{ij}.}
+  
+This orthonormality of the environment states is the defining characteristic required for einselection.
+
+
+==== System not disturbed by environment ====
+In an idealised measurement, the system disturbs the environment, but is itself undisturbed by the environment. In this case, each element of the basis interacts with the environment such that
+
+  
+    
+      
+        
+          |
+        
+        i
+        ⟩
+        
+          |
+        
+        ϵ
+        ⟩
+      
+    
+    {\displaystyle |i\rangle |\epsilon \rangle }
+   evolves into the product 
+  
+    
+      
+        
+          |
+        
+        i
+        ,
+        
+          ϵ
+          
+            i
+          
+        
+        ⟩
+        =
+        
+          |
+        
+        i
+        ⟩
+        
+          |
+        
+        
+          ϵ
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |i,\epsilon _{i}\rangle =|i\rangle |\epsilon _{i}\rangle }
+  
+and so
+
+  
+    
+      
+        
+          |
+        
+        
+          
+            before
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |{\textrm {before}}\rangle }
+   evolves into 
+  
+    
+      
+        
+          |
+        
+        
+          
+            after
+          
+        
+        ⟩
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        i
+        ,
+        
+          ϵ
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        i
+        
+          |
+        
+        ψ
+        ⟩
+        .
+      
+    
+    {\displaystyle |{\textrm {after}}\rangle =\sum _{i}|i,\epsilon _{i}\rangle \langle i|\psi \rangle .}
+  
+In this case, unitarity demands that
+
+  
+    
+      
+        ⟨
+        i
+        ,
+        
+          ϵ
+          
+            i
+          
+        
+        
+          |
+        
+        j
+        ,
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        =
+        ⟨
+        i
+        
+          |
+        
+        j
+        ⟩
+        ⟨
+        
+          ϵ
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        =
+        
+          δ
+          
+            i
+            j
+          
+        
+        ⟨
+        
+          ϵ
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        =
+        
+          δ
+          
+            i
+            j
+          
+        
+        .
+      
+    
+    {\displaystyle \langle i,\epsilon _{i}|j,\epsilon _{j}\rangle =\langle i|j\rangle \langle \epsilon _{i}|\epsilon _{j}\rangle =\delta _{ij}\langle \epsilon _{i}|\epsilon _{j}\rangle =\delta _{ij}.}
+  
+Additionally, decoherence requires, by virtue of the large number of hidden degrees of freedom in the environment, that
+
+  
+    
+      
+        ⟨
+        
+          ϵ
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        ≈
+        
+          δ
+          
+            i
+            j
+          
+        
+        .
+      
+    
+    {\displaystyle \langle \epsilon _{i}|\epsilon _{j}\rangle \approx \delta _{ij}.}
+  
+As before, this is the defining characteristic for decoherence to become einselection. The approximation becomes more exact as the number of environmental degrees of freedom affected increases.
+Note that if the system basis 
+  
+    
+      
+        
+          |
+        
+        i
+        ⟩
+      
+    
+    {\displaystyle |i\rangle }
+   were not an einselected basis then the last condition is trivial since the disturbed environment is not a function of 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+   and we have the trivial disturbed environment basis 
+  
+    
+      
+        
+          |
+        
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        =
+        
+          |
+        
+        
+          ϵ
+          ′
+        
+        ⟩
+      
+    
+    {\displaystyle |\epsilon _{j}\rangle =|\epsilon '\rangle }
+  . This would correspond to the system basis being degenerate with respect to the environmentally-defined-measurement-observable. For a complex environmental interaction (which would be expected for a typical macroscale interaction) a non-einselected basis would be hard to define.
+
+
+=== Loss of interference and the transition from quantum to classical ===
+The utility of decoherence lies in its application to the analysis of probabilities, before and after environmental interaction, and in particular to the vanishing of quantum interference terms after decoherence has occurred. If we ask what is the probability of observing the system making a transition from 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   to 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+   before 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   has interacted with its environment, then application of the Born probability rule states that the transition probability is the modulus squared of the scalar product of the two states:
+
+  
+    
+      
+        
+          
+            
+              p
+              r
+              o
+              b
+            
+          
+          
+            
+              b
+              e
+              f
+              o
+              r
+              e
+            
+          
+        
+        (
+        ψ
+        →
+        ϕ
+        )
+        =
+        
+          |
+        
+        ⟨
+        ψ
+        
+          |
+        
+        ϕ
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          |
+        
+        
+          ∑
+          
+            i
+          
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        
+          ϕ
+          
+            i
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        
+          ϕ
+          
+            i
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          ∑
+          
+            i
+            j
+            ;
+            i
+            ≠
+            j
+          
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        
+          ψ
+          
+            j
+          
+        
+        
+          ϕ
+          
+            j
+          
+          
+            ∗
+          
+        
+        
+          ϕ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\mathit {prob}}_{\mathit {before}}(\psi \rightarrow \phi )=|\langle \psi |\phi \rangle |^{2}=|\sum _{i}\psi _{i}^{*}\phi _{i}|^{2}=\sum _{i}|\psi _{i}^{*}\phi _{i}|^{2}+\sum _{ij;i\neq j}\psi _{i}^{*}\psi _{j}\phi _{j}^{*}\phi _{i}}
+  
+where 
+  
+    
+      
+        
+          ψ
+          
+            i
+          
+        
+        =
+        ⟨
+        i
+        
+          |
+        
+        ψ
+        ⟩
+        ,
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        =
+        ⟨
+        ψ
+        
+          |
+        
+        i
+        ⟩
+      
+    
+    {\displaystyle \psi _{i}=\langle i|\psi \rangle ,\psi _{i}^{*}=\langle \psi |i\rangle }
+   and 
+  
+    
+      
+        
+          ϕ
+          
+            i
+          
+        
+        =
+        ⟨
+        i
+        
+          |
+        
+        ϕ
+        ⟩
+      
+    
+    {\displaystyle \phi _{i}=\langle i|\phi \rangle }
+   etc.
+Terms appear in the expansion of the transition probability above which involve 
+  
+    
+      
+        i
+        ≠
+        j
+      
+    
+    {\displaystyle i\neq j}
+  ; these can be thought of as representing interference between the different basis elements or quantum alternatives. This is a purely quantum effect and represents the non-additivity of the probabilities of quantum alternatives.
+To calculate the probability of observing the system making a quantum leap from 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   to 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+   after 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   has interacted with its environment, then application of the Born probability rule states we must sum over all the relevant possible states of the environment, 
+  
+    
+      
+        
+          E
+          
+            i
+          
+        
+      
+    
+    {\displaystyle E_{i}}
+  , before squaring the modulus:
+
+  
+    
+      
+        
+          
+            
+              p
+              r
+              o
+              b
+            
+          
+          
+            
+              a
+              f
+              t
+              e
+              r
+            
+          
+        
+        (
+        ψ
+        →
+        ϕ
+        )
+        =
+        
+          ∑
+          
+            j
+          
+        
+        
+          |
+        
+        ⟨
+        
+          
+            a
+            f
+            t
+            e
+            r
+          
+        
+        
+          |
+        
+        ϕ
+        ,
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            j
+          
+        
+        
+          |
+        
+        
+          ∑
+          
+            i
+          
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        ⟨
+        i
+        ,
+        
+          ϵ
+          
+            i
+          
+        
+        
+          |
+        
+        ϕ
+        ,
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            j
+          
+        
+        
+          |
+        
+        
+          ∑
+          
+            i
+          
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        ⟨
+        i
+        
+          |
+        
+        ϕ
+        ⟩
+        ⟨
+        
+          ϵ
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\mathit {prob}}_{\mathit {after}}(\psi \rightarrow \phi )=\sum _{j}|\langle {\mathit {after}}|\phi ,\epsilon _{j}\rangle |^{2}=\sum _{j}|\sum _{i}\psi _{i}^{*}\langle i,\epsilon _{i}|\phi ,\epsilon _{j}\rangle |^{2}=\sum _{j}|\sum _{i}\psi _{i}^{*}\langle i|\phi \rangle \langle \epsilon _{i}|\epsilon _{j}\rangle |^{2}}
+  
+The internal summation vanishes when we apply the decoherence / einselection condition 
+  
+    
+      
+        ⟨
+        
+          ϵ
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        ≈
+        
+          δ
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle \langle \epsilon _{i}|\epsilon _{j}\rangle \approx \delta _{ij}}
+   and the formula simplifies to:
+
+  
+    
+      
+        
+          
+            
+              p
+              r
+              o
+              b
+            
+          
+          
+            
+              a
+              f
+              t
+              e
+              r
+            
+          
+        
+        (
+        ψ
+        →
+        ϕ
+        )
+        ≈
+        
+          ∑
+          
+            j
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            j
+          
+          
+            ∗
+          
+        
+        ⟨
+        j
+        
+          |
+        
+        ϕ
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        
+          ϕ
+          
+            i
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\mathit {prob}}_{\mathit {after}}(\psi \rightarrow \phi )\approx \sum _{j}|\psi _{j}^{*}\langle j|\phi \rangle |^{2}=\sum _{i}|\psi _{i}^{*}\phi _{i}|^{2}}
+  
+If we compare this with the formula we derived before the environment introduced decoherence we can see that the effect of decoherence has been to move the summation sign 
+  
+    
+      
+        
+          Σ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \Sigma _{i}}
+   from inside of the modulus sign to outside. As a result, all the cross- or quantum interference-terms:
+
+  
+    
+      
+        
+          ∑
+          
+            i
+            j
+            ;
+            i
+            ≠
+            j
+          
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        
+          ψ
+          
+            j
+          
+        
+        
+          ϕ
+          
+            j
+          
+          
+            ∗
+          
+        
+        
+          ϕ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \sum _{ij;i\neq j}\psi _{i}^{*}\psi _{j}\phi _{j}^{*}\phi _{i}}
+  
+have vanished from the transition probability calculation. The decoherence has irreversibly converted quantum behaviour (additive probability amplitudes) to classical behaviour (additive probabilities).
+In terms of density matrices, the loss of interference effects corresponds to the diagonalization of the "environmentally traced over" density matrix.
+
+
+=== Density matrix approach ===
+The effect of decoherence on density matrices is essentially the decay or rapid vanishing of the off-diagonal elements of the partial trace of the joint system's density matrix, i.e. the trace, with respect to any environmental basis, of the density matrix of the combined system and its environment. The decoherence irreversibly converts the "averaged" or "environmentally traced over" density matrix from a pure state to a reduced mixture; it is this that gives the appearance of wavefunction collapse. Again this is called "environmentally-induced-superselection", or einselection. The advantage of taking the partial trace is that this procedure is indifferent to the environmental basis chosen.
+Initially, the density matrix of the combined system can be denoted as,
+
+  
+    
+      
+        ρ
+        =
+        
+          |
+        
+        
+          
+            b
+            e
+            f
+            o
+            r
+            e
+          
+        
+        ⟩
+        ⟨
+        
+          
+            b
+            e
+            f
+            o
+            r
+            e
+          
+        
+        
+          |
+        
+        =
+        
+          |
+        
+        ψ
+        ⟩
+        ⟨
+        ψ
+        
+          |
+        
+        ⊗
+        
+          |
+        
+        ϵ
+        ⟩
+        ⟨
+        ϵ
+        
+          |
+        
+      
+    
+    {\displaystyle \rho =|{\mathit {before}}\rangle \langle {\mathit {before}}|=|\psi \rangle \langle \psi |\otimes |\epsilon \rangle \langle \epsilon |}
+  
+where 
+  
+    
+      
+        
+          |
+        
+        ϵ
+        ⟩
+      
+    
+    {\displaystyle |\epsilon \rangle }
+   is the state of the environment. Then if the transition happens before any interaction takes place between the system and the environment, the environment subsystem has no part and can be traced out, leaving the reduced density matrix for the system,
+
+  
+    
+      
+        
+          ρ
+          
+            
+              s
+              y
+              s
+            
+          
+        
+        =
+        
+          
+            
+              T
+              r
+            
+          
+          
+            
+              e
+              n
+              v
+            
+          
+        
+        (
+        ρ
+        )
+        =
+        
+          |
+        
+        ψ
+        ⟩
+        ⟨
+        ψ
+        
+          |
+        
+        ⟨
+        ϵ
+        
+          |
+        
+        ϵ
+        ⟩
+        =
+        
+          |
+        
+        ψ
+        ⟩
+        ⟨
+        ψ
+        
+          |
+        
+      
+    
+    {\displaystyle \rho _{\mathit {sys}}={\mathit {Tr}}_{\mathit {env}}(\rho )=|\psi \rangle \langle \psi |\langle \epsilon |\epsilon \rangle =|\psi \rangle \langle \psi |}
+  
+Now the transition probability will be given as:
+
+  
+    
+      
+        
+          
+            
+              p
+              r
+              o
+              b
+            
+          
+          
+            
+              b
+              e
+              f
+              o
+              r
+              e
+            
+          
+        
+        (
+        ψ
+        →
+        ϕ
+        )
+        =
+        ⟨
+        ϕ
+        
+          |
+        
+        
+          ρ
+          
+            
+              s
+              y
+              s
+            
+          
+        
+        
+          |
+        
+        ϕ
+        ⟩
+        =
+        ⟨
+        ϕ
+        
+          |
+        
+        ψ
+        ⟩
+        ⟨
+        ψ
+        
+          |
+        
+        ϕ
+        ⟩
+        =
+        
+          
+            
+              |
+            
+            ⟨
+            ψ
+            
+              |
+            
+            ϕ
+            ⟩
+            
+              |
+            
+          
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        
+          ϕ
+          
+            i
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          ∑
+          
+            i
+            j
+            ;
+            i
+            ≠
+            j
+          
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        
+          ψ
+          
+            j
+          
+        
+        
+          ϕ
+          
+            j
+          
+          
+            ∗
+          
+        
+        
+          ϕ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\mathit {prob}}_{\mathit {before}}(\psi \rightarrow \phi )=\langle \phi |\rho _{\mathit {sys}}|\phi \rangle =\langle \phi |\psi \rangle \langle \psi |\phi \rangle ={|\langle \psi |\phi \rangle |}^{2}=\sum _{i}|\psi _{i}^{*}\phi _{i}|^{2}+\sum _{ij;i\neq j}\psi _{i}^{*}\psi _{j}\phi _{j}^{*}\phi _{i}}
+  
+where 
+  
+    
+      
+        
+          ψ
+          
+            i
+          
+        
+        =
+        ⟨
+        i
+        
+          |
+        
+        ψ
+        ⟩
+        ,
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        =
+        ⟨
+        ψ
+        
+          |
+        
+        i
+        ⟩
+      
+    
+    {\displaystyle \psi _{i}=\langle i|\psi \rangle ,\psi _{i}^{*}=\langle \psi |i\rangle }
+   and 
+  
+    
+      
+        
+          ϕ
+          
+            i
+          
+        
+        =
+        ⟨
+        i
+        
+          |
+        
+        ϕ
+        ⟩
+      
+    
+    {\displaystyle \phi _{i}=\langle i|\phi \rangle }
+   etc.
+Now the case when transition takes place after the interaction of the system with the environment. The combined density matrix will be,
+
+  
+    
+      
+        ρ
+        =
+        
+          |
+        
+        
+          
+            a
+            f
+            t
+            e
+            r
+          
+        
+        ⟩
+        ⟨
+        
+          
+            a
+            f
+            t
+            e
+            r
+          
+        
+        
+          |
+        
+        =
+        
+          ∑
+          
+            i
+            ,
+            j
+          
+        
+        
+          ψ
+          
+            i
+          
+        
+        
+          ψ
+          
+            j
+          
+          
+            ∗
+          
+        
+        
+          |
+        
+        i
+        ,
+        
+          ϵ
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        j
+        ,
+        
+          ϵ
+          
+            j
+          
+        
+        
+          |
+        
+        =
+        
+          ∑
+          
+            i
+            ,
+            j
+          
+        
+        
+          ψ
+          
+            i
+          
+        
+        
+          ψ
+          
+            j
+          
+          
+            ∗
+          
+        
+        
+          |
+        
+        i
+        ⟩
+        ⟨
+        j
+        
+          |
+        
+        ⊗
+        
+          |
+        
+        
+          ϵ
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          ϵ
+          
+            j
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle \rho =|{\mathit {after}}\rangle \langle {\mathit {after}}|=\sum _{i,j}\psi _{i}\psi _{j}^{*}|i,\epsilon _{i}\rangle \langle j,\epsilon _{j}|=\sum _{i,j}\psi _{i}\psi _{j}^{*}|i\rangle \langle j|\otimes |\epsilon _{i}\rangle \langle \epsilon _{j}|}
+  
+To get the reduced density matrix of the system we trace out the environment and employ the decoherence/einselection condition and see that the off-diagonal terms vanish,
+
+  
+    
+      
+        
+          ρ
+          
+            
+              s
+              y
+              s
+            
+          
+        
+        =
+        
+          
+            
+              T
+              r
+            
+          
+          
+            
+              e
+              n
+              v
+            
+          
+        
+        (
+        
+          ∑
+          
+            i
+            ,
+            j
+          
+        
+        
+          ψ
+          
+            i
+          
+        
+        
+          ψ
+          
+            j
+          
+          
+            ∗
+          
+        
+        
+          |
+        
+        i
+        ⟩
+        ⟨
+        j
+        
+          |
+        
+        ⊗
+        
+          |
+        
+        
+          ϵ
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          ϵ
+          
+            j
+          
+        
+        
+          |
+        
+        )
+        =
+        
+          ∑
+          
+            i
+            ,
+            j
+          
+        
+        
+          ψ
+          
+            i
+          
+        
+        
+          ψ
+          
+            j
+          
+          
+            ∗
+          
+        
+        
+          |
+        
+        i
+        ⟩
+        ⟨
+        j
+        
+          |
+        
+        ⟨
+        
+          ϵ
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ϵ
+          
+            j
+          
+        
+        ⟩
+        =
+        
+          ∑
+          
+            i
+            ,
+            j
+          
+        
+        
+          ψ
+          
+            i
+          
+        
+        
+          ψ
+          
+            j
+          
+          
+            ∗
+          
+        
+        
+          |
+        
+        i
+        ⟩
+        ⟨
+        j
+        
+          |
+        
+        
+          δ
+          
+            i
+            j
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          |
+        
+        i
+        ⟩
+        ⟨
+        i
+        
+          |
+        
+      
+    
+    {\displaystyle \rho _{\mathit {sys}}={\mathit {Tr}}_{\mathit {env}}(\sum _{i,j}\psi _{i}\psi _{j}^{*}|i\rangle \langle j|\otimes |\epsilon _{i}\rangle \langle \epsilon _{j}|)=\sum _{i,j}\psi _{i}\psi _{j}^{*}|i\rangle \langle j|\langle \epsilon _{i}|\epsilon _{j}\rangle =\sum _{i,j}\psi _{i}\psi _{j}^{*}|i\rangle \langle j|\delta _{ij}=\sum _{i}|\psi _{i}|^{2}|i\rangle \langle i|}
+  
+Similarly the final reduced density matrix after the transition will be 
+  
+    
+      
+        
+          ∑
+          
+            j
+          
+        
+        
+          |
+        
+        
+          ϕ
+          
+            j
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          |
+        
+        j
+        ⟩
+        ⟨
+        j
+        
+          |
+        
+      
+    
+    {\displaystyle \sum _{j}|\phi _{j}|^{2}|j\rangle \langle j|}
+   The transition probability will then be given as:
+
+  
+    
+      
+        
+          
+            
+              p
+              r
+              o
+              b
+            
+          
+          
+            
+              a
+              f
+              t
+              e
+              r
+            
+          
+        
+        (
+        ψ
+        →
+        ϕ
+        )
+        =
+        
+          ∑
+          
+            i
+            ,
+            j
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          |
+        
+        
+          ϕ
+          
+            j
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        ⟨
+        j
+        
+          |
+        
+        i
+        ⟩
+        ⟨
+        i
+        
+          |
+        
+        j
+        ⟩
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        
+          ϕ
+          
+            i
+          
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\mathit {prob}}_{\mathit {after}}(\psi \rightarrow \phi )=\sum _{i,j}|\psi _{i}|^{2}|\phi _{j}|^{2}\langle j|i\rangle \langle i|j\rangle =\sum _{i}|\psi _{i}^{*}\phi _{i}|^{2}}
+  
+which has no contribution from the interference terms, 
+  
+    
+      
+        
+          ∑
+          
+            i
+            j
+            ;
+            i
+            ≠
+            j
+          
+        
+        
+          ψ
+          
+            i
+          
+          
+            ∗
+          
+        
+        
+          ψ
+          
+            j
+          
+        
+        
+          ϕ
+          
+            j
+          
+          
+            ∗
+          
+        
+        
+          ϕ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \sum _{ij;i\neq j}\psi _{i}^{*}\psi _{j}\phi _{j}^{*}\phi _{i}}
+  .
+The density matrix approach has been combined with the Bohmian approach to yield a reduced trajectory approach, taking into account the system reduced density matrix and the influence of the environment.
+
+
+=== Operator-sum representation ===
+Consider a system S and environment (bath) B, which are closed and can be treated quantum mechanically. Let 
+  
+    
+      
+        
+          
+            
+              H
+              
+                S
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathcal {H_{S}}}}
+   and 
+  
+    
+      
+        
+          
+            
+              H
+              
+                B
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathcal {H_{B}}}}
+   be the system's and bath's Hilbert spaces, respectively. Then the Hamiltonian for the combined system is
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            S
+          
+        
+        ⊗
+        
+          
+            
+              
+                I
+                ^
+              
+            
+          
+          
+            B
+          
+        
+        +
+        
+          
+            
+              
+                I
+                ^
+              
+            
+          
+          
+            S
+          
+        
+        ⊗
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            B
+          
+        
+        +
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            I
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}={\hat {H}}_{S}\otimes {\hat {I}}_{B}+{\hat {I}}_{S}\otimes {\hat {H}}_{B}+{\hat {H}}_{I}}
+  
+where 
+  
+    
+      
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            S
+          
+        
+        ,
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            B
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}_{S},{\hat {H}}_{B}}
+   are the system and bath Hamiltonians, respectively, and 
+  
+    
+      
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            I
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}_{I}}
+   is the interaction Hamiltonian between the system and bath, and 
+  
+    
+      
+        
+          
+            
+              
+                I
+                ^
+              
+            
+          
+          
+            S
+          
+        
+        ,
+        
+          
+            
+              
+                I
+                ^
+              
+            
+          
+          
+            B
+          
+        
+      
+    
+    {\displaystyle {\hat {I}}_{S},{\hat {I}}_{B}}
+   are the identity operators on the system and bath Hilbert spaces, respectively. The time-evolution of the density operator of this closed system is unitary and, as such, is given by
+
+  
+    
+      
+        
+          ρ
+          
+            S
+            B
+          
+        
+        (
+        t
+        )
+        =
+        
+          
+            
+              U
+              ^
+            
+          
+        
+        (
+        t
+        )
+        
+          ρ
+          
+            S
+            B
+          
+        
+        (
+        0
+        )
+        
+          
+            
+              
+                U
+                
+                  †
+                
+              
+              ^
+            
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle \rho _{SB}(t)={\hat {U}}(t)\rho _{SB}(0){\hat {U^{\dagger }}}(t)}
+  
+where the unitary operator is 
+  
+    
+      
+        
+          
+            
+              U
+              ^
+            
+          
+        
+        =
+        
+          e
+          
+            
+              
+                −
+                i
+                
+                  
+                    
+                      H
+                      ^
+                    
+                  
+                
+                t
+              
+              ℏ
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {U}}=e^{\frac {-i{\hat {H}}t}{\hbar }}}
+  . If the system and bath are not entangled initially, then we can write 
+  
+    
+      
+        
+          ρ
+          
+            S
+            B
+          
+        
+        =
+        
+          ρ
+          
+            S
+          
+        
+        ⊗
+        
+          ρ
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \rho _{SB}=\rho _{S}\otimes \rho _{B}}
+  . Therefore, the evolution of the system becomes
+
+  
+    
+      
+        
+          ρ
+          
+            S
+            B
+          
+        
+        (
+        t
+        )
+        =
+        
+          
+            
+              U
+              ^
+            
+          
+        
+        (
+        t
+        )
+        [
+        
+          ρ
+          
+            S
+          
+        
+        (
+        0
+        )
+        ⊗
+        
+          ρ
+          
+            B
+          
+        
+        (
+        0
+        )
+        ]
+        
+          
+            
+              
+                U
+                
+                  †
+                
+              
+              ^
+            
+          
+        
+        (
+        t
+        )
+        .
+      
+    
+    {\displaystyle \rho _{SB}(t)={\hat {U}}(t)[\rho _{S}(0)\otimes \rho _{B}(0)]{\hat {U^{\dagger }}}(t).}
+  
+The system-bath interaction Hamiltonian can be written in a general form as
+
+  
+    
+      
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            I
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          
+            
+              
+                S
+                
+                  i
+                
+              
+              ^
+            
+          
+        
+        ⊗
+        
+          
+            
+              
+                B
+                ^
+              
+            
+          
+          
+            i
+          
+        
+        ,
+      
+    
+    {\displaystyle {\hat {H}}_{I}=\sum _{i}{\hat {S_{i}}}\otimes {\hat {B}}_{i},}
+  
+where 
+  
+    
+      
+        
+          
+            
+              
+                S
+                
+                  i
+                
+              
+              ^
+            
+          
+        
+        ⊗
+        
+          
+            
+              
+                B
+                
+                  i
+                
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {S_{i}}}\otimes {\hat {B_{i}}}}
+   is the operator acting on the combined system-bath Hilbert space, and 
+  
+    
+      
+        
+          
+            
+              
+                S
+                ^
+              
+            
+          
+          
+            i
+          
+        
+        ,
+        
+          
+            
+              
+                B
+                ^
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\hat {S}}_{i},{\hat {B}}_{i}}
+   are the operators that act on the system and bath, respectively. This coupling of the system and bath is the cause of decoherence in the system alone. To see this, a partial trace is performed over the bath to give a description of the system alone:
+
+  
+    
+      
+        
+          ρ
+          
+            S
+          
+        
+        (
+        t
+        )
+        =
+        T
+        
+          r
+          
+            B
+          
+        
+        [
+        
+          
+            
+              U
+              ^
+            
+          
+        
+        (
+        t
+        )
+        [
+        
+          ρ
+          
+            S
+          
+        
+        (
+        0
+        )
+        ⊗
+        
+          ρ
+          
+            B
+          
+        
+        (
+        0
+        )
+        ]
+        
+          
+            
+              
+                U
+                
+                  †
+                
+              
+              ^
+            
+          
+        
+        (
+        t
+        )
+        ]
+        .
+      
+    
+    {\displaystyle \rho _{S}(t)=Tr_{B}[{\hat {U}}(t)[\rho _{S}(0)\otimes \rho _{B}(0)]{\hat {U^{\dagger }}}(t)].}
+  
+
+  
+    
+      
+        
+          
+            
+              ρ
+            
+          
+          
+            S
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle \mathbf {\mathit {\rho }} _{S}(t)}
+   is called the reduced density matrix and gives information about the system only. If the bath is written in terms of its set of orthogonal basis kets, that is, if it has been initially diagonalized then 
+  
+    
+      
+        
+          ρ
+          
+            B
+          
+        
+        (
+        0
+        )
+        =
+        
+          ∑
+          
+            j
+          
+        
+        
+          a
+          
+            j
+          
+        
+        
+          |
+        
+        
+          j
+        
+        ⟩
+        ⟨
+        
+          j
+        
+        
+          |
+        
+        .
+      
+    
+    {\displaystyle \rho _{B}(0)=\sum _{j}a_{j}|{j}\rangle \langle {j}|.}
+   Computing the partial trace with respect to this (computational) basis gives:
+
+  
+    
+      
+        
+          ρ
+          
+            S
+          
+        
+        (
+        t
+        )
+        =
+        
+          ∑
+          
+            l
+          
+        
+        
+          
+            
+              
+                A
+                
+                  l
+                
+              
+              ^
+            
+          
+        
+        
+          ρ
+          
+            S
+          
+        
+        (
+        0
+        )
+        
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          
+            l
+          
+          
+            †
+          
+        
+      
+    
+    {\displaystyle \rho _{S}(t)=\sum _{l}{\hat {A_{l}}}\rho _{S}(0){\hat {A}}_{l}^{\dagger }}
+  
+where 
+  
+    
+      
+        
+          
+            
+              
+                A
+                
+                  l
+                
+              
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          
+            l
+          
+          
+            †
+          
+        
+      
+    
+    {\displaystyle {\hat {A_{l}}},{\hat {A}}_{l}^{\dagger }}
+   are defined as the Kraus operators and are represented as
+
+  
+    
+      
+        
+          
+            
+              
+                A
+                
+                  l
+                
+              
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              a
+              
+                j
+              
+            
+          
+        
+        ⟨
+        
+          k
+        
+        
+          |
+        
+        
+          
+            
+              U
+              ^
+            
+          
+        
+        
+          |
+        
+        
+          j
+        
+        ⟩
+        .
+      
+    
+    {\displaystyle {\hat {A_{l}}}={\sqrt {a_{j}}}\langle {k}|{\hat {U}}|{j}\rangle .}
+  
+This is known as the operator-sum representation (OSR). A condition on the Kraus operators can be obtained by using the fact that 
+  
+    
+      
+        
+          
+            T
+            r
+          
+        
+        (
+        
+          
+            
+              ρ
+            
+          
+          
+            S
+          
+        
+        (
+        t
+        )
+        )
+        =
+        1
+      
+    
+    {\displaystyle \mathbf {\mathit {Tr}} (\mathbf {\mathit {\rho }} _{S}(t))=1}
+  ; this then gives
+
+  
+    
+      
+        
+          ∑
+          
+            l
+          
+        
+        
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          
+            l
+          
+          
+            †
+          
+        
+        
+          
+            
+              
+                A
+                
+                  l
+                
+              
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                I
+                ^
+              
+            
+          
+          
+            S
+          
+        
+        .
+      
+    
+    {\displaystyle \sum _{l}{\hat {A}}_{l}^{\dagger }{\hat {A_{l}}}={\hat {I}}_{S}.}
+  
+This restriction determines if decoherence will occur or not in the OSR. In particular, when there is more than one term present in the sum for 
+  
+    
+      
+        
+          
+            ρ
+            
+              S
+            
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle \mathbf {\rho _{S}} (t)}
+   then the dynamics of the system will be non-unitary and hence decoherence will take place.
+
+
+=== Semigroup approach ===
+A more general consideration for the existence of decoherence in a quantum system is given by the master equation, which determines how the density matrix of the system alone evolves in time (see also the Belavkin equation   for the evolution under continuous measurement). This uses the Schrödinger picture, where evolution of the state (represented by its density matrix) is considered. The master equation is:
+
+  
+    
+      
+        
+          ρ
+          
+            S
+          
+          
+            ′
+          
+        
+        (
+        t
+        )
+        =
+        
+          
+            
+              −
+              i
+            
+            ℏ
+          
+        
+        
+          
+            [
+          
+        
+        
+          
+            
+              
+                
+                  H
+                  ~
+                
+              
+            
+            
+              S
+            
+          
+        
+        ,
+        
+          ρ
+          
+            S
+          
+        
+        (
+        t
+        )
+        
+          
+            ]
+          
+        
+        +
+        
+          L
+          
+            D
+          
+        
+        
+          
+            [
+          
+        
+        
+          ρ
+          
+            S
+          
+        
+        (
+        t
+        )
+        
+          
+            ]
+          
+        
+      
+    
+    {\displaystyle \rho _{S}^{\prime }(t)={\frac {-i}{\hbar }}{\big [}\mathbf {{\tilde {H}}_{S}} ,\rho _{S}(t){\big ]}+L_{D}{\big [}\rho _{S}(t){\big ]}}
+  
+where 
+  
+    
+      
+        
+          
+            
+              
+                
+                  H
+                  ~
+                
+              
+            
+            
+              S
+            
+          
+        
+        =
+        
+          
+            H
+            
+              S
+            
+          
+        
+        +
+        Δ
+      
+    
+    {\displaystyle \mathbf {{\tilde {H}}_{S}} =\mathbf {H_{S}} +\Delta }
+   is the system Hamiltonian, 
+  
+    
+      
+        
+          
+            H
+            
+              S
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {H_{S}} }
+  , along with a (possible) unitary contribution from the bath, 
+  
+    
+      
+        Δ
+      
+    
+    {\displaystyle \Delta }
+   and 
+  
+    
+      
+        
+          L
+          
+            D
+          
+        
+      
+    
+    {\displaystyle L_{D}}
+   is the Lindblad decohering term. The Lindblad decohering term is represented as
+
+  
+    
+      
+        
+          L
+          
+            D
+          
+        
+        
+          
+            [
+          
+        
+        
+          ρ
+          
+            S
+          
+        
+        (
+        t
+        )
+        
+          
+            ]
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        
+          ∑
+          
+            α
+            ,
+            β
+            =
+            1
+          
+          
+            M
+          
+        
+        
+          b
+          
+            α
+            β
+          
+        
+        
+          
+            (
+          
+        
+        
+          
+            [
+          
+        
+        
+          
+            F
+          
+          
+            α
+          
+        
+        ,
+        
+          ρ
+          
+            S
+          
+        
+        (
+        t
+        )
+        
+          
+            F
+          
+          
+            β
+          
+          
+            †
+          
+        
+        
+          
+            ]
+          
+        
+        +
+        
+          
+            [
+          
+        
+        
+          
+            F
+          
+          
+            α
+          
+        
+        
+          ρ
+          
+            S
+          
+        
+        (
+        t
+        )
+        ,
+        
+          
+            F
+          
+          
+            β
+          
+          
+            †
+          
+        
+        
+          
+            ]
+          
+        
+        
+          
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle L_{D}{\big [}\rho _{S}(t){\big ]}={\frac {1}{2}}\sum _{\alpha ,\beta =1}^{M}b_{\alpha \beta }{\big (}{\big [}\mathbf {F} _{\alpha },\rho _{S}(t)\mathbf {F} _{\beta }^{\dagger }{\big ]}+{\big [}\mathbf {F} _{\alpha }\rho _{S}(t),\mathbf {F} _{\beta }^{\dagger }{\big ]}{\big )}.}
+  
+The 
+  
+    
+      
+        
+          
+            {
+          
+        
+        
+          
+            F
+          
+          
+            α
+          
+        
+        
+          
+            
+              }
+            
+          
+          
+            α
+            =
+            1
+          
+          
+            M
+          
+        
+      
+    
+    {\displaystyle {\big \{}\mathbf {F} _{\alpha }{\big \}}_{\alpha =1}^{M}}
+   are basis operators for the M-dimensional space of bounded operators that act on the system Hilbert space 
+  
+    
+      
+        
+          
+            
+              H
+            
+          
+          
+            S
+          
+        
+      
+    
+    {\displaystyle {\mathcal {H}}_{S}}
+  -these are the error generators-and 
+  
+    
+      
+        
+          
+            
+              b
+            
+          
+          
+            α
+            β
+          
+        
+      
+    
+    {\displaystyle \mathbf {\mathit {b}} _{\alpha \beta }}
+   represent the elements of a positive semi-definite Hermitian matrix-these matrix elements characterize the decohering processes and, as such, are called the noise parameters. The semigroup approach is particularly nice, because it distinguishes between the unitary and decohering(non-unitary) processes, which is not the case with the OSR. In particular, the non-unitary dynamics are represented by 
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            D
+          
+        
+      
+    
+    {\displaystyle {\mathit {L}}_{D}}
+  , whereas the unitary dynamics of the state are represented by the usual Heisenberg commutator. Note that when 
+  
+    
+      
+        
+          L
+          
+            D
+          
+        
+        
+          
+            [
+          
+        
+        
+          ρ
+          
+            S
+          
+        
+        (
+        t
+        )
+        
+          
+            ]
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle L_{D}{\big [}\rho _{S}(t){\big ]}=0}
+  , the dynamical evolution of the system is unitary. The conditions for the evolution of the system density matrix to be described by the master equation are:
+(1) the evolution of the system density matrix is determined by a one-parameter semigroup
+(2) the evolution is "completely positive" (i.e. probabilities are preserved)
+(3) the system and bath density matrices are initially decoupled.
+
+
+== Examples of non-unitary modelling of decoherence ==
+Decoherence can be modelled as a non-unitary process by which a system couples with its environment (although the combined system plus environment evolves in a unitary fashion). Thus the dynamics of the system alone, treated in isolation, are non-unitary and, as such, are represented by irreversible transformations acting on the system's Hilbert space, 
+  
+    
+      
+        
+          
+            H
+          
+        
+      
+    
+    {\displaystyle {\mathcal {H}}}
+  . Since the system's dynamics are represented by irreversible representations, then any information present in the quantum system can be lost to the environment or heat bath. Alternatively, the decay of quantum information caused by the coupling of the system to the environment is referred to as decoherence. Thus decoherence is the process by which information of a quantum system is altered by the system's interaction with its environment (which form a closed system), hence creating an entanglement between the system and heat bath (environment). As such, since the system is entangled with its environment in some unknown way, a description of the system by itself cannot be made without also referring to the environment (i.e. without also describing the state of the environment).
+
+
+=== Rotational decoherence ===
+Consider a system of N qubits that is coupled to a bath symmetrically. Suppose this system of N qubits undergoes a rotation around the 
+  
+    
+      
+        
+          |
+        
+        ↑
+        ⟩
+        ⟨
+        ↑
+        
+          |
+        
+        ,
+        
+          |
+        
+        ↓
+        ⟩
+        ⟨
+        ↓
+        
+          |
+        
+      
+    
+    {\displaystyle |\uparrow \rangle \langle \uparrow |,|\downarrow \rangle \langle \downarrow |}
+   
+  
+    
+      
+        
+          
+            (
+          
+        
+        
+          |
+        
+        0
+        ⟩
+        ⟨
+        0
+        
+          |
+        
+        ,
+        
+          |
+        
+        1
+        ⟩
+        ⟨
+        1
+        
+          |
+        
+        
+          
+            )
+          
+        
+      
+    
+    {\displaystyle {\big (}|0\rangle \langle 0|,|1\rangle \langle 1|{\big )}}
+   eigenstates of 
+  
+    
+      
+        
+          
+            
+              
+                J
+                
+                  z
+                
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {J_{z}}}}
+  . Then under such a rotation, a random phase, 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  , will be created between the eigenstates 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+  , 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+   of 
+  
+    
+      
+        
+          
+            
+              
+                J
+                
+                  z
+                
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {J_{z}}}}
+  . Thus these basis qubits 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+   and 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+   will transform in the following way:
+
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+        →
+        
+          |
+        
+        0
+        ⟩
+        ,
+        
+          |
+        
+        1
+        ⟩
+        →
+        
+          e
+          
+            i
+            ϕ
+          
+        
+        
+          |
+        
+        1
+        ⟩
+        .
+      
+    
+    {\displaystyle |0\rangle \rightarrow |0\rangle ,|1\rangle \rightarrow e^{i\phi }|1\rangle .}
+  
+This transformation is performed by the rotation operator
+
+  
+    
+      
+        
+          R
+          
+            z
+          
+        
+        (
+        ϕ
+        )
+        =
+        
+          
+            (
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    e
+                    
+                      i
+                      ϕ
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle R_{z}(\phi )={\begin{pmatrix}1&0\\0&e^{i\phi }\end{pmatrix}}.}
+  
+Since any qubit in this space can be expressed in terms of the basis qubits, then all such qubits will be transformed under this rotation. Consider a qubit in a pure state 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            j
+          
+        
+        ⟩
+        =
+        a
+        
+          |
+        
+        
+          0
+          
+            j
+          
+        
+        ⟩
+        +
+        b
+        
+          |
+        
+        
+          1
+          
+            j
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{j}\rangle =a|0_{j}\rangle +b|1_{j}\rangle }
+  . This state will decohere since it is not "encoded" with the dephasing factor 
+  
+    
+      
+        
+          
+            
+              e
+            
+          
+          
+            i
+            ϕ
+          
+        
+      
+    
+    {\displaystyle \mathbf {\mathit {e}} ^{i\phi }}
+  . This can be seen by examining the density matrix averaged over all values of 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  :
+
+  
+    
+      
+        
+          ρ
+          
+            j
+          
+        
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          R
+          
+            z
+          
+        
+        (
+        ϕ
+        )
+        
+          |
+        
+        
+          ψ
+          
+            j
+          
+        
+        ⟩
+        ⟨
+        
+          ψ
+          
+            j
+          
+        
+        
+          |
+        
+        
+          R
+          
+            z
+          
+          
+            †
+          
+        
+        (
+        ϕ
+        )
+        p
+        (
+        ϕ
+        )
+        
+        d
+        
+          ϕ
+        
+      
+    
+    {\displaystyle \rho _{j}=\int \limits _{-\infty }^{\infty }R_{z}(\phi )|\psi _{j}\rangle \langle \psi _{j}|R_{z}^{\dagger }(\phi )p(\phi )\,d{\phi }}
+  
+where 
+  
+    
+      
+        
+          
+            p
+          
+        
+        (
+        ϕ
+        )
+      
+    
+    {\displaystyle \mathbf {\mathit {p}} (\phi )}
+   is a probability density. If 
+  
+    
+      
+        
+          
+            p
+          
+        
+        (
+        ϕ
+        )
+      
+    
+    {\displaystyle \mathbf {\mathit {p}} (\phi )}
+   is given as a Gaussian distribution
+
+  
+    
+      
+        p
+        (
+        ϕ
+        )
+        =
+        (
+        4
+        π
+        α
+        
+          )
+          
+            −
+            
+              
+                1
+                2
+              
+            
+          
+        
+        
+          e
+          
+            
+              
+                −
+                
+                  ϕ
+                  
+                    2
+                  
+                
+              
+              
+                4
+                α
+              
+            
+          
+        
+      
+    
+    {\displaystyle p(\phi )=(4\pi \alpha )^{-{\frac {1}{2}}}e^{\frac {-\phi ^{2}}{4\alpha }}}
+  
+then the density matrix is
+
+  
+    
+      
+        
+          ρ
+          
+            j
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    |
+                  
+                  a
+                  
+                    
+                      |
+                    
+                    
+                      2
+                    
+                  
+                
+                
+                  a
+                  
+                    b
+                    
+                      ∗
+                    
+                  
+                  
+                    e
+                    
+                      −
+                      α
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      ∗
+                    
+                  
+                  b
+                  
+                    e
+                    
+                      −
+                      α
+                    
+                  
+                
+                
+                  
+                    |
+                  
+                  b
+                  
+                    
+                      |
+                    
+                    
+                      2
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle \rho _{j}={\begin{pmatrix}|a|^{2}&ab^{*}e^{-\alpha }\\a^{*}be^{-\alpha }&|b|^{2}\end{pmatrix}}.}
+  
+Since the off-diagonal elements—the coherence terms—decay for increasing 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  , then the density matrices for the various qubits of the system will be indistinguishable. This means that no measurement can distinguish between the qubits, thus creating decoherence between the various qubit states. In particular, this dephasing process causes the qubits to collapse onto the 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+        ⟨
+        0
+        
+          |
+        
+        ,
+        
+          |
+        
+        1
+        ⟩
+        ⟨
+        1
+        
+          |
+        
+      
+    
+    {\displaystyle |0\rangle \langle 0|,|1\rangle \langle 1|}
+   axis. This is why this type of decoherence process is called collective dephasing, because the mutual phases between all qubits of the N-qubit system are destroyed.
+
+
+=== Depolarizing ===
+Depolarizing is a non-unitary transformation on a quantum system which maps pure states to mixed states. This is a non-unitary process, because any transformation that reverses this process will map states out of their respective Hilbert space thus not preserving positivity (i.e. the original probabilities are mapped to negative probabilities, which is not allowed). The 2-dimensional case of such a transformation would consist of mapping pure states on the surface of the Bloch sphere to mixed states within the Bloch sphere. This would contract the Bloch sphere by some finite amount and the reverse process would expand the Bloch sphere, which cannot happen.
+
+
+=== Dissipation ===
+
+Dissipation is a decohering process by which the populations of quantum states are changed due to entanglement with a bath. An example of this would be a quantum system that can exchange its energy with a bath through the interaction Hamiltonian. If the system is not in its ground state and the bath is at a temperature lower than that of the system's, then the system will give off energy to the bath and thus higher-energy eigenstates of the system Hamiltonian will decohere to the ground state after cooling and, as such, they will all be non-degenerate. Since the states are no longer degenerate, then they are not distinguishable and thus this process is irreversible (non-unitary).
+
+
+== Timescales ==
+Decoherence represents an extremely fast process for macroscopic objects, since these are interacting with many microscopic objects, with an enormous number of degrees of freedom, in their natural environment. The process explains why we tend not to observe quantum behaviour in everyday macroscopic objects. It also explains why we do see classical fields emerge from the properties of the interaction between matter and radiation for large amounts of matter. The time taken for off-diagonal components of the density matrix to effectively vanish is called the decoherence time, and is typically extremely short for everyday, macroscale processes.
+
+
+== Measurement ==
+The discontinuous "wave function collapse" postulated in the Copenhagen interpretation to enable the theory to be related to the results of laboratory measurements now can be understood as an aspect of the normal dynamics of quantum mechanics via the decoherence process. Consequently, decoherence is an important part of the modern alternative to the Copenhagen interpretation, based on consistent histories. Decoherence shows how a macroscopic system interacting with a lot of microscopic systems (e.g. collisions with air molecules or photons) moves from being in a pure quantum state—which in general will be a coherent superposition (see Schrödinger's cat)—to being in an incoherent mixture of these states. The weighting of each outcome in the mixture in case of measurement is exactly that which gives the probabilities of the different results of such a measurement.
+However, decoherence by itself may not give a complete solution of the measurement problem, since all components of the wave function still exist in a global superposition, which is explicitly acknowledged in the many-worlds interpretation. All decoherence explains, in this view, is why these coherences are no longer available for inspection by local observers. To present a solution to the measurement problem in most interpretations of quantum mechanics, decoherence must be supplied with some nontrivial interpretational considerations (as for example Wojciech Zurek tends to do in his Existential interpretation). However, according to Everett and DeWitt the many-worlds interpretation can be derived from the formalism alone, in which case no extra interpretational layer is required.
+
+
+== Mathematical details ==
+We assume for the moment the system in question consists of a subsystem being studied, A and the "environment" 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+  , and the total Hilbert space is the tensor product of a Hilbert space describing A, HA and a Hilbert space describing 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+  , 
+  
+    
+      
+        
+          H
+          
+            ϵ
+          
+        
+      
+    
+    {\displaystyle H_{\epsilon }}
+  : that is,
+
+  
+    
+      
+        H
+        =
+        
+          H
+          
+            A
+          
+        
+        ⊗
+        
+          H
+          
+            ϵ
+          
+        
+      
+    
+    {\displaystyle H=H_{A}\otimes H_{\epsilon }}
+  .
+This is a reasonably good approximation in the case where A and 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+   are relatively independent (e.g. there is nothing like parts of A mixing with parts of 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+   or vice versa). The point is, the interaction with the environment is for all practical purposes unavoidable (e.g. even a single excited atom in a vacuum would emit a photon which would then go off). Let's say this interaction is described by a unitary transformation U acting upon H. Assume the initial state of the environment is 
+  
+    
+      
+        
+          |
+        
+        
+          i
+          n
+        
+        ⟩
+      
+    
+    {\displaystyle |\mathrm {in} \rangle }
+   and the initial state of A is the superposition state
+
+  
+    
+      
+        
+          c
+          
+            1
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            1
+          
+        
+        ⟩
+        +
+        
+          c
+          
+            2
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            2
+          
+        
+        ⟩
+      
+    
+    {\displaystyle c_{1}|\psi _{1}\rangle +c_{2}|\psi _{2}\rangle }
+  
+where 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            1
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{1}\rangle }
+   and 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            2
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{2}\rangle }
+   are orthogonal and there is no entanglement initially. Also, choose an orthonormal basis for HA, 
+  
+    
+      
+        {
+        
+          |
+        
+        
+          e
+          
+            i
+          
+        
+        ⟩
+        
+          }
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \{|e_{i}\rangle \}_{i}}
+  . (This could be a "continuously indexed basis" or a mixture of continuous and discrete indexes, in which case we would have to use a rigged Hilbert space and be more careful about what we mean by orthonormal but that's an inessential detail for expository purposes.) Then, we can expand
+
+  
+    
+      
+        U
+        (
+        
+          |
+        
+        
+          ψ
+          
+            1
+          
+        
+        ⟩
+        ⊗
+        
+          |
+        
+        
+          i
+          n
+        
+        ⟩
+        )
+      
+    
+    {\displaystyle U(|\psi _{1}\rangle \otimes |\mathrm {in} \rangle )}
+  
+and
+
+  
+    
+      
+        U
+        (
+        
+          |
+        
+        
+          ψ
+          
+            2
+          
+        
+        ⟩
+        ⊗
+        
+          |
+        
+        
+          i
+          n
+        
+        ⟩
+        )
+      
+    
+    {\displaystyle U(|\psi _{2}\rangle \otimes |\mathrm {in} \rangle )}
+  
+uniquely as
+
+  
+    
+      
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        
+          e
+          
+            i
+          
+        
+        ⟩
+        ⊗
+        
+          |
+        
+        
+          f
+          
+            1
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle \sum _{i}|e_{i}\rangle \otimes |f_{1i}\rangle }
+  
+and
+
+  
+    
+      
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        
+          e
+          
+            i
+          
+        
+        ⟩
+        ⊗
+        
+          |
+        
+        
+          f
+          
+            2
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle \sum _{i}|e_{i}\rangle \otimes |f_{2i}\rangle }
+  
+respectively. One thing to realize is that the environment contains a huge number of degrees of freedom, a good number of them interacting with each other all the time. This makes the following assumption reasonable in a handwaving way, which can be shown to be true in some simple toy models. Assume that there exists a basis for 
+  
+    
+      
+        
+          H
+          
+            ϵ
+          
+        
+      
+    
+    {\displaystyle H_{\epsilon }}
+   such that 
+  
+    
+      
+        
+          |
+        
+        
+          f
+          
+            1
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |f_{1i}\rangle }
+   and 
+  
+    
+      
+        
+          |
+        
+        
+          f
+          
+            1
+            j
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |f_{1j}\rangle }
+   are all approximately orthogonal to a good degree if i is not j and the same thing for 
+  
+    
+      
+        
+          |
+        
+        
+          f
+          
+            2
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |f_{2i}\rangle }
+   and 
+  
+    
+      
+        
+          |
+        
+        
+          f
+          
+            2
+            j
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |f_{2j}\rangle }
+   and also 
+  
+    
+      
+        
+          |
+        
+        
+          f
+          
+            1
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |f_{1i}\rangle }
+   and 
+  
+    
+      
+        
+          |
+        
+        
+          f
+          
+            2
+            j
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |f_{2j}\rangle }
+   for any i and j (the decoherence property).
+This often turns out to be true (as a reasonable conjecture) in the position basis because how A interacts with the environment would often depend critically upon the position of the objects in A. Then, if we take the partial trace over the environment, we'd find the density state is approximately described by
+
+  
+    
+      
+        
+          ∑
+          
+            i
+          
+        
+        (
+        ⟨
+        
+          f
+          
+            1
+            i
+          
+        
+        
+          |
+        
+        
+          f
+          
+            1
+            i
+          
+        
+        ⟩
+        +
+        ⟨
+        
+          f
+          
+            2
+            i
+          
+        
+        
+          |
+        
+        
+          f
+          
+            2
+            i
+          
+        
+        ⟩
+        )
+        
+          |
+        
+        
+          e
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          e
+          
+            i
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle \sum _{i}(\langle f_{1i}|f_{1i}\rangle +\langle f_{2i}|f_{2i}\rangle )|e_{i}\rangle \langle e_{i}|}
+  
+(i.e. we have a diagonal mixed state and there is no constructive or destructive interference and the "probabilities" add up classically). The time it takes for U(t) (the unitary operator as a function of time) to display the decoherence property is called the decoherence time.
+
+
+== Experimental observations ==
+
+
+=== Quantitative measurement ===
+The decoherence rate depends on a number of factors including temperature, or uncertainty in position, and many experiments have tried to measure it depending on the external environment.
+The process of a quantum superposition gradually obliterated by decoherence was quantitatively measured for the first time by Serge Haroche and his co-workers at the École Normale Supérieure in Paris in 1996. Their approach involved sending individual rubidium atoms, each in a superposition of two states, through a microwave-filled cavity. The two quantum states both cause shifts in the phase of the microwave field, but by different amounts, so that the field itself is also put into a superposition of two states. Due to photon scattering on cavity mirror imperfection, the cavity field losses phase coherence to the environment.
+Haroche and his colleagues measured the resulting decoherence via correlations between the states of pairs of atoms sent through the cavity with various time delays between the atoms.
+
+
+=== Reducing environmental decoherence ===
+In July 2011, researchers from University of British Columbia and University of California, Santa Barbara were able to reduce environmental decoherence rate "to levels far below the threshold necessary for quantum information processing" by applying high magnetic fields in their experiment.
+
+
+== Criticism ==
+Criticism of decoherence theory has been expressed by Anthony Leggett: "I hear people murmur the dreaded word “decoherence”. But I claim that this is a major red herring". Concerning the experimental relevance of decoherence theory Leggett has stated: "Let us now try to assess the decoherence argument. Actually, the most economical tactic at this point would be to go directly to the results of the next section, namely that it is experimentally refuted! However, it is interesting to spend a moment enquiring why it was reasonable to anticipate this in advance of the actual experiments. In fact, the argument contains several major loopholes".
+
+
+== In interpretations of quantum mechanics ==
+Before an understanding of decoherence was developed, the Copenhagen interpretation of quantum mechanics treated wavefunction collapse as a fundamental, a priori process. Decoherence provides an explanatory mechanism for the appearance of wavefunction collapse and was first developed by David Bohm in 1952 who applied it to Louis DeBroglie's pilot wave theory, producing Bohmian mechanics, the first successful hidden variables interpretation of quantum mechanics. Decoherence was then used by Hugh Everett in 1957 to form the core of his many-worlds interpretation. However decoherence was largely ignored for many years, and not until the 1980s did decoherent-based explanations of the appearance of wavefunction collapse become popular, with the greater acceptance of the use of reduced density matrices. The range of decoherent interpretations have subsequently been extended around the idea, such as consistent histories. Some versions of the Copenhagen Interpretation have been modified to include decoherence.
+Decoherence does not claim to provide a mechanism for the actual wave function collapse; rather it puts forth a reasonable mechanism for the appearance of wavefunction collapse. The quantum nature of the system is simply "leaked" into the environment so that a total superposition of the wavefunction still exists, but exists — at least for all practical purposes — beyond the realm of measurement. Of course by definition the claim that a merged but unmeasurable wavefunction still exists cannot be proven experimentally. Decoherence explains why a quantum system begins to obey classical probability rules after interacting with its environment (due to the suppression of the interference terms when applying Born's probability rules to the system).
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Schlosshauer, Maximilian (2007). Decoherence and the Quantum-to-Classical Transition (1st ed.). Berlin/Heidelberg: Springer. 
+Joos, E.; et al. (2003). Decoherence and the Appearance of a Classical World in Quantum Theory (2nd ed.). Berlin: Springer. 
+Omnes, R. (1999). Understanding Quantum Mechanics. Princeton: Princeton University Press. 
+Zurek, Wojciech H. (2003). "Decoherence and the transition from quantum to classical — REVISITED", arXiv:quant-ph/0306072 (An updated version of PHYSICS TODAY, 44:36–44 (1991) article)
+Schlosshauer, Maximilian (23 February 2005). "Decoherence, the Measurement Problem, and Interpretations of Quantum Mechanics". Reviews of Modern Physics. 76 (2004): 1267–1305. arXiv:quant-ph/0312059. Bibcode:2004RvMP...76.1267S. doi:10.1103/RevModPhys.76.1267. 
+J.J. Halliwell, J. Perez-Mercader, Wojciech H. Zurek, eds, The Physical Origins of Time Asymmetry, Part 3: Decoherence, ISBN 0-521-56837-4
+Berthold-Georg Englert, Marlan O. Scully & Herbert Walther, Quantum Optical Tests of Complementarity, Nature, Vol 351, pp 111–116 (9 May 1991) and (same authors) The Duality in Matter and Light Scientific American, pg 56–61, (December 1994). Demonstrates that complementarity is enforced, and quantum interference effects destroyed, by irreversible object-apparatus correlations, and not, as was previously popularly believed, by Heisenberg's uncertainty principle itself.
+Mario Castagnino, Sebastian Fortin, Roberto Laura and Olimpia Lombardi, A general theoretical framework for decoherence in open and closed systems, Classical and Quantum Gravity, 25, pp. 154002–154013, (2008). A general theoretical framework for decoherence is proposed, which encompasses formalisms originally devised to deal just with open or closed systems.
+
+
+== External links ==
+http://www.decoherence.info
+http://plato.stanford.edu/entries/qm-decoherence/
+Decoherence, the measurement problem, and interpretations of quantum mechanics from arXiv
+Measurements and Decoherence from arXiv
+A detailed introduction from a graduate student's website at Drexel University
+Quantum Bug : Qubits might spontaneously decay in seconds Scientific American Magazine (October 2005)
+Quantum Decoherence and the Measurement Problem

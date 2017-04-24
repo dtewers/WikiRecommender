@@ -1,0 +1,1153 @@
+In quantum mechanics, the quantum eraser experiment is an interferometer experiment that demonstrates several fundamental aspects of quantum mechanics, including quantum entanglement and complementarity.
+The double-slit quantum eraser experiment described in this article has three stages:
+First, the experimenter reproduces the interference pattern of Young's double-slit experiment by shining photons at the double-slit interferometer and checking for an interference pattern at the detection screen.
+Next, the experimenter marks through which slit each photon went and demonstrates that thereafter the interference pattern is destroyed. This stage indicates that it is the existence of the "which-path" information that causes the destruction of the interference pattern.
+Third, the "which-path" information is "erased," whereupon the interference pattern is recovered. (Rather than removing or reversing any changes introduced into the photon or its path, these experiments typically produce another change that obscures the markings earlier produced.)
+A key result is that it does not matter whether the eraser procedure is done before or after the photons arrive at the detection screen.
+Quantum erasure technology can be used to increase the resolution of advanced microscopes.
+
+
+== Introduction ==
+The quantum eraser experiment described in this article is a variation of Thomas Young's classic double-slit experiment. It establishes that when action is taken to determine which slit a photon has passed through, the photon cannot interfere with itself. When a stream of photons is marked in this way, then the interference fringes characteristic of the Young experiment will not be seen. The experiment described in this article is capable of creating situations in which a photon that has been "marked" to reveal through which slit it has passed can later be "unmarked." A photon that has been "marked" cannot interfere with itself and will not produce fringe patterns, but a photon that has been "marked" and then "unmarked" can thereafter interfere with itself and will cooperate in producing the fringes characteristic of Young's experiment.
+This experiment involves an apparatus with two main sections. After two entangled photons are created, each is directed into its own section of the apparatus. Anything done to learn the path of the entangled partner of the photon being examined in the double-slit part of the apparatus will influence the second photon, and vice versa. The advantage of manipulating the entangled partners of the photons in the double-slit part of the experimental apparatus is that experimenters can destroy or restore the interference pattern in the latter without changing anything in that part of the apparatus. Experimenters do so by manipulating the entangled photon, and they can do so before or after its partner has passed through the slits and other elements of experimental apparatus between the photon emitter and the detection screen. So, under conditions where the double-slit part of the experiment has been set up to prevent the appearance of interference phenomena (because there is definitive "which path" information present), the quantum eraser can be used to effectively erase that information. In doing so, the experimenter restores interference without altering the double-slit part of the experimental apparatus.
+A variation of this experiment, delayed choice quantum eraser, allows the decision whether to measure or destroy the "which path" information to be delayed until after the entangled particle partner (the one going through the slits) has either interfered with itself or not. In delayed-choice experiments quantum effects can mimic an influence of future actions on past events. However, the temporal order of measurement actions is not relevant. 
+
+
+== The experiment ==
+
+First, a photon is shot through a specialized nonlinear optical device: a beta barium borate (BBO) crystal. This crystal converts the single photon into two entangled photons of lower frequency, a process known as spontaneous parametric down-conversion (SPDC). These entangled photons follow separate paths. One photon goes directly to a detector, while the second photon passes through the double-slit mask to a second detector. Both detectors are connected to a coincidence circuit, ensuring that only entangled photon pairs are counted. A stepper motor moves the second detector to scan across the target area, producing an intensity map. This configuration yields the familiar interference pattern.
+
+Next, a circular polarizer is placed in front of each slit in the double-slit mask, producing clockwise circular polarization in light passing through one slit, and counter-clockwise circular polarization in the other slit (see Figure 1). This polarization is measured at the detector, thus "marking" the photons and destroying the interference pattern (see Fresnel–Arago laws).
+Finally, a linear polarizer is introduced in the path of the first photon of the entangled pair, giving this photon a diagonal polarization (see Figure 2). Entanglement ensures a complementary diagonal polarization in its partner, which passes through the double-slit mask. This alters the effect of the circular polarizers: each will produce a mix of clockwise and counter-clockwise polarized light. Thus the second detector can no longer determine which path was taken, and the interference fringes are restored.
+A double slit with rotating polarizers can also be accounted for by considering the light to be a classical wave. However this experiment uses entangled photons, which are not compatible with classical mechanics.
+
+
+== Non-locality ==
+A very common misunderstanding about this experiment is that it may be used to communicate instantaneously information between two detectors. Imagine Alice on the first detector measuring either linear or circular polarization and instantaneously affecting the result of Bob's interference measurement. One could even conceive a situation in which Alice would switch from a circular polarizer to a linear polarizer on her detector long after Bob made his measurement: Bob's interference pattern would suddenly change from interference to a smear, but in the past! Following this train of thought would lead to an abundance of time paradoxes, like Bob measuring one pattern and telling Alice to switch her detector in the future to the polarizer that would cause the opposite pattern. So something must be wrong.
+The misunderstanding is that Bob always measures a smear, never an interference pattern, no matter what Alice does. Non-locality manifests in a somewhat more subtle way. How? Let's say that the BBO crystal produces the following state:
+
+  
+    
+      
+        
+          |
+        
+        ↻
+        
+          ⟩
+          
+            A
+          
+        
+        
+          |
+        
+        ↺
+        
+          ⟩
+          
+            B
+          
+        
+        +
+        
+          |
+        
+        ↺
+        
+          ⟩
+          
+            A
+          
+        
+        
+          |
+        
+        ↻
+        
+          ⟩
+          
+            B
+          
+        
+      
+    
+    {\displaystyle |\circlearrowright \rangle _{A}|\circlearrowleft \rangle _{B}+|\circlearrowleft \rangle _{A}|\circlearrowright \rangle _{B}}
+  
+(Alice's photon has clockwise polarization and Bob's photon has anti-clockwise polarization) or (Bob's photon has clockwise polarization and Alice's photon has anti-clockwise polarization)
+If Alice places a circular polarizer in front of her detector that filters out photons with clockwise polarization, then every time Alice measures a photon, Bob's corresponding photon is sure to have a clockwise polarization:
+
+  
+    
+      
+        
+          |
+        
+        ↺
+        
+          ⟩
+          
+            A
+          
+        
+        
+          |
+        
+        ↻
+        
+          ⟩
+          
+            B
+          
+        
+      
+    
+    {\displaystyle |\circlearrowleft \rangle _{A}|\circlearrowright \rangle _{B}}
+  
+Since Bob has placed opposite polarization filters on each slit, we know that these photons can only have passed through (let's say) the first slit. From that slit, they hit the screen according to the wave-function:
+
+  
+    
+      
+        
+          f
+          
+            1
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            1
+            
+              2
+              π
+              
+                
+                  
+                    d
+                    
+                      2
+                    
+                  
+                  +
+                  (
+                  x
+                  +
+                  a
+                  
+                    /
+                  
+                  2
+                  
+                    )
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+        
+        exp
+        ⁡
+        
+          [
+          i
+          (
+          h
+          
+            /
+          
+          λ
+          )
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              +
+              (
+              x
+              +
+              a
+              
+                /
+              
+              2
+              
+                )
+                
+                  2
+                
+              
+            
+          
+          ]
+        
+        ,
+      
+    
+    {\displaystyle f_{1}(x)={\frac {1}{\sqrt {2\pi {\sqrt {d^{2}+(x+a/2)^{2}}}}}}\exp \left[i(h/\lambda ){\sqrt {d^{2}+(x+a/2)^{2}}}\right],}
+  
+where a is the spacing between the slits, d is the distance from the slits to the screen and x is the distance to the middle of the screen. The intensity of light on the screen (counts of photons) will be proportional to the square of the amplitude of this wave, in other words
+
+  
+    
+      
+        
+          I
+          
+            1
+          
+        
+        (
+        x
+        )
+        ∝
+        
+          
+            1
+            
+              
+                d
+                
+                  2
+                
+              
+              +
+              (
+              x
+              +
+              a
+              
+                /
+              
+              2
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle I_{1}(x)\propto {\frac {1}{d^{2}+(x+a/2)^{2}}}.}
+  
+Likewise, when Alice measures a photon with anti-clockwise polarization, Bob receives an anti-clockwise polarized photon which can only pass through the second slit and arrives at the screen with a wave-function
+
+  
+    
+      
+        
+          f
+          
+            2
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            1
+            
+              2
+              π
+              
+                
+                  
+                    d
+                    
+                      2
+                    
+                  
+                  +
+                  (
+                  x
+                  −
+                  a
+                  
+                    /
+                  
+                  2
+                  
+                    )
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+        
+        exp
+        ⁡
+        
+          [
+          i
+          (
+          h
+          
+            /
+          
+          λ
+          )
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              +
+              (
+              x
+              −
+              a
+              
+                /
+              
+              2
+              
+                )
+                
+                  2
+                
+              
+            
+          
+          ]
+        
+        .
+      
+    
+    {\displaystyle f_{2}(x)={\frac {1}{\sqrt {2\pi {\sqrt {d^{2}+(x-a/2)^{2}}}}}}\exp \left[i(h/\lambda ){\sqrt {d^{2}+(x-a/2)^{2}}}\right].}
+  
+Notice that the only difference is the sign of a/2, because the photon was emitted from another slit. The pattern on the screen is another smear, but shifted by a. Now, this point is important: if Alice never tells him directly, then Bob never knows which polarization Alice measured, since both are produced in equal amounts by the crystal. So what Bob actually sees on his screen is the sum of the two intensities:
+
+  
+    
+      
+        I
+        (
+        x
+        )
+        =
+        
+          I
+          
+            1
+          
+        
+        (
+        x
+        )
+        +
+        
+          I
+          
+            2
+          
+        
+        (
+        x
+        )
+        ∝
+        
+          
+            1
+            
+              
+                d
+                
+                  2
+                
+              
+              +
+              (
+              x
+              +
+              a
+              
+                /
+              
+              2
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        
+          
+            1
+            
+              
+                d
+                
+                  2
+                
+              
+              +
+              (
+              x
+              −
+              a
+              
+                /
+              
+              2
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle I(x)=I_{1}(x)+I_{2}(x)\propto {\frac {1}{d^{2}+(x+a/2)^{2}}}+{\frac {1}{d^{2}+(x-a/2)^{2}}}.}
+  
+The results of this experiment are summarized in Fig.3. Bob can only distinguish the two peaks in his data after he got access to Alice's results: for the set of photons where Alice measured clockwise polarization, Bob's subset of photons is distributed according to 
+  
+    
+      
+        
+          I
+          
+            1
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle I_{1}(x)}
+   and for the set of photons where Alice measured anti-clockwise polarization, Bob's subset of photons is distributed according to 
+  
+    
+      
+        
+          I
+          
+            2
+          
+        
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle I_{2}(x).}
+  
+Next, let Alice use a linear polarizer instead of a circular one. The first thing to do is write down the system's wave-function in terms of linear polarization states:
+
+  
+    
+      
+        
+          |
+        
+        ↻
+        
+          ⟩
+          
+            A
+          
+        
+        
+          |
+        
+        ↺
+        
+          ⟩
+          
+            B
+          
+        
+        +
+        
+          |
+        
+        ↺
+        
+          ⟩
+          
+            A
+          
+        
+        
+          |
+        
+        ↻
+        
+          ⟩
+          
+            B
+          
+        
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          (
+          
+            |
+          
+          H
+          
+            ⟩
+            
+              A
+            
+          
+          +
+          i
+          
+            |
+          
+          V
+          
+            ⟩
+            
+              A
+            
+          
+          )
+        
+        
+          |
+        
+        ↺
+        
+          ⟩
+          
+            B
+          
+        
+        +
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          (
+          
+            |
+          
+          H
+          
+            ⟩
+            
+              A
+            
+          
+          −
+          i
+          
+            |
+          
+          V
+          
+            ⟩
+            
+              A
+            
+          
+          )
+        
+        
+          |
+        
+        ↻
+        
+          ⟩
+          
+            B
+          
+        
+      
+    
+    {\displaystyle |\circlearrowright \rangle _{A}|\circlearrowleft \rangle _{B}+|\circlearrowleft \rangle _{A}|\circlearrowright \rangle _{B}={\frac {1}{\sqrt {2}}}\left(|H\rangle _{A}+i|V\rangle _{A}\right)|\circlearrowleft \rangle _{B}+{\frac {1}{\sqrt {2}}}\left(|H\rangle _{A}-i|V\rangle _{A}\right)|\circlearrowright \rangle _{B}}
+  
+
+  
+    
+      
+        
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          (
+          
+            |
+          
+          ↻
+          
+            ⟩
+            
+              B
+            
+          
+          +
+          
+            |
+          
+          ↺
+          
+            ⟩
+            
+              B
+            
+          
+          )
+        
+        
+          |
+        
+        H
+        
+          ⟩
+          
+            A
+          
+        
+        +
+        
+          
+            i
+            
+              2
+            
+          
+        
+        
+          (
+          
+            |
+          
+          ↻
+          
+            ⟩
+            
+              B
+            
+          
+          −
+          
+            |
+          
+          ↺
+          
+            ⟩
+            
+              B
+            
+          
+          )
+        
+        
+          |
+        
+        V
+        
+          ⟩
+          
+            A
+          
+        
+      
+    
+    {\displaystyle \qquad ={\frac {1}{\sqrt {2}}}\left(|\circlearrowright \rangle _{B}+|\circlearrowleft \rangle _{B}\right)|H\rangle _{A}+{\frac {i}{\sqrt {2}}}\left(|\circlearrowright \rangle _{B}-|\circlearrowleft \rangle _{B}\right)|V\rangle _{A}}
+  
+So say Alice measures a horizontally polarized photon. Then the wave function of Bob's photon is in a superposition of clockwise and anti-clockwise polarizations, which means indeed it can pass through both slits! After travelling to the screen, the wave amplitude is
+
+  
+    
+      
+        h
+        (
+        x
+        )
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          [
+          
+            f
+            
+              1
+            
+          
+          (
+          x
+          )
+          +
+          
+            f
+            
+              2
+            
+          
+          (
+          x
+          )
+          ]
+        
+        ,
+      
+    
+    {\displaystyle h(x)={\frac {1}{\sqrt {2}}}\left[f_{1}(x)+f_{2}(x)\right],}
+  
+and the intensity is
+
+  
+    
+      
+        
+          I
+          
+            H
+          
+        
+        (
+        x
+        )
+        ∝
+        
+          |
+        
+        
+          f
+          
+            1
+          
+        
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          |
+        
+        
+          f
+          
+            2
+          
+        
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          f
+          
+            1
+          
+        
+        (
+        x
+        )
+        
+          f
+          
+            2
+          
+        
+        (
+        x
+        
+          )
+          
+            ∗
+          
+        
+        +
+        
+          f
+          
+            1
+          
+        
+        (
+        x
+        
+          )
+          
+            ∗
+          
+        
+        
+          f
+          
+            2
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            
+              
+                I
+                
+                  1
+                
+              
+              (
+              x
+              )
+              +
+              
+                I
+                
+                  2
+                
+              
+              (
+              x
+              )
+            
+            2
+          
+        
+        +
+        cos
+        ⁡
+        
+          ϕ
+          
+            12
+          
+        
+      
+    
+    {\displaystyle I_{H}(x)\propto |f_{1}(x)|^{2}+|f_{2}(x)|^{2}+f_{1}(x)f_{2}(x)^{*}+f_{1}(x)^{*}f_{2}(x)={\frac {I_{1}(x)+I_{2}(x)}{2}}+\cos \phi _{12}}
+  
+where 
+  
+    
+      
+        
+          ϕ
+          
+            12
+          
+        
+      
+    
+    {\displaystyle \phi _{12}}
+   is the phase difference between the two wave function at position x on the screen. The pattern is now indeed an interference pattern! Likewise, if Alice detects a vertically polarized photon then the wave amplitude of Bob's photon is
+
+  
+    
+      
+        v
+        (
+        x
+        )
+        =
+        
+          
+            i
+            
+              2
+            
+          
+        
+        
+          [
+          
+            f
+            
+              1
+            
+          
+          (
+          x
+          )
+          −
+          
+            f
+            
+              2
+            
+          
+          (
+          x
+          )
+          ]
+        
+        ,
+      
+    
+    {\displaystyle v(x)={\frac {i}{\sqrt {2}}}\left[f_{1}(x)-f_{2}(x)\right],}
+  
+and
+
+  
+    
+      
+        
+          I
+          
+            V
+          
+        
+        (
+        x
+        )
+        ∝
+        
+          |
+        
+        
+          f
+          
+            1
+          
+        
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        +
+        
+          |
+        
+        
+          f
+          
+            2
+          
+        
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        −
+        
+          f
+          
+            1
+          
+        
+        (
+        x
+        )
+        
+          f
+          
+            2
+          
+        
+        (
+        x
+        
+          )
+          
+            ∗
+          
+        
+        −
+        
+          f
+          
+            1
+          
+        
+        (
+        x
+        
+          )
+          
+            ∗
+          
+        
+        
+          f
+          
+            2
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            
+              
+                I
+                
+                  1
+                
+              
+              (
+              x
+              )
+              +
+              
+                I
+                
+                  2
+                
+              
+              (
+              x
+              )
+            
+            2
+          
+        
+        −
+        cos
+        ⁡
+        
+          ϕ
+          
+            12
+          
+        
+      
+    
+    {\displaystyle I_{V}(x)\propto |f_{1}(x)|^{2}+|f_{2}(x)|^{2}-f_{1}(x)f_{2}(x)^{*}-f_{1}(x)^{*}f_{2}(x)={\frac {I_{1}(x)+I_{2}(x)}{2}}-\cos \phi _{12}}
+  
+and once again an interference pattern appears, but slightly changed because of the 180º phase difference between the two photons traversing each slit. So can this be used by Alice to send a message to Bob, encoding her messages in changes between the two types of patterns? No! Remember that, as before, if Bob is not told which polarization Alice measured, then all he sees is the sum of both patterns. The result is therefore,
+
+  
+    
+      
+        I
+        (
+        x
+        )
+        =
+        
+          I
+          
+            H
+          
+        
+        (
+        x
+        )
+        +
+        
+          I
+          
+            V
+          
+        
+        (
+        x
+        )
+        =
+        I
+        (
+        x
+        )
+      
+    
+    {\displaystyle I(x)=I_{H}(x)+I_{V}(x)=I(x)}
+  
+which is again a smudge. The results are given in Fig.4.
+So what's so odd about this experiment? The correlations change according to which experiment was conducted by Alice. Despite the fact that the total pattern is the same, the two subsets of outcomes give radically different correlations: if Alice measured a linear polarization the total smear is subdivided into two interference patterns whereas if Alice measured a circular polarization the pattern is the sum of two other Gaussian bell-shapes. How could Bob's photon know that it could go in the forbidden stripes of the interference pattern when Alice was measuring a circular polarization but not when Alice was measuring a linear one? This can only be orchestrated by a global dynamic of the system as a whole, it cannot be locally carried by each photon on its own. This experiment demonstrates the phenomenon of microscopic non-locality.
+
+
+== See also ==
+Delayed choice quantum eraser
+Wheeler's delayed choice experiment
+Marlan Scully
+
+
+== References ==
+
+
+== External links ==
+A more technical analysis of the quantum eraser experiment
+A Scientific American article: A Do-It-Yourself Quantum Eraser - note: SciAm online subscribers only
+but here they let you see the images for free.
+
+Demystifying the Delayed Choice Experiments

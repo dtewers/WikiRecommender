@@ -1,0 +1,879 @@
+In quantum mechanics, the interaction picture (also known as the Dirac picture) is an intermediate representation between the Schrödinger picture and the Heisenberg picture. Whereas in the other two pictures either the state vector or the operators carry time dependence, in the interaction picture both carry part of the time dependence of observables. The interaction picture is useful in dealing with changes to the wave functions and observable due to interactions. Most field-theoretical calculations use the interaction representation because they construct the solution to the many-body Schrödinger equation as the solution to the free-particle problem plus some unknown interaction parts.
+Equations that include operators acting at different times, which hold in the interaction picture, don't necessarily hold in the Schrödinger or the Heisenberg picture. This is because time-dependent unitary transformations relate operators in one picture to the analogous operators in the others.
+
+
+== Definition ==
+Operators and state vectors in the interaction picture are related by a change of basis (unitary transformation) to those same operators and state vectors in the Schrödinger picture.
+To switch into the interaction picture, we divide the Schrödinger picture Hamiltonian into two parts:
+
+Any possible choice of parts will yield a valid interaction picture; but in order for the interaction picture to be useful in simplifying the analysis of a problem, the parts will typically be chosen so that H0,S is well understood and exactly solvable, while H1,S contains some harder-to-analyze perturbation to this system.
+If the Hamiltonian has explicit time-dependence (for example, if the quantum system interacts with an applied external electric field that varies in time), it will usually be advantageous to include the explicitly time-dependent terms with H1,S, leaving H0,S time-independent. We proceed assuming that this is the case. If there is a context in which it makes sense to have H0,S be time-dependent, then one can proceed by replacing 
+  
+    
+      
+        
+          e
+          
+            ±
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+            
+              /
+            
+            ℏ
+          
+        
+      
+    
+    {\displaystyle e^{\pm iH_{0,{\text{S}}}t/\hbar }}
+   by the corresponding time-evolution operator in the definitions below.
+
+
+=== State vectors ===
+A state vector in the interaction picture is defined as
+
+where |ψS(t)〉is the state vector in the Schrödinger picture.
+
+
+=== Operators ===
+An operator in the interaction picture is defined as
+
+Note that AS(t) will typically not depend on t and can be rewritten as just AS. It only depends on t if the operator has "explicit time dependence", for example, due to its dependence on an applied external time-varying electric field.
+
+
+==== Hamiltonian operator ====
+For the operator H0 itself, the interaction picture and Schrödinger picture coincide:
+
+  
+    
+      
+        
+          H
+          
+            0
+            ,
+            
+              I
+            
+          
+        
+        (
+        t
+        )
+        =
+        
+          e
+          
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        
+          H
+          
+            0
+            ,
+            
+              S
+            
+          
+        
+        
+          e
+          
+            −
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        =
+        
+          H
+          
+            0
+            ,
+            
+              S
+            
+          
+        
+        .
+      
+    
+    {\displaystyle H_{0,{\text{I}}}(t)=e^{iH_{0,{\text{S}}}t/\hbar }H_{0,{\text{S}}}e^{-iH_{0,{\text{S}}}t/\hbar }=H_{0,{\text{S}}}.}
+  
+This is easily seen through the fact that operators commute with differentiable functions of themselves. This particular operator then can be called H0 without ambiguity.
+For the perturbation Hamiltonian H1,I, however,
+
+  
+    
+      
+        
+          H
+          
+            1
+            ,
+            
+              I
+            
+          
+        
+        (
+        t
+        )
+        =
+        
+          e
+          
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        
+          H
+          
+            1
+            ,
+            
+              S
+            
+          
+        
+        
+          e
+          
+            −
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        ,
+      
+    
+    {\displaystyle H_{1,{\text{I}}}(t)=e^{iH_{0,{\text{S}}}t/\hbar }H_{1,{\text{S}}}e^{-iH_{0,{\text{S}}}t/\hbar },}
+  
+where the interaction-picture perturbation Hamiltonian becomes a time-dependent Hamiltonian, unless [H1,S, H0,S] = 0.
+It is possible to obtain the interaction picture for a time-dependent Hamiltonian H0,S(t) as well, but the exponentials need to be replaced by the unitary propagator for the evolution generated by H0,S(t), or more explicitly with a time-ordered exponential integral.
+
+
+==== Density matrix ====
+The density matrix can be shown to transform to the interaction picture in the same way as any other operator. In particular, let ρI and ρS be the density matrices in the interaction picture and the Schrödinger picture respectively. If there is probability pn to be in the physical state |ψn〉, then
+
+  
+    
+      
+        
+          ρ
+          
+            I
+          
+        
+        (
+        t
+        )
+        =
+        
+          ∑
+          
+            n
+          
+        
+        
+          p
+          
+            n
+          
+        
+        (
+        t
+        )
+        
+          |
+        
+        
+          ψ
+          
+            n
+            ,
+            
+              I
+            
+          
+        
+        (
+        t
+        )
+        ⟩
+        ⟨
+        
+          ψ
+          
+            n
+            ,
+            
+              I
+            
+          
+        
+        (
+        t
+        )
+        
+          |
+        
+        =
+        
+          ∑
+          
+            n
+          
+        
+        
+          p
+          
+            n
+          
+        
+        (
+        t
+        )
+        
+          e
+          
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            n
+            ,
+            
+              S
+            
+          
+        
+        (
+        t
+        )
+        ⟩
+        ⟨
+        
+          ψ
+          
+            n
+            ,
+            
+              S
+            
+          
+        
+        (
+        t
+        )
+        
+          |
+        
+        
+          e
+          
+            −
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        =
+        
+          e
+          
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        
+          ρ
+          
+            S
+          
+        
+        (
+        t
+        )
+        
+          e
+          
+            −
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        .
+      
+    
+    {\displaystyle \rho _{\text{I}}(t)=\sum _{n}p_{n}(t)|\psi _{n,{\text{I}}}(t)\rangle \langle \psi _{n,{\text{I}}}(t)|=\sum _{n}p_{n}(t)e^{iH_{0,{\text{S}}}t/\hbar }|\psi _{n,{\text{S}}}(t)\rangle \langle \psi _{n,{\text{S}}}(t)|e^{-iH_{0,{\text{S}}}t/\hbar }=e^{iH_{0,{\text{S}}}t/\hbar }\rho _{\text{S}}(t)e^{-iH_{0,{\text{S}}}t/\hbar }.}
+  
+
+
+=== Time-evolution equations in the interaction picture ===
+
+
+==== Time-evolution of states ====
+Transforming the Schrödinger equation into the interaction picture gives
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            I
+          
+        
+        (
+        t
+        )
+        ⟩
+        =
+        
+          H
+          
+            1
+            ,
+            
+              I
+            
+          
+        
+        (
+        t
+        )
+        
+          |
+        
+        
+          ψ
+          
+            I
+          
+        
+        (
+        t
+        )
+        ⟩
+        .
+      
+    
+    {\displaystyle i\hbar {\frac {d}{dt}}|\psi _{\text{I}}(t)\rangle =H_{1,{\text{I}}}(t)|\psi _{\text{I}}(t)\rangle .}
+  
+This equation is referred to as the Schwinger–Tomonaga equation.
+
+
+==== Time-evolution of operators ====
+If the operator AS is time-independent (i.e., does not have "explicit time dependence"; see above), then the corresponding time evolution for AI(t) is given by
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        
+          A
+          
+            I
+          
+        
+        (
+        t
+        )
+        =
+        [
+        
+          A
+          
+            I
+          
+        
+        (
+        t
+        )
+        ,
+        
+          H
+          
+            0
+            ,
+            
+              S
+            
+          
+        
+        ]
+        .
+      
+    
+    {\displaystyle i\hbar {\frac {d}{dt}}A_{\text{I}}(t)=[A_{\text{I}}(t),H_{0,{\text{S}}}].}
+  
+In the interaction picture the operators evolve in time like the operators in the Heisenberg picture with the Hamiltonian H' = H0.
+
+
+==== Time-evolution of the density matrix ====
+Transforming the Schwinger–Tomonaga equation into the language of the density matrix (or equivalently, transforming the von Neumann equation into the interaction picture) gives
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        
+          ρ
+          
+            I
+          
+        
+        (
+        t
+        )
+        =
+        [
+        
+          H
+          
+            1
+            ,
+            
+              I
+            
+          
+        
+        (
+        t
+        )
+        ,
+        
+          ρ
+          
+            I
+          
+        
+        (
+        t
+        )
+        ]
+        .
+      
+    
+    {\displaystyle i\hbar {\frac {d}{dt}}\rho _{\text{I}}(t)=[H_{1,{\text{I}}}(t),\rho _{\text{I}}(t)].}
+  
+
+
+== Expectation values ==
+For a general operator 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  , the expectation value in the interaction picture is given by
+
+  
+    
+      
+        ⟨
+        
+          A
+          
+            I
+          
+        
+        (
+        t
+        )
+        ⟩
+        =
+        ⟨
+        
+          ψ
+          
+            I
+          
+        
+        (
+        t
+        )
+        
+          |
+        
+        
+          A
+          
+            I
+          
+        
+        (
+        t
+        )
+        
+          |
+        
+        
+          ψ
+          
+            I
+          
+        
+        (
+        t
+        )
+        ⟩
+        =
+        ⟨
+        
+          ψ
+          
+            S
+          
+        
+        (
+        t
+        )
+        
+          |
+        
+        
+          e
+          
+            −
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+          
+        
+        
+          e
+          
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+          
+        
+        
+        
+          A
+          
+            S
+          
+        
+        
+        
+          e
+          
+            −
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+          
+        
+        
+          e
+          
+            i
+            
+              H
+              
+                0
+                ,
+                
+                  S
+                
+              
+            
+            t
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            S
+          
+        
+        (
+        t
+        )
+        ⟩
+        =
+        ⟨
+        
+          A
+          
+            S
+          
+        
+        (
+        t
+        )
+        ⟩
+        .
+      
+    
+    {\displaystyle \langle A_{\text{I}}(t)\rangle =\langle \psi _{\text{I}}(t)|A_{\text{I}}(t)|\psi _{\text{I}}(t)\rangle =\langle \psi _{\text{S}}(t)|e^{-iH_{0,{\text{S}}}t}e^{iH_{0,{\text{S}}}t}\,A_{\text{S}}\,e^{-iH_{0,{\text{S}}}t}e^{iH_{0,{\text{S}}}t}|\psi _{\text{S}}(t)\rangle =\langle A_{\text{S}}(t)\rangle .}
+  
+Using the density-matrix expression for expectation value, we will get
+
+  
+    
+      
+        ⟨
+        
+          A
+          
+            I
+          
+        
+        (
+        t
+        )
+        ⟩
+        =
+        Tr
+        ⁡
+        
+          
+            (
+          
+        
+        
+          ρ
+          
+            I
+          
+        
+        (
+        t
+        )
+        
+        
+          A
+          
+            I
+          
+        
+        (
+        t
+        )
+        
+          
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle \langle A_{\text{I}}(t)\rangle =\operatorname {Tr} {\big (}\rho _{\text{I}}(t)\,A_{\text{I}}(t){\big )}.}
+  
+
+
+== Use of interaction picture ==
+The purpose of the interaction picture is to shunt all the time dependence due to H0 onto the operators, thus allowing them to evolve freely, and leaving only H1,I to control the time-evolution of the state vectors.
+The interaction picture is convenient when considering the effect of a small interaction term, H1,S, being added to the Hamiltonian of a solved system, H0,S. By utilizing the interaction picture, one can use time-dependent perturbation theory to find the effect of H1,I, e.g., in the derivation of Fermi's golden rule, or the Dyson series in quantum field theory: in 1947, Tomonaga and Schwinger appreciated that covariant perturbation theory could be formulated elegantly in the interaction picture, since field operators can evolve in time as free fields, even in the presence of interactions, now treated perturbatively in such a Dyson series.
+
+
+== References ==
+
+L.D. Landau; E.M. Lifshitz (1977). Quantum Mechanics: Non-Relativistic Theory. Vol. 3 (3rd ed.). Pergamon Press. ISBN 978-0-08-020940-1.  Online copy
+Townsend, John S. (2000). A Modern Approach to Quantum Mechanics, 2nd ed. Sausalito, California: University Science Books. ISBN 1-891389-13-0. 
+
+
+== See also ==
+Bra–ket notation
+Schrödinger equation
+Haag's theorem

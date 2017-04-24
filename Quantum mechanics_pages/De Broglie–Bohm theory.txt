@@ -1,0 +1,3328 @@
+The de Broglie–Bohm theory, also known as the pilot-wave theory, Bohmian mechanics, the Bohm (or Bohm's) interpretation, and the causal interpretation, is an interpretation of quantum theory. In addition to a wavefunction on the space of all possible configurations, it also postulates an actual configuration that exists even when unobserved. The evolution over time of the configuration (that is, the positions of all particles or the configuration of all fields) is defined by the wave function by a guiding equation. The evolution of the wave function over time is given by Schrödinger's equation. The theory is named after Louis de Broglie (1892–1987) and David Bohm (1917–1992).
+The theory is deterministic and explicitly nonlocal: the velocity of any one particle depends on the value of the guiding equation, which depends on the configuration of the system given by its wavefunction; the latter depends on the boundary conditions of the system, which in principle may be the entire universe.
+The theory results in a measurement formalism, analogous to thermodynamics for classical mechanics, that yields the standard quantum formalism generally associated with the Copenhagen interpretation. The theory's explicit non-locality resolves the "measurement problem", which is conventionally delegated to the topic of interpretations of quantum mechanics in the Copenhagen interpretation. The Born rule in Broglie–Bohm theory is not a basic law. Rather, in this theory the link between the probability density and the wave function has the status of a hypothesis, called the quantum equilibrium hypothesis, which is additional to the basic principles governing the wave function.
+The theory was historically developed in the 1920s by de Broglie, who in 1927 was persuaded to abandon it in favour of the then-mainstream Copenhagen interpretation. David Bohm, dissatisfied with the prevailing orthodoxy, rediscovered de Broglie's pilot-wave theory in 1952. Bohm's suggestions were not widely received then, partly due to reasons unrelated to their content, connected to Bohm's youthful communist affiliations. De Broglie–Bohm theory was widely deemed unacceptable by mainstream theorists, mostly because of its explicit non-locality. Bell's theorem (1964) was inspired by Bell's discovery of the work of David Bohm and his subsequent wondering whether the obvious nonlocality of the theory could be eliminated. Since the 1990s, there has been renewed interest in formulating extensions to de Broglie–Bohm theory, attempting to reconcile it with special relativity and quantum field theory, besides other features such as spin or curved spatial geometries.
+The Stanford Encyclopedia of Philosophy article on Quantum decoherence (Guido Bacciagaluppi, 2012) groups "approaches to quantum mechanics" into five groups, of which "pilot-wave theories" are one (the others being the Copenhagen interpretation, objective collapse theories, many-world interpretations and modal interpretations).
+There are several equivalent mathematical formulations of the theory, and it is known by a number of different names. The de Broglie wave has a macroscopic analogy termed Faraday wave.
+
+
+== Overview ==
+De Broglie–Bohm theory is based on the following postulates:
+There is a configuration 
+  
+    
+      
+        q
+      
+    
+    {\displaystyle q}
+   of the universe, described by coordinates 
+  
+    
+      
+        
+          q
+          
+            k
+          
+        
+      
+    
+    {\displaystyle q^{k}}
+  , which is an element of the configuration space 
+  
+    
+      
+        Q
+      
+    
+    {\displaystyle Q}
+  . The configuration space is different for different versions of pilot-wave theory. For example, this may be the space of positions 
+  
+    
+      
+        
+          
+            Q
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \mathbf {Q} _{k}}
+   of 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+   particles, or, in case of field theory, the space of field configurations 
+  
+    
+      
+        ϕ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \phi (x)}
+  . The configuration evolves (for spin=0) according to the guiding equation
+
+  
+    
+      
+        
+          m
+          
+            k
+          
+        
+        
+          
+            
+              d
+              
+                q
+                
+                  k
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        (
+        t
+        )
+        =
+        ℏ
+        
+          ∇
+          
+            k
+          
+        
+        Im
+        ⁡
+        ln
+        ⁡
+        ψ
+        (
+        q
+        ,
+        t
+        )
+        =
+        ℏ
+        Im
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  ∇
+                  
+                    k
+                  
+                
+                ψ
+              
+              ψ
+            
+          
+          )
+        
+        (
+        q
+        ,
+        t
+        )
+        =
+        
+          
+            
+              
+                m
+                
+                  k
+                
+              
+              
+                
+                  
+                    j
+                  
+                
+                
+                  k
+                
+              
+            
+            
+              
+                ψ
+                
+                  ∗
+                
+              
+              ψ
+            
+          
+        
+        =
+        Re
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  
+                    
+                      
+                        
+                          P
+                          ^
+                        
+                      
+                    
+                  
+                  
+                    k
+                  
+                
+                Ψ
+              
+              Ψ
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle m_{k}{\frac {dq^{k}}{dt}}(t)=\hbar \nabla _{k}\operatorname {Im} \ln \psi (q,t)=\hbar \operatorname {Im} \left({\frac {\nabla _{k}\psi }{\psi }}\right)(q,t)={\frac {m_{k}{\mathbf {j}}_{k}}{\psi ^{*}\psi }}=\operatorname {Re} \left({\frac {{\mathbf {\hat {P}}}_{k}\Psi }{\Psi }}\right),}
+  
+
+where 
+  
+    
+      
+        
+          
+            j
+          
+        
+      
+    
+    {\displaystyle {\mathbf {j}}}
+   is the probability current or probability flux, and 
+  
+    
+      
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathbf {\hat {P}}}}
+   is the momentum operator. Here, 
+  
+    
+      
+        ψ
+        (
+        q
+        ,
+        t
+        )
+      
+    
+    {\displaystyle \psi (q,t)}
+   is the standard complex-valued wavefunction known from quantum theory, which evolves according to Schrödinger's equation
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        ψ
+        (
+        q
+        ,
+        t
+        )
+        =
+        −
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              
+                m
+                
+                  i
+                
+              
+            
+          
+        
+        
+          ∇
+          
+            i
+          
+          
+            2
+          
+        
+        ψ
+        (
+        q
+        ,
+        t
+        )
+        +
+        V
+        (
+        q
+        )
+        ψ
+        (
+        q
+        ,
+        t
+        )
+        .
+      
+    
+    {\displaystyle i\hbar {\frac {\partial }{\partial t}}\psi (q,t)=-\sum _{i=1}^{N}{\frac {\hbar ^{2}}{2m_{i}}}\nabla _{i}^{2}\psi (q,t)+V(q)\psi (q,t).}
+  
+
+This already completes the specification of the theory for any quantum theory with Hamilton operator of type 
+  
+    
+      
+        H
+        =
+        ∑
+        
+          
+            1
+            
+              2
+              
+                m
+                
+                  i
+                
+              
+            
+          
+        
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            i
+          
+          
+            2
+          
+        
+        +
+        V
+        (
+        
+          
+            
+              q
+              ^
+            
+          
+        
+        )
+      
+    
+    {\displaystyle H=\sum {\frac {1}{2m_{i}}}{\hat {p}}_{i}^{2}+V({\hat {q}})}
+  .
+The configuration is distributed according to 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        q
+        ,
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi (q,t)|^{2}}
+   at some moment of time 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  , and this consequently holds for all times. Such a state is named quantum equilibrium. With quantum equilibrium, this theory agrees with the results of standard quantum mechanics.
+Notably, even though this latter relation is frequently presented as an axiom of the theory, in Bohm's original papers of 1952 it was presented as derivable from statistical-mechanical arguments. This argument was further supported by the work of Bohm in 1953 and was substantiated by Vigier and Bohm's paper of 1954, in which they introduced stochastic fluid fluctuations that drive a process of asymptotic relaxation from quantum non-equilibrium to quantum equilibrium (ρ → |ψ|2).
+
+
+=== Double-slit experiment ===
+
+The double-slit experiment is an illustration of wave-particle duality. In it, a beam of particles (such as electrons) travels through a barrier that has two slits. If one puts a detector screen on the side beyond the barrier, the pattern of detected particles shows interference fringes characteristic of waves arriving at the screen from two sources (the two slits); however, the interference pattern is made up of individual dots corresponding to particles that had arrived on the screen. The system seems to exhibit the behaviour of both waves (interference patterns) and particles (dots on the screen).
+If we modify this experiment so that one slit is closed, no interference pattern is observed. Thus, the state of both slits affects the final results. We can also arrange to have a minimally invasive detector at one of the slits to detect which slit the particle went through. When we do that, the interference pattern disappears.
+The Copenhagen interpretation states that the particles are not localised in space until they are detected, so that, if there is no detector on the slits, there is no information about which slit the particle has passed through. If one slit has a detector on it, then the wavefunction collapses due to that detection.
+In de Broglie–Bohm theory, the wavefunction is defined at both slits, but each particle has a well-defined trajectory that passes through exactly one of the slits. The final position of the particle on the detector screen and the slit through which the particle passes is determined by the initial position of the particle. Such initial position is not knowable or controllable by the experimenter, so there is an appearance of randomness in the pattern of detection. In Bohm's 1952 papers he used the wavefunction to construct a quantum potential that, when included in Newton's equations, gave the trajectories of the particles streaming through the two slits. In effect the wavefunction interferes with itself and guides the particles by the quantum potential in such a way that the particles avoid the regions in which the interference is destructive and are attracted to the regions in which the interference is constructive, resulting in the interference pattern on the detector screen.
+To explain the behavior when the particle is detected to go through one slit, one needs to appreciate the role of the conditional wavefunction and how it results in the collapse of the wavefunction; this is explained below. The basic idea is that the environment registering the detection effectively separates the two wave packets in configuration space.
+
+
+== The theory ==
+
+
+=== The ontology ===
+The ontology of de Broglie–Bohm theory consists of a configuration 
+  
+    
+      
+        q
+        (
+        t
+        )
+        ∈
+        Q
+      
+    
+    {\displaystyle q(t)\in Q}
+   of the universe and a pilot wave 
+  
+    
+      
+        ψ
+        (
+        q
+        ,
+        t
+        )
+        ∈
+        
+          C
+        
+      
+    
+    {\displaystyle \psi (q,t)\in \mathbb {C} }
+  . The configuration space 
+  
+    
+      
+        Q
+      
+    
+    {\displaystyle Q}
+   can be chosen differently, as in classical mechanics and standard quantum mechanics.
+Thus, the ontology of pilot-wave theory contains as the trajectory 
+  
+    
+      
+        q
+        (
+        t
+        )
+        ∈
+        Q
+      
+    
+    {\displaystyle q(t)\in Q}
+   we know from classical mechanics, as the wavefunction 
+  
+    
+      
+        ψ
+        (
+        q
+        ,
+        t
+        )
+        ∈
+        
+          C
+        
+      
+    
+    {\displaystyle \psi (q,t)\in \mathbb {C} }
+   of quantum theory. So, at every moment of time there exists not only a wavefunction, but also a well-defined configuration of the whole universe (i.e., the system as defined by the boundary conditions used in solving the Schrödinger equation). The correspondence to our experiences is made by the identification of the configuration of our brain with some part of the configuration of the whole universe 
+  
+    
+      
+        q
+        (
+        t
+        )
+        ∈
+        Q
+      
+    
+    {\displaystyle q(t)\in Q}
+  , as in classical mechanics.
+While the ontology of classical mechanics is part of the ontology of de Broglie–Bohm theory, the dynamics are very different. In classical mechanics, the accelerations of the particles are imparted directly by forces, which exist in physical three-dimensional space. In de Broglie–Bohm theory, the velocities of the particles are given by the wavefunction, which exists in a 3N-dimensional configuration space, where N corresponds to the number of particles in the system; Bohm hypothesized that each particle has a "complex and subtle inner structure" that provides the capacity to react to the information provided by the wavefunction by the quantum potential. Also, unlike in classical mechanics, physical properties (e.g., mass, charge) are spread out over the wavefunction in de Broglie–Bohm theory, not localized at the position of the particle.
+The wavefunction itself, and not the particles, determines the dynamical evolution of the system: the particles do not act back onto the wave function. As Bohm and Hiley worded it, "the Schrödinger equation for the quantum field does not have sources, nor does it have any other way by which the field could be directly affected by the condition of the particles [...] the quantum theory can be understood completely in terms of the assumption that the quantum field has no sources or other forms of dependence on the particles". P. Holland considers this lack of reciprocal action of particles and wave function to be one "[a]mong the many nonclassical properties exhibited by this theory". It should be noted, however, that Holland has later called this a merely apparent lack of back reaction, due to the incompleteness of the description.
+In what follows below, we will give the setup for one particle moving in 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3}}
+   followed by the setup for N particles moving in 3 dimensions. In the first instance, configuration space and real space are the same, while in the second, real space is still 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3}}
+  , but configuration space becomes 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+            N
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3N}}
+  . While the particle positions themselves are in real space, the velocity field and wavefunction are on configuration space, which is how particles are entangled with each other in this theory.
+Extensions to this theory include spin and more complicated configuration spaces.
+We use variations of 
+  
+    
+      
+        
+          Q
+        
+      
+    
+    {\displaystyle \mathbf {Q} }
+   for particle positions, while 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   represents the complex-valued wavefunction on configuration space.
+
+
+=== Guiding equation ===
+For a spinless single particle moving in 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3}}
+  , the particle's velocity is given by
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                Q
+              
+            
+            
+              d
+              t
+            
+          
+        
+        (
+        t
+        )
+        =
+        
+          
+            ℏ
+            m
+          
+        
+        Im
+        ⁡
+        
+          (
+          
+            
+              
+                ∇
+                ψ
+              
+              ψ
+            
+          
+          )
+        
+        (
+        
+          Q
+        
+        ,
+        t
+        )
+        .
+      
+    
+    {\displaystyle {\frac {d\mathbf {Q} }{dt}}(t)={\frac {\hbar }{m}}\operatorname {Im} \left({\frac {\nabla \psi }{\psi }}\right)(\mathbf {Q} ,t).}
+  
+For many particles, we label them as 
+  
+    
+      
+        
+          
+            Q
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \mathbf {Q} _{k}}
+   for the 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  -th particle, and their velocities are given by
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                
+                  Q
+                
+                
+                  k
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        (
+        t
+        )
+        =
+        
+          
+            ℏ
+            
+              m
+              
+                k
+              
+            
+          
+        
+        Im
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  ∇
+                  
+                    k
+                  
+                
+                ψ
+              
+              ψ
+            
+          
+          )
+        
+        (
+        
+          
+            Q
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            Q
+          
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          
+            Q
+          
+          
+            N
+          
+        
+        ,
+        t
+        )
+        .
+      
+    
+    {\displaystyle {\frac {d\mathbf {Q} _{k}}{dt}}(t)={\frac {\hbar }{m_{k}}}\operatorname {Im} \left({\frac {\nabla _{k}\psi }{\psi }}\right)(\mathbf {Q} _{1},\mathbf {Q} _{2},\ldots ,\mathbf {Q} _{N},t).}
+  
+The main fact to notice is that this velocity field depends on the actual positions of all of the 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+   particles in the universe. As explained below, in most experimental situations, the influence of all of those particles can be encapsulated into an effective wavefunction for a subsystem of the universe.
+
+
+=== Schrödinger's equation ===
+The one-particle Schrödinger equation governs the time evolution of a complex-valued wavefunction on 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3}}
+  . The equation represents a quantized version of the total energy of a classical system evolving under a real-valued potential function 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   on 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3}}
+  :
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        ψ
+        =
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          ∇
+          
+            2
+          
+        
+        ψ
+        +
+        V
+        ψ
+        .
+      
+    
+    {\displaystyle i\hbar {\frac {\partial }{\partial t}}\psi =-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}\psi +V\psi .}
+  
+For many particles, the equation is the same except that 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   and 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   are now on configuration space, 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+            N
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3N}}
+  :
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        ψ
+        =
+        −
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              
+                m
+                
+                  k
+                
+              
+            
+          
+        
+        
+          ∇
+          
+            k
+          
+          
+            2
+          
+        
+        ψ
+        +
+        V
+        ψ
+        .
+      
+    
+    {\displaystyle i\hbar {\frac {\partial }{\partial t}}\psi =-\sum _{k=1}^{N}{\frac {\hbar ^{2}}{2m_{k}}}\nabla _{k}^{2}\psi +V\psi .}
+  
+This is the same wavefunction as in conventional quantum mechanics.
+
+
+=== Relation to the Born rule ===
+In Bohm's original papers [Bohm 1952], he discusses how de Broglie–Bohm theory results in the usual measurement results of quantum mechanics. The main idea is that this is true if the positions of the particles satisfy the statistical distribution given by 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi |^{2}}
+  . And that distribution is guaranteed to be true for all time by the guiding equation if the initial distribution of the particles satisfies 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi |^{2}}
+  .
+For a given experiment, we can postulate this as being true and verify experimentally that it does indeed hold true, as it does. But, as argued in Dürr et al., one needs to argue that this distribution for subsystems is typical. They argue that 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi |^{2}}
+   by virtue of its equivariance under the dynamical evolution of the system, is the appropriate measure of typicality for initial conditions of the positions of the particles. They then prove that the vast majority of possible initial configurations will give rise to statistics obeying the Born rule (i.e., 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi |^{2}}
+  ) for measurement outcomes. In summary, in a universe governed by the de Broglie–Bohm dynamics, Born rule behavior is typical.
+The situation is thus analogous to the situation in classical statistical physics. A low-entropy initial condition will, with overwhelmingly high probability, evolve into a higher-entropy state: behavior consistent with the second law of thermodynamics is typical. There are, of course, anomalous initial conditions that would give rise to violations of the second law. However, in the absence of some very detailed evidence supporting the actual realization of one of those special initial conditions, it would be quite unreasonable to expect anything but the actually observed uniform increase of entropy. Similarly, in the de Broglie–Bohm theory, there are anomalous initial conditions that would produce measurement statistics in violation of the Born rule (i.e., in conflict with the predictions of standard quantum theory). But the typicality theorem shows that, in the absence of some specific reason to believe that one of those special initial conditions was in fact realized, the Born rule behavior is what one should expect.
+It is in that qualified sense that the Born rule is, for the de Broglie–Bohm theory, a theorem rather than (as in ordinary quantum theory) an additional postulate.
+It can also be shown that a distribution of particles that is not distributed according to the Born rule (that is, a distribution "out of quantum equilibrium") and evolving under the de Broglie–Bohm dynamics is overwhelmingly likely to evolve dynamically into a state distributed as 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi |^{2}}
+  .
+
+
+=== The conditional wavefunction of a subsystem ===
+In the formulation of the de Broglie–Bohm theory, there is only a wavefunction for the entire universe (which always evolves by the Schrödinger equation). It should, however, be noted that the "universe" is simply the system limited by the same boundary conditions used to solve the Schrödinger equation. However, once the theory is formulated, it is convenient to introduce a notion of wavefunction also for subsystems of the universe. Let us write the wavefunction of the universe as 
+  
+    
+      
+        ψ
+        (
+        t
+        ,
+        
+          q
+          
+            I
+          
+        
+        ,
+        
+          q
+          
+            II
+          
+        
+        )
+      
+    
+    {\displaystyle \psi (t,q^{\text{I}},q^{\text{II}})}
+  , where 
+  
+    
+      
+        
+          q
+          
+            I
+          
+        
+      
+    
+    {\displaystyle q^{\text{I}}}
+   denotes the configuration variables associated to some subsystem (I) of the universe, and 
+  
+    
+      
+        
+          q
+          
+            II
+          
+        
+      
+    
+    {\displaystyle q^{\text{II}}}
+   denotes the remaining configuration variables. Denote respectively by 
+  
+    
+      
+        
+          Q
+          
+            I
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle Q^{\text{I}}(t)}
+   and 
+  
+    
+      
+        
+          Q
+          
+            II
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle Q^{\text{II}}(t)}
+   the actual configuration of subsystem (I) and of the rest of the universe. For simplicity, we consider here only the spinless case. The conditional wavefunction of subsystem (I) is defined by
+
+  
+    
+      
+        
+          ψ
+          
+            I
+          
+        
+        (
+        t
+        ,
+        
+          q
+          
+            I
+          
+        
+        )
+        =
+        ψ
+        (
+        t
+        ,
+        
+          q
+          
+            I
+          
+        
+        ,
+        
+          Q
+          
+            II
+          
+        
+        (
+        t
+        )
+        )
+        .
+      
+    
+    {\displaystyle \psi ^{\text{I}}(t,q^{\text{I}})=\psi (t,q^{\text{I}},Q^{\text{II}}(t)).}
+  
+It follows immediately from the fact that 
+  
+    
+      
+        Q
+        (
+        t
+        )
+        =
+        (
+        
+          Q
+          
+            I
+          
+        
+        (
+        t
+        )
+        ,
+        
+          Q
+          
+            II
+          
+        
+        (
+        t
+        )
+        )
+      
+    
+    {\displaystyle Q(t)=(Q^{\text{I}}(t),Q^{\text{II}}(t))}
+   satisfies the guiding equation that also the configuration 
+  
+    
+      
+        
+          Q
+          
+            I
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle Q^{\text{I}}(t)}
+   satisfies a guiding equation identical to the one presented in the formulation of the theory, with the universal wavefunction 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   replaced with the conditional wavefunction 
+  
+    
+      
+        
+          ψ
+          
+            I
+          
+        
+      
+    
+    {\displaystyle \psi ^{\text{I}}}
+  . Also, the fact that 
+  
+    
+      
+        Q
+        (
+        t
+        )
+      
+    
+    {\displaystyle Q(t)}
+   is random with probability density given by the square modulus of 
+  
+    
+      
+        ψ
+        (
+        t
+        ,
+        ⋅
+        )
+      
+    
+    {\displaystyle \psi (t,\cdot )}
+   implies that the conditional probability density of 
+  
+    
+      
+        
+          Q
+          
+            I
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle Q^{\text{I}}(t)}
+   given 
+  
+    
+      
+        
+          Q
+          
+            II
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle Q^{\text{II}}(t)}
+   is given by the square modulus of the (normalized) conditional wavefunction 
+  
+    
+      
+        
+          ψ
+          
+            I
+          
+        
+        (
+        t
+        ,
+        ⋅
+        )
+      
+    
+    {\displaystyle \psi ^{\text{I}}(t,\cdot )}
+   (in the terminology of Dürr et al. this fact is called the fundamental conditional probability formula).
+Unlike the universal wavefunction, the conditional wavefunction of a subsystem does not always evolve by the Schrödinger equation, but in many situations it does. For instance, if the universal wavefunction factors as
+
+  
+    
+      
+        ψ
+        (
+        t
+        ,
+        
+          q
+          
+            I
+          
+        
+        ,
+        
+          q
+          
+            II
+          
+        
+        )
+        =
+        
+          ψ
+          
+            I
+          
+        
+        (
+        t
+        ,
+        
+          q
+          
+            I
+          
+        
+        )
+        
+          ψ
+          
+            II
+          
+        
+        (
+        t
+        ,
+        
+          q
+          
+            II
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle \psi (t,q^{\text{I}},q^{\text{II}})=\psi ^{\text{I}}(t,q^{\text{I}})\psi ^{\text{II}}(t,q^{\text{II}}),}
+  
+then the conditional wavefunction of subsystem (I) is (up to an irrelevant scalar factor) equal to 
+  
+    
+      
+        
+          ψ
+          
+            I
+          
+        
+      
+    
+    {\displaystyle \psi ^{\text{I}}}
+   (this is what standard quantum theory would regard as the wavefunction of subsystem (I)). If, in addition, the Hamiltonian does not contain an interaction term between subsystems (I) and (II), then 
+  
+    
+      
+        
+          ψ
+          
+            I
+          
+        
+      
+    
+    {\displaystyle \psi ^{\text{I}}}
+   does satisfy a Schrödinger equation. More generally, assume that the universal wave function 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   can be written in the form
+
+  
+    
+      
+        ψ
+        (
+        t
+        ,
+        
+          q
+          
+            I
+          
+        
+        ,
+        
+          q
+          
+            II
+          
+        
+        )
+        =
+        
+          ψ
+          
+            I
+          
+        
+        (
+        t
+        ,
+        
+          q
+          
+            I
+          
+        
+        )
+        
+          ψ
+          
+            II
+          
+        
+        (
+        t
+        ,
+        
+          q
+          
+            II
+          
+        
+        )
+        +
+        ϕ
+        (
+        t
+        ,
+        
+          q
+          
+            I
+          
+        
+        ,
+        
+          q
+          
+            II
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle \psi (t,q^{\text{I}},q^{\text{II}})=\psi ^{\text{I}}(t,q^{\text{I}})\psi ^{\text{II}}(t,q^{\text{II}})+\phi (t,q^{\text{I}},q^{\text{II}}),}
+  
+where 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+   solves Schrödinger equation and, 
+  
+    
+      
+        ϕ
+        (
+        t
+        ,
+        
+          q
+          
+            I
+          
+        
+        ,
+        
+          Q
+          
+            II
+          
+        
+        (
+        t
+        )
+        )
+        =
+        0
+      
+    
+    {\displaystyle \phi (t,q^{\text{I}},Q^{\text{II}}(t))=0}
+   for all 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   and 
+  
+    
+      
+        
+          q
+          
+            I
+          
+        
+      
+    
+    {\displaystyle q^{\text{I}}}
+  . Then, again, the conditional wavefunction of subsystem (I) is (up to an irrelevant scalar factor) equal to 
+  
+    
+      
+        
+          ψ
+          
+            I
+          
+        
+      
+    
+    {\displaystyle \psi ^{\text{I}}}
+  , and if the Hamiltonian does not contain an interaction term between subsystems (I) and (II), then 
+  
+    
+      
+        
+          ψ
+          
+            I
+          
+        
+      
+    
+    {\displaystyle \psi ^{\text{I}}}
+   satisfies a Schrödinger equation.
+The fact that the conditional wavefunction of a subsystem does not always evolve by the Schrödinger equation is related to the fact that the usual collapse rule of standard quantum theory emerges from the Bohmian formalism when one considers conditional wavefunctions of subsystems.
+
+
+== Extensions ==
+
+
+=== Relativity ===
+Pilot-wave theory is explicitly nonlocal, which is in ostensible conflict with special relativity. Various extensions of "Bohm-like" mechanics exist that attempt to resolve this problem. Bohm himself in 1953 presented an extension of the theory satisfying the Dirac equation for a single particle. However, this was not extensible to the many-particle case because it used an absolute time.
+A renewed interest in constructing Lorentz-invariant extensions of Bohmian theory arose in the 1990s; see Bohm and Hiley: The Undivided Universe, and Nikolic, H. (2002). "Bohmian particle trajectories in relativistic bosonic quantum field theory". Foundations of Physics Letters. 17 (4): 363–380. arXiv:quant-ph/0208185. doi:10.1023/B:FOPL.0000035670.31755.0a. , Nikolic, H. (2003). "Bohmian particle trajectories in relativistic fermionic quantum field theory". Foundations of Physics Letters. 18 (2): 123–138. arXiv:quant-ph/0302152. doi:10.1007/s10702-005-3957-3. , and references therein. Another approach is given in the work of Dürr et al., in which they use Bohm–Dirac models and a Lorentz-invariant foliation of space-time.
+Thus, Dürr et al. (1999) showed that it is possible to formally restore Lorentz invariance for the Bohm–Dirac theory by introducing additional structure. This approach still requires a foliation of space-time. While this is in conflict with the standard interpretation of relativity, the preferred foliation, if unobservable, does not lead to any empirical conflicts with relativity. In 2013, Dürr et al. suggested that the required foliation could be covariantly determined by the wavefunction.
+The relation between nonlocality and preferred foliation can be better understood as follows. In de Broglie–Bohm theory, nonlocality manifests as the fact that the velocity and acceleration of one particle depends on the instantaneous positions of all other particles. On the other hand, in the theory of relativity the concept of instantaneousness does not have an invariant meaning. Thus, to define particle trajectories, one needs an additional rule that defines which space-time points should be considered instantaneous. The simplest way to achieve this is to introduce a preferred foliation of space-time by hand, such that each hypersurface of the foliation defines a hypersurface of equal time.
+Initially, it had been considered impossible to set out a description of photon trajectories in the de Broglie–Bohm theory in view of the difficulties of describing bosons relativistically. In 1996, Partha Ghose had presented a relativistic quantum-mechanical description of spin-0 and spin-1 bosons starting from the Duffin–Kemmer–Petiau equation, setting out Bohmian trajectories for massive bosons and for massless bosons (and therefore photons). In 2001, Jean-Pierre Vigier emphasized the importance of deriving a well-defined description of light in terms of particle trajectories in the framework of either the Bohmian mechanics or the Nelson stochastic mechanics. The same year, Ghose worked out Bohmian photon trajectories for specific cases. Subsequent weak-measurement experiments yielded trajectories that coincide with the predicted trajectories.
+Chris Dewdney and G. Horton have proposed a relativistically covariant, wave-functional formulation of Bohm's quantum field theory and have extended it to a form that allows the inclusion of gravity.
+Nikolić has proposed a Lorentz-covariant formulation of the Bohmian interpretation of many-particle wavefunctions. He has developed a generalized relativistic-invariant probabilistic interpretation of quantum theory, in which 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi |^{2}}
+   is no longer a probability density in space, but a probability density in space-time. He uses this generalized probabilistic interpretation to formulate a relativistic-covariant version of de Broglie–Bohm theory without introducing a preferred foliation of space-time. His work also covers the extension of the Bohmian interpretation to a quantization of fields and strings.
+
+Roderick I. Sutherland at the University in Sydney has a Lagrangian formalism for the pilot wave and its beables. It draws on Yakir Aharonov's retrocasual weak measurements to explain many-particle entanglement in a special relativistic way without the need for configuration space. The basic idea was already published by Costa de Beauregard in the 1950s and is also used by John Cramer in his transactional interpretation except the beables that exist between the von Neumann strong projection operator measurements. Sutherland's Lagrangian includes two-way action-reaction between pilot wave and beables. Therefore, it is a post-quantum non-statistical theory with final boundary conditions that violate the no-signal theorems of quantum theory. Just as special relativity is a limiting case of general relativity when the spacetime curvature vanishes, so, too is statistical no-entanglement signaling quantum theory with the Born rule a limiting case of the post-quantum action-reaction Lagrangian when the reaction is set to zero and the final boundary condition is integrated out.
+
+
+=== Spin ===
+To incorporate spin, the wavefunction becomes complex-vector-valued. The value space is called spin space; for a spin-½ particle, spin space can be taken to be 
+  
+    
+      
+        
+          
+            C
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbb {C} ^{2}}
+  . The guiding equation is modified by taking inner products in spin space to reduce the complex vectors to complex numbers. The Schrödinger equation is modified by adding a Pauli spin term:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      d
+                      
+                        
+                          Q
+                        
+                        
+                          k
+                        
+                      
+                    
+                    
+                      d
+                      t
+                    
+                  
+                
+                (
+                t
+                )
+              
+              
+                
+                =
+                
+                  
+                    ℏ
+                    
+                      m
+                      
+                        k
+                      
+                    
+                  
+                
+                Im
+                ⁡
+                
+                  (
+                  
+                    
+                      
+                        (
+                        ψ
+                        ,
+                        
+                          D
+                          
+                            k
+                          
+                        
+                        ψ
+                        )
+                      
+                      
+                        (
+                        ψ
+                        ,
+                        ψ
+                        )
+                      
+                    
+                  
+                  )
+                
+                (
+                
+                  
+                    Q
+                  
+                  
+                    1
+                  
+                
+                ,
+                
+                  
+                    Q
+                  
+                  
+                    2
+                  
+                
+                ,
+                …
+                ,
+                
+                  
+                    Q
+                  
+                  
+                    N
+                  
+                
+                ,
+                t
+                )
+                ,
+              
+            
+            
+              
+                i
+                ℏ
+                
+                  
+                    ∂
+                    
+                      ∂
+                      t
+                    
+                  
+                
+                ψ
+              
+              
+                
+                =
+                
+                  (
+                  −
+                  
+                    ∑
+                    
+                      k
+                      =
+                      1
+                    
+                    
+                      N
+                    
+                  
+                  
+                    
+                      
+                        ℏ
+                        
+                          2
+                        
+                      
+                      
+                        2
+                        
+                          m
+                          
+                            k
+                          
+                        
+                      
+                    
+                  
+                  
+                    D
+                    
+                      k
+                    
+                    
+                      2
+                    
+                  
+                  +
+                  V
+                  −
+                  
+                    ∑
+                    
+                      k
+                      =
+                      1
+                    
+                    
+                      N
+                    
+                  
+                  
+                    μ
+                    
+                      k
+                    
+                  
+                  
+                    
+                      S
+                    
+                    
+                      k
+                    
+                  
+                  
+                    /
+                  
+                  
+                    S
+                    
+                      k
+                    
+                  
+                  ⋅
+                  
+                    B
+                  
+                  (
+                  
+                    
+                      q
+                    
+                    
+                      k
+                    
+                  
+                  )
+                  )
+                
+                ψ
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {d\mathbf {Q} _{k}}{dt}}(t)&={\frac {\hbar }{m_{k}}}\operatorname {Im} \left({\frac {(\psi ,D_{k}\psi )}{(\psi ,\psi )}}\right)(\mathbf {Q} _{1},\mathbf {Q} _{2},\ldots ,\mathbf {Q} _{N},t),\\i\hbar {\frac {\partial }{\partial t}}\psi &=\left(-\sum _{k=1}^{N}{\frac {\hbar ^{2}}{2m_{k}}}D_{k}^{2}+V-\sum _{k=1}^{N}\mu _{k}\mathbf {S} _{k}/S_{k}\cdot \mathbf {B} (\mathbf {q} _{k})\right)\psi ,\end{aligned}}}
+  
+where 
+  
+    
+      
+        
+          μ
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \mu _{k}}
+   is the magnetic moment of the 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  -th particle, 
+  
+    
+      
+        
+          
+            S
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \mathbf {S} _{k}}
+   is the appropriate spin operator acting in the 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  -th particle's spin space, 
+  
+    
+      
+        
+          S
+          
+            k
+          
+        
+      
+    
+    {\displaystyle S_{k}}
+   is spin of the particle (
+  
+    
+      
+        
+          S
+          
+            k
+          
+        
+        =
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle S_{k}=1/2}
+   for electron),
+
+  
+    
+      
+        
+          D
+          
+            k
+          
+        
+        =
+        
+          ∇
+          
+            k
+          
+        
+        −
+        
+          
+            
+              i
+              
+                e
+                
+                  k
+                
+              
+            
+            
+              c
+              ℏ
+            
+          
+        
+        
+          A
+        
+        (
+        
+          
+            q
+          
+          
+            k
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle D_{k}=\nabla _{k}-{\frac {ie_{k}}{c\hbar }}\mathbf {A} (\mathbf {q} _{k}),}
+  
+
+  
+    
+      
+        
+          B
+        
+      
+    
+    {\displaystyle \mathbf {B} }
+   and 
+  
+    
+      
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {A} }
+   are respectively the magnetic field and the vector potential in 
+  
+    
+      
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{3}}
+   (all other functions are fully on configuration space), 
+  
+    
+      
+        
+          e
+          
+            k
+          
+        
+      
+    
+    {\displaystyle e_{k}}
+   is the charge of the 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  -th particle, and 
+  
+    
+      
+        (
+        ⋅
+        ,
+        ⋅
+        )
+      
+    
+    {\displaystyle (\cdot ,\cdot )}
+   is the inner product in spin space 
+  
+    
+      
+        
+          
+            C
+          
+          
+            d
+          
+        
+      
+    
+    {\displaystyle \mathbb {C} ^{d}}
+  :
+
+  
+    
+      
+        (
+        ϕ
+        ,
+        ψ
+        )
+        =
+        
+          ∑
+          
+            s
+            =
+            1
+          
+          
+            d
+          
+        
+        
+          ϕ
+          
+            s
+          
+          
+            ∗
+          
+        
+        
+          ψ
+          
+            s
+          
+        
+        .
+      
+    
+    {\displaystyle (\phi ,\psi )=\sum _{s=1}^{d}\phi _{s}^{*}\psi _{s}.}
+  
+For an example of a spin space, a system consisting of two spin-1/2 particles and one spin-1 particle has a wavefunction of the form
+
+  
+    
+      
+        ψ
+        :
+        
+          
+            R
+          
+          
+            9
+          
+        
+        ×
+        
+          R
+        
+        →
+        
+          
+            C
+          
+          
+            2
+          
+        
+        ⊗
+        
+          
+            C
+          
+          
+            2
+          
+        
+        ⊗
+        
+          
+            C
+          
+          
+            3
+          
+        
+        .
+      
+    
+    {\displaystyle \psi :\mathbb {R} ^{9}\times \mathbb {R} \to \mathbb {C} ^{2}\otimes \mathbb {C} ^{2}\otimes \mathbb {C} ^{3}.}
+  
+That is, its spin space is 12-dimensional.
+
+
+=== Quantum field theory ===
+In Dürr et al., the authors describe an extension of de Broglie–Bohm theory for handling creation and annihilation operators, which they refer to as "Bell-type quantum field theories". The basic idea is that configuration space becomes the (disjoint) space of all possible configurations of any number of particles. For part of the time, the system evolves deterministically under the guiding equation with a fixed number of particles. But under a stochastic process, particles may be created and annihilated. The distribution of creation events is dictated by the wavefunction. The wavefunction itself is evolving at all times over the full multi-particle configuration space.
+Hrvoje Nikolić introduces a purely deterministic de Broglie–Bohm theory of particle creation and destruction, according to which particle trajectories are continuous, but particle detectors behave as if particles have been created or destroyed even when a true creation or destruction of particles does not take place.
+
+
+=== Curved space ===
+To extend de Broglie–Bohm theory to curved space (Riemannian manifolds in mathematical parlance), one simply notes that all of the elements of these equations make sense, such as gradients and Laplacians. Thus, we use equations that have the same form as above. Topological and boundary conditions may apply in supplementing the evolution of Schrödinger's equation.
+For a de Broglie–Bohm theory on curved space with spin, the spin space becomes a vector bundle over configuration space, and the potential in Schrödinger's equation becomes a local self-adjoint operator acting on that space.
+
+
+=== Exploiting nonlocality ===
+
+The causal interpretation of quantum mechanics set up by de Broglie and Bohm was extended later by Bohm, Vigier, Hiley, Valentini and others to include stochastic properties. Bohm and other physicists, including Valentini, view the Born rule linking 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   to the probability density function 
+  
+    
+      
+        ρ
+        =
+        
+          R
+          
+            2
+          
+        
+        
+      
+    
+    {\displaystyle \rho =R^{2}\quad }
+   as representing not a basic law, but rather as constituting a result of a system having reached quantum equilibrium during the course of the time development under the Schrödinger equation. It can be shown that, once an equilibrium has been reached, the system remains in such equilibrium over the course of its further evolution: this follows from the continuity equation associated with the Schrödinger evolution of 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+  . However, it is less straightforward to demonstrate whether and how such an equilibrium is reached in the first place.
+Antony Valentini has extended the de Broglie–Bohm theory to include signal nonlocality that would allow entanglement to be used as a stand-alone communication channel without a secondary classical "key" signal to "unlock" the message encoded in the entanglement. This violates orthodox quantum theory but has the virtue that it makes the parallel universes of the chaotic inflation theory observable in principle.
+Unlike de Broglie–Bohm theory, Valentini's theory has the wavefunction evolution also depending on the ontological variables. This introduces an instability, a feedback loop that pushes the hidden variables out of "sub-quantal heat death". The resulting theory becomes nonlinear and non-unitary. Valentin argues that the laws of quantum mechanics are emergent and form a "quantum equilibrium" that has an analogous status to that of thermal equilibrium in classical dynamics. In principle therefore, other "quantum non-equilibrium" distributions may be potentially observed and exploited, for which the statistical predictions of quantum theory are violated. It is controversially argued that quantum theory is merely a special case of a much wider nonlinear physics, a physics in which non-local (superluminal) signalling is possible, and in which the uncertainty principle can be violated.
+
+
+== Results ==
+Below are some highlights of the results that arise out of an analysis of de Broglie–Bohm theory. Experimental results agree with all of the standard predictions of quantum mechanics in so far as the latter has predictions. However, while standard quantum mechanics is limited to discussing the results of "measurements", de Broglie–Bohm theory is a theory that governs the dynamics of a system without the intervention of outside observers (p. 117 in Bell).
+The basis for agreement with standard quantum mechanics is that the particles are distributed according to 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi |^{2}}
+  . This is a statement of observer ignorance, but it can be proven that for a universe governed by this theory, this will typically be the case. There is apparent collapse of the wave function governing subsystems of the universe, but there is no collapse of the universal wavefunction.
+
+
+=== Measuring spin and polarization ===
+According to ordinary quantum theory, it is not possible to measure the spin or polarization of a particle directly; instead, the component in one direction is measured; the outcome from a single particle may be 1, meaning that the particle is aligned with the measuring apparatus, or −1, meaning that it is aligned the opposite way. For an ensemble of particles, if we expect the particles to be aligned, the results are all 1. If we expect them to be aligned oppositely, the results are all −1. For other alignments, we expect some results to be 1 and some to be −1 with a probability that depends on the expected alignment. For a full explanation of this, see the Stern–Gerlach experiment.
+In de Broglie–Bohm theory, the results of a spin experiment cannot be analyzed without some knowledge of the experimental setup. It is possible to modify the setup so that the trajectory of the particle is unaffected, but that the particle with one setup registers as spin-up, while in the other setup it registers as spin-down. Thus, for the de Broglie–Bohm theory, the particle's spin is not an intrinsic property of the particle; instead spin is, so to speak, in the wavefunction of the particle in relation to the particular device being used to measure the spin. This is an illustration of what is sometimes referred to as contextuality and is related to naive realism about operators.
+
+
+=== Measurements, the quantum formalism, and observer independence ===
+De Broglie–Bohm theory gives the same results as quantum mechanics. It treats the wavefunction as a fundamental object in the theory, as the wavefunction describes how the particles move. This means that no experiment can distinguish between the two theories. This section outlines the ideas as to how the standard quantum formalism arises out of quantum mechanics. References include Bohm's original 1952 paper and Dürr et al.
+
+
+==== Collapse of the wavefunction ====
+De Broglie–Bohm theory is a theory that applies primarily to the whole universe. That is, there is a single wavefunction governing the motion of all of the particles in the universe according to the guiding equation. Theoretically, the motion of one particle depends on the positions of all of the other particles in the universe. In some situations, such as in experimental systems, we can represent the system itself in terms of a de Broglie–Bohm theory in which the wavefunction of the system is obtained by conditioning on the environment of the system. Thus, the system can be analyzed with Schrödinger's equation and the guiding equation, with an initial 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi |^{2}}
+   distribution for the particles in the system (see the section on the conditional wavefunction of a subsystem for details).
+It requires a special setup for the conditional wavefunction of a system to obey a quantum evolution. When a system interacts with its environment, such as through a measurement, the conditional wavefunction of the system evolves in a different way. The evolution of the universal wavefunction can become such that the wavefunction of the system appears to be in a superposition of distinct states. But if the environment has recorded the results of the experiment, then using the actual Bohmian configuration of the environment to condition on, the conditional wavefunction collapses to just one alternative, the one corresponding with the measurement results.
+Collapse of the universal wavefunction never occurs in de Broglie–Bohm theory. Its entire evolution is governed by Schrödinger's equation, and the particles' evolutions are governed by the guiding equation. Collapse only occurs in a phenomenological way for systems that seem to follow their own Schrödinger's equation. As this is an effective description of the system, it is a matter of choice as to what to define the experimental system to include, and this will affect when "collapse" occurs.
+
+
+==== Operators as observables ====
+In the standard quantum formalism, measuring observables is generally thought of as measuring operators on the Hilbert space. For example, measuring position is considered to be a measurement of the position operator. This relationship between physical measurements and Hilbert space operators is, for standard quantum mechanics, an additional axiom of the theory. The de Broglie–Bohm theory, by contrast, requires no such measurement axioms (and measurement as such is not a dynamically distinct or special sub-category of physical processes in the theory). In particular, the usual operators-as-observables formalism is, for de Broglie–Bohm theory, a theorem. A major point of the analysis is that many of the measurements of the observables do not correspond to properties of the particles; they are (as in the case of spin discussed above) measurements of the wavefunction.
+In the history of de Broglie–Bohm theory, the proponents have often had to deal with claims that this theory is impossible. Such arguments are generally based on inappropriate analysis of operators as observables. If one believes that spin measurements are indeed measuring the spin of a particle that existed prior to the measurement, then one does reach contradictions. De Broglie–Bohm theory deals with this by noting that spin is not a feature of the particle, but rather that of the wavefunction. As such, it only has a definite outcome once the experimental apparatus is chosen. Once that is taken into account, the impossibility theorems become irrelevant.
+There have also been claims that experiments reject the Bohm trajectories  in favor of the standard QM lines. But as shown in other work, such experiments cited above only disprove a misinterpretation of the de Broglie–Bohm theory, not the theory itself.
+There are also objections to this theory based on what it says about particular situations usually involving eigenstates of an operator. For example, the ground state of hydrogen is a real wavefunction. According to the guiding equation, this means that the electron is at rest when in this state. Nevertheless, it is distributed according to 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi |^{2}}
+  , and no contradiction to experimental results is possible to detect.
+Operators as observables leads many to believe that many operators are equivalent. De Broglie–Bohm theory, from this perspective, chooses the position observable as a favored observable rather than, say, the momentum observable. Again, the link to the position observable is a consequence of the dynamics. The motivation for de Broglie–Bohm theory is to describe a system of particles. This implies that the goal of the theory is to describe the positions of those particles at all times. Other observables do not have this compelling ontological status. Having definite positions explains having definite results such as flashes on a detector screen. Other observables would not lead to that conclusion, but there need not be any problem in defining a mathematical theory for other observables; see Hyman et al. for an exploration of the fact that a probability density and probability current can be defined for any set of commuting operators.
+
+
+==== Hidden variables ====
+De Broglie–Bohm theory is often referred to as a "hidden-variable" theory. Bohm used this description in his original papers on the subject, writing: "From the point of view of the usual interpretation, these additional elements or parameters [permitting a detailed causal and continuous description of all processes] could be called 'hidden' variables." Bohm and Hiley later stated that they found Bohm's choice of the term "hidden variables" to be too restrictive. In particular, they argued that a particle is not actually hidden but rather "is what is most directly manifested in an observation [though] its properties cannot be observed with arbitrary precision (within the limits set by uncertainty principle)". However, others nevertheless treat the term "hidden variable" as a suitable description.
+Generalized particle trajectories can be extrapolated from numerous weak measurements on an ensemble of equally prepared systems, and such trajectories coincide with the de Broglie–Bohm trajectories. In particular, an experiment with two entangled photons, in which a set of Bohmian trajectories for one of the photons was determined using weak measurements and postselection, can be understood in terms of a nonlocal connection between that photon's trajectory and the other photon's polarization. However, not only the De Broglie–Bohm interpretation, but also many other interpretation of quantum mechanics that do not include such trajectories are consistent with such experimental evidence.
+
+
+=== Heisenberg's uncertainty principle ===
+The Heisenberg's uncertainty principle states that when two complementary measurements are made, there is a limit to the product of their accuracy. As an example, if one measures the position with an accuracy of 
+  
+    
+      
+        Δ
+        x
+      
+    
+    {\displaystyle \Delta x}
+   and the momentum with an accuracy of 
+  
+    
+      
+        Δ
+        p
+      
+    
+    {\displaystyle \Delta p}
+  , then 
+  
+    
+      
+        Δ
+        x
+        Δ
+        p
+        ≳
+        h
+        .
+      
+    
+    {\displaystyle \Delta x\Delta p\gtrsim h.}
+   If we make further measurements in order to get more information, we disturb the system and change the trajectory into a new one depending on the measurement setup; therefore, the measurement results are still subject to Heisenberg's uncertainty relation.
+In de Broglie–Bohm theory, there is always a matter of fact about the position and momentum of a particle. Each particle has a well-defined trajectory, as well as a wavefunction. Observers have limited knowledge as to what this trajectory is (and thus of the position and momentum). It is the lack of knowledge of the particle's trajectory that accounts for the uncertainty relation. What one can know about a particle at any given time is described by the wavefunction. Since the uncertainty relation can be derived from the wavefunction in other interpretations of quantum mechanics, it can be likewise derived (in the epistemic sense mentioned above) on the de Broglie–Bohm theory.
+To put the statement differently, the particles' positions are only known statistically. As in classical mechanics, successive observations of the particles' positions refine the experimenter's knowledge of the particles' initial conditions. Thus, with succeeding observations, the initial conditions become more and more restricted. This formalism is consistent with the normal use of the Schrödinger equation.
+For the derivation of the uncertainty relation, see Heisenberg uncertainty principle, noting that it describes it from the viewpoint of the Copenhagen interpretation.
+
+
+=== Quantum entanglement, Einstein–Podolsky–Rosen paradox, Bell's theorem, and nonlocality ===
+De Broglie–Bohm theory highlighted the issue of nonlocality: it inspired John Stewart Bell to prove his now-famous theorem, which in turn led to the Bell test experiments.
+In the Einstein–Podolsky–Rosen paradox, the authors describe a thought experiment that one could perform on a pair of particles that have interacted, the results of which they interpreted as indicating that quantum mechanics is an incomplete theory.
+Decades later John Bell proved Bell's theorem (see p. 14 in Bell), in which he showed that, if they are to agree with the empirical predictions of quantum mechanics, all such "hidden-variable" completions of quantum mechanics must either be nonlocal (as the Bohm interpretation is) or give up the assumption that experiments produce unique results (see counterfactual definiteness and many-worlds interpretation). In particular, Bell proved that any local theory with unique results must make empirical predictions satisfying a statistical constraint called "Bell's inequality".
+Alain Aspect performed a series of Bell test experiments that test Bell's inequality using an EPR-type setup. Aspect's results show experimentally that Bell's inequality is in fact violated, meaning that the relevant quantum-mechanical predictions are correct. In these Bell test experiments, entangled pairs of particles are created; the particles are separated, traveling to remote measuring apparatus. The orientation of the measuring apparatus can be changed while the particles are in flight, demonstrating the apparent nonlocality of the effect.
+The de Broglie–Bohm theory makes the same (empirically correct) predictions for the Bell test experiments as ordinary quantum mechanics. It is able to do this because it is manifestly nonlocal. It is often criticized or rejected based on this; Bell's attitude was: "It is a merit of the de Broglie–Bohm version to bring this [nonlocality] out so explicitly that it cannot be ignored."
+The de Broglie–Bohm theory describes the physics in the Bell test experiments as follows: to understand the evolution of the particles, we need to set up a wave equation for both particles; the orientation of the apparatus affects the wavefunction. The particles in the experiment follow the guidance of the wavefunction. It is the wavefunction that carries the faster-than-light effect of changing the orientation of the apparatus. An analysis of exactly what kind of nonlocality is present and how it is compatible with relativity can be found in Maudlin. Note that in Bell's work, and in more detail in Maudlin's work, it is shown that the nonlocality does not allow signaling at speeds faster than light.
+
+
+=== Classical limit ===
+Bohm's formulation of de Broglie–Bohm theory in terms of a classically looking version has the merits that the emergence of classical behavior seems to follow immediately for any situation in which the quantum potential is negligible, as noted by Bohm in 1952. Modern methods of decoherence are relevant to an analysis of this limit. See Allori et al. for steps towards a rigorous analysis.
+
+
+=== Quantum trajectory method ===
+Work by Robert E. Wyatt in the early 2000s attempted to use the Bohm "particles" as an adaptive mesh that follows the actual trajectory of a quantum state in time and space. In the "quantum trajectory" method, one samples the quantum wavefunction with a mesh of quadrature points. One then evolves the quadrature points in time according to the Bohm equations of motion. At each time step, one then re-synthesizes the wavefunction from the points, recomputes the quantum forces, and continues the calculation. (QuickTime movies of this for H + H2 reactive scattering can be found on the Wyatt group web-site at UT Austin.) This approach has been adapted, extended, and used by a number of researchers in the chemical physics community as a way to compute semi-classical and quasi-classical molecular dynamics. A recent (2007) issue of the Journal of Physical Chemistry A was dedicated to Prof. Wyatt and his work on "computational Bohmian dynamics".
+Eric R. Bittner's group at the University of Houston has advanced a statistical variant of this approach that uses Bayesian sampling technique to sample the quantum density and compute the quantum potential on a structureless mesh of points. This technique was recently used to estimate quantum effects in the heat capacity of small clusters Nen for n ≈ 100.
+There remain difficulties using the Bohmian approach, mostly associated with the formation of singularities in the quantum potential due to nodes in the quantum wavefunction. In general, nodes forming due to interference effects lead to the case where 
+  
+    
+      
+        
+          R
+          
+            −
+            1
+          
+        
+        
+          ∇
+          
+            2
+          
+        
+        R
+        →
+        ∞
+        .
+      
+    
+    {\displaystyle R^{-1}\nabla ^{2}R\to \infty .}
+   This results in an infinite force on the sample particles forcing them to move away from the node and often crossing the path of other sample points (which violates single-valuedness). Various schemes have been developed to overcome this; however, no general solution has yet emerged.
+These methods, as does Bohm's Hamilton–Jacobi formulation, do not apply to situations in which the full dynamics of spin need to be taken into account.
+
+
+=== Occam's-razor criticism ===
+Both Hugh Everett III and Bohm treated the wavefunction as a physically real field. Everett's many-worlds interpretation is an attempt to demonstrate that the wavefunction alone is sufficient to account for all our observations. When we see the particle detectors flash or hear the click of a Geiger counter, then Everett's theory interprets this as our wavefunction responding to changes in the detector's wavefunction, which is responding in turn to the passage of another wavefunction (which we think of as a "particle", but is actually just another wave packet). No particle (in the Bohm sense of having a defined position and velocity) exists, according to that theory. For this reason Everett sometimes referred to his own many-worlds approach as the "pure wave theory". Talking of Bohm's 1952 approach, Everett says:
+In the Everettian view, then, the Bohm particles are superfluous entities, similar to, and equally as unnecessary as, for example, the luminiferous ether, which was found to be unnecessary in special relativity. This argument of Everett is sometimes called the "redundancy argument", since the superfluous particles are redundant in the sense of Occam's razor.
+Many authors have expressed critical views of the de Broglie–Bohm theory by comparing it to Everett's many-worlds approach. Many (but not all) proponents of the de Broglie–Bohm theory (such as Bohm and Bell) interpret the universal wavefunction as physically real. According to some supporters of Everett's theory, if the (never collapsing) wavefunction is taken to be physically real, then it is natural to interpret the theory as having the same many worlds as Everett's theory. In the Everettian view the role of the Bohmian particle is to act as a "pointer", tagging, or selecting, just one branch of the universal wavefunction (the assumption that this branch indicates which wave packet determines the observed result of a given experiment is called the "result assumption"); the other branches are designated "empty" and implicitly assumed by Bohm to be devoid of conscious observers. H. Dieter Zeh comments on these "empty" branches:
+David Deutsch has expressed the same point more "acerbically":
+According to Brown & Wallace, the de Broglie–Bohm particles play no role in the solution of the measurement problem. These authors claim that the "result assumption" (see above) is inconsistent with the view that there is no measurement problem in the predictable outcome (i.e. single-outcome) case. These authors also claim that a standard tacit assumption of the de Broglie–Bohm theory (that an observer becomes aware of configurations of particles of ordinary objects by means of correlations between such configurations and the configuration of the particles in the observer's brain) is unreasonable. This conclusion has been challenged by Valentini, who argues that the entirety of such objections arises from a failure to interpret de Broglie–Bohm theory on its own terms.
+According to Peter R. Holland, in a wider Hamiltonian framework, theories can be formulated in which particles do act back on the wave function.
+
+
+=== Non-equivalence ===
+In 2016, Pisin Chen and Hagen Kleinert argued that the Copenhagen interpretation and the De Broglie–Bohm theory yield different results for the ratio of peak intensities in the double-slit experiment. They concluded that they are thus not mathematically equivalent.
+
+
+== Derivations ==
+De Broglie–Bohm theory has been derived many times and in many ways. Below are six derivations, all of which are very different and lead to different ways of understanding and extending this theory.
+Schrödinger's equation can be derived by using Einstein's light quanta hypothesis: 
+  
+    
+      
+        E
+        =
+        ℏ
+        ω
+      
+    
+    {\displaystyle E=\hbar \omega }
+   and de Broglie's hypothesis: 
+  
+    
+      
+        
+          p
+        
+        =
+        ℏ
+        
+          k
+        
+      
+    
+    {\displaystyle \mathbf {p} =\hbar \mathbf {k} }
+  .
+The guiding equation can be derived in a similar fashion. We assume a plane wave: 
+  
+    
+      
+        ψ
+        (
+        
+          x
+        
+        ,
+        t
+        )
+        =
+        A
+        
+          e
+          
+            i
+            (
+            
+              k
+            
+            ⋅
+            
+              x
+            
+            −
+            ω
+            t
+            )
+          
+        
+      
+    
+    {\displaystyle \psi (\mathbf {x} ,t)=Ae^{i(\mathbf {k} \cdot \mathbf {x} -\omega t)}}
+  . Notice that 
+  
+    
+      
+        i
+        
+          k
+        
+        =
+        ∇
+        ψ
+        
+          /
+        
+        ψ
+      
+    
+    {\displaystyle i\mathbf {k} =\nabla \psi /\psi }
+  . Assuming that 
+  
+    
+      
+        
+          p
+        
+        =
+        m
+        
+          v
+        
+      
+    
+    {\displaystyle \mathbf {p} =m\mathbf {v} }
+   for the particle's actual velocity, we have that 
+  
+    
+      
+        
+          v
+        
+        =
+        
+          
+            ℏ
+            m
+          
+        
+        Im
+        ⁡
+        
+          (
+          
+            
+              
+                ∇
+                ψ
+              
+              ψ
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {v} ={\frac {\hbar }{m}}\operatorname {Im} \left({\frac {\nabla \psi }{\psi }}\right)}
+  . Thus, we have the guiding equation.
+Notice that this derivation does not use Schrödinger's equation.
+Preserving the density under the time evolution is another method of derivation. This is the method that Bell cites. It is this method that generalizes to many possible alternative theories. The starting point is the continuity equation 
+  
+    
+      
+        −
+        
+          
+            
+              ∂
+              ρ
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        ∇
+        ⋅
+        (
+        ρ
+        
+          v
+          
+            ψ
+          
+        
+        )
+      
+    
+    {\displaystyle -{\frac {\partial \rho }{\partial t}}=\nabla \cdot (\rho v^{\psi })}
+   for the density 
+  
+    
+      
+        ρ
+        =
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \rho =|\psi |^{2}}
+  . This equation describes a probability flow along a current. We take the velocity field associated with this current as the velocity field whose integral curves yield the motion of the particle.
+A method applicable for particles without spin is to do a polar decomposition of the wavefunction and transform Schrödinger's equation into two coupled equations: the continuity equation from above and the Hamilton–Jacobi equation. This is the method used by Bohm in 1952. The decomposition and equations are as follows:
+Decomposition: 
+  
+    
+      
+        ψ
+        (
+        
+          x
+        
+        ,
+        t
+        )
+        =
+        R
+        (
+        
+          x
+        
+        ,
+        t
+        )
+        
+          e
+          
+            i
+            S
+            (
+            
+              x
+            
+            ,
+            t
+            )
+            
+              /
+            
+            ℏ
+          
+        
+        .
+      
+    
+    {\displaystyle \psi (\mathbf {x} ,t)=R(\mathbf {x} ,t)e^{iS(\mathbf {x} ,t)/\hbar }.}
+   Note that 
+  
+    
+      
+        
+          R
+          
+            2
+          
+        
+        (
+        
+          x
+        
+        ,
+        t
+        )
+      
+    
+    {\displaystyle R^{2}(\mathbf {x} ,t)}
+   corresponds to the probability density 
+  
+    
+      
+        ρ
+        (
+        
+          x
+        
+        ,
+        t
+        )
+        =
+        
+          |
+        
+        ψ
+        (
+        
+          x
+        
+        ,
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \rho (\mathbf {x} ,t)=|\psi (\mathbf {x} ,t)|^{2}}
+  .
+Continuity equation: 
+  
+    
+      
+        −
+        
+          
+            
+              ∂
+              ρ
+              (
+              
+                x
+              
+              ,
+              t
+              )
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        ∇
+        ⋅
+        
+          (
+          ρ
+          (
+          
+            x
+          
+          ,
+          t
+          )
+          
+            
+              
+                ∇
+                S
+                (
+                
+                  x
+                
+                ,
+                t
+                )
+              
+              m
+            
+          
+          )
+        
+      
+    
+    {\displaystyle -{\frac {\partial \rho (\mathbf {x} ,t)}{\partial t}}=\nabla \cdot \left(\rho (\mathbf {x} ,t){\frac {\nabla S(\mathbf {x} ,t)}{m}}\right)}
+  .
+Hamilton–Jacobi equation: 
+  
+    
+      
+        
+          
+            
+              ∂
+              S
+              (
+              
+                x
+              
+              ,
+              t
+              )
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        −
+        
+          [
+          
+            
+              1
+              
+                2
+                m
+              
+            
+          
+          (
+          ∇
+          S
+          (
+          
+            x
+          
+          ,
+          t
+          )
+          
+            )
+            
+              2
+            
+          
+          +
+          V
+          −
+          
+            
+              
+                ℏ
+                
+                  2
+                
+              
+              
+                2
+                m
+              
+            
+          
+          
+            
+              
+                
+                  ∇
+                  
+                    2
+                  
+                
+                R
+                (
+                
+                  x
+                
+                ,
+                t
+                )
+              
+              
+                R
+                (
+                
+                  x
+                
+                ,
+                t
+                )
+              
+            
+          
+          ]
+        
+        .
+      
+    
+    {\displaystyle {\frac {\partial S(\mathbf {x} ,t)}{\partial t}}=-\left[{\frac {1}{2m}}(\nabla S(\mathbf {x} ,t))^{2}+V-{\frac {\hbar ^{2}}{2m}}{\frac {\nabla ^{2}R(\mathbf {x} ,t)}{R(\mathbf {x} ,t)}}\right].}
+  
+The Hamilton–Jacobi equation is the equation derived from a Newtonian system with potential 
+  
+    
+      
+        V
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              
+                ∇
+                
+                  2
+                
+              
+              R
+            
+            R
+          
+        
+      
+    
+    {\displaystyle V-{\frac {\hbar ^{2}}{2m}}{\frac {\nabla ^{2}R}{R}}}
+   and velocity field 
+  
+    
+      
+        
+          
+            
+              ∇
+              S
+            
+            m
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {\nabla S}{m}}.}
+   The potential 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   is the classical potential that appears in Schrödinger's equation, and the other term involving 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   is the quantum potential, terminology introduced by Bohm.
+This leads to viewing the quantum theory as particles moving under the classical force modified by a quantum force. However, unlike standard Newtonian mechanics, the initial velocity field is already specified by 
+  
+    
+      
+        
+          
+            
+              ∇
+              S
+            
+            m
+          
+        
+      
+    
+    {\displaystyle {\frac {\nabla S}{m}}}
+  , which is a symptom of this being a first-order theory, not a second-order theory.
+A fourth derivation was given by Dürr et al. In their derivation, they derive the velocity field by demanding the appropriate transformation properties given by the various symmetries that Schrödinger's equation satisfies, once the wavefunction is suitably transformed. The guiding equation is what emerges from that analysis.
+A fifth derivation, given by Dürr et al. is appropriate for generalization to quantum field theory and the Dirac equation. The idea is that a velocity field can also be understood as a first-order differential operator acting on functions. Thus, if we know how it acts on functions, we know what it is. Then given the Hamiltonian operator 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  , the equation to satisfy for all functions 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   (with associated multiplication operator 
+  
+    
+      
+        
+          
+            
+              f
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {f}}}
+  ) is 
+  
+    
+      
+        (
+        v
+        (
+        f
+        )
+        )
+        (
+        q
+        )
+        =
+        Re
+        ⁡
+        
+          
+            
+              (
+              ψ
+              ,
+              
+                
+                  i
+                  ℏ
+                
+              
+              [
+              H
+              ,
+              
+                
+                  
+                    f
+                    ^
+                  
+                
+              
+              ]
+              ψ
+              )
+            
+            
+              (
+              ψ
+              ,
+              ψ
+              )
+            
+          
+        
+        (
+        q
+        )
+      
+    
+    {\displaystyle (v(f))(q)=\operatorname {Re} {\frac {\left(\psi ,{\frac {i}{\hbar }}[H,{\hat {f}}]\psi \right)}{(\psi ,\psi )}}(q)}
+  , where 
+  
+    
+      
+        (
+        v
+        ,
+        w
+        )
+      
+    
+    {\displaystyle (v,w)}
+   is the local Hermitian inner product on the value space of the wavefunction.
+This formulation allows for stochastic theories such as the creation and annihilation of particles.
+A further derivation has been given by Peter R. Holland, on which he bases the entire work presented in his quantum-physics textbook The Quantum Theory of Motion, a main reference book on the de Broglie–Bohm theory. It is based on three basic postulates and an additional fourth postulate that links the wavefunction to measurement probabilities:
+1. A physical system consists in a spatiotemporally propagating wave and a point particle guided by it.
+2. The wave is described mathematically by a solution 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   to Schrödinger's wave equation.
+3. The particle motion is described by a solution to 
+  
+    
+      
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        (
+        t
+        )
+        =
+        [
+        ∇
+        S
+        (
+        
+          x
+        
+        (
+        t
+        )
+        ,
+        t
+        )
+        )
+        ]
+        
+          /
+        
+        m
+      
+    
+    {\displaystyle \mathbf {\dot {x}} (t)=[\nabla S(\mathbf {x} (t),t))]/m}
+   in dependence on initial condition 
+  
+    
+      
+        
+          x
+        
+        (
+        t
+        =
+        0
+        )
+      
+    
+    {\displaystyle \mathbf {x} (t=0)}
+  , with 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   the phase of 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+  .
+The fourth postulate is subsidiary yet consistent with the first three:
+4. The probability 
+  
+    
+      
+        ρ
+        (
+        
+          x
+        
+        (
+        t
+        )
+        )
+      
+    
+    {\displaystyle \rho (\mathbf {x} (t))}
+   to find the particle in the differential volume 
+  
+    
+      
+        
+          d
+          
+            3
+          
+        
+        x
+      
+    
+    {\displaystyle d^{3}x}
+   at time t equals 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        
+          x
+        
+        (
+        t
+        )
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi (\mathbf {x} (t))|^{2}}
+  .
+
+
+== History ==
+De Broglie–Bohm theory has a history of different formulations and names. In this section, each stage is given a name and a main reference.
+
+
+=== Pilot-wave theory ===
+Louis de Broglie presented his pilot wave theory at the 1927 Solvay Conference, after close collaboration with Schrödinger, who developed his wave equation for de Broglie's theory. At the end of the presentation, Wolfgang Pauli pointed out that it was not compatible with a semi-classical technique Fermi had previously adopted in the case of inelastic scattering. Contrary to a popular legend, de Broglie actually gave the correct rebuttal that the particular technique could not be generalized for Pauli's purpose, although the audience might have been lost in the technical details and de Broglie's mild manner left the impression that Pauli's objection was valid. He was eventually persuaded to abandon this theory nonetheless because he was "discouraged by criticisms which [it] roused". De Broglie's theory already applies to multiple spin-less particles, but lacks an adequate theory of measurement as no one understood quantum decoherence at the time. An analysis of de Broglie's presentation is given in Bacciagaluppi et al. Also, in 1932 John von Neumann published a paper, that was widely (and erroneously, as shown by Jeffrey Bub) believed to prove that all hidden-variable theories are impossible. This sealed the fate of de Broglie's theory for the next two decades.
+In 1926, Erwin Madelung had developed a hydrodynamic version of Schrödinger's equation, which is incorrectly considered as a basis for the density current derivation of the de Broglie–Bohm theory. The Madelung equations, being quantum Euler equations (fluid dynamics), differ philosophically from the de Broglie–Bohm mechanics and are the basis of the stochastic interpretation of quantum mechanics.
+Peter R. Holland has pointed out that, earlier in 1927, Einstein had actually submitted a preprint with a similar proposal but, not convinced, had withdrawn it before publication. According to Holland, failure to appreciate key points of the de Broglie–Bohm theory has led to confusion, the key point being "that the trajectories of a many-body quantum system are correlated not because the particles exert a direct force on one another (à la Coulomb) but because all are acted upon by an entity – mathematically described by the wavefunction or functions of it – that lies beyond them". This entity is the quantum potential.
+After publishing a popular textbook on Quantum Mechanics that adhered entirely to the Copenhagen orthodoxy, Bohm was persuaded by Einstein to take a critical look at von Neumann's theorem. The result was 'A Suggested Interpretation of the Quantum Theory in Terms of "Hidden Variables" I and II' [Bohm 1952]. It was an independent origination of the pilot wave theory, and extended it to incorporate a consistent theory of measurement, and to address a criticism of Pauli that de Broglie did not properly respond to; it is taken to be deterministic (though Bohm hinted in the original papers that there should be disturbances to this, in the way Brownian motion disturbs Newtonian mechanics). This stage is known as the de Broglie–Bohm Theory in Bell's work [Bell 1987] and is the basis for 'The Quantum Theory of Motion' [Holland 1993].
+This stage applies to multiple particles, and is deterministic.
+The de Broglie–Bohm theory is an example of a hidden variables theory. Bohm originally hoped that hidden variables could provide a local, causal, objective description that would resolve or eliminate many of the paradoxes of quantum mechanics, such as Schrödinger's cat, the measurement problem and the collapse of the wavefunction. However, Bell's theorem complicates this hope, as it demonstrates that there can be no local hidden variable theory that is compatible with the predictions of quantum mechanics. The Bohmian interpretation is causal but not local.
+Bohm's paper was largely ignored or panned by other physicists. Albert Einstein, who had suggested that Bohm search for a realist alternative to the prevailing Copenhagen approach, did not consider Bohm's interpretation to be a satisfactory answer to the quantum nonlocality question, calling it "too cheap", while Werner Heisenberg considered it a "superfluous 'ideological superstructure' ". Wolfgang Pauli, who had been unconvinced by de Broglie in 1927, conceded to Bohm as follows:
+
+I just received your long letter of 20th November, and I also have studied more thoroughly the details of your paper. I do not see any longer the possibility of any logical contradiction as long as your results agree completely with those of the usual wave mechanics and as long as no means is given to measure the values of your hidden parameters both in the measuring apparatus and in the observe [sic] system. As far as the whole matter stands now, your ‘extra wave-mechanical predictions’ are still a check, which cannot be cashed.
+
+He subsequently described Bohm's theory as "artificial metaphysics".
+According to physicist Max Dresden, when Bohm's theory was presented at the Institute for Advanced Study in Princeton, many of the objections were ad hominem, focusing on Bohm's sympathy with communists as exemplified by his refusal to give testimony to the House Un-American Activities Committee.
+In 1979, Chris Philippidis, Chris Dewdney and Basil Hiley were the first to perform numeric computations on the basis of the quantum potential to deduce ensembles of particle trajectories. Their work renewed the interests of physicists in the Bohm interpretation of quantum physics.
+Eventually John Bell began to defend the theory. In "Speakable and Unspeakable in Quantum Mechanics" [Bell 1987], several of the papers refer to hidden variables theories (which include Bohm's).
+The trajectories of the Bohm model that would result for particular experimental arrangements were termed "surreal" by some. Still in 2016, mathematical physicist Sheldon Goldstein said about Bohm's theory: “There was a time when you couldn’t even talk about it because it was heretical. It probably still is the kiss of death for a physics career to be actually working on Bohm, but maybe that’s changing.”
+
+
+=== Bohmian mechanics ===
+This term is used to describe the same theory, but with an emphasis on the notion of current flow, which is determined on the basis of the quantum equilibrium hypothesis that the probability follows the Born rule. The term "Bohmian mechanics" is also often used to include most of the further extensions past the spin-less version of Bohm. While de Broglie–Bohm theory has Lagrangians and Hamilton-Jacobi equations as a primary focus and backdrop, with the icon of the quantum potential, Bohmian mechanics considers the continuity equation as primary and has the guiding equation as its icon. They are mathematically equivalent in so far as the Hamilton-Jacobi formulation applies, i.e., spin-less particles. The papers of Dürr et al. popularized the term.
+All of non-relativistic quantum mechanics can be fully accounted for in this theory.
+
+
+=== Causal interpretation and ontological interpretation ===
+Bohm developed his original ideas, calling them the Causal Interpretation. Later he felt that causal sounded too much like deterministic and preferred to call his theory the Ontological Interpretation. The main reference is "The Undivided Universe" [Bohm, Hiley 1993].
+This stage covers work by Bohm and in collaboration with Jean-Pierre Vigier and Basil Hiley. Bohm is clear that this theory is non-deterministic (the work with Hiley includes a stochastic theory). As such, this theory is not, strictly speaking, a formulation of the de Broglie–Bohm theory. However, it deserves mention here because the term "Bohm Interpretation" is ambiguous between this theory and the de Broglie–Bohm theory.
+An in-depth analysis of possible interpretations of Bohm's model of 1952 was given in 1996 by philosopher of science Arthur Fine.
+
+
+=== Hydrodynamic quantum analogs ===
+
+Pioneering experiments on hydrodynamical analogs of quantum mechanics beginning with the work of Couder and Fort (2006) have shown that macroscopic classical pilot-waves can exhibit characteristics previously thought to be restricted to the quantum realm. Hydrodynamic pilot-wave analogs have been able to duplicate the double slit experiment, tunneling, quantized orbits, and numerous other quantum phenomena which have led to a resurgence in interest in pilot wave theories. Coulder and Fort note in their 2006 paper that pilot-waves are nonlinear dissipative systems sustained by external forces. A dissipative system is characterized by the spontaneous appearance of symmetry breaking (anisotropy) and the formation of complex, sometimes chaotic or emergent, dynamics where interacting fields can exhibit long range correlations. Stochastic electrodynamics (SED) an extension of the de Broglie–Bohm interpretation of quantum mechanics, with the electromagnetic zero-point field (ZPF) playing a central role as the guiding pilot-wave. Modern approaches to SED consider wave and particle-like quantum effects as well-coordinated emergent systems that are the result of speculated sub-quantum interactions with the zero-point field
+
+
+== Experiments ==
+Researchers performed the ESSW experiment. They found that the photon trajectories aren’t surrealistic after all but more precisely, that the paths may seem surrealistic, but only if one fails to take into account the nonlocality inherent in Bohm’s theory.
+
+
+== See also ==
+David Bohm
+Faraday wave
+Interpretation of quantum mechanics
+Madelung equations
+Local hidden variable theory
+Quantum mechanics
+Pilot wave
+Superfluid vacuum theory
+Fluid analogs in quantum mechanics
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+John S. Bell: Speakable and Unspeakable in Quantum Mechanics: Collected Papers on Quantum Philosophy, Cambridge University Press, 2004, ISBN 0-521-81862-1
+David Bohm, Basil Hiley: The Undivided Universe: An Ontological Interpretation of Quantum Theory, Routledge Chapman & Hall, 1993, ISBN 0-415-06588-7
+Detlef Dürr, Sheldon Goldstein, Nino Zanghì: Quantum Physics Without Quantum Philosophy, Springer, 2012, ISBN 978-3-642-30690-7
+Detlef Dürr, Stefan Teufel: Bohmian Mechanics: The Physics and Mathematics of Quantum Theory, Springer, 2009, ISBN 978-3-540-89343-1
+Peter R. Holland: The quantum theory of motion, Cambridge University Press, 1993 (re-printed 2000, transferred to digital printing 2004), ISBN 0-521-48543-6
+
+
+== External links ==
+"Pilot-Wave Hydrodynamics" Bush, J. W. M., Annual Review of Fluid Mechanics, 2015
+"Bohmian Mechanics" (Stanford Encyclopedia of Philosophy)
+Videos answering frequently asked questions about Bohmian Mechanics
+"Bohmian-Mechanics.net", the homepage of the international research network on Bohmian Mechanics that was started by D. Dürr, S. Goldstein and N. Zanghì.
+Workgroup Bohmian Mechanics at LMU Munich (D. Dürr)
+Bohmian Mechanics Group at University of Innsbruck (G. Grübl)
+"Pilot waves, Bohmian metaphysics, and the foundations of quantum mechanics", lecture course on de Broglie-Bohm theory by Mike Towler, Cambridge University.
+"21st-century directions in de Broglie-Bohm theory and beyond", August 2010 international conference on de Broglie-Bohm theory. Site contains slides for all the talks – the latest cutting-edge deBB research.
+"Observing the Trajectories of a Single Photon Using Weak Measurement"
+"Bohmian trajectories are no longer 'hidden variables'"
+The David Bohm Society

@@ -1,0 +1,61 @@
+A second screen involves the use of a computing device (commonly a mobile device, such as a tablet or smartphone) to provide an enhanced viewing experience for content on another device, such as a television. In particular, the term commonly refers to the use of such devices to provide interactive features during broadcast content, such as a television program, especially social media postings on social networking platforms, such as Facebook and Twitter. The use of a second screen supports social television and generates an online conversation around the specific content.
+
+
+== Analysis ==
+Several studies show a clear tendency of the user to use a device while watching television. They also show a greater frequency of use of tablet or smartphone when watching television, and other studies distinguish a higher percentage of comments or posts on social networks, about the content that's being watched (Nielsen ratings). Other studies show apparently new behaviors on the part of users when consuming content via multiple devices.
+Beside the benefit of keeping the audience engaged in multiple ways (polling, chatting, background info about the contents being shown and its participants etc.) and generating revenue via advertising, second screen can also be very effective metering solution to get information about the audience. Being much more far reaching and very inexpensive, second screen may replace people meters in the future.
+One trend hampering the growth of second screen is that many shows are creating their own application for the second screen. It is just not practical to expect users to download dozens of applications, and switch between those on each channel change.
+Conference and business meetings organizers are now incorporating second screen as well to deepen audience engagement. According to "2014 Trend Tracker", the second screen phenomenon is a significant and growing trend. "Attendees are so glued to their devices, even while watching a live presentation (or at home, on television) that marketers are supplying them with a simultaneous engagement tool they can access on that device," says Robin Stapley, VP-design and creative at GES. Software tools allow conference session presenters to share slides and presentations in real-time, so attendees can follow-on with their device in-hand." Second screen technology at conferences transforms the attendees' personal devices into an integral part of the event experience, and turns conference attendees from passive listeners into active followers who engage with the speaker and other participants.
+
+
+== Applications ==
+Many applications in the "second screen" are designed to give another form of interactivity to the user and another way to sell advertising content. Some examples include:
+Transmission of the Master's Golf Tournament, application for the iPhone (rating information and publicity)
+TV programs broadcast live tweets and comment
+Synchronization of audiovisual content via web advertising
+Applications that extend the content information
+Shows that add on their websites, content devoted exclusively to the second screen
+Applications that synchronize the content being viewed to the portable device
+Video game console playing with extra data, such as a map or strategy data, that synchronize with the content being viewed to the portable device
+TV discovery application with recommendation, EPG (live content), personalization.
+Application that displays polling results and audience triggered animated emoticons (along with sender’s name and location) in real time on TV screen instead of users' second screen.
+
+
+== Sports broadcasting ==
+Sports broadcasters, to stem the flight of the TV audience away from watching the main screen (new name for the television) to the second screen, are offering alternative content to the main program. The idea is to present content related to the main program, such as unseen moments, alternative information, soundtrack, and characters. Proposed new technologies allow the viewer to see different camera angles while watching the game.
+TV2 (Denmark), Denmark's largest commercial TV channel, synchronized its Second Screen service to live events of the Giro d'Italia 2012 bicycling from May 5 to May 27, 2012, whereby viewers on all internet devices could get rider stats, biographies, news, stage reviews, city info, weather info and the like. Viewers scanned a QR code on the TV broadcast to get connected, or typed in a short URL.
+In the US, HDNet Fights utilizes a second screen service to synchronize to live MMA broadcasts, where viewers on smartphones and tablets could get stats, vote on fights and rounds, chat, win prizes, and see how fellow second screen users voted to win fights.
+
+
+== Digital sports fan engagement ==
+The digital technology has widened the sports fan engagement with the help of second screen devices. Sports fans attention span has changed over the last few years and they are increasingly started multitasking on handheld devices (mobiles, tablets, laptops, etc.) when watching matches in stadiums or live on TV. The recent surge in smartphone penetration has opened the door to this dramatic shift in behavior. Social networks, sports clubs and sponsors are now more focused on second screen to engage fans deeply during games and events to stay connected and increase the fan loyalty. Using second screen engagement and combining the viewing experience with social interaction tools and techniques clearly focus on involvement instead of passive way of consumption. All the emotions and feelings of sports fan are now captured through second screen engagement for the better improvement of entertainments.
+Second screen engagement goes much further than these basic voting techniques and even way further than the ‘connected TV’ technology. Because it’s not about buttons and technology, but it is about people and psychology.
+
+
+== Examples ==
+
+
+== See also ==
+Enhanced TV
+Smart TV
+Automatic content recognition
+
+
+== References ==
+
+
+== Further reading ==
+Revolutionizing your Television Experience with the Second Screen
+Decrypting the Second Screen Market : a second screen white paper
+
+
+== External links ==
+5 ways that the television industry uses Twitter.
+Yap TV.
+From television to the second screen.
+TV and social networking closer.
+Twitter CEO on Second Social Screen TV.
+TV with other electronic devices.
+Second Screen Networks.
+Social Yume Study.
+Ares Interactive Media, World First Second Screen scalable cloudbase application.

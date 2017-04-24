@@ -1,0 +1,1687 @@
+Quantum superposition is a fundamental principle of quantum mechanics. It states that, much like waves in classical physics, any two (or more) quantum states can be added together ("superposed") and the result will be another valid quantum state; and conversely, that every quantum state can be represented as a sum of two or more other distinct states. Mathematically, it refers to a property of solutions to the Schrödinger equation; since the Schrödinger equation is linear, any linear combination of solutions will also be a solution.
+An example of a physically observable manifestation of superposition is interference peaks from an electron wave in a double-slit experiment.
+Another example is a quantum logical qubit state, as used in quantum information processing, which is a linear superposition of the "basis states" 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+   and 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+  . Here 
+  
+    
+      
+        
+          |
+        
+        0
+        ⟩
+      
+    
+    {\displaystyle |0\rangle }
+   is the Dirac notation for the quantum state that will always give the result 0 when converted to classical logic by a measurement. Likewise 
+  
+    
+      
+        
+          |
+        
+        1
+        ⟩
+      
+    
+    {\displaystyle |1\rangle }
+   is the state that will always convert to 1.
+
+
+== Theory ==
+
+
+=== Hamiltonian evolution ===
+The numbers that describe the amplitudes for different possibilities define the kinematics, the space of different states. The dynamics describes how these numbers change with time. For a particle that can be in any one of infinitely many discrete positions, a particle on a lattice, the superposition principle tells you how to make a state:
+
+  
+    
+      
+        
+          ∑
+          
+            n
+          
+        
+        
+          ψ
+          
+            n
+          
+        
+        
+          |
+        
+        n
+        ⟩
+        
+      
+    
+    {\displaystyle \sum _{n}\psi _{n}|n\rangle \,}
+  
+So that the infinite list of amplitudes 
+  
+    
+      
+        
+          (
+          .
+          .
+          .
+          
+            ψ
+            
+              −
+              2
+            
+          
+          ,
+          
+            ψ
+            
+              −
+              1
+            
+          
+          ,
+          
+            ψ
+            
+              0
+            
+          
+          ,
+          
+            ψ
+            
+              1
+            
+          
+          ,
+          
+            ψ
+            
+              2
+            
+          
+          .
+          .
+          .
+          )
+        
+      
+    
+    {\displaystyle \scriptstyle (...\psi _{-2},\psi _{-1},\psi _{0},\psi _{1},\psi _{2}...)}
+   completely describes the quantum state of the particle. This list is called the state vector, and formally it is an element of a Hilbert space, an infinite-dimensional complex vector space. It is usual to represent the state so that the sum of the absolute squares of the amplitudes is one:
+
+  
+    
+      
+        ∑
+        
+          ψ
+          
+            n
+          
+          
+            ∗
+          
+        
+        
+          ψ
+          
+            n
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle \sum \psi _{n}^{*}\psi _{n}=1}
+  
+For a particle described by probability theory random walking on a line, the analogous thing is the list of probabilities 
+  
+    
+      
+        (
+        .
+        .
+        .
+        
+          P
+          
+            −
+            2
+          
+        
+        ,
+        
+          P
+          
+            −
+            1
+          
+        
+        ,
+        
+          P
+          
+            0
+          
+        
+        ,
+        
+          P
+          
+            1
+          
+        
+        ,
+        
+          P
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        )
+      
+    
+    {\displaystyle (...P_{-2},P_{-1},P_{0},P_{1},P_{2},...)}
+  , which give the probability of any position. The quantities that describe how they change in time are the transition probabilities 
+  
+    
+      
+        
+          
+            K
+            
+              x
+              →
+              y
+            
+          
+          (
+          t
+          )
+        
+      
+    
+    {\displaystyle \scriptstyle K_{x\rightarrow y}(t)}
+  , which gives the probability that, starting at x, the particle ends up at y time t later. The total probability of ending up at y is given by the sum over all the possibilities
+
+  
+    
+      
+        
+          P
+          
+            y
+          
+        
+        (
+        
+          t
+          
+            0
+          
+        
+        +
+        t
+        )
+        =
+        
+          ∑
+          
+            x
+          
+        
+        
+          P
+          
+            x
+          
+        
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        
+          K
+          
+            x
+            →
+            y
+          
+        
+        (
+        t
+        )
+        
+      
+    
+    {\displaystyle P_{y}(t_{0}+t)=\sum _{x}P_{x}(t_{0})K_{x\rightarrow y}(t)\,}
+  
+The condition of conservation of probability states that starting at any x, the total probability to end up somewhere must add up to 1:
+
+  
+    
+      
+        
+          ∑
+          
+            y
+          
+        
+        
+          K
+          
+            x
+            →
+            y
+          
+        
+        =
+        1
+        
+      
+    
+    {\displaystyle \sum _{y}K_{x\rightarrow y}=1\,}
+  
+So that the total probability will be preserved, K is what is called a stochastic matrix.
+When no time passes, nothing changes: for 0 elapsed time 
+  
+    
+      
+        
+          K
+          
+            x
+            →
+            y
+          
+          (
+          0
+          )
+          =
+          
+            δ
+            
+              x
+              y
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle K{x\rightarrow y}(0)=\delta _{xy}}
+  , the K matrix is zero except from a state to itself. So in the case that the time is short, it is better to talk about the rate of change of the probability instead of the absolute change in the probability.
+
+  
+    
+      
+        
+          P
+          
+            y
+          
+        
+        (
+        t
+        +
+        d
+        t
+        )
+        =
+        
+          P
+          
+            y
+          
+        
+        (
+        t
+        )
+        +
+        d
+        t
+        
+          ∑
+          
+            x
+          
+        
+        
+          P
+          
+            x
+          
+        
+        
+          R
+          
+            x
+            →
+            y
+          
+        
+        
+      
+    
+    {\displaystyle P_{y}(t+dt)=P_{y}(t)+dt\sum _{x}P_{x}R_{x\rightarrow y}\,}
+  
+where 
+  
+    
+      
+        
+          
+            R
+            
+              x
+              →
+              y
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle R_{x\rightarrow y}}
+   is the time derivative of the K matrix:
+
+  
+    
+      
+        
+          R
+          
+            x
+            →
+            y
+          
+        
+        =
+        
+          
+            
+              
+                K
+                
+                  x
+                  →
+                  y
+                
+              
+              (
+              d
+              t
+              )
+              −
+              
+                δ
+                
+                  x
+                  y
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        
+      
+    
+    {\displaystyle R_{x\rightarrow y}={K_{x\rightarrow y}(dt)-\delta _{xy} \over dt}\,}
+  .
+The equation for the probabilities is a differential equation that is sometimes called the master equation:
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                P
+                
+                  y
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        
+          ∑
+          
+            x
+          
+        
+        
+          P
+          
+            x
+          
+        
+        
+          R
+          
+            x
+            →
+            y
+          
+        
+        
+      
+    
+    {\displaystyle {dP_{y} \over dt}=\sum _{x}P_{x}R_{x\rightarrow y}\,}
+  
+The R matrix is the probability per unit time for the particle to make a transition from x to y. The condition that the K matrix elements add up to one becomes the condition that the R matrix elements add up to zero:
+
+  
+    
+      
+        
+          ∑
+          
+            y
+          
+        
+        
+          R
+          
+            x
+            →
+            y
+          
+        
+        =
+        0
+        
+      
+    
+    {\displaystyle \sum _{y}R_{x\rightarrow y}=0\,}
+  
+One simple case to study is when the R matrix has an equal probability to go one unit to the left or to the right, describing a particle that has a constant rate of random walking. In this case 
+  
+    
+      
+        
+          
+            R
+            
+              x
+              →
+              y
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle R_{x\rightarrow y}}
+   is zero unless y is either x+1,x, or x−1, when y is x+1 or x−1, the R matrix has value c, and in order for the sum of the R matrix coefficients to equal zero, the value of 
+  
+    
+      
+        
+          R
+          
+            x
+            →
+            x
+          
+        
+      
+    
+    {\displaystyle R_{x\rightarrow x}}
+   must be −2c. So the probabilities obey the discretized diffusion equation:
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                P
+                
+                  x
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        c
+        (
+        
+          P
+          
+            x
+            +
+            1
+          
+        
+        −
+        2
+        
+          P
+          
+            x
+          
+        
+        +
+        
+          P
+          
+            x
+            −
+            1
+          
+        
+        )
+        
+      
+    
+    {\displaystyle {dP_{x} \over dt}=c(P_{x+1}-2P_{x}+P_{x-1})\,}
+  
+which, when c is scaled appropriately and the P distribution is smooth enough to think of the system in a continuum limit becomes:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              P
+              (
+              x
+              ,
+              t
+              )
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        c
+        
+          
+            
+              
+                ∂
+                
+                  2
+                
+              
+              P
+            
+            
+              ∂
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        
+      
+    
+    {\displaystyle {\partial P(x,t) \over \partial t}=c{\partial ^{2}P \over \partial x^{2}}\,}
+  
+Which is the diffusion equation.
+Quantum amplitudes give the rate at which amplitudes change in time, and they are mathematically exactly the same except that they are complex numbers. The analog of the finite time K matrix is called the U matrix:
+
+  
+    
+      
+        
+          ψ
+          
+            n
+          
+        
+        (
+        t
+        )
+        =
+        
+          ∑
+          
+            m
+          
+        
+        
+          U
+          
+            n
+            m
+          
+        
+        (
+        t
+        )
+        
+          ψ
+          
+            m
+          
+        
+        
+      
+    
+    {\displaystyle \psi _{n}(t)=\sum _{m}U_{nm}(t)\psi _{m}\,}
+  
+Since the sum of the absolute squares of the amplitudes must be constant, 
+  
+    
+      
+        U
+      
+    
+    {\displaystyle U}
+   must be unitary:
+
+  
+    
+      
+        
+          ∑
+          
+            n
+          
+        
+        
+          U
+          
+            n
+            m
+          
+          
+            ∗
+          
+        
+        
+          U
+          
+            n
+            p
+          
+        
+        =
+        
+          δ
+          
+            m
+            p
+          
+        
+        
+      
+    
+    {\displaystyle \sum _{n}U_{nm}^{*}U_{np}=\delta _{mp}\,}
+  
+or, in matrix notation,
+
+  
+    
+      
+        
+          U
+          
+            †
+          
+        
+        U
+        =
+        I
+        
+      
+    
+    {\displaystyle U^{\dagger }U=I\,}
+  
+The rate of change of U is called the Hamiltonian H, up to a traditional factor of i:
+
+  
+    
+      
+        
+          H
+          
+            m
+            n
+          
+        
+        =
+        i
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        
+          U
+          
+            m
+            n
+          
+        
+      
+    
+    {\displaystyle H_{mn}=i{d \over dt}U_{mn}}
+  
+The Hamiltonian gives the rate at which the particle has an amplitude to go from m to n. The reason it is multiplied by i is that the condition that U is unitary translates to the condition:
+
+  
+    
+      
+        (
+        I
+        +
+        i
+        
+          H
+          
+            †
+          
+        
+        d
+        t
+        )
+        (
+        I
+        −
+        i
+        H
+        d
+        t
+        )
+        =
+        I
+        
+      
+    
+    {\displaystyle (I+iH^{\dagger }dt)(I-iHdt)=I\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            †
+          
+        
+        −
+        H
+        =
+        0
+        
+      
+    
+    {\displaystyle H^{\dagger }-H=0\,}
+  
+which says that H is Hermitian. The eigenvalues of the Hermitian matrix H are real quantities, which have a physical interpretation as energy levels. If the factor i were absent, the H matrix would be antihermitian and would have purely imaginary eigenvalues, which is not the traditional way quantum mechanics represents observable quantities like the energy.
+For a particle that has equal amplitude to move left and right, the Hermitian matrix H is zero except for nearest neighbors, where it has the value c. If the coefficient is everywhere constant, the condition that H is Hermitian demands that the amplitude to move to the left is the complex conjugate of the amplitude to move to the right. The equation of motion for 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   is the time differential equation:
+
+  
+    
+      
+        i
+        
+          
+            
+              d
+              
+                ψ
+                
+                  n
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        
+          c
+          
+            ∗
+          
+        
+        
+          ψ
+          
+            n
+            +
+            1
+          
+        
+        +
+        c
+        
+          ψ
+          
+            n
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle i{d\psi _{n} \over dt}=c^{*}\psi _{n+1}+c\psi _{n-1}}
+  
+In the case that left and right are symmetric, c is real. By redefining the phase of the wavefunction in time, 
+  
+    
+      
+        ψ
+        →
+        ψ
+        
+          e
+          
+            i
+            2
+            c
+            t
+          
+        
+      
+    
+    {\displaystyle \psi \rightarrow \psi e^{i2ct}}
+  , the amplitudes for being at different locations are only rescaled, so that the physical situation is unchanged. But this phase rotation introduces a linear term.
+
+  
+    
+      
+        i
+        
+          
+            
+              d
+              
+                ψ
+                
+                  n
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        c
+        
+          ψ
+          
+            n
+            +
+            1
+          
+        
+        −
+        2
+        c
+        
+          ψ
+          
+            n
+          
+        
+        +
+        c
+        
+          ψ
+          
+            n
+            −
+            1
+          
+        
+        ,
+      
+    
+    {\displaystyle i{d\psi _{n} \over dt}=c\psi _{n+1}-2c\psi _{n}+c\psi _{n-1},}
+  
+which is the right choice of phase to take the continuum limit. When c is very large and psi is slowly varying so that the lattice can be thought of as a line, this becomes the free Schrödinger equation:
+
+  
+    
+      
+        i
+        
+          
+            
+              ∂
+              ψ
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        −
+        
+          
+            
+              
+                ∂
+                
+                  2
+                
+              
+              ψ
+            
+            
+              ∂
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle i{\partial \psi  \over \partial t}=-{\partial ^{2}\psi  \over \partial x^{2}}}
+  
+If there is an additional term in the H matrix that is an extra phase rotation that varies from point to point, the continuum limit is the Schrödinger equation with a potential energy:
+
+  
+    
+      
+        i
+        
+          
+            
+              ∂
+              ψ
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        −
+        
+          
+            
+              
+                ∂
+                
+                  2
+                
+              
+              ψ
+            
+            
+              ∂
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        V
+        (
+        x
+        )
+        ψ
+      
+    
+    {\displaystyle i{\partial \psi  \over \partial t}=-{\partial ^{2}\psi  \over \partial x^{2}}+V(x)\psi }
+  
+These equations describe the motion of a single particle in non-relativistic quantum mechanics.
+
+
+=== Quantum mechanics in imaginary time ===
+The analogy between quantum mechanics and probability is very strong, so that there are many mathematical links between them. In a statistical system in discrete time, t=1,2,3, described by a transition matrix for one time step 
+  
+    
+      
+        
+          
+            K
+            
+              m
+              →
+              n
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle K_{m\rightarrow n}}
+  , the probability to go between two points after a finite number of time steps can be represented as a sum over all paths of the probability of taking each path:
+
+  
+    
+      
+        
+          K
+          
+            x
+            →
+            y
+          
+        
+        (
+        T
+        )
+        =
+        
+          ∑
+          
+            x
+            (
+            t
+            )
+          
+        
+        
+          ∏
+          
+            t
+          
+        
+        
+          K
+          
+            x
+            (
+            t
+            )
+            x
+            (
+            t
+            +
+            1
+            )
+          
+        
+        
+      
+    
+    {\displaystyle K_{x\rightarrow y}(T)=\sum _{x(t)}\prod _{t}K_{x(t)x(t+1)}\,}
+  
+where the sum extends over all paths 
+  
+    
+      
+        x
+        (
+        t
+        )
+      
+    
+    {\displaystyle x(t)}
+   with the property that 
+  
+    
+      
+        x
+        (
+        0
+        )
+        =
+        0
+      
+    
+    {\displaystyle x(0)=0}
+   and 
+  
+    
+      
+        x
+        (
+        T
+        )
+        =
+        y
+      
+    
+    {\displaystyle x(T)=y}
+  . The analogous expression in quantum mechanics is the path integral.
+A generic transition matrix in probability has a stationary distribution, which is the eventual probability to be found at any point no matter what the starting point. If there is a nonzero probability for any two paths to reach the same point at the same time, this stationary distribution does not depend on the initial conditions. In probability theory, the probability m for the stochastic matrix obeys detailed balance when the stationary distribution 
+  
+    
+      
+        
+          ρ
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \rho _{n}}
+   has the property:
+
+  
+    
+      
+        
+          ρ
+          
+            n
+          
+        
+        
+          K
+          
+            n
+            →
+            m
+          
+        
+        =
+        
+          ρ
+          
+            m
+          
+        
+        
+          K
+          
+            m
+            →
+            n
+          
+        
+        
+      
+    
+    {\displaystyle \rho _{n}K_{n\rightarrow m}=\rho _{m}K_{m\rightarrow n}\,}
+  
+Detailed balance says that the total probability of going from m to n in the stationary distribution, which is the probability of starting at m 
+  
+    
+      
+        
+          ρ
+          
+            m
+          
+        
+      
+    
+    {\displaystyle \rho _{m}}
+   times the probability of hopping from m to n, is equal to the probability of going from n to m, so that the total back-and-forth flow of probability in equilibrium is zero along any hop. The condition is automatically satisfied when n=m, so it has the same form when written as a condition for the transition-probability R matrix.
+
+  
+    
+      
+        
+          ρ
+          
+            n
+          
+        
+        
+          R
+          
+            n
+            →
+            m
+          
+        
+        =
+        
+          ρ
+          
+            m
+          
+        
+        
+          R
+          
+            m
+            →
+            n
+          
+        
+        
+      
+    
+    {\displaystyle \rho _{n}R_{n\rightarrow m}=\rho _{m}R_{m\rightarrow n}\,}
+  
+When the R matrix obeys detailed balance, the scale of the probabilities can be redefined using the stationary distribution so that they no longer sum to 1:
+
+  
+    
+      
+        
+          p
+          
+            n
+          
+          ′
+        
+        =
+        
+          
+            
+              ρ
+              
+                n
+              
+            
+          
+        
+        
+        
+          p
+          
+            n
+          
+        
+        
+      
+    
+    {\displaystyle p'_{n}={\sqrt {\rho _{n}}}\;p_{n}\,}
+  
+In the new coordinates, the R matrix is rescaled as follows:
+
+  
+    
+      
+        
+          
+            
+              ρ
+              
+                n
+              
+            
+          
+        
+        
+          R
+          
+            n
+            →
+            m
+          
+        
+        
+          
+            1
+            
+              
+                
+                  ρ
+                  
+                    m
+                  
+                
+              
+            
+          
+        
+        =
+        
+          H
+          
+            n
+            m
+          
+        
+        
+      
+    
+    {\displaystyle {\sqrt {\rho _{n}}}R_{n\rightarrow m}{1 \over {\sqrt {\rho _{m}}}}=H_{nm}\,}
+  
+and H is symmetric
+
+  
+    
+      
+        
+          H
+          
+            n
+            m
+          
+        
+        =
+        
+          H
+          
+            m
+            n
+          
+        
+        
+      
+    
+    {\displaystyle H_{nm}=H_{mn}\,}
+  
+This matrix H defines a quantum mechanical system:
+
+  
+    
+      
+        i
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        
+          ψ
+          
+            n
+          
+        
+        =
+        ∑
+        
+          H
+          
+            n
+            m
+          
+        
+        
+          ψ
+          
+            m
+          
+        
+        
+      
+    
+    {\displaystyle i{d \over dt}\psi _{n}=\sum H_{nm}\psi _{m}\,}
+  
+whose Hamiltonian has the same eigenvalues as those of the R matrix of the statistical system. The eigenvectors are the same too, except expressed in the rescaled basis. The stationary distribution of the statistical system is the ground state of the Hamiltonian and it has energy exactly zero, while all the other energies are positive. If H is exponentiated to find the U matrix:
+
+  
+    
+      
+        U
+        (
+        t
+        )
+        =
+        
+          e
+          
+            −
+            i
+            H
+            t
+          
+        
+        
+      
+    
+    {\displaystyle U(t)=e^{-iHt}\,}
+  
+and t is allowed to take on complex values, the K' matrix is found by taking time imaginary.
+
+  
+    
+      
+        
+          K
+          ′
+        
+        (
+        t
+        )
+        =
+        
+          e
+          
+            −
+            H
+            t
+          
+        
+        
+      
+    
+    {\displaystyle K'(t)=e^{-Ht}\,}
+  
+For quantum systems which are invariant under time reversal the Hamiltonian can be made real and symmetric, so that the action of time-reversal on the wave-function is just complex conjugation. If such a Hamiltonian has a unique lowest energy state with a positive real wave-function, as it often does for physical reasons, it is connected to a stochastic system in imaginary time. This relationship between stochastic systems and quantum systems sheds much light on supersymmetry.
+
+
+== Experiments and applications ==
+Successful experiments involving superpositions of relatively large (by the standards of quantum physics) objects have been performed.
+A "cat state" has been achieved with photons.
+A beryllium ion has been trapped in a superposed state.
+A double slit experiment has been performed with molecules as large as buckyballs.
+A 2013 experiment superposed molecules containing 15,000 each of protons, neutrons and electrons. The molecules were of compounds selected for their good thermal stability, and were evaporated into a beam at a temperature of 600 K. The beam was prepared from highly purified chemical substances, but still contained a mixture of different molecular species. Each species of molecule interfered only with itself, as verified by mass spectrometry.
+An experiment involving a superconducting quantum interference device ("SQUID") has been linked to theme of the "cat state" thought experiment.
+By use of very low temperatures, very fine experimental arrangements were made to protect in near isolation and preserve the coherence of intermediate states, for a duration of time, between preparation and detection, of SQUID currents. Such a SQUID current is a coherent physical assembly of perhaps billions of electrons. Because of its coherence, such an assembly may be regarded as exhibiting "collective states" of a macroscopic quantal entity. For the principle of superposition, after it is prepared but before it is detected, it may be regarded as exhibiting an intermediate state. It is not a single-particle state such as is often considered in discussions of interference, for example by Dirac in his famous dictum stated above. Morever, though the 'intermediate' state may be loosely regarded as such, it has not been produced as an output of a secondary quantum analyser that was fed a pure state from a primary analyser, and so this is not an example of superposition as strictly and narrowly defined.
+Nevertheless, after preparation, but before measurement, such a SQUID state may be regarded in a manner of speaking as a "pure" state that is a superposition of a clockwise and an anti-clockwise current state. In a SQUID, collective electron states can be physically prepared in near isolation, at very low temperatures, so as to result in protected coherent intermediate states. Remarkable here is that there are found two well-separated respectively self-coherent collective states that exhibit such metastability. The crowd of electrons tunnels back and forth between the clockwise and the anti-clockwise states, as opposed to forming a single intermediate state in which there is no definite collective sense of current flow.
+In contrast, for actual real cats, such well-separated metastable collective states states do not exist and consequently cannot be physically prepared. Schrödinger's point was that classical thinking does not in general anticipate such physically distinct and separate metastable quantum states. In classical thinking, distinct quantum states even of single atoms can indeed be regarded as metastable, and are remarkable and unexpected. In the days when Schrödinger raised his argumentative example, no one had imagined the invention of SQUIDs that exhibit such states on a macroscopic scale. The present-day physicist here pays close attention to the requirement mentioned above, that the intermediate states must be carefully physically shielded to protect them from any factor that affects some of the independent quantal entities (in this case collective not single particle) differently from others. Contrary to this requirement, the living cat breathes. This destroys intermediate state coherence, and so the conditions required for exhibition of the principle of superposition are not fulfilled.
+An experiment involving a flu virus has been proposed.
+A piezoelectric "tuning fork" has been constructed, which can be placed into a superposition of vibrating and non vibrating states. The resonator comprises about 10 trillion atoms.
+Recent research indicates that chlorophyll within plants appears to exploit the feature of quantum superposition to achieve greater efficiency in transporting energy, allowing pigment proteins to be spaced further apart than would otherwise be possible.
+An experiment has been proposed, with a bacterial cell cooled to 10 mK, using an electromechanical oscillator. At that temperature, all metabolism would be stopped, and the cell might behave virtually as a definite chemical species. For detection of interference, it would be necessary that the cells be supplied in large numbers as pure samples of identical and detectably recognizable virtual chemical species. It is not known whether this requirement can be met by bacterial cells. They would be in a state of suspended animation during the experiment.
+In quantum computing the phrase "cat state" often refers to the special entanglement of qubits wherein the qubits are in an equal superposition of all being 0 and all being 1; i.e.,
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          
+            (
+          
+        
+        
+          |
+        
+        00...0
+        ⟩
+        +
+        
+          |
+        
+        11...1
+        ⟩
+        
+          
+            )
+          
+        
+      
+    
+    {\displaystyle |\psi \rangle ={\frac {1}{\sqrt {2}}}{\bigg (}|00...0\rangle +|11...1\rangle {\bigg )}}
+  .
+
+
+== Formal interpretation ==
+Applying the superposition principle to a quantum mechanical particle, the configurations of the particle are all positions, so the superpositions make a complex wave in space. The coefficients of the linear superposition are a wave which describes the particle as best as is possible, and whose amplitude interferes according to the Huygens principle.
+For any physical property in quantum mechanics, there is a list of all the states where that property has some value. These states are necessarily perpendicular to each other using the Euclidean notion of perpendicularity which comes from sums-of-squares length, except that they also must not be i multiples of each other. This list of perpendicular states has an associated value which is the value of the physical property. The superposition principle guarantees that any state can be written as a combination of states of this form with complex coefficients.
+Write each state with the value q of the physical quantity as a vector in some basis 
+  
+    
+      
+        
+          ψ
+          
+            n
+          
+          
+            q
+          
+        
+      
+    
+    {\displaystyle \psi _{n}^{q}}
+  , a list of numbers at each value of n for the vector which has value q for the physical quantity. Now form the outer product of the vectors by multiplying all the vector components and add them with coefficients to make the matrix
+
+  
+    
+      
+        
+          A
+          
+            n
+            m
+          
+        
+        =
+        
+          ∑
+          
+            q
+          
+        
+        q
+        
+          ψ
+          
+            n
+          
+          
+            ∗
+            q
+          
+        
+        
+          ψ
+          
+            m
+          
+          
+            q
+          
+        
+      
+    
+    {\displaystyle A_{nm}=\sum _{q}q\psi _{n}^{*q}\psi _{m}^{q}}
+  
+where the sum extends over all possible values of q. This matrix is necessarily symmetric because it is formed from the orthogonal states, and has eigenvalues q. The matrix A is called the observable associated to the physical quantity. It has the property that the eigenvalues and eigenvectors determine the physical quantity and the states which have definite values for this quantity.
+Every physical quantity has a Hermitian linear operator associated to it, and the states where the value of this physical quantity is definite are the eigenstates of this linear operator. The linear combination of two or more eigenstates results in quantum superposition of two or more values of the quantity. If the quantity is measured, the value of the physical quantity will be random, with a probability equal to the square of the coefficient of the superposition in the linear combination. Immediately after the measurement, the state will be given by the eigenvector corresponding to the measured eigenvalue.
+
+
+== Physical interpretation ==
+It is natural to ask why ordinary everyday objects and events do not seem to display quantum mechanical features such as superposition. Indeed, this is sometimes regarded as "mysterious", for instance by Richard Feynman. In 1935, Erwin Schrödinger devised a well-known thought experiment, now known as Schrödinger's cat, which highlighted this dissonance between quantum mechanics and classical physics. The modern view is that this mystery is explained by quantum decoherence. A macroscopic system (such as a cat) may evolve over time into a superposition of classically distinct quantum states (such as "alive" and "dead"). However, the state of the cat is entangled with the state of its environment (for instance, the molecules in the atmosphere surrounding it). If one averages over the quantum states of the environment - a physically reasonable procedure unless the quantum state of all the particles making up the environment can be controlled or measured precisely - the resulting mixed quantum state for the cat is very close to a classical probabilistic state where the cat has some definite probability to be dead or alive, just as a classical observer would expect in this situation.
+Quantum superposition is exhibited in fact in many directly observable phenomena, such as interference peaks from an electron wave in a double-slit experiment. Superposition persists at all scales, provided that coherence is shielded from disruption by intermittent external factors.
+The Heisenberg uncertainty principle states that for any given instant of time, the position and velocity of an electron or other subatomic particle cannot both be exactly determined. A state where one of them has a definite value corresponds to a superposition of many states for the other.
+
+
+== See also ==
+Eigenstates
+Mach-Zehnder interferometer
+Penrose Interpretation
+Pure qubit state
+Quantum computation
+Schrödinger's cat
+Wave packet
+
+
+== References ==
+
+
+=== Bibliography of cited references ===
+Bohr, N. (1927/1928). The quantum postulate and the recent development of atomic theory, Nature Supplement 14 April 1928, 121: 580–590.
+Cohen-Tannoudji, C., Diu, B., Laloë, F. (1973/1977). Quantum Mechanics, translated from the French by S.R. Hemley, N. Ostrowsky, D. Ostrowsky, second edition, volume 1, Wiley, New York, ISBN 0471164321.
+Dirac, P.A.M. (1930/1958). The Principles of Quantum Mechanics, 4th edition, Oxford University Press.
+Einstein, A. (1949). Remarks concerning the essays brought together in this co-operative volume, translated from the original German by the editor, pp. 665–688 in Schilpp, P.A. editor (1949), Albert Einstein: Philosopher-Scientist, volume II, Open Court, La Salle IL.
+Feynman, R.P., Leighton, R.B., Sands, M. (1965). The Feynman Lectures on Physics, volume 3, Addison-Wesley, Reading, MA.
+Merzbacher, E. (1961/1970). Quantum Mechanics, second edition, Wiley, New York.
+Messiah, A. (1961). Quantum Mechanics, volume 1, translated by G.M. Temmer from the French Mécanique Quantique, North-Holland, Amsterdam.
+Wheeler, J.A.; Zurek, W.H. (1983). Quantum Theory and Measurement. Princeton NJ: Princeton University Press.

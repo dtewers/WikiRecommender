@@ -1,0 +1,15 @@
+The stochastic interpretation is an interpretation of quantum mechanics.
+The modern application of stochastics to quantum mechanics involves the assumption of spacetime stochasticity, the idea that the small-scale structure of spacetime is undergoing both metric and topological fluctuations (John Archibald Wheeler's "quantum foam"), and that the averaged result of these fluctuations recreates a more conventional-looking metric at larger scales that can be described using classical physics, along with an element of nonlocality that can be described using quantum mechanics. A stochastic interpretation of quantum mechanics due to persistent vacuum fluctuations is suggested by Roumen Tsekov. The main idea is that vacuum or spacetime fluctuations are the reason for quantum mechanics and not a result of it as it is usually considered.
+
+
+== See also ==
+Quantum foam
+Interpretations of quantum mechanics
+Scale relativity
+
+
+== References ==
+Edward Nelson (1966). "Derivation of the Schrödinger Equation from Newtonian Mechanics". Physical Review. 150: 1079–1085. Bibcode:1966PhRv..150.1079N. doi:10.1103/PhysRev.150.1079. 
+Khavtain Namsrai (1985). Nonlocal Quantum Field Theory and Stochastic Quantum Mechanics. Springer. ISBN 90-277-2001-0. 
+Roumen Tsekov (2009). "Dissipative and Quantum Mechanics". New Adv. Phys. 3: 35–44. arXiv:0903.0283. Bibcode:2009NAP.....3...35T. doi:10.13140/RG.2.1.3008.4642. 
+Roumen Tsekov (2016). "Quantum mechanics emerging from stochastic dynamics of virtual particles". J. Phys. Conf. Ser. 701: 012034. doi:10.1088/1742-6596/701/1/012034.

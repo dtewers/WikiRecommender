@@ -1,0 +1,1203 @@
+In physics, exotic matter is matter that somehow deviates from normal matter and has "exotic" properties. A more broad definition of exotic matter is any kind of non-baryonic matter—that is not made of baryons, the subatomic particles, such as protons and neutrons, of which ordinary matter is composed. Exotic mass has been considered a colloquial term for matters such as dark matter, negative mass, or complex mass.
+
+
+== Types of exotic matter ==
+There are several types of exotic matter:
+Hypothetical particles that have "exotic" physical properties that would violate known laws of physics, such as a particle having a negative mass.
+Hypothetical particles that have not yet been encountered, such as exotic baryons, but whose properties would be within the realm of mainstream physics if found to exist.
+Several particles whose existence has been experimentally confirmed that are conjectured to be exotic hadrons and then within the realm of mainstream physics – although not incorporated in the current Standard Model.
+States of matter that are not commonly encountered, such as Bose–Einstein condensates, quark–gluon plasma and Rydberg matter, but whose properties are entirely within the realm of mainstream physics.
+States of matter that are poorly understood, such as dark matter.
+Ordinary matter placed under high pressure, which may result in dramatic changes in its physical or chemical properties.
+Degenerate matter
+
+
+== Negative mass ==
+
+Negative mass would possess some strange properties, such as accelerating in the direction opposite of applied force. Despite being inconsistent with the expected behavior of "normal" matter, negative mass is mathematically consistent and introduces no violation of conservation of momentum or energy. It is used in certain speculative theories, such as on the construction of artificial wormholes and the Alcubierre drive. The closest known real representative of such exotic matter is the region of pseudo-negative-pressure density produced by the Casimir effect.
+According to mass–energy equivalence, mass 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is in proportion to energy 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   and the coefficient of proportionality is 
+  
+    
+      
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle c^{2}}
+  . Actually, 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is still equivalent to 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   although the coefficient is another constant  such as 
+  
+    
+      
+        −
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle -c^{2}}
+  . In this case, it is unnecessary to introduce a negative energy because the mass can be negative although the energy is positive. That is to say,
+
+  
+    
+      
+        E
+        =
+        −
+        m
+        
+          c
+          
+            2
+          
+        
+        >
+        0
+      
+    
+    {\displaystyle E=-mc^{2}>0}
+  
+
+  
+    
+      
+        m
+        =
+        −
+        
+          
+            E
+            
+              c
+              
+                2
+              
+            
+          
+        
+        <
+        0
+      
+    
+    {\displaystyle m=-{\frac {E}{c^{2}}}<0}
+  
+Under the circumstances，
+
+  
+    
+      
+        d
+        E
+        =
+        F
+        d
+        s
+        =
+        
+          
+            
+              d
+              p
+            
+            
+              d
+              t
+            
+          
+        
+        d
+        s
+        =
+        
+          
+            
+              d
+              s
+            
+            
+              d
+              t
+            
+          
+        
+        d
+        p
+        =
+        v
+        d
+        p
+        =
+        v
+        d
+        (
+        m
+        v
+        )
+      
+    
+    {\displaystyle dE=Fds={\frac {dp}{dt}}ds={\frac {ds}{dt}}dp=vdp=vd(mv)}
+  
+
+  
+    
+      
+        −
+        
+          c
+          
+            2
+          
+        
+        d
+        m
+        =
+        v
+        d
+        (
+        m
+        v
+        )
+      
+    
+    {\displaystyle -c^{2}dm=vd(mv)}
+  
+
+  
+    
+      
+        −
+        
+          c
+          
+            2
+          
+        
+        (
+        2
+        m
+        )
+        d
+        m
+        =
+        2
+        m
+        v
+        d
+        (
+        m
+        v
+        )
+      
+    
+    {\displaystyle -c^{2}(2m)dm=2mvd(mv)}
+  
+
+  
+    
+      
+        −
+        
+          c
+          
+            2
+          
+        
+        d
+        (
+        
+          m
+          
+            2
+          
+        
+        )
+        =
+        d
+        (
+        
+          m
+          
+            2
+          
+        
+        
+          v
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle -c^{2}d(m^{2})=d(m^{2}v^{2})}
+  
+
+  
+    
+      
+        −
+        
+          m
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        =
+        
+          m
+          
+            2
+          
+        
+        
+          v
+          
+            2
+          
+        
+        +
+        C
+      
+    
+    {\displaystyle -m^{2}c^{2}=m^{2}v^{2}+C}
+  
+When 
+  
+    
+      
+        v
+        =
+        0
+      
+    
+    {\displaystyle v=0}
+  ,
+
+  
+    
+      
+        C
+        =
+        −
+        
+          m
+          
+            0
+          
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle C=-m_{0}^{2}c^{2}}
+  
+Consequently,
+
+  
+    
+      
+        −
+        
+          m
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        =
+        
+          m
+          
+            2
+          
+        
+        
+          v
+          
+            2
+          
+        
+        −
+        
+          m
+          
+            0
+          
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle -m^{2}c^{2}=m^{2}v^{2}-m_{0}^{2}c^{2}}
+  
+
+  
+    
+      
+        m
+        =
+        
+          
+            
+              m
+              
+                0
+              
+            
+            
+              
+                1
+                +
+                
+                  
+                    
+                      
+                        v
+                        
+                          2
+                        
+                      
+                      
+                        c
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle m={m_{0} \over {\sqrt {1+\displaystyle {v^{2} \over c^{2}}}}}}
+  
+where 
+  
+    
+      
+        
+          m
+          
+            0
+          
+        
+        <
+        0
+      
+    
+    {\displaystyle m_{0}<0}
+   is invariant mass and invariant energy equals 
+  
+    
+      
+        
+          E
+          
+            0
+          
+        
+        =
+        −
+        
+          m
+          
+            0
+          
+        
+        
+          c
+          
+            2
+          
+        
+        >
+        0
+      
+    
+    {\displaystyle E_{0}=-m_{0}c^{2}>0}
+  . The squared mass is still positive and the particle can be stable.
+Since 
+  
+    
+      
+        m
+        =
+        
+          
+            
+              m
+              
+                0
+              
+            
+            
+              
+                1
+                +
+                
+                  
+                    
+                      
+                        v
+                        
+                          2
+                        
+                      
+                      
+                        c
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        <
+        0
+      
+    
+    {\displaystyle m={m_{0} \over {\sqrt {1+\displaystyle {v^{2} \over c^{2}}}}}<0}
+  ,
+
+  
+    
+      
+        p
+        =
+        m
+        v
+        =
+        
+          
+            
+              
+                m
+                
+                  0
+                
+              
+              v
+            
+            
+              
+                1
+                +
+                
+                  
+                    
+                      
+                        v
+                        
+                          2
+                        
+                      
+                      
+                        c
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        <
+        0
+      
+    
+    {\displaystyle p=mv={m_{0}v \over {\sqrt {1+\displaystyle {v^{2} \over c^{2}}}}}<0}
+  
+The negative momentum is applied to explain negative refraction, inverse Doppler effect and reverse Cherenkov effect observed in a negative index metamaterial. The radiation pressure in the metamaterial is also negative because the force is defined as 
+  
+    
+      
+        F
+        =
+        
+          
+            
+              d
+              p
+            
+            
+              d
+              t
+            
+          
+        
+      
+    
+    {\displaystyle F={\frac {dp}{dt}}}
+  . Interestingly, negative pressure exists in dark energy too. Using these above equations,the energy-momentum relation should be
+
+  
+    
+      
+        
+          E
+          
+            2
+          
+        
+        =
+        −
+        
+          p
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        +
+        
+          m
+          
+            0
+          
+          
+            2
+          
+        
+        
+          c
+          
+            4
+          
+        
+      
+    
+    {\displaystyle E^{2}=-p^{2}c^{2}+m_{0}^{2}c^{4}}
+  
+Substituting the Planck-Einstein relation 
+  
+    
+      
+        E
+        =
+        ℏ
+        ω
+      
+    
+    {\displaystyle E=\hbar \omega }
+   and de Broglie's 
+  
+    
+      
+        p
+        =
+        ℏ
+        k
+      
+    
+    {\displaystyle p=\hbar k}
+  , we obtain the following dispersion relation
+
+  
+    
+      
+        
+          ω
+          
+            2
+          
+        
+        =
+        −
+        
+          k
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        +
+        
+          ω
+          
+            p
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \omega ^{2}=-k^{2}c^{2}+\omega _{p}^{2}}
+  , 
+  
+    
+      
+        (
+        
+          E
+          
+            0
+          
+        
+        =
+        ℏ
+        
+          ω
+          
+            p
+          
+        
+        =
+        −
+        
+          m
+          
+            0
+          
+        
+        
+          c
+          
+            2
+          
+        
+        >
+        0
+        )
+      
+    
+    {\displaystyle (E_{0}=\hbar \omega _{p}=-m_{0}c^{2}>0)}
+  
+of the wave consists of a stream of particles whose energy-momentum relation is 
+  
+    
+      
+        
+          E
+          
+            2
+          
+        
+        =
+        −
+        
+          p
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        +
+        
+          m
+          
+            0
+          
+          
+            2
+          
+        
+        
+          c
+          
+            4
+          
+        
+      
+    
+    {\displaystyle E^{2}=-p^{2}c^{2}+m_{0}^{2}c^{4}}
+  (wave–particle duality) can be excited in a negative index metamaterial.The velocity of such a particle is equal to
+
+  
+    
+      
+        v
+        =
+        c
+        
+          
+            
+              
+                
+                  E
+                  
+                    0
+                  
+                  
+                    2
+                  
+                
+                
+                  E
+                  
+                    2
+                  
+                
+              
+            
+            −
+            1
+          
+        
+        =
+        c
+        
+          
+            
+              
+                
+                  ω
+                  
+                    p
+                  
+                  
+                    2
+                  
+                
+                
+                  ω
+                  
+                    2
+                  
+                
+              
+            
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle v=c{\sqrt {{\frac {E_{0}^{2}}{E^{2}}}-1}}=c{\sqrt {{\frac {\omega _{p}^{2}}{\omega ^{2}}}-1}}}
+  
+and range is from zero to infinity
+
+  
+    
+      
+        
+          
+            
+              ω
+              
+                p
+              
+              
+                2
+              
+            
+            
+              ω
+              
+                2
+              
+            
+          
+        
+        <
+        2
+      
+    
+    {\displaystyle {\frac {\omega _{p}^{2}}{\omega ^{2}}}<2}
+  , 
+  
+    
+      
+        v
+        <
+        c
+      
+    
+    {\displaystyle v<c}
+  
+
+  
+    
+      
+        
+          
+            
+              ω
+              
+                p
+              
+              
+                2
+              
+            
+            
+              ω
+              
+                2
+              
+            
+          
+        
+        >
+        2
+      
+    
+    {\displaystyle {\frac {\omega _{p}^{2}}{\omega ^{2}}}>2}
+  , 
+  
+    
+      
+        v
+        >
+        c
+      
+    
+    {\displaystyle v>c}
+  
+Moreover,the kinetic energy is also negative
+
+  
+    
+      
+        
+          E
+          
+            k
+          
+        
+        =
+        E
+        −
+        
+          E
+          
+            0
+          
+        
+        =
+        −
+        m
+        
+          c
+          
+            2
+          
+        
+        −
+        (
+        −
+        
+          m
+          
+            0
+          
+        
+        
+          c
+          
+            2
+          
+        
+        )
+        =
+        −
+        
+          
+            
+              
+                m
+                
+                  0
+                
+              
+              
+                c
+                
+                  2
+                
+              
+            
+            
+              
+                1
+                +
+                
+                  
+                    
+                      
+                        v
+                        
+                          2
+                        
+                      
+                      
+                        c
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        +
+        
+          m
+          
+            0
+          
+        
+        
+          c
+          
+            2
+          
+        
+        =
+        
+          m
+          
+            0
+          
+        
+        
+          c
+          
+            2
+          
+        
+        (
+        1
+        −
+        
+          
+            1
+            
+              
+                1
+                +
+                
+                  
+                    
+                      
+                        v
+                        
+                          2
+                        
+                      
+                      
+                        c
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        )
+        <
+        0
+      
+    
+    {\displaystyle E_{k}=E-E_{0}=-mc^{2}-(-m_{0}c^{2})=-{m_{0}c^{2} \over {\sqrt {1+\displaystyle {v^{2} \over c^{2}}}}}+m_{0}c^{2}=m_{0}c^{2}(1-{1 \over {\sqrt {1+\displaystyle {v^{2} \over c^{2}}}}})<0}
+  , 
+  
+    
+      
+        (
+        
+          m
+          
+            0
+          
+        
+        <
+        0
+        )
+      
+    
+    {\displaystyle (m_{0}<0)}
+  
+In fact, the negative kinetic energy exists in some models to describe dark energy (phantom energy) whose pressure is negative. In this way, the negative mass of exotic matter is now associated with negative momentum, negative pressure, negative kinetic energy and FTL (faster-than-light).
+
+
+== Complex mass ==
+
+A hypothetical particle with Complex rest mass would always travel faster than the speed of light. Such particles are called tachyons. There is no confirmed existence of tachyons.
+
+  
+    
+      
+        E
+        =
+        
+          
+            
+              m
+              ⋅
+              
+                c
+                
+                  2
+                
+              
+            
+            
+              1
+              −
+              
+                
+                  
+                    
+                      |
+                      
+                        v
+                      
+                      |
+                    
+                    
+                      2
+                    
+                  
+                  
+                    c
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle E={\frac {m\cdot c^{2}}{\sqrt {1-{\frac {\left|\mathbf {v} \right|^{2}}{c^{2}}}}}}}
+  
+If the rest mass 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is Complex this implies that the denominator is Complex because the total energy is observable and thus must be real. Therefore, the quantity under the square root must be negative, which can only happen if v is greater than c. As noted by Gregory Benford et al., special relativity implies that tachyons, if they existed, could be used to communicate backwards in time (see tachyonic antitelephone). Because time travel is considered to be non-physical, tachyons are believed by physicists either not to exist, or else to be incapable of interacting with normal matter.
+In quantum field theory, complex mass would induce tachyon condensation.
+
+
+== Materials at high pressure ==
+At high pressure, materials such as sodium chloride (NaCl) in the presence of an excess of either chlorine or sodium were transformed into compounds "forbidden" by classical chemistry, such as Na
+3Cl and NaCl
+3. Quantum mechanical calculations predict the possibility of other compounds, such as NaCl
+7, Na
+3Cl
+2, Na
+2Cl, and Na
+3Cl. The materials are thermodynamically stable at high pressures. Such compounds may exist in natural environments that exist at high pressure, such as the deep ocean or inside planetary cores. The materials have potentially useful properties. For instance, Na
+3Cl is a two-dimensional metal, made of layers of pure sodium and salt that can conduct electricity. The salt layers act as insulators while the sodium layers act as conductors.
+
+
+== See also ==
+Antimatter
+Dark energy
+Dark matter
+Gravitational interaction of antimatter
+Mirror matter
+Negative energy
+Negative mass
+Strange matter
+QCD matter
+
+
+== References ==
+
+
+== External links ==
+Exotic Matter and Negative Energy on YouTube
+The Riddle of AntiMatter on YouTube

@@ -1,0 +1,72 @@
+The Verge is an American technology news and media network operated by Vox Media. It has offices in Manhattan, New York City. The network publishes news items, long-form feature stories, product reviews, podcasts, and an entertainment show.
+The website uses its own proprietary publishing platform with video content. The network's content is financed through advertising and sponsorship and is managed by its editor-in-chief Nilay Patel and executive editor Dieter Bohn. The site launched on November 1, 2011. The Verge won five Webby Awards for the year 2012 including awards for Best Writing (Editorial), Best Podcast for The Vergecast, Best Visual Design, Best Consumer Electronics Site, and Best Mobile News App.
+
+
+== History ==
+
+
+=== Origins ===
+
+Throughout the 2010s, AOL began to acquire websites in pursuit of a new ad-driven content strategy for the company. One of their first acquisitions was Weblogs, Inc. in 2005, a company that ran dozens of websites, including Engadget, a tech news website. According to Business Insider, Engadget "became the industry-leading gadget site", and AOL's "most popular and important media property." All Things Digital called it "one of the largest in tech".
+Joshua Topolsky became Engadget's editor-in-chief in 2007, and was responsible for new efforts like The Engadget Show and their mobile app, and the site's continued growth. Animosities between Topolsky and AOL developed after AOL's September 2010 TechCrunch acquisition, when TechCrunch founder Michael Arrington made several public remarks disparaging Engadget and Topolsky. When the acrimony between the two editors escalated in January 2011, AOL didn't intervene. The next month, an internal AOL editor training document called "The AOL Way", a new content strategy that prioritized profitability metrics, leaked to the press. The document leaked before Engadget writers and editors saw it internally. "The AOL Way" dispirited the Engadget staff and created an ideological schism between the two entities.
+
+
+=== Vox Media / SB Nation ===
+Topolsky and up to eight of Engadget's most prominent writers, editors, and product developers left AOL between March and April 2011 to found a new gadget site that would become The Verge. The other departing editors included managing editor Nilay Patel and staffers Paul Miller, Ross Miller, Joanna Stern, Chris Ziegler, as well as product developers Justin Glow, and Dan Chilton. In early April 2011, Topolsky announced that their unnamed new site would be done in partnership with sports news website SB Nation, debuting some time in the fall. Topolsky lauded SB Nation's similar interest in the future of publishing, including what he described as their beliefs in independent journalism and in-house development of their own content delivery tools. Jim Bankoff of SB Nation saw an overlap in the two sites' demographics and an opportunity to expand SB Nation's model. Bankoff previously worked at AOL in 2005, where he led their Engadget acquisition. Other news outlets viewed the partnership as positive for both SB Nation and Topolsky's staff, and negative for AOL's outlook.
+Jim Bankoff, chairman and CEO of Vox Media, the owner of the SB Nation brand, said in a 2011 interview with Beet.tv that though the company had started out with a focus on sports, other categories including consumer technology had growth potential for the company. Bankoff also expressed a wish to attract other journalists and bloggers outside of the sports medium to Vox Media.
+Development of the Vox Media's content management system (CMS), Chorus, is led by Trei Brundrett, chief product officer at Vox Media.
+
+
+=== This Is My Next ===
+
+Following news of his untitled partnership with SB Nation in April 2011, Topolsky announced that the Engadget podcast hosted by Patel, Paul Miller, and himself would continue at an interim site called This Is My Next. By August 2011, the site had reached 1 million unique visitors and 3.4 million page views. By October 2011, the site had 3 million unique views per month and 10 million total page views. Time listed the site in its Best Blogs of 2011, calling the prototype site "exemplary". The site closed upon The Verge's launch on November 1, 2011.
+
+On June 11, 2014, The Verge launched a new section on TheVerge.com called "This Is My Next", edited by former editor David Pierce, as a buyer's guide for consumer electronics.
+
+
+=== Official launch ===
+The Verge launched November 1, 2011, along with an announcement of a new parent company: Vox Media. According to the company, the site launched with 4 million unique visitors and 20 million pageviews. At the time of Topolsky's departure, Engadget had 14 million unique visitors. Vox Media overall doubled its unique visitors to about 15 million during the last half of 2012. The Verge had 12 former Engadget staffers working with Topolsky at the time of launch. By 2016, the website's advertising had shifted significantly from display advertisements matched with content to partnerships and advertisements with user-specific tweaks. Vox revamped The Verge's visual design for its fifth anniversary in November 2016.
+In September 2016, The Verge fired deputy editor Chris Ziegler after it learned that he had been working for Apple since July.
+
+
+== Design ==
+The Verge logo featured a modified Penrose triangle, an impossible object.
+On November 1, 2016, The Verge launched version 3.0 of its news platform, offering a redesigned website along with a new logo.
+
+
+== Content ==
+
+
+=== Product database and articles ===
+The Verge hosts a product database which allows readers to compare product specifications and research product availability.
+The site's team publishes product reviews for consumer items. Personal computers and cellphones are the most reviewed products. Items receive a "Verge Score" out of 10. Users can also submit reviews for products they own.
+The Verge also publishes features, including interviews, editorials and news items.
+
+
+=== Podcasts ===
+The Verge broadcasts a live weekly podcast.
+The inaugural episode was broadcast on November 4, 2011. Unlike many episodes of previous podcasts, it included a video stream of the hosts.
+A second weekly podcast was introduced on November 8, 2011. Unlike The Vergecast, The Verge Mobile Show is primarily focused on mobile phones.
+The Verge's What's Tech podcast was named among iTunes's best of 2015.
+
+
+=== Video content ===
+
+
+==== On The Verge ====
+On August 6, 2011, in an interview with Edelman, Marty Moe, publisher and co-founder of The Verge, announced that they would soon be launching The Verge Show, a web television series. After the site's launch, the show was named On The Verge. The first episode was taped on Monday, November 14, 2011, with guest Matias Duarte.
+The show is a technology news entertainment show, and its format is similar to that of a late-night talk show, but it is broadcast over the Internet, not on television. The show's first episode was released on November 15, 2011.
+On The Verge is similar to The Engadget Show, an online program run by the technology news blog Engadget.
+Ten episodes of the show were broadcast, with the most recent episode going out on November 10, 2012.
+On May 24, 2013, it was announced that the show would return under a new weekly format, alongside a new logo and theme tune.
+
+
+==== Verge Video ====
+On May 8, 2013, editor-in-chief Topolsky launched Verge Video, a site that contains the video backlog from The Verge.
+
+
+== References ==
+
+
+== External links ==
+Official website

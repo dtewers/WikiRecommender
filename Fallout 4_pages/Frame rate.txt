@@ -1,0 +1,44 @@
+Frame rate, (expressed in frames per second or FPS) is the frequency (rate) at which consecutive images called frames are displayed in an animated display. The term applies equally to film and video cameras, computer graphics, and motion capture systems. Frame rate may also be called the frame frequency, and be expressed in hertz.
+
+
+== Frame rate and human vision ==
+
+The temporal sensitivity and resolution of human vision varies depending on the type and characteristics of visual stimulus, and it differs between individuals. The human visual system can process 10 to 12 images per second and perceive them individually, while higher rates are perceived as motion. Modulated light (such as a computer display) is perceived as stable by the majority of participants in studies when the rate is higher than 50 Hz through 90 Hz. This perception of modulated light as steady is known as the flicker fusion threshold. However, when the modulated light is non-uniform and contains an image, the flicker fusion threshold can be much higher. With regard to image recognition, people have been found to recognize a specific image in an unbroken series of different images, each of which lasts as little as 13 milliseconds. Persistence of vision sometimes accounts for very short single-millisecond visual stimulus having a perceived duration of between 100 ms and 400 ms. Multiple stimuli that are very short are sometimes perceived as a single stimulus, such as a 10 ms green flash of light immediately followed by a 10 ms red flash of light perceived as a single yellow flash of light.
+
+
+== Video ==
+
+
+=== Silent films ===
+Early silent films had stated frame rates anywhere from 16 to 24 frames per second (FPS), but since the cameras were hand-cranked, the rate often changed during the scene to fit the mood. Projectionists could also change the frame rate in the theater by adjusting a rheostat controlling the voltage powering the film-carrying mechanism in the projector. Silent films were often intended to be shown at higher frame rates than those used during filming. These frame rates were enough for the sense of motion, but it was perceived as jerky motion. To minimize the perceived flicker, projectors employed dual- and triple-blade shutters, so each frame was displayed two or three times, increasing the flicker rate to 48 or 72 Hertz and reducing eye strain. Thomas Edison said that 46 frames per second was the minimum needed by the visual cortex: "Anything less will strain the eye." In the mid to late 1920s, the frame rate for silent films increased to between 20 and 26 FPS.
+
+
+=== Sound films ===
+When sound film was introduced in 1926, variations in film speed were no longer tolerated as the human ear is more sensitive to changes in audio frequency. Many theaters had shown silent films at 22 to 26 FPS which is why 24 FPS was chosen for sound as a compromise. From 1927 to 1930, as various studios updated equipment, the rate of 24 FPS became standard for 35 mm sound film. At 24 FPS the film travels through the projector at a rate of 456 millimetres (18.0 in) per second. This allowed for simple two-blade shutters to give a projected series of images at 48 per second, satisfying Edison's recommendation. Many modern 35 mm film projectors use three-blade shutters to give 72 images per second—each frame is flashed on screen three times.
+
+
+=== Modern video standards ===
+
+Modern video formats utilize a variety of frame rates. Due to the mains frequency of electric grids, analog television broadcast was developed with frame rates of 50Hz or 60Hz, sometimes with video being interlaced so more motion information could be sent on the same available broadcast bandwidth, and sometimes with video being broadcast at 25 or 30 FPS with each frame doubled. Film, which was almost universally shot at 24 frames per second, could not be displayed at its native frame rate, which required pulldown conversion, often leading to "judder": to convert 24 frames per second into 60 frames per second, every odd frame is doubled and every even frame is tripled, which creates uneven motion. Other conversions have similar uneven frame doubling. Newer video standards support 120, 240, or 300 frames per second, allowing frames to be evenly multiplied for common frame rates such as 24 FPS film and 30 FPS analog video, as well as 25 and 50 FPS video in the case of 300 FPS displays. These standards also support video that's natively in higher frame rates, and video with interpolated frames between its native frames. Some modern films are experimenting with frame rates higher than 24 FPS, such as 48 and 60 FPS.
+
+
+== See also ==
+Delta timing
+Federal Standard 1037C
+Film-out
+Flicker fusion threshold
+Glossary of video terms
+List of film formats
+MIL-STD-188
+Movie projector
+Moving image formats
+Time-lapse photography
+Video compression
+
+
+== References ==
+
+
+== External links ==
+"Temporal Rate Conversion"—a very detailed guide about the visual interference of TV, video & PC
+15 FPS vs. 30 FPS vs. 60 FPS: A Visual Comparison—Adobe Flash based compare test source

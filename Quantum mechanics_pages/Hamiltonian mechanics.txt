@@ -1,0 +1,3406 @@
+Hamiltonian mechanics is a theory developed as a reformulation of classical mechanics and predicts the same outcomes as non-Hamiltonian classical mechanics. It uses a different mathematical formalism, providing a more abstract understanding of the theory. Historically, it was an important reformulation of classical mechanics, which later contributed to the formulation of statistical mechanics and quantum mechanics.
+Hamiltonian mechanics was first formulated by William Rowan Hamilton in 1833, starting from Lagrangian mechanics, a previous reformulation of classical mechanics introduced by Joseph Louis Lagrange in 1788.
+
+
+== Overview ==
+In Hamiltonian mechanics, a classical physical system is described by a set of canonical coordinates r = (q, p), where each component of the coordinate qi, pi is indexed to the frame of reference of the system.
+The time evolution of the system is uniquely defined by Hamilton's equations:
+
+where H = H(q, p, t) is the Hamiltonian, which often corresponds to the total energy of the system. For a closed system, it is the sum of the kinetic and potential energy in the system.
+In Newtonian mechanics, the time evolution is obtained by computing the total force being exerted on each particle of the system, and from Newton's second law, the time-evolutions of both position and velocity are computed. In contrast, in Hamiltonian mechanics, the time evolution is obtained by computing the Hamiltonian of the system in the generalized coordinates and inserting it in the Hamilton's equations. This approach is equivalent to the one used in Lagrangian mechanics. In fact, as is shown below, the Hamiltonian is the Legendre transform of the Lagrangian when holding q and t fixed and defining p as the dual variable, and thus both approaches give the same equations for the same generalized momentum. The main motivation to use Hamiltonian mechanics instead of Lagrangian mechanics comes from the symplectic structure of Hamiltonian systems.
+While Hamiltonian mechanics can be used to describe simple systems such as a bouncing ball, a pendulum or an oscillating spring in which energy changes from kinetic to potential and back again over time, its strength is shown in more complex dynamic systems, such as planetary orbits in celestial mechanics. The more degrees of freedom the system has, the more complicated its time evolution is and, in most cases, it becomes chaotic.
+
+
+=== Basic physical interpretation ===
+A simple interpretation of the Hamiltonian mechanics comes from its application on a one-dimensional system consisting of one particle of mass m. The Hamiltonian represents the total energy of the system, which is the sum of kinetic and potential energy, traditionally denoted T and V, respectively. Here q is the space coordinate and p is the momentum mv. Then
+
+  
+    
+      
+        
+          
+            H
+          
+        
+        =
+        T
+        +
+        V
+        
+        ,
+        
+        T
+        =
+        
+          
+            
+              p
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+        ,
+        
+        V
+        =
+        V
+        (
+        q
+        )
+      
+    
+    {\displaystyle {\mathcal {H}}=T+V\quad ,\quad T={\frac {p^{2}}{2m}}\quad ,\quad V=V(q)}
+  
+Note that T is a function of p alone, while V is a function of q alone (i.e., T and V are scleronomic).
+In this example, the time derivative of the momentum p equals the Newtonian force, and so the first Hamilton equation means that the force equals the negative gradient of potential energy. The time-derivative of q is the velocity, and so the second Hamilton equation means that the particle’s velocity equals the derivative of its kinetic energy with respect to its momentum.
+
+
+=== Calculating a Hamiltonian from a Lagrangian ===
+Given a Lagrangian in terms of the generalized coordinates qi and generalized velocities q̇i and time,
+
+
+== Deriving Hamilton's equations ==
+Hamilton's equations can be derived by looking at how the total differential of the Lagrangian depends on time, generalized positions qi, and generalized velocities q̇i:
+
+  
+    
+      
+        
+          d
+        
+        
+          
+            L
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                
+                  
+                    L
+                  
+                
+              
+              
+                ∂
+                
+                  q
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            q
+            
+              i
+            
+          
+          +
+          
+            
+              
+                ∂
+                
+                  
+                    L
+                  
+                
+              
+              
+                ∂
+                
+                  
+                    
+                      
+                        q
+                        ˙
+                      
+                    
+                  
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              i
+            
+          
+          )
+        
+        +
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        
+          d
+        
+        t
+      
+    
+    {\displaystyle \mathrm {d} {\mathcal {L}}=\sum _{i}\left({\frac {\partial {\mathcal {L}}}{\partial q_{i}}}\mathrm {d} q_{i}+{\frac {\partial {\mathcal {L}}}{\partial {\dot {q}}_{i}}}\mathrm {d} {\dot {q}}_{i}\right)+{\frac {\partial {\mathcal {L}}}{\partial t}}\mathrm {d} t}
+  
+The generalized momenta were defined as
+
+  
+    
+      
+        
+          p
+          
+            i
+          
+        
+        =
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle p_{i}={\frac {\partial {\mathcal {L}}}{\partial {\dot {q}}_{i}}}}
+  
+If this is substituted into the total differential of the Lagrangian, one gets
+
+  
+    
+      
+        
+          d
+        
+        
+          
+            L
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                
+                  
+                    L
+                  
+                
+              
+              
+                ∂
+                
+                  q
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            q
+            
+              i
+            
+          
+          +
+          
+            p
+            
+              i
+            
+          
+          
+            d
+          
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              i
+            
+          
+          )
+        
+        +
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        
+          d
+        
+        t
+      
+    
+    {\displaystyle \mathrm {d} {\mathcal {L}}=\sum _{i}\left({\frac {\partial {\mathcal {L}}}{\partial q_{i}}}\mathrm {d} q_{i}+p_{i}\mathrm {d} {\dot {q}}_{i}\right)+{\frac {\partial {\mathcal {L}}}{\partial t}}\mathrm {d} t}
+  
+This can be rewritten as
+
+  
+    
+      
+        
+          d
+        
+        
+          
+            L
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                
+                  
+                    L
+                  
+                
+              
+              
+                ∂
+                
+                  q
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            q
+            
+              i
+            
+          
+          +
+          
+            d
+          
+          
+            (
+            
+              p
+              
+                i
+              
+            
+            
+              
+                
+                  
+                    q
+                    ˙
+                  
+                
+              
+              
+                i
+              
+            
+            )
+          
+          −
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              i
+            
+          
+          
+            d
+          
+          
+            p
+            
+              i
+            
+          
+          )
+        
+        +
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        
+          d
+        
+        t
+        
+        .
+      
+    
+    {\displaystyle \mathrm {d} {\mathcal {L}}=\sum _{i}\left({\frac {\partial {\mathcal {L}}}{\partial q_{i}}}\mathrm {d} q_{i}+\mathrm {d} \left(p_{i}{\dot {q}}_{i}\right)-{\dot {q}}_{i}\mathrm {d} p_{i}\right)+{\frac {\partial {\mathcal {L}}}{\partial t}}\mathrm {d} t\,.}
+  
+which after rearranging leads to
+
+  
+    
+      
+        
+          d
+        
+        
+          (
+          
+            ∑
+            
+              i
+            
+          
+          
+            p
+            
+              i
+            
+          
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              i
+            
+          
+          −
+          
+            
+              L
+            
+          
+          )
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          (
+          −
+          
+            
+              
+                ∂
+                
+                  
+                    L
+                  
+                
+              
+              
+                ∂
+                
+                  q
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            q
+            
+              i
+            
+          
+          +
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              i
+            
+          
+          
+            d
+          
+          
+            p
+            
+              i
+            
+          
+          )
+        
+        −
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        
+          d
+        
+        t
+      
+    
+    {\displaystyle \mathrm {d} \left(\sum _{i}p_{i}{\dot {q}}_{i}-{\mathcal {L}}\right)=\sum _{i}\left(-{\frac {\partial {\mathcal {L}}}{\partial q_{i}}}\mathrm {d} q_{i}+{\dot {q}}_{i}\mathrm {d} p_{i}\right)-{\frac {\partial {\mathcal {L}}}{\partial t}}\mathrm {d} t}
+  
+The term on the left-hand side is just the Hamiltonian that defined before, therefore
+
+  
+    
+      
+        
+          d
+        
+        
+          
+            H
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          (
+          −
+          
+            
+              
+                ∂
+                
+                  
+                    L
+                  
+                
+              
+              
+                ∂
+                
+                  q
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            q
+            
+              i
+            
+          
+          +
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              i
+            
+          
+          
+            d
+          
+          
+            p
+            
+              i
+            
+          
+          )
+        
+        −
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        
+          d
+        
+        t
+      
+    
+    {\displaystyle \mathrm {d} {\mathcal {H}}=\sum _{i}\left(-{\frac {\partial {\mathcal {L}}}{\partial q_{i}}}\mathrm {d} q_{i}+{\dot {q}}_{i}\mathrm {d} p_{i}\right)-{\frac {\partial {\mathcal {L}}}{\partial t}}\mathrm {d} t}
+  
+It is also possible to calculate the total differential of the Hamiltonian H with respect to time directly, similar to what was carried on with the Lagrangian L above, yielding:
+
+  
+    
+      
+        
+          d
+        
+        
+          
+            H
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                
+                  
+                    H
+                  
+                
+              
+              
+                ∂
+                
+                  q
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            q
+            
+              i
+            
+          
+          +
+          
+            
+              
+                ∂
+                
+                  
+                    H
+                  
+                
+              
+              
+                ∂
+                
+                  p
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            p
+            
+              i
+            
+          
+          )
+        
+        +
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        
+          d
+        
+        t
+      
+    
+    {\displaystyle \mathrm {d} {\mathcal {H}}=\sum _{i}\left({\frac {\partial {\mathcal {H}}}{\partial q_{i}}}\mathrm {d} q_{i}+{\frac {\partial {\mathcal {H}}}{\partial p_{i}}}\mathrm {d} p_{i}\right)+{\frac {\partial {\mathcal {H}}}{\partial t}}\mathrm {d} t}
+  
+It follows from the previous two independent equations that their right-hand sides are equal with each other. The result is
+
+  
+    
+      
+        
+          ∑
+          
+            i
+          
+        
+        
+          (
+          −
+          
+            
+              
+                ∂
+                
+                  
+                    L
+                  
+                
+              
+              
+                ∂
+                
+                  q
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            q
+            
+              i
+            
+          
+          +
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              i
+            
+          
+          
+            d
+          
+          
+            p
+            
+              i
+            
+          
+          )
+        
+        −
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        
+          d
+        
+        t
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                
+                  
+                    H
+                  
+                
+              
+              
+                ∂
+                
+                  q
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            q
+            
+              i
+            
+          
+          +
+          
+            
+              
+                ∂
+                
+                  
+                    H
+                  
+                
+              
+              
+                ∂
+                
+                  p
+                  
+                    i
+                  
+                
+              
+            
+          
+          
+            d
+          
+          
+            p
+            
+              i
+            
+          
+          )
+        
+        +
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        
+          d
+        
+        t
+      
+    
+    {\displaystyle \sum _{i}\left(-{\frac {\partial {\mathcal {L}}}{\partial q_{i}}}\mathrm {d} q_{i}+{\dot {q}}_{i}\mathrm {d} p_{i}\right)-{\frac {\partial {\mathcal {L}}}{\partial t}}\mathrm {d} t=\sum _{i}\left({\frac {\partial {\mathcal {H}}}{\partial q_{i}}}\mathrm {d} q_{i}+{\frac {\partial {\mathcal {H}}}{\partial p_{i}}}\mathrm {d} p_{i}\right)+{\frac {\partial {\mathcal {H}}}{\partial t}}\mathrm {d} t}
+  
+Since this calculation was done off-shell, one can associate corresponding terms from both sides of this equation to yield:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        −
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  i
+                
+              
+            
+          
+        
+        
+        ,
+        
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              
+                p
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        
+        ,
+        
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        −
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\partial {\mathcal {H}}}{\partial q_{i}}}=-{\frac {\partial {\mathcal {L}}}{\partial q_{i}}}\quad ,\quad {\frac {\partial {\mathcal {H}}}{\partial p_{i}}}={\dot {q}}_{i}\quad ,\quad {\frac {\partial {\mathcal {H}}}{\partial t}}=-{\partial {\mathcal {L}} \over \partial t}}
+  
+On-shell, Lagrange's equations indicate that
+
+  
+    
+      
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\partial {\mathcal {L}}}{\partial {\dot {q}}_{i}}}-{\frac {\partial {\mathcal {L}}}{\partial q_{i}}}=0}
+  
+A rearrangement of this yields
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                p
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\frac {\partial {\mathcal {L}}}{\partial q_{i}}}={\dot {p}}_{i}}
+  
+Thus Hamilton's equations hold on-shell:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        =
+        −
+        
+          
+            
+              
+                p
+                ˙
+              
+            
+          
+          
+            j
+          
+        
+        
+        ,
+        
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              
+                p
+                
+                  j
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            j
+          
+        
+        
+        ,
+        
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        −
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\partial {\mathcal {H}}}{\partial q_{j}}}=-{\dot {p}}_{j}\quad ,\quad {\frac {\partial {\mathcal {H}}}{\partial p_{j}}}={\dot {q}}_{j}\quad ,\quad {\frac {\partial {\mathcal {H}}}{\partial t}}=-{\partial {\mathcal {L}} \over \partial t}}
+  
+
+
+== As a reformulation of Lagrangian mechanics ==
+Starting with Lagrangian mechanics, the equations of motion are based on generalized coordinates
+
+  
+    
+      
+        
+          
+          
+            {
+            
+              q
+              
+                j
+              
+            
+            |
+          
+          j
+          =
+          1
+          ,
+          …
+          ,
+          N
+          }
+        
+      
+    
+    {\displaystyle \left.\left\{q_{j}\right|j=1,\ldots ,N\right\}}
+  
+and matching generalized velocities
+
+  
+    
+      
+        
+          
+          
+            {
+            
+              
+                
+                  
+                    q
+                    ˙
+                  
+                
+              
+              
+                j
+              
+            
+            |
+          
+          j
+          =
+          1
+          ,
+          …
+          ,
+          N
+          }
+        
+      
+    
+    {\displaystyle \left.\left\{{\dot {q}}_{j}\right|j=1,\ldots ,N\right\}}
+  
+We write the Lagrangian as
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        
+          (
+          
+            q
+            
+              j
+            
+          
+          ,
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              j
+            
+          
+          ,
+          t
+          )
+        
+      
+    
+    {\displaystyle {\mathcal {L}}\left(q_{j},{\dot {q}}_{j},t\right)}
+  
+with the subscripted variables understood to represent all N variables of that type. Hamiltonian mechanics aims to replace the generalized velocity variables with generalized momentum variables, also known as conjugate momenta. By doing so, it is possible to handle certain systems, such as aspects of quantum mechanics, that would otherwise be even more complicated.
+For each generalized velocity, there is one corresponding conjugate momentum, defined as:
+
+  
+    
+      
+        
+          p
+          
+            j
+          
+        
+        =
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  j
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle p_{j}={\frac {\partial {\mathcal {L}}}{\partial {\dot {q}}_{j}}}}
+  
+In Cartesian coordinates, the generalized momenta are precisely the physical linear momenta. In circular polar coordinates, the generalized momentum corresponding to the angular velocity is the physical angular momentum. For an arbitrary choice of generalized coordinates, it may not be possible to obtain an intuitive interpretation of the conjugate momenta.
+One thing which is not too obvious in this coordinate dependent formulation is that different generalized coordinates are really nothing more than different coordinate patches on the same symplectic manifold (see Mathematical formalism, below).
+The Hamiltonian is the Legendre transform of the Lagrangian:
+
+  
+    
+      
+        
+          
+            H
+          
+        
+        
+          (
+          
+            q
+            
+              j
+            
+          
+          ,
+          
+            p
+            
+              j
+            
+          
+          ,
+          t
+          )
+        
+        =
+        
+          (
+          
+            ∑
+            
+              i
+            
+          
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              i
+            
+          
+          
+            p
+            
+              i
+            
+          
+          )
+        
+        −
+        
+          
+            L
+          
+        
+        
+          (
+          
+            q
+            
+              j
+            
+          
+          ,
+          
+            
+              
+                
+                  q
+                  ˙
+                
+              
+            
+            
+              j
+            
+          
+          ,
+          t
+          )
+        
+        .
+      
+    
+    {\displaystyle {\mathcal {H}}\left(q_{j},p_{j},t\right)=\left(\sum _{i}{\dot {q}}_{i}p_{i}\right)-{\mathcal {L}}\left(q_{j},{\dot {q}}_{j},t\right).}
+  
+If the transformation equations defining the generalized coordinates are independent of t, and the Lagrangian is a sum of products of functions (in the generalized coordinates) which are homogeneous of order 0, 1 or 2, then it can be shown that H is equal to the total energy E = T + V.
+Each side in the definition of H produces a differential:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  d
+                
+                
+                  
+                    H
+                  
+                
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    i
+                  
+                
+                
+                  [
+                  
+                    (
+                    
+                      
+                        
+                          ∂
+                          
+                            
+                              H
+                            
+                          
+                        
+                        
+                          ∂
+                          
+                            q
+                            
+                              i
+                            
+                          
+                        
+                      
+                    
+                    )
+                  
+                  
+                    d
+                  
+                  
+                    q
+                    
+                      i
+                    
+                  
+                  +
+                  
+                    (
+                    
+                      
+                        
+                          ∂
+                          
+                            
+                              H
+                            
+                          
+                        
+                        
+                          ∂
+                          
+                            p
+                            
+                              i
+                            
+                          
+                        
+                      
+                    
+                    )
+                  
+                  
+                    d
+                  
+                  
+                    p
+                    
+                      i
+                    
+                  
+                  ]
+                
+                +
+                
+                  (
+                  
+                    
+                      
+                        ∂
+                        
+                          
+                            H
+                          
+                        
+                      
+                      
+                        ∂
+                        t
+                      
+                    
+                  
+                  )
+                
+                
+                  d
+                
+                t
+                
+                
+                
+                
+              
+            
+            
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    i
+                  
+                
+                
+                  [
+                  
+                    
+                      
+                        
+                          q
+                          ˙
+                        
+                      
+                    
+                    
+                      i
+                    
+                  
+                  
+                  
+                    d
+                  
+                  
+                    p
+                    
+                      i
+                    
+                  
+                  +
+                  
+                    p
+                    
+                      i
+                    
+                  
+                  
+                  
+                    d
+                  
+                  
+                    
+                      
+                        
+                          q
+                          ˙
+                        
+                      
+                    
+                    
+                      i
+                    
+                  
+                  −
+                  
+                    (
+                    
+                      
+                        
+                          ∂
+                          
+                            
+                              L
+                            
+                          
+                        
+                        
+                          ∂
+                          
+                            q
+                            
+                              i
+                            
+                          
+                        
+                      
+                    
+                    )
+                  
+                  
+                    d
+                  
+                  
+                    q
+                    
+                      i
+                    
+                  
+                  −
+                  
+                    (
+                    
+                      
+                        
+                          ∂
+                          
+                            
+                              L
+                            
+                          
+                        
+                        
+                          ∂
+                          
+                            
+                              
+                                
+                                  q
+                                  ˙
+                                
+                              
+                            
+                            
+                              i
+                            
+                          
+                        
+                      
+                    
+                    )
+                  
+                  
+                    d
+                  
+                  
+                    
+                      
+                        
+                          q
+                          ˙
+                        
+                      
+                    
+                    
+                      i
+                    
+                  
+                  ]
+                
+                −
+                
+                  (
+                  
+                    
+                      
+                        ∂
+                        
+                          
+                            L
+                          
+                        
+                      
+                      
+                        ∂
+                        t
+                      
+                    
+                  
+                  )
+                
+                
+                  d
+                
+                t
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathrm {d} {\mathcal {H}}&=\sum _{i}\left[\left({\partial {\mathcal {H}} \over \partial q_{i}}\right)\mathrm {d} q_{i}+\left({\partial {\mathcal {H}} \over \partial p_{i}}\right)\mathrm {d} p_{i}\right]+\left({\partial {\mathcal {H}} \over \partial t}\right)\mathrm {d} t\qquad \qquad \quad \quad \\\\&=\sum _{i}\left[{\dot {q}}_{i}\,\mathrm {d} p_{i}+p_{i}\,\mathrm {d} {\dot {q}}_{i}-\left({\partial {\mathcal {L}} \over \partial q_{i}}\right)\mathrm {d} q_{i}-\left({\partial {\mathcal {L}} \over \partial {\dot {q}}_{i}}\right)\mathrm {d} {\dot {q}}_{i}\right]-\left({\partial {\mathcal {L}} \over \partial t}\right)\mathrm {d} t.\end{aligned}}}
+  
+Substituting the previous definition of the conjugate momenta into this equation and matching coefficients, we obtain the equations of motion of Hamiltonian mechanics, known as the canonical equations of Hamilton:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        =
+        −
+        
+          
+            
+              
+                p
+                ˙
+              
+            
+          
+          
+            j
+          
+        
+        
+        ,
+        
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              
+                p
+                
+                  j
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                q
+                ˙
+              
+            
+          
+          
+            j
+          
+        
+        
+        ,
+        
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        −
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              t
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {\partial {\mathcal {H}}}{\partial q_{j}}}=-{\dot {p}}_{j}\quad ,\quad {\frac {\partial {\mathcal {H}}}{\partial p_{j}}}={\dot {q}}_{j}\quad ,\quad {\frac {\partial {\mathcal {H}}}{\partial t}}=-{\frac {\partial {\mathcal {L}}}{\partial t}}.}
+  
+Hamilton's equations consist of 2n first-order differential equations, while Lagrange's equations consist of n second-order equations. However, Hamilton's equations usually don't reduce the difficulty of finding explicit solutions. They still offer some advantages, since important theoretical results can be derived because coordinates and momenta are independent variables with nearly symmetric roles.
+Hamilton's equations have another advantage over Lagrange's equations: if a system has a symmetry, such that a coordinate does not occur in the Hamiltonian, the corresponding momentum is conserved, and that coordinate can be ignored in the other equations of the set. Effectively, this reduces the problem from n coordinates to (n − 1) coordinates. In the Lagrangian framework, of course the result that the corresponding momentum is conserved still follows immediately, but all the generalized velocities still occur in the Lagrangian - we still have to solve a system of equations in n coordinates.
+The Lagrangian and Hamiltonian approaches provide the groundwork for deeper results in the theory of classical mechanics, and for formulations of quantum mechanics.
+
+
+== Geometry of Hamiltonian systems ==
+A Hamiltonian system may be understood as a fiber bundle E over time R, with the fibers Et, t ∈ R, being the position space. The Lagrangian is thus a function on the jet bundle J over E; taking the fiberwise Legendre transform of the Lagrangian produces a function on the dual bundle over time whose fiber at t is the cotangent space T*Et, which comes equipped with a natural symplectic form, and this latter function is the Hamiltonian.
+
+
+== Generalization to quantum mechanics through Poisson bracket ==
+Hamilton's equations above work well for classical mechanics, but not for quantum mechanics, since the differential equations discussed assume that one can specify the exact position and momentum of the particle simultaneously at any point in time. However, the equations can be further generalized to then be extended to apply to quantum mechanics as well as to classical mechanics, through the deformation of the Poisson algebra over p and q to the algebra of Moyal brackets.
+Specifically, the more general form of the Hamilton's equation reads
+
+  
+    
+      
+        
+          
+            
+              
+                d
+              
+              f
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        =
+        
+          {
+          f
+          ,
+          
+            
+              H
+            
+          
+          }
+        
+        +
+        
+          
+            
+              ∂
+              f
+            
+            
+              ∂
+              t
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\mathrm {d} f}{\mathrm {d} t}}=\left\{f,{\mathcal {H}}\right\}+{\frac {\partial f}{\partial t}}}
+  
+where f is some function of p and q, and H is the Hamiltonian. To find out the rules for evaluating a Poisson bracket without resorting to differential equations, see Lie algebra; a Poisson bracket is the name for the Lie bracket in a Poisson algebra. These Poisson brackets can then be extended to Moyal brackets comporting to an inequivalent Lie algebra, as proven by Hilbrand J. Groenewold, and thereby describe quantum mechanical diffusion in phase space (See the phase space formulation and the Wigner-Weyl transform). This more algebraic approach not only permits ultimately extending probability distributions in phase space to Wigner quasi-probability distributions, but, at the mere Poisson bracket classical setting, also provides more power in helping analyze the relevant conserved quantities in a system.
+
+
+== Mathematical formalism ==
+Any smooth real-valued function H on a symplectic manifold can be used to define a Hamiltonian system. The function H is known as the Hamiltonian or the energy function. The symplectic manifold is then called the phase space. The Hamiltonian induces a special vector field on the symplectic manifold, known as the Hamiltonian vector field.
+The Hamiltonian vector field (a special type of symplectic vector field) induces a Hamiltonian flow on the manifold. This is a one-parameter family of transformations of the manifold (the parameter of the curves is commonly called the time); in other words an isotopy of symplectomorphisms, starting with the identity. By Liouville's theorem, each symplectomorphism preserves the volume form on the phase space. The collection of symplectomorphisms induced by the Hamiltonian flow is commonly called the Hamiltonian mechanics of the Hamiltonian system.
+The symplectic structure induces a Poisson bracket. The Poisson bracket gives the space of functions on the manifold the structure of a Lie algebra.
+Given a function f
+
+  
+    
+      
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        f
+        =
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        f
+        +
+        
+          {
+          f
+          ,
+          
+            
+              H
+            
+          
+          }
+        
+      
+    
+    {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}f={\frac {\partial }{\partial t}}f+\left\{f,{\mathcal {H}}\right\}}
+  
+If we have a probability distribution, ρ, then (since the phase space velocity (ṗi, q̇i) has zero divergence, and probability is conserved) its convective derivative can be shown to be zero and so
+
+  
+    
+      
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        ρ
+        =
+        −
+        
+          {
+          ρ
+          ,
+          
+            
+              H
+            
+          
+          }
+        
+      
+    
+    {\displaystyle {\frac {\partial }{\partial t}}\rho =-\left\{\rho ,{\mathcal {H}}\right\}}
+  
+This is called Liouville's theorem. Every smooth function G over the symplectic manifold generates a one-parameter family of symplectomorphisms and if {G, H} = 0, then G is conserved and the symplectomorphisms are symmetry transformations.
+A Hamiltonian may have multiple conserved quantities Gi. If the symplectic manifold has dimension 2n and there are n functionally independent conserved quantities Gi which are in involution (i.e., {Gi, Gj} = 0), then the Hamiltonian is Liouville integrable. The Liouville-Arnold theorem says that locally, any Liouville integrable Hamiltonian can be transformed via a symplectomorphism into a new Hamiltonian with the conserved quantities Gi as coordinates; the new coordinates are called action-angle coordinates. The transformed Hamiltonian depends only on the Gi, and hence the equations of motion have the simple form
+
+  
+    
+      
+        
+          
+            
+              
+                G
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        =
+        0
+        
+        ,
+        
+        
+          
+            
+              
+                φ
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        =
+        F
+        (
+        G
+        )
+      
+    
+    {\displaystyle {\dot {G}}_{i}=0\quad ,\quad {\dot {\varphi }}_{i}=F(G)}
+  
+for some function F (Arnol'd et al., 1988). There is an entire field focusing on small deviations from integrable systems governed by the KAM theorem.
+The integrability of Hamiltonian vector fields is an open question. In general, Hamiltonian systems are chaotic; concepts of measure, completeness, integrability and stability are poorly defined. At this time, the study of dynamical systems is primarily qualitative, and not a quantitative science.
+
+
+== Riemannian manifolds ==
+An important special case consists of those Hamiltonians that are quadratic forms, that is, Hamiltonians that can be written as
+
+  
+    
+      
+        
+          
+            H
+          
+        
+        (
+        q
+        ,
+        p
+        )
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        ⟨
+        p
+        ,
+        p
+        
+          ⟩
+          
+            q
+          
+        
+      
+    
+    {\displaystyle {\mathcal {H}}(q,p)={\tfrac {1}{2}}\langle p,p\rangle _{q}}
+  
+where ⟨ , ⟩q is a smoothly varying inner product on the fibers T∗qQ, the cotangent space to the point q in the configuration space, sometimes called a cometric. This Hamiltonian consists entirely of the kinetic term.
+If one considers a Riemannian manifold or a pseudo-Riemannian manifold, the Riemannian metric induces a linear isomorphism between the tangent and cotangent bundles. (See Musical isomorphism). Using this isomorphism, one can define a cometric. (In coordinates, the matrix defining the cometric is the inverse of the matrix defining the metric.) The solutions to the Hamilton–Jacobi equations for this Hamiltonian are then the same as the geodesics on the manifold. In particular, the Hamiltonian flow in this case is the same thing as the geodesic flow. The existence of such solutions, and the completeness of the set of solutions, are discussed in detail in the article on geodesics. See also Geodesics as Hamiltonian flows.
+
+
+== Sub-Riemannian manifolds ==
+When the cometric is degenerate, then it is not invertible. In this case, one does not have a Riemannian manifold, as one does not have a metric. However, the Hamiltonian still exists. In the case where the cometric is degenerate at every point q of the configuration space manifold Q, so that the rank of the cometric is less than the dimension of the manifold Q, one has a sub-Riemannian manifold.
+The Hamiltonian in this case is known as a sub-Riemannian Hamiltonian. Every such Hamiltonian uniquely determines the cometric, and vice versa. This implies that every sub-Riemannian manifold is uniquely determined by its sub-Riemannian Hamiltonian, and that the converse is true: every sub-Riemannian manifold has a unique sub-Riemannian Hamiltonian. The existence of sub-Riemannian geodesics is given by the Chow–Rashevskii theorem.
+The continuous, real-valued Heisenberg group provides a simple example of a sub-Riemannian manifold. For the Heisenberg group, the Hamiltonian is given by
+
+  
+    
+      
+        
+          
+            H
+          
+        
+        
+          (
+          x
+          ,
+          y
+          ,
+          z
+          ,
+          
+            p
+            
+              x
+            
+          
+          ,
+          
+            p
+            
+              y
+            
+          
+          ,
+          
+            p
+            
+              z
+            
+          
+          )
+        
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          (
+          
+            p
+            
+              x
+            
+            
+              2
+            
+          
+          +
+          
+            p
+            
+              y
+            
+            
+              2
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {\mathcal {H}}\left(x,y,z,p_{x},p_{y},p_{z}\right)={\tfrac {1}{2}}\left(p_{x}^{2}+p_{y}^{2}\right)}
+  
+pz is not involved in the Hamiltonian.
+
+
+== Poisson algebras ==
+Hamiltonian systems can be generalized in various ways. Instead of simply looking at the algebra of smooth functions over a symplectic manifold, Hamiltonian mechanics can be formulated on general commutative unital real Poisson algebras. A state is a continuous linear functional on the Poisson algebra (equipped with some suitable topology) such that for any element A of the algebra, A2 maps to a nonnegative real number.
+A further generalization is given by Nambu dynamics.
+
+
+== Charged particle in an electromagnetic field ==
+A good illustration of Hamiltonian mechanics is given by the Hamiltonian of a charged particle in an electromagnetic field. In Cartesian coordinates (i.e. qi = xi), the Lagrangian of a non-relativistic classical particle in an electromagnetic field is (in SI Units):
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          
+            
+              1
+              2
+            
+          
+        
+        m
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            i
+          
+          
+            2
+          
+        
+        +
+        
+          ∑
+          
+            i
+          
+        
+        e
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        
+          A
+          
+            i
+          
+        
+        −
+        e
+        φ
+      
+    
+    {\displaystyle {\mathcal {L}}=\sum _{i}{\tfrac {1}{2}}m{\dot {x}}_{i}^{2}+\sum _{i}e{\dot {x}}_{i}A_{i}-e\varphi }
+  
+where e is the electric charge of the particle (not necessarily the elementary charge), φ is the electric scalar potential, and the Ai are the components of the magnetic vector potential (these may be modified through a gauge transformation). This is called minimal coupling.
+The generalized momenta are given by:
+
+  
+    
+      
+        
+          p
+          
+            i
+          
+        
+        =
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      x
+                      ˙
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        m
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        +
+        e
+        
+          A
+          
+            i
+          
+        
+      
+    
+    {\displaystyle p_{i}={\frac {\partial {\mathcal {L}}}{\partial {\dot {x}}_{i}}}=m{\dot {x}}_{i}+eA_{i}}
+  
+Rearranging, the velocities are expressed in terms of the momenta:
+
+  
+    
+      
+        
+          
+            
+              
+                x
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        =
+        
+          
+            
+              
+                p
+                
+                  i
+                
+              
+              −
+              e
+              
+                A
+                
+                  i
+                
+              
+            
+            m
+          
+        
+      
+    
+    {\displaystyle {\dot {x}}_{i}={\frac {p_{i}-eA_{i}}{m}}}
+  
+If we substitute the definition of the momenta, and the definitions of the velocities in terms of the momenta, into the definition of the Hamiltonian given above, and then simplify and rearrange, we get:
+
+  
+    
+      
+        
+          
+            H
+          
+        
+        =
+        
+          {
+          
+            ∑
+            
+              i
+            
+          
+          
+            
+              
+                
+                  x
+                  ˙
+                
+              
+            
+            
+              i
+            
+          
+          
+            p
+            
+              i
+            
+          
+          }
+        
+        −
+        
+          
+            L
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          
+            
+              
+                (
+                
+                  p
+                  
+                    i
+                  
+                
+                −
+                e
+                
+                  A
+                  
+                    i
+                  
+                
+                )
+              
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        +
+        e
+        φ
+      
+    
+    {\displaystyle {\mathcal {H}}=\left\{\sum _{i}{\dot {x}}_{i}p_{i}\right\}-{\mathcal {L}}=\sum _{i}{\frac {\left(p_{i}-eA_{i}\right)^{2}}{2m}}+e\varphi }
+  
+This equation is used frequently in quantum mechanics.
+
+
+== Relativistic charged particle in an electromagnetic field ==
+The Lagrangian for a relativistic charged particle is given by:
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        (
+        t
+        )
+        =
+        −
+        m
+        
+          c
+          
+            2
+          
+        
+        
+          
+            1
+            −
+            
+              
+                
+                  
+                    
+                      
+                        
+                          
+                            x
+                          
+                          ˙
+                        
+                      
+                    
+                    (
+                    t
+                    )
+                  
+                  
+                    2
+                  
+                
+                
+                  c
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+        −
+        e
+        φ
+        
+          (
+          
+            x
+          
+          (
+          t
+          )
+          ,
+          t
+          )
+        
+        +
+        e
+        
+          
+            
+              
+                x
+              
+              ˙
+            
+          
+        
+        (
+        t
+        )
+        ⋅
+        
+          A
+        
+        
+          (
+          
+            x
+          
+          (
+          t
+          )
+          ,
+          t
+          )
+        
+      
+    
+    {\displaystyle {\mathcal {L}}(t)=-mc^{2}{\sqrt {1-{\frac {{{\dot {\mathbf {x} }}(t)}^{2}}{c^{2}}}}}-e\varphi \left(\mathbf {x} (t),t\right)+e{\dot {\mathbf {x} }}(t)\cdot \mathbf {A} \left(\mathbf {x} (t),t\right)}
+  
+Thus the particle's canonical (total) momentum is
+
+  
+    
+      
+        
+          P
+        
+        (
+        t
+        )
+        =
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+              (
+              t
+              )
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      x
+                    
+                    ˙
+                  
+                
+              
+              (
+              t
+              )
+            
+          
+        
+        =
+        
+          
+            
+              m
+              
+                
+                  
+                    
+                      x
+                    
+                    ˙
+                  
+                
+              
+              (
+              t
+              )
+            
+            
+              1
+              −
+              
+                
+                  
+                    
+                      
+                        
+                          
+                            
+                              x
+                            
+                            ˙
+                          
+                        
+                      
+                      (
+                      t
+                      )
+                    
+                    
+                      2
+                    
+                  
+                  
+                    c
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+        
+        +
+        e
+        
+          A
+        
+        
+          (
+          
+            x
+          
+          (
+          t
+          )
+          ,
+          t
+          )
+        
+      
+    
+    {\displaystyle \mathbf {P} (t)={\frac {\partial {\mathcal {L}}(t)}{\partial {\dot {\mathbf {x} }}(t)}}={\frac {m{\dot {\mathbf {x} }}(t)}{\sqrt {1-{\frac {{{\dot {\mathbf {x} }}(t)}^{2}}{c^{2}}}}}}+e\mathbf {A} \left(\mathbf {x} (t),t\right)}
+  
+that is, the sum of the kinetic momentum and the potential momentum.
+Solving for the velocity, we get
+
+  
+    
+      
+        
+          
+            
+              
+                x
+              
+              ˙
+            
+          
+        
+        (
+        t
+        )
+        =
+        
+          
+            
+              
+                P
+              
+              (
+              t
+              )
+              −
+              e
+              
+                A
+              
+              (
+              
+                x
+              
+              (
+              t
+              )
+              ,
+              t
+              )
+            
+            
+              
+                m
+                
+                  2
+                
+              
+              +
+              
+                
+                  1
+                  
+                    c
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    (
+                    
+                      P
+                    
+                    (
+                    t
+                    )
+                    −
+                    e
+                    
+                      A
+                    
+                    
+                      (
+                      
+                        x
+                      
+                      (
+                      t
+                      )
+                      ,
+                      t
+                      )
+                    
+                    )
+                  
+                
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\dot {\mathbf {x} }}(t)={\frac {\mathbf {P} (t)-e\mathbf {A} (\mathbf {x} (t),t)}{\sqrt {m^{2}+{\frac {1}{c^{2}}}{\left(\mathbf {P} (t)-e\mathbf {A} \left(\mathbf {x} (t),t\right)\right)}^{2}}}}}
+  
+So the Hamiltonian is
+
+  
+    
+      
+        
+          
+            H
+          
+        
+        (
+        t
+        )
+        =
+        
+          
+            
+              
+                x
+              
+              ˙
+            
+          
+        
+        (
+        t
+        )
+        ⋅
+        
+          P
+        
+        
+        (
+        t
+        )
+        −
+        
+          
+            L
+          
+        
+        (
+        t
+        )
+        =
+        c
+        
+          
+            
+              m
+              
+                2
+              
+            
+            
+              c
+              
+                2
+              
+            
+            +
+            
+              
+                
+                  (
+                  
+                    P
+                  
+                  
+                  (
+                  t
+                  )
+                  −
+                  e
+                  
+                    A
+                  
+                  (
+                  
+                    x
+                  
+                  (
+                  t
+                  )
+                  ,
+                  t
+                  )
+                  )
+                
+              
+              
+                2
+              
+            
+          
+        
+        +
+        e
+        φ
+        (
+        
+          x
+        
+        (
+        t
+        )
+        ,
+        t
+        )
+      
+    
+    {\displaystyle {\mathcal {H}}(t)={\dot {\mathbf {x} }}(t)\cdot \mathbf {P} \,(t)-{\mathcal {L}}(t)=c{\sqrt {m^{2}c^{2}+{\left(\mathbf {P} \,(t)-e\mathbf {A} (\mathbf {x} (t),t)\right)}^{2}}}+e\varphi (\mathbf {x} (t),t)}
+  
+From this we get the force equation (equivalent to the Euler–Lagrange equation)
+
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ˙
+            
+          
+        
+        =
+        −
+        
+          
+            
+              ∂
+              
+                
+                  H
+                
+              
+            
+            
+              ∂
+              
+                x
+              
+            
+          
+        
+        =
+        e
+        (
+        
+          ∇
+        
+        
+          A
+        
+        )
+        ⋅
+        
+          
+            
+              
+                x
+              
+              ˙
+            
+          
+        
+        −
+        e
+        
+          ∇
+        
+        φ
+      
+    
+    {\displaystyle {\dot {\mathbf {P} }}=-{\frac {\partial {\mathcal {H}}}{\partial \mathbf {x} }}=e({\boldsymbol {\nabla }}\mathbf {A} )\cdot {\dot {\mathbf {x} }}-e{\boldsymbol {\nabla }}\varphi }
+  
+from which one can derive
+
+  
+    
+      
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        
+          (
+          
+            
+              
+                m
+                
+                  
+                    
+                      
+                        x
+                      
+                      ˙
+                    
+                  
+                
+              
+              
+                1
+                −
+                
+                  
+                    
+                      
+                        
+                          
+                            
+                              x
+                            
+                            ˙
+                          
+                        
+                      
+                      
+                        2
+                      
+                    
+                    
+                      c
+                      
+                        2
+                      
+                    
+                  
+                
+              
+            
+          
+          )
+        
+        =
+        e
+        
+          E
+        
+        +
+        e
+        
+          
+            
+              
+                x
+              
+              ˙
+            
+          
+        
+        ×
+        
+          B
+        
+      
+    
+    {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} t}}\left({\frac {m{\dot {\mathbf {x} }}}{\sqrt {1-{\frac {{\dot {\mathbf {x} }}^{2}}{c^{2}}}}}}\right)=e\mathbf {E} +e{\dot {\mathbf {x} }}\times \mathbf {B} }
+  
+An equivalent expression for the Hamiltonian as function of the relativistic (kinetic) momentum, p = γmẋ(t), is
+
+  
+    
+      
+        
+          
+            H
+          
+        
+        (
+        t
+        )
+        =
+        
+          
+            
+              
+                x
+              
+              ˙
+            
+          
+        
+        (
+        t
+        )
+        ⋅
+        
+          p
+        
+        (
+        t
+        )
+        +
+        
+          
+            
+              m
+              
+                c
+                
+                  2
+                
+              
+            
+            γ
+          
+        
+        +
+        e
+        φ
+        (
+        
+          x
+        
+        (
+        t
+        )
+        ,
+        t
+        )
+        =
+        γ
+        m
+        
+          c
+          
+            2
+          
+        
+        +
+        e
+        φ
+        (
+        
+          x
+        
+        (
+        t
+        )
+        ,
+        t
+        )
+        =
+        E
+        +
+        V
+      
+    
+    {\displaystyle {\mathcal {H}}(t)={\dot {\mathbf {x} }}(t)\cdot \mathbf {p} (t)+{\frac {mc^{2}}{\gamma }}+e\varphi (\mathbf {x} (t),t)=\gamma mc^{2}+e\varphi (\mathbf {x} (t),t)=E+V}
+  
+This has the advantage that p can be measured experimentally whereas P cannot. Notice that the Hamiltonian (total energy) can be viewed as the sum of the relativistic energy (kinetic+rest), E = γmc2, plus the potential energy, V = eφ.
+
+
+== See also ==
+Canonical transformation
+Classical field theory
+Hamiltonian field theory
+Covariant Hamiltonian field theory
+Classical mechanics
+Dynamical systems theory
+Hamilton–Jacobi equation
+Hamilton–Jacobi–Einstein equation
+Lagrangian mechanics
+Maxwell's equations
+Hamiltonian (quantum mechanics)
+Quantum Hamilton's equations
+Quantum field theory
+Hamiltonian optics
+De Donder–Weyl theory
+Geometric mechanics
+Routhian mechanics
+Nambu mechanics
+Hamiltonian fluid mechanics
+
+
+== References ==
+
+
+=== Footnotes ===
+
+
+=== Sources ===
+Arnol'd, V. I. (1989), Mathematical Methods of Classical Mechanics, Springer-Verlag, ISBN 0-387-96890-3 
+Abraham, R.; Marsden, J.E. (1978), Foundations of Mechanics, London: Benjamin-Cummings, ISBN 0-8053-0102-X 
+Arnol'd, V. I.; Kozlov, V. V.; Neĩshtadt, A. I. (1988), Mathematical aspects of classical and celestial mechanics, 3, Springer-Verlag 
+Vinogradov, A. M.; Kupershmidt, B. A. (1981), The structure of Hamiltonian mechanics (DjVu), London Math. Soc. Lect. Notes Ser., 60, London: Cambridge Univ. Press 
+
+
+== External links ==
+Binney, James J., Classical Mechanics (lecture notes) (PDF), University of Oxford, retrieved 27 October 2010 
+Tong, David, Classical Dynamics (Cambridge lecture notes), University of Cambridge, retrieved 27 October 2010 
+Hamilton, William Rowan, On a General Method in Dynamics, Trinity College Dublin

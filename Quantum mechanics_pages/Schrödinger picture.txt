@@ -1,0 +1,1092 @@
+In physics, the Schrödinger picture (also called the Schrödinger representation) is a formulation of quantum mechanics in which the state vectors evolve in time, but the operators (observables and others) are constant with respect to time. This differs from the Heisenberg picture which keeps the states constant while the observables evolve in time, and from the interaction picture in which both the states and the observables evolve in time. The Schrödinger and Heisenberg pictures are related as active and passive transformations and commutation relations between operators are preserved in the passage between the two pictures.
+In the Schrödinger picture, the state of a system evolves with time. The evolution for a closed quantum system is brought about by a unitary operator, the time evolution operator. For time evolution from a state vector 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        ⟩
+      
+    
+    {\displaystyle |\psi (t_{0})\rangle }
+   at time t0 to a state vector 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        t
+        )
+        ⟩
+      
+    
+    {\displaystyle |\psi (t)\rangle }
+   at time t, the time-evolution operator is commonly written 
+  
+    
+      
+        U
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+      
+    
+    {\displaystyle U(t,t_{0})}
+  , and one has
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        t
+        )
+        ⟩
+        =
+        U
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        
+          |
+        
+        ψ
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        ⟩
+        .
+      
+    
+    {\displaystyle |\psi (t)\rangle =U(t,t_{0})|\psi (t_{0})\rangle .}
+  
+In the case where the Hamiltonian of the system does not vary with time, the time-evolution operator has the form
+
+  
+    
+      
+        U
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        =
+        
+          e
+          
+            −
+            i
+            H
+            (
+            t
+            −
+            
+              t
+              
+                0
+              
+            
+            )
+            
+              /
+            
+            ℏ
+          
+        
+        ,
+      
+    
+    {\displaystyle U(t,t_{0})=e^{-iH(t-t_{0})/\hbar },}
+  
+where the exponent is evaluated via its Taylor series.
+The Schrödinger picture is useful when dealing with a time-independent Hamiltonian H; that is, 
+  
+    
+      
+        
+          ∂
+          
+            t
+          
+        
+        H
+        =
+        0
+      
+    
+    {\displaystyle \partial _{t}H=0}
+  .
+
+
+== Background ==
+In elementary quantum mechanics, the state of a quantum-mechanical system is represented by a complex-valued wavefunction ψ(x, t). More abstractly, the state may be represented as a state vector, or ket, 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  . This ket is an element of a Hilbert space, a vector space containing all possible states of the system. A quantum-mechanical operator is a function which takes a ket 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   and returns some other ket 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          ′
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi '\rangle }
+  .
+The differences between the Schrödinger and Heisenberg pictures of quantum mechanics revolve around how to deal with systems that evolve in time: the time-dependent nature of the system must be carried by some combination of the state vectors and the operators. For example, a quantum harmonic oscillator may be in a state 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   for which the expectation value of the momentum, 
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle \langle \psi |{\hat {p}}|\psi \rangle }
+  , oscillates sinusoidally in time. One can then ask whether this sinusoidal oscillation should be reflected in the state vector 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  , the momentum operator 
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {p}}}
+  , or both. All three of these choices are valid; the first gives the Schrödinger picture, the second the Heisenberg picture, and the third the interaction picture.
+
+
+== The time evolution operator ==
+
+
+=== Definition ===
+The time-evolution operator U(t, t0) is defined as the operator which acts on the ket at time t0 to produce the ket at some other time t:
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        t
+        )
+        ⟩
+        =
+        U
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        
+          |
+        
+        ψ
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        ⟩
+        .
+      
+    
+    {\displaystyle |\psi (t)\rangle =U(t,t_{0})|\psi (t_{0})\rangle .}
+  
+For bras, we instead have
+
+  
+    
+      
+        ⟨
+        ψ
+        (
+        t
+        )
+        
+          |
+        
+        =
+        ⟨
+        ψ
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        
+          |
+        
+        
+          U
+          
+            †
+          
+        
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle \langle \psi (t)|=\langle \psi (t_{0})|U^{\dagger }(t,t_{0}).}
+  
+
+
+=== Properties ===
+Unitarity
+The time evolution operator must be unitary. This is because we demand that the norm of the state ket must not change with time. That is,
+
+  
+    
+      
+        ⟨
+        ψ
+        (
+        t
+        )
+        
+          |
+        
+        ψ
+        (
+        t
+        )
+        ⟩
+        =
+        ⟨
+        ψ
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        
+          |
+        
+        
+          U
+          
+            †
+          
+        
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        U
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        
+          |
+        
+        ψ
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        ⟩
+        =
+        ⟨
+        ψ
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        
+          |
+        
+        ψ
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        ⟩
+        .
+      
+    
+    {\displaystyle \langle \psi (t)|\psi (t)\rangle =\langle \psi (t_{0})|U^{\dagger }(t,t_{0})U(t,t_{0})|\psi (t_{0})\rangle =\langle \psi (t_{0})|\psi (t_{0})\rangle .}
+  
+Therefore,
+
+  
+    
+      
+        
+          U
+          
+            †
+          
+        
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        U
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        =
+        I
+        .
+      
+    
+    {\displaystyle U^{\dagger }(t,t_{0})U(t,t_{0})=I.}
+  
+Identity
+When t = t0, U is the identity operator, since
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        ⟩
+        =
+        U
+        (
+        
+          t
+          
+            0
+          
+        
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        
+          |
+        
+        ψ
+        (
+        
+          t
+          
+            0
+          
+        
+        )
+        ⟩
+        .
+      
+    
+    {\displaystyle |\psi (t_{0})\rangle =U(t_{0},t_{0})|\psi (t_{0})\rangle .}
+  
+Closure
+Time evolution from t0 to t may be viewed as a two-step time evolution, first from t0 to an intermediate time t1, and then from t1 to the final time t. Therefore,
+
+  
+    
+      
+        U
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        =
+        U
+        (
+        t
+        ,
+        
+          t
+          
+            1
+          
+        
+        )
+        U
+        (
+        
+          t
+          
+            1
+          
+        
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle U(t,t_{0})=U(t,t_{1})U(t_{1},t_{0}).}
+  
+
+
+=== Differential equation for time evolution operator ===
+We drop the t0 index in the time evolution operator with the convention that t0 = 0 and write it as U(t). The Schrödinger equation is
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        
+          |
+        
+        ψ
+        (
+        t
+        )
+        ⟩
+        =
+        H
+        
+          |
+        
+        ψ
+        (
+        t
+        )
+        ⟩
+        ,
+      
+    
+    {\displaystyle i\hbar {\frac {\partial }{\partial t}}|\psi (t)\rangle =H|\psi (t)\rangle ,}
+  
+where H is the Hamiltonian. Now using the time-evolution operator U to write 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        t
+        )
+        ⟩
+        =
+        U
+        (
+        t
+        )
+        
+          |
+        
+        ψ
+        (
+        0
+        )
+        ⟩
+      
+    
+    {\displaystyle |\psi (t)\rangle =U(t)|\psi (0)\rangle }
+  , we have
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        U
+        (
+        t
+        )
+        
+          |
+        
+        ψ
+        (
+        0
+        )
+        ⟩
+        =
+        H
+        U
+        (
+        t
+        )
+        
+          |
+        
+        ψ
+        (
+        0
+        )
+        ⟩
+        .
+      
+    
+    {\displaystyle i\hbar {\partial  \over \partial t}U(t)|\psi (0)\rangle =HU(t)|\psi (0)\rangle .}
+  
+Since 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        0
+        )
+        ⟩
+      
+    
+    {\displaystyle |\psi (0)\rangle }
+   is a constant ket (the state ket at t = 0), and since the above equation is true for any constant ket in the Hilbert space, the time evolution operator must obey the equation
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        U
+        (
+        t
+        )
+        =
+        H
+        U
+        (
+        t
+        )
+        .
+      
+    
+    {\displaystyle i\hbar {\partial  \over \partial t}U(t)=HU(t).}
+  
+If the Hamiltonian is independent of time, the solution to the above equation is
+
+  
+    
+      
+        U
+        (
+        t
+        )
+        =
+        
+          e
+          
+            −
+            i
+            H
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        .
+      
+    
+    {\displaystyle U(t)=e^{-iHt/\hbar }.}
+  
+Since H is an operator, this exponential expression is to be evaluated via its Taylor series:
+
+  
+    
+      
+        
+          e
+          
+            −
+            i
+            H
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        =
+        1
+        −
+        
+          
+            
+              i
+              H
+              t
+            
+            ℏ
+          
+        
+        −
+        
+          
+            1
+            2
+          
+        
+        
+          
+            (
+            
+              
+                
+                  H
+                  t
+                
+                ℏ
+              
+            
+            )
+          
+          
+            2
+          
+        
+        +
+        ⋯
+        .
+      
+    
+    {\displaystyle e^{-iHt/\hbar }=1-{\frac {iHt}{\hbar }}-{\frac {1}{2}}\left({\frac {Ht}{\hbar }}\right)^{2}+\cdots .}
+  
+Therefore,
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        t
+        )
+        ⟩
+        =
+        
+          e
+          
+            −
+            i
+            H
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        
+          |
+        
+        ψ
+        (
+        0
+        )
+        ⟩
+        .
+      
+    
+    {\displaystyle |\psi (t)\rangle =e^{-iHt/\hbar }|\psi (0)\rangle .}
+  
+Note that 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        0
+        )
+        ⟩
+      
+    
+    {\displaystyle |\psi (0)\rangle }
+   is an arbitrary ket. However, if the initial ket is an eigenstate of the Hamiltonian, with eigenvalue E, we get:
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        t
+        )
+        ⟩
+        =
+        
+          e
+          
+            −
+            i
+            E
+            t
+            
+              /
+            
+            ℏ
+          
+        
+        
+          |
+        
+        ψ
+        (
+        0
+        )
+        ⟩
+        .
+      
+    
+    {\displaystyle |\psi (t)\rangle =e^{-iEt/\hbar }|\psi (0)\rangle .}
+  
+Thus we see that the eigenstates of the Hamiltonian are stationary states: they only pick up an overall phase factor as they evolve with time.
+If the Hamiltonian is dependent on time, but the Hamiltonians at different times commute, then the time evolution operator can be written as
+
+  
+    
+      
+        U
+        (
+        t
+        )
+        =
+        exp
+        ⁡
+        
+          (
+          
+            −
+            
+              
+                i
+                ℏ
+              
+            
+            
+              ∫
+              
+                0
+              
+              
+                t
+              
+            
+            H
+            (
+            
+              t
+              ′
+            
+            )
+            
+            d
+            
+              t
+              ′
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle U(t)=\exp \left({-{\frac {i}{\hbar }}\int _{0}^{t}H(t')\,dt'}\right),}
+  
+If the Hamiltonian is dependent on time, but the Hamiltonians at different times do not commute, then the time evolution operator can be written as
+
+  
+    
+      
+        U
+        (
+        t
+        )
+        =
+        
+          T
+        
+        exp
+        ⁡
+        
+          (
+          
+            −
+            
+              
+                i
+                ℏ
+              
+            
+            
+              ∫
+              
+                0
+              
+              
+                t
+              
+            
+            H
+            (
+            
+              t
+              ′
+            
+            )
+            
+            d
+            
+              t
+              ′
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle U(t)=\mathrm {T} \exp \left({-{\frac {i}{\hbar }}\int _{0}^{t}H(t')\,dt'}\right),}
+  
+where T is time-ordering operator, which is sometimes known as the Dyson series, after F J Dyson.
+The alternative to the Schrödinger picture is to switch to a rotating reference frame, which is itself being rotated by the propagator. Since the undulatory rotation is now being assumed by the reference frame itself, an undisturbed state function appears to be truly static. This is the Heisenberg picture.
+
+
+== Summary comparison of evolution in all pictures ==
+
+
+== See also ==
+Hamilton–Jacobi equation
+Interaction picture
+Heisenberg picture
+
+
+== Notes ==
+
+
+== References ==
+Cohen-Tannoudji, Claude; Bernard Diu; Frank Laloe (1977). Quantum Mechanics (Volume One). Paris: Wiley. pp. 312–314. ISBN 0-471-16433-X. 
+Albert Messiah, 1966. Quantum Mechanics (Vol. I), English translation from French by G. M. Temmer. North Holland, John Wiley & Sons.
+Merzbacher E., Quantum Mechanics (3rd ed., John Wiley 1998) p. 430–1 ISBN 0-471-88702-1
+L.D. Landau, E.M. Lifshitz (1977). Quantum Mechanics: Non-Relativistic Theory. Vol. 3 (3rd ed.). Pergamon Press. ISBN 978-0-08-020940-1.  Online copy
+R. Shankar (1994); Principles of Quantum Mechanics, Plenum Press, ISBN 978-0-306-44790-7 .
+J. J. Sakurai (1993); Modern Quantum mechanics (Revised Edition), ISBN 978-0-201-53929-5 .

@@ -1,0 +1,889 @@
+In quantum mechanics, the consistent histories (also referred to as decoherent histories) approach is intended to give a modern interpretation of quantum mechanics, generalising the conventional Copenhagen interpretation and providing a natural interpretation of quantum cosmology. This interpretation of quantum mechanics is based on a consistency criterion that then allows probabilities to be assigned to various alternative histories of a system such that the probabilities for each history obey the rules of classical probability while being consistent with the Schrödinger equation. In contrast to some interpretations of quantum mechanics, particularly the Copenhagen interpretation, the framework does not include "wavefunction collapse" as a relevant description of any physical process, and emphasizes that measurement theory is not a fundamental ingredient of quantum mechanics.
+
+
+== Histories ==
+A homogeneous history 
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle H_{i}}
+   (here 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+   labels different histories) is a sequence of Propositions 
+  
+    
+      
+        
+          P
+          
+            i
+            ,
+            j
+          
+        
+      
+    
+    {\displaystyle P_{i,j}}
+   specified at different moments of time 
+  
+    
+      
+        
+          t
+          
+            i
+            ,
+            j
+          
+        
+      
+    
+    {\displaystyle t_{i,j}}
+   (here 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+   labels the times). We write this as:
+
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+        =
+        (
+        
+          P
+          
+            i
+            ,
+            1
+          
+        
+        ,
+        
+          P
+          
+            i
+            ,
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          P
+          
+            i
+            ,
+            
+              n
+              
+                i
+              
+            
+          
+        
+        )
+      
+    
+    {\displaystyle H_{i}=(P_{i,1},P_{i,2},\ldots ,P_{i,n_{i}})}
+  
+and read it as "the proposition 
+  
+    
+      
+        
+          P
+          
+            i
+            ,
+            1
+          
+        
+      
+    
+    {\displaystyle P_{i,1}}
+   is true at time 
+  
+    
+      
+        
+          t
+          
+            i
+            ,
+            1
+          
+        
+      
+    
+    {\displaystyle t_{i,1}}
+   and then the proposition 
+  
+    
+      
+        
+          P
+          
+            i
+            ,
+            2
+          
+        
+      
+    
+    {\displaystyle P_{i,2}}
+   is true at time 
+  
+    
+      
+        
+          t
+          
+            i
+            ,
+            2
+          
+        
+      
+    
+    {\displaystyle t_{i,2}}
+   and then 
+  
+    
+      
+        …
+      
+    
+    {\displaystyle \ldots }
+  ". The times 
+  
+    
+      
+        
+          t
+          
+            i
+            ,
+            1
+          
+        
+        <
+        
+          t
+          
+            i
+            ,
+            2
+          
+        
+        <
+        …
+        <
+        
+          t
+          
+            i
+            ,
+            
+              n
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle t_{i,1}<t_{i,2}<\ldots <t_{i,n_{i}}}
+   are strictly ordered and called the temporal support of the history.
+Inhomogeneous histories are multiple-time propositions which cannot be represented by a homogeneous history. An example is the logical OR of two homogeneous histories: 
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+        ∨
+        
+          H
+          
+            j
+          
+        
+      
+    
+    {\displaystyle H_{i}\lor H_{j}}
+  .
+These propositions can correspond to any set of questions that include all possibilities. Examples might be the three propositions meaning "the electron went through the left slit", "the electron went through the right slit" and "the electron didn't go through either slit". One of the aims of the theory is to show that classical questions such as, "where are my keys?" are consistent. In this case one might use a large number of propositions each one specifying the location of the keys in some small region of space.
+Each single-time proposition 
+  
+    
+      
+        
+          P
+          
+            i
+            ,
+            j
+          
+        
+      
+    
+    {\displaystyle P_{i,j}}
+   can be represented by a projection operator 
+  
+    
+      
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            i
+            ,
+            j
+          
+        
+      
+    
+    {\displaystyle {\hat {P}}_{i,j}}
+   acting on the system's Hilbert space (we use "hats" to denote operators). It is then useful to represent homogeneous histories by the time-ordered tensor product of their single-time projection operators. This is the history projection operator (HPO) formalism developed by Christopher Isham and naturally encodes the logical structure of the history propositions. The homogeneous history 
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle H_{i}}
+   is represented by the projection operator
+
+  
+    
+      
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            i
+          
+        
+        =
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            i
+            ,
+            1
+          
+        
+        ⊗
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            i
+            ,
+            2
+          
+        
+        ⊗
+        ⋯
+        ⊗
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            i
+            ,
+            
+              n
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}_{i}={\hat {P}}_{i,1}\otimes {\hat {P}}_{i,2}\otimes \cdots \otimes {\hat {P}}_{i,n_{i}}}
+  
+This definition can be extended to define projection operators that represent inhomogeneous histories too.
+
+
+== Consistency ==
+An important construction in the consistent histories approach is the class operator for a homogeneous history:
+
+  
+    
+      
+        
+          
+            
+              
+                C
+                ^
+              
+            
+          
+          
+            
+              H
+              
+                i
+              
+            
+          
+        
+        :=
+        T
+        
+          ∏
+          
+            j
+            =
+            1
+          
+          
+            
+              n
+              
+                i
+              
+            
+          
+        
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            i
+            ,
+            j
+          
+        
+        (
+        
+          t
+          
+            i
+            ,
+            j
+          
+        
+        )
+        =
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            i
+            ,
+            1
+          
+        
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            i
+            ,
+            2
+          
+        
+        ⋯
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            i
+            ,
+            
+              n
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {C}}_{H_{i}}:=T\prod _{j=1}^{n_{i}}{\hat {P}}_{i,j}(t_{i,j})={\hat {P}}_{i,1}{\hat {P}}_{i,2}\cdots {\hat {P}}_{i,n_{i}}}
+  
+The symbol 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+   indicates that the factors in the product are ordered chronologically according to their values of 
+  
+    
+      
+        
+          t
+          
+            i
+            ,
+            j
+          
+        
+      
+    
+    {\displaystyle t_{i,j}}
+  : the "past" operators with smaller values of 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   appear on the right side, and the "future" operators with greater values of 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   appear on the left side. This definition can be extended to inhomogeneous histories as well.
+Central to the consistent histories is the notion of consistency. A set of histories 
+  
+    
+      
+        {
+        
+          H
+          
+            i
+          
+        
+        }
+      
+    
+    {\displaystyle \{H_{i}\}}
+   is consistent (or strongly consistent) if
+
+  
+    
+      
+        Tr
+        ⁡
+        (
+        
+          
+            
+              
+                C
+                ^
+              
+            
+          
+          
+            
+              H
+              
+                i
+              
+            
+          
+        
+        ρ
+        
+          
+            
+              
+                C
+                ^
+              
+            
+          
+          
+            
+              H
+              
+                j
+              
+            
+          
+          
+            †
+          
+        
+        )
+        =
+        0
+      
+    
+    {\displaystyle \operatorname {Tr} ({\hat {C}}_{H_{i}}\rho {\hat {C}}_{H_{j}}^{\dagger })=0}
+  
+for all 
+  
+    
+      
+        i
+        ≠
+        j
+      
+    
+    {\displaystyle i\neq j}
+  . Here 
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+   represents the initial density matrix, and the operators are expressed in the Heisenberg picture.
+The set of histories is weakly consistent if
+
+  
+    
+      
+        Tr
+        ⁡
+        (
+        
+          
+            
+              
+                C
+                ^
+              
+            
+          
+          
+            
+              H
+              
+                i
+              
+            
+          
+        
+        ρ
+        
+          
+            
+              
+                C
+                ^
+              
+            
+          
+          
+            
+              H
+              
+                j
+              
+            
+          
+          
+            †
+          
+        
+        )
+        ≈
+        0
+      
+    
+    {\displaystyle \operatorname {Tr} ({\hat {C}}_{H_{i}}\rho {\hat {C}}_{H_{j}}^{\dagger })\approx 0}
+  
+for all 
+  
+    
+      
+        i
+        ≠
+        j
+      
+    
+    {\displaystyle i\neq j}
+  .
+
+
+== Probabilities ==
+If a set of histories is consistent then probabilities can be assigned to them in a consistent way. We postulate that the probability of history 
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle H_{i}}
+   is simply
+
+  
+    
+      
+        Pr
+        ⁡
+        (
+        
+          H
+          
+            i
+          
+        
+        )
+        =
+        Tr
+        ⁡
+        (
+        
+          
+            
+              
+                C
+                ^
+              
+            
+          
+          
+            
+              H
+              
+                i
+              
+            
+          
+        
+        ρ
+        
+          
+            
+              
+                C
+                ^
+              
+            
+          
+          
+            
+              H
+              
+                i
+              
+            
+          
+          
+            †
+          
+        
+        )
+      
+    
+    {\displaystyle \operatorname {Pr} (H_{i})=\operatorname {Tr} ({\hat {C}}_{H_{i}}\rho {\hat {C}}_{H_{i}}^{\dagger })}
+  
+which obeys the axioms of probability if the histories 
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle H_{i}}
+   come from the same (strongly) consistent set.
+As an example, this means the probability of "
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle H_{i}}
+   OR 
+  
+    
+      
+        
+          H
+          
+            j
+          
+        
+      
+    
+    {\displaystyle H_{j}}
+  " equals the probability of "
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle H_{i}}
+  " plus the probability of "
+  
+    
+      
+        
+          H
+          
+            j
+          
+        
+      
+    
+    {\displaystyle H_{j}}
+  " minus the probability of "
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle H_{i}}
+   AND 
+  
+    
+      
+        
+          H
+          
+            j
+          
+        
+      
+    
+    {\displaystyle H_{j}}
+  ", and so forth.
+
+
+== Interpretation ==
+The interpretation based on consistent histories is used in combination with the insights about quantum decoherence. Quantum decoherence implies that irreversible macroscopic phenomena (hence, all classical measurements) render histories automatically consistent, which allows one to recover classical reasoning and "common sense" when applied to the outcomes of these measurements. More precise analysis of decoherence allows (in principle) a quantitative calculation of the boundary between the classical domain and the quantum domain covariance. According to Roland Omnès,
+
+[the] history approach, although it was initially independent of the Copenhagen approach, is in some sense a more elaborate version of it. It has, of course, the advantage of being more precise, of including classical physics, and of providing an explicit logical framework for indisputable proofs. But, when the Copenhagen interpretation is completed by the modern results about correspondence and decoherence, it essentially amounts to the same physics.
+[... There are] three main differences:
+1. The logical equivalence between an empirical datum, which is a macroscopic phenomenon, and the result of a measurement, which is a quantum property, becomes clearer in the new approach, whereas it remained mostly tacit and questionable in the Copenhagen formulation.
+2. There are two apparently distinct notions of probability in the new approach. One is abstract and directed toward logic, whereas the other is empirical and expresses the randomness of measurements. We need to understand their relation and why they coincide with the empirical notion entering into the Copenhagen rules.
+3. The main difference lies in the meaning of the reduction rule for ‘wave packet collapse’. In the new approach, the rule is valid but no specific effect on the measured object can be held responsible for it. Decoherence in the measuring device is enough.
+
+In order to obtain a complete theory, the formal rules above must be supplemented with a particular Hilbert space and rules that govern dynamics, for example a Hamiltonian.
+In the opinion of others this still does not make a complete theory as no predictions are possible about which set of consistent histories will actually occur. That is the rules of Consistent Histories, the Hilbert space, and the Hamiltonian must be supplemented by a set selection rule. However, Griffiths holds the opinion that asking the question of which set of histories will "actually occur" is a misinterpretation of the theory; histories are a tool for description of reality, not separate alternate realities.
+The proponents of this Consistent Histories interpretation, such as Murray Gell-Mann, James Hartle, Roland Omnès and Robert B. Griffiths argue that their interpretation clarifies the fundamental disadvantages of the old Copenhagen interpretation, and can be used as a complete interpretational framework for quantum mechanics.
+In Quantum Philosophy, Roland Omnès provides a less mathematical way of understanding this same formalism. The consistent histories approach can be interpreted as a way of understanding which sets of classical questions can be consistently asked of a single quantum system, and which sets of questions are fundamentally inconsistent, and thus meaningless when asked together. It thus becomes possible to demonstrate formally why it is that the questions which Einstein, Podolsky and Rosen assumed could be asked together, of a single quantum system, simply cannot be asked together. On the other hand, it also becomes possible to demonstrate that classical, logical reasoning often does apply, even to quantum experiments – but we can now be mathematically exact about the limits of classical logic.
+
+
+== See also ==
+HPO formalism
+Physical ontology
+
+
+== References ==

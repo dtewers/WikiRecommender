@@ -1,0 +1,81 @@
+Gustav Robert Kirchhoff (German: [ˈkɪʁçhɔf]; 12 March 1824 – 17 October 1887) was a German physicist who contributed to the fundamental understanding of electrical circuits, spectroscopy, and the emission of black-body radiation by heated objects.
+He coined the term "black body" radiation in 1862, and two different sets of concepts (one in circuit theory, and one in spectroscopy) are named "Kirchhoff's laws" after him; there is also a Kirchhoff's Law in thermochemistry. The Bunsen–Kirchhoff Award for spectroscopy is named after him and his colleague, Robert Bunsen.
+
+
+== Life and work ==
+Gustav Kirchhoff was born in Königsberg, Prussia, the son of Friedrich Kirchhoff, a lawyer, and Johanna Henriette Wittke. He graduated from the Albertus University of Königsberg in 1847 where he attended the mathematico-physical seminar directed by Carl Gustav Jacob Jacobi, Franz Ernst Neumann and Friedrich Julius Richelot. In the same year, he moved to Berlin, where he stayed until he received a professorship at Breslau. Later, in 1857, He married Clara Richelot, the daughter of his mathematics professor Richelot. The couple had five children. Clara died in 1869. He married Luise Brömmel in 1872.
+
+Kirchhoff formulated his circuit laws, which are now ubiquitous in electrical engineering, in 1845, while still a student. He completed this study as a seminar exercise; it later became his doctoral dissertation. In 1857 he calculated that an electric signal in a resistanceless wire travels along the wire at the speed of light. He proposed his law of thermal radiation in 1859, and gave a proof in 1861. He was called to the University of Heidelberg in 1854, where he collaborated in spectroscopic work with Robert Bunsen. Together Kirchhoff and Bunsen discovered caesium and rubidium in 1861. At Heidelberg he ran a mathematico-physical seminar, modelled on Neumann's, with the mathematician Leo Koenigsberger. Among those who attended this seminar were Arthur Schuster and Sofia Kovalevskaya. In 1875 Kirchhoff accepted the first chair specifically dedicated to theoretical physics at Berlin.
+In 1862 he was awarded the Rumford Medal for his researches on the fixed lines of the solar spectrum, and on the inversion of the bright lines in the spectra of artificial light.
+He contributed greatly to the field of spectroscopy by formalizing three laws that describe the spectral composition of light emitted by incandescent objects, building substantially on the discoveries of David Alter and Anders Jonas Ångström (see also: spectrum analysis).
+He also contributed to optics, carefully solving Maxwell's equations to provide a solid foundation for Huygens' principle (and correct it in the process).
+In 1884 he became foreign member of the Royal Netherlands Academy of Arts and Sciences.
+Kirchhoff died in 1887, and was buried in the St Matthäus Kirchhof Cemetery in Schöneberg, Berlin (just a few meters from the graves of the Brothers Grimm).
+Leopold Kronecker is buried in the same cemetery.
+
+
+=== Kirchhoff's circuit laws ===
+
+Kirchhoff's first law is that the algebraic sum of currents in a network of conductors meeting at a point (or node) is zero. The second law is that in a closed circuit, the directed sums of the voltages in a closed system is zero.
+
+
+=== Kirchhoff's three laws of spectroscopy ===
+
+A solid, liquid, or dense gas excited to emit light will radiate at all wavelengths and thus produce a continuous spectrum.
+A low-density gas excited to emit light will do so at specific wavelengths and this produces an emission spectrum. (See also: emission spectrum)
+If light composing a continuous spectrum passes through a cool, low-density gas, the result will be an absorption spectrum.
+Kirchhoff did not know about the existence of energy levels in atoms. The existence of discrete spectral lines was later explained by the Bohr model of the atom, which helped lead to quantum mechanics.
+
+
+=== Kirchhoff's law of thermochemistry ===
+
+Kirchhoff showed in 1858 that the variation of the heat of a chemical reaction is given by the difference in heat capacity between products and reactants: dΔH / dT = ΔCp. Integration of this equation permits the evaluation of the heat of reaction at one temperature from measurements at another temperature.
+
+
+== See also ==
+
+Kirchhoff's circuit laws
+Kirchhoff equations
+Kirchhoff–Love plate theory
+Piola–Kirchhoff stress tensor
+Kirchhoff's law of thermal radiation
+Kirchhoff's three laws of spectroscopy
+Kirchhoff Institute of Physics
+Spectroscope
+Kirchhoff's theorem
+Kirchhoff's diffraction formula
+Kirchhoff integral theorem
+List of German inventors and discoverers
+
+
+== Notes ==
+
+
+== References ==
+Warburg, E. (1925). "Zur Erinnerung an Gustav Kirchhoff". Die Naturwissenschaften. 13 (11): 205. Bibcode:1925NW.....13..205W. doi:10.1007/BF01558883. 
+Stepanov, B. I. (1977). "Gustav Robert Kirchhoff (on the ninetieth anniversary of his death)". Journal of Applied Spectroscopy. 27 (3): 1099. Bibcode:1977JApSp..27.1099S. doi:10.1007/BF00625887. 
+Everest, A S (1969). "Kirchhoff-Gustav Robert 1824–1887". Physics Education. 4 (6): 341. Bibcode:1969PhyEd...4..341E. doi:10.1088/0031-9120/4/6/304. 
+Kirchhoff, Gustav (1860). "Ueber die Fraunhoferschen Linien". Monatsberichte der Königliche Preussische Akademie der Wissenschaften zu Berlin: 662–665. ISBN 978-1-113-39933-5.  HathiTrust full text. Partial English translation available in Magie, William Francis, A Source Book in Physics (1963). Cambridge: Harvard UP. p. 354-360.
+
+
+== Further reading ==
+
+Gustav Kirchhoff at the Mathematics Genealogy Project
+O'Connor, John J.; Robertson, Edmund F., "Gustav Kirchhoff", MacTutor History of Mathematics archive, University of St Andrews .
+Weisstein, Eric W. (ed.). "Kirchhoff, Gustav (1824–1887)". ScienceWorld. 
+Klaus Hentschel: Gustav Robert Kirchhoff und seine Zusammenarbeit mit Robert Wilhelm Bunsen, in: Karl von Meyenn (Hrsg.) Die Grossen Physiker, Munich: Beck, vol. 1 (1997), pp. 416–430, 475-477, 532-534.
+Klaus Hentschel: Mapping the Spectrum. Techniques of Visual Representation in Research and Teaching, Oxford: OUP, 2002.
+Kirchhoff's 1857 paper on the speed of electrical signals in a wire
+ Texts on Wikisource:
+"Kirchhoff, Gustav Robert". Encyclopedia Americana. 1920. 
+"Kirchhoff, Gustav Robert". The New Student's Reference Work. 1914. 
+"Kirchhoff, Gustav Robert". Encyclopædia Britannica (11th ed.). 1911. 
+"Kirchhoff, Gustav Robert". New International Encyclopedia. 1905. 
+"Sketch of Gustav Robert Kirchhoff". Popular Science Monthly. 33. May 1888. 
+"Kirchhoff, Gustav Robert". The American Cyclopædia. 1879. 
+
+
+== External links ==
+ Quotations related to Gustav Kirchhoff at Wikiquote
+ Media related to Gustav Robert Kirchhoff at Wikimedia Commons
+Open Library

@@ -1,0 +1,4839 @@
+Symmetries in quantum mechanics describe features of spacetime and particles which are unchanged under some transformation, in the context of quantum mechanics, relativistic quantum mechanics and quantum field theory, and with applications in the mathematical formulation of the standard model and condensed matter physics. In general, symmetry in physics, invariance, and conservation laws, are fundamentally important constraints for formulating physical theories and models. In practice, they are powerful methods for solving problems and predicting what can happen. While conservation laws do not always give the answer to the problem directly, they form the correct constraints and the first steps to solving many problem.
+This article outlines the connection between the classical form of continuous symmetries as well as their quantum operators, and relates them to the Lie groups, and relativistic transformations in the Lorentz group and Poincaré group.
+
+
+== Notation ==
+The notational conventions used in this article are as follows. Boldface indicates vectors, four vectors, matrices, and vectorial operators, while quantum states use bra–ket notation. Wide hats are for operators, narrow hats are for unit vectors (including their components in tensor index notation). The summation convention on the repeated tensor indices is used, unless stated otherwise. The Minkowski metric signature is (+−−−).
+
+
+== Symmetry transformations on the wavefunction in non-relativistic quantum mechanics ==
+
+
+=== Continuous symmetries ===
+Generally, the correspondence between continuous symmetries and conservation laws is given by Noether's theorem.
+The form of the fundamental quantum operators, for example energy as a partial time derivative and momentum as a spatial gradient, becomes clear when one considers the initial state, then changes one parameter of it slightly. This can be done for displacements (lengths), durations (time), and angles (rotations). Additionally, the invariance of certain quantities can be seen by making such changes in lengths and angles, which illustrates conservation of these quantities.
+In what follows, transformations on only one-particle wavefunctions in the form:
+
+  
+    
+      
+        
+          
+            
+              Ω
+              ^
+            
+          
+        
+        ψ
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        ψ
+        (
+        
+          
+            r
+          
+          ′
+        
+        ,
+        
+          t
+          ′
+        
+        )
+      
+    
+    {\displaystyle {\widehat {\Omega }}\psi (\mathbf {r} ,t)=\psi (\mathbf {r} ',t')}
+  
+are considered, where 
+  
+    
+      
+        
+          
+            
+              Ω
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {\Omega }}}
+   denotes a unitary operator. Unitarity is generally required for operators representing transformations of space, time, and spin, since the norm of a state (representing the total probability of finding the particle somewhere with some spin) must be invariant under these transformations. The inverse is the Hermitian conjugate 
+  
+    
+      
+        
+          
+            
+              
+                Ω
+                ^
+              
+            
+          
+          
+            −
+            1
+          
+        
+        =
+        
+          
+            
+              
+                Ω
+                ^
+              
+            
+          
+          
+            †
+          
+        
+      
+    
+    {\displaystyle {\widehat {\Omega }}^{-1}={\widehat {\Omega }}^{\dagger }}
+  . The results can be extended to many-particle wavefunctions. Written in Dirac notation as standard, the transformations on quantum state vectors are:
+
+  
+    
+      
+        
+          
+            
+              Ω
+              ^
+            
+          
+        
+        
+          |
+          
+            r
+          
+          (
+          t
+          )
+          ⟩
+        
+        =
+        
+          |
+          
+            
+              r
+            
+            ′
+          
+          (
+          
+            t
+            ′
+          
+          )
+          ⟩
+        
+      
+    
+    {\displaystyle {\widehat {\Omega }}\left|\mathbf {r} (t)\right\rangle =\left|\mathbf {r} '(t')\right\rangle }
+  
+Now, the action of 
+  
+    
+      
+        
+          
+            
+              Ω
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {\Omega }}}
+   changes ψ(r, t) to ψ(r′, t′), so the inverse 
+  
+    
+      
+        
+          
+            
+              Ω
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                Ω
+                ^
+              
+            
+          
+          
+            †
+          
+        
+      
+    
+    {\displaystyle {\widehat {\Omega }}={\widehat {\Omega }}^{\dagger }}
+   changes ψ(r′, t′) back to ψ(r, t), so an operator 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {A}}}
+   invariant under 
+  
+    
+      
+        
+          
+            
+              Ω
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {\Omega }}}
+   satisfies:
+
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ψ
+        =
+        
+          
+            
+              
+                Ω
+                ^
+              
+            
+          
+          
+            †
+          
+        
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        
+          
+            
+              Ω
+              ^
+            
+          
+        
+        ψ
+        
+        ⇒
+        
+        
+          
+            
+              Ω
+              ^
+            
+          
+        
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ψ
+        =
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        
+          
+            
+              Ω
+              ^
+            
+          
+        
+        ψ
+      
+    
+    {\displaystyle {\widehat {A}}\psi ={\widehat {\Omega }}^{\dagger }{\widehat {A}}{\widehat {\Omega }}\psi \quad \Rightarrow \quad {\widehat {\Omega }}{\widehat {A}}\psi ={\widehat {A}}{\widehat {\Omega }}\psi }
+  
+and thus:
+
+  
+    
+      
+        [
+        
+          
+            
+              Ω
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ]
+        ψ
+        =
+        0
+      
+    
+    {\displaystyle [{\widehat {\Omega }},{\widehat {A}}]\psi =0}
+  
+for any state ψ. Quantum operators representing observables are also required to be Hermitian so that their eigenvalues are real numbers, i.e. the operator equals its Hermitian conjugate, 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          
+            †
+          
+        
+      
+    
+    {\displaystyle {\widehat {A}}={\widehat {A}}^{\dagger }}
+  .
+
+
+=== Overview of Lie group theory ===
+
+Following are the key points of group theory relevant to quantum theory, examples are given throughout the article. For an alternative approach using matrix groups, see the books of Hall
+Let G be a Lie group, which is a group parameterized by a finite number N of real continuously varying parameters ξ1, ξ2, ... ξN.
+the dimension of the group, N, is the number of parameters it has.
+the group elements, g, in G are functions of the parameters:
+
+  
+    
+      
+        g
+        =
+        G
+        (
+        
+          ξ
+          
+            1
+          
+        
+        ,
+        
+          ξ
+          
+            2
+          
+        
+        ,
+        ⋯
+        )
+      
+    
+    {\displaystyle g=G(\xi _{1},\xi _{2},\cdots )}
+  
+
+and all parameters set to zero returns the identity element of the group:
+
+  
+    
+      
+        I
+        =
+        G
+        (
+        0
+        ,
+        0
+        ⋯
+        )
+      
+    
+    {\displaystyle I=G(0,0\cdots )}
+  
+
+Group elements are often matrices which act on vectors, or transformations acting on functions.
+The generators of the group are the partial derivatives of the group elements with respect to the group parameters with the result evaluated when the parameter is set to zero:
+
+  
+    
+      
+        
+          X
+          
+            j
+          
+        
+        =
+        
+          
+            
+            
+              
+                
+                  ∂
+                  g
+                
+                
+                  ∂
+                  
+                    ξ
+                    
+                      j
+                    
+                  
+                
+              
+            
+            |
+          
+          
+            
+              ξ
+              
+                j
+              
+            
+            =
+            0
+          
+        
+      
+    
+    {\displaystyle X_{j}=\left.{\frac {\partial g}{\partial \xi _{j}}}\right|_{\xi _{j}=0}}
+  
+
+One aspect of generators in theoretical physics is they can be construed themselves as operators corresponding to symmetries, which may be written as matrices, or as differential operators. In quantum theory, for unitary representations of the group, the generators require a factor of i:
+
+  
+    
+      
+        
+          X
+          
+            j
+          
+        
+        =
+        i
+        
+          
+            
+            
+              
+                
+                  ∂
+                  g
+                
+                
+                  ∂
+                  
+                    ξ
+                    
+                      j
+                    
+                  
+                
+              
+            
+            |
+          
+          
+            
+              ξ
+              
+                j
+              
+            
+            =
+            0
+          
+        
+      
+    
+    {\displaystyle X_{j}=i\left.{\frac {\partial g}{\partial \xi _{j}}}\right|_{\xi _{j}=0}}
+  
+
+The generators of the group form a vector space, which means linear combinations of generators also form a generator.
+The generators (whether matrices or differential operators) satisfy the commutator:
+
+  
+    
+      
+        
+          [
+          
+            X
+            
+              a
+            
+          
+          ,
+          
+            X
+            
+              b
+            
+          
+          ]
+        
+        =
+        i
+        
+          f
+          
+            a
+            b
+            c
+          
+        
+        
+          X
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \left[X_{a},X_{b}\right]=if_{abc}X_{c}}
+  
+
+where fabc are the (basis dependent) structure constants of the group. This makes, together with the vector space property, the set of all generators of a group a Lie algebra. Due to the antisymmetry of the bracket, the structure constants of the group are antisymmetric in the first two indices.
+The representations of the group are denoted using a capital D and defined by:
+
+  
+    
+      
+        D
+        [
+        g
+        (
+        
+          ξ
+          
+            j
+          
+        
+        )
+        ]
+        ≡
+        D
+        (
+        
+          ξ
+          
+            j
+          
+        
+        )
+        =
+        
+          e
+          
+            i
+            
+              ξ
+              
+                j
+              
+            
+            D
+            (
+            
+              X
+              
+                j
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle D[g(\xi _{j})]\equiv D(\xi _{j})=e^{i\xi _{j}D(X_{j})}}
+  
+
+without summation on the repeated index j. Representations are linear operators that take in group elements and preserve the composition rule:
+
+  
+    
+      
+        D
+        (
+        
+          ξ
+          
+            a
+          
+        
+        )
+        D
+        (
+        
+          ξ
+          
+            b
+          
+        
+        )
+        =
+        D
+        (
+        
+          ξ
+          
+            a
+          
+        
+        
+          ξ
+          
+            b
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle D(\xi _{a})D(\xi _{b})=D(\xi _{a}\xi _{b}).}
+  
+
+A representation which cannot be decomposed into a direct sum of other representations, is called irreducible. It is conventional to label irreducible representations by a superscripted number n in brackets, as in D(n), or if there is more than one number, we write D(n, m, ... ).
+Representations also exist for the generators and the same notation of a capital D is used in this context: D(X). The D in the representation of a generator D(X) is not the same mapping as the D in a representation of a group element, nevertheless this notational abuse of using the same letter to denote two different mappings is used in the literature. An example of this abuse is to be found in the defining equation above.
+
+
+=== Momentum and energy as generators of translation and time evolution, and rotation ===
+The space translation operator 
+  
+    
+      
+        
+          
+            
+              T
+              ^
+            
+          
+        
+        (
+        Δ
+        
+          r
+        
+        )
+      
+    
+    {\displaystyle {\widehat {T}}(\Delta \mathbf {r} )}
+   acts on a wavefunction to shift the space coordinates by an infinitesimal displacement Δr. The explicit expression 
+  
+    
+      
+        
+          
+            
+              T
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {T}}}
+   can be quickly determined by a Taylor expansion of ψ(r + Δr, t) about r, then (keeping the first order term and neglecting second and higher order terms), replace the space derivatives by the momentum operator 
+  
+    
+      
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {\mathbf {p} }}}
+  . Similarly for the time translation operator acting on the time parameter, the Taylor expansion of ψ(r, t + Δt) is about t, and the time derivative replaced by the energy operator 
+  
+    
+      
+        
+          
+            
+              E
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {E}}}
+  .
+
+The exponential functions arise by definition as those limits, due to Euler, and can be understood physically and mathematically as follows. A net translation can be composed of many small translations, so to obtain the translation operator for a finite increment, replace Δr by Δr/N and Δt by Δt/N, where N is a positive non-zero integer. Then as N increases, the magnitude of Δr and Δt become even smaller, while leaving the directions unchanged. Acting the infinitesimal operators on the wavefunction N times and taking the limit as N tends to infinity gives the finite operators.
+Space and time translations commute, which means the operators and generators commute.
+
+For a time-independent Hamiltonian, energy is conserved in time and quantum states are stationary states: the eigenstates of the Hamiltonian are the energy eigenvalues E:
+
+  
+    
+      
+        
+          
+            
+              U
+              ^
+            
+          
+        
+        (
+        t
+        )
+        =
+        exp
+        ⁡
+        
+          (
+          −
+          
+            
+              
+                i
+                Δ
+                t
+                E
+              
+              ℏ
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {\widehat {U}}(t)=\exp \left(-{\frac {i\Delta tE}{\hbar }}\right)}
+  
+and all stationary states have the form
+
+  
+    
+      
+        ψ
+        (
+        
+          r
+        
+        ,
+        t
+        +
+        
+          t
+          
+            0
+          
+        
+        )
+        =
+        
+          
+            
+              U
+              ^
+            
+          
+        
+        (
+        t
+        −
+        
+          t
+          
+            0
+          
+        
+        )
+        ψ
+        (
+        
+          r
+        
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+      
+    
+    {\displaystyle \psi (\mathbf {r} ,t+t_{0})={\widehat {U}}(t-t_{0})\psi (\mathbf {r} ,t_{0})}
+  
+where t0 is the initial time, usually set to zero since there is no loss of continuity when the initial time is set.
+An alternative notation is 
+  
+    
+      
+        
+          
+            
+              U
+              ^
+            
+          
+        
+        (
+        t
+        −
+        
+          t
+          
+            0
+          
+        
+        )
+        ≡
+        U
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+      
+    
+    {\displaystyle {\widehat {U}}(t-t_{0})\equiv U(t,t_{0})}
+  .
+
+
+=== Angular momentum as the generator of rotations ===
+
+
+==== Orbital angular momentum ====
+The rotation operator acts on a wavefunction to rotate the spatial coordinates of a particle by a constant angle Δθ:
+
+  
+    
+      
+        
+          R
+        
+        (
+        Δ
+        θ
+        ,
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        )
+        ψ
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        ψ
+        (
+        
+          
+            r
+          
+          ′
+        
+        ,
+        t
+        )
+      
+    
+    {\displaystyle {R}(\Delta \theta ,{\hat {\mathbf {a} }})\psi (\mathbf {r} ,t)=\psi (\mathbf {r} ',t)}
+  
+where r′ are the rotated coordinates about an axis defined by a unit vector 
+  
+    
+      
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        =
+        (
+        
+          a
+          
+            1
+          
+        
+        ,
+        
+          a
+          
+            2
+          
+        
+        ,
+        
+          a
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle {\hat {\mathbf {a} }}=(a_{1},a_{2},a_{3})}
+   through an angular increment Δθ, given by:
+
+  
+    
+      
+        
+          
+            r
+          
+          ′
+        
+        =
+        
+          
+            
+              R
+              ^
+            
+          
+        
+        (
+        Δ
+        θ
+        ,
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        )
+        
+          r
+        
+        
+        .
+      
+    
+    {\displaystyle \mathbf {r} '={\widehat {R}}(\Delta \theta ,{\hat {\mathbf {a} }})\mathbf {r} \,.}
+  
+where 
+  
+    
+      
+        
+          
+            
+              R
+              ^
+            
+          
+        
+        (
+        Δ
+        θ
+        ,
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        )
+      
+    
+    {\displaystyle {\widehat {R}}(\Delta \theta ,{\hat {\mathbf {a} }})}
+   is a rotation matrix dependent on the axis and angle. In group theoretic language, the rotation matrices are group elements, and the angles and axis 
+  
+    
+      
+        Δ
+        θ
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        =
+        Δ
+        θ
+        (
+        
+          a
+          
+            1
+          
+        
+        ,
+        
+          a
+          
+            2
+          
+        
+        ,
+        
+          a
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle \Delta \theta {\hat {\mathbf {a} }}=\Delta \theta (a_{1},a_{2},a_{3})}
+   are the parameters, of the three-dimensional special orthogonal group, SO(3). The rotation matrices about the standard Cartesian basis vector 
+  
+    
+      
+        
+          
+            
+              
+                
+                  e
+                
+                ^
+              
+            
+          
+          
+            x
+          
+        
+        ,
+        
+          
+            
+              
+                
+                  e
+                
+                ^
+              
+            
+          
+          
+            y
+          
+        
+        ,
+        
+          
+            
+              
+                
+                  e
+                
+                ^
+              
+            
+          
+          
+            z
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {e} }}_{x},{\hat {\mathbf {e} }}_{y},{\hat {\mathbf {e} }}_{z}}
+   through angle Δθ, and the corresponding generators of rotations J = (Jx, Jy, Jz), are:
+
+More generally for rotations about an axis defined by 
+  
+    
+      
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {a} }}}
+  , the rotation matrix elements are:
+
+  
+    
+      
+        [
+        
+          
+            
+              R
+              ^
+            
+          
+        
+        (
+        θ
+        ,
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        )
+        
+          ]
+          
+            i
+            j
+          
+        
+        =
+        (
+        
+          δ
+          
+            i
+            j
+          
+        
+        −
+        
+          a
+          
+            i
+          
+        
+        
+          a
+          
+            j
+          
+        
+        )
+        cos
+        ⁡
+        θ
+        −
+        
+          ε
+          
+            i
+            j
+            k
+          
+        
+        
+          a
+          
+            k
+          
+        
+        sin
+        ⁡
+        θ
+        +
+        
+          a
+          
+            i
+          
+        
+        
+          a
+          
+            j
+          
+        
+      
+    
+    {\displaystyle [{\widehat {R}}(\theta ,{\hat {\mathbf {a} }})]_{ij}=(\delta _{ij}-a_{i}a_{j})\cos \theta -\varepsilon _{ijk}a_{k}\sin \theta +a_{i}a_{j}}
+  
+where δij is the Kronecker delta, and εijk is the Levi-Civita symbol.
+It is not as obvious how to determine the rotational operator compared to space and time translations. We may consider a special case (rotations about the x, y, or z-axis) then infer the general result, or use the general rotation matrix directly and tensor index notation with δij and εijk. To derive the infinitesimal rotation operator, which corresponds to small Δθ, we use the small angle approximations sin(Δθ) ≈ Δθ and cos(Δθ) ≈ 1, then Taylor expand about r or ri, keep the first order term, and substitute the angular momentum operator components.
+
+The z-component of angular momentum can be replaced by the component along the axis defined by 
+  
+    
+      
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {a} }}}
+  , using the dot product 
+  
+    
+      
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        ⋅
+        
+          
+            
+              
+                L
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {a} }}\cdot {\widehat {\mathbf {L} }}}
+  .
+Again, a finite rotation can be made from lots of small rotations, replacing Δθ by Δθ/N and taking the limit as N tends to infinity gives the rotation operator for a finite rotation.
+Rotations about the same axis do commute, for example a rotation through angles θ1 and θ2 about axis i can be written
+
+  
+    
+      
+        R
+        (
+        
+          θ
+          
+            1
+          
+        
+        +
+        
+          θ
+          
+            2
+          
+        
+        ,
+        
+          
+            e
+          
+          
+            i
+          
+        
+        )
+        =
+        R
+        (
+        
+          θ
+          
+            1
+          
+        
+        
+          
+            e
+          
+          
+            i
+          
+        
+        )
+        R
+        (
+        
+          θ
+          
+            2
+          
+        
+        
+          
+            e
+          
+          
+            i
+          
+        
+        )
+        
+        ,
+        
+        [
+        R
+        (
+        
+          θ
+          
+            1
+          
+        
+        
+          
+            e
+          
+          
+            i
+          
+        
+        )
+        ,
+        R
+        (
+        
+          θ
+          
+            2
+          
+        
+        
+          
+            e
+          
+          
+            i
+          
+        
+        )
+        ]
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle R(\theta _{1}+\theta _{2},\mathbf {e} _{i})=R(\theta _{1}\mathbf {e} _{i})R(\theta _{2}\mathbf {e} _{i})\,,\quad [R(\theta _{1}\mathbf {e} _{i}),R(\theta _{2}\mathbf {e} _{i})]=0\,.}
+  
+However, rotations about different axes do not commute. The general commutation rules are summarized by
+
+  
+    
+      
+        [
+        
+          L
+          
+            i
+          
+        
+        ,
+        
+          L
+          
+            j
+          
+        
+        ]
+        =
+        i
+        ℏ
+        
+          ε
+          
+            i
+            j
+            k
+          
+        
+        
+          L
+          
+            k
+          
+        
+        .
+      
+    
+    {\displaystyle [L_{i},L_{j}]=i\hbar \varepsilon _{ijk}L_{k}.}
+  
+In this sense, orbital angular momentum has the common sense properties of rotations. Each of the above commutators can be easily demonstrated by holding an everyday object and rotating it through the same angle about any two different axes in both possible orderings; the final configurations are different.
+In quantum mechanics, there is another form of rotation which mathematically appears similar to the orbital case, but has different properties, described next.
+
+
+==== Spin angular momentum ====
+All previous quantities have classical definitions. Spin is a quantity possessed by particles in quantum mechanics without any classical analogue, having the units of angular momentum. The spin vector operator is denoted 
+  
+    
+      
+        
+          
+            
+              
+                S
+              
+              ^
+            
+          
+        
+        =
+        (
+        
+          
+            
+              
+                S
+                
+                  x
+                
+              
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              
+                S
+                
+                  y
+                
+              
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              
+                S
+                
+                  z
+                
+              
+              ^
+            
+          
+        
+        )
+      
+    
+    {\displaystyle {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}})}
+  . The eigenvalues of its components are the possible outcomes (in units of 
+  
+    
+      
+        ℏ
+      
+    
+    {\displaystyle \hbar }
+  ) of a measurement of the spin projected onto one of the basis directions.
+Rotations (of ordinary space) about an axis 
+  
+    
+      
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {a} }}}
+   through angle θ about the unit vector 
+  
+    
+      
+        
+          
+            
+              a
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {a}}}
+   in space acting on a multicomponent wave function (spinor) at a point in space is represented by:
+
+However, unlike orbital angular momentum in which the z-projection quantum number ℓ can only take positive or negative integer values (including zero), the z-projection spin quantum number s can take all positive and negative half-integer values. There are rotational matrices for each spin quantum number.
+Evaluating the exponential for a given z-projection spin quantum number s gives a (2s + 1)-dimensional spin matrix. This can be used to define a spinor as a column vector of 2s + 1 components which transforms to a rotated coordinate system according to the spin matrix at a fixed point in space.
+For the simplest non-trivial case of s = 1/2, the spin operator is given by
+
+  
+    
+      
+        
+          
+            
+              
+                S
+              
+              ^
+            
+          
+        
+        =
+        
+          
+            ℏ
+            2
+          
+        
+        
+          σ
+        
+      
+    
+    {\displaystyle {\widehat {\mathbf {S} }}={\frac {\hbar }{2}}{\boldsymbol {\sigma }}}
+  
+where the Pauli matrices in the standard representation are:
+
+  
+    
+      
+        
+          σ
+          
+            1
+          
+        
+        =
+        
+          σ
+          
+            x
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+                
+                  1
+                
+              
+              
+                
+                  1
+                
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          σ
+          
+            2
+          
+        
+        =
+        
+          σ
+          
+            y
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+                
+                  −
+                  i
+                
+              
+              
+                
+                  i
+                
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          σ
+          
+            3
+          
+        
+        =
+        
+          σ
+          
+            z
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  −
+                  1
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \sigma _{1}=\sigma _{x}={\begin{pmatrix}0&1\\1&0\end{pmatrix}}\,,\quad \sigma _{2}=\sigma _{y}={\begin{pmatrix}0&-i\\i&0\end{pmatrix}}\,,\quad \sigma _{3}=\sigma _{z}={\begin{pmatrix}1&0\\0&-1\end{pmatrix}}}
+  
+
+
+==== Total angular momentum ====
+The total angular momentum operator is the sum of the orbital and spin
+
+  
+    
+      
+        
+          
+            
+              
+                J
+              
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                L
+              
+              ^
+            
+          
+        
+        +
+        
+          
+            
+              
+                S
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {\mathbf {J} }}={\widehat {\mathbf {L} }}+{\widehat {\mathbf {S} }}}
+  
+and is an important quantity for multi-particle systems, especially in nuclear physics and the quantum chemistry of multi-electron atoms and molecules.
+We have a similar rotation matrix:
+
+  
+    
+      
+        
+          
+            
+              J
+              ^
+            
+          
+        
+        (
+        θ
+        ,
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        )
+        =
+        exp
+        ⁡
+        
+          (
+          −
+          
+            
+              i
+              ℏ
+            
+          
+          θ
+          
+            
+              
+                
+                  a
+                
+                ^
+              
+            
+          
+          ⋅
+          
+            
+              
+                
+                  J
+                
+                ^
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {\widehat {J}}(\theta ,{\hat {\mathbf {a} }})=\exp \left(-{\frac {i}{\hbar }}\theta {\hat {\mathbf {a} }}\cdot {\widehat {\mathbf {J} }}\right)}
+  
+
+
+=== Conserved quantities in the Quantum Harmonic Oscillator ===
+The dynamical symmetry group of the n dimensional quantum harmonic oscillator is the special unitary group SU(n). As an example, the number of infinitesimal generators of the corresponding Lie algebras of SU(2) and SU(3) are three and eight respectively. This leads to exactly three and eight independent conserved quantities (other than the Hamiltonian) in these systems.
+The two dimensional quantum harmonic oscillator has the expected conserved quantities of the Hamiltonian and the angular momentum, but has additional hidden conserved quantities of energy level difference and another form of angular momentum.
+
+
+== Lorentz group in relativistic quantum mechanics ==
+Following is an overview of the Lorentz group; a treatment of boosts and rotations in spacetime. Throughout this section, see (for example) T. Ohlsson (2011) and E. Abers (2004).
+Lorentz transformations can be parametrized by rapidity φ for a boost in the direction of a three-dimensional unit vector 
+  
+    
+      
+        
+          
+            
+              
+                n
+              
+              ^
+            
+          
+        
+        =
+        (
+        
+          n
+          
+            1
+          
+        
+        ,
+        
+          n
+          
+            2
+          
+        
+        ,
+        
+          n
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle {\hat {\mathbf {n} }}=(n_{1},n_{2},n_{3})}
+  , and a rotation angle θ about a three-dimensional unit vector 
+  
+    
+      
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        =
+        (
+        
+          a
+          
+            1
+          
+        
+        ,
+        
+          a
+          
+            2
+          
+        
+        ,
+        
+          a
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle {\hat {\mathbf {a} }}=(a_{1},a_{2},a_{3})}
+   defining an axis, so 
+  
+    
+      
+        φ
+        
+          
+            
+              
+                n
+              
+              ^
+            
+          
+        
+        =
+        φ
+        (
+        
+          n
+          
+            1
+          
+        
+        ,
+        
+          n
+          
+            2
+          
+        
+        ,
+        
+          n
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle \varphi {\hat {\mathbf {n} }}=\varphi (n_{1},n_{2},n_{3})}
+   and 
+  
+    
+      
+        θ
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        =
+        θ
+        (
+        
+          a
+          
+            1
+          
+        
+        ,
+        
+          a
+          
+            2
+          
+        
+        ,
+        
+          a
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle \theta {\hat {\mathbf {a} }}=\theta (a_{1},a_{2},a_{3})}
+   are together six parameters of the Lorentz group (three for rotations and three for boosts). The Lorentz group is 6-dimensional.
+
+
+=== Pure rotations in spacetime ===
+The rotation matrices and rotation generators considered above form the spacelike part of a four-dimensional matrix, representing pure-rotation Lorentz transformations. Three of the Lorentz group elements 
+  
+    
+      
+        
+          
+            
+              
+                R
+                ^
+              
+            
+          
+          
+            x
+          
+        
+        ,
+        
+          
+            
+              
+                R
+                ^
+              
+            
+          
+          
+            y
+          
+        
+        ,
+        
+          
+            
+              
+                R
+                ^
+              
+            
+          
+          
+            z
+          
+        
+      
+    
+    {\displaystyle {\widehat {R}}_{x},{\widehat {R}}_{y},{\widehat {R}}_{z}}
+   and generators J = (J1, J2, J3) for pure rotations are:
+
+The rotation matrices act on any four vector A = (A0, A1, A2, A3) and rotate the space-like components according to
+
+  
+    
+      
+        
+          
+            A
+          
+          ′
+        
+        =
+        
+          
+            
+              R
+              ^
+            
+          
+        
+        (
+        Δ
+        θ
+        ,
+        
+          
+            
+              
+                n
+              
+              ^
+            
+          
+        
+        )
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {A} '={\widehat {R}}(\Delta \theta ,{\hat {\mathbf {n} }})\mathbf {A} }
+  
+leaving the time-like coordinate unchanged. In matrix expressions, A is treated as a column vector.
+
+
+=== Pure boosts in spacetime ===
+A boost with velocity ctanhφ in the x, y, or z directions given by the standard Cartesian basis vector 
+  
+    
+      
+        
+          
+            
+              
+                
+                  e
+                
+                ^
+              
+            
+          
+          
+            x
+          
+        
+        ,
+        
+          
+            
+              
+                
+                  e
+                
+                ^
+              
+            
+          
+          
+            y
+          
+        
+        ,
+        
+          
+            
+              
+                
+                  e
+                
+                ^
+              
+            
+          
+          
+            z
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {e} }}_{x},{\hat {\mathbf {e} }}_{y},{\hat {\mathbf {e} }}_{z}}
+  , are the boost transformation matrices. These matrices 
+  
+    
+      
+        
+          
+            
+              
+                B
+                ^
+              
+            
+          
+          
+            x
+          
+        
+        ,
+        
+          
+            
+              
+                B
+                ^
+              
+            
+          
+          
+            y
+          
+        
+        ,
+        
+          
+            
+              
+                B
+                ^
+              
+            
+          
+          
+            z
+          
+        
+      
+    
+    {\displaystyle {\widehat {B}}_{x},{\widehat {B}}_{y},{\widehat {B}}_{z}}
+   and the corresponding generators K = (K1, K2, K3) are the remaining three group elements and generators of the Lorentz group:
+
+The boost matrices act on any four vector A = (A0, A1, A2, A3) and mix the time-like and the space-like components, according to:
+
+  
+    
+      
+        
+          
+            A
+          
+          ′
+        
+        =
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        (
+        φ
+        ,
+        
+          
+            
+              
+                n
+              
+              ^
+            
+          
+        
+        )
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {A} '={\widehat {B}}(\varphi ,{\hat {\mathbf {n} }})\mathbf {A} }
+  
+The term "boost" refers to the relative velocity between two frames, and is not to be conflated with momentum as the generator of translations, as explained below.
+
+
+=== Combining boosts and rotations ===
+Products of rotations give another rotation (a frequent exemplification of a subgroup), while products of boosts and boosts or of rotations and boosts cannot be expressed as pure boosts or pure rotations. In general, any Lorentz transformation can be expressed as a product of a pure rotation and a pure boost. For more background see (for example) B.R. Durney (2011) and H.L. Berk et al. and references therein.
+The boost and rotation generators have representations denoted D(K) and D(J) respectively, the capital D in this context indicates a group representation.
+For the Lorentz group, the representations D(K) and D(J) of the generators K and J fulfill the following commutation rules.
+
+In all commutators, the boost entities mixed with those for rotations, although rotations alone simply give another rotation. Exponentiating the generators gives the boost and rotation operators which combine into the general Lorentz transformation, under which the spacetime coordinates transform from one rest frame to another boosted and/or rotating frame. Likewise, exponentiating the representations of the generators gives the representations of the boost and rotation operators, under which a particle's spinor field transforms.
+
+In the literature, the boost generators K and rotation generators J are sometimes combined into one generator for Lorentz transformations M, an antisymmetric four-dimensional matrix with entries:
+
+  
+    
+      
+        
+          M
+          
+            0
+            a
+          
+        
+        =
+        −
+        
+          M
+          
+            a
+            0
+          
+        
+        =
+        
+          K
+          
+            a
+          
+        
+        
+        ,
+        
+        
+          M
+          
+            a
+            b
+          
+        
+        =
+        
+          ε
+          
+            a
+            b
+            c
+          
+        
+        
+          J
+          
+            c
+          
+        
+        
+        .
+      
+    
+    {\displaystyle M^{0a}=-M^{a0}=K_{a}\,,\quad M^{ab}=\varepsilon _{abc}J_{c}\,.}
+  
+and correspondingly, the boost and rotation parameters are collected into another antisymmetric four-dimensional matrix ω, with entries:
+
+  
+    
+      
+        
+          ω
+          
+            0
+            a
+          
+        
+        =
+        −
+        
+          ω
+          
+            a
+            0
+          
+        
+        =
+        φ
+        
+          n
+          
+            a
+          
+        
+        
+        ,
+        
+        
+          ω
+          
+            a
+            b
+          
+        
+        =
+        θ
+        
+          ε
+          
+            a
+            b
+            c
+          
+        
+        
+          a
+          
+            c
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \omega _{0a}=-\omega _{a0}=\varphi n_{a}\,,\quad \omega _{ab}=\theta \varepsilon _{abc}a_{c}\,,}
+  
+The general Lorentz transformation is then:
+
+  
+    
+      
+        Λ
+        (
+        φ
+        ,
+        
+          
+            
+              
+                n
+              
+              ^
+            
+          
+        
+        ,
+        θ
+        ,
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        )
+        =
+        exp
+        ⁡
+        
+          (
+          −
+          
+            
+              i
+              2
+            
+          
+          
+            ω
+            
+              α
+              β
+            
+          
+          
+            M
+            
+              α
+              β
+            
+          
+          )
+        
+        =
+        exp
+        ⁡
+        
+          [
+          −
+          
+            
+              i
+              2
+            
+          
+          
+            (
+            φ
+            
+              
+                
+                  
+                    n
+                  
+                  ^
+                
+              
+            
+            ⋅
+            
+              K
+            
+            +
+            θ
+            
+              
+                
+                  
+                    a
+                  
+                  ^
+                
+              
+            
+            ⋅
+            
+              J
+            
+            )
+          
+          ]
+        
+      
+    
+    {\displaystyle \Lambda (\varphi ,{\hat {\mathbf {n} }},\theta ,{\hat {\mathbf {a} }})=\exp \left(-{\frac {i}{2}}\omega _{\alpha \beta }M^{\alpha \beta }\right)=\exp \left[-{\frac {i}{2}}\left(\varphi {\hat {\mathbf {n} }}\cdot \mathbf {K} +\theta {\hat {\mathbf {a} }}\cdot \mathbf {J} \right)\right]}
+  
+with summation over repeated matrix indices α and β. The Λ matrices act on any four vector A = (A0, A1, A2, A3) and mix the time-like and the space-like components, according to:
+
+  
+    
+      
+        
+          
+            A
+          
+          ′
+        
+        =
+        Λ
+        (
+        φ
+        ,
+        
+          
+            
+              
+                n
+              
+              ^
+            
+          
+        
+        ,
+        θ
+        ,
+        
+          
+            
+              
+                a
+              
+              ^
+            
+          
+        
+        )
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {A} '=\Lambda (\varphi ,{\hat {\mathbf {n} }},\theta ,{\hat {\mathbf {a} }})\mathbf {A} }
+  
+
+
+=== Transformations of spinor wavefunctions in relativistic quantum mechanics ===
+In relativistic quantum mechanics, wavefunctions are no longer single-component scalar fields, but now 2(2s + 1) component spinor fields, where s is the spin of the particle. The transformations of these functions in spacetime are given below.
+Under a proper orthochronous Lorentz transformation (r, t) → Λ(r, t) in Minkowski space, all one-particle quantum states ψσ locally transform under some representation D of the Lorentz group: 
+
+  
+    
+      
+        
+          ψ
+          
+            σ
+          
+        
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        →
+        D
+        (
+        Λ
+        )
+        
+          ψ
+          
+            σ
+          
+        
+        (
+        
+          Λ
+          
+            −
+            1
+          
+        
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        )
+      
+    
+    {\displaystyle \psi _{\sigma }(\mathbf {r} ,t)\rightarrow D(\Lambda )\psi _{\sigma }(\Lambda ^{-1}(\mathbf {r} ,t))}
+  
+where D(Λ) is a finite-dimensional representation, in other words a (2s + 1)×(2s + 1) dimensional square matrix, and ψ is thought of as a column vector containing components with the (2s + 1) allowed values of σ:
+
+  
+    
+      
+        ψ
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    ψ
+                    
+                      σ
+                      =
+                      s
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      σ
+                      =
+                      s
+                      −
+                      1
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      σ
+                      =
+                      −
+                      s
+                      +
+                      1
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      σ
+                      =
+                      −
+                      s
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+            
+            ]
+          
+        
+        
+        ⇌
+        
+        
+          
+            ψ
+            (
+            
+              r
+            
+            ,
+            t
+            )
+          
+          
+            †
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          σ
+                          =
+                          s
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          σ
+                          =
+                          s
+                          −
+                          1
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+                
+                  ⋯
+                
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          σ
+                          =
+                          −
+                          s
+                          +
+                          1
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          σ
+                          =
+                          −
+                          s
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \psi (\mathbf {r} ,t)={\begin{bmatrix}\psi _{\sigma =s}(\mathbf {r} ,t)\\\psi _{\sigma =s-1}(\mathbf {r} ,t)\\\vdots \\\psi _{\sigma =-s+1}(\mathbf {r} ,t)\\\psi _{\sigma =-s}(\mathbf {r} ,t)\end{bmatrix}}\quad \rightleftharpoons \quad {\psi (\mathbf {r} ,t)}^{\dagger }={\begin{bmatrix}{\psi _{\sigma =s}(\mathbf {r} ,t)}^{\star }&{\psi _{\sigma =s-1}(\mathbf {r} ,t)}^{\star }&\cdots &{\psi _{\sigma =-s+1}(\mathbf {r} ,t)}^{\star }&{\psi _{\sigma =-s}(\mathbf {r} ,t)}^{\star }\end{bmatrix}}}
+  
+
+
+=== Real irreducible representations and spin ===
+The irreducible representations of D(K) and D(J), in short "irreps", can be used to build to spin representations of the Lorentz group. Defining new operators:
+
+  
+    
+      
+        
+          A
+        
+        =
+        
+          
+            
+              
+                J
+              
+              +
+              i
+              
+                K
+              
+            
+            2
+          
+        
+        
+        ,
+        
+        
+          B
+        
+        =
+        
+          
+            
+              
+                J
+              
+              −
+              i
+              
+                K
+              
+            
+            2
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {A} ={\frac {\mathbf {J} +i\mathbf {K} }{2}}\,,\quad \mathbf {B} ={\frac {\mathbf {J} -i\mathbf {K} }{2}}\,,}
+  
+so A and B are simply complex conjugates of each other, it follows they satisfy the symmetrically formed commutators:
+
+  
+    
+      
+        
+          [
+          
+            A
+            
+              i
+            
+          
+          ,
+          
+            A
+            
+              j
+            
+          
+          ]
+        
+        =
+        
+          ε
+          
+            i
+            j
+            k
+          
+        
+        
+          A
+          
+            k
+          
+        
+        
+        ,
+        
+        
+          [
+          
+            B
+            
+              i
+            
+          
+          ,
+          
+            B
+            
+              j
+            
+          
+          ]
+        
+        =
+        
+          ε
+          
+            i
+            j
+            k
+          
+        
+        
+          B
+          
+            k
+          
+        
+        
+        ,
+        
+        
+          [
+          
+            A
+            
+              i
+            
+          
+          ,
+          
+            B
+            
+              j
+            
+          
+          ]
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle \left[A_{i},A_{j}\right]=\varepsilon _{ijk}A_{k}\,,\quad \left[B_{i},B_{j}\right]=\varepsilon _{ijk}B_{k}\,,\quad \left[A_{i},B_{j}\right]=0\,,}
+  
+and these are essentially the commutators the orbital and spin angular momentum operators satisfy. Therefore, A and B form operator algebras analogous to angular momentum; same ladder operators, z-projections, etc., independently of each other as each of their components mutually commute. By the analogy to the spin quantum number, we can introduce positive integers or half integers, a, b, with corresponding sets of values m = a, a − 1, ... −a + 1, −a and n = b, b − 1, ... −b + 1, −b. The matrices satisfying the above commutation relations are the same as for spins a and b have components given by multiplying Kronecker delta values with angular momentum matrix elements:
+
+  
+    
+      
+        
+          
+            (
+            
+              A
+              
+                x
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            
+              n
+              ′
+            
+            ,
+            m
+            n
+          
+        
+        =
+        
+          δ
+          
+            
+              n
+              ′
+            
+            n
+          
+        
+        
+          
+            (
+            
+              J
+              
+                x
+              
+              
+                (
+                m
+                )
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            m
+          
+        
+        
+        
+        
+          
+            (
+            
+              B
+              
+                x
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            
+              n
+              ′
+            
+            ,
+            m
+            n
+          
+        
+        =
+        
+          δ
+          
+            
+              m
+              ′
+            
+            m
+          
+        
+        
+          
+            (
+            
+              J
+              
+                x
+              
+              
+                (
+                n
+                )
+              
+            
+            )
+          
+          
+            
+              n
+              ′
+            
+            n
+          
+        
+      
+    
+    {\displaystyle \left(A_{x}\right)_{m'n',mn}=\delta _{n'n}\left(J_{x}^{(m)}\right)_{m'm}\,\quad \left(B_{x}\right)_{m'n',mn}=\delta _{m'm}\left(J_{x}^{(n)}\right)_{n'n}}
+  
+
+  
+    
+      
+        
+          
+            (
+            
+              A
+              
+                y
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            
+              n
+              ′
+            
+            ,
+            m
+            n
+          
+        
+        =
+        
+          δ
+          
+            
+              n
+              ′
+            
+            n
+          
+        
+        
+          
+            (
+            
+              J
+              
+                y
+              
+              
+                (
+                m
+                )
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            m
+          
+        
+        
+        
+        
+          
+            (
+            
+              B
+              
+                y
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            
+              n
+              ′
+            
+            ,
+            m
+            n
+          
+        
+        =
+        
+          δ
+          
+            
+              m
+              ′
+            
+            m
+          
+        
+        
+          
+            (
+            
+              J
+              
+                y
+              
+              
+                (
+                n
+                )
+              
+            
+            )
+          
+          
+            
+              n
+              ′
+            
+            n
+          
+        
+      
+    
+    {\displaystyle \left(A_{y}\right)_{m'n',mn}=\delta _{n'n}\left(J_{y}^{(m)}\right)_{m'm}\,\quad \left(B_{y}\right)_{m'n',mn}=\delta _{m'm}\left(J_{y}^{(n)}\right)_{n'n}}
+  
+
+  
+    
+      
+        
+          
+            (
+            
+              A
+              
+                z
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            
+              n
+              ′
+            
+            ,
+            m
+            n
+          
+        
+        =
+        
+          δ
+          
+            
+              n
+              ′
+            
+            n
+          
+        
+        
+          
+            (
+            
+              J
+              
+                z
+              
+              
+                (
+                m
+                )
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            m
+          
+        
+        
+        
+        
+          
+            (
+            
+              B
+              
+                z
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            
+              n
+              ′
+            
+            ,
+            m
+            n
+          
+        
+        =
+        
+          δ
+          
+            
+              m
+              ′
+            
+            m
+          
+        
+        
+          
+            (
+            
+              J
+              
+                z
+              
+              
+                (
+                n
+                )
+              
+            
+            )
+          
+          
+            
+              n
+              ′
+            
+            n
+          
+        
+      
+    
+    {\displaystyle \left(A_{z}\right)_{m'n',mn}=\delta _{n'n}\left(J_{z}^{(m)}\right)_{m'm}\,\quad \left(B_{z}\right)_{m'n',mn}=\delta _{m'm}\left(J_{z}^{(n)}\right)_{n'n}}
+  
+where in each case the row number m′n′ and column number mn are separated by a comma, and in turn:
+
+  
+    
+      
+        
+          
+            (
+            
+              J
+              
+                z
+              
+              
+                (
+                m
+                )
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            m
+          
+        
+        =
+        m
+        
+          δ
+          
+            
+              m
+              ′
+            
+            m
+          
+        
+        
+        
+        
+          
+            (
+            
+              J
+              
+                x
+              
+              
+                (
+                m
+                )
+              
+            
+            ±
+            i
+            
+              J
+              
+                y
+              
+              
+                (
+                m
+                )
+              
+            
+            )
+          
+          
+            
+              m
+              ′
+            
+            m
+          
+        
+        =
+        m
+        
+          δ
+          
+            
+              a
+              ′
+            
+            ,
+            a
+            ±
+            1
+          
+        
+        
+          
+            (
+            a
+            ∓
+            m
+            )
+            (
+            a
+            ±
+            m
+            +
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle \left(J_{z}^{(m)}\right)_{m'm}=m\delta _{m'm}\,\quad \left(J_{x}^{(m)}\pm iJ_{y}^{(m)}\right)_{m'm}=m\delta _{a',a\pm 1}{\sqrt {(a\mp m)(a\pm m+1)}}}
+  
+and similarly for J(n). The three J(m) matrices are each (2m + 1)×(2m + 1) square matrices, and the three J(n) are each (2n + 1)×(2n + 1) square matrices. The integers or half-integers m and n numerate all the irreducible representations by, in equivalent notations used by authors: D(m, n) ≡ (m, n) ≡ D(m) ⊗ D(n), which are each [(2m + 1)(2n + 1)]×[(2m + 1)(2n + 1)] square matrices.
+Applying this to particles with spin s;
+left-handed (2s + 1)-component spinors transform under the real irreps D(s, 0),
+right-handed (2s + 1)-component spinors transform under the real irreps D(0, s),
+taking direct sums symbolized by ⊕ (see direct sum of matrices for the simpler matrix concept), one obtains the representations under which 2(2s + 1)-component spinors transform: D(m, n) ⊕ D(n, m) where m + n = s. These are also real irreps, but as shown above, they split into complex conjugates.
+In these cases the D refers to any of D(J), D(K), or a full Lorentz transformation D(Λ).
+
+
+=== Relativistic wave equations ===
+In the context of the Dirac equation and Weyl equation, the Weyl spinors satisfying the Weyl equation transform under the simplest irreducible spin representations of the Lorentz group, since the spin quantum number in this case is the smallest non-zero number allowed: 1/2. The 2-component left-handed Weyl spinor transforms under D(1/2, 0) and the 2-component right-handed Weyl spinor transforms under D(0, 1/2). Dirac spinors satisfying the Dirac equation transform under the representation D(1/2, 0) ⊕ D(0, 1/2), the direct sum of the irreps for the Weyl spinors.
+
+
+== The Poincaré group in relativistic quantum mechanics and field theory ==
+Space translations, time translations, rotations, and boosts, all taken together, constitute the Poincaré group. The group elements are the three rotation matrices and three boost matrices (as in the Lorentz group), and one for time translations and three for space translations in spacetime. There is a generator for each. Therefore, the Poincaré group is 10-dimensional.
+In special relativity, space and time can be collected into a four-position vector X = (ct, −r), and in parallel so can energy and momentum which combine into a four-momentum vector P = (E/c, −p). With relativistic quantum mechanics in mind, the time duration and spatial displacement parameters (four in total, one for time and three for space) combine into a spacetime displacement ΔX = (cΔt, −Δr), and the energy and momentum operators are inserted in the four-momentum to obtain a four-momentum operator,
+
+  
+    
+      
+        
+          
+            
+              
+                P
+              
+              ^
+            
+          
+        
+        =
+        
+          (
+          
+            
+              
+                
+                  E
+                  ^
+                
+              
+              c
+            
+          
+          ,
+          −
+          
+            
+              
+                
+                  p
+                
+                ^
+              
+            
+          
+          )
+        
+        =
+        i
+        ℏ
+        
+          (
+          
+            
+              1
+              c
+            
+          
+          
+            
+              ∂
+              
+                ∂
+                t
+              
+            
+          
+          ,
+          ∇
+          )
+        
+        
+        ,
+      
+    
+    {\displaystyle {\widehat {\mathbf {P} }}=\left({\frac {\widehat {E}}{c}},-{\widehat {\mathbf {p} }}\right)=i\hbar \left({\frac {1}{c}}{\frac {\partial }{\partial t}},\nabla \right)\,,}
+  
+which are the generators of spacetime translations (four in total, one time and three space):
+
+  
+    
+      
+        
+          
+            
+              X
+              ^
+            
+          
+        
+        (
+        Δ
+        
+          X
+        
+        )
+        =
+        exp
+        ⁡
+        
+          (
+          −
+          
+            
+              i
+              ℏ
+            
+          
+          Δ
+          
+            X
+          
+          ⋅
+          
+            
+              
+                
+                  P
+                
+                ^
+              
+            
+          
+          )
+        
+        =
+        exp
+        ⁡
+        
+          [
+          −
+          
+            
+              i
+              ℏ
+            
+          
+          
+            (
+            Δ
+            t
+            
+              
+                
+                  E
+                  ^
+                
+              
+            
+            +
+            Δ
+            
+              r
+            
+            ⋅
+            
+              
+                
+                  
+                    p
+                  
+                  ^
+                
+              
+            
+            )
+          
+          ]
+        
+        
+        .
+      
+    
+    {\displaystyle {\widehat {X}}(\Delta \mathbf {X} )=\exp \left(-{\frac {i}{\hbar }}\Delta \mathbf {X} \cdot {\widehat {\mathbf {P} }}\right)=\exp \left[-{\frac {i}{\hbar }}\left(\Delta t{\widehat {E}}+\Delta \mathbf {r} \cdot {\widehat {\mathbf {p} }}\right)\right]\,.}
+  
+There are commutation relations between the components four-momentum P (generators of spacetime translations), and angular momentum M (generators of Lorentz transformations), that define the Poincaré algebra:
+
+  
+    
+      
+        [
+        
+          P
+          
+            μ
+          
+        
+        ,
+        
+          P
+          
+            ν
+          
+        
+        ]
+        =
+        0
+        
+      
+    
+    {\displaystyle [P_{\mu },P_{\nu }]=0\,}
+  
+
+  
+    
+      
+        
+          
+            1
+            i
+          
+        
+        [
+        
+          M
+          
+            μ
+            ν
+          
+        
+        ,
+        
+          P
+          
+            ρ
+          
+        
+        ]
+        =
+        
+          η
+          
+            μ
+            ρ
+          
+        
+        
+          P
+          
+            ν
+          
+        
+        −
+        
+          η
+          
+            ν
+            ρ
+          
+        
+        
+          P
+          
+            μ
+          
+        
+        
+      
+    
+    {\displaystyle {\frac {1}{i}}[M_{\mu \nu },P_{\rho }]=\eta _{\mu \rho }P_{\nu }-\eta _{\nu \rho }P_{\mu }\,}
+  
+
+  
+    
+      
+        
+          
+            1
+            i
+          
+        
+        [
+        
+          M
+          
+            μ
+            ν
+          
+        
+        ,
+        
+          M
+          
+            ρ
+            σ
+          
+        
+        ]
+        =
+        
+          η
+          
+            μ
+            ρ
+          
+        
+        
+          M
+          
+            ν
+            σ
+          
+        
+        −
+        
+          η
+          
+            μ
+            σ
+          
+        
+        
+          M
+          
+            ν
+            ρ
+          
+        
+        −
+        
+          η
+          
+            ν
+            ρ
+          
+        
+        
+          M
+          
+            μ
+            σ
+          
+        
+        +
+        
+          η
+          
+            ν
+            σ
+          
+        
+        
+          M
+          
+            μ
+            ρ
+          
+        
+        
+      
+    
+    {\displaystyle {\frac {1}{i}}[M_{\mu \nu },M_{\rho \sigma }]=\eta _{\mu \rho }M_{\nu \sigma }-\eta _{\mu \sigma }M_{\nu \rho }-\eta _{\nu \rho }M_{\mu \sigma }+\eta _{\nu \sigma }M_{\mu \rho }\,}
+  
+where η is the Minkowski metric tensor. (It is common to drop any hats for the four-momentum operators in the commutation relations). These equations are an expression of the fundamental properties of space and time as far as they are known today. They have a classical counterpart where the commutators are replaced by Poisson brackets.
+To describe spin in relativistic quantum mechanics, the Pauli–Lubanski pseudovector
+
+  
+    
+      
+        
+          W
+          
+            μ
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        
+          ε
+          
+            μ
+            ν
+            ρ
+            σ
+          
+        
+        
+          J
+          
+            ν
+            ρ
+          
+        
+        
+          P
+          
+            σ
+          
+        
+        ,
+      
+    
+    {\displaystyle W_{\mu }={\frac {1}{2}}\varepsilon _{\mu \nu \rho \sigma }J^{\nu \rho }P^{\sigma },}
+  
+a Casimir operator, is the constant spin contribution to the total angular momentum, and there are commutation relations between P and W and between M and W:
+
+  
+    
+      
+        
+          [
+          
+            P
+            
+              μ
+            
+          
+          ,
+          
+            W
+            
+              ν
+            
+          
+          ]
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle \left[P^{\mu },W^{\nu }\right]=0\,,}
+  
+
+  
+    
+      
+        
+          [
+          
+            J
+            
+              μ
+              ν
+            
+          
+          ,
+          
+            W
+            
+              ρ
+            
+          
+          ]
+        
+        =
+        i
+        
+          (
+          
+            η
+            
+              ρ
+              ν
+            
+          
+          
+            W
+            
+              μ
+            
+          
+          −
+          
+            η
+            
+              ρ
+              μ
+            
+          
+          
+            W
+            
+              ν
+            
+          
+          )
+        
+        
+        ,
+      
+    
+    {\displaystyle \left[J^{\mu \nu },W^{\rho }\right]=i\left(\eta ^{\rho \nu }W^{\mu }-\eta ^{\rho \mu }W^{\nu }\right)\,,}
+  
+
+  
+    
+      
+        
+          [
+          
+            W
+            
+              μ
+            
+          
+          ,
+          
+            W
+            
+              ν
+            
+          
+          ]
+        
+        =
+        −
+        i
+        
+          ϵ
+          
+            μ
+            ν
+            ρ
+            σ
+          
+        
+        
+          W
+          
+            ρ
+          
+        
+        
+          P
+          
+            σ
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \left[W_{\mu },W_{\nu }\right]=-i\epsilon _{\mu \nu \rho \sigma }W^{\rho }P^{\sigma }\,.}
+  
+Invariants constructed from W, instances of Casimir invariants can be used to classify irreducible representations of the Lorentz group.
+
+
+== Symmetries in quantum field theory and particle physics ==
+
+
+=== Unitary groups in quantum field theory ===
+Group theory is an abstract way of mathematically analyzing symmetries. Unitary operators are paramount to quantum theory, so unitary groups are important in particle physics. The group of N dimensional unitary square matrices is denoted U(N). Unitary operators preserve inner products which means probabilities are also preserved, so the quantum mechanics of the system is invariant under unitary transformations. Let 
+  
+    
+      
+        
+          
+            
+              U
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {U}}}
+   be a unitary operator, so the inverse is the Hermitian adjoint 
+  
+    
+      
+        
+          
+            
+              U
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                U
+                ^
+              
+            
+          
+          
+            †
+          
+        
+      
+    
+    {\displaystyle {\widehat {U}}={\widehat {U}}^{\dagger }}
+  , which commutes with the Hamiltonian:
+
+  
+    
+      
+        
+          [
+          
+            
+              
+                U
+                ^
+              
+            
+          
+          ,
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          ]
+        
+        =
+        0
+      
+    
+    {\displaystyle \left[{\widehat {U}},{\widehat {H}}\right]=0}
+  
+then the observable corresponding to the operator 
+  
+    
+      
+        
+          
+            
+              U
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {U}}}
+   is conserved, and the Hamiltonian is invariant under the transformation 
+  
+    
+      
+        
+          
+            
+              U
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {U}}}
+  .
+Since the predictions of quantum mechanics should be invariant under the action of a group, physicists look for unitary transformations to represent the group.
+Important subgroups of each U(N) are those unitary matrices which have unit determinant (or are "unimodular"): these are called the special unitary groups and are denoted SU(N).
+
+
+==== U(1) ====
+The simplest unitary group is U(1), which is just a complex number of modulus 1. This one-dimensional matrix entry is of the form:
+
+  
+    
+      
+        U
+        =
+        
+          e
+          
+            −
+            i
+            θ
+          
+        
+      
+    
+    {\displaystyle U=e^{-i\theta }}
+  
+in which θ is the parameter of the group, and the group is Abelian since one-dimensional matrices always commute under matrix multiplication. Lagrangians in quantum field theory for complex scalar fields are often invariant under U(1) transformations. If there is a quantum number a associated with the U(1) symmetry, for example baryon and the three lepton numbers in electromagnetic interactions, we have:
+
+  
+    
+      
+        U
+        =
+        
+          e
+          
+            −
+            i
+            a
+            θ
+          
+        
+      
+    
+    {\displaystyle U=e^{-ia\theta }}
+  
+
+
+==== U(2) and SU(2) ====
+The general form of an element of a U(2) element is parametrized by two complex numbers a and b:
+
+  
+    
+      
+        U
+        =
+        
+          
+            (
+            
+              
+                
+                  a
+                
+                
+                  b
+                
+              
+              
+                
+                  −
+                  
+                    b
+                    
+                      ⋆
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      ⋆
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle U={\begin{pmatrix}a&b\\-b^{\star }&a^{\star }\\\end{pmatrix}}}
+  
+and for SU(2), the determinant is restricted to 1:
+
+  
+    
+      
+        det
+        (
+        U
+        )
+        =
+        a
+        
+          a
+          
+            ⋆
+          
+        
+        +
+        b
+        
+          b
+          
+            ⋆
+          
+        
+        =
+        
+          
+            
+              |
+            
+            a
+            
+              |
+            
+          
+          
+            2
+          
+        
+        +
+        
+          
+            
+              |
+            
+            b
+            
+              |
+            
+          
+          
+            2
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle \det(U)=aa^{\star }+bb^{\star }={|a|}^{2}+{|b|}^{2}=1}
+  
+In group theoretic language, the Pauli matrices are the generators of the special unitary group in two dimensions, denoted SU(2). Their commutation relation is the same as for orbital angular momentum, aside from a factor of 2:
+
+  
+    
+      
+        [
+        
+          σ
+          
+            a
+          
+        
+        ,
+        
+          σ
+          
+            b
+          
+        
+        ]
+        =
+        2
+        i
+        ℏ
+        
+          ε
+          
+            a
+            b
+            c
+          
+        
+        
+          σ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle [\sigma _{a},\sigma _{b}]=2i\hbar \varepsilon _{abc}\sigma _{c}}
+  
+A group element of SU(2) can be written:
+
+  
+    
+      
+        U
+        (
+        θ
+        ,
+        
+          
+            
+              
+                
+                  e
+                
+                ^
+              
+            
+          
+          
+            j
+          
+        
+        )
+        =
+        
+          e
+          
+            i
+            θ
+            
+              σ
+              
+                j
+              
+            
+            
+              /
+            
+            2
+          
+        
+      
+    
+    {\displaystyle U(\theta ,{\hat {\mathbf {e} }}_{j})=e^{i\theta \sigma _{j}/2}}
+  
+where σj is a Pauli matrix, and the group parameters are the angles turned through about an axis.
+The two-dimensional isotropic quantum harmonic oscillator has symmetry group SU(2), while the symmetry algebra of the rational anisotropic QHO is a nonlinear extension of u(2).
+
+
+==== U(3) and SU(3) ====
+The eight Gell-Mann matrices λn (see article for them and the structure constants) are important for quantum chromodynamics. They originally arose in the theory SU(3) of flavor which is still of practical importance in nuclear physics. They are the generators for the SU(3) group, so an element of SU(3) can be written analogously to an element of SU(2):
+
+  
+    
+      
+        U
+        (
+        θ
+        ,
+        
+          
+            
+              
+                
+                  e
+                
+                ^
+              
+            
+          
+          
+            j
+          
+        
+        )
+        =
+        exp
+        ⁡
+        
+          (
+          −
+          
+            
+              i
+              2
+            
+          
+          
+            ∑
+            
+              n
+              =
+              1
+            
+            
+              8
+            
+          
+          
+            θ
+            
+              n
+            
+          
+          
+            λ
+            
+              n
+            
+          
+          )
+        
+      
+    
+    {\displaystyle U(\theta ,{\hat {\mathbf {e} }}_{j})=\exp \left(-{\frac {i}{2}}\sum _{n=1}^{8}\theta _{n}\lambda _{n}\right)}
+  
+where θn are eight independent parameters. The λn matrices satisfy the commutator:
+
+  
+    
+      
+        
+          [
+          
+            λ
+            
+              a
+            
+          
+          ,
+          
+            λ
+            
+              b
+            
+          
+          ]
+        
+        =
+        2
+        i
+        
+          f
+          
+            a
+            b
+            c
+          
+        
+        
+          λ
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \left[\lambda _{a},\lambda _{b}\right]=2if_{abc}\lambda _{c}}
+  
+where the indices a, b, c take the values 1, 2, 3... 8. The structure constants fabc are totally antisymmetric in all indices analogous to those of SU(2). In the standard colour charge basis (r for red, g for green, b for blue):
+
+  
+    
+      
+        
+          |
+        
+        r
+        ⟩
+        =
+        
+          
+            (
+            
+              
+                
+                  1
+                
+              
+              
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          |
+        
+        g
+        ⟩
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+              
+              
+                
+                  1
+                
+              
+              
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          |
+        
+        b
+        ⟩
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+              
+              
+                
+                  1
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle |r\rangle ={\begin{pmatrix}1\\0\\0\end{pmatrix}}\,,\quad |g\rangle ={\begin{pmatrix}0\\1\\0\end{pmatrix}}\,,\quad |b\rangle ={\begin{pmatrix}0\\0\\1\end{pmatrix}}}
+  
+the colour states are eigenstates of the λ3 and λ8 matrices, while the other matrices mix colour states together.
+The eight gluons states (8-dimensional column vectors) are simultaneous eigenstates of the adjoint representation of SU(3) , the 8-dimensional representation acting on its own Lie algebra su(3), for the λ3 and λ8 matrices. By forming tensor products of representations (the standard representation and its dual) and taking appropriate quotients, protons and neutrons, and other hadrons are eigenstates of various representations of SU(3) of color. The representations of SU(3) can be described by a "theorem of the highest weight".
+
+
+=== Matter and antimatter ===
+In relativistic quantum mechanics, relativistic wave equations predict a remarkable symmetry of nature: that every particle has a corresponding antiparticle. This is mathematically contained in the spinor fields which are the solutions of the relativistic wave equations.
+Charge conjugation switches particles and antiparticles. Physical laws and interactions unchanged by this operation have C symmetry.
+
+
+=== Discrete spacetime symmetries ===
+Parity mirrors the orientation of the spatial coordinates from left-handed to right-handed. Informally, space is "reflected" into its mirror image. Physical laws and interactions unchanged by this operation have P symmetry.
+Time reversal negates the time coordinate, which amounts to time running from future to past. A curious property of time, which space does not have, is that it is unidirectional: particles traveling forwards in time are equivalent to antiparticles traveling back in time. Physical laws and interactions unchanged by this operation have T symmetry.
+
+
+=== C, P, T symmetries ===
+CPT theorem
+CP violation
+Lorentz violation
+
+
+=== Gauge theory ===
+
+In quantum electrodynamics, the symmetry group is U(1) and is abelian. In quantum chromodynamics, the symmetry group is SU(3) and is non-abelian.
+The electromagnetic interaction is mediated by photons, which have no electric charge. The electromagnetic tensor has an electromagnetic four-potential field possessing gauge symmetry.
+The strong (color) interaction is mediated by gluons, which can have eight color charges. There are eight gluon field strength tensors with corresponding gluon four potentials field, each possessing gauge symmetry.
+
+
+=== The strong (color) interaction ===
+
+
+==== Color charge ====
+Analogous to the spin operator, there are color charge operators in terms of the Gell-Mann matrices λj:
+
+  
+    
+      
+        
+          
+            
+              
+                F
+                ^
+              
+            
+          
+          
+            j
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        
+          λ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle {\hat {F}}_{j}={\frac {1}{2}}\lambda _{j}}
+  
+and since color charge is a conserved charge, all color charge operators must commute with the Hamiltonian:
+
+  
+    
+      
+        
+          [
+          
+            
+              
+                
+                  F
+                  ^
+                
+              
+            
+            
+              j
+            
+          
+          ,
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          ]
+        
+        =
+        0
+      
+    
+    {\displaystyle \left[{\hat {F}}_{j},{\hat {H}}\right]=0}
+  
+
+
+==== Isospin ====
+Isospin is conserved in strong interactions.
+
+
+=== The weak and electromagnetic interactions ===
+
+
+==== Duality transformation ====
+Magnetic monopoles can be theoretically realized, although current observations and theory are consistent with them existing or not existing. Electric and magnetic charges can effectively be "rotated into one another" by a duality transformation.
+
+
+==== Electroweak symmetry ====
+Electroweak symmetry
+Electroweak symmetry breaking
+
+
+=== Supersymmetry ===
+
+A Lie superalgebra is an algebra in which (suitable) basis elements either have a commutation relation or have an anticommutation relation. Symmetries have been proposed to the effect that all fermionic particles have bosonic analogues, and vice versa. These symmetry have theoretical appeal in that no extra assumptions (such as existence of strings) barring symmetries are made. In addition, by assuming supersymmetry, a number puzzling issues can be resolved. These symmetries, which are represented by Lie superalgebras, have not been confirmed experimentally. It is now believed that they are broken symmetries, if they exist. But it has been speculated that dark matter is constitutes gravitinos, a spin 3/2 particle with mass, its supersymmetric partner being the graviton.
+
+
+== Exchange symmetry ==
+
+The concept of exchange symmetry is derived from a fundamental postulate of quantum statistics, which states that no observable physical quantity should change after exchanging two identical particles. It states that because all observables are proportional to 
+  
+    
+      
+        
+          
+            |
+            ψ
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \left|\psi \right|^{2}}
+   for a system of identical particles, the wave function 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   must either remain the same or change sign upon such an exchange.
+Because the exchange of two identical particles is mathematically equivalent to the rotation of each particle by 180 degrees (and so to the rotation of one particle's frame by 360 degrees), the symmetric nature of the wave function depends on the particle's spin after the rotation operator is applied to it. Integer spin particles do not change the sign of their wave function upon a 360 degree rotation—therefore the sign of the wave function of the entire system does not change. Semi-integer spin particles change the sign of their wave function upon a 360 degree rotation (see more in spin–statistics theorem).
+Particles for which the wave function does not change sign upon exchange are called bosons, or particles with a symmetric wave function. The particles for which the wave function of the system changes sign are called fermions, or particles with an antisymmetric wave function.
+Fermions therefore obey different statistics (called Fermi–Dirac statistics) than bosons (which obey Bose–Einstein statistics). One of the consequences of Fermi–Dirac statistics is the exclusion principle for fermions—no two identical fermions can share the same quantum state (in other words, the wave function of two identical fermions in the same state is zero). This in turn results in degeneracy pressure for fermions—the strong resistance of fermions to compression into smaller volume. This resistance gives rise to the “stiffness” or “rigidity” of ordinary atomic matter (as atoms contain electrons which are fermions).
+
+
+== See also ==
+Casimir operator
+Pauli–Lubanski pseudovector
+Symmetries in general relativity
+Renormalization group
+Center of mass (relativistic)
+Representation of a Lie group
+Representation theory of the Poincaré group
+Representation theory of the Lorentz group
+
+
+== Footnotes ==
+
+
+== References ==
+
+D. McMahon (2008). Quantum Field Theory. Mc Graw Hill. ISBN 978-0-07-154382-8. 
+B. R. Martin, G.Shaw. Particle Physics (3rd ed.). Manchester Physics Series, John Wiley & Sons. p. 3. ISBN 978-0-470-03294-7. 
+M. Chaichian; R. Hagedorn (1998). Symmetry in quantum mechanics: From angular momentum to supersymmetry. Graduate student series in physics. Institute of physic s (Bristol and Philadelphia). ISBN 0-7503-0408-1. 
+W. Ludwig; C. Falter (1996). Symmetries in physics. Solid state science (2nd ed.). Springer. ISBN 3-540-60284-4. 
+M. F. C. Ladd (1989). Symmetry in molecules and crystals. Solid state science. Ellis Horwood series in physical chemistry. ISBN 0-85312-255-5. 
+K. J. Barnes (2010). Group theory for the standard model and beyond. Series in high energy physics, cosmology, and gravitation. Taylor & Francis. ISBN 142-007-874-7. 
+S. Haywood (2011). Symmetries and Conservation Laws in Particle Physics: An Introduction to Group Theory for Particle Physicists. World Scientific. ISBN 184-816-703-2. 
+
+
+== External links ==
+(2010) Irreducible Tensor Operators and the Wigner-Eckart Theorem
+R.D. Reece (2006) A Derivation of the Quantum Mechanical Momentum Operator in the Position Representation
+D. E. Soper (2011) Position and momentum in quantum mechanics
+Lie groups
+F. Porter (2009) Lie Groups and Lie Algebras
+Continuous Groups, Lie Groups, and Lie Algebras
+P.J. Mulders (2011) Quantum field theory
+arXiv:math-ph/0005032v1 B.C. Hall (2000) An Elementary Introduction to Groups and Representations

@@ -1,0 +1,2242 @@
+The finite potential well (also known as the finite square well) is a concept from quantum mechanics. It is an extension of the infinite potential well, in which a particle is confined to a box, but one which has finite potential walls. Unlike the infinite potential well, there is a probability associated with the particle being found outside the box. The quantum mechanical interpretation is unlike the classical interpretation, where if the total energy of the particle is less than the potential energy barrier of the walls it cannot be found outside the box. In the quantum interpretation, there is a non-zero probability of the particle being outside the box even when the energy of the particle is less than the potential energy barrier of the walls (cf quantum tunnelling).
+
+
+== Particle in a 1-dimensional box ==
+For the 1-dimensional case on the x-axis, the time-independent Schrödinger equation can be written as:
+
+  
+    
+      
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              ψ
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        V
+        (
+        x
+        )
+        ψ
+        =
+        E
+        ψ
+        
+        (
+        1
+        )
+      
+    
+    {\displaystyle -{\frac {\hbar ^{2}}{2m}}{\frac {d^{2}\psi }{dx^{2}}}+V(x)\psi =E\psi \quad (1)}
+  
+where
+
+  
+    
+      
+        ℏ
+        =
+        
+          
+            h
+            
+              2
+              π
+            
+          
+        
+      
+    
+    {\displaystyle \hbar ={\frac {h}{2\pi }}}
+  ,
+
+  
+    
+      
+        h
+        
+      
+    
+    {\displaystyle h\,}
+   is Planck's constant,
+
+  
+    
+      
+        m
+        
+      
+    
+    {\displaystyle m\,}
+   is the mass of the particle,
+
+  
+    
+      
+        ψ
+        
+      
+    
+    {\displaystyle \psi \,}
+   is the (complex valued) wavefunction that we want to find,
+
+  
+    
+      
+        V
+        
+          (
+          x
+          )
+        
+        
+      
+    
+    {\displaystyle V\left(x\right)\,}
+   is a function describing the potential energy at each point x, and
+
+  
+    
+      
+        E
+        
+      
+    
+    {\displaystyle E\,}
+   is the energy, a real number, sometimes called eigenenergy.
+
+For the case of the particle in a 1-dimensional box of length L, the potential is zero outside the box, and 
+  
+    
+      
+        
+          V
+          
+            o
+          
+        
+      
+    
+    {\displaystyle V_{o}}
+   at x = -L/2 and x = L/2. The wavefunction is considered to be made up of different wavefuctions at different ranges of x, depending on whether x is inside or outside of the box. Therefore, the wavefunction is defined such that:
+
+  
+    
+      
+        ψ
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    ψ
+                    
+                      1
+                    
+                  
+                  ,
+                
+                
+                  
+                    if 
+                  
+                  x
+                  <
+                  −
+                  L
+                  
+                    /
+                  
+                  2
+                  
+                     (the region outside the box)
+                  
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      2
+                    
+                  
+                  ,
+                
+                
+                  
+                    if 
+                  
+                  −
+                  L
+                  
+                    /
+                  
+                  2
+                  <
+                  x
+                  <
+                  L
+                  
+                    /
+                  
+                  2
+                  
+                     (the region inside the box)
+                  
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      3
+                    
+                  
+                
+                
+                  
+                    if 
+                  
+                  x
+                  >
+                  L
+                  
+                    /
+                  
+                  2
+                  
+                     (the region outside the box)
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle \psi ={\begin{cases}\psi _{1},&{\mbox{if }}x<-L/2{\mbox{ (the region outside the box)}}\\\psi _{2},&{\mbox{if }}-L/2<x<L/2{\mbox{ (the region inside the box)}}\\\psi _{3}&{\mbox{if }}x>L/2{\mbox{  (the region outside the box)}}\end{cases}}}
+  
+
+
+=== Outside the box ===
+For the region Outside the box V(x) = 0 and Equation 1 reduces to
+
+  
+    
+      
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              
+                ψ
+                
+                  2
+                
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        E
+        
+          ψ
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle -{\frac {\hbar ^{2}}{2m}}{\frac {d^{2}\psi _{2}}{dx^{2}}}=E\psi _{2}.}
+  
+Letting
+
+  
+    
+      
+        k
+        =
+        
+          
+            
+              2
+              m
+              E
+            
+            ℏ
+          
+        
+        ,
+      
+    
+    {\displaystyle k={\frac {\sqrt {2mE}}{\hbar }},}
+  
+the equation becomes
+
+  
+    
+      
+        
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              
+                ψ
+                
+                  2
+                
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        −
+        
+          k
+          
+            2
+          
+        
+        
+          ψ
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {d^{2}\psi _{2}}{dx^{2}}}=-k^{2}\psi _{2}.}
+  
+This is a well-studied differential equation and eigenvalue problem with a general solution of
+
+  
+    
+      
+        
+          ψ
+          
+            2
+          
+        
+        =
+        A
+        sin
+        ⁡
+        (
+        k
+        x
+        )
+        +
+        B
+        cos
+        ⁡
+        (
+        k
+        x
+        )
+        
+        .
+      
+    
+    {\displaystyle \psi _{2}=A\sin(kx)+B\cos(kx)\quad .}
+  
+Hence,
+
+  
+    
+      
+        E
+        =
+        
+          
+            
+              
+                k
+                
+                  2
+                
+              
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+            
+          
+        
+        .
+      
+    
+    {\displaystyle E={\frac {k^{2}\hbar ^{2}}{2m}}.}
+  
+Here, A and B can be any complex numbers, and k can be any real number.
+
+
+=== Inside the box ===
+For the region Inside of the box, since the potential is constant, V(x) = 
+  
+    
+      
+        
+          V
+          
+            o
+          
+        
+      
+    
+    {\displaystyle V_{o}}
+   and Equation 1 becomes:
+
+  
+    
+      
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              
+                ψ
+                
+                  1
+                
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        (
+        E
+        −
+        V
+        )
+        
+          ψ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle -{\frac {\hbar ^{2}}{2m}}{\frac {d^{2}\psi _{1}}{dx^{2}}}=(E-V)\psi _{1}}
+  
+There are two possible families of solutions, depending on whether E is less than 
+  
+    
+      
+        
+          V
+          
+            o
+          
+        
+      
+    
+    {\displaystyle V_{o}}
+   (the particle is bound in the potential) or E is greater than 
+  
+    
+      
+        
+          V
+          
+            o
+          
+        
+      
+    
+    {\displaystyle V_{o}}
+   (the particle is free).
+For a free particle, E > 
+  
+    
+      
+        
+          V
+          
+            o
+          
+        
+      
+    
+    {\displaystyle V_{o}}
+  , and letting
+
+  
+    
+      
+        
+          k
+          ′
+        
+        =
+        
+          
+            
+              2
+              m
+              (
+              E
+              −
+              
+                V
+                
+                  o
+                
+              
+              )
+            
+            ℏ
+          
+        
+      
+    
+    {\displaystyle k'={\frac {\sqrt {2m(E-V_{o})}}{\hbar }}}
+  
+produces
+
+  
+    
+      
+        
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              
+                ψ
+                
+                  1
+                
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        −
+        
+          k
+          
+            ′
+            
+              2
+            
+          
+        
+        
+          ψ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle {\frac {d^{2}\psi _{1}}{dx^{2}}}=-k'^{2}\psi _{1}}
+  
+with the same solution form as the inside-well case:
+
+  
+    
+      
+        
+          ψ
+          
+            1
+          
+        
+        =
+        C
+        sin
+        ⁡
+        (
+        
+          k
+          ′
+        
+        x
+        )
+        +
+        D
+        cos
+        ⁡
+        (
+        
+          k
+          ′
+        
+        x
+        )
+        
+      
+    
+    {\displaystyle \psi _{1}=C\sin(k'x)+D\cos(k'x)\quad }
+  
+This analysis will focus on the bound state, where 
+  
+    
+      
+        
+          V
+          
+            o
+          
+        
+      
+    
+    {\displaystyle V_{o}}
+   > E. Letting
+
+  
+    
+      
+        α
+        =
+        
+          
+            
+              2
+              m
+              (
+              
+                V
+                
+                  o
+                
+              
+              −
+              E
+              )
+            
+            ℏ
+          
+        
+      
+    
+    {\displaystyle \alpha ={\frac {\sqrt {2m(V_{o}-E)}}{\hbar }}}
+  
+produces
+
+  
+    
+      
+        
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              
+                ψ
+                
+                  1
+                
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        
+          α
+          
+            2
+          
+        
+        
+          ψ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle {\frac {d^{2}\psi _{1}}{dx^{2}}}=\alpha ^{2}\psi _{1}}
+  
+where the general solution is exponential:
+
+  
+    
+      
+        
+          ψ
+          
+            1
+          
+        
+        =
+        F
+        
+          e
+          
+            −
+            α
+            x
+          
+        
+        +
+        G
+        
+          e
+          
+            α
+            x
+          
+        
+        
+        
+      
+    
+    {\displaystyle \psi _{1}=Fe^{-\alpha x}+Ge^{\alpha x}\,\!}
+  
+Similarly, for the other region outside the box:
+
+  
+    
+      
+        
+          ψ
+          
+            3
+          
+        
+        =
+        H
+        
+          e
+          
+            −
+            α
+            x
+          
+        
+        +
+        I
+        
+          e
+          
+            α
+            x
+          
+        
+        
+        
+      
+    
+    {\displaystyle \psi _{3}=He^{-\alpha x}+Ie^{\alpha x}\,\!}
+  
+Now in order to find the specific solution for the problem at hand, we must specify the appropriate boundary conditions and find the values for A, B, F, G, H and I that satisfy those conditions.
+
+
+=== Finding wavefunctions for the bound state ===
+Solutions to the Schrödinger equation must be continuous, and continuously differentiable. These requirements are boundary conditions on the differential equations previously derived.
+In this case, the finite potential well is symmetrical, so symmetry can be exploited to reduce the necessary calculations.
+Summarizing the previous section:
+
+  
+    
+      
+        ψ
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    ψ
+                    
+                      1
+                    
+                  
+                  ,
+                
+                
+                  
+                    if 
+                  
+                  x
+                  <
+                  −
+                  L
+                  
+                    /
+                  
+                  2
+                  
+                     (the region outside the box)
+                  
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      2
+                    
+                  
+                  ,
+                
+                
+                  
+                    if 
+                  
+                  −
+                  L
+                  
+                    /
+                  
+                  2
+                  <
+                  x
+                  <
+                  L
+                  
+                    /
+                  
+                  2
+                  
+                     (the region inside the box)
+                  
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      3
+                    
+                  
+                
+                
+                  
+                    if 
+                  
+                  x
+                  >
+                  L
+                  
+                    /
+                  
+                  2
+                  
+                     (the region outside the box)
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle \psi ={\begin{cases}\psi _{1},&{\mbox{if }}x<-L/2{\mbox{ (the region outside the box)}}\\\psi _{2},&{\mbox{if }}-L/2<x<L/2{\mbox{ (the region inside the box)}}\\\psi _{3}&{\mbox{if }}x>L/2{\mbox{  (the region outside the box)}}\end{cases}}}
+  
+where we found 
+  
+    
+      
+        
+          ψ
+          
+            1
+          
+        
+        ,
+        
+          ψ
+          
+            2
+          
+        
+        
+        
+      
+    
+    {\displaystyle \psi _{1},\psi _{2}\,\!}
+   and 
+  
+    
+      
+        
+          ψ
+          
+            3
+          
+        
+        
+        
+      
+    
+    {\displaystyle \psi _{3}\,\!}
+   to be:
+
+  
+    
+      
+        
+          ψ
+          
+            1
+          
+        
+        =
+        F
+        
+          e
+          
+            −
+            α
+            x
+          
+        
+        +
+        G
+        
+          e
+          
+            α
+            x
+          
+        
+        
+        
+      
+    
+    {\displaystyle \psi _{1}=Fe^{-\alpha x}+Ge^{\alpha x}\,\!}
+  
+
+  
+    
+      
+        
+          ψ
+          
+            2
+          
+        
+        =
+        A
+        sin
+        ⁡
+        (
+        k
+        x
+        )
+        +
+        B
+        cos
+        ⁡
+        (
+        k
+        x
+        )
+        
+      
+    
+    {\displaystyle \psi _{2}=A\sin(kx)+B\cos(kx)\quad }
+  
+
+  
+    
+      
+        
+          ψ
+          
+            3
+          
+        
+        =
+        H
+        
+          e
+          
+            −
+            α
+            x
+          
+        
+        +
+        I
+        
+          e
+          
+            α
+            x
+          
+        
+        
+        
+      
+    
+    {\displaystyle \psi _{3}=He^{-\alpha x}+Ie^{\alpha x}\,\!}
+  
+We see that as 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   goes to 
+  
+    
+      
+        −
+        ∞
+      
+    
+    {\displaystyle -\infty }
+  , the 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+   term goes to infinity. Likewise, as 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   goes to 
+  
+    
+      
+        +
+        ∞
+      
+    
+    {\displaystyle +\infty }
+  , the 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+   term goes to infinity. As the wave function must have finite total integral, this means we must set 
+  
+    
+      
+        F
+        =
+        I
+        =
+        0
+      
+    
+    {\displaystyle F=I=0}
+  , and we have:
+Next, we know that the overall 
+  
+    
+      
+        ψ
+        
+        
+      
+    
+    {\displaystyle \psi \,\!}
+   function must be continuous and differentiable. In other words, the values of the functions and their derivatives must match up at the dividing points:
+These equations have two sorts of solutions, symmetric, for which 
+  
+    
+      
+        A
+        =
+        0
+      
+    
+    {\displaystyle A=0}
+   and 
+  
+    
+      
+        G
+        =
+        H
+      
+    
+    {\displaystyle G=H}
+  , and antisymmetric, for which 
+  
+    
+      
+        B
+        =
+        0
+      
+    
+    {\displaystyle B=0}
+   and 
+  
+    
+      
+        G
+        =
+        −
+        H
+      
+    
+    {\displaystyle G=-H}
+  . For the symmetric case we get
+
+  
+    
+      
+        H
+        
+          e
+          
+            −
+            α
+            L
+            
+              /
+            
+            2
+          
+        
+        =
+        B
+        cos
+        ⁡
+        (
+        k
+        L
+        
+          /
+        
+        2
+        )
+      
+    
+    {\displaystyle He^{-\alpha L/2}=B\cos(kL/2)}
+  
+
+  
+    
+      
+        −
+        α
+        H
+        
+          e
+          
+            −
+            α
+            L
+            
+              /
+            
+            2
+          
+        
+        =
+        −
+        k
+        B
+        sin
+        ⁡
+        (
+        k
+        L
+        
+          /
+        
+        2
+        )
+      
+    
+    {\displaystyle -\alpha He^{-\alpha L/2}=-kB\sin(kL/2)}
+  
+so taking the ratio gives
+
+  
+    
+      
+        α
+        =
+        k
+        tan
+        ⁡
+        (
+        k
+        L
+        
+          /
+        
+        2
+        )
+      
+    
+    {\displaystyle \alpha =k\tan(kL/2)}
+  .
+Similarly for the antisymmetric case we get
+
+  
+    
+      
+        α
+        =
+        −
+        k
+        cot
+        ⁡
+        (
+        k
+        L
+        
+          /
+        
+        2
+        )
+      
+    
+    {\displaystyle \alpha =-k\cot(kL/2)}
+  .
+Recall that both 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   and 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   depend on the energy. What we have found is that the continuity conditions cannot be satisfied for an arbitrary value of the energy. Only certain energy values, which are solutions to one or either of these two equations, are allowed. Hence we find, as always, the bound-state energies are quantized.
+The energy equations cannot be solved analytically. Graphical or numerical solutions are aided by rewriting them a little. If we introduce the dimensionless variables 
+  
+    
+      
+        u
+        =
+        α
+        L
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle u=\alpha L/2}
+   and 
+  
+    
+      
+        v
+        =
+        k
+        L
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle v=kL/2}
+  , and note from the definitions of 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   and 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   that 
+  
+    
+      
+        
+          u
+          
+            2
+          
+        
+        =
+        
+          u
+          
+            0
+          
+          
+            2
+          
+        
+        −
+        
+          v
+          
+            2
+          
+        
+      
+    
+    {\displaystyle u^{2}=u_{0}^{2}-v^{2}}
+  , where 
+  
+    
+      
+        
+          u
+          
+            0
+          
+          
+            2
+          
+        
+        =
+        m
+        
+          L
+          
+            2
+          
+        
+        
+          V
+          
+            0
+          
+        
+        
+          /
+        
+        2
+        
+          ℏ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle u_{0}^{2}=mL^{2}V_{0}/2\hbar ^{2}}
+  , the master equations read
+
+  
+    
+      
+        
+          
+            
+              u
+              
+                0
+              
+              
+                2
+              
+            
+            −
+            
+              v
+              
+                2
+              
+            
+          
+        
+        =
+        
+          
+            {
+            
+              
+                
+                  v
+                  tan
+                  ⁡
+                  v
+                  ,
+                
+                
+                  
+                    (symmetric case) 
+                  
+                
+              
+              
+                
+                  −
+                  v
+                  cot
+                  ⁡
+                  v
+                  ,
+                
+                
+                  
+                    (antisymmetric case) 
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle {\sqrt {u_{0}^{2}-v^{2}}}={\begin{cases}v\tan v,&{\mbox{(symmetric case) }}\\-v\cot v,&{\mbox{(antisymmetric case) }}\end{cases}}}
+  
+In the plot to the right, for 
+  
+    
+      
+        
+          u
+          
+            0
+          
+          
+            2
+          
+        
+        =
+        20
+      
+    
+    {\displaystyle u_{0}^{2}=20}
+  , solutions exist where the blue semicircle intersects the purple or grey curves (
+  
+    
+      
+        v
+        tan
+        ⁡
+        v
+      
+    
+    {\displaystyle v\tan v}
+   and 
+  
+    
+      
+        −
+        v
+        cot
+        ⁡
+        v
+      
+    
+    {\displaystyle -v\cot v}
+  ). Each purple or grey curve represents a possible solution, 
+  
+    
+      
+        
+          v
+          
+            i
+          
+        
+      
+    
+    {\displaystyle v_{i}}
+   within the range 
+  
+    
+      
+        
+          
+            π
+            2
+          
+        
+        (
+        i
+        −
+        1
+        )
+        ≤
+        
+          v
+          
+            i
+          
+        
+        <
+        
+          
+            π
+            2
+          
+        
+        i
+      
+    
+    {\displaystyle {\frac {\pi }{2}}(i-1)\leq v_{i}<{\frac {\pi }{2}}i}
+  . The total number of solutions, 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  , (i.e., the number of purple/grey curves that are intersected by the blue circle) is therefore determined by dividing the radius of the blue circle, 
+  
+    
+      
+        
+          u
+          
+            0
+          
+        
+      
+    
+    {\displaystyle u_{0}}
+  , by the range of each solution 
+  
+    
+      
+        π
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \pi /2}
+  .
+
+  
+    
+      
+        N
+        =
+        
+          ⌊
+          
+            
+              
+                2
+                
+                  u
+                  
+                    0
+                  
+                
+              
+              π
+            
+          
+          ⌋
+        
+        +
+        1
+        =
+        
+          ⌈
+          
+            
+              
+                2
+                
+                  u
+                  
+                    0
+                  
+                
+              
+              π
+            
+          
+          ⌉
+        
+      
+    
+    {\displaystyle N=\left\lfloor {\frac {2u_{0}}{\pi }}\right\rfloor +1=\left\lceil {\frac {2u_{0}}{\pi }}\right\rceil }
+  
+In this case there are exactly three solutions, since 
+  
+    
+      
+        N
+        =
+        ⌊
+        2
+        
+          
+            20
+          
+        
+        
+          /
+        
+        π
+        ⌋
+        +
+        1
+        =
+        ⌊
+        2.85
+        ⌋
+        +
+        1
+        =
+        2
+        +
+        1
+        =
+        3
+      
+    
+    {\displaystyle N=\lfloor 2{\sqrt {20}}/\pi \rfloor +1=\lfloor 2.85\rfloor +1=2+1=3}
+  .
+
+  
+    
+      
+        
+          v
+          
+            1
+          
+        
+        =
+        1.28
+        ,
+        
+          v
+          
+            2
+          
+        
+        =
+        2.54
+      
+    
+    {\displaystyle v_{1}=1.28,v_{2}=2.54}
+   and 
+  
+    
+      
+        
+          v
+          
+            3
+          
+        
+        =
+        3.73
+      
+    
+    {\displaystyle v_{3}=3.73}
+  , with the corresponding energies
+
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+        =
+        
+          
+            
+              2
+              
+                ℏ
+                
+                  2
+                
+              
+              
+                v
+                
+                  n
+                
+                
+                  2
+                
+              
+            
+            
+              m
+              
+                L
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle E_{n}={2\hbar ^{2}v_{n}^{2} \over mL^{2}}}
+  .
+If we want, we can go back and find the values of the constants 
+  
+    
+      
+        A
+        ,
+        B
+        ,
+        G
+        ,
+        H
+      
+    
+    {\displaystyle A,B,G,H}
+   in the equations now (we also need to impose the normalisation condition). On the right we show the energy levels and wave functions in this case (where 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+        ≡
+        ℏ
+        
+          /
+        
+        
+          
+            2
+            m
+            
+              V
+              
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle x_{0}\equiv \hbar /{\sqrt {2mV_{0}}}}
+  ):
+We note that however small 
+  
+    
+      
+        
+          u
+          
+            0
+          
+        
+      
+    
+    {\displaystyle u_{0}}
+   is (however shallow or narrow the well), there is always at least one bound state.
+Two special cases are worth noting. As the height of the potential becomes large, 
+  
+    
+      
+        
+          V
+          
+            0
+          
+        
+        →
+        ∞
+      
+    
+    {\displaystyle V_{0}\to \infty }
+  , the radius of the semicircle gets larger and the roots get closer and closer to the values 
+  
+    
+      
+        
+          v
+          
+            n
+          
+        
+        =
+        n
+        π
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle v_{n}=n\pi /2}
+  , and we recover the case of the infinite square well.
+The other case is that of a very narrow, deep well - specifically the case 
+  
+    
+      
+        
+          V
+          
+            0
+          
+        
+        →
+        ∞
+      
+    
+    {\displaystyle V_{0}\to \infty }
+   and 
+  
+    
+      
+        L
+        →
+        0
+      
+    
+    {\displaystyle L\to 0}
+   with 
+  
+    
+      
+        
+          V
+          
+            0
+          
+        
+        L
+      
+    
+    {\displaystyle V_{0}L}
+   fixed. As 
+  
+    
+      
+        
+          u
+          
+            0
+          
+        
+        ∝
+        
+          V
+          
+            0
+          
+        
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle u_{0}\propto V_{0}L^{2}}
+   it will tend to zero, and so there will only be one bound state. The approximate solution is then 
+  
+    
+      
+        
+          v
+          
+            2
+          
+        
+        =
+        
+          u
+          
+            0
+          
+          
+            2
+          
+        
+        −
+        
+          u
+          
+            0
+          
+          
+            4
+          
+        
+      
+    
+    {\displaystyle v^{2}=u_{0}^{2}-u_{0}^{4}}
+  , and the energy tends to 
+  
+    
+      
+        E
+        =
+        −
+        m
+        
+          L
+          
+            2
+          
+        
+        
+          V
+          
+            0
+          
+          
+            2
+          
+        
+        
+          /
+        
+        2
+        
+          ℏ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle E=-mL^{2}V_{0}^{2}/2\hbar ^{2}}
+  . But this is just the energy of the bound state of a Delta function potential of strength 
+  
+    
+      
+        
+          V
+          
+            0
+          
+        
+        L
+      
+    
+    {\displaystyle V_{0}L}
+  , as it should be.
+Note: The above derivation does not consider the possibility that the effective mass of the particle could be different inside the potential well and the region outside the well.
+
+
+=== Spherical cavity ===
+The results above can be used to show that, contrary to the one-dimensional case, there is not always a bound state in a spherical cavity.
+The ground state of a spherically symmetric potential will always have zero orbital angular momentum, and the reduced wave function 
+  
+    
+      
+        U
+        (
+        r
+        )
+        ≡
+        r
+        ψ
+        (
+        r
+        )
+      
+    
+    {\displaystyle U(r)\equiv r\psi (r)}
+   satisfies the equation
+
+  
+    
+      
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              U
+            
+            
+              d
+              
+                r
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        V
+        (
+        r
+        )
+        U
+        (
+        r
+        )
+        =
+        E
+        U
+        (
+        r
+        )
+      
+    
+    {\displaystyle -{\frac {\hbar ^{2}}{2m}}{d^{2}U \over dr^{2}}+V(r)U(r)=EU(r)}
+  
+This is identical to the one-dimensional equation, except for the boundary conditions. As before, 
+  
+    
+      
+        U
+        (
+        r
+        )
+      
+    
+    {\displaystyle U(r)}
+   and its first derivative must be continuous at the edge of the well 
+  
+    
+      
+        r
+        =
+        R
+      
+    
+    {\displaystyle r=R}
+  . However, there is another condition, that 
+  
+    
+      
+        ψ
+        (
+        0
+        )
+      
+    
+    {\displaystyle \psi (0)}
+   must be finite, and that requires 
+  
+    
+      
+        U
+        (
+        0
+        )
+        =
+        0
+      
+    
+    {\displaystyle U(0)=0}
+  .
+By comparison with the solutions above, we can see that only the antisymmetric ones have nodes at the origin. Thus only the solutions to 
+  
+    
+      
+        α
+        =
+        −
+        k
+        cot
+        ⁡
+        (
+        k
+        R
+        )
+      
+    
+    {\displaystyle \alpha =-k\cot(kR)}
+   are allowed. These correspond to the intersection of the semicircle with the grey curves, and so if the cavity is too shallow or small, there will be no bound state.
+
+
+== See also ==
+Potential well
+Delta function potential
+Infinite potential well
+Semicircle potential well
+Quantum tunnelling
+
+
+== References ==
+Griffiths, David J. (2005). Introduction to Quantum Mechanics (2nd ed.). Prentice-Hall. ISBN 0-13-111892-7.

@@ -1,0 +1,91 @@
+A chronon is a proposed quantum of time, that is, a discrete and indivisible "unit" of time as part of a hypothesis that proposes that time is not continuous.
+
+
+== Early work ==
+While time is a continuous quantity in both standard quantum mechanics and general relativity, many physicists have suggested that a discrete model of time might work, especially when considering the combination of quantum mechanics with general relativity to produce a theory of quantum gravity. The term was introduced in this sense by Robert Lévi in 1927. A quantum theory in which time is a quantum variable with a discrete spectrum, and which is nevertheless consistent with special relativity, was proposed by Chen Ning Yang in 1947. Henry Margenau in 1950 suggested that the chronon might be the time for light to travel the classical radius of an electron.
+
+
+== Work by Caldirola ==
+A prominent model was introduced by Piero Caldirola in 1980. In Caldirola's model, one chronon corresponds to about 6.27×10−24 seconds for an electron. This is much longer than the Planck time, which is only about 5.39×10−44 seconds. The Planck time is a theoretical lower-bound on the length of time that could exist between two connected events, but it is not a quantization of time itself since there is no requirement that the time between two events be separated by a discrete number of Planck times. For example, ordered pairs of events (A, B) and (B, C) could each be separated by slightly more than 1 Planck time: this would produce a measurement limit of 1 Planck time between A and B or B and C, but a limit of 3 Planck times between A and C. Additionally, the Planck time is a universal quantization of time itself, whereas the chronon is a quantization of the evolution in a system along its world line. Consequently, the value of the chronon, like other quantized observables in quantum mechanics, is a function of the system under consideration, particularly its boundary conditions. The value for the chronon, θ0, is calculated from:
+
+  
+    
+      
+        
+          θ
+          
+            0
+          
+        
+        =
+        
+          
+            1
+            
+              6
+              π
+              
+                ϵ
+                
+                  0
+                
+              
+            
+          
+        
+        
+          
+            
+              e
+              
+                2
+              
+            
+            
+              
+                m
+                
+                  0
+                
+              
+              
+                c
+                
+                  3
+                
+              
+            
+          
+        
+         
+      
+    
+    {\displaystyle \theta _{0}={\frac {1}{6\pi \epsilon _{0}}}{\frac {e^{2}}{m_{0}c^{3}}}\ }
+  
+From this formula, it can be seen that the nature of the moving particle being considered must be specified since the value of the chronon depends on the particle's charge and mass.
+Caldirola claims the chronon has important implications for quantum mechanics, in particular that it allows for a clear answer to the question of whether a free-falling charged particle does or does not emit radiation. This model supposedly avoids the difficulties met by Abraham–Lorentz's and Dirac's approaches to the problem, and provides a natural explication of quantum decoherence.
+
+
+== See also ==
+Elementary particle
+Gravastar
+List of particles
+Particle physics
+Quantum mechanics
+Theoretical physics
+
+
+== Notes ==
+
+
+== References ==
+Lévi, Robert (1927). "Théorie de l'action universelle et discontinue". Journal de Physique et le Radium. 8 (4): 182–198. doi:10.1051/jphysrad:0192700804018200. 
+Margenau, Henry (1950). The Nature of Physical Reality. McGraw-Hill. 
+Yang, C N (1947). "On quantized space-time". Physical Review. 72 (9): 874. Bibcode:1947PhRv...72..874Y. doi:10.1103/PhysRev.72.874. 
+Caldirola, P. (1980). "The introduction of the chronon in the electron theory and a charged lepton mass formula". Lett. Nuovo Cim. 27 (8): 225–228. doi:10.1007/BF02750348. 
+Farias, Ruy A. H.; Recami, Erasmo (1997-06-27). "Introduction of a Quantum of Time ("chronon"), and its Consequences for Quantum Mechanics". arXiv:quant-ph/9706059 [quant-ph]. 
+Albanese, Claudio; Lawi, Stephan (2004). "Time Quantization and q-deformations" (PDF). Journal of Physics A. 37 (8): 2983–2987. arXiv:hep-th/0308190. Bibcode:2004JPhA...37.2983A. doi:10.1088/0305-4470/37/8/009. Retrieved 2006-07-31. 
+
+
+== External links ==
+"First Experimental Evidence That Time Is an Emergent Quantum Phenomenon". Slashdot. Archived from the original on 2015-03-25.

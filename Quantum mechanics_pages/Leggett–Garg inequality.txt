@@ -1,0 +1,777 @@
+The Leggett–Garg inequality, named for Anthony James Leggett and Anupam Garg, is a mathematical inequality fulfilled by all macrorealistic physical theories. Here, macrorealism (macroscopic realism) is a classical worldview defined by the conjunction of two postulates:
+Macrorealism per se: "A macroscopic object, which has available to it two or more macroscopically distinct states, is at any given time in a definite one of those states."
+Noninvasive measurability: "It is possible in principle to determine which of these states the system is in without any effect on the state itself, or on the subsequent system dynamics."
+
+
+== In quantum mechanics ==
+In quantum mechanics, the Leggett–Garg inequality is violated, meaning that the time evolution of a system cannot be understood classically. The situation is similar to the violation of Bell's inequalities in Bell test experiments which plays an important role in understanding the nature of the Einstein–Podolsky–Rosen paradox. Here quantum entanglement plays the central role. The violation of Bell's inequalities rules out local hidden variable theories which attempt to restore the realism in the sense that definiteness of the outcome in a single measurement can be ensured by using a supplementary variable along with the wave function which can not be obtained in the standard Copenhagen Interpretation of quantum mechanics in its various formulations.
+As well as Einstein's famous "God does not play dice" objection to quantum mechanics, there was Einstein's still more fundamental objection that the Moon is still there when nobody looks. If the violation of the Leggett–Garg inequality can be demonstrated on the macroscopic scale, this would challenge even this notion of realism.
+
+
+== Two-state example ==
+The simplest form of the Leggett–Garg inequality derives from examining a system that has only two possible states. These states have corresponding measurement values 
+  
+    
+      
+        Q
+        =
+        ±
+        1
+      
+    
+    {\displaystyle Q=\pm 1}
+  . The key here is that we have measurements at two different times, and one or more times between the first and last measurement. The simplest example is where the system is measured at three successive times 
+  
+    
+      
+        
+          t
+          
+            1
+          
+        
+        <
+        
+          t
+          
+            2
+          
+        
+        <
+        
+          t
+          
+            3
+          
+        
+      
+    
+    {\displaystyle t_{1}<t_{2}<t_{3}}
+  . Now suppose, for instance, that there is a perfect correlation 
+  
+    
+      
+        
+          C
+          
+            13
+          
+        
+      
+    
+    {\displaystyle C_{13}}
+   of 1 between times 
+  
+    
+      
+        
+          t
+          
+            1
+          
+        
+      
+    
+    {\displaystyle t_{1}}
+   and 
+  
+    
+      
+        
+          t
+          
+            3
+          
+        
+      
+    
+    {\displaystyle t_{3}}
+  . That is to say, that for N realisations of the experiment, the temporal correlation reads
+
+  
+    
+      
+        
+          C
+          
+            13
+          
+        
+        =
+        
+          
+            1
+            N
+          
+        
+        
+          ∑
+          
+            r
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          Q
+          
+            r
+          
+        
+        (
+        
+          t
+          
+            1
+          
+        
+        )
+        
+          Q
+          
+            r
+          
+        
+        (
+        
+          t
+          
+            3
+          
+        
+        )
+        =
+        1.
+      
+    
+    {\displaystyle C_{13}={\frac {1}{N}}\sum _{r=1}^{N}Q_{r}(t_{1})Q_{r}(t_{3})=1.}
+  
+We look at this case in some detail. What can be said about what happens at time 
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+      
+    
+    {\displaystyle t_{2}}
+  ? Well, it is possible that 
+  
+    
+      
+        
+          C
+          
+            12
+          
+        
+        =
+        
+          C
+          
+            23
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle C_{12}=C_{23}=1}
+  , so that if the value at 
+  
+    
+      
+        
+          t
+          
+            1
+          
+        
+        =
+        ±
+        1
+      
+    
+    {\displaystyle t_{1}=\pm 1}
+  , then it is also 
+  
+    
+      
+        ±
+        1
+      
+    
+    {\displaystyle \pm 1}
+   for both times 
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+      
+    
+    {\displaystyle t_{2}}
+   and 
+  
+    
+      
+        
+          t
+          
+            3
+          
+        
+      
+    
+    {\displaystyle t_{3}}
+  . It is also quite possible that 
+  
+    
+      
+        
+          C
+          
+            12
+          
+        
+        =
+        
+          C
+          
+            23
+          
+        
+        =
+        −
+        1
+      
+    
+    {\displaystyle C_{12}=C_{23}=-1}
+  , so that the value at 
+  
+    
+      
+        
+          t
+          
+            1
+          
+        
+      
+    
+    {\displaystyle t_{1}}
+   is flipped twice, and so has the same value at 
+  
+    
+      
+        
+          t
+          
+            3
+          
+        
+      
+    
+    {\displaystyle t_{3}}
+   as it did at 
+  
+    
+      
+        
+          t
+          
+            1
+          
+        
+      
+    
+    {\displaystyle t_{1}}
+  . So, we can have both 
+  
+    
+      
+        Q
+        (
+        
+          t
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle Q(t_{1})}
+   and 
+  
+    
+      
+        Q
+        (
+        
+          t
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle Q(t_{2})}
+   anti-correlated as long as we have 
+  
+    
+      
+        Q
+        (
+        
+          t
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle Q(t_{2})}
+   and 
+  
+    
+      
+        Q
+        (
+        
+          t
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle Q(t_{3})}
+   anti-correlated. Yet another possibility is that there is no correlation between 
+  
+    
+      
+        Q
+        (
+        
+          t
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle Q(t_{1})}
+   and 
+  
+    
+      
+        Q
+        (
+        
+          t
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle Q(t_{2})}
+  . That is we could have 
+  
+    
+      
+        
+          C
+          
+            12
+          
+        
+        =
+        
+          C
+          
+            23
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle C_{12}=C_{23}=0}
+  . So, although it is known that if 
+  
+    
+      
+        Q
+        =
+        ±
+        1
+      
+    
+    {\displaystyle Q=\pm 1}
+   at 
+  
+    
+      
+        
+          t
+          
+            1
+          
+        
+      
+    
+    {\displaystyle t_{1}}
+   it must also be 
+  
+    
+      
+        ±
+        1
+      
+    
+    {\displaystyle \pm 1}
+   at 
+  
+    
+      
+        
+          t
+          
+            3
+          
+        
+      
+    
+    {\displaystyle t_{3}}
+  , the value at 
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+      
+    
+    {\displaystyle t_{2}}
+   may well as be determined by the toss of a coin. We define 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+   as 
+  
+    
+      
+        K
+        =
+        
+          C
+          
+            12
+          
+        
+        +
+        
+          C
+          
+            23
+          
+        
+        −
+        
+          C
+          
+            13
+          
+        
+      
+    
+    {\displaystyle K=C_{12}+C_{23}-C_{13}}
+  . In these three cases, we have 
+  
+    
+      
+        K
+        =
+        1
+        ,
+        −
+        3
+        ,
+      
+    
+    {\displaystyle K=1,-3,}
+   and 
+  
+    
+      
+        −
+        1
+      
+    
+    {\displaystyle -1}
+  , respectively.
+All that was for 100% correlation between times 
+  
+    
+      
+        
+          t
+          
+            1
+          
+        
+      
+    
+    {\displaystyle t_{1}}
+   and 
+  
+    
+      
+        
+          t
+          
+            3
+          
+        
+      
+    
+    {\displaystyle t_{3}}
+  . In fact, for any correlation between these times 
+  
+    
+      
+        K
+        =
+        
+          C
+          
+            12
+          
+        
+        +
+        
+          C
+          
+            23
+          
+        
+        −
+        
+          C
+          
+            13
+          
+        
+        ≤
+        1
+      
+    
+    {\displaystyle K=C_{12}+C_{23}-C_{13}\leq 1}
+  . To see this, we note that
+
+  
+    
+      
+        K
+        =
+        
+          
+            1
+            N
+          
+        
+        
+          ∑
+          
+            r
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            (
+            Q
+            (
+            
+              t
+              
+                1
+              
+            
+            )
+            Q
+            (
+            
+              t
+              
+                2
+              
+            
+            )
+            +
+            Q
+            (
+            
+              t
+              
+                2
+              
+            
+            )
+            Q
+            (
+            
+              t
+              
+                3
+              
+            
+            )
+            −
+            Q
+            (
+            
+              t
+              
+                1
+              
+            
+            )
+            Q
+            (
+            
+              t
+              
+                3
+              
+            
+            )
+            )
+          
+          
+            r
+          
+        
+        .
+      
+    
+    {\displaystyle K={\frac {1}{N}}\sum _{r=1}^{N}\left(Q(t_{1})Q(t_{2})+Q(t_{2})Q(t_{3})-Q(t_{1})Q(t_{3})\right)_{r}.}
+  
+It is easily seen that for every realisation 
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+  , the term in the parentheses must be less than or equal to unity, so that the result for the sum is also less than (or equal to) unity. If we have four distinct times rather than three, we have 
+  
+    
+      
+        K
+        =
+        
+          C
+          
+            12
+          
+        
+        +
+        
+          C
+          
+            23
+          
+        
+        +
+        
+          C
+          
+            34
+          
+        
+        −
+        
+          C
+          
+            14
+          
+        
+        ≤
+        2
+      
+    
+    {\displaystyle K=C_{12}+C_{23}+C_{34}-C_{14}\leq 2}
+   and so on. These are the Leggett–Garg inequalities. They say something definite about the relation between the temporal correlations of 
+  
+    
+      
+        ⟨
+        Q
+        (
+        
+          start
+        
+        )
+        Q
+        (
+        
+          end
+        
+        )
+        ⟩
+      
+    
+    {\displaystyle \langle Q({\text{start}})Q({\text{end}})\rangle }
+   and the correlations between successive times in going from the start to the end.
+In the derivations above, it has been assumed that the quantity Q, representing the state of the system, always has a definite value (macrorealism per se) and that its measurement at a certain time does not change this value nor its subsequent evolution (noninvasive measurability). A violation of the Leggett–Garg inequality implies that at least one of these two assumptions fails.
+
+
+== Experimental violations ==
+One of the first proposed experiments for demonstrating a violation of macroscopic realism employs superconducting quantum interference devices. There, using Josephson junctions, one should be able to prepare macroscopic superpositions of left and right rotating macroscopically large electronic currents in a superconducting ring. Under sufficient suppression of decoherence one should be able to demonstrate a violation of the Leggett–Garg inequality. However, some criticism has been raised concerning the nature of indistinguishable electrons in a Fermi sea.
+A criticism of some other proposed experiments on the Leggett–Garg inequality is that they do not really show a violation of macrorealism because they are essentially about measuring spins of individual particles. In 2015 Robens et al.  demonstrated an experimental violation of the Leggett–Garg inequality using superpositions of positions instead of spin with a massive particle. At that time, and so far up until today, the Cesium atoms employed in their experiment represent the largest quantum objects which have been used to experimentally test the Leggett–Garg inequality.
+The experiments of Robens et al.  as well as Knee et al., using ideal negative measurements, also avoid a second criticism (referred to as “clumsiness loophole” ) that has been directed to previous experiments using measurement protocols that could be interpreted as invasive, thereby conflicting with postulate 2.
+Several other experimental violations have been reported, including in 2016 with neutrino particles using the MINOS dataset.
+Brukner and Kofler have demonstrated that quantum violations have also demonstrated that quantum violations can be found for arbitrarily large macroscopic systems. As an alternative to quantum decoherence, Brukner and Kofler are proposing a solution of the quantum-to-classical transition in terms of coarse-grained quantum measurements under which usually no violation of the Leggett–Garg inequality can be seen anymore.
+Experiments proposed by Mermin  and Braunstein and Mann  would be better for testing macroscopic realism, but warns that the experiments may be complex enough to admit unforeseen loopholes in the analysis. A detailed discussion of the subject can be found in the review by Emary et al.
+
+
+== Related inequalities ==
+The four-term Leggett–Garg inequality can be seen to be similar to the CHSH inequality. Moreover, equalities were proposed by Jaeger et al.
+
+
+== See also ==
+Leggett inequality
+
+
+== References ==

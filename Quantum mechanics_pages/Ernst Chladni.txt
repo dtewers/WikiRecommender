@@ -1,0 +1,83 @@
+Ernst Florens Friedrich Chladni (German: [ˈɛʁnst ˈfloːʁɛns ˈfʁiːdʁɪç ˈkladnɪ]; 30 November 1756 – 3 April 1827) was a German physicist and musician. His most important work, for which he is sometimes labeled the father of acoustics, included research on vibrating plates and the calculation of the speed of sound for different gases. He also undertook pioneering work in the study of meteorites and so is also regarded by some as the father of meteoritics.
+
+
+== Early life ==
+Although Chladni was born in Wittenberg in Saxony, his family originated from Kremnica, then part of the Kingdom of Hungary and today a mining town in central Slovakia. Chladni has therefore been identified as German, Hungarian and Slovak.
+
+Chladni came from an educated family of academics and learned men. Chladni's great-grandfather, the Lutheran clergyman Georg Chladni (1637–92), had left Kremnica in 1673 during the Counter Reformation. Chladni's grandfather, Martin Chladni (1669–1725), was also a Lutheran theologian and, in 1710, became professor of theology at the University of Wittenberg. He was dean of the theology faculty in 1720–1721 and later became the university's rector. Chaldni's uncle, Justus Georg Chladni (1701–1765), was a law professor at the university. Another uncle, Johann Martin Chladni (1710–1759), was a theologian, a historian and a professor at the University of Erlangen and the University of Leipzig.
+
+Chladni's father, Ernst Martin Chladni (1715–1782), was a law professor and rector of the University of Wittenberg. He had joined the law faculty there in 1746. Chladni's mother was Johanna Sophia and he was an only child. His father disapproved of his son's interest in science and insisted that Chladni become a lawyer.
+
+
+== Career ==
+Chladni studied law and philosophy in Wittenberg and Leipzig, obtaining a law degree from the University of Leipzig in 1782. That same year, his father died and he turned to physics in earnest.
+
+
+== Chladni figures ==
+
+One of Chladni's best-known achievements was inventing a technique to show the various modes of vibration of a rigid surface. When resonating, a plate or membrane is divided into regions that vibrate in opposite directions, bounded by lines where no vibration occurs (nodal lines). Chladni repeated the pioneering experiments of Robert Hooke who, on July 8, 1680, had observed the nodal patterns associated with the vibrations of glass plates. Hooke ran a violin bow along the edge of a plate covered with flour and saw the nodal patterns emerge.
+Chladni's technique, first published in 1787 in his book Entdeckungen über die Theorie des Klanges ("Discoveries in the Theory of Sound"), consisted of drawing a bow over a piece of metal whose surface was lightly covered with sand. The plate was bowed until it reached resonance, when the vibration causes the sand to move and concentrate along the nodal lines where the surface is still, outlining the nodal lines. The patterns formed by these lines are what are now called Chladni figures. Similar nodal patterns can also be found by assembling microscale materials on Faraday waves.
+When Chladni showed the technique in Paris, Napoleon set a prize for the best mathematical explanation. Sophie Germain's answer, although rejected due to flaws, was the only entry with the correct approach.
+Variations of this technique are still commonly used in the design and construction of acoustic instruments such as violins, guitars, and cellos. Since the 20th century, it has become more common to place a loudspeaker driven by an electronic signal generator over or under the plate to achieve a more accurate adjustable frequency.
+In quantum mechanics, Chladni figures ("nodal patterns") are known to be related to the solutions of the Schrödinger equation for one-electron atoms, and the mathematics describing them was used by Erwin Schrödinger to arrive at the understanding of electron orbitals.
+
+
+== Musical instruments ==
+Since at least 1738, a musical instrument called a Glasspiel or verillon, created by filling beer glasses with varying amounts of water, was popular in Europe. The beer glasses were struck by wooden mallets shaped like spoons to produce "church and other solemn music". Benjamin Franklin was sufficiently impressed by a verillon performance on a visit to London in 1757 that he created his own instrument, the glass armonica, in 1762. Franklin's armonica inspired several other instruments, including two created by Chladni. In 1791, Chladni invented the musical instrument called the euphon (not to be confused with the brass instrument euphonium), consisting of glass rods of different pitches. Chladni's euphon is the direct ancestor of the modern day musical instrument known as the Cristal Baschet. Chladni also improved on Hooke's "musical cylinder" to produce another instrument, the clavicylinder, in 1799.
+Chladni travelled throughout Europe with his instruments giving demonstrations.
+
+
+== Meteorites ==
+In 1794, Chladni published Über den Ursprung der von Pallas gefundenen und anderer ihr ähnlicher Eisenmassen und über einige damit in Verbindung stehende Naturerscheinungen ("On the Origin of the Iron Masses Found by Pallas and Others Similar to it, and on Some Associated Natural Phenomena") in which he proposed that meteorites have an extraterrestrial origin. This was a controversial statement at the time, since meteorites were thought to be of volcanic origin. This book made Chladni one of the founders of modern meteorite research.
+Chladni was initially ridiculed for his claims, but his writings sparked a curiosity that eventually led more researchers supporting his theory. In 1795, a large stony meteorite was observed during its fall to Earth at a cottage near Wold Newton in Yorkshire, England and a piece of it, known as the Wold Cottage meteorite, was given to the British chemist Edward Howard who, along with French mineralogist Jacques de Bournon, carefully analyzed its composition and concluded that an extraterrestrial origin was likely. In 1803, the physicist and astronomer Jean Baptiste Biot was commissioned by the French Minister of the Interior to investigate a meteor shower over L'Aigle in northern France that had peppered the town with thousands of meteorite fragments. Unlike Chladni's book and the scientific publication by Howard and de Bournon, Biot's lively report became popular and persuaded more people to take Chladni's insights seriously.
+
+
+== Other work ==
+Chladni discovered Chladni's law, a simple algebraic relation for approximating the modal frequencies of the free oscillations of plates and other bodies.
+Chladni estimated sound velocities in different gases by placing those gases in an organ pipe and measuring the characteristics of the sounds that emerged when the pipe was played. This built on work on measuring the speed of sound in air that Pierre Gassendi began in 1635.
+
+
+== Death ==
+Chladni died on April 3, 1827 in Breslau, Lower Silesia, then part of the Kingdom of Prussia and today the city of Wrocław in southwestern Poland.
+
+
+== Bibliography ==
+Entdeckungen über die Theorie des Klanges, Leipzig 1787.
+Die Akustik, Leipzig 1802. French translation: Traite d’acoustique, Paris 1809. Also in Neue Beiträge zur Akustik, Leipzig 1817.
+Beiträge zur praktischen Akustik und zur Lehre vom Instrumentbau, Leipzig 1821.
+Über den Ursprung der von Pallas gefundenen und anderer ihr ähnlicher Eisenmassen, Leipzig/Riga 1794.
+Über Feuermeteore, Vienna 1820.
+Über die Hervorbringung der menschlichen Sprachlaute, Leipzig 1824.
+Kurze Übersicht der Schall und Klanglehre, nebst einem Anhange die Entwickelung und Anordnung der Tonverhältnisse betreffend, Mainz 1827.
+
+
+== See also ==
+Bessel functions
+Hans Jenny (cymatics)
+Alexander Lauterwasser, a photographer who uses Chladni's work when creating images of liquid surfaces
+Tritare, a guitar causing particular forms of Chladni figures
+Vibrations of a circular membrane
+
+
+== References ==
+
+
+== Further reading ==
+Jackson, Myles W. (2006) Harmonious Triads: Physicists, Musicians, and Instrument Makers in Nineteenth-Century Germany (MIT Press).
+Marvin, Ursula B. (1996). "Ernst florens Friedrich Chladni (1756–1827) and the origins of modern meteorite research". Meteoritics. 31 (5): 545–588. Bibcode:1996M&PS...31..545M. doi:10.1111/j.1945-5100.1996.tb02031.x. 
+Rossing T. D. (1982) Chladni's Law for Vibrating Plates, American Journal of Physics 50, 271–274
+
+
+== External links ==
+Short biography, bibliography, and links on digitized sources in the Virtual Laboratory of the Max Planck Institute for the History of Science
+Die Akustik, 1802 by Ernst Chladni at Universities of Strasbourg
+Video of Chladni patterns through frequency range on YouTube (Accessed 5/31/08)
+Simulated Chladni patterns on a rectangular plate on YouTube (Accessed 5/18/14)
+Examples with round, square, stadium plates and violin shapes
+Chladni plates
+Electromagnetically driven Chladni plate
+Use of Chladni patterns in the construction of violins
+Chladni patterns for guitar plates
+Other pictures of Chladni can be viewed at this site and at the Science and Society Picture Library.
+Bowley, Roger (2009). "Chladni's Plate". Sixty Symbols. Brady Haran for the University of Nottingham. 
+Ernst Chladni at Monoskop.org

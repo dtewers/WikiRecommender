@@ -1,0 +1,113 @@
+In physics and cosmology, digital physics (also referred to as digital ontology or digital philosophy) is a collection of theoretical perspectives based on the premise that the universe is describable by information. According to this theory, the universe can be conceived of as either the output of a deterministic or probabilistic computer program, a vast, digital computation device, or mathematically isomorphic to such a device.
+
+
+== History ==
+The operations of computers must be compatible with the principles of information theory, statistical thermodynamics, and quantum mechanics. In 1957, a link among these fields was proposed by Edwin Jaynes. He elaborated an interpretation of probability theory as generalized Aristotelian logic, a view linking fundamental physics with digital computers, because these are designed to implement the operations of classical logic and, equivalently, of Boolean algebra.
+The hypothesis that the universe is a digital computer was proposed by Konrad Zuse in his book Rechnender Raum (translated into English as Calculating Space). The term digital physics was employed by Edward Fredkin, who later came to prefer the term digital philosophy. Others who have modeled the universe as a giant computer include Stephen Wolfram, Juergen Schmidhuber, and Nobel laureate Gerard 't Hooft. These authors hold that the probabilistic nature of quantum physics is not necessarily incompatible with the notion of computability. Quantum versions of digital physics have recently been proposed by Seth Lloyd and Paola Zizzi.
+Related ideas include Carl Friedrich von Weizsäcker's binary theory of ur-alternatives, pancomputationalism, computational universe theory, John Archibald Wheeler's "It from bit", and Max Tegmark's ultimate ensemble.
+
+
+=== Overview ===
+Digital physics suggests that there exists, at least in principle, a program for a universal computer that computes the evolution of the universe. The computer could be, for example, a huge cellular automaton (Zuse 1967), or a universal Turing machine, as suggested by Schmidhuber (1997), who pointed out that there exists a short program that can compute all possible computable universes in an asymptotically optimal way.
+Loop quantum gravity could lend support to digital physics, in that it assumes space-time is quantized. Paola Zizzi has formulated a realization of this concept in what has come to be called "computational loop quantum gravity", or CLQG. Other theories that combine aspects of digital physics with loop quantum gravity are those of Marzuoli and Rasetti and Girelli and Livine.
+
+
+=== Weizsäcker's ur-alternatives ===
+Physicist Carl Friedrich von Weizsäcker's theory of ur-alternatives (theory of archetypal objects), first publicized in his book The Unity of Nature (1971), further developed through the 1990s, is a kind of digital physics as it axiomatically constructs quantum physics from the distinction between empirically observable, binary alternatives. Weizsäcker used his theory to derive the 3-dimensionality of space and to estimate the entropy of a proton. In 1988 Görnitz has shown that Weizsäcker's assumption can be connected with the Bekenstein-Hawking Entropy.
+
+
+=== Pancomputationalism or the computational universe theory ===
+Pancomputationalism (also known as pan-computationalism, naturalist computationalism) is a view that the universe is a computational machine, or rather a network of computational processes which, following fundamental physical laws, computes (dynamically develops) its own next state from the current one.
+A computational universe is proposed by Jürgen Schmidhuber in a paper based on Konrad Zuse's assumption (1967) that the history of the universe is computable. He pointed out that a simple explanation of the universe would be a Turing machine programmed to execute all possible programs computing all possible histories for all types of computable physical laws. He also pointed out that there is an optimally efficient way of computing all computable universes based on Leonid Levin's universal search algorithm (1973). In 2000, he expanded this work by combining Ray Solomonoff's theory of inductive inference with the assumption that quickly computable universes are more likely than others. This work on digital physics also led to limit-computable generalizations of algorithmic information or Kolmogorov complexity and the concept of Super Omegas, which are limit-computable numbers that are even more random (in a certain sense) than Gregory Chaitin's number of wisdom Omega.
+
+
+=== Wheeler's "it from bit" ===
+Following Jaynes and Weizsäcker, the physicist John Archibald Wheeler proposed an "it from bit" doctrine: information sits at the core of physics, and every "it", whether a particle or field, derives its existence from observations.
+The toughest nut to crack in Wheeler's research program of a digital dissolution of physical being in a unified physics, Wheeler says, is time. In a 1986 eulogy to the mathematician, Hermann Weyl, Wheeler proclaimed: "Time, among all concepts in the world of physics, puts up the greatest resistance to being dethroned from ideal continuum to the world of the discrete, of information, of bits. ... Of all obstacles to a thoroughly penetrating account of existence, none looms up more dismayingly than 'time.' Explain time? Not without explaining existence. Explain existence? Not without explaining time. To uncover the deep and hidden connection between time and existence ... is a task for the future."
+The idea that information could be the fundamental quantity at the core of physics was presented earlier by Frederick W. Kantor (a physicist from Columbia University). Kantor's book Information Mechanics (Wiley-Interscience, 1977) developed the idea in detail, but without mathematical rigor.
+
+
+=== Digital vs. informational physics ===
+Not every informational approach to physics (or ontology) is necessarily digital. According to Luciano Floridi, "informational structural realism" is a variant of structural realism that supports an ontological commitment to a world consisting of the totality of informational objects dynamically interacting with each other. Such informational objects are to be understood as constraining affordances.
+Pancomputationalists like Lloyd (2006), who models the universe as a quantum computer, can still maintain an analogue or hybrid ontology; and informational ontologists like Kenneth Sayre and Floridi embrace neither a digital ontology nor a pancomputationalist position.
+
+
+== Computational foundations ==
+
+
+=== Turing machines ===
+
+
+=== The Church–Turing (Deutsch) thesis ===
+The classic Church–Turing thesis claims that any computer as powerful as a Turing machine can, in principle, calculate anything that a human can calculate, given enough time. Turing moreover showed that there exist universal Turing machines which can compute anything any other Turing machine can compute—that they are generalizable Turing machines. But the limits of practical computation are set by physics, not by theoretical computer science:
+
+"Turing did not show that his machines can solve any problem that can be solved 'by instructions, explicitly stated rules, or procedures', nor did he prove that the universal Turing machine 'can compute any function that any computer, with any architecture, can compute'. He proved that his universal machine can compute any function that any Turing machine can compute; and he put forward, and advanced philosophical arguments in support of, the thesis here called Turing's thesis. But a thesis concerning the extent of effective methods—which is to say, concerning the extent of procedures of a certain sort that a human being unaided by machinery is capable of carrying out—carries no implication concerning the extent of the procedures that machines are capable of carrying out, even machines acting in accordance with 'explicitly stated rules.' For among a machine's repertoire of atomic operations there may be those that no human being unaided by machinery can perform."
+
+On the other hand, a modification of Turing's assumptions does bring practical computation within Turing's limits; as David Deutsch puts it:
+
+"I can now state the physical version of the Church–Turing principle: 'Every finitely realizable physical system can be perfectly simulated by a universal model computing machine operating by finite means.' This formulation is both better defined and more physical than Turing's own way of expressing it." (Emphasis added)
+
+This compound conjecture is sometimes called the "strong Church–Turing thesis" or the Church–Turing–Deutsch principle. It is stronger because a human or Turing machine computing with pencil and paper (under Turing's conditions) is a finitely realizable physical system.
+
+
+== Experimental confirmation ==
+So far there is no experimental confirmation of either binary or quantized nature of the universe, which are basic for digital physics. The few attempts made in this direction would include the experiment with holometer designed by Craig Hogan, which among others would detect a bit structure of space-time. The experiment started collecting data in August 2014 and is still going on.
+
+
+== Criticism ==
+
+
+=== Physical symmetries are continuous ===
+One objection is that extant models of digital physics are incompatible with the existence of several continuous characters of physical symmetries, e.g., rotational symmetry, translational symmetry, Lorentz symmetry, and electroweak symmetry, all central to current physical theory.
+Proponents of digital physics claim that such continuous symmetries are only convenient (and very good) approximations of a discrete reality. For example, the reasoning leading to systems of natural units and the conclusion that the Planck length is a minimum meaningful unit of distance suggests that at some level, space itself is quantized.
+Moreover, computers can manipulate and solve formulas describing real numbers using symbolic computation, thus avoiding the need to approximate real numbers by using an infinite number of digits.
+A number—in particular a real number, one with an infinite number of digits—was defined by Turing to be computable if a Turing machine will continue to spit out digits endlessly. In other words, there is no "last digit". But this sits uncomfortably with any proposal that the universe is the output of a virtual-reality exercise carried out in real time (or any plausible kind of time). Known physical laws (including quantum mechanics and its continuous spectra) are very much infused with real numbers and the mathematics of the continuum.
+
+"So ordinary computational descriptions do not have a cardinality of states and state space trajectories that is sufficient for them to map onto ordinary mathematical descriptions of natural systems. Thus, from the point of view of strict mathematical description, the thesis that everything is a computing system in this second sense cannot be supported".
+
+For his part, David Deutsch generally takes a "multiverse" view to the question of continuous vs. discrete. In short, he thinks that “within each universe all observable quantities are discrete, but the multiverse as a whole is a continuum. When the equations of quantum theory describe a continuous but not-directly-observable transition between two values of a discrete quantity, what they are telling us is that the transition does not take place entirely within one universe. So perhaps the price of continuous motion is not an infinity of consecutive actions, but an infinity of concurrent actions taking place across the multiverse.” January, 2001 The Discrete and the Continuous, an abridged version of which appeared in The Times Higher Education Supplement.
+
+
+=== Locality ===
+Some argue that extant models of digital physics violate various postulates of quantum physics. For example, if these models are not grounded in Hilbert spaces and probabilities, they belong to the class of theories with local hidden variables that have so far been ruled out experimentally using Bell's theorem. This criticism has two possible answers. First, any notion of locality in the digital model does not necessarily have to correspond to locality formulated in the usual way in the emergent spacetime. A concrete example of this case was recently given by Lee Smolin. Another possibility is a well-known loophole in Bell's theorem known as superdeterminism (sometimes referred to as predeterminism). In a completely deterministic model, the experimenter's decision to measure certain components of the spins is predetermined. Thus, the assumption that the experimenter could have decided to measure different components of the spins than he actually did is, strictly speaking, not true.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Paul Davies, 1992. The Mind of God: The Scientific Basis for a Rational World. New York: Simon & Schuster.
+David Deutsch, 1997. The Fabric of Reality. New York: Allan Lane.
+Michael Eldred, 2009, The Digital Cast of Being: Metaphysics, Mathematics, Cartesianism, Cybernetics, Capitalism, Communication ontos, Frankfurt 2009, 137 pp. ISBN 978-3-86838-045-3
+Edward Fredkin, 1990. "Digital Mechanics," Physica D: 254-70.
+Seth Lloyd, Ultimate physical limits to computation, Nature, volume 406, pages 1047–1054
+Mariusz Stanowski, 2014. De Broglie Waves and a Complexity Definition, Infinite Energy, Vol 20, 116 pages 41–45. [3]
+Carl Friedrich von Weizsäcker,1972. "Die Einheit der Natur", München: Hanser; 1980. The Unity of Nature. New York: Farrar Straus & Giroux.
+John Archibald Wheeler, 1990. "Information, physics, quantum: The search for links" in W. Zurek (ed.) Complexity, Entropy, and the Physics of Information. Addison-Wesley.
+John Archibald Wheeler and Kenneth Ford, 1998. Geons, black holes and quantum foam: A life in physics. W. W. Norton. ISBN 0-393-04642-7.
+Robert Wright, 1989. Three Scientists and Their Gods: Looking for Meaning in an Age of Information. HarperCollins. ISBN 0-06-097257-2. This book discusses Edward Fredkin's work.
+Hector Zenil (ed.), 2012. A Computable Universe: Understanding and Exploring Nature As Computation with a Foreword by Sir Roger Penrose. Singapore: World Scientific Publishing Company.
+Konrad Zuse, 1970. Calculating Space. The English translation of his Rechnender Raum.
+
+
+== External links ==
+Discrete Physics; Mountain Math Software.
+Luciano Floridi, "Against Digital Ontology", Synthese, 2009, 168.1, (2009), 151–178.
+Edward Fredkin:
+Digital Philosophy
+Introduction to Digital Philosophy
+
+Gontigno, Paulo, "Hypercomputation and the Physical Church–Turing thesis"
+Juergen Schmidhuber:
+Home page, 1996–2007
+Computer Universes and Algorithmic Theory of Everything
+"Zuse's Thesis: The Universe is a Computer"
+
+Konrad Zuse, PDF scan of Zuse's paper.
+Konrad Zuse, Re-edition of Zuse's paper in modern LaTeX.
+The Oxford Advanced Seminar on Informatic Structures
+Wired: God is the Machine
+Gualtiero Piccinini. Computation in Physical Systems Discusses the metaphysical foundations of digital physics in section 3.4.

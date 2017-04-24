@@ -1,0 +1,72 @@
+Precision is a description of random errors, a measure of statistical variability.
+Accuracy has two definitions:
+more commonly, it is a description of systematic errors, a measure of statistical bias;
+alternatively, ISO defines accuracy as describing both types of observational error above (preferring the term trueness for the common definition of accuracy).
+In simplest terms, given a set of data points from a series of measurements, the set can be said to be precise if the values are close to the average value of the quantity being measured, while the set can be said to be accurate if the values are close to the true value of the quantity being measured. The two concepts are independent of each other, so a particular set of data can be said to be either accurate, or precise, or both, or neither.
+
+
+== Common definition ==
+
+In the fields of science, engineering and statistics, the accuracy of a measurement system is the degree of closeness of measurements of a quantity to that quantity's true value. The precision of a measurement system, related to reproducibility and repeatability, is the degree to which repeated measurements under unchanged conditions show the same results. Although the two words precision and accuracy can be synonymous in colloquial use, they are deliberately contrasted in the context of the scientific method.
+A measurement system can be accurate but not precise, precise but not accurate, neither, or both. For example, if an experiment contains a systematic error, then increasing the sample size generally increases precision but does not improve accuracy. The result would be a consistent yet inaccurate string of results from the flawed experiment. Eliminating the systematic error improves accuracy but does not change precision.
+A measurement system is considered valid if it is both accurate and precise. Related terms include bias (non-random or directed effects caused by a factor or factors unrelated to the independent variable) and error (random variability).
+The terminology is also applied to indirect measurements—that is, values obtained by a computational procedure from observed data.
+In addition to accuracy and precision, measurements may also have a measurement resolution, which is the smallest change in the underlying physical quantity that produces a response in the measurement.
+In numerical analysis, accuracy is also the nearness of a calculation to the true value; while precision is the resolution of the representation, typically defined by the number of decimal or binary digits.
+Statistical literature prefers to use the terms bias and variability instead of accuracy and precision: bias is the amount of inaccuracy and variability is the amount of imprecision. In military terms, accuracy refers primarily to the accuracy of fire (or "justesse de tir"), the precision of fire expressed by the closeness of a grouping of shots at and around the centre of the target.
+
+
+=== Quantification ===
+
+In industrial instrumentation, accuracy is the measurement tolerance, or transmission of the instrument and defines the limits of the errors made when the instrument is used in normal operating conditions.
+Ideally a measurement device is both accurate and precise, with measurements all close to and tightly clustered around the true value. The accuracy and precision of a measurement process is usually established by repeatedly measuring some traceable reference standard. Such standards are defined in the International System of Units (abbreviated SI from French: Système international d'unités) and maintained by national standards organizations such as the National Institute of Standards and Technology in the United States.
+This also applies when measurements are repeated and averaged. In that case, the term standard error is properly applied: the precision of the average is equal to the known standard deviation of the process divided by the square root of the number of measurements averaged. Further, the central limit theorem shows that the probability distribution of the averaged measurements will be closer to a normal distribution than that of individual measurements.
+With regard to accuracy we can distinguish:
+the difference between the mean of the measurements and the reference value, the bias. Establishing and correcting for bias is necessary for calibration.
+the combined effect of that and precision.
+A common convention in science and engineering is to express accuracy and/or precision implicitly by means of significant figures. Here, when not explicitly stated, the margin of error is understood to be one-half the value of the last significant place. For instance, a recording of 843.6 m, or 843.0 m, or 800.0 m would imply a margin of 0.05 m (the last significant place is the tenths place), while a recording of 8,436 m would imply a margin of error of 0.5 m (the last significant digits are the units).
+A reading of 8,000 m, with trailing zeroes and no decimal point, is ambiguous; the trailing zeroes may or may not be intended as significant figures. To avoid this ambiguity, the number could be represented in scientific notation: 8.0 × 103 m indicates that the first zero is significant (hence a margin of 50 m) while 8.000 × 103 m indicates that all three zeroes are significant, giving a margin of 0.5 m. Similarly, it is possible to use a multiple of the basic measurement unit: 8.0 km is equivalent to 8.0 × 103 m. In fact, it indicates a margin of 0.05 km (50 m). However, reliance on this convention can lead to false precision errors when accepting data from sources that do not obey it.
+Precision includes:
+repeatability — the variation arising when all efforts are made to keep conditions constant by using the same instrument and operator, and repeating during a short time period; and
+reproducibility — the variation arising using the same measurement process among different instruments and operators, and over longer time periods.
+
+
+== ISO definition (ISO 5725) ==
+
+A shift in the meaning of these terms appeared with the publication of the ISO 5725 series of standards in 1994, which is also reflected in the 2008 issue of the "BIPM International Vocabulary of Metrology" (VIM), items 2.13 and 2.14.
+According to ISO 5725-1, the general term "accuracy" is used to describe the closeness of a measurement to the true value. When the term is applied to sets of measurements of the same measurand, it involves a component of random error and a component of systematic error. In this case trueness is the closeness of the mean of a set of measurement results to the actual (true) value and precision is the closeness of agreement among a set of results.
+ISO 5725-1 and VIM also avoid the use of the term "bias", previously specified in BS 5497-1, because it has different connotations outside the fields of science and engineering, as in medicine and law.
+
+
+== In binary classification ==
+
+Accuracy is also used as a statistical measure of how well a binary classification test correctly identifies or excludes a condition. That is, the accuracy is the proportion of true results (both true positives and true negatives) among the total number of cases examined. To make the context clear by the semantics, it is often referred to as the "Rand accuracy" or "Rand index". It is a parameter of the test.
+
+
+== In psychometrics and psychophysics ==
+In psychometrics and psychophysics, the term accuracy is interchangeably used with validity and constant error. Precision is a synonym for reliability and variable error. The validity of a measurement instrument or psychological test is established through experiment or correlation with behavior. Reliability is established with a variety of statistical techniques, classically through an internal consistency test like Cronbach's alpha to ensure sets of related questions have related responses, and then comparison of those related question between reference and target population.
+
+
+== In logic simulation ==
+In logic simulation, a common mistake in evaluation of accurate models is to compare a logic simulation model to a transistor circuit simulation model. This is a comparison of differences in precision, not accuracy. Precision is measured with respect to detail and accuracy is measured with respect to reality.
+
+
+== In information systems ==
+The concepts of accuracy and precision have also been studied in the context of databases, information systems and their sociotechnical context. The necessary extension of these two concepts on the basis of theory of science suggests that they (as well as data quality and information quality) should be centered on accuracy defined as the closeness to the true value seen as the degree of agreement of readings or of calculated values of one same conceived entity, measured or calculated by different methods, in the context of maximum possible disagreement.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+BIPM - Guides in metrology, Guide to the Expression of Uncertainty in Measurement (GUM) and International Vocabulary of Metrology (VIM)
+"Beyond NIST Traceability: What really creates accuracy", Controlled Environments magazine
+Precision and Accuracy with Three Psychophysical Methods
+Appendix D.1: Terminology, Guidelines for Evaluating and Expressing the Uncertainty of NIST Measurement Results
+Accuracy and Precision
+Accuracy vs Precision — a brief video by Matt Parker
+What's the difference between accuracy and precision? by Matt Anticole at TED-Ed
+S, Alison (30 July 2016). "Difference Between Accuracy And Precision - EnglishTipsDaily.com". Englishtipsdaily.com. Retrieved 5 August 2016.

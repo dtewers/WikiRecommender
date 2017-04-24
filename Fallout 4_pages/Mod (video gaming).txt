@@ -1,0 +1,116 @@
+A mod (short for "modification") is an alteration where someone, usually a player, takes the code of a video game and changes it. Mods may range from small changes and simple tweaks to completely new games made within a video game.
+Games running on a personal computer are often designed with change in mind, allowing modern PC games to be modified by gamers without much difficulty. These mods can extend the replay value and interest of the game.
+The Internet provides an inexpensive medium to promote and distribute user created content like mods, an aspect commonly known as Web 2.0. Video game modding was described as remixing of games and can be therefore seen as part of the remix culture as described by Lawrence Lessig. The Mods have become an increasingly important factor in the commercial success of some games. Developers such as id Software, Valve Corporation, Mojang AB, Bethesda Softworks, Firaxis, Crytek, The Creative Assembly and Epic Games provide extensive tools and documentation to assist mod makers, leveraging the potential success brought in by a popular mod like Counter-Strike.
+Mods can help to continue the success of the original game, even when the original game has become dated. In that case, players might have to clarify that they are referring to the unmodified game when talking about playing a game. The term vanilla is often used to make this distinction. "Vanilla Battlefield 1942", for example, refers to the original, unmodified game. For vanilla games, prefix "v" or "V" is commonly used together with the game title acronym, e.g., VQ3 stands for "vanilla Quake 3".
+As early as the 1980s, video game mods have been used for the sole purpose of creating art, as opposed to an actual game. They can include recording in-game actions as a film, as well as attempting to reproduce real-life areas inside a game with no regard for game play value. See also artistic video game modification, machinima, and demoscene.
+Popular websites dedicated to modding include NexusMods and Mod DB.
+
+
+== Types ==
+
+
+=== Total conversion ===
+A total conversion is a mod of an existing game that replaces virtually all of the artistic assets in the original game, and sometimes core aspects of gameplay. Total conversions can result in a completely different genre from the original. A popular example of a total conversion is Sonic the Hedgehog Megamix, a heavily modified version of Sonic the Hedgehog for the Sega Genesis.
+Often developers intend to sell their total conversion as a stand-alone product, which necessitates the need to replace any remaining original assets to avoid copyright infringement.
+Since most total conversions only share the engine in common with the original game, if the engine becomes free software or freeware, the total conversion can be playable without having to own the original game. Counter-Strike, one of the most popular online games ever made, was originally a Half-Life total conversion. It was so popular that numerous official and unofficial Counter-Strike re-releases have been developed throughout the years.
+Many mods for Half-Life such as Earth's Special Forces (fighting genre) or Football Championship (sports genre) are capable of changing gameplay while utilizing a modified engine.
+
+
+=== Total overhaul ===
+
+A total overhaul mod changes or redefines the gameplay style of the original game, while keeping it in the original game's universe. This may include upgrading the graphics or adding new models, dialog and music to the original (while still respecting the plot), or changing the pace of how the game is played. Total overhauls are usually combined with significant add-on material as well. A prominent example is Black Mesa, which remakes the original Half-Life in Valve Corporation's Source game engine, or Fallout: Project Brazil, for Bethesda Softworks and Obsidian Entertainment's Fallout: New Vegas.
+However, some overhauls also change the universe and background in itself in very extreme ways to the point where it no longer constitutes as the original, such as Obscurum - Pandemic also released for Fallout: New Vegas. This mod derails into an alternative history on its own, similar to the original Fallout storyline.
+
+
+=== Add-on ===
+An add-on or addon is a typically small mod which adds to the original content of a specific game. In most cases, an add-on will add one particular element to a game, such as a new weapon in a shooting game, a new vehicle or track in a racing game, items in a game like Minecraft, or additional contents in simulation games (such as new pilotable airplanes (e.g the Airbus A330 or Boeing 787 Dreamliner) and scenery packs for Microsoft Flight Simulator X). This can be accomplished without changing any of the original game's existing content. Many games are flexible and allow this, however that is not always the case. Some add-ons occasionally have to replace in-game content, due to the nature of a peculiar game engine. It may be the case, for example, that in a game which does not give a player the option to choose their character, modders wishing to add another player model will simply have to overwrite the old one. A famous example of this type of mod can be found for the Grand Theft Auto series wherein modders may use downloadable tools to replace content (such as models) in the game's directory. The Left 4 Dead series can also be modded with individual add-ons which are stored in a .VPK format, so that a player may choose to activate a given mod or not.
+
+
+=== Unofficial patch ===
+An unofficial patch can be a mod of an existing game that fixes bugs not fixed by an official patch or that unlocks content present in the released game's files but is inaccessible in official gameplay. Such patches are usually created by members of the game's fan base when the original developer is unwilling or unable to supply the functionality officially. Jazz Jackrabbit 2 has an unofficial patch which adds and fixes many of its features. One downside of this type of mod is that leaked content can be revealed. An example is the Hot Coffee mod for Grand Theft Auto: San Andreas, which was removed in version 1.01 because of lawsuits by parent associations. Hot Coffee was brought back to version 1.01 by a group of a modders in 2005 who found the animation files and scripts in the first version of the game. The scripts were re-added and the animations were re-hexed so the game would not have any conflict.
+
+
+=== Art mod ===
+An art mod is a mod that is created for artistic effect. Art mods are most frequently associated with video game art, however modified games that retain their playability and are subject to more extensive mods (i.e. closer to total conversions) may also be classified as art games. Art mods are usually designed to subvert the original game experience. One example is the Velvet-Strike mod for Counter Strike in which the players spray-paint anti-violence messages in multiplayer games as a form of performance art. Another example is Robert Nideffer's Tomb Raider I and II patches which were designed to subvert the unofficial Nude Raider patch of the late 1990s by altering Lara Croft's sexual orientation. The origins of the art mod can be traced to the classic 1983 mod Castle Smurfenstein (a humorous subversion of Castle Wolfenstein which replaces the Nazi guards with Smurfs). The very first art mod, however, is generally considered to be Iimura Takahiko's 1993 AIUEOUNN Six Features (a modification of Sony's "System G").
+
+
+=== Support continuation by mod ===
+After EA lost the license and ended the support for the MVP Baseball 2005, the game's modding community continues the support and releases updated roster lists every year as also alternative leagues (e.g. MVP Caribe, a total conversion).
+
+
+== Official status of mods ==
+Due to the increasing popularity and quality of modding, some developers, such as Firaxis, have included fan-made mods in official releases of expansion packs. A similar case is that of Valve Corporation, when they hired Defense of the Ancients author Icefrog in developing Dota 2.
+For example, in the Civilization IV expansion Beyond the Sword: two existing mods, Rhye's and Fall of Civilization and Fall from Heaven made their way into the expansion (the latter through a spin-off called Age of Ice).
+A number of fan-made maps, scenarios and mods, such as "Double Your Pleasure", were also included in the Civilization III expansion Play the World.
+
+
+== Development ==
+Most mods do not progress very far and are abandoned without ever having a public release. Some are very limited and just include some gameplay changes or even a different loading screen, and others are total conversions and can modify content and gameplay extensively. A few mods become very popular and convert themselves into distinct games, with the rights getting bought and turning into an official modification.
+A group of mod developers may join together to form a "mod team".
+Mods are made for many first-person shooters and real-time strategies, such as the series based on Quake, Doom, Chaos, Total Annihilation, Rise of Nations and Command and Conquer.
+The most well-known mod is the Half-Life multiplayer mod Counter-Strike, which was released shortly after the original game. Approximately one million games are hosted on dedicated servers per day. Counter-Strike is probably the best example of a modification that turns into a retail game. Another renowned mod is Team Fortress, which was based on the Quake engine and eventually became a whole series of games: Team Fortress Classic, Team Fortress 2, and an unofficial mod made originally as a fan-made sequel to TFC, Fortress Forever.
+
+
+=== Tools ===
+Mod-making tools are a variety of construction sets for creating mods for a game. Early commercial mod-making tools were the Boulder Dash Construction Kit (1986) and The Bard's Tale Construction Set (1991), which allowed users to create game designs in those series. Much more successful among early mod-making tools was the 1992 Forgotten Realms: Unlimited Adventures from Strategic Simulations, Inc., which allowed users to construct games based on the game world that was launched with the Pool of Radiance game.
+Later mod-making tools include The Elder Scrolls Construction Set which shipped with Morrowind, the World Editor for Warcraft III: Reign of Chaos, the Aurora toolset which was included with Neverwinter Nights, FRED and FRED2, the mission editors for Freespace and FreeSpace 2 respectively, the Obsidian tool set for Neverwinter Nights 2, the Garden of Eden Creation Kit SDK for Fallout 3, and the Valve Hammer Editor which is used to create maps for Half-Life, Half-Life 2 and various other games based on the Source engine (older versions also supported the Quake engine).
+There are also free content delivery tools available that make playing mods easier. They help manage downloads, updates, and mod installation in order to allow people who are less technically literate to play. Steam for Half-Life 2 mods is an example.
+
+
+=== Game support for modifications ===
+The potential for end-user change in game varies greatly, though it can have little correlation on the number and quality of mods made for a game.
+In general the most modification-friendly games will define gameplay variables in text or other non proprietary format files (for instance in the Civilization series one could alter the movement rate along roads and many other factors), and have graphics of a standard format such as bitmaps. Publishers can also determine mod-friendliness in the way important source files are available (some programs collect their source material into large proprietary archives, but others make the files available in folders).
+Games have varying support from their publishers for modifications, but often require expensive professional software to make. One such example is Homeworld 2, which requires the program Maya to build new in-game objects. However, there are free versions of Maya and other advanced modeling software available. There are also free and even open-source modeling programs (such as Blender) that can be used as well.
+For advanced mods such as Desert Combat that are total conversions, complicated modeling and texturing software is required to make original content. Advanced mods can rival the complexity and work of making the original game content (short of the engine itself), rendering the differences in ease of modding small in comparison to the total amount of work required. Having an engine that is for example easy to import models to, is of little help when doing research, modeling, and making a photorealistic texture for a game item. As a result, other game characteristics such as its popularity and capabilities have a dominating effect on the number of mods created for the game by users.
+A game that allows modding is said to be "moddable". The Elder Scrolls V: Skyrim as well as its predecessors, The Elder Scrolls III: Morrowind and The Elder Scrolls IV: Oblivion, are examples of highly moddable games, with an official editor available for download from the developer. Daggerfall was much less moddable, but some people released their own modifications nevertheless. Some modifications such as Gunslingers Academy have deliberately made the game more moddable by adding in scripting support or externalizing underlying code. An example of a widely seen mod of The Elder Scrolls V: Skyrim by a videogame designer by the name of Pastaspace exceeded 1.6 million views on December 10, 2013 as a YouTube video. The mod involved switching out the character of the terrifying dragon with what many commentators referred to as an equally terrifying, if humorous character: Thomas the Tank Engine.
+Supreme Commander set out to be the 'most customisable game ever' and as such included a mod manager which allowed for modular modding, having several mods on at once.
+The games industry is currently facing the question of how much it should embrace the players' contribution in creating new material for the game or mod-communities as part of their structure within the game. Some software companies openly accept and even encourage such communities. Others though have chosen to enclose their games in heavily policed copyright or Intellectual Property regimes(IPR) and close down sites that they see as infringing their ownership of a game.
+
+
+=== Portability issues ===
+For cross-platform games, mods written for the Windows version have not always been compatible with the Mac OS X and/or Linux ports of the game. In large part, this is due to the publisher's concern with prioritizing the porting of the primary game itself, when allocating resources for fixing the porting of mod-specific functions may not be cost-effective for the smaller market share of alternate platforms. For example, Battlefield 1942, ported by Aspyr for Mac OS X, had file access issues specific to mods until the 1.61D patch. Unreal Tournament 2004 does not have a working community mods menu for the Mac OS X version and, until the 3369 patch, had graphics incompatibilities with several mods such as Red Orchestra and Metaball.
+Also, mods compiled into platform-specific libraries, such as those of Doom 3, are often only built for the Windows platform, leading to a lack of cross-platform compatibility even when the underlying game is highly portable. In the same line of reasoning, mod development tools are often available only on the Windows platform. id Software's Doom 3 Radiant tool and Epic Games' UnrealEd are examples of this.
+Mod teams that lack either the resources or know-how to develop their mods for alternate platforms sometimes outsource their code and art assets to individuals or groups who are able to port the mod.
+The mod specialist site for Macs, Macologist, has created GUI launchers and installers for many UT2004 mods, as well as solving cross-platform conversion issues for mods for other games.
+
+
+=== Unforeseen consequences or benefits of modding ===
+In January 2005, it was reported that in The Sims 2 modifications that changed item and game behavior were unexpectedly being transferred to other players through the official website's exchange feature, leading to changed game behavior without advance warning.
+In July 2007, CNET News reported that a Grand Theft Auto mod video uploaded to YouTube contained a link to a malware website. When a viewer clicked on the link and downloaded the mod, it infected the computer.
+In early 2012, the DayZ modification for ARMA 2 was released and caused a massive increase in sales for the three-year-old game, putting it in the top spot for online game sales for a number of months and selling over 300,000 units for the game.
+In 2015, reports of malware being circulated through modifications written using the .NET Framework were made on the Grand Theft Auto fan site GTAForums. Two of the modifications in question, namely "Angry Planes" and "No Clip", came with code for loading a remote access tool, and a keylogger for stealing Facebook and Steam account credentials. Instructions for removing the infected mods has since been posted on the forums. Gaming websites who have previously covered the said mods in their articles also followed suit, advising users to disinfect their computer and change their user credentials.
+
+
+== Mod packs ==
+Mod packs are groups of mods put into one package for download, often with an auto-installer. A mod pack's purpose is to make an easy download for downloading multiple mods, often with the goal of resolving cross-mod interactions that can happen, or to make the original game easier or more difficult.
+
+
+=== Legal status of mod packs ===
+Mod packs have had legal issues in the past. Often mods are distributed without consent or consultation with the original mod author, which is believed by some of the Minecraft gaming community to be against copyright laws, while others believe the mod to be open and not copyrightable due to it being a modification for an already existing game. Some mod authors have included malicious code against mod pack authors to prevent distribution, often with other particular mods.
+A small company named Micro Star was the subject of a 1997 court case, where in FormGen Inc., the distributor for 3D Realms' Duke Nukem 3D, sued the company for their unauthorised use of the Duke Nukem intellectual property in their Nuke It compilation of user-made levels for the game.
+
+
+== Controversy surrounding paid mods ==
+In April 2015, Valve Corporation implemented a "paid mod" feature onto Steam and the first game to implement this feature was Skyrim. This gave the developers of mods additional ways to charge for mods. There was a large uprising against this feature. There was a Change.org petition created which got over 133,000 signatures. When Gabe Newell did an AMA (ask me anything) on Reddit, he said "Our goal is to make modding better for the authors and gamers [...] if something doesn't help with that, it will get dumped. Right now I'm more optimistic that this will be a win for authors and gamers, but we are always going to be data driven."
+The feature was implemented with the idea that there would be oversight from Valve or the third-party developer. This led to overpriced content, mods being improperly sold by a user that had not created the original mod, and copyright issues with content of such mods. After a large influx of complaints, Valve announced they would discontinue paid mods for Skyrim and refund those that spent money on the Workshop and re-evaluate the process. The removal of the system itself was also criticized.
+
+
+== See also ==
+Adventure Construction Set, one of the earliest games for which user-created content was widely made and distributed.
+Cartridge tilting which modifies a game with often unpredictable effects
+Fork (software development)
+House rule
+Level editor
+Modding
+Modding in Grand Theft Auto, for more information on the GTA modding scene
+ROM hacking
+Texture artist
+Steam Workshop
+NexusMods
+
+
+== References ==
+
+
+== Further reading ==
+Brief overview of the differences and similarities between open source software development and co-creation in digital games - Jedrzej Czarnota, Gamasutra, 7 August 2013

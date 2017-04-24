@@ -1,0 +1,26 @@
+Gamebryo is a game engine. Gamebryo 3D and LightSpeed engines are owned by Gamebase Co., Ltd. and Gamebase USA and have been used by several video game developers including Atlus, Trion Worlds, 2K Games, Disney, Ubisoft, Bethesda Softworks, Firaxis Games, Tencent, Sony, Shanda, NCsoft, Rockstar Games and KingsIsle Entertainment for numerous cross-platform game titles.
+
+
+== History ==
+Gamebryo was originally created by Numerical Design Limited (NDL) as the Gamebryo engine in 1991. NDL was merged into Emergent Game Technologies (EGT) in 2004. Gamebryo then evolved to Gamebryo LightSpeed. Both Gamebryo and LightSpeed were updated and marketed. During 2009 the development staff of Gamebryo was downsized, and by July 2010 the engineering office in Chapel Hill, North Carolina was closed. On 11 November 2010, assets of Emergent Game Technologies, Inc., were offered for acquisition, including its intellectual Property (IP), in whole or in part.
+In December 2010, Korea-based Gamebase Co., Ltd., a longtime partner of Emergent, finalized the acquisition of Emergent assets and technology, and established a newly capitalized U.S. company, Gamebase USA. Gamebase USA is based in the Research Triangle Park region of North Carolina and is focused on continual development of the Gamebryo game engine. The newest version, Gamebryo 4.0, was introduced in March 2012.
+
+
+== Features ==
+The Gamebryo system is a suite of modular C++ libraries. Game developers can combine and extend the libraries to modify the engine for a particular game. Gamebryo's design emphasises a rapid prototyping approach aimed at an iterative development process.
+The Gamebryo engine currently supports several deployment platforms including Microsoft Windows (DirectX 6, 7, 8, 9, 10 and 11), Linux/Mac OS X (OpenGL), Nintendo GameCube, Wii/WiiWare, PlayStation, PlayStation 2, PlayStation Portable, PlayStation 3, PlayStation 4/PSN, Xbox, Xbox 360/XBLA, and Xbox One.
+Gamebryo 4.0 is the newest version of the engine, designed to merge the original Gamebryo system with its LightSpeed spin-off.
+
+
+== Games ==
+Gamebryo is used by several companies within the gaming industry. Below is a sample of game titles that have used the engine:
+
+
+== References ==
+
+
+== External links ==
+Gamebryo official website
+Wallis, Alistair (11 May 2007). "Tooling Around: Emergent's Gamebryo". Gamasutra. Retrieved 26 May 2007. 
+NifTools NifTools is a project that aims at providing tools and specification for the files used by the NetImmerse/Gamebryo game engine.
+DevMaster.net overview of the Gamebryo engine

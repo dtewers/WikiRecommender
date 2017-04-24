@@ -1,0 +1,88 @@
+The quantum mind or quantum consciousness group of hypotheses propose that classical mechanics cannot explain consciousness. It posits that quantum mechanical phenomena, such as quantum entanglement and superposition, may play an important part in the brain's function and could form the basis of an explanation of consciousness.
+
+
+== History ==
+Eugene Wigner developed the idea that quantum mechanics has something to do with the workings of the mind. He proposed that the wave function collapses due to its interaction with consciousness. Freeman Dyson argued that "mind, as manifested by the capacity to make choices, is to some extent inherent in every electron."
+Other contemporary physicists and philosophers considered these arguments to be unconvincing. Victor Stenger characterized quantum consciousness as a "myth" having "no scientific basis" that "should take its place along with gods, unicorns and dragons."
+David Chalmers argued against quantum consciousness. He instead discussed how quantum mechanics may relate to dualistic consciousness. Chalmers is skeptical of the ability of any new physics to resolve the hard problem of consciousness.
+
+
+== Quantum mind approaches ==
+
+
+=== Bohm ===
+David Bohm viewed quantum theory and relativity as contradictory, which implied a more fundamental level in the universe. He claimed both quantum theory and relativity pointed towards this deeper theory, which he formulated as a quantum field theory. This more fundamental level was proposed to represent an undivided wholeness and an implicate order, from which arises the explicate order of the universe as we experience it.
+Bohm's proposed implicate order applies both to matter and consciousness. He suggested that it could explain the relationship between them. He saw mind and matter as projections into our explicate order from the underlying implicate order. Bohm claimed that when we look at matter, we see nothing that helps us to understand consciousness.
+Bohm discussed the experience of listening to music. He believed the feeling of movement and change that make up our experience of music derive from holding the immediate past and the present in the brain together. The musical notes from the past are transformations rather than memories. The notes that were implicate in the immediate past become explicate in the present. Bohm viewed this as consciousness emerging from the implicate order.
+Bohm saw the movement, change or flow, and the coherence of experiences, such as listening to music, as a manifestation of the implicate order. He claimed to derive evidence for this from Jean Piaget's work on infants. He held these studies to show that young children learn about time and space because they have a "hard-wired" understanding of movement as part of the implicate order. He compared this "hard-wiring" to Chomsky's theory that grammar is "hard-wired" into human brains.
+Bohm never proposed a specific means by which his proposal could be falsified, nor a neural mechanism through which his "implicate order" could emerge in a way relevant to consciousness. Bohm later collaborated on Karl Pribram's holonomic brain theory as a model of quantum consciousness.
+According to philosopher Paavo Pylkkänen, Bohm's suggestion "leads naturally to the assumption that the physical correlate of the logical thinking process is at the classically describable level of the brain, while the basic thinking process is at the quantum-theoretically describable level."
+
+
+=== Penrose and Hameroff ===
+
+Theoretical physicist Roger Penrose and anaesthesiologist Stuart Hameroff collaborated to produce the theory known as Orchestrated Objective Reduction (Orch-OR). Penrose and Hameroff initially developed their ideas separately and later collaborated to produce Orch-OR in the early 1990s. The theory was reviewed and updated by the authors in late 2013.
+Penrose's argument stemmed from Gödel's incompleteness theorems. In Penrose's first book on consciousness, The Emperor's New Mind (1989), he argued that while a formal system cannot prove its own consistency, Gödel’s unprovable results are provable by human mathematicians. He took this disparity to mean that human mathematicians are not formal proof systems and are not running a computable algorithm. According to Bringsjorg and Xiao, this line of reasoning is based on fallacious equivocation on the meaning of computation.
+Penrose determined wave function collapse was the only possible physical basis for a non-computable process. Dissatisfied with its randomness, Penrose proposed a new form of wave function collapse that occurred in isolation and called it objective reduction. He suggested each quantum superposition has its own piece of spacetime curvature and that when these become separated by more than one Planck length they become unstable and collapse. Penrose suggested that objective reduction represented neither randomness nor algorithmic processing but instead a non-computable influence in spacetime geometry from which mathematical understanding and, by later extension, consciousness derived.
+Hameroff provided a hypothesis that microtubules would be suitable hosts for quantum behavior. Microtubules are composed of tubulin protein dimer subunits. The dimers each have hydrophobic pockets that are 8 nm apart and that may contain delocalized pi electrons. Tubulins have other smaller non-polar regions that contain pi electron-rich indole rings separated by only about 2 nm. Hameroff proposed that these electrons are close enough to become entangled. Hameroff originally suggested the tubulin-subunit electrons would form a Bose–Einstein condensate, but this was discredited. He then proposed a Frohlich condensate, a hypothetical coherent oscillation of dipolar molecules. However, this too was experimentally discredited.
+Furthermore, he proposed that condensates in one neuron could extend to many others via gap junctions between neurons, forming a macroscopic quantum feature across an extended area of the brain. When the wave function of this extended condensate collapsed, it was suggested to non-computationally access mathematical understanding and ultimately conscious experience that were hypothetically embedded in the geometry of spacetime.
+However, Orch-OR made numerous false biological predictions, and is not an accepted model of brain physiology. In other words, there is a missing link between physics and neuroscience, for instance, the proposed predominance of 'A' lattice microtubules, more suitable for information processing, was falsified by Kikkawa et al., who showed all in vivo microtubules have a 'B' lattice and a seam. The proposed existence of gap junctions between neurons and glial cells was also falsified. Orch-OR predicted that microtubule coherence reaches the synapses via dendritic lamellar bodies (DLBs), however De Zeeuw et al. proved this impossible, by showing that DLBs are located micrometers away from gap junctions.
+In January 2014, Hameroff and Penrose claimed that the discovery of quantum vibrations in microtubules by Anirban Bandyopadhyay of the National Institute for Materials Science in Japan in March 2013 corroborates the Orch-OR theory although the paper doesn't mention quantum vibrations.
+
+
+=== Umezawa, Vitiello, Freeman ===
+Hiroomi Umezawa and collaborators proposed a quantum field theory of memory storage. Giuseppe Vitiello and Walter Freeman proposed a dialog model of the mind. This dialog takes place between the classical and the quantum parts of the brain. Their quantum field theory models of brain dynamics are fundamentally different from the Penrose-Hameroff theory.
+
+
+=== Pribram, Bohm, Kak ===
+Karl Pribram's holonomic brain theory (quantum holography) invoked quantum mechanics to explain higher order processing by the mind. He argued that his holonomic model solved the binding problem. Pribram collaborated with Bohm in his work on the quantum approaches to mind and he provided evidence on how much of the processing in the brain was done in wholes. He proposed that ordered water at dendritic membrane surfaces might operate by structuring Bose-Einstein condensation supporting quantum dynamics.
+Although Subhash Kak's work is not directly related to that of Pribram, he likewise proposed that the physical substrate to neural networks has a quantum basis, but asserted that the quantum mind has machine-like limitations. He points to a role for quantum theory in the distinction between machine intelligence and biological intelligence, but that in itself cannot explain all aspects of consciousness.
+
+
+=== Stapp ===
+Henry Stapp proposed that quantum waves are reduced only when they interact with consciousness. He argues from the Orthodox Quantum Mechanics of John von Neumann that the quantum state collapses when the observer selects one among the alternative quantum possibilities as a basis for future action. The collapse, therefore, takes place in the expectation that the observer associated with the state. Stapp's work drew criticism from scientists such as David Bourget and Danko Georgiev. Georgiev criticized Stapp's model in two respects:
+Stapp's mind does not have its own wavefunction or density matrix, but nevertheless can act upon the brain using projection operators. Such usage is not compatible with standard quantum mechanics because one can attach any number of ghostly minds to any point in space that act upon physical quantum systems with any projection operators. Therefore, Stapp's model negates "the prevailing principles of physics".
+Stapp's claim that quantum Zeno effect is robust against environmental decoherence directly contradicts a basic theorem in quantum information theory that acting with projection operators upon the density matrix of a quantum system can only increase the system's Von Neumann entropy.
+
+
+== Criticism ==
+The main argument against the quantum mind hypothesis is the assertion that quantum states in the brain would lose coherency before they reached a scale where they could be useful for neural processing. This supposition was elaborated by Tegmark. His calculations suppose that quantum systems in the brain decohere at sub-picosecond timescales, assumed to be too short to control brain function.
+
+
+== See also ==
+Bohm interpretation of quantum mechanics
+Electromagnetic theories of consciousness
+Evolutionary neuroscience
+Hameroff-Penrose Orchestrated Objective Reduction
+Hard problem of consciousness
+Holonomic brain theory
+Mechanism (philosophy)
+Quantum cognition
+Theory of mind
+
+
+== References ==
+
+
+== Further reading ==
+Wendt, Alexander (2015). Quantum mind and social science: Unifying physical and social ontology. Cambridge: Cambridge University Press.
+Trnka, Radek and Lorencova, Radmila (2016). Quantum anthropology: Man, cultures, and groups in a quantum perspective. Charles University Karolinum Press: Prague.
+Flanagan, Brian. Are Perceptual Fields Quantum Fields?
+Hodgson, David (1993). The Mind Matters: Consciousness and Choice in a Quantum World. Clarendon Press. ISBN 978-0-19-824068-6. 
+Koch, C. and Hepp, K., "Quantum mechanics in the brain", Nature 440, 611 (30 March 2006)
+Litt et al., "Is the Brain a Quantum Computer?", Cognitive Science (2006)
+Lockwood, Michael (1995). Mind, Brain, and the Quantum: The Compound 'I'. Basil Blackwell. 
+McFadden, Johnjoe (2000) Quantum Evolution HarperCollins. ISBN 0-00-255948-X; ISBN 0-00-655128-9 . Final chapter on the quantum mind.
+Pharaoh, M.C. (online). Looking to quantum mechanics for a reductive explanation of the noumenon of consciousness Retrieved June.21 2008.
+Schrödinger, Erwin (January 2003). Mind and Matter. Textbook Publishers. ISBN 978-0-7581-1275-0. 
+Weyl, Hermann Claus Hugo (1934). Mind and Nature. University of Pennsylvania Press. 
+Wigner, Eugene (1981). "Physics and the Explanation of Life". In Lindsay, Robert Bruce. Foundations of Physics. 1. Ox Bow Press. pp. 34–35. ISBN 978-0-918024-17-6.  
+Khoshbin-e-Khoshnazar M.R. (2016). "Possible Application of Variational Cluster Expansion in Modeling Correlated Neurons". Journal of Consciousness Exploration & Research Vol. 7 (1): 122–125. 
+
+
+== External links ==
+Center for Consciousness Studies, directed by Stuart Hameroff
+Online papers on consciousness
+Stanford Univ. Encyclopedia of Philosophy critical survey article Harald Atmanspacher (2006) Quantum Approaches to Consciousness
+"What is an Essentially Quantum Mechanical Effect?", Osvaldo Pessoa Jr.
+Quantum-Mind

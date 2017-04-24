@@ -1,0 +1,2154 @@
+The phase space formulation of quantum mechanics places the position and momentum variables on equal footing, in phase space. In contrast, the Schrödinger picture uses the position or momentum representations (see also position and momentum space). The two key features of the phase space formulation are that the quantum state is described by a quasiprobability distribution (instead of a wave function, state vector, or density matrix) and operator multiplication is replaced by a star product.
+The theory was fully developed by Hilbrand Groenewold in 1946 in his PhD thesis, and independently by Joe Moyal, each building off earlier ideas by Hermann Weyl and Eugene Wigner.
+The chief advantage of the phase space formulation is that it makes quantum mechanics appear as similar to Hamiltonian mechanics as possible by avoiding the operator formalism, thereby "'freeing' the quantization of the 'burden' of the Hilbert space." This formulation is statistical in nature and offers logical connections between quantum mechanics and classical statistical mechanics, enabling a natural comparison between the two (cf. classical limit). Quantum mechanics in phase space is often favored in certain quantum optics applications (see optical phase space), or in the study of decoherence and a range of specialized technical problems, though otherwise the formalism is less commonly employed in practical situations.
+The conceptual ideas underlying the development of quantum mechanics in phase space have branched into mathematical offshoots such as algebraic deformation theory (cf. Kontsevich quantization formula) and noncommutative geometry.
+
+
+== Phase space distribution ==
+
+The phase space distribution f(x,p) of a quantum state is a quasiprobability distribution. In the phase space formulation, the phase-space distribution may be treated as the fundamental, primitive description of the quantum system, without any reference to wave functions or density matrices.
+There are several different ways to represent the distribution, all interrelated. The most noteworthy is the Wigner representation, W(x,p), discovered first. Other representations (in approximately descending order of prevalence in the literature) include the Glauber-Sudarshan P, Husimi Q, Kirkwood-Rihaczek, Mehta, Rivier, and Born-Jordan representations. These alternatives are most useful when the Hamiltonian takes a particular form, such as normal order for the Glauber–Sudarshan P-representation. Since the Wigner representation is the most common, this article will usually stick to it, unless otherwise specified.
+The phase space distribution possesses properties akin to the probability density in a 2n-dimensional phase space. For example, it is real-valued, unlike the generally complex-valued wave function. We can understand the probability of lying within a position interval, for example, by integrating the Wigner function over all momenta and over the position interval:
+
+  
+    
+      
+        P
+        ⁡
+        [
+        a
+        ≤
+        X
+        ≤
+        b
+        ]
+        =
+        
+          ∫
+          
+            a
+          
+          
+            b
+          
+        
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        W
+        (
+        x
+        ,
+        p
+        )
+        
+        d
+        p
+        
+        d
+        x
+        .
+      
+    
+    {\displaystyle \operatorname {P} [a\leq X\leq b]=\int _{a}^{b}\int _{-\infty }^{\infty }W(x,p)\,dp\,dx.}
+  
+If Â(x,p) is an operator representing an observable, it may be mapped to phase space as A(x, p) through the Wigner transform. Conversely, this operator may be recovered via the Weyl transform.
+The expectation value of the observable with respect to the phase space distribution is
+
+  
+    
+      
+        ⟨
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ⟩
+        =
+        ∫
+        A
+        (
+        x
+        ,
+        p
+        )
+        W
+        (
+        x
+        ,
+        p
+        )
+        
+        d
+        p
+        
+        d
+        x
+        .
+      
+    
+    {\displaystyle \langle {\hat {A}}\rangle =\int A(x,p)W(x,p)\,dp\,dx.}
+  
+A point of caution, however: despite the similarity in appearance, W(x,p) is not a genuine joint probability distribution, because regions under it do not represent mutually exclusive states, as required in the third axiom of probability theory. Moreover, it can, in general, take negative values even for pure states, with the unique exception of (optionally squeezed) coherent states, in violation of the first axiom.
+Regions of such negative value are provable to be "small": they cannot extend to compact regions larger than a few ħ, and hence disappear in the classical limit. They are shielded by the uncertainty principle, which does not allow precise localization within phase-space regions smaller than ħ, and thus renders such "negative probabilities" less paradoxical. If the left side of the equation is to be interpreted as an expectation value in the Hilbert space with respect to an operator, then in the context of quantum optics this equation is known as the optical equivalence theorem. (For details on the properties and interpretation of the Wigner function, see its main article.)
+
+
+== Star product ==
+
+The fundamental noncommutative binary operator in the phase space formulation that replaces the standard operator multiplication is the star product, represented by the symbol ★. Each representation of the phase-space distribution has a different characteristic star product. For concreteness, we restrict this discussion to the star product relevant to the Wigner-Weyl representation.
+For notational convenience, we introduce the notion of left and right derivatives. For a pair of functions f and g, the left and right derivatives are defined as
+
+  
+    
+      
+        f
+        
+          
+            
+              ∂
+              ←
+            
+          
+          
+            x
+          
+        
+        g
+        =
+        
+          
+            
+              ∂
+              f
+            
+            
+              ∂
+              x
+            
+          
+        
+        ⋅
+        g
+      
+    
+    {\displaystyle f{\overleftarrow {\partial }}_{x}g={\frac {\partial f}{\partial x}}\cdot g}
+  
+
+  
+    
+      
+        f
+        
+          
+            
+              ∂
+              →
+            
+          
+          
+            x
+          
+        
+        g
+        =
+        f
+        ⋅
+        
+          
+            
+              ∂
+              g
+            
+            
+              ∂
+              x
+            
+          
+        
+        .
+      
+    
+    {\displaystyle f{\overrightarrow {\partial }}_{x}g=f\cdot {\frac {\partial g}{\partial x}}.}
+  
+The differential definition of the star product is
+
+  
+    
+      
+        f
+        ⋆
+        g
+        =
+        f
+        
+        exp
+        ⁡
+        
+          
+            (
+            
+              
+                
+                  
+                    i
+                    ℏ
+                  
+                  2
+                
+              
+            
+            (
+            
+              
+                
+                  ∂
+                  ←
+                
+              
+              
+                x
+              
+            
+            
+              
+                
+                  ∂
+                  →
+                
+              
+              
+                p
+              
+            
+            −
+            
+              
+                
+                  ∂
+                  ←
+                
+              
+              
+                p
+              
+            
+            
+              
+                
+                  ∂
+                  →
+                
+              
+              
+                x
+              
+            
+            )
+            )
+          
+        
+        
+        g
+      
+    
+    {\displaystyle f\star g=f\,\exp {\left({\tfrac {i\hbar }{2}}({\overleftarrow {\partial }}_{x}{\overrightarrow {\partial }}_{p}-{\overleftarrow {\partial }}_{p}{\overrightarrow {\partial }}_{x})\right)}\,g}
+  
+where the argument of the exponential function can be interpreted as a power series. Additional differential relations allow this to be written in terms of a change in the arguments of f and g:
+
+  
+    
+      
+        
+          
+            
+              
+                (
+                f
+                ⋆
+                g
+                )
+                (
+                x
+                ,
+                p
+                )
+              
+              
+                
+                =
+                f
+                
+                  (
+                  x
+                  +
+                  
+                    
+                      
+                        
+                          i
+                          ℏ
+                        
+                        2
+                      
+                    
+                  
+                  
+                    
+                      
+                        ∂
+                        →
+                      
+                    
+                    
+                      p
+                    
+                  
+                  ,
+                  p
+                  −
+                  
+                    
+                      
+                        
+                          i
+                          ℏ
+                        
+                        2
+                      
+                    
+                  
+                  
+                    
+                      
+                        ∂
+                        →
+                      
+                    
+                    
+                      x
+                    
+                  
+                  )
+                
+                ⋅
+                g
+                (
+                x
+                ,
+                p
+                )
+              
+            
+            
+              
+              
+                
+                =
+                f
+                (
+                x
+                ,
+                p
+                )
+                ⋅
+                g
+                
+                  (
+                  x
+                  −
+                  
+                    
+                      
+                        
+                          i
+                          ℏ
+                        
+                        2
+                      
+                    
+                  
+                  
+                    
+                      
+                        ∂
+                        ←
+                      
+                    
+                    
+                      p
+                    
+                  
+                  ,
+                  p
+                  +
+                  
+                    
+                      
+                        
+                          i
+                          ℏ
+                        
+                        2
+                      
+                    
+                  
+                  
+                    
+                      
+                        ∂
+                        ←
+                      
+                    
+                    
+                      x
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                f
+                
+                  (
+                  x
+                  +
+                  
+                    
+                      
+                        
+                          i
+                          ℏ
+                        
+                        2
+                      
+                    
+                  
+                  
+                    
+                      
+                        ∂
+                        →
+                      
+                    
+                    
+                      p
+                    
+                  
+                  ,
+                  p
+                  )
+                
+                ⋅
+                g
+                
+                  (
+                  x
+                  −
+                  
+                    
+                      
+                        
+                          i
+                          ℏ
+                        
+                        2
+                      
+                    
+                  
+                  
+                    
+                      
+                        ∂
+                        ←
+                      
+                    
+                    
+                      p
+                    
+                  
+                  ,
+                  p
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                f
+                
+                  (
+                  x
+                  ,
+                  p
+                  −
+                  
+                    
+                      
+                        
+                          i
+                          ℏ
+                        
+                        2
+                      
+                    
+                  
+                  
+                    
+                      
+                        ∂
+                        →
+                      
+                    
+                    
+                      x
+                    
+                  
+                  )
+                
+                ⋅
+                g
+                
+                  (
+                  x
+                  ,
+                  p
+                  +
+                  
+                    
+                      
+                        
+                          i
+                          ℏ
+                        
+                        2
+                      
+                    
+                  
+                  
+                    
+                      
+                        ∂
+                        ←
+                      
+                    
+                    
+                      x
+                    
+                  
+                  )
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}(f\star g)(x,p)&=f\left(x+{\tfrac {i\hbar }{2}}{\overrightarrow {\partial }}_{p},p-{\tfrac {i\hbar }{2}}{\overrightarrow {\partial }}_{x}\right)\cdot g(x,p)\\&=f(x,p)\cdot g\left(x-{\tfrac {i\hbar }{2}}{\overleftarrow {\partial }}_{p},p+{\tfrac {i\hbar }{2}}{\overleftarrow {\partial }}_{x}\right)\\&=f\left(x+{\tfrac {i\hbar }{2}}{\overrightarrow {\partial }}_{p},p\right)\cdot g\left(x-{\tfrac {i\hbar }{2}}{\overleftarrow {\partial }}_{p},p\right)\\&=f\left(x,p-{\tfrac {i\hbar }{2}}{\overrightarrow {\partial }}_{x}\right)\cdot g\left(x,p+{\tfrac {i\hbar }{2}}{\overleftarrow {\partial }}_{x}\right).\end{aligned}}}
+  
+It is also possible to define the ★-product in a convolution integral form, essentially through the Fourier transform:
+
+  
+    
+      
+        (
+        f
+        ⋆
+        g
+        )
+        (
+        x
+        ,
+        p
+        )
+        =
+        
+          
+            1
+            
+              
+                π
+                
+                  2
+                
+              
+              
+                ℏ
+                
+                  2
+                
+              
+            
+          
+        
+        
+        ∫
+        f
+        (
+        x
+        +
+        
+          x
+          ′
+        
+        ,
+        p
+        +
+        
+          p
+          ′
+        
+        )
+        
+        g
+        (
+        x
+        +
+        
+          x
+          ″
+        
+        ,
+        p
+        +
+        
+          p
+          ″
+        
+        )
+        
+        exp
+        ⁡
+        
+          
+            (
+            
+              
+                
+                  
+                    2
+                    i
+                  
+                  ℏ
+                
+              
+            
+            (
+            
+              x
+              ′
+            
+            
+              p
+              ″
+            
+            −
+            
+              x
+              ″
+            
+            
+              p
+              ′
+            
+            )
+            )
+          
+        
+        
+        d
+        
+          x
+          ′
+        
+        d
+        
+          p
+          ′
+        
+        d
+        
+          x
+          ″
+        
+        d
+        
+          p
+          ″
+        
+         
+        .
+      
+    
+    {\displaystyle (f\star g)(x,p)={\frac {1}{\pi ^{2}\hbar ^{2}}}\,\int f(x+x',p+p')\,g(x+x'',p+p'')\,\exp {\left({\tfrac {2i}{\hbar }}(x'p''-x''p')\right)}\,dx'dp'dx''dp''~.}
+  
+(Thus, e.g., Gaussians compose hyperbolically,
+
+  
+    
+      
+        exp
+        ⁡
+        
+          (
+          −
+          
+            a
+          
+          (
+          
+            x
+            
+              2
+            
+          
+          +
+          
+            p
+            
+              2
+            
+          
+          )
+          )
+        
+         
+        ⋆
+         
+        exp
+        ⁡
+        
+          (
+          −
+          
+            b
+          
+          (
+          
+            x
+            
+              2
+            
+          
+          +
+          
+            p
+            
+              2
+            
+          
+          )
+          )
+        
+        =
+        
+          
+            1
+            
+              1
+              +
+              
+                ℏ
+                
+                  2
+                
+              
+              a
+              b
+            
+          
+        
+        exp
+        ⁡
+        
+          (
+          −
+          
+            
+              
+                a
+                +
+                b
+              
+              
+                1
+                +
+                
+                  ℏ
+                  
+                    2
+                  
+                
+                a
+                b
+              
+            
+          
+          (
+          
+            x
+            
+              2
+            
+          
+          +
+          
+            p
+            
+              2
+            
+          
+          )
+          )
+        
+        ,
+      
+    
+    {\displaystyle \exp \left(-{a}(x^{2}+p^{2})\right)~\star ~\exp \left(-{b}(x^{2}+p^{2})\right)={1 \over 1+\hbar ^{2}ab}\exp \left(-{a+b \over 1+\hbar ^{2}ab}(x^{2}+p^{2})\right),}
+  
+or
+
+  
+    
+      
+        δ
+        (
+        x
+        )
+         
+        ⋆
+         
+        δ
+        (
+        p
+        )
+        =
+        
+          
+            2
+            h
+          
+        
+        exp
+        ⁡
+        
+          (
+          2
+          i
+          
+            
+              
+                x
+                p
+              
+              ℏ
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle \delta (x)~\star ~\delta (p)={2 \over h}\exp \left(2i{xp \over \hbar }\right),}
+  
+etc.)
+The energy eigenstate distributions are known as stargenstates, ★-genstates, stargenfunctions, or ★-genfunctions, and the associated energies are known as stargenvalues or ★-genvalues. These are solved fin, analogously to the time-independent Schrödinger equation, by the ★-genvalue equation,
+
+  
+    
+      
+        H
+        ⋆
+        W
+        =
+        E
+        ⋅
+        W
+        ,
+      
+    
+    {\displaystyle H\star W=E\cdot W,}
+  
+where H is the Hamiltonian, a plain phase-space function, most often identical to the classical Hamiltonian.
+
+
+== Time evolution ==
+The time evolution of the phase space distribution is given by a quantum modification of Liouville flow. This formula results from applying the Wigner transformation to the density matrix version of the quantum Liouville equation, the von Neumann equation.
+In any representation of the phase space distribution with its associated star product, this is
+
+  
+    
+      
+        
+          
+            
+              ∂
+              f
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        −
+        
+          
+            1
+            
+              i
+              ℏ
+            
+          
+        
+        
+          (
+          f
+          ⋆
+          H
+          −
+          H
+          ⋆
+          f
+          )
+        
+        ,
+      
+    
+    {\displaystyle {\frac {\partial f}{\partial t}}=-{\frac {1}{i\hbar }}\left(f\star H-H\star f\right),}
+  
+or, for the Wigner function in particular,
+
+  
+    
+      
+        
+          
+            
+              ∂
+              W
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        −
+        {
+        {
+        W
+        ,
+        H
+        }
+        }
+        =
+        −
+        
+          
+            2
+            ℏ
+          
+        
+        W
+        sin
+        ⁡
+        
+          (
+          
+            
+              
+                ℏ
+                2
+              
+            
+            (
+            
+              
+                
+                  
+                    
+                      ∂
+                    
+                    
+                      ←
+                    
+                  
+                
+              
+              
+                x
+              
+            
+            
+              
+                
+                  
+                    
+                      ∂
+                    
+                    
+                      →
+                    
+                  
+                
+              
+              
+                p
+              
+            
+            −
+            
+              
+                
+                  
+                    
+                      ∂
+                    
+                    
+                      ←
+                    
+                  
+                
+              
+              
+                p
+              
+            
+            
+              
+                
+                  
+                    
+                      ∂
+                    
+                    
+                      →
+                    
+                  
+                
+              
+              
+                x
+              
+            
+            )
+          
+          )
+        
+         
+        H
+        =
+        −
+        {
+        W
+        ,
+        H
+        }
+        +
+        O
+        (
+        
+          ℏ
+          
+            2
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle {\frac {\partial W}{\partial t}}=-\{\{W,H\}\}=-{\frac {2}{\hbar }}W\sin \left({{\frac {\hbar }{2}}({\stackrel {\leftarrow }{\partial }}_{x}{\stackrel {\rightarrow }{\partial }}_{p}-{\stackrel {\leftarrow }{\partial }}_{p}{\stackrel {\rightarrow }{\partial }}_{x})}\right)\ H=-\{W,H\}+O(\hbar ^{2}),}
+  
+where {{ , }} is the Moyal bracket, the Wigner transform of the quantum commutator, while { , } is the classical Poisson bracket.
+This yields a concise illustration of the correspondence principle: this equation manifestly reduces to the classical Liouville equation in the limit ħ → 0. In the quantum extension of the flow, however, the density of points in phase space is not conserved; the probability fluid appears "diffusive" and compressible. The concept of quantum trajectory is therefore a delicate issue here. (Given the restrictions placed by the uncertainty principle on localization, Niels Bohr vigorously denied the physical existence of such trajectories on the microscopic scale. By means of formal phase-space trajectories, the time evolution problem of the Wigner function can be rigorously solved using the path-integral method and the method of quantum characteristics, although there are practical obstacles in both cases.)
+
+
+== Examples ==
+
+
+=== Simple harmonic oscillator ===
+
+The Hamiltonian for the simple harmonic oscillator in one spatial dimension in the Wigner-Weyl representation is
+
+  
+    
+      
+        H
+        =
+        
+          
+            1
+            2
+          
+        
+        m
+        
+          ω
+          
+            2
+          
+        
+        
+          x
+          
+            2
+          
+        
+        +
+        
+          
+            
+              p
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        .
+      
+    
+    {\displaystyle H={\frac {1}{2}}m\omega ^{2}x^{2}+{\frac {p^{2}}{2m}}.}
+  
+
+The ★-genvalue equation for the static Wigner function then reads
+
+  
+    
+      
+        
+          
+            
+              
+                H
+                ⋆
+                W
+              
+              
+                
+                =
+                
+                  (
+                  
+                    
+                      1
+                      2
+                    
+                  
+                  m
+                  
+                    ω
+                    
+                      2
+                    
+                  
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  +
+                  
+                    
+                      
+                        p
+                        
+                          2
+                        
+                      
+                      
+                        2
+                        m
+                      
+                    
+                  
+                  )
+                
+                ⋆
+                W
+              
+            
+            
+              
+              
+                
+                =
+                
+                  (
+                  
+                    
+                      1
+                      2
+                    
+                  
+                  m
+                  
+                    ω
+                    
+                      2
+                    
+                  
+                  
+                    
+                      (
+                      x
+                      +
+                      
+                        
+                          
+                            i
+                            ℏ
+                          
+                          2
+                        
+                      
+                      
+                        
+                          
+                            
+                              
+                                ∂
+                              
+                              
+                                →
+                              
+                            
+                          
+                        
+                        
+                          p
+                        
+                      
+                      )
+                    
+                    
+                      2
+                    
+                  
+                  +
+                  
+                    
+                      1
+                      
+                        2
+                        m
+                      
+                    
+                  
+                  
+                    
+                      (
+                      p
+                      −
+                      
+                        
+                          
+                            i
+                            ℏ
+                          
+                          2
+                        
+                      
+                      
+                        
+                          
+                            
+                              
+                                ∂
+                              
+                              
+                                →
+                              
+                            
+                          
+                        
+                        
+                          x
+                        
+                      
+                      )
+                    
+                    
+                      2
+                    
+                  
+                  )
+                
+                 
+                W
+              
+            
+            
+              
+              
+                
+                =
+                
+                  (
+                  
+                    
+                      1
+                      2
+                    
+                  
+                  m
+                  
+                    ω
+                    
+                      2
+                    
+                  
+                  
+                    (
+                    
+                      x
+                      
+                        2
+                      
+                    
+                    −
+                    
+                      
+                        
+                          ℏ
+                          
+                            2
+                          
+                        
+                        4
+                      
+                    
+                    
+                      
+                        
+                          
+                            
+                              ∂
+                            
+                            
+                              →
+                            
+                          
+                        
+                      
+                      
+                        p
+                      
+                      
+                        2
+                      
+                    
+                    )
+                  
+                  +
+                  
+                    
+                      1
+                      
+                        2
+                        m
+                      
+                    
+                  
+                  
+                    (
+                    
+                      p
+                      
+                        2
+                      
+                    
+                    −
+                    
+                      
+                        
+                          ℏ
+                          
+                            2
+                          
+                        
+                        4
+                      
+                    
+                    
+                      
+                        
+                          
+                            
+                              ∂
+                            
+                            
+                              →
+                            
+                          
+                        
+                      
+                      
+                        x
+                      
+                      
+                        2
+                      
+                    
+                    )
+                  
+                  )
+                
+                 
+                W
+              
+            
+            
+              
+              
+                
+                
+                
+                
+                
+                
+                +
+                
+                  
+                    
+                      i
+                      ℏ
+                    
+                    2
+                  
+                
+                
+                  (
+                  m
+                  
+                    ω
+                    
+                      2
+                    
+                  
+                  x
+                  
+                    
+                      
+                        
+                          
+                            ∂
+                          
+                          
+                            →
+                          
+                        
+                      
+                    
+                    
+                      p
+                    
+                  
+                  −
+                  
+                    
+                      p
+                      m
+                    
+                  
+                  
+                    
+                      
+                        
+                          
+                            ∂
+                          
+                          
+                            →
+                          
+                        
+                      
+                    
+                    
+                      x
+                    
+                  
+                  )
+                
+                 
+                W
+              
+            
+            
+              
+              
+                
+                =
+                E
+                ⋅
+                W
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}H\star W&=\left({\frac {1}{2}}m\omega ^{2}x^{2}+{\frac {p^{2}}{2m}}\right)\star W\\&=\left({\frac {1}{2}}m\omega ^{2}\left(x+{\frac {i\hbar }{2}}{\stackrel {\rightarrow }{\partial }}_{p}\right)^{2}+{\frac {1}{2m}}\left(p-{\frac {i\hbar }{2}}{\stackrel {\rightarrow }{\partial }}_{x}\right)^{2}\right)~W\\&=\left({\frac {1}{2}}m\omega ^{2}\left(x^{2}-{\frac {\hbar ^{2}}{4}}{\stackrel {\rightarrow }{\partial }}_{p}^{2}\right)+{\frac {1}{2m}}\left(p^{2}-{\frac {\hbar ^{2}}{4}}{\stackrel {\rightarrow }{\partial }}_{x}^{2}\right)\right)~W\\&\,\,\,\,\,+{\frac {i\hbar }{2}}\left(m\omega ^{2}x{\stackrel {\rightarrow }{\partial }}_{p}-{\frac {p}{m}}{\stackrel {\rightarrow }{\partial }}_{x}\right)~W\\&=E\cdot W.\end{aligned}}}
+  
+
+Consider first the imaginary part of the ★-genvalue equation.
+
+  
+    
+      
+        
+          
+            ℏ
+            2
+          
+        
+        
+          (
+          m
+          
+            ω
+            
+              2
+            
+          
+          x
+          
+            
+              
+                ∂
+                →
+              
+            
+            
+              p
+            
+          
+          −
+          
+            
+              p
+              m
+            
+          
+          
+            
+              
+                ∂
+                →
+              
+            
+            
+              x
+            
+          
+          )
+        
+        ⋅
+        W
+        =
+        0
+      
+    
+    {\displaystyle {\frac {\hbar }{2}}\left(m\omega ^{2}x{\overrightarrow {\partial }}_{p}-{\frac {p}{m}}{\overrightarrow {\partial }}_{x}\right)\cdot W=0}
+  
+
+This implies that one may write the ★-genstates as functions of a single argument,
+
+  
+    
+      
+        W
+        (
+        x
+        ,
+        p
+        )
+        =
+        F
+        
+          (
+          
+            
+              1
+              2
+            
+          
+          m
+          
+            ω
+            
+              2
+            
+          
+          
+            x
+            
+              2
+            
+          
+          +
+          
+            
+              
+                p
+                
+                  2
+                
+              
+              
+                2
+                m
+              
+            
+          
+          )
+        
+        ≡
+        F
+        (
+        u
+        )
+        .
+      
+    
+    {\displaystyle W(x,p)=F\left({\frac {1}{2}}m\omega ^{2}x^{2}+{\frac {p^{2}}{2m}}\right)\equiv F(u).}
+  
+
+With this change of variables, it is possible to write the real part of the ★-genvalue equation in the form of a modified Laguerre equation (not Hermite's equation!), the solution of which involves the Laguerre polynomials as
+
+  
+    
+      
+        
+          F
+          
+            n
+          
+        
+        (
+        u
+        )
+        =
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  n
+                
+              
+            
+            
+              π
+              ℏ
+            
+          
+        
+        
+          L
+          
+            n
+          
+        
+        
+          (
+          4
+          
+            
+              u
+              
+                ℏ
+                ω
+              
+            
+          
+          )
+        
+        
+          e
+          
+            −
+            2
+            u
+            
+              /
+            
+            ℏ
+            ω
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle F_{n}(u)={\frac {(-1)^{n}}{\pi \hbar }}L_{n}\left(4{\frac {u}{\hbar \omega }}\right)e^{-2u/\hbar \omega }~,}
+  
+introduced by Groenewold in his paper, with associated ★-genvalues
+
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+        =
+        ℏ
+        ω
+        
+          (
+          n
+          +
+          
+            
+              1
+              2
+            
+          
+          )
+        
+         
+        .
+      
+    
+    {\displaystyle E_{n}=\hbar \omega \left(n+{\frac {1}{2}}\right)~.}
+  
+
+For the harmonic oscillator, the time evolution of an arbitrary Wigner distribution is simple. An initial W(x,p; t=0) = F(u) evolves by the above evolution equation driven by the oscillator Hamiltonian given, by simply rigidly rotating in phase space,
+
+  
+    
+      
+        W
+        (
+        x
+        ,
+        p
+        ;
+        t
+        )
+        =
+        W
+        (
+        m
+        ω
+        x
+        cos
+        ⁡
+        ω
+        t
+        −
+        p
+        sin
+        ⁡
+        ω
+        t
+        ,
+         
+        p
+        cos
+        ⁡
+        ω
+        t
+        +
+        ω
+        m
+        x
+        sin
+        ⁡
+        ω
+        t
+        ;
+        0
+        )
+         
+        .
+      
+    
+    {\displaystyle W(x,p;t)=W(m\omega x\cos \omega t-p\sin \omega t,~p\cos \omega t+\omega mx\sin \omega t;0)~.}
+  
+Typically, a "bump" (or coherent state) of energy E ≫ ħω can represent a macroscopic quantity and appear like a classical object rotating uniformly in phase space, a plain mechanical oscillator (see the animated figures). Integrating over all phases (starting positions at t = 0) of such objects, a continuous "palisade", yields a time-independent configuration similar to the above static ★-genstates F(u), an intuitive visualization of the classical limit for large action systems.
+
+
+=== Free particle angular momentum ===
+Suppose a particle is initially in a minimally uncertain Gaussian state, with the expectation values of position and momentum both centered at the origin in phase space. The Wigner function for such a state propagating freely is
+
+  
+    
+      
+        W
+        (
+        
+          x
+        
+        ,
+        
+          p
+        
+        ;
+        t
+        )
+        =
+        
+          
+            1
+            
+              (
+              π
+              ℏ
+              
+                )
+                
+                  3
+                
+              
+            
+          
+        
+        exp
+        ⁡
+        
+          
+            (
+            −
+            
+              α
+              
+                2
+              
+            
+            
+              r
+              
+                2
+              
+            
+            −
+            
+              
+                
+                  p
+                  
+                    2
+                  
+                
+                
+                  
+                    α
+                    
+                      2
+                    
+                  
+                  
+                    ℏ
+                    
+                      2
+                    
+                  
+                
+              
+            
+            
+              (
+              1
+              +
+              
+                
+                  (
+                  
+                    
+                      t
+                      τ
+                    
+                  
+                  )
+                
+                
+                  2
+                
+              
+              )
+            
+            +
+            
+              
+                
+                  2
+                  t
+                
+                
+                  ℏ
+                  τ
+                
+              
+            
+            
+              x
+            
+            ⋅
+            
+              p
+            
+            )
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle W(\mathbf {x} ,\mathbf {p} ;t)={\frac {1}{(\pi \hbar )^{3}}}\exp {\left(-\alpha ^{2}r^{2}-{\frac {p^{2}}{\alpha ^{2}\hbar ^{2}}}\left(1+\left({\frac {t}{\tau }}\right)^{2}\right)+{\frac {2t}{\hbar \tau }}\mathbf {x} \cdot \mathbf {p} \right)}~,}
+  
+where α is a parameter describing the initial width of the Gaussian, and τ = m/α2ħ.
+Initially, the position and momenta are uncorrelated. Thus, in 3 dimensions, we expect the position and momentum vectors to be twice as likely to be perpendicular to each other as parallel.
+However, the position and momentum become increasingly correlated as the state evolves, because portions of the distribution farther from the origin in position require a larger momentum to be reached: asymptotically,
+
+  
+    
+      
+        W
+        ⟶
+        
+          
+            1
+            
+              (
+              π
+              ℏ
+              
+                )
+                
+                  3
+                
+              
+            
+          
+        
+        exp
+        ⁡
+        
+          [
+          −
+          
+            α
+            
+              2
+            
+          
+          
+            
+              (
+              
+                x
+              
+              −
+              
+                
+                  
+                    
+                      p
+                    
+                    t
+                  
+                  m
+                
+              
+              )
+            
+            
+              2
+            
+          
+          ]
+        
+        
+        .
+      
+    
+    {\displaystyle W\longrightarrow {\frac {1}{(\pi \hbar )^{3}}}\exp \left[-\alpha ^{2}\left(\mathbf {x} -{\frac {\mathbf {p} t}{m}}\right)^{2}\right]\,.}
+  
+(This relative "squeezing" reflects the spreading of the free wave packet in coordinate space.)
+Indeed, it is possible to show that the kinetic energy of the particle becomes asymptotically radial only, in agreement with the standard quantum-mechanical notion of the ground-state nonzero angular momentum specifying orientation independence:
+
+  
+    
+      
+        
+          K
+          
+            r
+            a
+            d
+          
+        
+        =
+        
+          
+            
+              
+                α
+                
+                  2
+                
+              
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          (
+          
+            
+              3
+              2
+            
+          
+          −
+          
+            
+              1
+              
+                1
+                +
+                (
+                t
+                
+                  /
+                
+                τ
+                
+                  )
+                  
+                    2
+                  
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle K_{rad}={\frac {\alpha ^{2}\hbar ^{2}}{2m}}\left({\frac {3}{2}}-{\frac {1}{1+(t/\tau )^{2}}}\right)}
+  
+
+  
+    
+      
+        
+          K
+          
+            a
+            n
+            g
+          
+        
+        =
+        
+          
+            
+              
+                α
+                
+                  2
+                
+              
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            1
+            
+              1
+              +
+              (
+              t
+              
+                /
+              
+              τ
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle K_{ang}={\frac {\alpha ^{2}\hbar ^{2}}{2m}}{\frac {1}{1+(t/\tau )^{2}}}~.}
+  
+
+
+=== Morse potential ===
+The Morse potential is used to approximate the vibrational structure of a diatomic molecule.
+
+
+=== Quantum tunneling ===
+Tunneling is a hallmark quantum effect where a quantum particle, not having sufficient energy to fly above, still goes through a barrier. This effect does not exist in classical mechanics.
+
+
+=== Quartic potential ===
+
+
+=== Schrödinger cat state ===
+
+
+== References ==

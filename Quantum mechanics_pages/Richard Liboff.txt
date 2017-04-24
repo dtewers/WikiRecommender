@@ -1,0 +1,36 @@
+Richard Lawrence Liboff (December 30, 1931 – March 9, 2014) was an American physicist who authored five books and over 100 other publications in variety of fields, including plasma physics, planetary physics, cosmology, quantum chaos, and quantum billiards.
+
+
+== Career ==
+He earned his Ph.D., 1961 from New York University. His advisors were Harold Grad in mathematics (13 moment method) and B. Zumino in physics (TCP theory). During his graduate years, he was a Research Assistant at the Courant Institute.
+After graduation, he stayed on as Assistant Professor of Physics. In 1965, he was appointed Associate Professor in the College of Engineering at Cornell. Later appointments at Cornell included membership in the Center for Applied Mathematics and the Department of Applied & Engineering Physics. Fulbright Program and Solvay Fellowships supported three sabbatical leaves abroad. He was appointed Full Professor in 1970. His research was supported by AFSOR and ARO. In 1969, he chaired the first International Meeting in Kinetic Theory, sponsored by the NSF and co-chaired by N. Rostoker.
+He was a Distinguished Professor of Physics at the University of Central Florida.
+He died 9 March 2014 in New York, NY, USA.
+
+
+== Bibliography ==
+
+
+=== Notable publications ===
+Among his publications, two works are of particular note:
+With a student (G. K. Schenter) he analytically solved a second order non-linear differential equation. One of the three solutions they gave had physical relevance, as it is a generalized Fermi–Dirac distribution relevant to high-field transport in a semiconductor.
+An ideal dynamical system was shown to be irreversible.
+
+
+=== Books ===
+Richard Liboff is the author of five books, three of which are still available:
+Richard L. Liboff (2003). Primer for Point and Space Groups. Springer. ISBN 0-387-40248-9. 
+Richard L. Liboff (2003). Kinetic Theory: Classical , Quantum and Relativistic Descriptions (3rd ed.). Springer. ISBN 0-387-95551-8. 
+Richard L. Liboff (2002). Introductory Quantum Mechanics (4th ed.). Addison-Wesley. ISBN 0-8053-8714-5. 
+An earlier edition of the Kinetic Theory text was translated into Russian and an earlier edition of the Quantum Mechanics text was translated into Korean.The second ed. of the q.m. text has been translated into Persian.
+
+
+=== Selected articles ===
+1. "Solution to a New Non-Linear Equation for the Distribution of Charge Carriers in a Semi-conductor", Phys. Rev. B35, 7063 (1986). Co-author with G.K. Schenter.
+2. "Irreversible Wall Collisions and Thermalization of a Gas of Inert Atoms", Phys. Lett. A 202, 177 (1995).
+3. "Quantum Chaos for the Radially Vibrating Spherical Billiard", Chaos 10, 366 (2000). Co-author with Mason Porter.
+4. "Quantum Billiard Chaos", Phys. Letters A265,230 (2000).
+5. "Excess Radiation from the Large Planets." Astronomical J, 134, (2007)
+
+
+== References ==

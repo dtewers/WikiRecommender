@@ -1,0 +1,13 @@
+Cold Atom Laboratory (CAL) is an experimental instrument being developed for launch to the International Space Station (ISS) in June 2017.
+The instrument will create extremely cold conditions in the microgravity environment of the ISS leading to the formation of Bose Einstein Condensates that are a magnitude colder than those that are created in laboratories on Earth. In a space-based laboratory, up to 20 seconds interaction times and as low as 1 picokelvin temperatures are achievable, and it could lead to exploration of unknown quantum mechanical phenomena and test some of the most fundamental laws of physics. NASA's JPL scientists state that the CAL investigation could advance knowledge in the development of extremely sensitive quantum detectors, which could be used for monitoring the gravity of Earth and other planetary bodies, or for building advanced navigation devices.
+The initial mission will have a duration of 12 months with up to five years of extended operation.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Cold Atom Laboratory – Project web site at JPL

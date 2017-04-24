@@ -1,0 +1,4491 @@
+In quantum mechanics, an energy level is said to be degenerate if it corresponds to two or more different measurable states of a quantum system. Conversely, two or more different states of a quantum mechanical system are said to be degenerate if they give the same value of energy upon measurement. The number of different states corresponding to a particular energy level is known as the degree of degeneracy of the level. It is represented mathematically by the Hamiltonian for the system having more than one linearly independent eigenstate with the same energy eigenvalue. In classical mechanics, this can be understood in terms of different possible trajectories corresponding to the same energy.
+Degeneracy plays a fundamental role in quantum statistical mechanics. For an N-particle system in three dimensions, a single energy level may correspond to several different wave functions or energy states. These degenerate states at the same level are all equally probable of being filled. The number of such states gives the degeneracy of a particular energy level.
+
+
+== Mathematics ==
+The possible states of a quantum mechanical system may be treated mathematically as abstract vectors in a separable, complex Hilbert space, while the observables may be represented by linear Hermitian operators acting upon them. By selecting a suitable basis, the components of these vectors and the matrix elements of the operators in that basis may be determined. If A is a N × N matrix, X a non-zero vector, and λ is a scalar, such that 
+  
+    
+      
+        A
+        X
+        =
+        λ
+        X
+      
+    
+    {\displaystyle AX=\lambda X}
+  , then the scalar λ is said to be an eigenvalue of A and the vector X is said to be the eigenvector corresponding to λ. Together with the zero vector, the set of all eigenvectors corresponding to a given eigenvalue λ form a subspace of Cn, which is called the eigenspace of λ. An eigenvalue λ which corresponds to two or more different linearly independent eigenvectors is said to be degenerate, i.e., 
+  
+    
+      
+        A
+        
+          X
+          
+            1
+          
+        
+        =
+        λ
+        
+          X
+          
+            1
+          
+        
+      
+    
+    {\displaystyle AX_{1}=\lambda X_{1}}
+   and 
+  
+    
+      
+        A
+        
+          X
+          
+            2
+          
+        
+        =
+        λ
+        
+          X
+          
+            2
+          
+        
+      
+    
+    {\displaystyle AX_{2}=\lambda X_{2}}
+  , where 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+      
+    
+    {\displaystyle X_{1}}
+   and 
+  
+    
+      
+        
+          X
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X_{2}}
+   are linearly independent eigenvectors.The dimensionality of the eigenspace corresponding to that eigenvalue is known as its degree of degeneracy, which can be finite or infinite. An eigenvalue is said to be non-degenerate if its eigenspace is one-dimensional. The eigenvalues of the matrices representing physical observables in quantum mechanics give the measurable values of these observables while the eigenstates corresponding to these eigenvalues give the possible states in which the system may be found, upon measurement. The measurable values of the energy of a quantum system are given by the eigenvalues of the Hamiltonian operator, while its eigenstates give the possible energy states of the system. A value of energy is said to be degenerate if there exist at least two linearly independent energy states associated with it. Moreover, any linear combination of two or more degenerate eigenstates is also an eigenstate of the Hamiltonian operator corresponding to the same energy eigenvalue.
+
+
+== Effect of degeneracy on the measurement of energy ==
+In the absence of degeneracy, if a measured value of energy of a quantum system is determined, the corresponding state of the system is assumed to be known, since only one eigenstate corresponds to each energy eigenvalue. However, if the Hamiltonian 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+   has a degenerate eigenvalue 
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+      
+    
+    {\displaystyle E_{n}}
+   of degree gn, the eigenstates associated with it form a vector subspace of dimension gn. In such a case, several final states can be possibly associated with the same result 
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+      
+    
+    {\displaystyle E_{n}}
+  , all of which are linear combinations of the gn orthonormal eigenvectors 
+  
+    
+      
+        
+          |
+        
+        
+          E
+          
+            n
+            ,
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |E_{n,i}\rangle }
+  .
+In this case, the probability that the energy value measured for a system in the state 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   will yield the value 
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+      
+    
+    {\displaystyle E_{n}}
+   is given by the sum of the probabilities of finding the system in each of the states in this basis, i.e.
+
+  
+    
+      
+        P
+        (
+        
+          E
+          
+            n
+          
+        
+        )
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            
+              g
+              
+                n
+              
+            
+          
+        
+        
+          |
+        
+        ⟨
+        
+          E
+          
+            n
+            ,
+            i
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle P(E_{n})=\sum _{i=1}^{g_{n}}|\langle E_{n,i}|\psi \rangle |^{2}}
+  
+
+
+== Degeneracy in different dimensions ==
+This section intends to illustrate the existence of degenerate energy levels in quantum systems studied in different dimensions. The study of one and two-dimensional systems aids the conceptual understanding of more complex systems.
+
+
+=== Degeneracy in one dimension ===
+In several cases, analytic results can be obtained more easily in the study of one-dimensional systems. For a quantum particle with a wave function 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   moving in a one-dimensional potential 
+  
+    
+      
+        V
+        (
+        x
+        )
+      
+    
+    {\displaystyle V(x)}
+  , the time-independent Schrödinger equation can be written as
+
+  
+    
+      
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          
+            
+              
+                d
+                
+                  2
+                
+              
+              ψ
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        V
+        ψ
+        =
+        E
+        ψ
+      
+    
+    {\displaystyle -{\frac {\hbar ^{2}}{2m}}{\frac {d^{2}\psi }{dx^{2}}}+V\psi =E\psi }
+  
+Since this is an ordinary differential equation, there are two independent eigenfunctions for a given energy 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   at most, so that the degree of degeneracy never exceeds two. It can be proved that in one dimension, there are no degenerate bound states for normalizable wave functions. A sufficient condition on a piecewise potential 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   and the energy 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   is the existence of two real numbers 
+  
+    
+      
+        M
+        ,
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle M,x_{0}}
+   with 
+  
+    
+      
+        M
+        ≠
+        0
+      
+    
+    {\displaystyle M\neq 0}
+   such that 
+  
+    
+      
+        ∀
+        x
+        >
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \forall x>x_{0}}
+   we have 
+  
+    
+      
+        V
+        (
+        x
+        )
+        −
+        E
+        ≥
+        
+          M
+          
+            2
+          
+        
+      
+    
+    {\displaystyle V(x)-E\geq M^{2}}
+  . In particular, 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   is bounded by below in this criterion.
+
+
+=== Degeneracy in two-dimensional quantum systems ===
+Two-dimensional quantum systems exist in all three states of matter and much of the variety seen in three dimensional matter can be created in two dimensions. Real two-dimensional materials are made of monatomic layers on the surface of solids. Some examples of two-dimensional electron systems achieved experimentally include MOSFET, two-dimensional superlattices of Helium, Neon, Argon, Xenon etc. and surface of liquid Helium. The presence of degenerate energy levels is studied in the cases of particle in a box and two-dimensional harmonic oscillator, which act as useful mathematical models for several real world systems.
+
+
+=== Particle in a rectangular plane ===
+Consider a free particle in a plane of dimensions 
+  
+    
+      
+        
+          L
+          
+            x
+          
+        
+      
+    
+    {\displaystyle L_{x}}
+   and 
+  
+    
+      
+        
+          L
+          
+            y
+          
+        
+      
+    
+    {\displaystyle L_{y}}
+   in a plane of impenetrable walls. The time-independent Schrödinger equation for this system with wave function 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   can be written as
+
+  
+    
+      
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          (
+          
+            
+              
+                
+                  ∂
+                  
+                    2
+                  
+                
+                ψ
+              
+              
+                
+                  ∂
+                  x
+                
+                
+                  2
+                
+              
+            
+          
+          +
+          
+            
+              
+                
+                  ∂
+                  
+                    2
+                  
+                
+                ψ
+              
+              
+                
+                  ∂
+                  y
+                
+                
+                  2
+                
+              
+            
+          
+          )
+        
+        =
+        E
+        ψ
+      
+    
+    {\displaystyle -{\frac {\hbar ^{2}}{2m}}\left({\frac {\partial ^{2}\psi }{{\partial x}^{2}}}+{\frac {\partial ^{2}\psi }{{\partial y}^{2}}}\right)=E\psi }
+  
+The permitted energy values are
+
+  
+    
+      
+        
+          E
+          
+            
+              n
+              
+                x
+              
+            
+            ,
+            
+              n
+              
+                y
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                π
+                
+                  2
+                
+              
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          (
+          
+            
+              
+                n
+                
+                  x
+                
+                
+                  2
+                
+              
+              
+                L
+                
+                  x
+                
+                
+                  2
+                
+              
+            
+          
+          +
+          
+            
+              
+                n
+                
+                  y
+                
+                
+                  2
+                
+              
+              
+                L
+                
+                  y
+                
+                
+                  2
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle E_{n_{x},n_{y}}={\frac {\pi ^{2}\hbar ^{2}}{2m}}\left({\frac {n_{x}^{2}}{L_{x}^{2}}}+{\frac {n_{y}^{2}}{L_{y}^{2}}}\right)}
+  
+The normalized wave function is
+
+  
+    
+      
+        
+          ψ
+          
+            
+              n
+              
+                x
+              
+            
+            ,
+            
+              n
+              
+                y
+              
+            
+          
+        
+        (
+        x
+        ,
+        y
+        )
+        =
+        
+          
+            2
+            
+              
+                L
+                
+                  x
+                
+              
+              
+                L
+                
+                  y
+                
+              
+            
+          
+        
+        sin
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  n
+                  
+                    x
+                  
+                
+                π
+                x
+              
+              
+                L
+                
+                  x
+                
+              
+            
+          
+          )
+        
+        sin
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  n
+                  
+                    y
+                  
+                
+                π
+                y
+              
+              
+                L
+                
+                  y
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \psi _{n_{x},n_{y}}(x,y)={\frac {2}{\sqrt {L_{x}L_{y}}}}\sin \left({\frac {n_{x}\pi x}{L_{x}}}\right)\sin \left({\frac {n_{y}\pi y}{L_{y}}}\right)}
+  
+where 
+  
+    
+      
+        
+          n
+          
+            x
+          
+        
+        ,
+        
+          n
+          
+            y
+          
+        
+        =
+        1
+        ,
+        2
+        ,
+        3...
+      
+    
+    {\displaystyle n_{x},n_{y}=1,2,3...}
+  
+So, quantum numbers 
+  
+    
+      
+        
+          n
+          
+            x
+          
+        
+      
+    
+    {\displaystyle n_{x}}
+   and 
+  
+    
+      
+        
+          n
+          
+            y
+          
+        
+      
+    
+    {\displaystyle n_{y}}
+   are required to describe the energy eigenvalues and the lowest energy of the system is given by
+
+  
+    
+      
+        
+          E
+          
+            1
+            ,
+            1
+          
+        
+        =
+        
+          π
+          
+            2
+          
+        
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          (
+          
+            
+              1
+              
+                L
+                
+                  x
+                
+                
+                  2
+                
+              
+            
+          
+          +
+          
+            
+              1
+              
+                L
+                
+                  y
+                
+                
+                  2
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle E_{1,1}=\pi ^{2}{\frac {\hbar ^{2}}{2m}}\left({\frac {1}{L_{x}^{2}}}+{\frac {1}{L_{y}^{2}}}\right)}
+  
+For some commensurate ratios of the two lengths 
+  
+    
+      
+        
+          L
+          
+            x
+          
+        
+      
+    
+    {\displaystyle L_{x}}
+   and 
+  
+    
+      
+        
+          L
+          
+            y
+          
+        
+      
+    
+    {\displaystyle L_{y}}
+  , certain pairs of states are degenerate. If 
+  
+    
+      
+        
+          L
+          
+            x
+          
+        
+        
+          /
+        
+        
+          L
+          
+            y
+          
+        
+        =
+        p
+        
+          /
+        
+        q
+      
+    
+    {\displaystyle L_{x}/L_{y}=p/q}
+  , where p and q are integers, the states 
+  
+    
+      
+        (
+        
+          n
+          
+            x
+          
+        
+        ,
+        
+          n
+          
+            y
+          
+        
+        )
+      
+    
+    {\displaystyle (n_{x},n_{y})}
+   and 
+  
+    
+      
+        (
+        p
+        
+          n
+          
+            y
+          
+        
+        
+          /
+        
+        q
+        ,
+        q
+        
+          n
+          
+            x
+          
+        
+        
+          /
+        
+        p
+        )
+      
+    
+    {\displaystyle (pn_{y}/q,qn_{x}/p)}
+   have the same energy and so are degenerate to each other.
+
+
+=== Particle in a square box ===
+In this case, the dimensions of the box 
+  
+    
+      
+        
+          L
+          
+            x
+          
+        
+        =
+        
+          L
+          
+            y
+          
+        
+        =
+        L
+      
+    
+    {\displaystyle L_{x}=L_{y}=L}
+   and the energy eigenvalues are given by
+
+  
+    
+      
+        
+          E
+          
+            
+              n
+              
+                x
+              
+            
+            ,
+            
+              n
+              
+                y
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                π
+                
+                  2
+                
+              
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+              
+                L
+                
+                  2
+                
+              
+            
+          
+        
+        (
+        
+          n
+          
+            x
+          
+          
+            2
+          
+        
+        +
+        
+          n
+          
+            y
+          
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle E_{n_{x},n_{y}}={\frac {\pi ^{2}\hbar ^{2}}{2mL^{2}}}(n_{x}^{2}+n_{y}^{2})}
+  
+Since 
+  
+    
+      
+        
+          n
+          
+            x
+          
+        
+      
+    
+    {\displaystyle n_{x}}
+   and 
+  
+    
+      
+        
+          n
+          
+            y
+          
+        
+      
+    
+    {\displaystyle n_{y}}
+   can be interchanged without changing the energy, each energy level is at least twice as degenerate when 
+  
+    
+      
+        
+          n
+          
+            x
+          
+        
+      
+    
+    {\displaystyle n_{x}}
+   and 
+  
+    
+      
+        
+          n
+          
+            y
+          
+        
+      
+    
+    {\displaystyle n_{y}}
+   are different. Degenerate states are also obtained when the sum of squares of quantum numbers corresponding to different energy levels are the same. For example, the three states (nx = 7, ny = 1), (nx = 1, ny = 7) and (nx = ny = 5) all have 
+  
+    
+      
+        E
+        =
+        50
+        
+          
+            
+              
+                π
+                
+                  2
+                
+              
+              
+                ℏ
+                
+                  2
+                
+              
+            
+            
+              2
+              m
+              
+                L
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle E=50{\frac {\pi ^{2}\hbar ^{2}}{2mL^{2}}}}
+   and constitute a degenerate set.
+Degrees of degeneracy of different energy levels for a particle in a square box
+
+
+== Finding a unique eigenbasis in case of degeneracy ==
+If two operators 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   and 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+   commute, i.e. 
+  
+    
+      
+        [
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        ]
+        =
+        0
+      
+    
+    {\displaystyle [{\hat {A}},{\hat {B}}]=0}
+  , then for every eigenvector 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   of 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+  , 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle {\hat {B}}|\psi \rangle }
+   is also an eigenvector of 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   with the same eigenvalue. However, if this eigenvalue, say 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  , is degenerate, it can be said that 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle {\hat {B}}|\psi \rangle }
+   belongs to the eigenspace 
+  
+    
+      
+        
+          E
+          
+            λ
+          
+        
+      
+    
+    {\displaystyle E_{\lambda }}
+   of 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+  , which is said to be globally invariant under the action of 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+  .
+For two commuting observables A and B, one can construct an orthonormal basis of the state space with eigenvectors common to the two operators. However, 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+   is a degenerate eigenvalue of 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+  , then it is an eigensubspace of 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   that is invariant under the action of 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+  , so the representation of 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+   in the eigenbasis of 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   is not a diagonal but a block diagonal matrix, i.e. the degenerate eigenvectors of 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   are not, in general, eigenvectors of 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+  . However, it is always possible to choose, in every degenerate eigensubspace of 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+  , a basis of eigenvectors common to 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   and 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+  .
+
+
+=== Choosing a complete set of commuting observables ===
+If a given observable A is non-degenerate, there exists a unique basis formed by its eigenvectors. On the other hand, if one or several eigenvalues of 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   are degenerate, specifying an eigenvalue is not sufficient to characterize a basis vector. If, by choosing an observable 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+  , which commutes with 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+  , it is possible to construct an orthonormal basis of eigenvectors common to 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   and 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+  , which is unique, for each of the possible pairs of eigenvalues {a,b}, then 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   and 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+   are said to form a complete set of commuting observables. However, if a unique set of eigenvectors can still not be specified, for at least one of the pairs of eigenvalues, a third observable 
+  
+    
+      
+        
+          
+            
+              C
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {C}}}
+  , which commutes with both 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   and 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+   can be found such that the three form a complete set of commuting observables.
+It follows that the eigenfunctions of the Hamiltonian of a quantum system with a common energy value must be labelled by giving some additional information, which can be done by choosing an operator that commutes with the Hamiltonian. These additional labels required naming of a unique energy eigenfunction and are usually related to the constants of motion of the system.
+
+
+=== Degenerate energy eigenstates and the parity operator ===
+The parity operator is defined by its action in the 
+  
+    
+      
+        
+          |
+        
+        r
+        ⟩
+      
+    
+    {\displaystyle |r\rangle }
+   representation of changing r to -r, i.e.
+
+  
+    
+      
+        ⟨
+        r
+        
+          |
+        
+        P
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        ψ
+        (
+        −
+        r
+        )
+      
+    
+    {\displaystyle \langle r|P|\psi \rangle =\psi (-r)}
+  
+The eigenvalues of P can be shown to be limited to 
+  
+    
+      
+        ±
+        1
+      
+    
+    {\displaystyle \pm 1}
+  , which are both degenerate eigenvalues in an infinite-dimensional state space. An eigenvector of P with eigenvalue +1 is said to be even, while that with eigenvalue −1 is said to be odd.
+Now, an even operator 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   is one that satisfies,
+
+  
+    
+      
+        
+          
+            
+              A
+              ~
+            
+          
+        
+        =
+        P
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        P
+      
+    
+    {\displaystyle {\tilde {A}}=P{\hat {A}}P}
+  
+
+  
+    
+      
+        [
+        P
+        ,
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ]
+        =
+        0
+      
+    
+    {\displaystyle [P,{\hat {A}}]=0}
+  
+while an odd operator 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+   is one that satisfies
+
+  
+    
+      
+        P
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        +
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        P
+        =
+        0
+      
+    
+    {\displaystyle P{\hat {B}}+{\hat {B}}P=0}
+  
+Since the square of the momentum operator 
+  
+    
+      
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\hat {P}}^{2}}
+   is even, if the potential V(r) is even, the Hamiltonian 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+   is said to be an even operator. In that case, if each of its eigenvalues are non-degenerate, each eigenvector is necessarily an eigenstate of P, and therefore it is possible to look for the eigenstates of 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+   among even and odd states. However, if one of the energy eigenstates has no definite parity, it can be asserted that the corresponding eigenvalue is degenerate, and 
+  
+    
+      
+        P
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle P|\psi \rangle }
+   is an eigenvector of 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+   with the same eigenvalue as 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+  .
+
+
+== Degeneracy and symmetry ==
+The physical origin of degeneracy in a quantum-mechanical system is often the presence of some symmetry in the system. Studying the symmetry of a quantum system can, in some cases, enable us to find the energy levels and degeneracies without solving the Schrödinger equation.
+Mathematically, the relation of degeneracy with symmetry can be clarified as follows. Let us consider a symmetry operation associated with a unitary operator S. Under such an operation, the new Hamiltonian is related to the original Hamiltonian by a similarity transformation generated by the operator S, such that 
+  
+    
+      
+        
+          H
+          ′
+        
+        =
+        S
+        H
+        
+          S
+          
+            −
+            1
+          
+        
+        =
+        S
+        H
+        
+          S
+          
+            †
+          
+        
+      
+    
+    {\displaystyle H'=SHS^{-1}=SHS^{\dagger }}
+  , since S is unitary. If the Hamiltonian remains unchanged under the transformation operation S, we have
+
+  
+    
+      
+        S
+        H
+        
+          S
+          
+            †
+          
+        
+        =
+        H
+      
+    
+    {\displaystyle SHS^{\dagger }=H}
+  
+
+  
+    
+      
+        S
+        H
+        
+          S
+          
+            −
+            1
+          
+        
+        =
+        H
+      
+    
+    {\displaystyle SHS^{-1}=H}
+  
+
+  
+    
+      
+        H
+        S
+        =
+        S
+        H
+      
+    
+    {\displaystyle HS=SH}
+  
+
+  
+    
+      
+        [
+        S
+        ,
+        H
+        ]
+        =
+        0
+      
+    
+    {\displaystyle [S,H]=0}
+  
+Now, if 
+  
+    
+      
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle |\alpha \rangle }
+   is an energy eigenstate,
+
+  
+    
+      
+        H
+        
+          |
+        
+        α
+        ⟩
+        =
+        E
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle H|\alpha \rangle =E|\alpha \rangle }
+  
+where E is the corresponding energy eigenvalue.
+
+  
+    
+      
+        H
+        S
+        
+          |
+        
+        α
+        ⟩
+        =
+        S
+        H
+        
+          |
+        
+        α
+        ⟩
+        =
+        S
+        E
+        
+          |
+        
+        α
+        ⟩
+        =
+        E
+        S
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle HS|\alpha \rangle =SH|\alpha \rangle =SE|\alpha \rangle =ES|\alpha \rangle }
+  
+which means that 
+  
+    
+      
+        S
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle S|\alpha \rangle }
+   is also an energy eigenstate with the same eigenvalue E. If the two states 
+  
+    
+      
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle |\alpha \rangle }
+   and 
+  
+    
+      
+        S
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle S|\alpha \rangle }
+   are linearly independent (i.e. physically distinct), they are therefore degenerate.
+In cases where S is characterized by a continuous parameter 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+  , all states of the form 
+  
+    
+      
+        S
+        (
+        ϵ
+        )
+        
+          |
+        
+        α
+        ⟩
+      
+    
+    {\displaystyle S(\epsilon )|\alpha \rangle }
+   have the same energy eigenvalue.
+
+
+=== Symmetry group of the Hamiltonian ===
+The set of all operators which commute with the Hamiltonian of a quantum system are said to form the symmetry group of the Hamiltonian. The commutators of the generators of this group determine the algebra of the group. An n-dimensional representation of the Symmetry group preserves the multiplication table of the symmetry operators. The possible degeneracies of the Hamiltonian with a particular symmetry group are given by the dimensionalities of the irreducible representations of the group. The eigenfunctions corresponding to a n-fold degenerate eigenvalue form a basis for a n-dimensional irreducible representation of the Symmetry group of the Hamiltonian.
+
+
+== Types of degeneracy ==
+Degeneracies in a quantum system can be systematic or accidental in nature.
+
+
+=== Systematic or essential degeneracy ===
+This is also called a geometrical or normal degeneracy and arises due to the presence of some kind of symmetry in the system under consideration, i.e. the invariance of the Hamiltonian under a certain operation, as described above. The representation obtained from a normal degeneracy is irreducible and the corresponding eigenfunctions form a basis for this representation.
+
+
+=== Accidental degeneracy ===
+It is a type of degeneracy resulting from some special features of the system or the functional form of the potential under consideration, and is related possibly to a hidden dynamical symmetry in the system. It also results in conserved quantities, which are often not easy to identify. Accidental symmetries lead to these additional degeneracies in the discrete energy spectrum. An accidental degeneracy can be due to the fact that the group of the Hamiltonian is not complete. These degeneracies are connected to the existence of bound orbits in classical Physics.
+
+
+=== Examples of systems with accidental degeneracies ===
+
+
+=== The Coulomb and Harmonic Oscillator potentials ===
+For a particle in a central 1/r potential, the Laplace–Runge–Lenz vector is a conserved quantity resulting from an accidental degeneracy, in addition to the conservation of angular momentum due to rotational invariance.
+For a particle moving on a cone under the influence of 1/r and r2 potentials, centred at the tip of the cone, the conserved quantities corresponding to accidental symmetry will be two components of an equivalent of the Runge-Lenz vector, in addition to one component of the angular momentum vector. These quantities generate SU(2) symmetry for both potentials.
+
+
+=== Particle in a constant magnetic field ===
+A particle moving under the influence of a constant magnetic field, undergoing cyclotron motion on a circular orbit is another important example of an accidental symmetry. The symmetry multiplets in this case are the Landau levels which are infinitely degenerate.
+
+
+== Examples ==
+
+
+=== The hydrogen atom ===
+
+In atomic physics, the bound states of an electron in a hydrogen atom show us useful examples of degeneracy. In this case, the Hamiltonian commutes with the total orbital angular momentum 
+  
+    
+      
+        
+          
+            
+              
+                L
+                
+                  2
+                
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {L^{2}}}}
+  , its component along the z-direction, 
+  
+    
+      
+        
+          
+            
+              
+                L
+                
+                  z
+                
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {L_{z}}}}
+  , total spin angular momentum 
+  
+    
+      
+        
+          
+            
+              
+                S
+                
+                  2
+                
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {S^{2}}}}
+   and its z-component 
+  
+    
+      
+        
+          
+            
+              
+                S
+                
+                  z
+                
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {S_{z}}}}
+  . The quantum numbers corresponding to these operators are 
+  
+    
+      
+        l
+      
+    
+    {\displaystyle l}
+  , 
+  
+    
+      
+        
+          m
+          
+            l
+          
+        
+      
+    
+    {\displaystyle m_{l}}
+  , 
+  
+    
+      
+        s
+      
+    
+    {\displaystyle s}
+   (always 1/2 for an electron) and 
+  
+    
+      
+        
+          m
+          
+            s
+          
+        
+      
+    
+    {\displaystyle m_{s}}
+   respectively.
+The energy levels in the hydrogen atom depend only on the principal quantum number n. For a given n, all the states corresponding to 
+  
+    
+      
+        l
+        =
+        0
+      
+    
+    {\displaystyle l=0}
+   → 
+  
+    
+      
+        n
+        =
+        1
+      
+    
+    {\displaystyle n=1}
+   have the same energy and are degenerate. Similarly for given values of n and l, the 
+  
+    
+      
+        (
+        2
+        l
+        +
+        1
+        )
+      
+    
+    {\displaystyle (2l+1)}
+  , states with 
+  
+    
+      
+        
+          m
+          
+            l
+          
+        
+        =
+        −
+        l
+      
+    
+    {\displaystyle m_{l}=-l}
+   → 
+  
+    
+      
+        l
+      
+    
+    {\displaystyle l}
+   are degenerate. The degree of degeneracy of the energy level En is therefore :
+  
+    
+      
+        
+          ∑
+          
+            l
+            
+              
+                =
+              
+            
+            0
+          
+          
+            n
+            −
+            1
+          
+        
+        (
+        2
+        l
+        +
+        1
+        )
+        =
+        
+          n
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \sum _{l{\mathop {=}}0}^{n-1}(2l+1)=n^{2}}
+  , which is doubled if the spin degeneracy is included.
+The degeneracy with respect to 
+  
+    
+      
+        
+          m
+          
+            l
+          
+        
+      
+    
+    {\displaystyle m_{l}}
+   is an essential degeneracy which is present for any central potential, and arises from the absence of a preferred spatial direction. The degeneracy with respect to 
+  
+    
+      
+        l
+      
+    
+    {\displaystyle l}
+   is often described as an accidental degeneracy, but it can be explained in terms of special symmetries of the Schrödinger equation which are only valid for the hydrogen atom in which the potential energy is given by Coulomb's law.
+
+
+=== Isotropic three-dimensional harmonic oscillator ===
+It is a spinless particle of mass m moving in three-dimensional space, subject to a central force whose absolute value is proportional to the distance of the particle from the centre of force.
+
+  
+    
+      
+        F
+        =
+        −
+        k
+        r
+      
+    
+    {\displaystyle F=-kr}
+  
+It is said to be isotropic since the potential 
+  
+    
+      
+        V
+        (
+        r
+        )
+      
+    
+    {\displaystyle V(r)}
+   acting on it is rotationally invariant, i.e. :
+  
+    
+      
+        V
+        (
+        r
+        )
+        =
+        1
+        
+          /
+        
+        2
+        (
+        m
+        
+          ω
+          
+            2
+          
+        
+        
+          r
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle V(r)=1/2(m\omega ^{2}r^{2})}
+  
+where 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+   is the angular frequency given by 
+  
+    
+      
+        
+          
+            k
+            
+              /
+            
+            m
+          
+        
+      
+    
+    {\displaystyle {\sqrt {k/m}}}
+  .
+Since the state space of such a particle is the tensor product of the state spaces associated with the individual one-dimensional wave functions, the time-independent Schrödinger equation for such a system is given by-
+
+  
+    
+      
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        
+          (
+          
+            
+              
+                
+                  ∂
+                  
+                    2
+                  
+                
+                ψ
+              
+              
+                ∂
+                
+                  x
+                  
+                    2
+                  
+                
+              
+            
+          
+          +
+          
+            
+              
+                
+                  ∂
+                  
+                    2
+                  
+                
+                ψ
+              
+              
+                ∂
+                
+                  y
+                  
+                    2
+                  
+                
+              
+            
+          
+          +
+          
+            
+              
+                
+                  ∂
+                  
+                    2
+                  
+                
+                ψ
+              
+              
+                ∂
+                
+                  z
+                  
+                    2
+                  
+                
+              
+            
+          
+          )
+        
+        +
+        (
+        1
+        
+          /
+        
+        2
+        )
+        
+          m
+          
+            ω
+            
+              2
+            
+          
+          (
+          
+            x
+            
+              2
+            
+          
+          +
+          
+            y
+            
+              2
+            
+          
+          +
+          
+            z
+            
+              2
+            
+          
+          )
+          ψ
+        
+        =
+        E
+        ψ
+      
+    
+    {\displaystyle -{\frac {\hbar ^{2}}{2m}}\left({\frac {\partial ^{2}\psi }{\partial x^{2}}}+{\frac {\partial ^{2}\psi }{\partial y^{2}}}+{\frac {\partial ^{2}\psi }{\partial z^{2}}}\right)+(1/2){m\omega ^{2}(x^{2}+y^{2}+z^{2})\psi }=E\psi }
+  
+So, the energy eigenvalues are 
+  
+    
+      
+        
+          E
+          
+            
+              n
+              
+                x
+              
+            
+            ,
+            
+              n
+              
+                y
+              
+            
+            ,
+            
+              n
+              
+                z
+              
+            
+          
+        
+        =
+        (
+        
+          n
+          
+            x
+          
+        
+        +
+        
+          n
+          
+            y
+          
+        
+        +
+        
+          n
+          
+            z
+          
+        
+        +
+        3
+        
+          /
+        
+        2
+        )
+        ℏ
+        ω
+      
+    
+    {\displaystyle E_{n_{x},n_{y},n_{z}}=(n_{x}+n_{y}+n_{z}+3/2)\hbar \omega }
+  
+or, 
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+        =
+        (
+        n
+        +
+        3
+        
+          /
+        
+        2
+        )
+        ℏ
+        ω
+      
+    
+    {\displaystyle E_{n}=(n+3/2)\hbar \omega }
+  
+where n is a non-negative integer. So, the energy levels are degenerate and the degree of degeneracy is equal to the number of different sets 
+  
+    
+      
+        
+          
+            n
+            
+              x
+            
+          
+          ,
+          
+            n
+            
+              y
+            
+          
+          ,
+          
+            n
+            
+              z
+            
+          
+        
+      
+    
+    {\displaystyle {n_{x},n_{y},n_{z}}}
+   satisfying
+
+  
+    
+      
+        
+          n
+          
+            x
+          
+        
+        +
+        
+          n
+          
+            y
+          
+        
+        +
+        
+          n
+          
+            z
+          
+        
+        =
+        n
+      
+    
+    {\displaystyle n_{x}+n_{y}+n_{z}=n}
+  
+which is equal to
+
+  
+    
+      
+        
+          ∑
+          
+            
+              n
+              
+                x
+              
+            
+            =
+            0
+          
+          
+            n
+          
+        
+        (
+        n
+        −
+        
+          n
+          
+            x
+          
+        
+        +
+        1
+        )
+        =
+        (
+        n
+        +
+        1
+        )
+        (
+        n
+        +
+        2
+        )
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \sum _{n_{x}=0}^{n}(n-n_{x}+1)=(n+1)(n+2)/2}
+  
+Only the ground state is non-degenerate.
+
+
+== Removing degeneracy ==
+The degeneracy in a quantum mechanical system may be removed if the underlying symmetry is broken by an external perturbation. This causes splitting in the degenerate energy levels. This is essentially a splitting of the original irreducible representations into lower-dimensional such representations of the perturbed system.
+Mathematically, the splitting due to the application of a small perturbation potential can be calculated using time-independent degenerate perturbation theory. This is an approximation scheme that can be applied to find the solution to the eigenvalue equation for the Hamiltonian H of a quantum system with an applied perturbation, given the solution for the Hamiltonian H0 for the unperturbed system. It involves expanding the eigenvalues and eigenkets of the Hamiltonian H in a perturbation series. The degenerate eigenstates with a given energy eigenvalue form a vector subspace, but not every basis of eigenstates of this space is a good starting point for perturbation theory, because typically there would not be any eigenstates of the perturbed system near them. The correct basis to choose is one that diagonalizes the perturbation Hamiltonian within the degenerate subspace.
+
+
+=== Physical examples of removal of degeneracy by a perturbation ===
+Some important examples of physical situations where degenerate energy levels of a quantum system are split by the application of an external perturbation are given below.
+
+
+=== Symmetry breaking in two-level systems ===
+A two-level system essentially refers to a physical system having two states whose energies are close together and very different from those of the other states of the system. All calculations for such a system are performed on a two-dimensional subspace of the state space.
+If the ground state of a physical system is two-fold degenerate, any coupling between the two corresponding states lowers the energy of the ground state of the system, and makes it more stable.
+If 
+  
+    
+      
+        
+          E
+          
+            1
+          
+        
+      
+    
+    {\displaystyle E_{1}}
+   and 
+  
+    
+      
+        
+          E
+          
+            2
+          
+        
+      
+    
+    {\displaystyle E_{2}}
+   are the energy levels of the system, such that 
+  
+    
+      
+        
+          E
+          
+            1
+          
+        
+        =
+        
+          E
+          
+            2
+          
+        
+        =
+        E
+      
+    
+    {\displaystyle E_{1}=E_{2}=E}
+  , and the perturbation 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+   is represented in the two-dimensional subspace as the following 2X2 matrix
+
+  
+    
+      
+        
+          W
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  0
+                
+                
+                  
+                    W
+                    
+                      12
+                    
+                  
+                
+              
+              
+                
+                  
+                    W
+                    
+                      12
+                    
+                    
+                      ∗
+                    
+                  
+                
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle \mathbf {W} ={\begin{bmatrix}0&W_{12}\\W_{12}^{*}&0\end{bmatrix}}.}
+  
+then the perturbed energies are
+
+  
+    
+      
+        
+          E
+          
+            +
+          
+        
+        =
+        E
+        +
+        
+          |
+        
+        
+          W
+          
+            12
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle E_{+}=E+|W_{12}|}
+  
+
+  
+    
+      
+        
+          E
+          
+            −
+          
+        
+        =
+        E
+        −
+        
+          |
+        
+        
+          W
+          
+            12
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle E_{-}=E-|W_{12}|}
+  
+Examples of two-state systems in which the degeneracy in energy states is broken by the presence of off-diagonal terms in the Hamiltonian resulting from an internal interaction due to an inherent property of the system include:
+Benzene, with two possible dispositions of the three double bonds between neighbouring Carbon atoms.
+Ammonia molecule, where the Nitrogen atom can be either above or below the plane defined by the three Hydrogen atoms.
+H2+ molecule, in which the electron may be localized around either of the two nuclei.
+
+
+=== Fine-structure splitting ===
+The corrections to the Coulomb interaction between the electron and the proton in a Hydrogen atom due to relativistic motion and spin-orbit coupling result in breaking the degeneracy in energy levels for different values of l corresponding to a single principal quantum number n.
+The perturbation Hamiltonian due to relativistic correction is given by
+
+  
+    
+      
+        
+          H
+          
+            r
+          
+        
+        =
+        −
+        
+          p
+          
+            4
+          
+        
+        
+          /
+        
+        8
+        
+          m
+          
+            3
+          
+        
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle H_{r}=-p^{4}/8m^{3}c^{2}}
+  
+where 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+   is the momentum operator and 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is the mass of the electron. The first-order relativistic energy correction in the 
+  
+    
+      
+        
+          |
+        
+        n
+        l
+        m
+        ⟩
+      
+    
+    {\displaystyle |nlm\rangle }
+   basis is given by
+
+  
+    
+      
+        
+          E
+          
+            r
+          
+        
+        =
+        (
+        −
+        1
+        
+          /
+        
+        8
+        
+          m
+          
+            3
+          
+        
+        
+          c
+          
+            2
+          
+        
+        )
+        ⟨
+        n
+        l
+        m
+        
+          |
+        
+        
+          p
+          
+            4
+          
+        
+        
+          |
+        
+        n
+        l
+        m
+        ⟩
+      
+    
+    {\displaystyle E_{r}=(-1/8m^{3}c^{2})\langle nlm|p^{4}|nlm\rangle }
+  
+Now 
+  
+    
+      
+        
+          p
+          
+            4
+          
+        
+        =
+        4
+        
+          m
+          
+            2
+          
+        
+        (
+        
+          H
+          
+            0
+          
+        
+        +
+        
+          e
+          
+            2
+          
+        
+        
+          /
+        
+        r
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle p^{4}=4m^{2}(H^{0}+e^{2}/r)^{2}}
+  
+
+  
+    
+      
+        
+          E
+          
+            r
+          
+        
+        =
+        (
+        −
+        1
+        
+          /
+        
+        2
+        m
+        
+          c
+          
+            2
+          
+        
+        )
+        [
+        
+          E
+          
+            n
+          
+          
+            2
+          
+        
+        +
+        2
+        
+          E
+          
+            n
+          
+        
+        
+          e
+          
+            2
+          
+        
+        ⟨
+        1
+        
+          /
+        
+        r
+        ⟩
+        +
+        
+          e
+          
+            4
+          
+        
+        ⟨
+        1
+        
+          /
+        
+        
+          r
+          
+            2
+          
+        
+        ⟩
+        ]
+      
+    
+    {\displaystyle E_{r}=(-1/2mc^{2})[E_{n}^{2}+2E_{n}e^{2}\langle 1/r\rangle +e^{4}\langle 1/r^{2}\rangle ]}
+  
+
+  
+    
+      
+        =
+        (
+        −
+        1
+        
+          /
+        
+        2
+        )
+        m
+        
+          c
+          
+            2
+          
+        
+        
+          α
+          
+            4
+          
+        
+        [
+        −
+        3
+        
+          /
+        
+        (
+        4
+        
+          n
+          
+            4
+          
+        
+        )
+        +
+        1
+        
+          /
+        
+        
+          
+            n
+            
+              3
+            
+          
+          (
+          l
+          +
+          1
+          
+            /
+          
+          2
+          )
+        
+        ]
+      
+    
+    {\displaystyle =(-1/2)mc^{2}\alpha ^{4}[-3/(4n^{4})+1/{n^{3}(l+1/2)}]}
+  
+
+where 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   is the fine structure constant.
+The spin-orbit interaction refers to the interaction between the intrinsic magnetic moment of the electron with the magnetic field experienced by it due to the relative motion with the proton. The interaction Hamiltonian is
+
+  
+    
+      
+        
+          H
+          
+            s
+            o
+          
+        
+        =
+        −
+        (
+        e
+        
+          /
+        
+        m
+        c
+        )
+        
+          
+            
+              
+                m
+                →
+              
+            
+          
+          ⋅
+          
+            
+              
+                L
+                →
+              
+            
+          
+          
+            /
+          
+          
+            r
+            
+              3
+            
+          
+        
+        =
+        [
+        (
+        
+          e
+          
+            2
+          
+        
+        
+          /
+        
+        (
+        
+          m
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        
+          r
+          
+            3
+          
+        
+        )
+        )
+        
+          
+            
+              S
+              →
+            
+          
+        
+        ⋅
+        
+          
+            
+              L
+              →
+            
+          
+        
+        ]
+      
+    
+    {\displaystyle H_{so}=-(e/mc){{\vec {m}}\cdot {\vec {L}}/r^{3}}=[(e^{2}/(m^{2}c^{2}r^{3})){\vec {S}}\cdot {\vec {L}}]}
+  
+which may be written as
+
+  
+    
+      
+        
+          H
+          
+            s
+            o
+          
+        
+        =
+        (
+        
+          e
+          
+            2
+          
+        
+        
+          /
+        
+        (
+        4
+        
+          m
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        
+          r
+          
+            3
+          
+        
+        )
+        )
+        [
+        
+          
+            
+              
+                J
+                →
+              
+            
+          
+          
+            2
+          
+        
+        −
+        
+          
+            
+              
+                L
+                →
+              
+            
+          
+          
+            2
+          
+        
+        −
+        
+          
+            
+              
+                S
+                →
+              
+            
+          
+          
+            2
+          
+        
+        ]
+      
+    
+    {\displaystyle H_{so}=(e^{2}/(4m^{2}c^{2}r^{3}))[{\vec {J}}^{2}-{\vec {L}}^{2}-{\vec {S}}^{2}]}
+  
+The first order energy correction in the 
+  
+    
+      
+        
+          |
+        
+        j
+        ,
+        m
+        ,
+        l
+        ,
+        1
+        
+          /
+        
+        2
+        ⟩
+      
+    
+    {\displaystyle |j,m,l,1/2\rangle }
+   basis where the perturbation Hamiltonian is diagonal, is given by
+
+  
+    
+      
+        
+          E
+          
+            s
+            o
+          
+        
+        =
+        (
+        
+          ℏ
+          
+            2
+          
+        
+        
+          e
+          
+            2
+          
+        
+        )
+        
+          /
+        
+        (
+        4
+        
+          m
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+        )
+        [
+        j
+        (
+        j
+        +
+        1
+        )
+        −
+        l
+        (
+        l
+        +
+        1
+        )
+        −
+        3
+        
+          /
+        
+        4
+        ]
+        
+          /
+        
+        (
+        (
+        
+          a
+          
+            0
+          
+        
+        
+          )
+          
+            3
+          
+        
+        
+          n
+          
+            3
+          
+        
+        (
+        l
+        (
+        l
+        +
+        1
+        
+          /
+        
+        2
+        )
+        (
+        l
+        +
+        1
+        )
+        )
+        ]
+      
+    
+    {\displaystyle E_{so}=(\hbar ^{2}e^{2})/(4m^{2}c^{2})[j(j+1)-l(l+1)-3/4]/((a_{0})^{3}n^{3}(l(l+1/2)(l+1))]}
+  
+where 
+  
+    
+      
+        
+          a
+          
+            0
+          
+        
+      
+    
+    {\displaystyle a_{0}}
+   is the Bohr radius. The total fine-structure energy shift is given by
+
+  
+    
+      
+        
+          E
+          
+            f
+            s
+          
+        
+        =
+        −
+        (
+        m
+        
+          c
+          
+            2
+          
+        
+        
+          α
+          
+            4
+          
+        
+        
+          /
+        
+        (
+        2
+        
+          n
+          
+            3
+          
+        
+        )
+        )
+        [
+        1
+        
+          /
+        
+        (
+        j
+        +
+        1
+        
+          /
+        
+        2
+        )
+        −
+        3
+        
+          /
+        
+        4
+        n
+        ]
+      
+    
+    {\displaystyle E_{fs}=-(mc^{2}\alpha ^{4}/(2n^{3}))[1/(j+1/2)-3/4n]}
+  
+for 
+  
+    
+      
+        j
+        =
+        l
+        ±
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle j=l\pm 1/2}
+  
+
+
+=== Zeeman effect ===
+The splitting of the energy levels of an atom when placed in an external magnetic field because of the interaction of the magnetic moment 
+  
+    
+      
+        
+          
+            
+              m
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {m}}}
+   of the atom with the applied field is known as the Zeeman effect.
+Taking into consideration the orbital and spin angular momenta, 
+  
+    
+      
+        
+          
+            
+              L
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {L}}}
+   and 
+  
+    
+      
+        
+          
+            
+              S
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {S}}}
+  , respectively, of a single electron in the Hydrogen atom, the perturbation Hamiltonian is given by-
+
+  
+    
+      
+        
+          
+            
+              V
+              ^
+            
+          
+        
+        =
+        −
+        (
+        
+          
+            
+              
+                m
+                
+                  l
+                
+              
+              →
+            
+          
+        
+        +
+        
+          
+            
+              
+                m
+                
+                  s
+                
+              
+              →
+            
+          
+        
+        )
+        ⋅
+        
+          
+            
+              B
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {V}}=-({\vec {m_{l}}}+{\vec {m_{s}}})\cdot {\vec {B}}}
+  
+where 
+  
+    
+      
+        
+          m
+          
+            l
+          
+        
+        =
+        −
+        e
+        
+          
+            
+              L
+              →
+            
+          
+        
+        
+          /
+        
+        2
+        m
+      
+    
+    {\displaystyle m_{l}=-e{\vec {L}}/2m}
+   and 
+  
+    
+      
+        
+          m
+          
+            s
+          
+        
+        =
+        −
+        e
+        
+          
+            
+              S
+              →
+            
+          
+        
+        
+          /
+        
+        m
+      
+    
+    {\displaystyle m_{s}=-e{\vec {S}}/m}
+  . Thus,
+
+  
+    
+      
+        
+          
+            
+              V
+              ^
+            
+          
+        
+        =
+        e
+        (
+        
+          
+            
+              L
+              →
+            
+          
+        
+        +
+        2
+        
+          
+            
+              S
+              →
+            
+          
+        
+        )
+        ⋅
+        
+          
+            
+              B
+              →
+            
+          
+        
+        
+          /
+        
+        2
+        m
+      
+    
+    {\displaystyle {\hat {V}}=e({\vec {L}}+2{\vec {S}})\cdot {\vec {B}}/2m}
+  
+Now, in case of the weak-field Zeeman effect, when the applied field is weak compared to the internal field, the spin-orbit coupling dominates and 
+  
+    
+      
+        
+          
+            
+              L
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {L}}}
+   and 
+  
+    
+      
+        
+          
+            
+              S
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {S}}}
+   are not separately conserved. The good quantum numbers are n, l, j and mj, and in this basis, the first order energy correction can be shown to be given by
+
+  
+    
+      
+        
+          E
+          
+            z
+          
+        
+        =
+        −
+        
+          μ
+          
+            B
+          
+        
+        
+          g
+          
+            j
+          
+        
+        B
+        
+          m
+          
+            j
+          
+        
+      
+    
+    {\displaystyle E_{z}=-\mu _{B}g_{j}Bm_{j}}
+  , where
+
+  
+    
+      
+        
+          μ
+          
+            B
+          
+        
+        =
+        
+          e
+          ℏ
+        
+        
+          /
+        
+        2
+        m
+      
+    
+    {\displaystyle \mu _{B}={e\hbar }/2m}
+   is called the Bohr Magneton.Thus, depending on the value of 
+  
+    
+      
+        
+          m
+          
+            j
+          
+        
+      
+    
+    {\displaystyle m_{j}}
+  , each degenerate energy level splits into several levels.
+
+In case of the strong-field Zeeman effect, when the applied field is strong enough, so that the orbital and spin angular momenta decouple, the good quantum numbers are now n,l,ml and ms. Here, Lz and Sz are conserved, so the perturbation Hamiltonian is given by-
+
+  
+    
+      
+        
+          
+            
+              V
+              ^
+            
+          
+        
+        =
+        e
+        B
+        (
+        
+          L
+          
+            z
+          
+        
+        +
+        2
+        
+          S
+          
+            z
+          
+        
+        )
+        
+          /
+        
+        2
+        m
+      
+    
+    {\displaystyle {\hat {V}}=eB(L_{z}+2S_{z})/2m}
+  
+assuming the magnetic field to be along the z-direction. So,
+
+  
+    
+      
+        
+          
+            
+              V
+              ^
+            
+          
+        
+        =
+        e
+        B
+        (
+        
+          m
+          
+            l
+          
+        
+        +
+        2
+        
+          m
+          
+            s
+          
+        
+        )
+        
+          /
+        
+        2
+        m
+      
+    
+    {\displaystyle {\hat {V}}=eB(m_{l}+2m_{s})/2m}
+  
+For each value of ml, there are two possible values of ms, 
+  
+    
+      
+        ±
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \pm 1/2}
+  .
+
+
+=== Stark effect ===
+The splitting of the energy levels of an atom or molecule when subjected to an external electric field is known as the Stark effect.
+For the hydrogen atom, the perturbation Hamiltonian is-
+
+  
+    
+      
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            s
+          
+        
+        =
+        −
+        
+          |
+        
+        e
+        
+          |
+        
+        E
+        z
+      
+    
+    {\displaystyle {\hat {H}}_{s}=-|e|Ez}
+  
+if the electric field is chosen along the z-direction.
+The energy corrections due to the applied field are given by the expectation value of 
+  
+    
+      
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            s
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}_{s}}
+   in the 
+  
+    
+      
+        
+          |
+        
+        n
+        l
+        m
+        ⟩
+      
+    
+    {\displaystyle |nlm\rangle }
+   basis. It can be shown by the selection rules that 
+  
+    
+      
+        ⟨
+        n
+        l
+        
+          m
+          
+            l
+          
+        
+        
+          |
+        
+        z
+        
+          |
+        
+        
+          n
+          
+            1
+          
+        
+        
+          l
+          
+            1
+          
+        
+        
+          m
+          
+            l
+            1
+          
+        
+        ⟩
+        ≠
+        0
+      
+    
+    {\displaystyle \langle nlm_{l}|z|n_{1}l_{1}m_{l1}\rangle \neq 0}
+   when 
+  
+    
+      
+        l
+        =
+        
+          l
+          
+            1
+          
+        
+        ±
+        1
+      
+    
+    {\displaystyle l=l_{1}\pm 1}
+   and 
+  
+    
+      
+        
+          m
+          
+            l
+          
+        
+        =
+        
+          m
+          
+            l
+            1
+          
+        
+      
+    
+    {\displaystyle m_{l}=m_{l1}}
+  .
+The degeneracy is lifted only for certain states obeying the selection rules, in the first order. The first-order splitting in the energy levels for the degenerate states 
+  
+    
+      
+        
+          |
+        
+        2
+        ,
+        0
+        ,
+        0
+        ⟩
+      
+    
+    {\displaystyle |2,0,0\rangle }
+   and 
+  
+    
+      
+        
+          |
+        
+        2
+        ,
+        1
+        ,
+        0
+        ⟩
+      
+    
+    {\displaystyle |2,1,0\rangle }
+  , both corresponding to n=2, is given by 
+  
+    
+      
+        Δ
+        
+          E
+          
+            2
+            ,
+            1
+            ,
+            
+              m
+              
+                l
+              
+            
+          
+        
+        =
+        ±
+        
+          |
+        
+        e
+        
+          |
+        
+        (
+        
+          ℏ
+          
+            2
+          
+        
+        )
+        
+          /
+        
+        (
+        
+          m
+          
+            e
+          
+        
+        
+          e
+          
+            2
+          
+        
+        )
+        E
+      
+    
+    {\displaystyle \Delta E_{2,1,m_{l}}=\pm |e|(\hbar ^{2})/(m_{e}e^{2})E}
+  .
+
+
+== See also ==
+Density of states
+
+
+== References ==
+
+
+== Further reading ==
+Cohen-Tannoudji, Claude; Diu, Bernard & Laloë, Franck. Quantum Mechanics. 1. Hermann. ISBN 9782705683924.  CS1 maint: Uses authors parameter (link)
+Shankar, Ramamurti (2013). Principles of Quantum Mechanics. Springer. ISBN 9781461576754.  CS1 maint: Uses authors parameter (link)
+Larson, Ron; Falvo, David C. (30 March 2009). Elementary Linear Algebra, Enhanced Edition. Cengage Learning. pp. 8–. ISBN 978-1-305-17240-1. 
+Hobson; Riley. Mathematical Methods For Physics And Engineering (Clpe) 2Ed. Cambridge University Press. ISBN 978-0-521-61296-8. 
+Hemmer (2005). Kvantemekanikk: P.C. Hemmer. Tapir akademisk forlag. Tillegg 3: supplement to sections 3.1, 3.3, and 3.5. ISBN 978-82-519-2028-5. 
+Quantum degeneracy in two dimensional systems, Debnarayan Jana, Dept. of Physics, University College of Science and Technology
+Al-Hashimi, Munir (2008). Accidental Symmetry in Quantum Physics.

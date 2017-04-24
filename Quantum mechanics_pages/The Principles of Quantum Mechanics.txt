@@ -1,0 +1,33 @@
+The Principles of Quantum Mechanics is an influential monograph on quantum mechanics written by Paul Dirac and first published by Oxford University Press in 1930. Dirac gives an account of quantum mechanics by "demonstrating how to construct a completely new theoretical framework from scratch"; "problems were tackled top-down, by working on the great principles, with the details left to look after themselves". It leaves classical physics behind after the first chapter, presenting the subject with a logical structure. Its 82 sections contain 785 equations with no diagrams.
+Dirac is credited with developing the subject "particularly in Cambridge and Göttingen between 1925–1927" (Farmelo).
+
+
+== History ==
+The first and second editions of the book were published in 1930 and 1935.
+In 1947 the third edition of the book was published, in which the chapter on quantum electrodynamics was rewritten particularly with the inclusion of electron-positron creation.
+In the fourth edition, 1958, the same chapter was revised, adding new sections on interpretation and applications. Later a revised fourth edition appeared in 1967.
+This book summarizes the ideas of quantum mechanics using the Bra–ket notation introduced in 1939 and largely developed by Dirac himself 
+
+
+== Contents ==
+The principle of superposition
+Dynamical variables and observables
+Representations
+The quantum conditions
+The equations of motion
+Elementary applications
+Perturbation theory
+Collision problems
+Systems containing several similar particles
+Theory of radiation
+Relativistic theory of the electron
+Quantum electrodynamics
+
+
+== See also ==
+The Evolution of Physics (Einstein)
+The Feynman Lectures on Physics (Feynman)
+The Physical Principles of the Quantum Theory (Heisenberg)
+
+
+== References ==

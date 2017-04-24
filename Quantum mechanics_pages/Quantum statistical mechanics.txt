@@ -1,0 +1,1087 @@
+Quantum statistical mechanics is statistical mechanics applied to quantum mechanical systems. In quantum mechanics a statistical ensemble (probability distribution over possible quantum states) is described by a density operator S, which is a non-negative, self-adjoint, trace-class operator of trace 1 on the Hilbert space H describing the quantum system. This can be shown under various mathematical formalisms for quantum mechanics. One such formalism is provided by quantum logic.
+
+
+== Expectation ==
+From classical probability theory, we know that the expectation of a random variable X is defined by its distribution DX by
+
+  
+    
+      
+        
+          E
+        
+        (
+        X
+        )
+        =
+        
+          ∫
+          
+            
+              R
+            
+          
+        
+        λ
+        
+        d
+        
+        
+          D
+          
+            X
+          
+        
+        ⁡
+        (
+        λ
+        )
+      
+    
+    {\displaystyle \mathbb {E} (X)=\int _{\mathbb {R} }\lambda \,d\,\operatorname {D} _{X}(\lambda )}
+  
+assuming, of course, that the random variable is integrable or that the random variable is non-negative. Similarly, let A be an observable of a quantum mechanical system. A is given by a densely defined self-adjoint operator on H. The spectral measure of A defined by
+
+  
+    
+      
+        
+          E
+          
+            A
+          
+        
+        ⁡
+        (
+        U
+        )
+        =
+        
+          ∫
+          
+            U
+          
+        
+        λ
+        d
+        E
+        ⁡
+        (
+        λ
+        )
+        ,
+      
+    
+    {\displaystyle \operatorname {E} _{A}(U)=\int _{U}\lambda d\operatorname {E} (\lambda ),}
+  
+uniquely determines A and conversely, is uniquely determined by A. EA is a boolean homomorphism from the Borel subsets of R into the lattice Q of self-adjoint projections of H. In analogy with probability theory, given a state S, we introduce the distribution of A under S which is the probability measure defined on the Borel subsets of R by
+
+  
+    
+      
+        
+          D
+          
+            A
+          
+        
+        ⁡
+        (
+        U
+        )
+        =
+        Tr
+        ⁡
+        (
+        
+          E
+          
+            A
+          
+        
+        ⁡
+        (
+        U
+        )
+        S
+        )
+        .
+      
+    
+    {\displaystyle \operatorname {D} _{A}(U)=\operatorname {Tr} (\operatorname {E} _{A}(U)S).}
+  
+Similarly, the expected value of A is defined in terms of the probability distribution DA by
+
+  
+    
+      
+        
+          E
+        
+        (
+        A
+        )
+        =
+        
+          ∫
+          
+            
+              R
+            
+          
+        
+        λ
+        
+        d
+        
+        
+          D
+          
+            A
+          
+        
+        ⁡
+        (
+        λ
+        )
+        .
+      
+    
+    {\displaystyle \mathbb {E} (A)=\int _{\mathbb {R} }\lambda \,d\,\operatorname {D} _{A}(\lambda ).}
+  
+Note that this expectation is relative to the mixed state S which is used in the definition of DA.
+Remark. For technical reasons, one needs to consider separately the positive and negative parts of A defined by the Borel functional calculus for unbounded operators.
+One can easily show:
+
+  
+    
+      
+        
+          E
+        
+        (
+        A
+        )
+        =
+        Tr
+        ⁡
+        (
+        A
+        S
+        )
+        =
+        Tr
+        ⁡
+        (
+        S
+        A
+        )
+        .
+      
+    
+    {\displaystyle \mathbb {E} (A)=\operatorname {Tr} (AS)=\operatorname {Tr} (SA).}
+  
+Note that if S is a pure state corresponding to the vector ψ, then:
+
+  
+    
+      
+        
+          E
+        
+        (
+        A
+        )
+        =
+        ⟨
+        ψ
+        
+          |
+        
+        A
+        
+          |
+        
+        ψ
+        ⟩
+        .
+      
+    
+    {\displaystyle \mathbb {E} (A)=\langle \psi |A|\psi \rangle .}
+  
+The trace of an operator A is written as follows:
+
+  
+    
+      
+        Tr
+        ⁡
+        (
+        A
+        )
+        =
+        
+          ∑
+          
+            m
+          
+        
+        ⟨
+        m
+        
+          |
+        
+        A
+        
+          |
+        
+        m
+        ⟩
+        .
+      
+    
+    {\displaystyle \operatorname {Tr} (A)=\sum _{m}\langle m|A|m\rangle .}
+  
+
+
+== Von Neumann entropy ==
+
+Of particular significance for describing randomness of a state is the von Neumann entropy of S formally defined by
+
+  
+    
+      
+        H
+        ⁡
+        (
+        S
+        )
+        =
+        −
+        Tr
+        ⁡
+        (
+        S
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        S
+        )
+      
+    
+    {\displaystyle \operatorname {H} (S)=-\operatorname {Tr} (S\log _{2}S)}
+  .
+Actually, the operator S log2 S is not necessarily trace-class. However, if S is a non-negative self-adjoint operator not of trace class we define Tr(S) = +∞. Also note that any density operator S can be diagonalized, that it can be represented in some orthonormal basis by a (possibly infinite) matrix of the form
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    λ
+                    
+                      1
+                    
+                  
+                
+                
+                  0
+                
+                
+                  ⋯
+                
+                
+                  0
+                
+                
+                  ⋯
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    λ
+                    
+                      2
+                    
+                  
+                
+                
+                  ⋯
+                
+                
+                  0
+                
+                
+                  ⋯
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋱
+                
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                
+                  
+                    λ
+                    
+                      n
+                    
+                  
+                
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                
+                
+                  ⋱
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}\lambda _{1}&0&\cdots &0&\cdots \\0&\lambda _{2}&\cdots &0&\cdots \\\vdots &\vdots &\ddots &\\0&0&&\lambda _{n}&\\\vdots &\vdots &&&\ddots \end{bmatrix}}}
+  
+and we define
+
+  
+    
+      
+        H
+        ⁡
+        (
+        S
+        )
+        =
+        −
+        
+          ∑
+          
+            i
+          
+        
+        
+          λ
+          
+            i
+          
+        
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        
+          λ
+          
+            i
+          
+        
+        .
+      
+    
+    {\displaystyle \operatorname {H} (S)=-\sum _{i}\lambda _{i}\log _{2}\lambda _{i}.}
+  
+The convention is that 
+  
+    
+      
+        
+        0
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        0
+        =
+        0
+      
+    
+    {\displaystyle \;0\log _{2}0=0}
+  , since an event with probability zero should not contribute to the entropy. This value is an extended real number (that is in [0, ∞]) and this is clearly a unitary invariant of S.
+Remark. It is indeed possible that H(S) = +∞ for some density operator S. In fact T be the diagonal matrix
+
+  
+    
+      
+        T
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      1
+                      
+                        2
+                        (
+                        
+                          log
+                          
+                            2
+                          
+                        
+                        ⁡
+                        2
+                        
+                          )
+                          
+                            2
+                          
+                        
+                      
+                    
+                  
+                
+                
+                  0
+                
+                
+                  ⋯
+                
+                
+                  0
+                
+                
+                  ⋯
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    
+                      1
+                      
+                        3
+                        (
+                        
+                          log
+                          
+                            2
+                          
+                        
+                        ⁡
+                        3
+                        
+                          )
+                          
+                            2
+                          
+                        
+                      
+                    
+                  
+                
+                
+                  ⋯
+                
+                
+                  0
+                
+                
+                  ⋯
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋱
+                
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                
+                  
+                    
+                      1
+                      
+                        n
+                        (
+                        
+                          log
+                          
+                            2
+                          
+                        
+                        ⁡
+                        n
+                        
+                          )
+                          
+                            2
+                          
+                        
+                      
+                    
+                  
+                
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                
+                
+                  ⋱
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle T={\begin{bmatrix}{\frac {1}{2(\log _{2}2)^{2}}}&0&\cdots &0&\cdots \\0&{\frac {1}{3(\log _{2}3)^{2}}}&\cdots &0&\cdots \\\vdots &\vdots &\ddots &\\0&0&&{\frac {1}{n(\log _{2}n)^{2}}}&\\\vdots &\vdots &&&\ddots \end{bmatrix}}}
+  
+T is non-negative trace class and one can show T log2 T is not trace-class.
+Theorem. Entropy is a unitary invariant.
+In analogy with classical entropy (notice the similarity in the definitions), H(S) measures the amount of randomness in the state S. The more dispersed the eigenvalues are, the larger the system entropy. For a system in which the space H is finite-dimensional, entropy is maximized for the states S which in diagonal form have the representation
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      1
+                      n
+                    
+                  
+                
+                
+                  0
+                
+                
+                  ⋯
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    
+                      1
+                      n
+                    
+                  
+                
+                
+                  …
+                
+                
+                  0
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋱
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  ⋯
+                
+                
+                  
+                    
+                      1
+                      n
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}{\frac {1}{n}}&0&\cdots &0\\0&{\frac {1}{n}}&\dots &0\\\vdots &\vdots &\ddots &\vdots \\0&0&\cdots &{\frac {1}{n}}\end{bmatrix}}}
+  
+For such an S, H(S) = log2 n. The state S is called the maximally mixed state.
+Recall that a pure state is one of the form
+
+  
+    
+      
+        S
+        =
+        
+          |
+        
+        ψ
+        ⟩
+        ⟨
+        ψ
+        
+          |
+        
+        ,
+      
+    
+    {\displaystyle S=|\psi \rangle \langle \psi |,}
+  
+for ψ a vector of norm 1.
+Theorem. H(S) = 0 if and only if S is a pure state.
+For S is a pure state if and only if its diagonal form has exactly one non-zero entry which is a 1.
+Entropy can be used as a measure of quantum entanglement.
+
+
+== Gibbs canonical ensemble ==
+
+Consider an ensemble of systems described by a Hamiltonian H with average energy E. If H has pure-point spectrum and the eigenvalues 
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+      
+    
+    {\displaystyle E_{n}}
+   of H go to +∞ sufficiently fast, e−r H will be a non-negative trace-class operator for every positive r.
+The Gibbs canonical ensemble is described by the state
+
+  
+    
+      
+        S
+        =
+        
+          
+            
+              
+                e
+              
+              
+                −
+                β
+                H
+              
+            
+            
+              Tr
+              ⁡
+              (
+              
+                
+                  e
+                
+                
+                  −
+                  β
+                  H
+                
+              
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle S={\frac {\mathrm {e} ^{-\beta H}}{\operatorname {Tr} (\mathrm {e} ^{-\beta H})}}.}
+  
+Where β is such that the ensemble average of energy satisfies
+
+  
+    
+      
+        Tr
+        ⁡
+        (
+        S
+        H
+        )
+        =
+        E
+      
+    
+    {\displaystyle \operatorname {Tr} (SH)=E}
+  
+and
+
+  
+    
+      
+        Tr
+        ⁡
+        (
+        
+          
+            e
+          
+          
+            −
+            β
+            H
+          
+        
+        )
+        =
+        
+          ∑
+          
+            n
+          
+        
+        
+          
+            e
+          
+          
+            −
+            β
+            
+              E
+              
+                n
+              
+            
+          
+        
+        =
+        Z
+        (
+        β
+        )
+      
+    
+    {\displaystyle \operatorname {Tr} (\mathrm {e} ^{-\beta H})=\sum _{n}\mathrm {e} ^{-\beta E_{n}}=Z(\beta )}
+  
+This is called the partition function; it is the quantum mechanical version of the canonical partition function of classical statistical mechanics. The probability that a system chosen at random from the ensemble will be in a state corresponding to energy eigenvalue 
+  
+    
+      
+        
+          E
+          
+            m
+          
+        
+      
+    
+    {\displaystyle E_{m}}
+   is
+
+  
+    
+      
+        
+          
+            P
+          
+        
+        (
+        
+          E
+          
+            m
+          
+        
+        )
+        =
+        
+          
+            
+              
+                e
+              
+              
+                −
+                β
+                
+                  E
+                  
+                    m
+                  
+                
+              
+            
+            
+              
+                ∑
+                
+                  n
+                
+              
+              
+                
+                  e
+                
+                
+                  −
+                  β
+                  
+                    E
+                    
+                      n
+                    
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\mathcal {P}}(E_{m})={\frac {\mathrm {e} ^{-\beta E_{m}}}{\sum _{n}\mathrm {e} ^{-\beta E_{n}}}}.}
+  
+Under certain conditions, the Gibbs canonical ensemble maximizes the von Neumann entropy of the state subject to the energy conservation requirement.
+
+
+== Grand canonical ensemble ==
+
+For open systems where the energy and numbers of particles may fluctuate, the system is described by the grand canonical ensemble, described by the density matrix
+
+  
+    
+      
+        ρ
+        =
+        
+          
+            
+              
+                e
+              
+              
+                β
+                (
+                
+                  ∑
+                  
+                    i
+                  
+                
+                
+                  μ
+                  
+                    i
+                  
+                
+                
+                  N
+                  
+                    i
+                  
+                
+                −
+                H
+                )
+              
+            
+            
+              Tr
+              ⁡
+              
+                (
+                
+                  
+                    e
+                  
+                  
+                    −
+                    β
+                    (
+                    H
+                    +
+                    
+                      ∑
+                      
+                        i
+                      
+                    
+                    
+                      μ
+                      
+                        i
+                      
+                    
+                    
+                      N
+                      
+                        i
+                      
+                    
+                    )
+                  
+                
+                )
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \rho ={\frac {\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)}}{\operatorname {Tr} \left(\mathrm {e} ^{-\beta (H+\sum _{i}\mu _{i}N_{i})}\right)}}.}
+  
+where the N1, N2, ... are the particle number operators for the different species of particles that are exchanged with the reservoir. Note that this is a density matrix including many more states (of varying N) compared to the canonical ensemble.
+The grand partition function is
+
+  
+    
+      
+        
+          
+            Z
+          
+        
+        (
+        β
+        ,
+        
+          μ
+          
+            1
+          
+        
+        ,
+        
+          μ
+          
+            2
+          
+        
+        ,
+        ⋯
+        )
+        =
+        Tr
+        ⁡
+        (
+        
+          
+            e
+          
+          
+            β
+            (
+            
+              ∑
+              
+                i
+              
+            
+            
+              μ
+              
+                i
+              
+            
+            
+              N
+              
+                i
+              
+            
+            −
+            H
+            )
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {Z}}(\beta ,\mu _{1},\mu _{2},\cdots )=\operatorname {Tr} (\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)})}
+  
+
+
+== References ==
+J. von Neumann, Mathematical Foundations of Quantum Mechanics, Princeton University Press, 1955.
+F. Reif, Statistical and Thermal Physics, McGraw-Hill, 1965.

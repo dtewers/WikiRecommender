@@ -1,0 +1,24 @@
+Fractal analysis is assessing fractal characteristics of data. It consists of several methods to assign a fractal dimension and other fractal characteristics to a dataset which may be a theoretical dataset or a pattern or signal extracted from phenomena including natural geometric objects, sound, market fluctuations, heart rates, digital images, molecular motion, networks, etc. Fractal analysis is now widely used in all areas of science. An important limitation of fractal analysis is that arriving at an empirically determined fractal dimension does not necessarily prove that a pattern is fractal; rather, other essential characteristics have to be considered.
+
+
+== Types of fractal analysis ==
+Several types of fractal analysis are done, including box counting, lacunarity analysis, mass methods, and multifractal analysis. A common feature of all types of fractal analysis is the need for benchmark patterns against which to assess outputs. These can be acquired with various types of fractal generating software capable of generating benchmark patterns suitable for this purpose, which generally differ from software designed to render fractal art.
+
+
+== Applications ==
+Applications of fractal analysis include:
+
+
+== See also ==
+Multifractal
+Rescaled range
+
+
+== References ==
+
+
+== Further reading ==
+Fractals and Fractal Analysis
+Fractal analysis
+Benoit - Fractal Analysis Software
+Fractal Analysis Methods for Human Heartbeat and Gait Dynamics

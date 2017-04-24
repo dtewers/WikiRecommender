@@ -1,0 +1,28 @@
+A quantum machine is a human-made device whose collective motion follows the laws of quantum mechanics. The idea that macroscopic objects may follow the laws of quantum mechanics dates back to the advent of quantum mechanics in the early 20th century. However, as highlighted by the Schrödinger's cat thought experiment, quantum effects are not readily observable in large-scale objects. Consequently, quantum states of motion have only been observed in special circumstances at extremely low temperatures. The fragility of quantum effects in macroscopic objects may arise from rapid quantum decoherence. Researchers created the first quantum machine in 2009, and the achievement was named the "Breakthrough of the Year" by Science in 2010.
+
+
+== The first quantum machine ==
+
+The first quantum machine was created on August 4, 2009 by Aaron D. O'Connell while pursuing his Ph.D. under the direction of Andrew N. Cleland and John M. Martinis at the University of California, Santa Barbara. O'Connell and his colleagues coupled together a mechanical resonator, similar to a tiny springboard, and a qubit, a device that can be in a superposition of two quantum states at the same time. They were able to make the resonator vibrate a small amount and a large amount simultaneously—an effect which would be impossible in classical physics. The mechanical resonator was just large enough to see with the naked eye—about as long as the width of a human hair. The groundbreaking work was subsequently published in the journal Nature in March 2010. The journal Science declared the creation of the first quantum machine to be the "Breakthrough of the Year" of 2010.
+
+
+=== Cooling to the ground state ===
+In order to demonstrate the quantum mechanical behaviour, the team first needed to cool the mechanical resonator until it was in its quantum ground state (the state with the lowest possible energy). Specifically, a temperature T ≪ hf/k was required, where h is the Planck Constant, f is the frequency of the resonator and k is the Boltzmann constant. Previous teams of researchers had struggled with this stage, as a 1 MHz resonator, for example, would need to be cooled to the extremely low temperature of 50 μK. O'Connell's team constructed a different type of resonator, a film bulk acoustic resonator, with a much higher resonant frequency (6 GHz) which would hence reach its ground state at a (relatively) higher temperature (~0.1 K); this temperature could then be easily reached with a dilution refrigerator. In the experiment, the resonator was cooled to 25 mK.
+
+
+=== Controlling the quantum state ===
+The film bulk acoustic resonator was made of piezoelectric material, so that as it oscillated its changing shape created a changing electric signal, and conversely an electric signal could affect its oscillations. This property enabled the resonator to be coupled with a superconducting phase qubit, a device used in quantum computing whose quantum state can be accurately controlled.
+In quantum mechanics, vibrations are made up of elementary vibrations called phonons. Cooling the resonator to its ground state can be seen as equivalent to removing all of the phonons. The team was then able to transfer individual phonons from the qubit to the resonator. The team was also able to transfer a superposition state, where the qubit was in a superposition of two states at the same time, onto the mechanical resonator. This means the resonator "literally vibrated a little and a lot at the same time", according to the American Association for the Advancement of Science. The vibrations lasted just a few nanoseconds before being broken down by disruptive outside influences. In the Nature paper, the team concluded "This demonstration provides strong evidence that quantum mechanics applies to a mechanical object large enough to be seen with the naked eye."
+
+
+== Notes ==
+^ a: The ground state energy of an oscillator is proportional to its frequency: see quantum harmonic oscillator.
+
+
+== References ==
+
+
+== External links ==
+Cho, Adrian (2010-12-17). "Breakthrough of the Year: The First Quantum Machine". Science. 330 (6011): 1604. Bibcode:2010Sci...330.1604C. doi:10.1126/science.330.6011.1604. PMID 21163978. 
+Brumfiel, Geoff (2010-03-17). "Scientists supersize quantum mechanics". Nature. doi:10.1038/news.2010.130. 
+Aaron D. O'Connell, December 2010, "A Macroscopic Mechanical Resonator Operated in the Quantum Limit" (Ph.D. thesis)

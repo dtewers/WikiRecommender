@@ -1,0 +1,2130 @@
+In theoretical physics, quantum nonlocality most commonly refers to the phenomenon by which measurements made at a microscopic level contradict a collection of notions known as local realism that are regarded as intuitively true in classical mechanics. However, some quantum mechanical predictions of multi-system measurement statistics on entangled quantum states cannot be simulated by any local hidden variable theory. An explicit example is demonstrated by Bell's theorem, which has been verified by experiment.
+Experiments have generally favoured quantum mechanics as a description of nature, over local hidden variable theories. Any physical theory that supersedes or replaces quantum theory must make similar experimental predictions and must therefore also be nonlocal in this sense; quantum nonlocality is a property of the universe that is independent of our description of nature.
+Whilst quantum nonlocality improves the efficiency of various computational tasks, it does not allow for faster-than-light communication, and hence is compatible with special relativity. However, it prompts many of the foundational discussions concerning quantum theory.
+
+
+== History ==
+
+
+=== Einstein, Podolsky and Rosen ===
+
+In 1935, Einstein, Podolsky and Rosen published a thought experiment with which they hoped to expose the incompleteness of the Copenhagen interpretation of quantum mechanics in relation to the violation of local causality at the microscopic scale that it described. Afterwards, Einstein presented a variant of these ideas in a letter to Erwin Schrödinger, which is the version that is presented here. The state and notation used here are more modern, and akin to Bohm's take on EPR. The quantum state of the two particles prior to measurement can be written as
+
+  
+    
+      
+        
+          |
+          
+            ψ
+            
+              A
+              B
+            
+          
+          ⟩
+        
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          
+            (
+          
+        
+        
+          
+            |
+            0
+            ⟩
+          
+          
+            A
+          
+        
+        
+          
+            |
+            1
+            ⟩
+          
+          
+            B
+          
+        
+        −
+        
+          
+            |
+            1
+            ⟩
+          
+          
+            A
+          
+        
+        
+          
+            |
+            0
+            ⟩
+          
+          
+            B
+          
+        
+        
+          
+            )
+          
+        
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          
+            (
+          
+        
+        
+          
+            |
+            +
+            ⟩
+          
+          
+            A
+          
+        
+        
+          
+            |
+            −
+            ⟩
+          
+          
+            B
+          
+        
+        −
+        
+          
+            |
+            −
+            ⟩
+          
+          
+            A
+          
+        
+        
+          
+            |
+            +
+            ⟩
+          
+          
+            B
+          
+        
+        
+          
+            )
+          
+        
+      
+    
+    {\displaystyle \left|\psi _{AB}\right\rangle ={\frac {1}{\sqrt {2}}}{\bigg (}\left|0\right\rangle _{A}\left|1\right\rangle _{B}-\left|1\right\rangle _{A}\left|0\right\rangle _{B}{\bigg )}={\frac {1}{\sqrt {2}}}{\bigg (}\left|+\right\rangle _{A}\left|-\right\rangle _{B}-\left|-\right\rangle _{A}\left|+\right\rangle _{B}{\bigg )}}
+  
+
+Where 
+  
+    
+      
+        
+          |
+          ±
+          ⟩
+        
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          (
+          
+            |
+            0
+            ⟩
+          
+          ±
+          
+            |
+            1
+            ⟩
+          
+          )
+        
+      
+    
+    {\displaystyle \left|\pm \right\rangle ={\frac {1}{\sqrt {2}}}\left(\left|0\right\rangle \pm \left|1\right\rangle \right)}
+  .
+Here, subscripts A and B distinguish the two particles, though it is more convenient and usual to refer to these particles as being in the possession of two experimentalists called Alice and Bob. The rules of quantum theory give predictions for the outcomes of measurements performed by the experimentalists. Alice, for example, will measure her particle to be spin-up in an average of fifty percent of measurements. However, according to the Copenhagen interpretation, Alice's measurement causes the state of the two particles to collapse, so that if Alice performs a measurement of spin in the z-direction, that is with respect to the basis 
+  
+    
+      
+        {
+        
+          
+            |
+            ↑
+            ⟩
+          
+          
+            A
+          
+        
+        ,
+        
+          
+            |
+            ↓
+            ⟩
+          
+          
+            A
+          
+        
+        }
+      
+    
+    {\displaystyle \{\left|\uparrow \right\rangle _{A},\left|\downarrow \right\rangle _{A}\}}
+  , then Bob's system will be left in one of the states 
+  
+    
+      
+        {
+        
+          
+            |
+            ↑
+            ⟩
+          
+          
+            B
+          
+        
+        ,
+        
+          
+            |
+            ↓
+            ⟩
+          
+          
+            B
+          
+        
+        }
+      
+    
+    {\displaystyle \{\left|\uparrow \right\rangle _{B},\left|\downarrow \right\rangle _{B}\}}
+  . Likewise, if Alice performs a measurement of spin in the x-direction, that is with respect to the basis 
+  
+    
+      
+        {
+        
+          
+            |
+            ←
+            ⟩
+          
+          
+            A
+          
+        
+        ,
+        
+          
+            |
+            →
+            ⟩
+          
+          
+            A
+          
+        
+        }
+      
+    
+    {\displaystyle \{\left|\leftarrow \right\rangle _{A},\left|\rightarrow \right\rangle _{A}\}}
+  , then Bob's system will be left in one of the states 
+  
+    
+      
+        {
+        
+          
+            |
+            ←
+            ⟩
+          
+          
+            B
+          
+        
+        ,
+        
+          
+            |
+            →
+            ⟩
+          
+          
+            B
+          
+        
+        }
+      
+    
+    {\displaystyle \{\left|\leftarrow \right\rangle _{B},\left|\rightarrow \right\rangle _{B}\}}
+  .
+In the Copenhagen view of this experiment, Alice's measurement—and particularly her measurement choice—have a direct effect on Bob's state. However, under the assumption of locality, actions on Alice's system do not affect the "true", or "ontic" state of Bob's system. We see that the ontic state of Bob's system must be compatible with one of the quantum states 
+  
+    
+      
+        
+          
+            |
+            ↑
+            ⟩
+          
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \left|\uparrow \right\rangle _{B}}
+   or 
+  
+    
+      
+        
+          
+            |
+            ↓
+            ⟩
+          
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \left|\downarrow \right\rangle _{B}}
+  , since Alice can make a measurement that concludes with one of those states being the quantum description of his system. At the same time, it must also be compatible with one of the quantum states 
+  
+    
+      
+        
+          
+            |
+            ←
+            ⟩
+          
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \left|\leftarrow \right\rangle _{B}}
+   or 
+  
+    
+      
+        
+          
+            |
+            →
+            ⟩
+          
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \left|\rightarrow \right\rangle _{B}}
+   for the same reason. Therefore, the ontic state of Bob's system must be compatible with at least two quantum states; the quantum state is therefore not a complete descriptor of his system. Einstein, Podolsky and Rosen saw this as evidence of the incompleteness of the Copenhagen interpretation of quantum theory, since the wavefunction is explicitly not a complete description of a quantum system under this assumption of locality. Their paper concludes:
+While we have thus shown that the wave function does not provide a complete description of the physical reality, we left open the question of whether or not such a description exists. We believe, however, that such a theory is possible.
+Although various authors (most notably Niels Bohr) criticised the ambiguous terminology of the EPR paper, the thought experiment nevertheless generated a great deal of interest. Their notion of a "complete description" was later formalised by the suggestion of hidden variables that determine the statistics of measurement results, but to which an observer does not have access. Bohmian mechanics provides such a completion of quantum mechanics, with introduction of hidden variables; however the theory is explicitly nonlocal. The interpretation therefore does not give an answer to Einstein's question, which was whether or not a complete description of quantum mechanics could be given in terms of local hidden variables in keeping with the "Principle of Local Action".
+
+
+=== Probabilistic Nonlocality ===
+
+In 1964 John Bell answered Einstein's question by showing that such local hidden variables can never reproduce the full range of statistical outcomes predicted by quantum theory. Bell showed that a local hidden variable hypothesis leads to restrictions on the strength of correlations of measurement results. If the Bell inequalities are violated experimentally as predicted by quantum mechanics, then reality cannot be described by local hidden variables and the mystery of quantum nonlocal causation remains. According to Bell:
+This [grossly nonlocal structure] is characteristic... of any such theory which reproduces exactly the quantum mechanical predictions.
+Clauser, Horne, Shimony and Holt (CHSH) reformulated these inequalities in a manner that was more conducive to experimental testing (see CHSH inequality). They proposed a scheme whereby two experimentalists, Alice and Bob, make separate measurements of photon polarization in two carefully chosen directions, and derived a simple inequality that is obeyed by all local hidden variable theories, but violated by certain measurements on quantum states.
+Bell formalized the idea of a hidden variable by introducing the parameter λ to locally characterize measurement results on each system: "It is a matter of indifference... whether λ denotes a single variable or a set... and whether the variables are discrete or continuous". However, it is equivalent (and more intuitive) to think of λ as a local "strategy" or "message" that occurs with some probability ρ(
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  ) when an entangled pair of states is created. EPR's criteria of local separability then stipulates that each local strategy defines the distributions of independent outcomes if Alice measures in direction A and Bob measures in direction B:
+
+  
+    
+      
+        P
+        
+          (
+          
+            a
+            ,
+            b
+          
+          
+            
+              |
+            
+          
+          
+            A
+            ,
+            B
+            ,
+            λ
+          
+          )
+        
+        =
+        P
+        
+          (
+          
+            a
+          
+          
+            
+              |
+            
+          
+          
+            A
+            ,
+            λ
+          
+          )
+        
+        P
+        
+          (
+          
+            b
+          
+          
+            
+              |
+            
+          
+          
+            B
+            ,
+            λ
+          
+          )
+        
+      
+    
+    {\displaystyle P\left({a,b}{|}{A,B,\lambda }\right)=P\left({a}{|}{A,\lambda }\right)P\left({b}{|}{B,\lambda }\right)}
+  
+
+where, for instance, 
+  
+    
+      
+        
+          P
+          
+            (
+            
+              a
+            
+            
+              
+                |
+              
+            
+            
+              A
+              ,
+              λ
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \scriptstyle P\left({a}{|}{A,\lambda }\right)}
+   denotes the probability of Alice getting the outcome a given λ, and that she measured A.
+Suppose that λ can take values from some set 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{i}}
+  , where 1 ≤ i ≤ k. If each 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{i}}
+   has an associated probability ρ(
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{i}}
+  ) of being selected (such that the probabilities sum to unity) we can average over this distribution to obtain a formula for the joint probability of each measurement result:
+
+  
+    
+      
+        P
+        
+          (
+          
+            a
+            ,
+            b
+          
+          
+            
+              |
+            
+          
+          
+            A
+            ,
+            B
+          
+          )
+        
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            k
+          
+        
+        P
+        
+          (
+          
+            a
+            ,
+            b
+          
+          
+            
+              |
+            
+          
+          
+            A
+            ,
+            B
+            ,
+            
+              λ
+              
+                i
+              
+            
+          
+          )
+        
+        ρ
+        
+          (
+          
+            λ
+            
+              i
+            
+          
+          )
+        
+        
+        .
+      
+    
+    {\displaystyle P\left({a,b}{|}{A,B}\right)=\sum _{i=1}^{k}P\left({a,b}{|}{A,B,\lambda _{i}}\right)\rho \left(\lambda _{i}\right)\,.}
+  
+
+In the CHSH scheme, the measurement result for the polarization of a photon can take one of two values (informally, whether the photon is polarized in that direction, or in the orthogonal direction). We encode this by allowing a and b to take on values ±1. For arbitrary measurements A and B, their correlator E(A, B) is then defined as
+
+  
+    
+      
+        E
+        
+          (
+          
+            A
+            ,
+            B
+          
+          )
+        
+        =
+        
+          ∑
+          
+            a
+            ,
+            b
+          
+        
+        a
+        b
+        P
+        
+          (
+          
+            a
+            ,
+            b
+          
+          
+            
+              |
+            
+          
+          
+            A
+            ,
+            B
+          
+          )
+        
+        
+        .
+      
+    
+    {\displaystyle E\left({A,B}\right)=\sum _{a,b}abP\left({a,b}{|}{A,B}\right)\,.}
+  
+
+Note that the product ab is equal to 1 if Alice and Bob get the same outcome, and -1 if they get different outcomes. The correlator E(A,B) can therefore be seen as the expectation that Alice's and Bob's outcomes are correlated. In the case that Alice chooses from one of two measurements 
+  
+    
+      
+        
+          A
+          
+            0
+          
+        
+      
+    
+    {\displaystyle A_{0}}
+   or 
+  
+    
+      
+        
+          A
+          
+            1
+          
+        
+      
+    
+    {\displaystyle A_{1}}
+  , and Bob chooses from 
+  
+    
+      
+        
+          B
+          
+            0
+          
+        
+      
+    
+    {\displaystyle B_{0}}
+   or 
+  
+    
+      
+        
+          B
+          
+            1
+          
+        
+      
+    
+    {\displaystyle B_{1}}
+  , the CHSH value for this joint probability distribution is defined as
+
+  
+    
+      
+        
+          S
+          
+            C
+            H
+            S
+            H
+          
+        
+        =
+        E
+        
+          (
+          
+            
+              A
+              
+                0
+              
+            
+            ,
+            
+              B
+              
+                0
+              
+            
+          
+          )
+        
+        +
+        E
+        
+          (
+          
+            
+              A
+              
+                0
+              
+            
+            ,
+            
+              B
+              
+                1
+              
+            
+          
+          )
+        
+        +
+        E
+        
+          (
+          
+            
+              A
+              
+                1
+              
+            
+            ,
+            
+              B
+              
+                0
+              
+            
+          
+          )
+        
+        −
+        E
+        
+          (
+          
+            
+              A
+              
+                1
+              
+            
+            ,
+            
+              B
+              
+                1
+              
+            
+          
+          )
+        
+        
+        .
+      
+    
+    {\displaystyle S_{CHSH}=E\left({A_{0},B_{0}}\right)+E\left({A_{0},B_{1}}\right)+E\left({A_{1},B_{0}}\right)-E\left({A_{1},B_{1}}\right)\,.}
+  
+
+Compare this with the expression 
+  
+    
+      
+        
+          x
+          ⊕
+          y
+          =
+          X
+          Y
+        
+      
+    
+    {\displaystyle \scriptstyle x\oplus y=XY}
+   and the discussion in the above example. The CHSH value 
+  
+    
+      
+        
+          S
+          
+            C
+            H
+            S
+            H
+          
+        
+      
+    
+    {\displaystyle S_{CHSH}}
+   includes a negative contribution of the correlator whenever 
+  
+    
+      
+        
+          A
+          
+            1
+          
+        
+      
+    
+    {\displaystyle A_{1}}
+   and 
+  
+    
+      
+        
+          B
+          
+            1
+          
+        
+      
+    
+    {\displaystyle B_{1}}
+   are chosen (
+  
+    
+      
+        x
+        =
+        y
+      
+    
+    {\displaystyle x=y}
+   when 
+  
+    
+      
+        X
+        Y
+        =
+        1
+      
+    
+    {\displaystyle XY=1}
+  ), and a positive contribution in all other cases (
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  ≠
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+   when 
+  
+    
+      
+        X
+        Y
+        =
+        0
+      
+    
+    {\displaystyle XY=0}
+  ). If the joint probability distribution can be described with local strategies as above, it can be shown that the correlation function always obeys the following CHSH inequality:
+
+  
+    
+      
+        −
+        2
+        ≤
+        
+          S
+          
+            C
+            H
+            S
+            H
+          
+        
+        ≤
+        2
+        
+        .
+      
+    
+    {\displaystyle -2\leq S_{CHSH}\leq 2\,.}
+  
+
+However, if instead of local hidden variables we adopt the rules of quantum theory, it is possible to construct an entangled pair of particles (one each for Alice and Bob) and a set of measurements 
+  
+    
+      
+        
+          
+            A
+            
+              0
+            
+          
+          ,
+          
+            A
+            
+              1
+            
+          
+          ,
+          
+            B
+            
+              0
+            
+          
+          ,
+          
+            B
+            
+              1
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle A_{0},A_{1},B_{0},B_{1}}
+   such that 
+  
+    
+      
+        
+          
+            S
+            
+              C
+              H
+              S
+              H
+            
+          
+          
+          =
+          
+          2
+          
+            
+              2
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle S_{CHSH}\;=\;2{\sqrt {2}}}
+  . This demonstrates an explicit way in which a theory with ontological states that are local, with local measurements and only local actions cannot match the probabilistic predictions of quantum theory, disproving Einstein's hypothesis. Experimentalists such as Alain Aspect have verified the quantum violation of the CHSH inequality, as well as other formulations of Bell's inequality, to invalidate the local hidden variables hypothesis and confirm that reality is indeed nonlocal in the EPR sense.
+
+
+=== Possibilistic Nonlocality ===
+The demonstration of nonlocality due to Bell is probabilistic in the sense that it shows that the precise probabilities predicted my quantum mechanics for some entangled scenarios cannot be met by a local theory. (For short, here and henceforth "local theory" means "local hidden varibles theory".) However, quantum mechanics permits an even stronger violation of local theories: a possibilistic one, in which we find that local theories cannot agree with quantum mechanics on which events are possible or impossible in an entangled scenario. The first proof of this kind was due to Greenberger, Horne and Zeilinger in 1993. The state involved is often called the GHZ state.
+In 1993, Lucien Hardy demonstrated a logical proof of quantum nonlocality that, like the GHZ proof is a possibilistic proof. We note that the same state 
+  
+    
+      
+        
+          |
+          ψ
+          ⟩
+        
+      
+    
+    {\displaystyle \left|\psi \right\rangle }
+   defined below can be written in a few suggestive ways:
+
+  
+    
+      
+        
+          |
+          ψ
+          ⟩
+        
+        =
+        
+          
+            1
+            
+              3
+            
+          
+        
+        
+          (
+          
+            |
+            00
+            ⟩
+          
+          +
+          
+            |
+            01
+            ⟩
+          
+          +
+          
+            |
+            10
+            ⟩
+          
+          )
+        
+        =
+        
+          
+            1
+            
+              3
+            
+          
+        
+        
+          (
+          
+            
+              2
+            
+          
+          
+            |
+            +
+            0
+            ⟩
+          
+          +
+          
+            
+              1
+              
+                2
+              
+            
+          
+          
+            (
+            
+              |
+              +
+              1
+              ⟩
+            
+            +
+            
+              |
+              −
+              1
+              ⟩
+            
+            )
+          
+          )
+        
+        =
+        
+          
+            1
+            
+              3
+            
+          
+        
+        
+          (
+          
+            
+              2
+            
+          
+          
+            |
+            0
+            +
+            ⟩
+          
+          +
+          
+            
+              1
+              
+                2
+              
+            
+          
+          
+            (
+            
+              |
+              1
+              +
+              ⟩
+            
+            +
+            
+              |
+              1
+              −
+              ⟩
+            
+            )
+          
+          )
+        
+      
+    
+    {\displaystyle \left|\psi \right\rangle ={\frac {1}{\sqrt {3}}}\left(\left|00\right\rangle +\left|01\right\rangle +\left|10\right\rangle \right)={\frac {1}{\sqrt {3}}}\left({\sqrt {2}}\left|+0\right\rangle +{\frac {1}{\sqrt {2}}}\left(\left|+1\right\rangle +\left|-1\right\rangle \right)\right)={\frac {1}{\sqrt {3}}}\left({\sqrt {2}}\left|0+\right\rangle +{\frac {1}{\sqrt {2}}}\left(\left|1+\right\rangle +\left|1-\right\rangle \right)\right)}
+  
+Where, as above, 
+  
+    
+      
+        
+          |
+          ±
+          ⟩
+        
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        
+          (
+          
+            |
+            0
+            ⟩
+          
+          ±
+          
+            |
+            1
+            ⟩
+          
+          )
+        
+      
+    
+    {\displaystyle \left|\pm \right\rangle ={\frac {1}{\sqrt {2}}}\left(\left|0\right\rangle \pm \left|1\right\rangle \right)}
+  .
+The experiment consists of this entangled state being shared between two experimenters, each of whom has the ability to measure either with respect to the basis 
+  
+    
+      
+        {
+        
+          |
+          0
+          ⟩
+        
+        ,
+        
+          |
+          1
+          ⟩
+        
+        }
+      
+    
+    {\displaystyle \{\left|0\right\rangle ,\left|1\right\rangle \}}
+   or 
+  
+    
+      
+        {
+        
+          |
+          +
+          ⟩
+        
+        ,
+        
+          |
+          −
+          ⟩
+        
+        }
+      
+    
+    {\displaystyle \{\left|+\right\rangle ,\left|-\right\rangle \}}
+  . We see that If they each measure with respect to 
+  
+    
+      
+        {
+        
+          |
+          0
+          ⟩
+        
+        ,
+        
+          |
+          1
+          ⟩
+        
+        }
+      
+    
+    {\displaystyle \{\left|0\right\rangle ,\left|1\right\rangle \}}
+  , then they never see the outcome 
+  
+    
+      
+        
+          |
+          11
+          ⟩
+        
+      
+    
+    {\displaystyle \left|11\right\rangle }
+  . If one measures with respect to 
+  
+    
+      
+        {
+        
+          |
+          0
+          ⟩
+        
+        ,
+        
+          |
+          1
+          ⟩
+        
+        }
+      
+    
+    {\displaystyle \{\left|0\right\rangle ,\left|1\right\rangle \}}
+   and the other 
+  
+    
+      
+        {
+        
+          |
+          +
+          ⟩
+        
+        ,
+        
+          |
+          −
+          ⟩
+        
+        }
+      
+    
+    {\displaystyle \{\left|+\right\rangle ,\left|-\right\rangle \}}
+  , they never see the outcome 
+  
+    
+      
+        
+          |
+          −
+          0
+          ⟩
+        
+      
+    
+    {\displaystyle \left|-0\right\rangle }
+  . However, they do see the outcome 
+  
+    
+      
+        
+          |
+          −
+          −
+          ⟩
+        
+      
+    
+    {\displaystyle \left|--\right\rangle }
+   when measuring with respect to 
+  
+    
+      
+        {
+        
+          |
+          +
+          ⟩
+        
+        ,
+        
+          |
+          −
+          ⟩
+        
+        }
+      
+    
+    {\displaystyle \{\left|+\right\rangle ,\left|-\right\rangle \}}
+  .
+This leads us to the paradox: if the quantum systems are in a state compatible with 
+  
+    
+      
+        
+          |
+          +
+          +
+          ⟩
+        
+      
+    
+    {\displaystyle \left|++\right\rangle }
+  , we conclude that if one of the experimenters had measured it with respect to the 
+  
+    
+      
+        {
+        
+          |
+          0
+          ⟩
+        
+        ,
+        
+          |
+          1
+          ⟩
+        
+        }
+      
+    
+    {\displaystyle \{\left|0\right\rangle ,\left|1\right\rangle \}}
+   basis instead, the outcome must have been 
+  
+    
+      
+        
+          |
+          −
+          1
+          ⟩
+        
+      
+    
+    {\displaystyle \left|-1\right\rangle }
+  , since 
+  
+    
+      
+        
+          |
+          −
+          0
+          ⟩
+        
+      
+    
+    {\displaystyle \left|-0\right\rangle }
+   is impossible. But then, if they had both measured with respect to the 
+  
+    
+      
+        {
+        
+          |
+          0
+          ⟩
+        
+        ,
+        
+          |
+          1
+          ⟩
+        
+        }
+      
+    
+    {\displaystyle \{\left|0\right\rangle ,\left|1\right\rangle \}}
+   basis, by locality the result must have been 
+  
+    
+      
+        
+          |
+          11
+          ⟩
+        
+      
+    
+    {\displaystyle \left|11\right\rangle }
+  , which is also impossible.
+
+
+== Differences between nonlocality and entanglement ==
+
+In the media and popular science, quantum nonlocality is often portrayed as being equivalent to entanglement. While it is true that a pure bipartite quantum state must be entangled in order for it to produce nonlocal correlations, there exist entangled (mixed) states which do not produce such correlations, and there exist non-entangled (namely, separable) states that do produce some type of non-local behavior. For the former, a well-known example is constituted by a subset of Werner states that are entangled but whose correlations can always be described using local hidden variables. On the other hand, reasonably simple examples of Bell inequalities have been found for which the quantum state giving the largest violation is never a maximally entangled state, showing that entanglement is, in some sense, not even proportional to nonlocality.
+In short, entanglement of a two-party state is necessary but not sufficient for that state to be nonlocal. It is important to recognise that entanglement is more commonly viewed as an algebraic concept, noted for being a precedent to nonlocality as well as quantum teleportation and superdense coding, whereas nonlocality is interpreted according to experimental statistics and is much more involved with the foundations and interpretations of quantum mechanics.
+
+
+== Superquantum nonlocality ==
+Whilst the CHSH inequality gives restrictions on the CHSH value attainable by local hidden variable theories, the rules of quantum theory do not allow us to violate Tsirelson's bound of 
+  
+    
+      
+        
+          2
+          
+            
+              2
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle 2{\sqrt {2}}}
+  , even if we exploit measurements of entangled particles. The question remained whether this was the maximum CHSH value that can be attained without explicitly allowing instantaneous signaling. In 1994 two physicists, Sandu Popescu and Daniel Rohrlich, formulated an explicit set of correlated measurements that respect the "non-signalling" principle, yet give 
+  
+    
+      
+        
+          S
+          
+            C
+            H
+            S
+            H
+          
+        
+        =
+        4
+      
+    
+    {\displaystyle S_{CHSH}=4}
+  : the algebraic maximum. The maximal violation of CHSH consistent with no signalling was also found, earlier, by Rastall and Khalfin and Tsirelson. This demonstrated that there exist formulatable theories that are "non-signalling", yet drastically violate the joint probability constraints of quantum theory. The attempt to understand what distinguishes quantum theory from such general theories motivated an abstraction from physical measurements of nonlocality, to the study of nonlocal boxes.
+Nonlocal boxes generalize the concept of experimentalists making joint measurements from separate locations. As in the discussion above, the choice of measurement is encoded by the input to the box. A two-party nonlocal box takes an input A from Alice and an input B from Bob, and outputs two values a and b for Alice and Bob respectively and separately, where a, b, A and B take values from some finite alphabet (normally 
+  
+    
+      
+        {
+        0
+        ,
+        1
+        }
+      
+    
+    {\displaystyle \{0,1\}}
+  ). The box is characterized by the probability of outputting pair a, b, given the inputs A, B. This probability is denoted 
+  
+    
+      
+        
+          P
+          
+            (
+            
+              
+                a
+                ,
+                b
+              
+              
+                
+                  |
+                
+              
+              
+                A
+                ,
+                B
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \scriptstyle P\left({{a,b}{|}{A,B}}\right)}
+   and obeys the normal probabilistic conditions of positivity and normalisation:
+
+  
+    
+      
+        P
+        
+          (
+          
+            
+              a
+              ,
+              b
+            
+            
+              
+                |
+              
+            
+            
+              A
+              ,
+              B
+            
+          
+          )
+        
+        ≥
+        0
+        
+        ∀
+        
+          a
+          ,
+          b
+          ,
+          A
+          ,
+          B
+        
+      
+    
+    {\displaystyle P\left({{a,b}{|}{A,B}}\right)\geq 0\quad \forall {a,b,A,B}}
+  
+
+and
+
+  
+    
+      
+        
+          ∑
+          
+            a
+            ,
+            b
+          
+        
+        P
+        
+          (
+          
+            
+              a
+              ,
+              b
+            
+            
+              
+                |
+              
+            
+            
+              A
+              ,
+              B
+            
+          
+          )
+        
+        =
+        1
+        
+        ∀
+        
+          A
+          ,
+          B
+        
+      
+    
+    {\displaystyle \sum _{a,b}P\left({{a,b}{|}{A,B}}\right)=1\quad \forall {A,B}}
+  
+
+A box is local, or admits a local hidden variable model, if its output probabilities can be characterized in the following way:
+
+  
+    
+      
+        P
+        
+          (
+          
+            
+              a
+              ,
+              b
+            
+            
+              
+                |
+              
+            
+            
+              A
+              ,
+              B
+            
+          
+          )
+        
+        =
+        
+          ∑
+          
+            λ
+          
+        
+        p
+        (
+        λ
+        )
+        
+        P
+        
+          (
+          
+            
+              a
+            
+            
+              
+                |
+              
+            
+            
+              A
+              ,
+              λ
+            
+          
+          )
+        
+        
+        P
+        
+          (
+          
+            
+              b
+            
+            
+              
+                |
+              
+            
+            
+              B
+              ,
+              λ
+            
+          
+          )
+        
+      
+    
+    {\displaystyle P\left({{a,b}{|}{A,B}}\right)=\sum _{\lambda }p(\lambda )\;P\left({{a}{|}{A,\lambda }}\right)\;P\left({{b}{|}{B,\lambda }}\right)}
+  
+
+where 
+  
+    
+      
+        
+          P
+          
+            (
+            
+              
+                a
+              
+              
+                
+                  |
+                
+              
+              
+                A
+                ,
+                λ
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \scriptstyle P\left({{a}{|}{A,\lambda }}\right)}
+   and 
+  
+    
+      
+        
+          P
+          
+            (
+            
+              
+                b
+              
+              
+                
+                  |
+                
+              
+              
+                B
+                ,
+                λ
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \scriptstyle P\left({{b}{|}{B,\lambda }}\right)}
+   describe single input/output probabilities at Alice's or Bob's system alone, and the value of 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+   is chosen at random according to some fixed probability distribution given by 
+  
+    
+      
+        p
+        (
+        λ
+        )
+      
+    
+    {\displaystyle p(\lambda )}
+  . Intuitively, 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+   corresponds to a hidden variable, or to a shared randomness between Alice and Bob. If a box violates this condition, it is explicitly called nonlocal. However, the study of nonlocal boxes often encompasses both local and nonlocal boxes.
+The set of nonlocal boxes most commonly studied are the so-called non-signalling boxes, for which neither Alice nor Bob can signal their choice of input to the other. Physically, this is a reasonable restriction: setting the input is physically analogous to making a measurement, which should effectively provide a result immediately. Since there may be a large spatial separation between the parties, signalling to Bob would potentially require considerable time to elapse between measurement and result, which is a physically unrealistic scenario.
+The non-signalling requirement imposes further conditions on the joint probability, in that the probability of a particular output a or b should depend only on its associated input. This allows for the notion of a reduced or marginal probability on both Alice and Bob's measurements, and is formalised by the conditions:
+
+  
+    
+      
+        
+          ∑
+          
+            b
+          
+        
+        P
+        
+          (
+          
+            a
+            ,
+            b
+          
+          
+            
+              |
+            
+          
+          
+            A
+            ,
+            B
+          
+          )
+        
+        =
+        
+          ∑
+          
+            b
+          
+        
+        P
+        
+          (
+          
+            a
+            ,
+            b
+          
+          
+            
+              |
+            
+          
+          
+            A
+            ,
+            
+              B
+              ′
+            
+          
+          )
+        
+        ≡
+        P
+        
+          (
+          
+            a
+          
+          
+            
+              |
+            
+          
+          
+            A
+          
+          )
+        
+        
+        ∀
+        
+          a
+          ,
+          A
+          ,
+          B
+          ,
+          
+            B
+            ′
+          
+        
+      
+    
+    {\displaystyle \sum _{b}P\left({a,b}{|}{A,B}\right)=\sum _{b}P\left({a,b}{|}{A,B'}\right)\equiv P\left({a}{|}{A}\right)\quad \forall {a,A,B,B'}}
+  
+
+and
+
+  
+    
+      
+        
+          ∑
+          
+            a
+          
+        
+        P
+        
+          (
+          
+            a
+            ,
+            b
+          
+          
+            
+              |
+            
+          
+          
+            A
+            ,
+            B
+          
+          )
+        
+        =
+        
+          ∑
+          
+            a
+          
+        
+        P
+        
+          (
+          
+            a
+            ,
+            b
+          
+          
+            
+              |
+            
+          
+          
+            
+              A
+              ′
+            
+            ,
+            B
+          
+          )
+        
+        ≡
+        P
+        
+          (
+          
+            b
+          
+          
+            
+              |
+            
+          
+          
+            B
+          
+          )
+        
+        
+        ∀
+        
+          b
+          ,
+          B
+          ,
+          A
+          ,
+          
+            A
+            ′
+          
+        
+      
+    
+    {\displaystyle \sum _{a}P\left({a,b}{|}{A,B}\right)=\sum _{a}P\left({a,b}{|}{A',B}\right)\equiv P\left({b}{|}{B}\right)\quad \forall {b,B,A,A'}}
+  
+
+The constraints above are all linear, and so define a polytope representing the set of all non-signalling boxes with a given number of inputs and outputs. Moreover, the polytope is convex because any two boxes that exist in the polytope can be mixed (as above, according to some variable 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+   with probabilities 
+  
+    
+      
+        p
+        (
+        λ
+        )
+      
+    
+    {\displaystyle p(\lambda )}
+  ) to produce another box that also exists within the polytope.
+Local boxes are clearly non-signalling, however nonlocal boxes may or may not be non-signalling. Since this polytope contains all possible non-signalling boxes of a given number of inputs and outputs, it has as subsets both local boxes and those boxes which can achieve Tsirelson's bound in accord with quantum mechanical correlations. Indeed, the set of local boxes form a convex sub-polytope of the non-signalling polytope.
+Popescu and Rohrlich's maximum algebraic violation of the CHSH inequality can be reached by a non-signalling box, referred to as a standard PR box after these authors, with joint probability given by:
+
+  
+    
+      
+        P
+        
+          (
+          
+            a
+            ,
+            b
+          
+          
+            
+              |
+            
+          
+          
+            A
+            ,
+            B
+          
+          )
+        
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                  ,
+                
+                
+                  
+                    if 
+                  
+                  a
+                  ⊕
+                  b
+                  =
+                  A
+                  B
+                
+              
+              
+                
+                  0
+                  ,
+                
+                
+                  
+                    otherwise
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle P\left({a,b}{|}{A,B}\right)={\begin{cases}{\frac {1}{2}},&{\mbox{if }}a\oplus b=AB\\0,&{\mbox{otherwise}}\end{cases}}}
+  
+
+where 
+  
+    
+      
+        ⊕
+      
+    
+    {\displaystyle \oplus }
+   denotes addition modulo two.
+Various attempts have been made to argue why Nature does not (or should not) allow for stronger nonlocality than quantum theory is already known to permit. For example, in recent publications it was found that quantum mechanics cannot be more nonlocal without violating the Heisenberg uncertainty principle. Strikingly, it has been discovered that if PR boxes did exist, any distributed computation could be performed with only one bit of communication. An even stronger result is that for any nonlocal box theory which violates Tsirelson's bound, there cannot be a sensible measure of mutual information between pairs of systems. This suggests a deep link between nonlocality and the information-theoretic properties of quantum mechanics. Nevertheless, the PR-box is ruled out by a plausible postulate of information theory.
+Non-signaling adversaries have recently been considered in quantum cryptography. Such an adversary is constrained only by the non-signaling principle, and so may potentially be more powerful than a quantum adversary.
+
+
+== See also ==
+Popper's experiment
+Quantum pseudo-telepathy
+Quantum contextuality
+
+
+== References ==
+
+
+== Further reading ==
+Grib, AA; Rodrigues, WA (1999). Nonlocality in Quantum Physics. Springer Verlag. ISBN 978-0-306-46182-8. 
+Cramer, JG (2015). The Quantum Handshake: Entanglement, Nonlocality and Transactions. Springer Verlag. ISBN 978-3-319-24642-0.

@@ -1,0 +1,37 @@
+In physics, the Elitzur–Vaidman bomb-testing problem is a thought experiment in quantum mechanics, first proposed by Avshalom Elitzur and Lev Vaidman in 1993. An actual experiment demonstrating the solution was constructed and successfully tested by Anton Zeilinger, Paul Kwiat, Harald Weinfurter, and Thomas Herzog from the University of Innsbruck, Austria and Mark A. Kasevich of Stanford University in 1994. It employs a Mach–Zehnder interferometer to check if a measurement has taken place.
+
+
+== Problem ==
+Consider a collection of bombs, of which some are duds. Suppose each usable (non-dud) bomb has a photon-triggered sensor, which will absorb an incident photon and detonate the bomb. Dud bombs have no sensor, so do not interact with the photons. Thus, the dud bomb will not detect the photon and will not detonate. Is it possible to detect if a bomb is a non-dud without detonating it? Is it possible to determine that some bombs are non-duds without detonating all of them?
+
+
+== Solution ==
+A bomb is placed on the lower path of a Mach–Zehnder interferometer with a single-photon light source. If the photon takes the lower path and the bomb is live, then the photon is absorbed and triggers the bomb; otherwise, if the bomb is a dud, the photon will pass through unaffected.
+When a photon passes through a half-silvered plane mirror, it enters a quantum superposition of all possible outcomes, which interact with each other. The photon is both transmitted and reflected, and takes both paths through the interferometer. The interference from the two routes determines the probability of detection at each detector (C and D). The photon remains in the superposition state until an observer (the bomb's photon sensor, if present, and later the detector at C or D) causes the wave function to collapse and the photon assumes a single one of the states.
+The interferometer is aligned so that the interference is constructive at C and destructive at D. If the bomb is a dud, it does not affect the split wave, and photons will only ever be detected at C. If a live bomb is placed in the lower path, it blocks this route and so destroys the interference pattern, and the photon will have a 50% chance of being detected in either detector (but never both). Note that even if the live bomb does not actually detect the photon, it still performs a measurement of whether the photon travels along that path (a negative-result measurement, in this case), and therefore still guarantees that the photon only travels along the upper path.
+Thus if a photon is detected in D there must be a live, photon-blocking bomb. If a photon is detected at C then the bomb may be either live or a dud. No photon is detected in the case of detonation (since the photon gets absorbed by the sensor), but the detonation will rattle the apparatus.
+Once a detection has been made, the superposition is destroyed and the photon path becomes certain. If there is a live bomb, there is a 50% chance the photon takes the lower path and the bomb detonates. There is a 25% chance the photon takes the upper path at both mirrors and is detected at C, and a 25% chance the photon takes the upper path and is detected at D.
+With this process 25% of live bombs can be identified without being detonated, 50% will be detonated and 25% remain uncertain. By repeating the process with the uncertain ones, the ratio of identified, non-detonated live bombs approaches 33% of the initial population of bombs. See the "Experiments" section below for a modified experiment that can identify the live bombs with a yield rate approaching 100%.
+
+
+== Experiments ==
+In 1994, Anton Zeilinger, Paul Kwiat, Harald Weinfurter, and Thomas Herzog actually performed an equivalent of the above experiment, proving interaction-free measurements are indeed possible.
+In 1996, Kwiat et al. devised a method, using a sequence of polarising devices, that efficiently increases the yield rate to a level arbitrarily close to one. The key idea is to split a fraction of the photon beam into a large number of beams of very small amplitude, and reflect all of them off the mirror, recombining them with the original beam afterwards.   It can also be argued that this revised construction is simply equivalent to a resonant cavity and the result looks much less shocking in this language. See Watanabe and Inoue (2000).
+In 2016, Carsten Robens, Wolfgang Alt, Clive Emary, Dieter Meschede, and Andrea Alberti  demonstrated that the Elitzur–Vaidman bomb testing experiment can be recast in a rigorous test of the macro-realistic worldview based on the violation of the Leggett–Garg inequality using ideal negative measurements. In their experiment they perform the “bomb test” with a single atom trapped in a polarization-synthesized optical lattice. This optical lattice enables interaction-free measurements by entangling the spin and position of atoms.
+
+
+== See also ==
+Counterfactual definiteness
+Interaction-free measurement
+Mach–Zehnder interferometer
+Renninger negative-result experiment
+
+
+== References ==
+
+
+== Further reading ==
+P. G. Kwiat; H. Weinfurter; T. Herzog; A. Zeilinger; M. A. Kasevich (1995). "Interaction-free Measurement". Phys. Rev. Lett. 74 (24): 4763–4766. Bibcode:1995PhRvL..74.4763K. doi:10.1103/PhysRevLett.74.4763. PMID 10058593. 
+Penrose, R. (2004). The Road to Reality: A Complete Guide to the Laws of Physics. Jonathan Cape, London.
+G.S. Paraoanu (2006). "Interaction-free Measurement". Phys. Rev. Lett. 97 (18): 180406. arXiv:0804.0523. Bibcode:2006PhRvL..97r0406P. doi:10.1103/PhysRevLett.97.180406. PMID 17155523. 
+Watanabe, H.; Inoue, S. (2000). Yeong-Der Yao, ed. Experimental demonstration of two dimensional interaction free measurement. Asia-Pacific Physics Conference. Proceedings of the 8th Asia-Pacific Physics Conference, Taipei, Taiwan, 7–10 August 2000. River Edge, NJ: World Scientific. ISBN 9789810245573. OCLC 261335173.

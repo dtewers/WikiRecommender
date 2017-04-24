@@ -1,0 +1,111 @@
+Anton Zeilinger (German: [ˈtsaɪlɪŋɐ]; born 20 May 1945) is an Austrian quantum physicist who in 2008 received the Inaugural Isaac Newton Medal of the Institute of Physics (UK) for "his pioneering conceptual and experimental contributions to the foundations of quantum physics, which have become the cornerstone for the rapidly-evolving field of quantum information". Zeilinger is professor of physics at the University of Vienna and Senior Scientist at the Institute for Quantum Optics and Quantum Information IQOQI at the Austrian Academy of Sciences. Most of his research concerns the fundamental aspects and applications of quantum entanglement.
+
+
+== Biography ==
+Anton Zeilinger, born 1945 in Austria, has held positions at the Technical University of Vienna and the University of Innsbruck. He has held visiting positions at the Massachusetts Institute of Technology (MIT), at Humboldt University in Berlin, Merton College, Oxford and the Collège de France (Chaire Internationale) in Paris. Zeilinger's awards include the Wolf Prize in Physics (2010), the Inaugural Isaac Newton Medal of the IOP (2007) and the King Faisal International Prize (2005). In 2005, Anton Zeilinger was among the "10 people who could change the world", elected by the British newspaper New Statesman. He is a member of seven Scientific Academies. Anton Zeilinger is currently Professor of Physics at the University of Vienna and Senior Scientist at the Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences to whose Presidency he was recently elected. Since 2006, Zeilinger is the vice chairman of the board of trustees of the Institute of Science and Technology Austria, an ambitious project initiated by Zeilinger's proposal. In 2009, he founded the International Academy Traunkirchen which is dedicated to the support of gifted students in science and technology. He is a fan of the Hitchhiker's Guide To The Galaxy by Douglas Adams, going so far as to name his sailboat 42.
+
+
+== Work ==
+Anton Zeilinger is a pioneer in the field of quantum information and of the foundations of quantum mechanics. He realized many important quantum information protocols for the first time, including quantum teleportation of an independent qubit, entanglement swapping (i.e. the teleportation of an entangled state), hyper-dense coding (which was the first entanglement-based protocol ever realized in experiment), entanglement-based quantum cryptography, one-way quantum computation and blind quantum computation. His further contributions to the experimental and conceptual foundations of quantum mechanics include multi-particle entanglement and matter wave interference all the way from neutrons via atoms to macromolecules such as fullerenes.
+
+
+=== Quantum teleportation ===
+Most widely known is his first realization of quantum teleportation of an independent qubit. He later expanded this work to developing a source for freely propagating teleported qubits and most recently, quantum teleportation over 144 kilometers between two Canary Islands. Quantum teleportation is an essential concept in many quantum information protocols. Besides its role for the transfer of quantum information, it is also considered as an important possible mechanism for building gates within quantum computers.
+
+
+=== Entanglement swapping – teleportation of entanglement ===
+Entanglement swapping is the teleportation of an entangled state. After its proposal, entanglement swapping has first been realized experimentally by Zeilinger’s group in 1998. It has recently been applied to carry out a delayed-choice entanglement swapping test. Entanglement swapping is the crucial ingredient for quantum repeaters which are expected to connect future quantum computers.
+
+
+=== Entanglement beyond two qubits – GHZ-states and their realizations ===
+Anton Zeilinger contributed decisively to the opening up of the field of multi-particle entanglement. In 1990, he was the first with Greenberger and Horne to work on entanglement of more than two qubits. The resulting GHZ theorem (see Greenberger-Horne-Zeilinger state) is fundamental for quantum physics, as it provides the most succinct contradiction between local realism and the predictions of quantum mechanics. Also, GHZ states opened up the field of multi-particle entanglement.
+Surprisingly, multi-particle entangled states exhibit qualitatively different properties compared to two-particle entanglement. In the 1990s, it became the main goal of Zeilinger’s research to realize such GHZ states in the laboratory, which required the development of many new methods and tools.
+Finally, in 1999, he succeeded in providing the first experimental evidence of entanglement beyond two particles and also the first test of quantum nonlocality for GHZ states. He also was the first to realize that there are different classes of higher-dimensional entangled states and proposed W-states. Today, multi-particle states have become an essential workhorse in quantum computation and thus, GHZ-states have even become an individual entry in the PACS code.
+
+
+=== Quantum communication, quantum cryptography, quantum computation ===
+In 1996, Anton Zeilinger with his group realized hyper-dense coding. There, one can encode into one qubit more than one classical bit of information. This was the first realization of a quantum information protocol with an entangled state, where one is able to achieve something impossible with classical physics.
+In 1998 (published in 2000), his group was the first to implement quantum cryptography with entangled photons. Zeilinger’s group is now also developing a quantum cryptography prototype in collaboration with industry.
+He then also applied quantum entanglement to optical quantum computation, where in 2005, he performed the first implementation of one-way quantum computation. This is a protocol based on quantum measurement as proposed by Knill, Laflamme and Milburn. Most recently, it has been shown that one-way quantum computation can be used to implement blind quantum computing. This solves a problem in Cloud computing, namely that, whatever algorithm a client employs on a quantum server is completely unknown, i.e. blind, to the operator of the server.
+The experiments of Zeilinger and his group on the distribution of entanglement over large distances began with both free-space and fiber-based quantum communication and teleportation between laboratories located on the different sides of the river Danube. This was then extended to larger distances across the city of Vienna and over 144 km between two Canary Islands, resulting in a successful demonstration that quantum communication with satellites is feasible. His dream is to put sources of entangled light onto a satellite in orbit. A first step was achieved during an experiment at the Italian Matera Laser Ranging Observatory.
+
+
+=== Further novel entangled states ===
+With his group, Anton Zeilinger made many contributions to the realization of novel entangled states. The source for polarization-entangled photon pairs developed with Paul Kwiat when he was a PostDoc in Zeilinger's group became a workhorse in many laboratories worldwide. The first demonstration of entanglement of orbital angular momentum of photons opened up a new burgeoning field of research in many laboratories.
+
+
+=== Macroscopic quantum superposition ===
+Zeilinger is also interested to extend quantum mechanics into the macroscopic domain. In the early 1990s, he started experiments in the field of atom optics. He developed a number of ways to coherently manipulate atomic beams, many of which, like the coherent energy shift of an atomic De Broglie wave upon diffraction at a time-modulated light wave, have become cornerstones of today’s ultracold atom experiments. In 1999, Zeilinger abandoned atom optics for experiments with very complex and massive macro-molecules – fullerenes. The successful demonstration of quantum interference for these C60 and C70 molecules in 1999 opened up a very active field of research. Key results include the most precise quantitative study to date of decoherence by thermal radiation and by atomic collisions and the first quantum interference of complex biological macro-molecules. This work is continued by Markus Arndt.
+In 2005, Zeilinger with his group again started a new field, the quantum physics of mechanical cantilevers. The group was the first – in the year 2006 along with work from Heidmann in Paris and Kippenberg in Garching – to demonstrate experimentally the self-cooling of a micro-mirror by radiation pressure, that is, without feedback. That phenomenon can be seen as a consequence of the coupling of a high-entropy mechanical system with a low-entropy radiation field. This work is now continued independently by Markus Aspelmeyer.
+Most recently, using orbital angular momentum states, he was able to demonstrate entanglement of angular momentum up to 300 ħ.
+
+
+=== Further fundamental tests ===
+Zeilinger’s program of fundamental tests of quantum mechanics is aimed at implementing experimental realizations of many non-classical features of quantum physics for individual systems. In 1998, he provided the final test of Bell’s inequality closing the communication loophole by using superfast random number generators. More recently, his group also realized the first Bell inequality experiment implementing the freedom-of-choice condition and, most recently, they provided the first realization of a Bell test without the fair sampling assumption for photons. All these experiments are not only of fundamental interest, but also important for quantum cryptography. A finally loophole-free entanglement-based implementation of quantum cryptography is generally considered to be absolutely secure against any eavesdropping.
+Among the further fundamental tests he performed the most notable one is his test of a large class of nonlocal realistic theories proposed by Leggett. The group of theories excluded by that experiment can be classified as those which allow reasonable subdivision of ensembles into sub-ensembles. It goes significantly beyond Bell's theorem. While Bell showed that a theory which is both local and realistic is at variance with quantum mechanics, Leggett considered nonlocal realistic theories where the individual photons are assumed to carry polarization. The resulting Leggett inequality was shown to be violated in the experiments of the Zeilinger group.
+In an analogous way, his group showed that even quantum systems where entanglement is not possible exhibit non-classical features which cannot be explained by underlying non-contextual probability distributions. It is expected that these latter experiments will also open up novel ways for quantum information.
+
+
+=== Neutron interferometry ===
+Anton Zeilinger’s earliest work is perhaps his least known. His work on neutron interferometry has provided an important foundation for his later research achievements. As a member of the group of his thesis supervisor, Helmut Rauch, at the Technical University of Vienna, Zeilinger participated in a number of neutron interferometry experiments at the Institut Laue–Langevin (ILL) in Grenoble. His very first such experiment confirmed a fundamental prediction of quantum mechanics, the sign change of a spinor phase upon rotation. This was followed by the first experimental realization of coherent spin superposition of matter waves. He continued his work in neutron interferometry at MIT with C.G. Shull (Nobel Laureate), focusing specifically on dynamical diffraction effects of neutrons in perfect crystals which are due to multi-wave coherent superposition. After his return to Europe, he built up an interferometer for very cold neutrons which preceded later similar experiments with atoms. The fundamental experiments there included a most precise test of the linearity of quantum mechanics and a beautiful double-slit diffraction experiment with only one neutron at a time in the apparatus. Actually, in that experiment, while one neutron was registered, the next neutron still resided in its Uranium nucleus waiting for fission to happen.
+Then, as a professor at the University of Innsbruck, Zeilinger started experiments on entangled photons, as the low phase space density of neutrons produced by reactors precluded their use in such experiments.
+
+
+== Honours and awards ==
+
+
+=== International prizes and awards ===
+Wolf Prize in Physics (2010, with Alain Aspect and John Clauser)
+Grand Merit Cross with Star of the Order of Merit of the Federal Republic of Germany (2009)
+ERC Advanced Grant (2008)
+Quantum Communication Award (2008)
+Inaugural Isaac Newton Medal (Institute of Physics, 2008)
+Quantum Electronics Prize (2007)
+King Faisal International Prize (2005)
+Descartes Prize(2005)
+Lorenz-Oken-Medal of the Society of German Scientists and Physicians (2004)
+Klopsteg Memorial Award (2004)
+Sartorius Prize (2003)
+Order Pour le Mérite for Arts and Sciences (2001)
+Senior Humboldt Fellow Prize (2000)
+European Optics Prize (1997)
+European Lecturer (1996)
+Prix Vinci d'Excellence (1995)
+
+
+=== Austrian prizes and awards ===
+Großer Tiroler Adler Orden (2013)
+Grand Gold Decoration, City of Vienna (2006)
+Wilhelm Exner Medal (2005).
+Johannes Kepler-Prize (2002)
+Austrian Decoration for Science and Art (2001, Austrian equivalent to the Order of Merit)
+Visionary of the Year in Science (2001)
+Science Award of the City of Vienna (2000)
+Kardinal Innitzer Würdigungspreis (1997)
+Austrian Scientist of the Year (1996)
+Junior Prize of the Theodor Körner Foundation (1980)
+Prize for Junior Scientists, Kardinal Innitzer Foundation (1979)
+Prize of the City of Vienna for the Encouragement of Young Scientists (1975)
+
+
+=== Further distinctions ===
+Honorary doctorates from the Humboldt University of Berlin (2005) and the University of Gdańsk (2006)
+Honorary Professor, University of Science and Technology of China (1996)
+Member of the German Academy of Sciences Leopoldina, Berlin-Brandenburg, Austrian, Slovak Academies of Sciences, and the National Academy of Sciences of Belarus, the Academia Scientiarum et Artium Europaea, the Serbian Academy of Sciences and Arts and the French Académie des Sciences
+Fellow of the American Physical Society and the American Association for the Advancement of Science (AAAS)
+Asteroid 48681 Zeilinger named for him to mark his 60th birthday (2005)
+Holder of numerous distinguished lectures, among them, the Seventh Johannes Gutenberg Endowed Professorship at the Johannes Gutenberg University Mainz (2006)
+
+
+== References ==
+
+
+== External links ==
+"Prof. Dr. Anton Zeilinger". Vienna Center for Quantum Science and Technology. 
+Homepage of the International Academy Traunkirchen
+Quantum Teleportation by Zeilinger, 2003 update of 2000 Scientific American article
+Es stellt sich letztlich heraus, dass Information ein wesentlicher Grundbaustein der Welt ist, a German-language interview with Zeilinger by Andrea Naica-Loebell
+Spooky action and beyond an interview with Anton Zeilinger at signandsight.com
+The lecture delivered by Professor Anton Zeilinger as the inaugural recipient of the Isaac Newton Medal, Institute of Physics, 17 June 2008, [1] (68 min 25 sec).Note: On the page linked, a second video is accommodated which shows Professor Zeilinger speaking amongst others about his personal life.
+Anton Zeilinger on the opening panel discussion at the Quantum to Cosmos festival at Perimeter Institute with Katherine Freese, Leo Kadanoff, Lawrence Krauss, Neil Turok, Sean M. Carroll, Gino Segrè, Andrew White, and David Tong.
+ Quotations related to Anton Zeilinger at Wikiquote

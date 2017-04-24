@@ -1,0 +1,130 @@
+In physics, the principle of locality states that an object is only directly influenced by its immediate surroundings. A theory which includes the principle of locality is said to be a "local theory". This is an alternative to the older concept of instantaneous "action at a distance". Locality evolved out of the field theories of classical physics. The concept is that for an action at one point to have an influence at another point, something in the space between those points such as a field must mediate the action. To exert an influence, something, such as a wave or particle, must travel through the space between the two points, carrying the influence.
+The Special Theory of Relativity limits the speed at which all such influences can travel to the speed of light, 
+  
+    
+      
+        c
+        
+      
+    
+    {\displaystyle c\,}
+  . Therefore, the principle of locality implies that an event at one point cannot cause a simultaneous result at another point. An event at point A cannot cause a result at point B in a time less than 
+  
+    
+      
+        T
+        
+        =
+        
+        D
+        
+          /
+        
+        c
+      
+    
+    {\displaystyle T\;=\;D/c}
+  , where 
+  
+    
+      
+        D
+        
+      
+    
+    {\displaystyle D\,}
+   is the distance between the points.
+In 1935 Albert Einstein, Boris Podolsky and Nathan Rosen in their EPR paradox theorised that quantum mechanics might not be a local theory, because a measurement made on one of a pair of separated but entangled particles causes a simultaneous effect, the collapse of the wavefunction, in the remote particle (i.e. an effect exceeding the speed of light). But because of the probabilistic nature of wavefunction collapse, this violation of locality cannot be used to transmit information faster than light. In 1964 John Stewart Bell formulated the "Bell inequality", which, if violated in actual experiments, implies that quantum mechanics violates either locality or realism, another principle which relates to the value of unmeasured quantities. The two principles are commonly referred to as a single principle, local realism.
+Experimental tests of the Bell inequality, beginning with Alain Aspect's 1972 experiments, show that quantum mechanics seems to violate the inequality, so it must violate either locality or realism. However, critics have noted these experiments contained "loopholes", which prevented a definitive answer to this question. This might now be resolved: in 2015 Dr Ronald Hanson at Delft University performed what has been called the first loophole-free experiment.
+
+
+== Pre-quantum mechanics ==
+
+In the 17th century Newton's law of universal gravitation was formulated in terms of "action at a distance", thereby violating the principle of locality.
+
+It is inconceivable that inanimate Matter should, without the Mediation of something else, which is not material, operate upon, and affect other matter without mutual Contact…That Gravity should be innate, inherent and essential to Matter, so that one body may act upon another at a distance thro' a Vacuum, without the Mediation of any thing else, by and through which their Action and Force may be conveyed from one to another, is to me so great an Absurdity that I believe no Man who has in philosophical Matters a competent Faculty of thinking can ever fall into it. Gravity must be caused by an Agent acting constantly according to certain laws; but whether this Agent be material or immaterial, I have left to the Consideration of my readers.
+
+Coulomb's law of electric forces was initially also formulated as instantaneous action at a distance, but was later superseded by Maxwell's Equations of electromagnetism which obey locality.
+In 1905 Albert Einstein's Special Theory of Relativity postulated that no material or energy can travel faster than the speed of light, and Einstein thereby sought to reformulate physical laws in a way which obeyed the principle of locality. He later succeeded in producing an alternative theory of gravitation, General Relativity, which obeys the principle of locality.
+However, a different challenge to the principle of locality subsequently emerged from the theory of Quantum Mechanics, which Einstein himself had helped to create.
+
+
+== Relativity ==
+Locality is a key axiom of Einstein's relativistic quantum field theory, where it is essential to causality that effects do not propagate faster than the speed of light.
+Einstein's quantum theory (currently termed the old quantum theory) is said to be relativistic because it does NOT violate either his general or special theory of relativity: speed of light is a limiting factor.
+In Einstein's theory, two observable objects are localised, each within its own distinct spacetime region (frame), which regions are separated from each other in space, and effects pass from one object to the other at the speed of light or slower. This is a key property of spacetime flowing from the special theory of relativity.
+A solution of Einstein's field equations is local if the underlying equations are invariant (a condition where the laws of physics are invariant - that is, the same - in all frames which are moving with uniform velocity with respect to one another).
+Alternatively, a solution of Einstein's field equations is still local if the underlying equations are co-variant: i.e. if all (non-gravitational) laws make the same predictions for identical experiments taking place at the same time in two different inertial (that is, non-accelerating) frames; such that the variations from the resting state are the same (i.e. vary equally) for each frame.
+
+
+== Quantum mechanics ==
+
+
+=== EPR paradox ===
+Albert Einstein argues that quantum mechanics is an incomplete theory, because he has shown that, as originally formulated, it leads to a paradox.
+Einstein, Podolsky and Rosen (dubbed the "EPR" group) identified a paradox in the theory: quantum mechanics predicts non-locality (in breach of special relativity), unless position and momentum are simultaneously real properties of the particle.
+Einstein based this conclusion on two assumptions, which he termed axioms: namely, that the principle of locality is necessary; and that there can be no violation of it. He termed this "the principle of Local Action":
+
+"The ... idea characterises the relative independence of objects far apart in space, A and B: external influence on A has no direct influence on B."
+
+He said that without this principle, the idea of the existence of quasi-enclosed systems, and thereby the formulation of laws which can be checked experimentally, would be impossible.
+Einstein's conclusion was unverifiable experimentally until, in 1964, John Stewart Bell derived a theorem that makes QM predictions which no competing theories based on local hidden variables (the "local realism" principle) have been able to reproduce.
+
+
+=== Local realism ===
+Einstein's principle of local realism is the combination of the principle of locality (limiting cause-and-effect to the speed of light) with the assumption that a particle must objectively have a pre-existing value (i.e. a real value) for any possible measurement, i.e. a value existing before that measurement is made.
+Local realism is a feature of classical mechanics, and of classical electrodynamics; but quantum mechanics theories reject the principle, based on the experimental evidence of distant quantum entanglements: an interpretation that Einstein rejected (as being a paradox), but which is supported by a 1972 experiment based on Bell's 1964 inequality theorem.
+If an experiment shows quantum mechanics to have violated Bell's theorem, then, by definition, QM must have violated either locality or realism. But it is unclear whether the 1972 experiment demonstrates a genuine violation, because it did not test the sub-class of inequalities, and because of experimental limitations in the test.
+In current theory, post-1972, various interpretations (i.e. theories) of quantum mechanics violate different aspects of Local Realism. But some interpretations only violate aspects of a related principle, known as counterfactual definiteness.
+Counter-factual definiteness (CFD) is the idea that it is valid to describe as definite the result of a measurement that has not in fact been performed (i.e. to assume the existence of values that have not been measured).
+
+
+=== Realism ===
+Realism in the sense used in physics is the idea that nature exists independently of man's mind: that even if the result of a possible measurement does not exist before the act of measuring it, that does not mean it is a creation of the mind of the observer (contrary to the "consciousness causes collapse" theory in quantum mechanics).
+A mind-independent property does not have to be a value of a physical variable, such as position or momentum. A property can be potential (i.e. can be a capacity): in the way that a glass object has the potential (or capacity) to break, if subjected to a particular force, but otherwise will not actually break.
+Even though the result of striking a glass object with a hammer does not exist before the act of striking it, that does not mean the broken glass is a creation of the observer. A particle accelerator is a sophisticated type of hammer, and the target particles are liable to end up as a heap of broken shards.
+Such a response, i.e. breaking, is a conditional response: a response to a particular application of force. Applied to quantum systems, Schrödinger recognised that they too have a conditional response: a tendency to respond (i.e. a specific probability of responding) to a particular measuring force with a particular value. In a sense, they are pre-programmed with a particular outcome.
+Such an outcome would be realistic in a metaphysical sense, without being realistic in the physicist's sense of local realism (which requires that a single value be produced with certainty).
+When dealing with an "entangled" pair of particles, what we are really dealing with is a pair which we know for certain to have a common origin. It is logical to make an assumption that because they have a common origin they will have properties in common, an assumption we cannot possibly make if we choose two particles entirely at random. So we should not be surprised to find that the laws of certainty, rather than of mere statistical probability, apply to entangled pairs.
+A related concept is "counterfactual definiteness", the idea that it is possible to meaningfully describe as definite the result of a measurement which, in fact, has not been performed (i.e. the ability to assume the existence of objects, and assign values to their properties, even when they have not been measured).
+
+
+=== Copenhagen interpretation ===
+In most of the conventional interpretations, such as the Copenhagen interpretation and the interpretation based on Consistent Histories, where the wavefunction is not assumed to physically exist in real spacetime, it is local realism that is rejected. These interpretations propose that actual definite properties of a physical system "do not exist" prior to the measurement; and the wavefunction is nothing more than a mathematical tool used to calculate the probabilities of experimental outcomes.
+If the wavefunction is assumed to physically exist in real spacetime, the principle of locality is violated during the measurement process by the occurrence of wavefunction collapse. This is a non-local process because Born's Rule, when applied to the system's wavefunction, yields a probability density for all regions of space and time. Upon actual measurement of the physical system, the probability density vanishes everywhere instantaneously, except where (and when) the measured entity is found to exist. This "vanishing" is theorised to be a real physical process, and clearly non-local (i.e. faster than light), if the wavefunction is considered physically real and the probability density has converged to zero at arbitrarily far distances during the finite time required for the measurement process.
+
+
+=== Bohm interpretation ===
+The Bohm interpretation preserves realism, hence it needs to violate the principle of locality in order to achieve the required correlations. It does so by maintaining that both the position and momentum of a particle are determinate, in that they correspond to the definite trajectory of the particle, but that trajectory cannot be known without knowing the physical state of the entire universe.
+
+
+=== Many-worlds interpretation ===
+In the many-worlds interpretation, both realism and locality are retained, but counterfactual definiteness is rejected by the extension of the notion of reality to allow the existence of parallel universes.
+
+
+=== Pragmatic interpretation ===
+Because the differences between the different interpretations are mostly philosophical ones (except for the Bohm and many-worlds interpretations), physicists usually employ language in which the important statements are neutral with regard to all of the interpretations.
+In this framework, only the measurable action at a distance —a superluminal propagation of real, physical information— would usually be considered in violation of the principle of locality by physicists. Such phenomena have never been seen, and are not predicted by the current theories.
+
+
+=== Loophole-free violation ===
+In 2015, Ronald Hanson reported observing a loophole-free violation in an experimental test of Bell's theorem: in other words, a result which—for the first time—is free of any additional assumptions (previous experiments, going all the way back to 1972, had required that various assumptions be made in order to obtain an unambiguous contradiction of local realism).
+Hanson was reporting on entanglement regarding distant electron spins, in 245 trials, which found that S = 2.42 (+/- 0.20), with a probability of p = 0.039.
+This result rules out large classes of local realism theories.
+
+
+=== Non-locality ===
+A 2016 experiment demonstrated a single photon, in certain conditions, can have non-local observable physical effects in two places at once.
+
+
+== See also ==
+EPR paradox
+Local hidden variable theory
+Non-locality (disambiguation)
+
+
+== References ==
+
+
+== External links ==
+Quantum nonlocality vs. Einstein locality by H. D. Zeh

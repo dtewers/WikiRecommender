@@ -1,0 +1,132 @@
+Arnold Johannes Wilhelm Sommerfeld, ForMemRS (5 December 1868 – 26 April 1951) was a German theoretical physicist who pioneered developments in atomic and quantum physics, and also educated and mentored a large number of students for the new era of theoretical physics. He served as PhD supervisor for many Nobel Prize winners in physics and chemistry (only J. J. Thomson's record of mentorship is comparable to his).
+He introduced the 2nd quantum number (azimuthal quantum number) and the 4th quantum number (spin quantum number). He also introduced the fine-structure constant and pioneered X-ray wave theory.
+
+
+== Early life and education ==
+Sommerfeld studied mathematics and physical sciences at the Albertina University of his native city, Königsberg, East Prussia. His dissertation advisor was the mathematician Ferdinand von Lindemann, and he also benefited from classes with mathematicians Adolf Hurwitz and David Hilbert and physicist Emil Wiechert. His participation in the student fraternity Deutsche Burschenschaft resulted in a fencing scar on his face. He received his Ph.D. on October 24, 1891 (age 22).
+After receiving his doctorate, Sommerfeld remained at Königsberg to work on his teaching diploma. He passed the national exam in 1892 and then began a year of military service, which was done with the reserve regiment in Königsberg. He completed his obligatory military service in September 1893, and for the next eight years continued voluntary eight-week military service. With his turned up moustache, his physical build, his Prussian bearing, and the fencing scar on his face, he gave the impression of being a colonel in the hussars.
+
+
+== Career ==
+
+
+=== Göttingen ===
+In October, Sommerfeld went to the University of Göttingen, which was the center of mathematics in Germany. There, he became assistant to Theodor Liebisch, at the Mineralogical Institute, through a fortunate personal contact – Liebisch had been a professor at the University of Königsberg and a friend of the Sommerfeld family.
+In September 1894, Sommerfeld became Felix Klein's assistant, which included taking comprehensive notes during Klein's lectures and writing them up for the Mathematics Reading Room, as well as managing the reading room. Sommerfeld's Habilitationsschrift was completed under Klein, in 1895, which allowed Sommerfeld to become a Privatdozent at Göttingen. As a Privatdozent, Sommerfeld lectured on a wide range of mathematical and mathematical physics topics. His lectures on partial differential equations were first offered at Göttingen, and they evolved over his teaching career to become Volume VI of his textbook series Lectures on Theoretical Physics, under the title Partial Differential Equations in Physics.
+Lectures by Klein in 1895 and 1896 on rotating bodies led Klein and Sommerfeld to write a four-volume text Die Theorie des Kreisels – a 13-year collaboration, 1897–1910. The first two volumes were on theory, and the latter two were on applications in geophysics, astronomy, and technology. The association Sommerfeld had with Klein influenced Sommerfeld's turn of mind to be applied mathematics and in the art of lecturing.
+While at Göttingen, Sommerfeld met Johanna Höpfner, daughter of Ernst Höpfner, curator at Göttingen. In October, 1897 Sommerfeld began the appointment to the Chair of Mathematics at the Bergakademie in Clausthal-Zellerfeld; he was successor to Wilhelm Wien. This appointment provided enough income to eventually marry Johanna.
+At Klein's request, Sommerfeld took on the position of editor of Volume V of Enzyklopädie der mathematischen Wissenschaften; it was a major undertaking which lasted from 1898 to 1926.
+
+
+=== Aachen ===
+In 1900, Sommerfeld started his appointment to the Chair of Applied Mechanics at the Königliche Technische Hochschule Aachen (later RWTH Aachen University) as extraordinarius professor, which was arranged through Klein's efforts. At Aachen, he developed the theory of hydrodynamics, which would retain his interest for a long time. Later, at the University of Munich, Sommerfeld's students Ludwig Hopf and Werner Heisenberg would write their Ph.D. theses on this topic.
+
+
+=== Munich ===
+From 1906 Sommerfeld established himself as ordinarius professor of physics and director of the new Theoretical Physics Institute at the University of Munich. He was selected for these positions by Wilhelm Röntgen, Director of the Physics Institute at Munich, which was looked upon by Sommerfeld as being called to a "privileged sphere of action."
+Up until the late 19th century and early 20th century, experimental physics in Germany was considered as having a higher status within the community. However, in the early 20th century, theorists, such as Sommerfeld at Munich and Max Born at the University of Göttingen, with their early training in mathematics, turned this around so that mathematical physics, i.e., theoretical physics, became the prime mover, and experimental physics was used to verify or advance theory. After getting their doctorates with Sommerfeld, Wolfgang Pauli, Werner Heisenberg, and Walter Heitler became Born's assistants and made significant contributions to the development of quantum mechanics, which was then in very rapid development.
+Over his 32 years of teaching at Munich, Sommerfeld taught general and specialized courses, as well as holding seminars and colloquia. The general courses were on mechanics, mechanics of deformable bodies, electrodynamics, optics, thermodynamics and statistical mechanics, and partial differential equations in physics. They were held four hours per week, 13 weeks in the winter and 11 weeks in the summer, and were for students who had taken experimental physics courses from Röntgen and later by Wilhelm Wien. There was also a two-hour weekly presentation for the discussion of problems. The specialized courses were of topical interest and based on Sommerfeld's research interests; material from these courses appeared later in the scientific literature publications of Sommerfeld. The objective of these special lectures was to grapple with current issues in theoretical physics and for Sommerfeld and the students to garner a systematic comprehension of the issue, independent of whether or not they were successful in solving the problem posed by the current issue. For the seminar and colloquium periods, students were assigned papers from the current literature and they then prepared an oral presentation. From 1942 to 1951, Sommerfeld worked on putting his lecture notes in order for publication. They were published as the six-volume Lectures on Theoretical Physics.
+For a list of students, please see the list organized by type. Four of Sommerfeld's doctoral students, Werner Heisenberg, Wolfgang Pauli, Peter Debye, and Hans Bethe went on to win Nobel Prizes, while others, most notably, Walter Heitler, Rudolf Peierls, Karl Bechert, Hermann Brück, Paul Peter Ewald, Eugene Feenberg, Herbert Fröhlich, Erwin Fues, Ernst Guillemin, Helmut Hönl, Ludwig Hopf, Adolf Kratzer, Otto Laporte, Wilhelm Lenz, Karl Meissner, Rudolf Seeliger, Ernst C. Stückelberg, Heinrich Welker, Gregor Wentzel, Alfred Landé, and Léon Brillouin became famous in their own right. Three of Sommerfeld's postgraduate students, Linus Pauling, Isidor I. Rabi and Max von Laue, won Nobel Prizes, and ten others, William Allis, Edward Condon, Carl Eckart, Edwin C. Kemble, William V. Houston, Karl Herzfeld, Walther Kossel, Philip M. Morse, Howard Robertson, and Wojciech Rubinowicz went on to become famous in their own right. Walter Rogowski, an undergraduate student of Sommerfeld at RWTH Aachen, also went on to become famous in his own right. Max Born believed Sommerfeld's abilities included the "discovery and development of talents." Albert Einstein told Sommerfeld: "What I especially admire about you is that you have, as it were, pounded out of the soil such a large number of young talents." Sommerfeld's style as a professor and institute director did not put distance between him and his colleagues and students. He invited collaboration from them, and their ideas often influenced his own views in physics. He entertained them in his home and met with them in cafes before and after seminars and colloquia. Sommerfeld owned an alpine ski hut to which students were often invited for discussions of physics as demanding as the sport.
+While at Munich, Sommerfeld came in contact with the special theory of relativity by Albert Einstein, which was not yet widely accepted at that time. His mathematical contributions to the theory helped its acceptance by the skeptics. In 1914 he worked with Léon Brillouin on the propagation of electromagnetic waves in dispersive media. He became one of the founders of quantum mechanics; some of his contributions included co-discovery of the Sommerfeld–Wilson quantization rules (1915), a generalization of Bohr's atomic model, introduction of the Sommerfeld fine-structure constant (1916), co-discovery with Walther Kossel of the Sommerfeld–Kossel displacement law (1919), and publishing Atombau und Spektrallinien (1919), which became the "bible" of atomic theory for the new generation of physicists who developed atomic and quantum physics.
+In 1918, Sommerfeld succeeded Einstein as chair of the Deutsche Physikalische Gesellschaft (DPG). One of his accomplishments was the founding of a new journal. The scientific papers published in DPG journals became so voluminous, a committee of the DPG, in 1919, recommended the establishment of Zeitschrift für Physik for publication of original research articles, which commenced in 1920. Since any reputable scientist could have their article published without refereeing, time between submission and publication was very rapid – as fast as two weeks time. This greatly stimulated the scientific theoretical developments, especially that of quantum mechanics in Germany at that time, as this journal was the preferred publication vehicle for the new generation of quantum theorists with avant-garde views.
+In the winter semester of 1922/1923, Sommerfeld gave the Carl Schurz Memorial Professor of Physics lectures at the University of Wisconsin–Madison.
+In 1927 Sommerfeld applied Fermi–Dirac statistics to the Drude model of electrons in metals – a model put forth by Paul Drude. The new theory solved many of the problems predicting thermal properties the original model had and became known as the Drude–Sommerfeld model.
+In 1928/1929, Sommerfeld traveled around the world with major stops in India, China, Japan, and the United States.
+Sommerfeld was a great theoretician, and besides his invaluable contributions to the quantum theory, he worked in other fields of physics, such as the classical theory of electromagnetism. For example, he proposed a solution to the problem of a radiating hertzian dipole over a conducting earth, which over the years led to many applications. His Sommerfeld identity and Sommerfeld integrals are still to the present day the most common way to solve this kind of problem. Also, as a mark of the prowess of Sommerfeld's school of theoretical physics and the rise of theoretical physics in the early 1900s, as of 1928, nearly one-third of the ordinarius professors of theoretical physics in the German-speaking world were students of Sommerfeld.
+
+On 1 April 1935 Sommerfeld achieved emeritus status, however, he stayed on as his own temporary replacement during the selection process for his successor, which took until 1 December 1939. The process was lengthy due to academic and political differences between the Munich Faculty's selection and that of both the Reichserziehungsministerium (REM; Reich Education Ministry) and the supporters of Deutsche Physik, which was anti-Semitic and had a bias against theoretical physics, especially including quantum mechanics. The appointment of Wilhelm Müller – who was not a theoretical physicist, had not published in a physics journal, and was not a member of the Deutsche Physikalische Gesellschaft – as a replacement for Sommerfeld, was considered such a travesty and detrimental to educating a new generation of physicists that both Ludwig Prandtl, director of the Kaiser Wilhelm Institut für Strömungsforschung (Kaiser Wilhelm Institute for Flow Research), and Carl Ramsauer, director of the research division of the Allgemeine Elektrizitäts-Gesellschaft (General Electric Company) and president of the Deutsche Physikalische Gesellschaft, made reference to this in their correspondence to officials in the Reich. In an attachment to Prandtl's 28 April 1941 letter to Reich Marshal Hermann Göring, Prandtl referred to the appointment as "sabotage" of necessary theoretical physics instruction. In an attachment to Ramsauer's 20 January 1942 letter to Reich Minister Bernhard Rust, Ramsauer concluded that the appointment amounted to the "destruction of the Munich theoretical physics tradition".
+Sommerfeld was awarded many honors in his lifetime, such as the Lorentz Medal, the Max-Planck Medal, the Oersted Medal, election to the Royal Society of London, the United States National Academy of Sciences, Academy of Sciences of the USSR, the Indian Academy of Sciences, and other academies including those in Berlin, Munich, Göttingen, and Vienna, as well as having conferred on him numerous honorary degrees from universities including Rostock, Aachen, Calcutta, and Athens. He was nominated for the Nobel Prize 84 times, more than any other physicist (including Otto Stern, who got nominated 82 times), but he never received the award.
+In 2004, the center for theoretical physics at the University of Munich was named after him.
+Sommerfeld died in 1951 in Munich from injuries after a traffic accident while walking with his grandchildren.
+
+
+== Bibliography ==
+
+
+=== Articles ===
+Arnold Sommerfeld, "Uber die Ausbreitung der Wellen in der Drahtlosen Telegraphie" (The Propagation of Waves in Wireless Telegraphy), Ann. Physik [4] 28, 665 (1909); 62, 95 (1920); 81, 1135 (1926).
+Arnold Sommerfeld, "Some Reminiscences of My Teaching Career", American Journal of Physics Volume 17, Number 5, 315–316 (1949). Address upon receipt of the 1948 Oersted Medal.
+
+
+=== Books ===
+Arnold Sommerfeld "Mathematische Theorie der Diffraction" Math. Ann. 47 317–374 (1896)
+Arnold Sommerfeld, translated by Raymond J. Nagem, Mario Zampolli, and Guido Sandri Mathematical Theory of Diffraction (Birkhäuser Boston, 2003), ISBN 0-8176-3604-8
+
+Arnold Sommerfeld Atombau und Spektrallinien (Friedrich Vieweg und Sohn, Braunschweig, 1919)
+Arnold Sommerfeld, translated from the third German edition by Henry L. Brose Atomic Structure and Spectral Lines (Methuen, 1923)
+
+Arnold Sommerfeld, Three Lectures on Atomic Physics (London: Methuen, 1926)
+Arnold Sommerfeld Atombau und Spektrallinien, Wellenmechanischer Ergänzungband (Vieweg, Braunschweig, 1929)
+Arnold Sommerfeld, translated by Henry L. Brose Wave-Mechanics: Supplementary Volume to Atomic Structure and Spectral Lines (Dutton, 1929)
+
+Arnold Sommerfeld Lectures on Wave Mechanics Delivered before the Calcutta University (Calcutta University, 1929)
+Arnold Sommerfeld and Hans Bethe Elektronentheorie der Metalle in H. Geiger and K. Scheel, editors Handbuch der Physik Volume 24, Part 2, 333–622 (Springer, 1933). This nearly 300-page chapter was later published as a separate book: Elektronentheorie der Metalle (Springer, 1967).
+Arnold Sommerfeld Mechanik – Vorlesungen über theoretische Physik Band 1 (Akademische Verlagsgesellschaft Becker & Erler, 1943)
+Arnold Sommerfeld, translated from the fourth German edition by Martin O. Stern Mechanics – Lectures on Theoretical Physics Volume I (Academic Press, 1964)
+
+Arnold Sommerfeld Mechanik der deformierbaren Medien – Vorlesungen über theoretische Physik Band 2 (Akademische Verlagsgesellschaft Becker & Erler, 1945)
+Arnold Sommerfeld, translated from the second German edition by G. Kuerti: Mechanics of Deformable Bodies – Lectures on Theoretical Physics Volume II (Academic Press, 1964)
+
+Arnold Sommerfeld Elektrodynamik – Vorlesungen über theoretische Physik Band 3 (Klemm Verlag, Erscheinungsort, 1948)
+Arnold Sommerfeld, translated from the German by Edward G. Ramberg Electrodynamics – Lectures on Theoretical Physics Volume III (Academic Press, 1964)
+
+Arnold Sommerfeld Optik – Vorlesungen über theoretische Physik Band 4 (Dieterich'sche Verlagsbuchhandlung, 1950)
+Arnold Sommerfeld, translated from the first German edition by Otto Laporte and Peter A. Moldauer Optics – Lectures on Theoretical Physics Volume IV (Academic Press, 1964)
+
+Arnold Sommerfeld Thermodynamik und Statistik – Vorlesungen über theoretische Physik Band 5 Herausgegeben von Fritz Bopp und Josef Meixner. (Diederich sche Verlagsbuchhandlung, 1952)
+Arnold Sommerfeld, edited by F. Bopp and J. Meixner, and translated by J. Kestin Thermodynamics and Statistical Mechanics – Lectures on Theoretical Physics Volume V (Academic Press, 1964)
+
+Arnold Sommerfeld Partielle Differentialgleichungen der Physik – Vorlesungen über theoretische Physik Band 6 (Dieterich'sche Verlagsbuchhandlung, 1947)
+Arnold Sommerfeld, translated by Ernest G. Straus Partial Differential Equations in Physics – Lectures on Theoretical Physics Volume VI (Academic Press, first printing 1949, second printing 1953; also as n°1 of AP pure and applied mathematics collection)
+
+Felix Klein and Arnold Sommerfeld Über die Theorie des Kreisels [4 volumes] (Teubner, 1897)
+
+
+== See also ==
+List of things named after Arnold Sommerfeld
+
+
+== References ==
+
+
+== Further reading ==
+Benz, Ulrich, Arnold Sommerfeld. Lehrer und Forscher an der Schwelle zum Atomzeitalter 1868 – 1951 (Wissenschaftliche Verlagsgesellschaft, 1975)
+Beyerchen, Alan D., Scientists Under Hitler: Politics and the Physics Community in the Third Reich (Yale, 1977)
+Born, Max, Arnold Johannes Wilhelm Sommerfeld, 1868–1951, Obituary Notices of Fellows of the Royal Society Volume 8, Number 21, 274–296 (1952)
+Cassidy, David C., Uncertainty: The Life and Science of Werner Heisenberg (W. H. Freeman and Company, 1992), ISBN 0-7167-2503-7 (Since Werner Heisenberg was one of Sommerfeld's Ph.D. students, this is an indirect source of information on Sommerfeld, but the information on him is rather extensive and well documented.)
+Eckert, Michael, Arnold Sommerfeld: Atomphysiker und Kulturbote 1868-1951. Eine Biografie (Deutsches Museum, Wallstein Verlag, 2013)
+Eckert, Michael, trans. Tom Artin, Arnold Sommerfeld: Science, Life and Turbulent Times, 1868-1951 (Springer, 2013)
+Eckert, Michael, Propaganda in science: Sommerfeld and the spread of the electron theory of metals, Historical Studies in the Physical and Biological Sciences Volume 17, Number 2, 191–233 (1987)
+Eckert, Michael, Mathematics, Experiments, and Theoretical Physics: The Early Days of the Sommerfeld School, Physics in Perspective Volume 1, Number 3, 238–252 (1999)
+Hentschel, Klaus (Editor) and Ann M. Hentschel (Editorial Assistant and Translator), Physics and National Socialism: An Anthology of Primary Sources (Birkhäuser, 1996)
+Jungnickel, Christa and Russell McCormmach. Intellectual Mastery of Nature. Theoretical Physics from Ohm to Einstein, Volume 1: The Torch of Mathematics, 1800 to 1870. University of Chicago Press, paper cover, 1990a. ISBN 0-226-41582-1
+Jungnickel, Christa and Russell McCormmach. Intellectual Mastery of Nature. Theoretical Physics from Ohm to Einstein, Volume 2: The Now Mighty Theoretical Physics, 1870 to 1925. University of Chicago Press, Paper cover, 1990b. ISBN 0-226-41585-6
+Kant, Horst, Arnold Sommerfeld – Kommunikation und Schulenbildung in Fuchs-Kittowski, Klaus ; Laitko, Hubert ; Parthey, Heinrich ; Umstätter, Walther (editors) Wissenschaft und Digitale Bibliothek: Wissenschaftsforschung Jahrbuch 1998 135–152 (Verlag der Gesellschaft für Wissenschaftsforschung, 2000)
+Kirkpatrick, Paul, Address of Recommendation by Professor Paul Kirkpatrick, Chairman of the Committee on Awards, American Journal of Physics Volume 17, Number 5, 312–314 (1949). Address preceding award to Arnold Sommerfeld, recipient of the 1948 Oersted Medal for Notable Contributions to the Teaching of Physics, 28 January 1949.
+Kragh, Helge, Quantum Generations: A History of Physics in the Twentieth Century (Princeton University Press, fifth printing and first paperback printing, 2002), ISBN 0-691-01206-7
+Kuhn, Thomas S., John L. Heilbron, Paul Forman, and Lini Allen, Sources for History of Quantum Physics (American Philosophical Society, 1967)
+Mehra, Jagdish, and Helmut Rechenberg, The Historical Development of Quantum Theory. Volume 1 Part 1 The Quantum Theory of Planck, Einstein, Bohr and Sommerfeld 1900–1925: Its Foundation and the Rise of Its Difficulties. (Springer, 1982), ISBN 0-387-95174-1
+Pauling, Linus, Arnold Sommerfeld: 1868–1951, Science Volume 114, Number 2963, 383–384 (1951)
+Singh, Rajinder, "Arnold Sommerfeld – The Supporter of Indian Physics in Germany" Current Science 81 No. 11, 10 December 2001, pp. 1489–1494
+Walker, Mark, Nazi Science: Myth, Truth, and the German Atomic Bomb (Persius, 1995), ISBN 0-306-44941-2
+
+
+== External links ==
+ Works written by or about Arnold Sommerfeld at Wikisource
+ Quotations related to Arnold Sommerfeld at Wikiquote
+Annotated bibliography for Arnold Sommerfeld from the Alsos Digital Library for Nuclear Issues
+Arnold Sommerfeld Biography – American Philosophical Society (includes information on his students.)
+Arnold Sommerfeld Biography – Zurich ETH-Bibliothek
+Arnold Sommerfeld – die Vektorrechnung
+Arnold Sommerfeld's Students – The Mathematics Genealogy Project
+Arnold Sommerfeld – the supporter of Indian physics in Germany
+Michael Eckert (Video): Sommerfeld's Munich Quantum School - 3rd Conference on the History of Quantum Physics (June 2011)
+together with: Presentation, including many historical pictures
+
+Hans Bethe talking about his time as Sommerfeld's Student on Peoples Archive
+O'Connor, John J.; Robertson, Edmund F., "Arnold Sommerfeld", MacTutor History of Mathematics archive, University of St Andrews .
+Relativitätstheorie — Sommerfeld's 1921 introduction to special and general relativity for general audiences (German) (Archived March 3, 2016, at the Wayback Machine.)
+Sommerfeld-Project – Leibniz-Rechenzentrum der Wissenschaften
+Works by Arnold Sommerfeld at Project Gutenberg
+Works by or about Arnold Sommerfeld at Internet Archive
+A collection of digitized materials related to Sommerfeld's and Linus Pauling's structural chemistry research.

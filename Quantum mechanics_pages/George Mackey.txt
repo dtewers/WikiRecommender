@@ -1,0 +1,47 @@
+George Whitelaw Mackey (February 1, 1916 – March 15, 2006) was an American mathematician. Mackey earned his bachelor of arts at Rice University (then the Rice Institute) in 1938 and obtained his Ph.D. at Harvard University in 1942 under the direction of Marshall H. Stone. He joined the Harvard University Mathematics Department in 1943, was appointed Landon T. Clay Professor of Mathematics and Theoretical Science in 1969 and remained there until he retired in 1985.
+
+
+== Work ==
+Earlier in his career Mackey did significant work in the duality theory of locally convex spaces, which provided tools for subsequent work in this area, including Alexander Grothendieck's work on topological tensor products.
+Mackey was one of the pioneer workers in the intersection of quantum logic, the theory of infinite-dimensional unitary representations of groups, the theory of operator algebras and noncommutative geometry. A central role in Mackey's work, both in the theory of group representations and in mathematical physics, was played by the concepts of system of imprimitivity and induced representation. This idea led naturally to an analysis of the representation theory of semi-direct products in terms of ergodic actions of groups and in some cases a complete classification of such representations. Mackey's results were essential tools in the study of the representation theory of nilpotent Lie groups using the method of orbits developed by Alexandre Kirillov in the 1960s. His notion of "virtual subgroup", introduced in 1966 using the language of groupoids, had a significant influence in ergodic theory.
+Another essential ingredient in Mackey's work was the assignment of a Borel structure to the dual object of a locally compact group (specifically a locally compact separable metric group) G. One of Mackey's important conjectures, which was eventually solved by work of James Glimm on C*-algebras, was that G is type I (meaning that all its factor representations are of type I) if and only if the Borel structure of its dual is a standard Borel space.
+He has written numerous survey articles connecting his research interests with a large body of mathematics and physics, particularly quantum mechanics and statistical mechanics.
+
+
+== Honours and students ==
+Mackey was among the first five recipients of William Lowell Putnam fellowships in 1938.
+Mackey was an elected member of the American Academy of Arts and Sciences and the National Academy of Science.
+Lawrence G. Brown, Calvin Moore, Richard Palais and John Wermer have been doctoral students of Mackey. Andrew Gleason had no PhD, but considered Mackey to be his advisor.
+
+
+== Books ==
+Mathematical Foundations of Quantum Mechanics (Dover Books on Mathematics) ISBN 0-486-43517-2
+Unitary Group Representations in Physics, Probability, and Number Theory, 402 pages, Benjamin–Cummings Publishing Company (1978), ISBN 0-8053-6703-9
+The Theory of Unitary Group Representations (Chicago Lectures in Mathematics) University Of Chicago Press (August 1, 1976) ISBN 0-226-50051-9
+Induced representations of groups and quantum mechanics, Publisher: W. A. Benjamin (1968)
+Mathematical Problems of Relativistic Physics (Lectures in Applied Mathematics Series, Vol 2) by I. E. Segal, George Whitelaw Mackey, Publisher: Amer Mathematical Society (June 1967) ISBN 0-8218-1102-9
+Lectures on the theory of functions of a complex variable Publisher: R. E. Krieger Pub. Co (1977) ISBN 0-88275-531-5
+
+
+== See also ==
+Mackey topology, the finest dual topology
+Mackey–Arens theorem characterizes all dual topologies
+Bornological spaces, all of which are Mackey spaces
+
+
+== References ==
+
+
+== External links ==
+O'Connor, John J.; Robertson, Edmund F., "George Mackey", MacTutor History of Mathematics archive, University of St Andrews .
+George Mackey at the Mathematics Genealogy Project
+George Mackey (1916–2006), Notices of the American Mathematical Society; vol. 54, no. 7 (August 2007).
+George Mackey (1 February 1916–15 March 2006), Proceedings of the American Philosophical Society; vol. 152, no. 4 (December 2008).
+Commemorative website at Harvard Math Department
+Obituary from Harvard Gazette
+Obituary from Boston Globe
+Peter Woit's blog entry on Mackey
+Two letters from George Mackey and the text of his speech "What do Mathematicians Do?, collected by Stephanie Singer
+First letter
+Second letter
+Speech

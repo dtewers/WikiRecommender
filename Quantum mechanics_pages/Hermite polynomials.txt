@@ -1,0 +1,10470 @@
+In mathematics, the Hermite polynomials are a classical orthogonal polynomial sequence.
+The polynomials arise in:
+probability, such as the Edgeworth series;
+in combinatorics, as an example of an Appell sequence, obeying the umbral calculus;
+in numerical analysis as Gaussian quadrature;
+in physics, where they give rise to the eigenstates of the quantum harmonic oscillator;
+in systems theory in connection with nonlinear operations on Gaussian noise.
+Hermite polynomials were defined by Laplace (1810)  though in scarcely recognizable form, and studied in detail by Chebyshev (1859). Chebyshev's work was overlooked and they were named later after Charles Hermite who wrote on the polynomials in 1864 describing them as new. They were consequently not new although in later 1865 papers Hermite was the first to define the multidimensional polynomials.
+
+
+== Definition ==
+There are two different ways of standardizing the Hermite polynomials:
+The "probabilists' Hermite polynomials" are given by
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          e
+          
+            
+              
+                x
+                
+                  2
+                
+              
+              2
+            
+          
+        
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        =
+        
+          
+            (
+            x
+            −
+            
+              
+                d
+                
+                  d
+                  x
+                
+              
+            
+            )
+          
+          
+            n
+          
+        
+        ⋅
+        1
+        ,
+      
+    
+    {\displaystyle {\mathit {He}}_{n}(x)=(-1)^{n}e^{\frac {x^{2}}{2}}{\frac {d^{n}}{dx^{n}}}e^{-{\frac {x^{2}}{2}}}=\left(x-{\frac {d}{dx}}\right)^{n}\cdot 1,}
+  
+
+while the "physicists' Hermite polynomials" are given by
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          e
+          
+            
+              x
+              
+                2
+              
+            
+          
+        
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+        
+          e
+          
+            −
+            
+              x
+              
+                2
+              
+            
+          
+        
+        =
+        
+          
+            (
+            2
+            x
+            −
+            
+              
+                d
+                
+                  d
+                  x
+                
+              
+            
+            )
+          
+          
+            n
+          
+        
+        ⋅
+        1.
+      
+    
+    {\displaystyle H_{n}(x)=(-1)^{n}e^{x^{2}}{\frac {d^{n}}{dx^{n}}}e^{-x^{2}}=\left(2x-{\frac {d}{dx}}\right)^{n}\cdot 1.}
+  
+
+These two definitions are not exactly identical; each one is a rescaling of the other,
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          2
+          
+            
+              
+                n
+                2
+              
+            
+          
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        
+          
+            2
+          
+        
+        
+        x
+        )
+        ,
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          2
+          
+            −
+            
+              
+                
+                  n
+                  2
+                
+              
+            
+          
+        
+        
+          H
+          
+            n
+          
+        
+        
+          (
+          
+            
+              x
+              
+                2
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle H_{n}(x)=2^{\tfrac {n}{2}}{\mathit {He}}_{n}({\sqrt {2}}\,x),\qquad {\mathit {He}}_{n}(x)=2^{-{\tfrac {n}{2}}}H_{n}\left({\frac {x}{\sqrt {2}}}\right).}
+  
+These are Hermite polynomial sequences of different variances; see the material on variances below.
+The notation He and H is that used in the standard references Tom H. Koornwinder, Roderick S. C. Wong, and Roelof Koekoek et al. (2010) and Abramowitz & Stegun. The polynomials Hen are sometimes denoted by Hn, especially in probability theory, because
+
+  
+    
+      
+        
+          
+            1
+            
+              2
+              π
+            
+          
+        
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{\sqrt {2\pi }}}e^{-{\frac {x^{2}}{2}}}}
+  
+is the probability density function for the normal distribution with expected value 0 and standard deviation 1.
+
+The first eleven probabilists' Hermite polynomials are:
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            0
+          
+        
+        (
+        x
+        )
+        =
+        1
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{0}(x)=1\,}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            1
+          
+        
+        (
+        x
+        )
+        =
+        x
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{1}(x)=x\,}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            2
+          
+        
+        (
+        x
+        )
+        =
+        
+          x
+          
+            2
+          
+        
+        −
+        1
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{2}(x)=x^{2}-1\,}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            3
+          
+        
+        (
+        x
+        )
+        =
+        
+          x
+          
+            3
+          
+        
+        −
+        3
+        x
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{3}(x)=x^{3}-3x\,}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            4
+          
+        
+        (
+        x
+        )
+        =
+        
+          x
+          
+            4
+          
+        
+        −
+        6
+        
+          x
+          
+            2
+          
+        
+        +
+        3
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{4}(x)=x^{4}-6x^{2}+3\,}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            5
+          
+        
+        (
+        x
+        )
+        =
+        
+          x
+          
+            5
+          
+        
+        −
+        10
+        
+          x
+          
+            3
+          
+        
+        +
+        15
+        x
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{5}(x)=x^{5}-10x^{3}+15x\,}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            6
+          
+        
+        (
+        x
+        )
+        =
+        
+          x
+          
+            6
+          
+        
+        −
+        15
+        
+          x
+          
+            4
+          
+        
+        +
+        45
+        
+          x
+          
+            2
+          
+        
+        −
+        15
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{6}(x)=x^{6}-15x^{4}+45x^{2}-15\,}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            7
+          
+        
+        (
+        x
+        )
+        =
+        
+          x
+          
+            7
+          
+        
+        −
+        21
+        
+          x
+          
+            5
+          
+        
+        +
+        105
+        
+          x
+          
+            3
+          
+        
+        −
+        105
+        x
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{7}(x)=x^{7}-21x^{5}+105x^{3}-105x\,}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            8
+          
+        
+        (
+        x
+        )
+        =
+        
+          x
+          
+            8
+          
+        
+        −
+        28
+        
+          x
+          
+            6
+          
+        
+        +
+        210
+        
+          x
+          
+            4
+          
+        
+        −
+        420
+        
+          x
+          
+            2
+          
+        
+        +
+        105
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{8}(x)=x^{8}-28x^{6}+210x^{4}-420x^{2}+105\,}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            9
+          
+        
+        (
+        x
+        )
+        =
+        
+          x
+          
+            9
+          
+        
+        −
+        36
+        
+          x
+          
+            7
+          
+        
+        +
+        378
+        
+          x
+          
+            5
+          
+        
+        −
+        1260
+        
+          x
+          
+            3
+          
+        
+        +
+        945
+        x
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{9}(x)=x^{9}-36x^{7}+378x^{5}-1260x^{3}+945x\,}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            10
+          
+        
+        (
+        x
+        )
+        =
+        
+          x
+          
+            10
+          
+        
+        −
+        45
+        
+          x
+          
+            8
+          
+        
+        +
+        630
+        
+          x
+          
+            6
+          
+        
+        −
+        3150
+        
+          x
+          
+            4
+          
+        
+        +
+        4725
+        
+          x
+          
+            2
+          
+        
+        −
+        945
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{10}(x)=x^{10}-45x^{8}+630x^{6}-3150x^{4}+4725x^{2}-945\,}
+  
+
+and the first eleven physicists' Hermite polynomials are:
+
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+        (
+        x
+        )
+        =
+        1
+        
+      
+    
+    {\displaystyle H_{0}(x)=1\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+        (
+        x
+        )
+        =
+        2
+        x
+        
+      
+    
+    {\displaystyle H_{1}(x)=2x\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            2
+          
+        
+        (
+        x
+        )
+        =
+        4
+        
+          x
+          
+            2
+          
+        
+        −
+        2
+        
+      
+    
+    {\displaystyle H_{2}(x)=4x^{2}-2\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            3
+          
+        
+        (
+        x
+        )
+        =
+        8
+        
+          x
+          
+            3
+          
+        
+        −
+        12
+        x
+        
+      
+    
+    {\displaystyle H_{3}(x)=8x^{3}-12x\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            4
+          
+        
+        (
+        x
+        )
+        =
+        16
+        
+          x
+          
+            4
+          
+        
+        −
+        48
+        
+          x
+          
+            2
+          
+        
+        +
+        12
+        
+      
+    
+    {\displaystyle H_{4}(x)=16x^{4}-48x^{2}+12\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            5
+          
+        
+        (
+        x
+        )
+        =
+        32
+        
+          x
+          
+            5
+          
+        
+        −
+        160
+        
+          x
+          
+            3
+          
+        
+        +
+        120
+        x
+        
+      
+    
+    {\displaystyle H_{5}(x)=32x^{5}-160x^{3}+120x\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            6
+          
+        
+        (
+        x
+        )
+        =
+        64
+        
+          x
+          
+            6
+          
+        
+        −
+        480
+        
+          x
+          
+            4
+          
+        
+        +
+        720
+        
+          x
+          
+            2
+          
+        
+        −
+        120
+        
+      
+    
+    {\displaystyle H_{6}(x)=64x^{6}-480x^{4}+720x^{2}-120\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            7
+          
+        
+        (
+        x
+        )
+        =
+        128
+        
+          x
+          
+            7
+          
+        
+        −
+        1344
+        
+          x
+          
+            5
+          
+        
+        +
+        3360
+        
+          x
+          
+            3
+          
+        
+        −
+        1680
+        x
+        
+      
+    
+    {\displaystyle H_{7}(x)=128x^{7}-1344x^{5}+3360x^{3}-1680x\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            8
+          
+        
+        (
+        x
+        )
+        =
+        256
+        
+          x
+          
+            8
+          
+        
+        −
+        3584
+        
+          x
+          
+            6
+          
+        
+        +
+        13440
+        
+          x
+          
+            4
+          
+        
+        −
+        13440
+        
+          x
+          
+            2
+          
+        
+        +
+        1680
+        
+      
+    
+    {\displaystyle H_{8}(x)=256x^{8}-3584x^{6}+13440x^{4}-13440x^{2}+1680\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            9
+          
+        
+        (
+        x
+        )
+        =
+        512
+        
+          x
+          
+            9
+          
+        
+        −
+        9216
+        
+          x
+          
+            7
+          
+        
+        +
+        48384
+        
+          x
+          
+            5
+          
+        
+        −
+        80640
+        
+          x
+          
+            3
+          
+        
+        +
+        30240
+        x
+        
+      
+    
+    {\displaystyle H_{9}(x)=512x^{9}-9216x^{7}+48384x^{5}-80640x^{3}+30240x\,}
+  
+
+  
+    
+      
+        
+          H
+          
+            10
+          
+        
+        (
+        x
+        )
+        =
+        1024
+        
+          x
+          
+            10
+          
+        
+        −
+        23040
+        
+          x
+          
+            8
+          
+        
+        +
+        161280
+        
+          x
+          
+            6
+          
+        
+        −
+        403200
+        
+          x
+          
+            4
+          
+        
+        +
+        302400
+        
+          x
+          
+            2
+          
+        
+        −
+        30240
+        
+      
+    
+    {\displaystyle H_{10}(x)=1024x^{10}-23040x^{8}+161280x^{6}-403200x^{4}+302400x^{2}-30240\,}
+  
+
+
+== Properties ==
+Hn is a polynomial of degree n. The probabilists' version He has leading coefficient 1, while the physicists' version H has leading coefficient 2n.
+
+
+=== Orthogonality ===
+Hn(x) and Hen(x) are nth-degree polynomials for n = 0, 1, 2, 3, .... These polynomials are orthogonal with respect to the weight function (measure)
+
+  
+    
+      
+        w
+        (
+        x
+        )
+        =
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle w(x)=e^{-{\frac {x^{2}}{2}}}}
+        (He)
+or
+
+  
+    
+      
+        w
+        (
+        x
+        )
+        =
+        
+          e
+          
+            −
+            
+              x
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle w(x)=e^{-x^{2}}}
+        (H)
+i.e., we have
+
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          H
+          
+            m
+          
+        
+        (
+        x
+        )
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+        w
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        =
+        0
+        ,
+        
+        m
+        ≠
+        n
+        .
+      
+    
+    {\displaystyle \int _{-\infty }^{\infty }H_{m}(x)H_{n}(x)\,w(x)\,\mathrm {d} x=0,\qquad m\neq n.}
+  
+Furthermore,
+
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            m
+          
+        
+        (
+        x
+        )
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        
+        
+          d
+        
+        x
+        =
+        
+          
+            2
+            π
+          
+        
+        n
+        !
+        
+          δ
+          
+            n
+            m
+          
+        
+      
+    
+    {\displaystyle \int _{-\infty }^{\infty }{\mathit {He}}_{m}(x){\mathit {He}}_{n}(x)\,e^{-{\frac {x^{2}}{2}}}\,\mathrm {d} x={\sqrt {2\pi }}n!\delta _{nm}}
+       (probabilists')
+or
+
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          H
+          
+            m
+          
+        
+        (
+        x
+        )
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+          e
+          
+            −
+            
+              x
+              
+                2
+              
+            
+          
+        
+        
+        
+          d
+        
+        x
+        =
+        
+          
+            π
+          
+        
+        
+          2
+          
+            n
+          
+        
+        n
+        !
+        
+          δ
+          
+            n
+            m
+          
+        
+      
+    
+    {\displaystyle \int _{-\infty }^{\infty }H_{m}(x)H_{n}(x)e^{-x^{2}}\,\mathrm {d} x={\sqrt {\pi }}2^{n}n!\delta _{nm}}
+        (physicists').
+The probabilist polynomials are thus orthogonal with respect to the standard normal probability density function.
+
+
+=== Completeness ===
+The Hermite polynomials (probabilist or physicist) form an orthogonal basis of the Hilbert space of functions satisfying
+
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          |
+        
+        f
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+        w
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        <
+        ∞
+         
+        ,
+      
+    
+    {\displaystyle \int _{-\infty }^{\infty }|f(x)|^{2}\,w(x)\,\mathrm {d} x<\infty ~,}
+  
+in which the inner product is given by the integral including the Gaussian weight function w(x) defined in the preceding section,
+
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        ⟩
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        f
+        (
+        x
+        )
+        
+          
+            
+              g
+              (
+              x
+              )
+            
+            ¯
+          
+        
+        
+        w
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+         
+        .
+      
+    
+    {\displaystyle \langle f,g\rangle =\int _{-\infty }^{\infty }f(x){\overline {g(x)}}\,w(x)\,\mathrm {d} x~.}
+  
+An orthogonal basis for L2(R, w(x) dx) is a complete orthogonal system. For an orthogonal system, completeness is equivalent to the fact that the 0 function is the only function ƒ ∈ L2(R, w(x) dx) orthogonal to all functions in the system.
+Since the linear span of Hermite polynomials is the space of all polynomials, one has to show (in physicist case) that if ƒ satisfies
+
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        f
+        (
+        x
+        )
+        
+          x
+          
+            n
+          
+        
+        
+          e
+          
+            −
+            
+              x
+              
+                2
+              
+            
+          
+        
+        
+        
+          d
+        
+        x
+        =
+        0
+      
+    
+    {\displaystyle \int _{-\infty }^{\infty }f(x)x^{n}e^{-x^{2}}\,\mathrm {d} x=0}
+  
+for every n ≥ 0, then f = 0.
+One possible way to do this is to appreciate that the entire function
+
+  
+    
+      
+        F
+        (
+        z
+        )
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        f
+        (
+        x
+        )
+        
+          e
+          
+            z
+            x
+            −
+            
+              x
+              
+                2
+              
+            
+          
+        
+        
+        
+          d
+        
+        x
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              z
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+        ∫
+        f
+        (
+        x
+        )
+        
+          x
+          
+            n
+          
+        
+        
+          e
+          
+            −
+            
+              x
+              
+                2
+              
+            
+          
+        
+        
+        
+          d
+        
+        x
+        =
+        0
+      
+    
+    {\displaystyle F(z)=\int _{-\infty }^{\infty }f(x)e^{zx-x^{2}}\,\mathrm {d} x=\sum _{n=0}^{\infty }{\frac {z^{n}}{n!}}\int f(x)x^{n}e^{-x^{2}}\,\mathrm {d} x=0}
+  
+vanishes identically. The fact then that F(it) = 0 for every t real means that the Fourier transform of f(x) exp(−x2) is 0, hence f is 0 almost everywhere. Variants of the above completeness proof apply to other weights with exponential decay.
+In the Hermite case, it is also possible to prove an explicit identity that implies completeness (see section on the Completeness relation below).
+An equivalent formulation of the fact that Hermite polynomials are an orthogonal basis for L2(R, w(x) dx) consists in introducing Hermite functions (see below), and in saying that the Hermite functions are an orthonormal basis for L2(R).
+
+
+=== Hermite's differential equation ===
+The probabilists' Hermite polynomials are solutions of the differential equation
+
+  
+    
+      
+        
+          
+            (
+            
+              e
+              
+                −
+                
+                  
+                    
+                      x
+                      
+                        2
+                      
+                    
+                    2
+                  
+                
+              
+            
+            
+              u
+              ′
+            
+            )
+          
+          ′
+        
+        +
+        λ
+        
+          e
+          
+            −
+            
+              
+                1
+                2
+              
+            
+            
+              x
+              
+                2
+              
+            
+          
+        
+        u
+        =
+        0
+      
+    
+    {\displaystyle \left(e^{-{\frac {x^{2}}{2}}}u'\right)'+\lambda e^{-{\frac {1}{2}}x^{2}}u=0}
+  
+where λ is a constant, with the boundary conditions that u should be polynomially bounded at infinity. With these boundary conditions, the equation has solutions only if λ is a non-negative integer, and up to an overall scaling, the solution is uniquely given by u(x) = Heλ(x).
+Rewriting the differential equation as an eigenvalue problem
+
+  
+    
+      
+        L
+        [
+        u
+        ]
+        =
+        
+          u
+          ″
+        
+        −
+        x
+        
+          u
+          ′
+        
+        =
+        −
+        λ
+        u
+         
+        ,
+      
+    
+    {\displaystyle L[u]=u''-xu'=-\lambda u~,}
+  
+solutions are the eigenfunctions of the differential operator L. This eigenvalue problem is called the Hermite equation, although the term is also used for the closely related equation
+
+  
+    
+      
+        
+          u
+          ″
+        
+        −
+        2
+        x
+        
+          u
+          ′
+        
+        =
+        −
+        2
+        λ
+        u
+      
+    
+    {\displaystyle u''-2xu'=-2\lambda u}
+  
+whose solutions are the physicists' Hermite polynomials.
+With more general boundary conditions, the Hermite polynomials can be generalized to obtain more general analytic functions Heλ(z) for λ a complex index. An explicit formula can be given in terms of a contour integral (Courant & Hilbert 1953).
+
+
+=== Recursion relation ===
+The sequence of Hermite polynomials also satisfies the recursion
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            +
+            1
+          
+        
+        (
+        x
+        )
+        =
+        x
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        )
+        −
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+          ′
+        
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle {\mathit {He}}_{n+1}(x)=x{\mathit {He}}_{n}(x)-{\mathit {He}}_{n}'(x).}
+      (probabilists')
+Individual coefficients are related by the following recursion formula,
+
+  
+    
+      
+        
+          a
+          
+            n
+            +
+            1
+            ,
+            k
+          
+        
+        =
+        
+          a
+          
+            n
+            ,
+            k
+            −
+            1
+          
+        
+        −
+        n
+        
+          a
+          
+            n
+            −
+            1
+            ,
+            k
+          
+        
+         
+         
+        k
+        >
+        0
+      
+    
+    {\displaystyle a_{n+1,k}=a_{n,k-1}-na_{n-1,k}\ \ k>0}
+  
+
+  
+    
+      
+        
+          a
+          
+            n
+            +
+            1
+            ,
+            k
+          
+        
+        =
+        −
+        n
+        
+          a
+          
+            n
+            −
+            1
+            ,
+            k
+          
+        
+         
+         
+        k
+        =
+        0
+      
+    
+    {\displaystyle a_{n+1,k}=-na_{n-1,k}\ \ k=0}
+  
+and a[0,0]=1, a[1,0]=0, a[1,1]=1.
+(Assuming 
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          a
+          
+            n
+            ,
+            k
+          
+        
+         
+        
+          x
+          
+            k
+          
+        
+      
+    
+    {\displaystyle H_{n}(x)=\sum \limits _{k=0}^{n}a_{n,k}\ x^{k}}
+  )
+
+  
+    
+      
+        
+          H
+          
+            n
+            +
+            1
+          
+        
+        (
+        x
+        )
+        =
+        2
+        x
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        −
+        
+          H
+          
+            n
+          
+          ′
+        
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle H_{n+1}(x)=2xH_{n}(x)-H_{n}'(x).}
+     (physicists')
+Individual coefficients are related by the following recursion formula,
+
+  
+    
+      
+        
+          a
+          
+            n
+            +
+            1
+            ,
+            k
+          
+        
+        =
+        2
+        
+          a
+          
+            n
+            ,
+            k
+            −
+            1
+          
+        
+        −
+        (
+        k
+        +
+        1
+        )
+        
+          a
+          
+            n
+            ,
+            k
+            +
+            1
+          
+        
+         
+         
+        k
+        >
+        0
+      
+    
+    {\displaystyle a_{n+1,k}=2a_{n,k-1}-(k+1)a_{n,k+1}\ \ k>0}
+  
+
+  
+    
+      
+        
+          a
+          
+            n
+            +
+            1
+            ,
+            k
+          
+        
+        =
+        −
+        
+          a
+          
+            n
+            ,
+            k
+            +
+            1
+          
+        
+         
+         
+        k
+        =
+        0
+      
+    
+    {\displaystyle a_{n+1,k}=-a_{n,k+1}\ \ k=0}
+  
+and a[0,0]=1, a[1,0]=0, a[1,1]=2.
+The Hermite polynomials constitute an Appell sequence, i.e., they are a polynomial sequence satisfying the identity
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+          ′
+        
+        (
+        x
+        )
+        =
+        n
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            −
+            1
+          
+        
+        (
+        x
+        )
+        ,
+        
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{n}'(x)=n{\mathit {He}}_{n-1}(x),\,\!}
+      (probabilists')
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+          ′
+        
+        (
+        x
+        )
+        =
+        2
+        n
+        
+          H
+          
+            n
+            −
+            1
+          
+        
+        (
+        x
+        )
+         
+        .
+      
+    
+    {\displaystyle H_{n}'(x)=2nH_{n-1}(x)~.}
+      (physicists')
+Equivalently, by Taylor expanding,
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        +
+        y
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              k
+            
+            
+              )
+            
+          
+        
+        
+          x
+          
+            n
+            −
+            k
+          
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            k
+          
+        
+        (
+        y
+        )
+        =
+        
+          2
+          
+            −
+            
+              
+                n
+                2
+              
+            
+          
+        
+        ⋅
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              k
+            
+            
+              )
+            
+          
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            −
+            k
+          
+        
+        
+          (
+          x
+          
+            
+              2
+            
+          
+          )
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            k
+          
+        
+        
+          (
+          y
+          
+            
+              2
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{n}(x+y)=\sum _{k=0}^{n}{n \choose k}x^{n-k}{\mathit {He}}_{k}(y)=2^{-{\frac {n}{2}}}\cdot \sum _{k=0}^{n}{n \choose k}{\mathit {He}}_{n-k}\left(x{\sqrt {2}}\right){\mathit {He}}_{k}\left(y{\sqrt {2}}\right)}
+      (probabilists')
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        +
+        y
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              k
+            
+            
+              )
+            
+          
+        
+        
+          H
+          
+            k
+          
+        
+        (
+        x
+        )
+        (
+        2
+        y
+        
+          )
+          
+            (
+            n
+            −
+            k
+            )
+          
+        
+        =
+        
+          2
+          
+            −
+            
+              
+                n
+                2
+              
+            
+          
+        
+        ⋅
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              k
+            
+            
+              )
+            
+          
+        
+        
+          H
+          
+            n
+            −
+            k
+          
+        
+        
+          (
+          x
+          
+            
+              2
+            
+          
+          )
+        
+        
+          H
+          
+            k
+          
+        
+        
+          (
+          y
+          
+            
+              2
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle H_{n}(x+y)=\sum _{k=0}^{n}{n \choose k}H_{k}(x)(2y)^{(n-k)}=2^{-{\frac {n}{2}}}\cdot \sum _{k=0}^{n}{n \choose k}H_{n-k}\left(x{\sqrt {2}}\right)H_{k}\left(y{\sqrt {2}}\right).}
+      (physicists'),
+these umbral identities are self-evident and included in the #differential operator representation detailed below,
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          2
+          
+            n
+          
+        
+        
+          e
+          
+            −
+            
+              D
+              
+                2
+              
+            
+            
+              /
+            
+            4
+          
+        
+        
+          x
+          
+            n
+          
+        
+         
+        ,
+        
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          e
+          
+            −
+            
+              D
+              
+                2
+              
+            
+            
+              /
+            
+            2
+          
+        
+        
+          x
+          
+            n
+          
+        
+         
+        .
+      
+    
+    {\displaystyle H_{n}(x)=2^{n}e^{-D^{2}/4}x^{n}~,\qquad \qquad {\mathit {He}}_{n}(x)=e^{-D^{2}/2}x^{n}~.}
+  
+In consequence, for the m-th derivatives the following relations hold:
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+          
+            (
+            m
+            )
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            
+              n
+              !
+            
+            
+              (
+              n
+              −
+              m
+              )
+              !
+            
+          
+        
+        ⋅
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            −
+            m
+          
+        
+        (
+        x
+        )
+        =
+        m
+        !
+        ⋅
+        
+          
+            
+              (
+            
+            
+              n
+              m
+            
+            
+              )
+            
+          
+        
+        ⋅
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            −
+            m
+          
+        
+        (
+        x
+        )
+        ,
+        
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{n}^{(m)}(x)={\frac {n!}{(n-m)!}}\cdot {\mathit {He}}_{n-m}(x)=m!\cdot {n \choose m}\cdot {\mathit {He}}_{n-m}(x),\,\!}
+      (probabilists')
+
+  
+    
+      
+        
+          
+            
+              H
+            
+          
+          
+            n
+          
+          
+            (
+            m
+            )
+          
+        
+        (
+        x
+        )
+        =
+        
+          2
+          
+            m
+          
+        
+        ⋅
+        
+          
+            
+              n
+              !
+            
+            
+              (
+              n
+              −
+              m
+              )
+              !
+            
+          
+        
+        ⋅
+        
+          
+            
+              H
+            
+          
+          
+            n
+            −
+            m
+          
+        
+        (
+        x
+        )
+        =
+        
+          2
+          
+            m
+          
+        
+        ⋅
+        m
+        !
+        ⋅
+        
+          
+            
+              (
+            
+            
+              n
+              m
+            
+            
+              )
+            
+          
+        
+        ⋅
+        
+          
+            
+              H
+            
+          
+          
+            n
+            −
+            m
+          
+        
+        (
+        x
+        )
+        .
+        
+        
+      
+    
+    {\displaystyle {\mathit {H}}_{n}^{(m)}(x)=2^{m}\cdot {\frac {n!}{(n-m)!}}\cdot {\mathit {H}}_{n-m}(x)=2^{m}\cdot m!\cdot {n \choose m}\cdot {\mathit {H}}_{n-m}(x).\,\!}
+      (physicists')
+It follows that the Hermite polynomials also satisfy the recurrence relation
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            +
+            1
+          
+        
+        (
+        x
+        )
+        =
+        x
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        )
+        −
+        n
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            −
+            1
+          
+        
+        (
+        x
+        )
+        ,
+      
+    
+    {\displaystyle {\mathit {He}}_{n+1}(x)=x{\mathit {He}}_{n}(x)-n{\mathit {He}}_{n-1}(x),}
+     (probabilists')
+
+  
+    
+      
+        
+          H
+          
+            n
+            +
+            1
+          
+        
+        (
+        x
+        )
+        =
+        2
+        x
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        −
+        2
+        n
+        
+          H
+          
+            n
+            −
+            1
+          
+        
+        (
+        x
+        )
+        .
+        
+        
+      
+    
+    {\displaystyle H_{n+1}(x)=2xH_{n}(x)-2nH_{n-1}(x).\,\!}
+      (physicists')
+These last relations, together with the initial polynomials H0(x) and H1(x), can be used in practice to compute the polynomials quickly.
+Turán's inequalities are
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        
+          )
+          
+            2
+          
+        
+        −
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            −
+            1
+          
+        
+        (
+        x
+        )
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            +
+            1
+          
+        
+        (
+        x
+        )
+        =
+        (
+        n
+        −
+        1
+        )
+        !
+        ⋅
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+            −
+            1
+          
+        
+        
+          
+            
+              2
+              
+                n
+                −
+                i
+              
+            
+            
+              i
+              !
+            
+          
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            i
+          
+        
+        (
+        x
+        
+          )
+          
+            2
+          
+        
+        >
+        0.
+      
+    
+    {\displaystyle {\mathit {He}}_{n}(x)^{2}-{\mathit {He}}_{n-1}(x){\mathit {He}}_{n+1}(x)=(n-1)!\cdot \sum _{i=0}^{n-1}{\frac {2^{n-i}}{i!}}{\mathit {He}}_{i}(x)^{2}>0.}
+  
+Moreover, the following multiplication theorem holds,
+
+  
+    
+      
+        
+          
+            
+              H
+            
+          
+          
+            n
+          
+        
+        (
+        γ
+        x
+        )
+        =
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            ⌊
+            
+              
+                
+                  n
+                  2
+                
+              
+            
+            ⌋
+          
+        
+        
+          γ
+          
+            n
+            −
+            2
+            i
+          
+        
+        (
+        
+          γ
+          
+            2
+          
+        
+        −
+        1
+        
+          )
+          
+            i
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              
+                2
+                i
+              
+            
+            
+              )
+            
+          
+        
+        
+          
+            
+              (
+              2
+              i
+              )
+              !
+            
+            
+              i
+              !
+            
+          
+        
+        
+          
+            
+              H
+            
+          
+          
+            n
+            −
+            2
+            i
+          
+        
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle {\mathit {H}}_{n}(\gamma x)=\sum _{i=0}^{\lfloor {\tfrac {n}{2}}\rfloor }\gamma ^{n-2i}(\gamma ^{2}-1)^{i}{n \choose 2i}{\frac {(2i)!}{i!}}{\mathit {H}}_{n-2i}(x).}
+  
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        γ
+        x
+        )
+        =
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            ⌊
+            
+              
+                
+                  n
+                  2
+                
+              
+            
+            ⌋
+          
+        
+        
+          γ
+          
+            n
+            −
+            2
+            i
+          
+        
+        (
+        
+          γ
+          
+            2
+          
+        
+        −
+        1
+        
+          )
+          
+            i
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              
+                2
+                i
+              
+            
+            
+              )
+            
+          
+        
+        
+          
+            
+              (
+              2
+              i
+              )
+              !
+            
+            
+              i
+              !
+            
+          
+        
+        
+          2
+          
+            −
+            i
+          
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            −
+            2
+            i
+          
+        
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle {\mathit {He}}_{n}(\gamma x)=\sum _{i=0}^{\lfloor {\tfrac {n}{2}}\rfloor }\gamma ^{n-2i}(\gamma ^{2}-1)^{i}{n \choose 2i}{\frac {(2i)!}{i!}}2^{-i}{\mathit {He}}_{n-2i}(x).}
+  
+
+
+=== Explicit expression ===
+The physicists' Hermite polynomials can be written explicitly as
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        n
+        !
+        
+          ∑
+          
+            ℓ
+            =
+            0
+          
+          
+            
+              
+                n
+                2
+              
+            
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  
+                    
+                      
+                        n
+                        2
+                      
+                    
+                  
+                  −
+                  ℓ
+                
+              
+            
+            
+              (
+              2
+              ℓ
+              )
+              !
+              
+                (
+                
+                  
+                    
+                      n
+                      2
+                    
+                  
+                
+                −
+                ℓ
+                )
+              
+              !
+            
+          
+        
+        (
+        2
+        x
+        
+          )
+          
+            2
+            ℓ
+          
+        
+      
+    
+    {\displaystyle H_{n}(x)=n!\sum _{\ell =0}^{\tfrac {n}{2}}{\frac {(-1)^{{\tfrac {n}{2}}-\ell }}{(2\ell )!\left({\tfrac {n}{2}}-\ell \right)!}}(2x)^{2\ell }}
+  
+for even value of n and
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        n
+        !
+        
+          ∑
+          
+            ℓ
+            =
+            0
+          
+          
+            
+              
+                n
+                −
+                1
+              
+              2
+            
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  
+                    
+                      
+                        n
+                        −
+                        1
+                      
+                      2
+                    
+                  
+                  −
+                  ℓ
+                
+              
+            
+            
+              (
+              2
+              ℓ
+              +
+              1
+              )
+              !
+              
+                (
+                
+                  
+                    
+                      n
+                      −
+                      1
+                    
+                    2
+                  
+                
+                −
+                ℓ
+                )
+              
+              !
+            
+          
+        
+        (
+        2
+        x
+        
+          )
+          
+            2
+            ℓ
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle H_{n}(x)=n!\sum _{\ell =0}^{\frac {n-1}{2}}{\frac {(-1)^{{\frac {n-1}{2}}-\ell }}{(2\ell +1)!\left({\frac {n-1}{2}}-\ell \right)!}}(2x)^{2\ell +1}}
+  
+for odd values of n.
+These two equations may be combined into one using the floor function,
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        n
+        !
+        
+          ∑
+          
+            m
+            =
+            0
+          
+          
+            ⌊
+            
+              
+                
+                  n
+                  2
+                
+              
+            
+            ⌋
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  m
+                
+              
+            
+            
+              m
+              !
+              (
+              n
+              −
+              2
+              m
+              )
+              !
+            
+          
+        
+        (
+        2
+        x
+        
+          )
+          
+            n
+            −
+            2
+            m
+          
+        
+        .
+      
+    
+    {\displaystyle H_{n}(x)=n!\sum _{m=0}^{\lfloor {\tfrac {n}{2}}\rfloor }{\frac {(-1)^{m}}{m!(n-2m)!}}(2x)^{n-2m}.}
+  
+The probabilists' Hermite polynomials He have similar formulas, which may be obtained from these by replacing the power of 2x with the corresponding power of (√2)x, and multiplying the entire sum by 2−n/2.
+
+  
+    
+      
+        H
+        
+          e
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        n
+        !
+        
+          ∑
+          
+            m
+            =
+            0
+          
+          
+            ⌊
+            
+              
+                
+                  n
+                  2
+                
+              
+            
+            ⌋
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  m
+                
+              
+            
+            
+              m
+              !
+              (
+              n
+              −
+              2
+              m
+              )
+              !
+            
+          
+        
+        
+          
+            
+              x
+              
+                n
+                −
+                2
+                m
+              
+            
+            
+              2
+              
+                m
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle He_{n}(x)=n!\sum _{m=0}^{\lfloor {\tfrac {n}{2}}\rfloor }{\frac {(-1)^{m}}{m!(n-2m)!}}{\frac {x^{n-2m}}{2^{m}}}.}
+  
+
+
+=== Inverse explicit expression ===
+The inverse of the above explicit expressions, that is, those for monomials in terms of probabilists’ Hermite polynomials, He, are
+
+  
+    
+      
+        
+          x
+          
+            n
+          
+        
+        =
+        n
+        !
+        
+          ∑
+          
+            m
+            =
+            0
+          
+          
+            ⌊
+            
+              
+                
+                  n
+                  2
+                
+              
+            
+            ⌋
+          
+        
+        
+          
+            1
+            
+              
+                2
+                
+                  m
+                
+              
+               
+              m
+              !
+              (
+              n
+              −
+              2
+              m
+              )
+              !
+            
+          
+        
+         
+        H
+        
+          e
+          
+            n
+            −
+            2
+            m
+          
+        
+        (
+        x
+        )
+         
+        .
+      
+    
+    {\displaystyle x^{n}=n!\sum _{m=0}^{\lfloor {\tfrac {n}{2}}\rfloor }{\frac {1}{2^{m}~m!(n-2m)!}}~He_{n-2m}(x)~.}
+  
+The corresponding expressions for the physicists’ Hermite polynomials, H, follow directly by properly scaling this,
+
+  
+    
+      
+        
+          x
+          
+            n
+          
+        
+        =
+        
+          
+            
+              n
+              !
+            
+            
+              2
+              
+                n
+              
+            
+          
+        
+        
+          ∑
+          
+            m
+            =
+            0
+          
+          
+            ⌊
+            
+              
+                
+                  n
+                  2
+                
+              
+            
+            ⌋
+          
+        
+        
+          
+            1
+            
+              m
+              !
+              (
+              n
+              −
+              2
+              m
+              )
+              !
+            
+          
+        
+         
+        
+          H
+          
+            n
+            −
+            2
+            m
+          
+        
+        (
+        x
+        )
+         
+        .
+      
+    
+    {\displaystyle x^{n}={\frac {n!}{2^{n}}}\sum _{m=0}^{\lfloor {\tfrac {n}{2}}\rfloor }{\frac {1}{m!(n-2m)!}}~H_{n-2m}(x)~.}
+  
+
+
+=== Generating function ===
+The Hermite polynomials are given by the exponential generating function
+
+  
+    
+      
+        exp
+        ⁡
+        (
+        x
+        t
+        −
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          t
+          
+            2
+          
+        
+        )
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+          
+            
+              t
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+      
+    
+    {\displaystyle \exp(xt-{\tfrac {1}{2}}t^{2})=\sum _{n=0}^{\infty }{\mathit {He}}_{n}(x){\frac {t^{n}}{n!}}}
+      (probabilists')
+
+  
+    
+      
+        exp
+        ⁡
+        (
+        2
+        x
+        t
+        −
+        
+          t
+          
+            2
+          
+        
+        )
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+          
+            
+              t
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+        
+        
+      
+    
+    {\displaystyle \exp(2xt-t^{2})=\sum _{n=0}^{\infty }H_{n}(x){\frac {t^{n}}{n!}}\,\!}
+      (physicists').
+This equality is valid for all x, t complex, and can be obtained by writing the Taylor expansion at x of the entire function z → exp(−z2) (in physicist's case). One can also derive the (physicist's) generating function by using Cauchy's Integral Formula to write the Hermite polynomials as
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          e
+          
+            
+              x
+              
+                2
+              
+            
+          
+        
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+        
+          e
+          
+            −
+            
+              x
+              
+                2
+              
+            
+          
+        
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          e
+          
+            
+              x
+              
+                2
+              
+            
+          
+        
+        
+          
+            
+              n
+              !
+            
+            
+              2
+              π
+              i
+            
+          
+        
+        
+          ∮
+          
+            γ
+          
+        
+        
+          
+            
+              e
+              
+                −
+                
+                  z
+                  
+                    2
+                  
+                
+              
+            
+            
+              (
+              z
+              −
+              x
+              
+                )
+                
+                  n
+                  +
+                  1
+                
+              
+            
+          
+        
+        
+        d
+        z
+        .
+      
+    
+    {\displaystyle H_{n}(x)=(-1)^{n}e^{x^{2}}{\frac {d^{n}}{dx^{n}}}e^{-x^{2}}=(-1)^{n}e^{x^{2}}{n! \over 2\pi i}\oint _{\gamma }{e^{-z^{2}} \over (z-x)^{n+1}}\,dz.}
+  
+Using this in the sum
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+          
+            
+              t
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \sum _{n=0}^{\infty }H_{n}(x){\frac {t^{n}}{n!}},}
+  
+one can evaluate the remaining integral using the calculus of residues and arrive at the desired generating function.
+
+
+=== Expected values ===
+If X is a random variable with a normal distribution with standard deviation 1 and expected value μ, then
+
+  
+    
+      
+        E
+        (
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        X
+        )
+        )
+        =
+        
+          μ
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle E({\mathit {He}}_{n}(X))=\mu ^{n}.}
+      (probabilists')
+The moments of the standard normal may be read off directly from the relation for even indices
+
+  
+    
+      
+        E
+        (
+        
+          X
+          
+            2
+            n
+          
+        
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            2
+            n
+          
+        
+        (
+        0
+        )
+        =
+        (
+        2
+        n
+        −
+        1
+        )
+        !
+        !
+      
+    
+    {\displaystyle E(X^{2n})=(-1)^{n}{\mathit {He}}_{2n}(0)=(2n-1)!!}
+  
+where 
+  
+    
+      
+        (
+        2
+        n
+        −
+        1
+        )
+        !
+        !
+      
+    
+    {\displaystyle (2n-1)!!}
+   is the double factorial. Note that the above expression is a special case of the representation of the probabilists' Hermite polynomials as moments
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        (
+        x
+        +
+        i
+        y
+        
+          )
+          
+            n
+          
+        
+        
+          e
+          
+            −
+            
+              
+                
+                  y
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        
+        
+          d
+        
+        y
+        
+          /
+        
+        
+          
+            2
+            π
+          
+        
+        .
+      
+    
+    {\displaystyle {\mathit {He}}_{n}(x)=\int _{-\infty }^{\infty }(x+iy)^{n}e^{-{\frac {y^{2}}{2}}}\,\mathrm {d} y/{\sqrt {2\pi }}.}
+  
+
+
+=== Asymptotic expansion ===
+Asymptotically, as n → ∞, the expansion
+
+  
+    
+      
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        ⋅
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        ∼
+        
+          
+            
+              2
+              
+                n
+              
+            
+            
+              π
+            
+          
+        
+        Γ
+        
+          (
+          
+            
+              
+                n
+                +
+                1
+              
+              2
+            
+          
+          )
+        
+        cos
+        ⁡
+        
+          (
+          x
+          
+            
+              2
+              n
+            
+          
+          −
+          n
+          
+            
+              π
+              2
+            
+          
+          )
+        
+      
+    
+    {\displaystyle e^{-{\frac {x^{2}}{2}}}\cdot H_{n}(x)\sim {\frac {2^{n}}{\sqrt {\pi }}}\Gamma \left({\frac {n+1}{2}}\right)\cos \left(x{\sqrt {2n}}-n{\frac {\pi }{2}}\right)}
+     (physicist)
+holds true. For certain cases concerning a wider range of evaluation, it is necessary to include a factor for changing amplitude
+
+  
+    
+      
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        ⋅
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        ∼
+        
+          
+            
+              2
+              
+                n
+              
+            
+            
+              π
+            
+          
+        
+        Γ
+        
+          (
+          
+            
+              
+                n
+                +
+                1
+              
+              2
+            
+          
+          )
+        
+        cos
+        ⁡
+        
+          (
+          x
+          
+            
+              2
+              n
+            
+          
+          −
+          n
+          
+            
+              π
+              2
+            
+          
+          )
+        
+        
+          
+            (
+            1
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                
+                  2
+                  n
+                
+              
+            
+            )
+          
+          
+            −
+            
+              
+                1
+                4
+              
+            
+          
+        
+        =
+        
+          
+            
+              2
+              Γ
+              
+                (
+                n
+                )
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    n
+                    2
+                  
+                
+                )
+              
+            
+          
+        
+        cos
+        ⁡
+        
+          (
+          x
+          
+            
+              2
+              n
+            
+          
+          −
+          n
+          
+            
+              π
+              2
+            
+          
+          )
+        
+        
+          
+            (
+            1
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                
+                  2
+                  n
+                
+              
+            
+            )
+          
+          
+            −
+            
+              
+                1
+                4
+              
+            
+          
+        
+      
+    
+    {\displaystyle e^{-{\frac {x^{2}}{2}}}\cdot H_{n}(x)\sim {\frac {2^{n}}{\sqrt {\pi }}}\Gamma \left({\frac {n+1}{2}}\right)\cos \left(x{\sqrt {2n}}-n{\frac {\pi }{2}}\right)\left(1-{\frac {x^{2}}{2n}}\right)^{-{\frac {1}{4}}}={\frac {2\Gamma \left(n\right)}{\Gamma \left({\frac {n}{2}}\right)}}\cos \left(x{\sqrt {2n}}-n{\frac {\pi }{2}}\right)\left(1-{\frac {x^{2}}{2n}}\right)^{-{\frac {1}{4}}}}
+  
+Which, using Stirling's approximation, can be further simplified, in the limit, to
+
+  
+    
+      
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        ⋅
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        ∼
+        
+          
+            (
+            
+              
+                
+                  2
+                  n
+                
+                e
+              
+            
+            )
+          
+          
+            
+              n
+              2
+            
+          
+        
+        
+          
+            2
+          
+        
+        cos
+        ⁡
+        
+          (
+          x
+          
+            
+              2
+              n
+            
+          
+          −
+          n
+          
+            
+              π
+              2
+            
+          
+          )
+        
+        
+          
+            (
+            1
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                
+                  2
+                  n
+                
+              
+            
+            )
+          
+          
+            −
+            
+              
+                1
+                4
+              
+            
+          
+        
+      
+    
+    {\displaystyle e^{-{\frac {x^{2}}{2}}}\cdot H_{n}(x)\sim \left({\frac {2n}{e}}\right)^{\frac {n}{2}}{\sqrt {2}}\cos \left(x{\sqrt {2n}}-n{\frac {\pi }{2}}\right)\left(1-{\frac {x^{2}}{2n}}\right)^{-{\frac {1}{4}}}}
+  
+This expansion is needed to resolve the wave-function of a quantum harmonic oscillator such that it agrees with the classical approximation in the limit of the correspondence principle. A better approximation, which accounts for the variation in frequency is given by
+
+  
+    
+      
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        ⋅
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        ∼
+        
+          
+            (
+            
+              
+                
+                  2
+                  n
+                
+                e
+              
+            
+            )
+          
+          
+            
+              n
+              2
+            
+          
+        
+        
+          
+            2
+          
+        
+        cos
+        ⁡
+        
+          (
+          x
+          
+            
+              2
+              n
+              +
+              1
+              −
+              
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  3
+                
+              
+            
+          
+          −
+          n
+          
+            
+              π
+              2
+            
+          
+          )
+        
+        
+          
+            (
+            1
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                
+                  2
+                  n
+                
+              
+            
+            )
+          
+          
+            −
+            
+              
+                1
+                4
+              
+            
+          
+        
+      
+    
+    {\displaystyle e^{-{\frac {x^{2}}{2}}}\cdot H_{n}(x)\sim \left({\frac {2n}{e}}\right)^{\frac {n}{2}}{\sqrt {2}}\cos \left(x{\sqrt {2n+1-{\frac {x^{2}}{3}}}}-n{\frac {\pi }{2}}\right)\left(1-{\frac {x^{2}}{2n}}\right)^{-{\frac {1}{4}}}}
+  
+A finer approximation, which takes into account the uneven spacing of the zeros near the edges, makes use of the substitution
+
+  
+    
+      
+        x
+        =
+        
+          
+            2
+            n
+            +
+            1
+          
+        
+        cos
+        ⁡
+        (
+        ϕ
+        )
+        ,
+        
+        0
+        <
+        ϵ
+        ≤
+        ϕ
+        ≤
+        π
+        −
+        ϵ
+         
+        ,
+      
+    
+    {\displaystyle x={\sqrt {2n+1}}\cos(\phi ),\qquad 0<\epsilon \leq \phi \leq \pi -\epsilon ~,}
+  
+with which one has the uniform approximation
+
+  
+    
+      
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        ⋅
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          2
+          
+            
+              
+                
+                  n
+                  2
+                
+              
+            
+            +
+            
+              
+                1
+                4
+              
+            
+          
+        
+        
+          
+            n
+            !
+          
+        
+        (
+        π
+        n
+        
+          )
+          
+            −
+            
+              
+                1
+                4
+              
+            
+          
+        
+        (
+        sin
+        ⁡
+        ϕ
+        
+          )
+          
+            −
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+          
+        
+        ⋅
+        
+          [
+          sin
+          ⁡
+          
+            (
+            
+              (
+              
+                
+                  n
+                  2
+                
+              
+              +
+              
+                
+                  1
+                  4
+                
+              
+              )
+            
+            
+              (
+              sin
+              ⁡
+              (
+              2
+              ϕ
+              )
+              −
+              2
+              ϕ
+              )
+            
+            +
+            
+              
+                
+                  3
+                  π
+                
+                4
+              
+            
+            )
+          
+          +
+          O
+          (
+          
+            n
+            
+              −
+              1
+            
+          
+          )
+          ]
+        
+         
+        .
+      
+    
+    {\displaystyle e^{-{\frac {x^{2}}{2}}}\cdot H_{n}(x)=2^{{\tfrac {n}{2}}+{\frac {1}{4}}}{\sqrt {n!}}(\pi n)^{-{\frac {1}{4}}}(\sin \phi )^{-{\tfrac {1}{2}}}\cdot \left[\sin \left(\left({\frac {n}{2}}+{\frac {1}{4}}\right)\left(\sin(2\phi )-2\phi \right)+{\frac {3\pi }{4}}\right)+O(n^{-1})\right]~.}
+  
+Similar approximations hold for the monotonic and transition regions. Specifically, if
+
+  
+    
+      
+        x
+        =
+        
+          
+            2
+            n
+            +
+            1
+          
+        
+        cosh
+        ⁡
+        (
+        ϕ
+        )
+        ,
+        
+        0
+        <
+        ϵ
+        ≤
+        ϕ
+        ≤
+        ω
+        <
+        ∞
+         
+        ,
+      
+    
+    {\displaystyle x={\sqrt {2n+1}}\cosh(\phi ),\qquad 0<\epsilon \leq \phi \leq \omega <\infty ~,}
+  
+then
+
+  
+    
+      
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        ⋅
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          2
+          
+            
+              
+                
+                  n
+                  2
+                
+              
+            
+            −
+            
+              
+                3
+                4
+              
+            
+          
+        
+        
+          
+            n
+            !
+          
+        
+        (
+        π
+        n
+        
+          )
+          
+            −
+            
+              
+                1
+                4
+              
+            
+          
+        
+        (
+        sinh
+        ⁡
+        ϕ
+        
+          )
+          
+            −
+            
+              
+                1
+                2
+              
+            
+          
+        
+        ⋅
+        exp
+        ⁡
+        
+          (
+          
+            (
+            
+              
+                n
+                2
+              
+            
+            +
+            
+              
+                1
+                4
+              
+            
+            )
+          
+          
+            (
+            2
+            ϕ
+            −
+            sinh
+            ⁡
+            (
+            2
+            ϕ
+            )
+            )
+          
+          )
+        
+        
+          [
+          1
+          +
+          O
+          (
+          
+            n
+            
+              −
+              1
+            
+          
+          )
+          ]
+        
+        ,
+      
+    
+    {\displaystyle e^{-{\frac {x^{2}}{2}}}\cdot H_{n}(x)=2^{{\tfrac {n}{2}}-{\frac {3}{4}}}{\sqrt {n!}}(\pi n)^{-{\frac {1}{4}}}(\sinh \phi )^{-{\frac {1}{2}}}\cdot \exp \left(\left({\frac {n}{2}}+{\frac {1}{4}}\right)\left(2\phi -\sinh(2\phi )\right)\right)\left[1+O(n^{-1})\right],}
+  
+while for
+
+  
+    
+      
+        x
+        =
+        
+          
+            2
+            n
+            +
+            1
+          
+        
+        −
+        
+          2
+          
+            −
+            
+              
+                1
+                2
+              
+            
+          
+        
+        
+          3
+          
+            −
+            1
+            
+              /
+            
+            3
+          
+        
+        
+          n
+          
+            −
+            1
+            
+              /
+            
+            6
+          
+        
+        t
+      
+    
+    {\displaystyle x={\sqrt {2n+1}}-2^{-{\frac {1}{2}}}3^{-1/3}n^{-1/6}t}
+  
+with t complex and bounded, then
+
+  
+    
+      
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        ⋅
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          π
+          
+            
+              1
+              4
+            
+          
+        
+        
+          2
+          
+            
+              
+                
+                  n
+                  2
+                
+              
+            
+            +
+            
+              
+                1
+                4
+              
+            
+          
+        
+        
+          
+            n
+            !
+          
+        
+        
+          n
+          
+            −
+            1
+            
+              /
+            
+            12
+          
+        
+        
+          [
+          
+            A
+            i
+          
+          (
+          −
+          
+            3
+            
+              −
+              1
+              
+                /
+              
+              3
+            
+          
+          t
+          )
+          +
+          O
+          (
+          
+            n
+            
+              −
+              2
+              
+                /
+              
+              3
+            
+          
+          )
+          ]
+        
+      
+    
+    {\displaystyle e^{-{\frac {x^{2}}{2}}}\cdot H_{n}(x)=\pi ^{\frac {1}{4}}2^{{\tfrac {n}{2}}+{\frac {1}{4}}}{\sqrt {n!}}n^{-1/12}\left[\mathrm {Ai} (-3^{-1/3}t)+O(n^{-2/3})\right]}
+  
+where Ai(·) is the Airy function of the first kind.
+
+
+=== Special Values ===
+The Hermite polynomials evaluated at zero argument 
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        0
+        )
+      
+    
+    {\displaystyle H_{n}(0)}
+   are called Hermite numbers.
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        0
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  0
+                  ,
+                
+                
+                  
+                    if 
+                  
+                  n
+                  
+                     is odd
+                  
+                
+              
+              
+                
+                  (
+                  −
+                  1
+                  
+                    )
+                    
+                      
+                        
+                          n
+                          2
+                        
+                      
+                    
+                  
+                  
+                    2
+                    
+                      
+                        
+                          n
+                          2
+                        
+                      
+                    
+                  
+                  (
+                  n
+                  −
+                  1
+                  )
+                  !
+                  !
+                  ,
+                
+                
+                  
+                    if 
+                  
+                  n
+                  
+                     is even
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle H_{n}(0)={\begin{cases}0,&{\mbox{if }}n{\mbox{ is odd}}\\(-1)^{\tfrac {n}{2}}2^{\tfrac {n}{2}}(n-1)!!,&{\mbox{if }}n{\mbox{ is even}}\end{cases}}}
+  
+which satisfy the recursion relation 
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        0
+        )
+        =
+        −
+        2
+        (
+        n
+        −
+        1
+        )
+        
+          H
+          
+            n
+            −
+            2
+          
+        
+        (
+        0
+        )
+      
+    
+    {\displaystyle H_{n}(0)=-2(n-1)H_{n-2}(0)}
+  . In terms of the probabilist's polynomials this translates to
+
+  
+    
+      
+        H
+        
+          e
+          
+            n
+          
+        
+        (
+        0
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  0
+                  ,
+                
+                
+                  
+                    if 
+                  
+                  n
+                  
+                     is odd
+                  
+                
+              
+              
+                
+                  (
+                  −
+                  1
+                  
+                    )
+                    
+                      
+                        
+                          n
+                          2
+                        
+                      
+                    
+                  
+                  (
+                  n
+                  −
+                  1
+                  )
+                  !
+                  !
+                
+                
+                  
+                    if 
+                  
+                  n
+                  
+                     is even
+                  
+                  .
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle He_{n}(0)={\begin{cases}0,&{\mbox{if }}n{\mbox{ is odd}}\\(-1)^{\tfrac {n}{2}}(n-1)!!&{\mbox{if }}n{\mbox{ is even}}.\end{cases}}}
+  
+
+
+== Relations to other functions ==
+
+
+=== Laguerre polynomials ===
+The Hermite polynomials can be expressed as a special case of the Laguerre polynomials.
+
+  
+    
+      
+        
+          H
+          
+            2
+            n
+          
+        
+        (
+        x
+        )
+        =
+        (
+        −
+        4
+        
+          )
+          
+            n
+          
+        
+        
+        n
+        !
+        
+        
+          L
+          
+            n
+          
+          
+            (
+            −
+            
+              
+                1
+                2
+              
+            
+            )
+          
+        
+        (
+        
+          x
+          
+            2
+          
+        
+        )
+        =
+        
+          4
+          
+            n
+          
+        
+        
+        n
+        !
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+          
+        
+        (
+        −
+        1
+        
+          )
+          
+            n
+            −
+            i
+          
+        
+        
+          
+            
+              (
+            
+            
+              
+                n
+                −
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              
+                n
+                −
+                i
+              
+            
+            
+              )
+            
+          
+        
+        
+          
+            
+              x
+              
+                2
+                i
+              
+            
+            
+              i
+              !
+            
+          
+        
+      
+    
+    {\displaystyle H_{2n}(x)=(-4)^{n}\,n!\,L_{n}^{(-{\frac {1}{2}})}(x^{2})=4^{n}\,n!\sum _{i=0}^{n}(-1)^{n-i}{n-{\frac {1}{2}} \choose n-i}{\frac {x^{2i}}{i!}}}
+      (physicists')
+
+  
+    
+      
+        
+          H
+          
+            2
+            n
+            +
+            1
+          
+        
+        (
+        x
+        )
+        =
+        2
+        (
+        −
+        4
+        
+          )
+          
+            n
+          
+        
+        
+        n
+        !
+        
+        x
+        
+        
+          L
+          
+            n
+          
+          
+            (
+            
+              
+                1
+                2
+              
+            
+            )
+          
+        
+        (
+        
+          x
+          
+            2
+          
+        
+        )
+        =
+        2
+        ⋅
+        
+          4
+          
+            n
+          
+        
+        
+        n
+        !
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+          
+        
+        (
+        −
+        1
+        
+          )
+          
+            n
+            −
+            i
+          
+        
+        
+          
+            
+              (
+            
+            
+              
+                n
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              
+                n
+                −
+                i
+              
+            
+            
+              )
+            
+          
+        
+        
+          
+            
+              x
+              
+                2
+                i
+                +
+                1
+              
+            
+            
+              i
+              !
+            
+          
+        
+      
+    
+    {\displaystyle H_{2n+1}(x)=2(-4)^{n}\,n!\,x\,L_{n}^{({\frac {1}{2}})}(x^{2})=2\cdot 4^{n}\,n!\sum _{i=0}^{n}(-1)^{n-i}{n+{\frac {1}{2}} \choose n-i}{\frac {x^{2i+1}}{i!}}}
+      (physicists')
+
+
+=== Relation to confluent hypergeometric functions ===
+The Hermite polynomials can be expressed as a special case of the parabolic cylinder functions.
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          2
+          
+            n
+          
+        
+        
+        U
+        
+          (
+          −
+          
+            
+              n
+              2
+            
+          
+          ,
+          
+            
+              1
+              2
+            
+          
+          ,
+          
+            x
+            
+              2
+            
+          
+          )
+        
+      
+    
+    {\displaystyle H_{n}(x)=2^{n}\,U\left(-{\frac {n}{2}},{\frac {1}{2}},x^{2}\right)}
+      (physicists')
+where 
+  
+    
+      
+        U
+        (
+        a
+        ,
+        b
+        ,
+        z
+        )
+      
+    
+    {\displaystyle U(a,b,z)}
+   is Whittaker's confluent hypergeometric function. Similarly,
+
+  
+    
+      
+        
+          H
+          
+            2
+            n
+          
+        
+        (
+        x
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+        
+          
+            
+              (
+              2
+              n
+              )
+              !
+            
+            
+              n
+              !
+            
+          
+        
+        
+          
+          
+            1
+          
+        
+        
+          F
+          
+            1
+          
+        
+        
+          (
+          −
+          n
+          ,
+          
+            
+              1
+              2
+            
+          
+          ;
+          
+            x
+            
+              2
+            
+          
+          )
+        
+      
+    
+    {\displaystyle H_{2n}(x)=(-1)^{n}\,{\frac {(2n)!}{n!}}\,_{1}F_{1}\left(-n,{\frac {1}{2}};x^{2}\right)}
+      (physicists')
+
+  
+    
+      
+        
+          H
+          
+            2
+            n
+            +
+            1
+          
+        
+        (
+        x
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+        
+          
+            
+              (
+              2
+              n
+              +
+              1
+              )
+              !
+            
+            
+              n
+              !
+            
+          
+        
+        
+        2
+        x
+        
+          
+          
+            1
+          
+        
+        
+          F
+          
+            1
+          
+        
+        
+          (
+          −
+          n
+          ,
+          
+            
+              3
+              2
+            
+          
+          ;
+          
+            x
+            
+              2
+            
+          
+          )
+        
+      
+    
+    {\displaystyle H_{2n+1}(x)=(-1)^{n}\,{\frac {(2n+1)!}{n!}}\,2x\,_{1}F_{1}\left(-n,{\frac {3}{2}};x^{2}\right)}
+      (physicists')
+where 
+  
+    
+      
+        
+          
+          
+            1
+          
+        
+        
+          F
+          
+            1
+          
+        
+        (
+        a
+        ,
+        b
+        ;
+        z
+        )
+        =
+        M
+        (
+        a
+        ,
+        b
+        ;
+        z
+        )
+      
+    
+    {\displaystyle \,_{1}F_{1}(a,b;z)=M(a,b;z)}
+   is Kummer's confluent hypergeometric function.
+
+
+== Differential operator representation ==
+The probabilists' Hermite polynomials satisfy the identity
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          e
+          
+            −
+            
+              
+                
+                  D
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle {\mathit {He}}_{n}(x)=e^{-{\frac {D^{2}}{2}}}x^{n},}
+  
+where D represents differentiation with respect to x, and the exponential is interpreted by expanding it as a power series. There are no delicate questions of convergence of this series when it operates on polynomials, since all but finitely many terms vanish.
+Since the power series coefficients of the exponential are well known, and higher order derivatives of the monomial xn can be written down explicitly, this differential operator representation gives rise to a concrete formula for the coefficients of Hn that can be used to quickly compute these polynomials.
+Since the formal expression for the Weierstrass transform W is eD2, we see that the Weierstrass transform of (√2)nHen(x/√2) is xn. Essentially the Weierstrass transform thus turns a series of Hermite polynomials into a corresponding Maclaurin series.
+The existence of some formal power series g(D) with nonzero constant coefficient, such that Hen(x) = g(D) xn, is another equivalent to the statement that these polynomials form an Appell sequence. Since they are an Appell sequence, they are a fortiori a Sheffer sequence.
+
+
+== Contour integral representation ==
+From the generating function representation above, we see that the Hermite polynomials have a representation in terms of a contour integral, as
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            
+              n
+              !
+            
+            
+              2
+              π
+              i
+            
+          
+        
+        
+          ∮
+          
+            C
+          
+        
+        
+          
+            
+              e
+              
+                t
+                x
+                −
+                
+                  
+                    
+                      t
+                      
+                        2
+                      
+                    
+                    2
+                  
+                
+              
+            
+            
+              t
+              
+                n
+                +
+                1
+              
+            
+          
+        
+        
+        d
+        t
+      
+    
+    {\displaystyle {\mathit {He}}_{n}(x)={\frac {n!}{2\pi i}}\oint _{C}{\frac {e^{tx-{\frac {t^{2}}{2}}}}{t^{n+1}}}\,dt}
+      (probabilists')
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            
+              n
+              !
+            
+            
+              2
+              π
+              i
+            
+          
+        
+        
+          ∮
+          
+            C
+          
+        
+        
+          
+            
+              e
+              
+                2
+                t
+                x
+                −
+                
+                  t
+                  
+                    2
+                  
+                
+              
+            
+            
+              t
+              
+                n
+                +
+                1
+              
+            
+          
+        
+        
+        d
+        t
+      
+    
+    {\displaystyle H_{n}(x)={\frac {n!}{2\pi i}}\oint _{C}{\frac {e^{2tx-t^{2}}}{t^{n+1}}}\,dt}
+      (physicists')
+with the contour encircling the origin.
+
+
+== Generalizations ==
+The (probabilists') Hermite polynomials defined above are orthogonal with respect to the standard normal probability distribution, whose density function is
+
+  
+    
+      
+        
+          
+            1
+            
+              2
+              π
+            
+          
+        
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle {\frac {1}{\sqrt {2\pi }}}e^{-{\frac {x^{2}}{2}}}~,}
+  
+which has expected value 0 and variance 1.
+Scaling, one may analogously speak of generalized Hermite polynomials
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+          
+            [
+            α
+            ]
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle {\mathit {He}}_{n}^{[\alpha ]}(x)}
+  
+of variance α, where α is any positive number. These are then orthogonal with respect to the normal probability distribution whose density function is
+
+  
+    
+      
+        (
+        2
+        π
+        α
+        
+          )
+          
+            −
+            
+              
+                1
+                2
+              
+            
+          
+        
+        
+          e
+          
+            −
+            
+              x
+              
+                2
+              
+            
+            
+              /
+            
+            (
+            2
+            α
+            )
+          
+        
+         
+        .
+      
+    
+    {\displaystyle (2\pi \alpha )^{-{\frac {1}{2}}}e^{-x^{2}/(2\alpha )}~.}
+  
+They are given by
+
+  
+    
+      
+        
+          
+            
+              He
+            
+          
+          
+            n
+          
+          
+            [
+            α
+            ]
+          
+        
+        (
+        x
+        )
+        =
+        
+          α
+          
+            
+              
+                n
+                2
+              
+            
+          
+        
+        
+          
+            
+              He
+            
+          
+          
+            n
+          
+        
+        
+          (
+          
+            
+              x
+              
+                α
+              
+            
+          
+          )
+        
+        =
+        
+          
+            (
+            
+              
+                α
+                2
+              
+            
+            )
+          
+          
+            
+              
+                n
+                2
+              
+            
+          
+        
+        
+          H
+          
+            n
+          
+        
+        
+          (
+          
+            
+              x
+              
+                2
+                α
+              
+            
+          
+          )
+        
+        =
+        
+          e
+          
+            −
+            α
+            
+              D
+              
+                2
+              
+            
+            
+              /
+            
+            2
+          
+        
+        (
+        
+          x
+          
+            n
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle {\textit {He}}_{n}^{[\alpha ]}(x)=\alpha ^{\tfrac {n}{2}}{\textit {He}}_{n}\left({\frac {x}{\sqrt {\alpha }}}\right)=\left({\frac {\alpha }{2}}\right)^{\tfrac {n}{2}}H_{n}\left({\frac {x}{\sqrt {2\alpha }}}\right)=e^{-\alpha D^{2}/2}(x^{n}).}
+  
+Now, if
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+          
+            [
+            α
+            ]
+          
+        
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          h
+          
+            n
+            ,
+            k
+          
+          
+            [
+            α
+            ]
+          
+        
+        
+          x
+          
+            k
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle {\mathit {He}}_{n}^{[\alpha ]}(x)=\sum _{k=0}^{n}h_{n,k}^{[\alpha ]}x^{k}~,}
+  
+then the polynomial sequence whose nth term is
+
+  
+    
+      
+        
+          (
+          
+            
+              
+                H
+                e
+              
+            
+            
+              n
+            
+            
+              [
+              α
+              ]
+            
+          
+          ∘
+          
+            
+              
+                H
+                e
+              
+            
+            
+              [
+              β
+              ]
+            
+          
+          )
+        
+        (
+        x
+        )
+        ≡
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          h
+          
+            n
+            ,
+            k
+          
+          
+            [
+            α
+            ]
+          
+        
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            k
+          
+          
+            [
+            β
+            ]
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \left({\mathit {He}}_{n}^{[\alpha ]}\circ {\mathit {He}}^{[\beta ]}\right)(x)\equiv \sum _{k=0}^{n}h_{n,k}^{[\alpha ]}\,{\mathit {He}}_{k}^{[\beta ]}(x)}
+  
+is called the umbral composition of the two polynomial sequences. It can be shown to satisfy the identities
+
+  
+    
+      
+        
+          (
+          
+            
+              
+                H
+                e
+              
+            
+            
+              n
+            
+            
+              [
+              α
+              ]
+            
+          
+          ∘
+          
+            
+              
+                H
+                e
+              
+            
+            
+              [
+              β
+              ]
+            
+          
+          )
+        
+        (
+        x
+        )
+        =
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+          
+            [
+            α
+            +
+            β
+            ]
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \left({\mathit {He}}_{n}^{[\alpha ]}\circ {\mathit {He}}^{[\beta ]}\right)(x)={\mathit {He}}_{n}^{[\alpha +\beta ]}(x)}
+  
+and
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+          
+            [
+            α
+            +
+            β
+            ]
+          
+        
+        (
+        x
+        +
+        y
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              k
+            
+            
+              )
+            
+          
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            k
+          
+          
+            [
+            α
+            ]
+          
+        
+        (
+        x
+        )
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            −
+            k
+          
+          
+            [
+            β
+            ]
+          
+        
+        (
+        y
+        )
+         
+        .
+      
+    
+    {\displaystyle {\mathit {He}}_{n}^{[\alpha +\beta ]}(x+y)=\sum _{k=0}^{n}{n \choose k}{\mathit {He}}_{k}^{[\alpha ]}(x){\mathit {He}}_{n-k}^{[\beta ]}(y)~.}
+  
+The last identity is expressed by saying that this parameterized family of polynomial sequences is a cross-sequence. (See the above section on Appel sequences and on the #Differential operator representation, which leads to a ready derivation of it. This binomial type identity, for α = β = 1/2, has already been encountered in the above section on #Recursion relations.)
+
+
+=== "Negative variance" ===
+Since polynomial sequences form a group under the operation of umbral composition, one may denote by
+
+  
+    
+      
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+          
+            [
+            −
+            α
+            ]
+          
+        
+        (
+        x
+        )
+        
+        
+      
+    
+    {\displaystyle {\mathit {He}}_{n}^{[-\alpha ]}(x)\,\!}
+  
+the sequence that is inverse to the one similarly denoted but without the minus sign, and thus speak of Hermite polynomials of negative variance. For α > 0, the coefficients of Hen[−α](x) are just the absolute values of the corresponding coefficients of Hen[α](x).
+These arise as moments of normal probability distributions: The n-th moment of the normal distribution with expected value μ and variance σ2 is
+
+  
+    
+      
+        E
+        (
+        
+          X
+          
+            n
+          
+        
+        )
+        =
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+          
+            [
+            −
+            
+              σ
+              
+                2
+              
+            
+            ]
+          
+        
+        (
+        μ
+        )
+      
+    
+    {\displaystyle E(X^{n})={\mathit {He}}_{n}^{[-\sigma ^{2}]}(\mu )}
+  
+where X is a random variable with the specified normal distribution. A special case of the cross-sequence identity then says that
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              k
+            
+            
+              )
+            
+          
+        
+        
+          
+            
+              H
+              e
+            
+          
+          
+            k
+          
+          
+            [
+            α
+            ]
+          
+        
+        (
+        x
+        )
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+            −
+            k
+          
+          
+            [
+            −
+            α
+            ]
+          
+        
+        (
+        y
+        )
+        =
+        
+          
+            
+              H
+              e
+            
+          
+          
+            n
+          
+          
+            [
+            0
+            ]
+          
+        
+        (
+        x
+        +
+        y
+        )
+        =
+        (
+        x
+        +
+        y
+        
+          )
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle \sum _{k=0}^{n}{n \choose k}{\mathit {He}}_{k}^{[\alpha ]}(x){\mathit {He}}_{n-k}^{[-\alpha ]}(y)={\mathit {He}}_{n}^{[0]}(x+y)=(x+y)^{n}.}
+  
+
+
+== Applications ==
+
+
+=== Hermite functions ===
+One can define the Hermite functions from the physicists' polynomials:
+
+  
+    
+      
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            (
+            
+              2
+              
+                n
+              
+            
+            n
+            !
+            
+              
+                π
+              
+            
+            )
+          
+          
+            −
+            
+              
+                1
+                2
+              
+            
+          
+        
+        
+          e
+          
+            −
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          
+            (
+            
+              2
+              
+                n
+              
+            
+            n
+            !
+            
+              
+                π
+              
+            
+            )
+          
+          
+            −
+            
+              
+                1
+                2
+              
+            
+          
+        
+        
+          e
+          
+            
+              
+                x
+                
+                  2
+                
+              
+              2
+            
+          
+        
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+        
+          e
+          
+            −
+            
+              x
+              
+                2
+              
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \psi _{n}(x)=\left(2^{n}n!{\sqrt {\pi }}\right)^{-{\frac {1}{2}}}e^{-{\frac {x^{2}}{2}}}H_{n}(x)=(-1)^{n}\left(2^{n}n!{\sqrt {\pi }}\right)^{-{\frac {1}{2}}}e^{\frac {x^{2}}{2}}{\frac {d^{n}}{dx^{n}}}e^{-x^{2}}~.}
+  
+Since these functions contain the square root of the weight function, and have been scaled appropriately, they are orthonormal:
+
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+          ψ
+          
+            m
+          
+        
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        =
+        
+          δ
+          
+            n
+            
+            m
+          
+        
+        
+      
+    
+    {\displaystyle \int _{-\infty }^{\infty }\psi _{n}(x)\psi _{m}(x)\,\mathrm {d} x=\delta _{n\,m}\,}
+  
+and form an orthonormal basis of L2(R). This fact is equivalent to the corresponding statement for Hermite polynomials (see above).
+The Hermite functions are closely related to the Whittaker function (Whittaker and Watson, 1962) Dn(z),
+
+  
+    
+      
+        
+          D
+          
+            n
+          
+        
+        (
+        z
+        )
+        =
+        (
+        n
+        !
+        
+          
+            π
+          
+        
+        
+          )
+          
+            
+              1
+              2
+            
+          
+        
+        
+          ψ
+          
+            n
+          
+        
+        (
+        z
+        
+          /
+        
+        
+          
+            2
+          
+        
+        )
+        =
+        (
+        −
+        
+          )
+          
+            n
+          
+        
+        
+          e
+          
+            
+              z
+              
+                2
+              
+            
+            
+              /
+            
+            4
+          
+        
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                z
+                
+                  n
+                
+              
+            
+          
+        
+        
+          e
+          
+            −
+            
+              z
+              
+                2
+              
+            
+            
+              /
+            
+            2
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle D_{n}(z)=(n!{\sqrt {\pi }})^{\frac {1}{2}}\psi _{n}(z/{\sqrt {2}})=(-)^{n}e^{z^{2}/4}{\frac {d^{n}}{dz^{n}}}e^{-z^{2}/2}~,}
+  
+and thereby to other parabolic cylinder functions.
+The Hermite functions satisfy the differential equation,
+
+  
+    
+      
+        
+          ψ
+          
+            n
+          
+          ″
+        
+        (
+        x
+        )
+        +
+        (
+        2
+        n
+        +
+        1
+        −
+        
+          x
+          
+            2
+          
+        
+        )
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        0.
+      
+    
+    {\displaystyle \psi _{n}''(x)+(2n+1-x^{2})\psi _{n}(x)=0.}
+  
+This equation is equivalent to the Schrödinger equation for a harmonic oscillator in quantum mechanics, so these functions are the eigenfunctions.
+
+  
+    
+      
+        
+          ψ
+          
+            0
+          
+        
+        (
+        x
+        )
+        =
+        
+          π
+          
+            −
+            
+              
+                1
+                4
+              
+            
+          
+        
+        
+        
+          e
+          
+            −
+            
+              
+                1
+                2
+              
+            
+            
+              x
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \psi _{0}(x)=\pi ^{-{\frac {1}{4}}}\,e^{-{\frac {1}{2}}x^{2}}}
+  
+
+  
+    
+      
+        
+          ψ
+          
+            1
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            2
+          
+        
+        
+        
+          π
+          
+            −
+            
+              
+                1
+                4
+              
+            
+          
+        
+        
+        x
+        
+        
+          e
+          
+            −
+            
+              
+                1
+                2
+              
+            
+            
+              x
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \psi _{1}(x)={\sqrt {2}}\,\pi ^{-{\frac {1}{4}}}\,x\,e^{-{\frac {1}{2}}x^{2}}}
+  
+
+  
+    
+      
+        
+          ψ
+          
+            2
+          
+        
+        (
+        x
+        )
+        =
+        (
+        
+          
+            2
+          
+        
+        
+        
+          π
+          
+            
+              1
+              4
+            
+          
+        
+        
+          )
+          
+            −
+            1
+          
+        
+        
+        (
+        2
+        
+          x
+          
+            2
+          
+        
+        −
+        1
+        )
+        
+        
+          e
+          
+            −
+            
+              
+                1
+                2
+              
+            
+            
+              x
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \psi _{2}(x)=({\sqrt {2}}\,\pi ^{\frac {1}{4}})^{-1}\,(2x^{2}-1)\,e^{-{\frac {1}{2}}x^{2}}}
+  
+
+  
+    
+      
+        
+          ψ
+          
+            3
+          
+        
+        (
+        x
+        )
+        =
+        (
+        
+          
+            3
+          
+        
+        
+        
+          π
+          
+            
+              1
+              4
+            
+          
+        
+        
+          )
+          
+            −
+            1
+          
+        
+        
+        (
+        2
+        
+          x
+          
+            3
+          
+        
+        −
+        3
+        x
+        )
+        
+        
+          e
+          
+            −
+            
+              
+                1
+                2
+              
+            
+            
+              x
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \psi _{3}(x)=({\sqrt {3}}\,\pi ^{\frac {1}{4}})^{-1}\,(2x^{3}-3x)\,e^{-{\frac {1}{2}}x^{2}}}
+  
+
+  
+    
+      
+        
+          ψ
+          
+            4
+          
+        
+        (
+        x
+        )
+        =
+        (
+        2
+        
+          
+            6
+          
+        
+        
+        
+          π
+          
+            
+              1
+              4
+            
+          
+        
+        
+          )
+          
+            −
+            1
+          
+        
+        
+        (
+        4
+        
+          x
+          
+            4
+          
+        
+        −
+        12
+        
+          x
+          
+            2
+          
+        
+        +
+        3
+        )
+        
+        
+          e
+          
+            −
+            
+              
+                1
+                2
+              
+            
+            
+              x
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \psi _{4}(x)=(2{\sqrt {6}}\,\pi ^{\frac {1}{4}})^{-1}\,(4x^{4}-12x^{2}+3)\,e^{-{\frac {1}{2}}x^{2}}}
+  
+
+  
+    
+      
+        
+          ψ
+          
+            5
+          
+        
+        (
+        x
+        )
+        =
+        (
+        2
+        
+          
+            15
+          
+        
+        
+        
+          π
+          
+            
+              1
+              4
+            
+          
+        
+        
+          )
+          
+            −
+            1
+          
+        
+        
+        (
+        4
+        
+          x
+          
+            5
+          
+        
+        −
+        20
+        
+          x
+          
+            3
+          
+        
+        +
+        15
+        x
+        )
+        
+        
+          e
+          
+            −
+            
+              
+                1
+                2
+              
+            
+            
+              x
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \psi _{5}(x)=(2{\sqrt {15}}\,\pi ^{\frac {1}{4}})^{-1}\,(4x^{5}-20x^{3}+15x)\,e^{-{\frac {1}{2}}x^{2}}}
+  
+
+
+=== Recursion relation ===
+Following recursion relations of Hermite polynomials, the Hermite functions obey
+
+  
+    
+      
+        
+          ψ
+          
+            n
+          
+          ′
+        
+        (
+        x
+        )
+        =
+        
+          
+            
+              n
+              2
+            
+          
+        
+        
+          ψ
+          
+            n
+            −
+            1
+          
+        
+        (
+        x
+        )
+        −
+        
+          
+            
+              
+                n
+                +
+                1
+              
+              2
+            
+          
+        
+        
+          ψ
+          
+            n
+            +
+            1
+          
+        
+        (
+        x
+        )
+         
+        ,
+      
+    
+    {\displaystyle \psi _{n}'(x)={\sqrt {\frac {n}{2}}}\psi _{n-1}(x)-{\sqrt {\frac {n+1}{2}}}\psi _{n+1}(x)~,}
+  
+as well as
+
+  
+    
+      
+        x
+        
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            
+              n
+              2
+            
+          
+        
+        
+          ψ
+          
+            n
+            −
+            1
+          
+        
+        (
+        x
+        )
+        +
+        
+          
+            
+              
+                n
+                +
+                1
+              
+              2
+            
+          
+        
+        
+          ψ
+          
+            n
+            +
+            1
+          
+        
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle x\;\psi _{n}(x)={\sqrt {\frac {n}{2}}}\psi _{n-1}(x)+{\sqrt {\frac {n+1}{2}}}\psi _{n+1}(x).}
+  
+Extending the first relation to the arbitrary m-th derivatives for any positive integer m leads to
+
+  
+    
+      
+        
+          ψ
+          
+            n
+          
+          
+            (
+            m
+            )
+          
+        
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            m
+          
+        
+        
+          
+            
+              (
+            
+            
+              m
+              k
+            
+            
+              )
+            
+          
+        
+        (
+        −
+        1
+        
+          )
+          
+            k
+          
+        
+        
+          2
+          
+            (
+            m
+            −
+            k
+            )
+            
+              /
+            
+            2
+          
+        
+        
+          
+            
+              
+                n
+                !
+              
+              
+                (
+                n
+                −
+                m
+                +
+                k
+                )
+                !
+              
+            
+          
+        
+        ⋅
+        
+          ψ
+          
+            n
+            −
+            m
+            +
+            k
+          
+        
+        (
+        x
+        )
+        ⋅
+        
+          
+            
+              H
+              e
+            
+          
+          
+            k
+          
+        
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle \psi _{n}^{(m)}(x)=\sum _{k=0}^{m}{m \choose k}(-1)^{k}2^{(m-k)/2}{\sqrt {\frac {n!}{(n-m+k)!}}}\cdot \psi _{n-m+k}(x)\cdot {\mathit {He}}_{k}(x).}
+  
+This formula can be used in connection with the recurrence relations for Hen and ψn to calculate any derivative of the Hermite functions efficiently.
+
+
+=== Cramér's inequality ===
+The Hermite functions satisfy the following bound due to Harald Cramér
+
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+          |
+        
+        ≤
+        K
+        
+          π
+          
+            −
+            
+              
+                1
+                4
+              
+            
+          
+        
+      
+    
+    {\displaystyle |\psi _{n}(x)|\leq K\pi ^{-{\frac {1}{4}}}}
+  
+for x real, where the constant K is less than 1.086435.
+
+
+=== Hermite functions as eigenfunctions of the Fourier transform ===
+The Hermite functions ψn(x) are a set of eigenfunctions of the continuous Fourier transform. To see this, take the physicist's version of the generating function and multiply by exp(−x2/2). This gives
+
+  
+    
+      
+        exp
+        ⁡
+        
+          (
+          −
+          
+            
+              1
+              2
+            
+          
+          
+            x
+            
+              2
+            
+          
+          +
+          2
+          x
+          t
+          −
+          
+            t
+            
+              2
+            
+          
+          )
+        
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        exp
+        ⁡
+        
+          (
+          −
+          
+            
+              1
+              2
+            
+          
+          
+            x
+            
+              2
+            
+          
+          )
+        
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+          
+            
+              t
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \exp \left(-{\frac {1}{2}}x^{2}+2xt-t^{2}\right)=\sum _{n=0}^{\infty }\exp \left(-{\frac {1}{2}}x^{2}\right)H_{n}(x){\frac {t^{n}}{n!}}~.}
+  
+Choosing the unitary representation of the Fourier transform, the Fourier transform of the left hand side is given by
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    F
+                  
+                
+                
+                  {
+                  exp
+                  ⁡
+                  
+                    (
+                    −
+                    
+                      
+                        
+                          x
+                          
+                            2
+                          
+                        
+                        2
+                      
+                    
+                    +
+                    2
+                    x
+                    t
+                    −
+                    
+                      t
+                      
+                        2
+                      
+                    
+                    )
+                  
+                  }
+                
+                (
+                k
+                )
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      2
+                      π
+                    
+                  
+                
+                
+                  ∫
+                  
+                    −
+                    ∞
+                  
+                  
+                    ∞
+                  
+                
+                exp
+                ⁡
+                (
+                −
+                i
+                x
+                k
+                )
+                exp
+                ⁡
+                
+                  (
+                  −
+                  
+                    
+                      1
+                      2
+                    
+                  
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  +
+                  2
+                  x
+                  t
+                  −
+                  
+                    t
+                    
+                      2
+                    
+                  
+                  )
+                
+                
+                
+                  d
+                
+                x
+              
+            
+            
+              
+              
+                
+                =
+                exp
+                ⁡
+                
+                  (
+                  −
+                  
+                    
+                      1
+                      2
+                    
+                  
+                  
+                    k
+                    
+                      2
+                    
+                  
+                  −
+                  2
+                  k
+                  i
+                  t
+                  +
+                  
+                    t
+                    
+                      2
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    n
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                exp
+                ⁡
+                
+                  (
+                  −
+                  
+                    
+                      
+                        k
+                        
+                          2
+                        
+                      
+                      2
+                    
+                  
+                  )
+                
+                
+                  H
+                  
+                    n
+                  
+                
+                (
+                k
+                )
+                
+                  
+                    
+                      (
+                      −
+                      i
+                      t
+                      
+                        )
+                        
+                          n
+                        
+                      
+                    
+                    
+                      n
+                      !
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\mathcal {F}}\left\{\exp \left(-{\frac {x^{2}}{2}}+2xt-t^{2}\right)\right\}(k)&={\frac {1}{\sqrt {2\pi }}}\int _{-\infty }^{\infty }\exp(-ixk)\exp \left(-{\frac {1}{2}}x^{2}+2xt-t^{2}\right)\,\mathrm {d} x\\&=\exp \left(-{\frac {1}{2}}k^{2}-2kit+t^{2}\right)\\&=\sum _{n=0}^{\infty }\exp \left(-{\frac {k^{2}}{2}}\right)H_{n}(k){\frac {(-it)^{n}}{n!}}\end{aligned}}}
+  
+The Fourier transform of the right hand side is given by
+
+  
+    
+      
+        
+          
+            F
+          
+        
+        
+          {
+          
+            ∑
+            
+              n
+              =
+              0
+            
+            
+              ∞
+            
+          
+          
+            e
+            
+              −
+              
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  2
+                
+              
+            
+          
+          
+            H
+            
+              n
+            
+          
+          (
+          x
+          )
+          
+            
+              
+                t
+                
+                  n
+                
+              
+              
+                n
+                !
+              
+            
+          
+          }
+        
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            F
+          
+        
+        
+          {
+          
+            e
+            
+              −
+              
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  2
+                
+              
+            
+          
+          
+            H
+            
+              n
+            
+          
+          (
+          x
+          )
+          }
+        
+        
+          
+            
+              t
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\mathcal {F}}\left\{\sum _{n=0}^{\infty }e^{-{\frac {x^{2}}{2}}}H_{n}(x){\frac {t^{n}}{n!}}\right\}=\sum _{n=0}^{\infty }{\mathcal {F}}\left\{e^{-{\frac {x^{2}}{2}}}H_{n}(x)\right\}{\frac {t^{n}}{n!}}.}
+  
+Equating like powers of t in the transformed versions of the left- and right-hand sides finally yields
+
+  
+    
+      
+        
+          
+            F
+          
+        
+        
+          {
+          
+            e
+            
+              −
+              
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  2
+                
+              
+            
+          
+          
+            H
+            
+              n
+            
+          
+          (
+          x
+          )
+          }
+        
+        =
+        (
+        −
+        i
+        
+          )
+          
+            n
+          
+        
+        
+          e
+          
+            −
+            
+              
+                
+                  k
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        
+          H
+          
+            n
+          
+        
+        (
+        k
+        )
+        .
+        
+        
+      
+    
+    {\displaystyle {\mathcal {F}}\left\{e^{-{\frac {x^{2}}{2}}}H_{n}(x)\right\}=(-i)^{n}e^{-{\frac {k^{2}}{2}}}H_{n}(k).\,\!}
+  
+
+The Hermite functions ψn(x) are thus an orthonormal basis of L2(ℝ) which diagonalizes the Fourier transform operator.
+In this case, we chose the unitary version of the Fourier transform, so the eigenvalues are (−i)n. The ensuing resolution of the identity then serves to define powers, including fractional ones, of the Fourier transform, to wit a Fractional Fourier transform generalization, in effect a Mehler kernel.
+
+
+=== Wigner distributions of Hermite functions ===
+The Wigner distribution function of the n-th order Hermite function is related to the n-th order Laguerre polynomial. The Laguerre polynomials are
+
+  
+    
+      
+        
+          L
+          
+            n
+          
+        
+        (
+        x
+        )
+        :=
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              k
+            
+            
+              )
+            
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  k
+                
+              
+            
+            
+              k
+              !
+            
+          
+        
+        
+          x
+          
+            k
+          
+        
+        ,
+      
+    
+    {\displaystyle L_{n}(x):=\sum _{k=0}^{n}{\binom {n}{k}}{\frac {(-1)^{k}}{k!}}x^{k},}
+  
+leading to the oscillator Laguerre functions,
+
+  
+    
+      
+        
+          l
+          
+            n
+          
+        
+        (
+        x
+        )
+        :=
+        
+          e
+          
+            −
+            
+              
+                x
+                2
+              
+            
+          
+        
+        
+          L
+          
+            n
+          
+        
+        (
+        x
+        )
+         
+        .
+      
+    
+    {\displaystyle l_{n}(x):=e^{-{\frac {x}{2}}}L_{n}(x)~.}
+  
+For all natural integers n, it is straightforward to see that
+
+  
+    
+      
+        
+          W
+          
+            
+              ψ
+              
+                n
+              
+            
+          
+        
+        (
+        t
+        ,
+        f
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          l
+          
+            n
+          
+        
+        
+          (
+          4
+          π
+          (
+          
+            t
+            
+              2
+            
+          
+          +
+          
+            f
+            
+              2
+            
+          
+          )
+          )
+        
+        ,
+      
+    
+    {\displaystyle W_{\psi _{n}}(t,f)=(-1)^{n}l_{n}\left(4\pi (t^{2}+f^{2})\right),}
+  
+where the Wigner distribution of a function x ∈ L2(ℝ,ℂ) is defined as
+
+  
+    
+      
+        
+          W
+          
+            x
+          
+        
+        (
+        t
+        ,
+        f
+        )
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        x
+        (
+        t
+        +
+        τ
+        
+          /
+        
+        2
+        )
+        
+        x
+        (
+        t
+        −
+        τ
+        
+          /
+        
+        2
+        
+          )
+          
+            ∗
+          
+        
+        
+        
+          e
+          
+            −
+            2
+            π
+            i
+            τ
+            f
+          
+        
+        
+        d
+        τ
+         
+        .
+      
+    
+    {\displaystyle W_{x}(t,f)=\int _{-\infty }^{\infty }x(t+\tau /2)\,x(t-\tau /2)^{*}\,e^{-2\pi i\tau f}\,d\tau ~.}
+  
+This is a fundamental result for the quantum harmonic oscillator discovered by Hip Groenewold in 1946 in his PhD thesis. It is the standard paradigm of quantum mechanics in phase space.
+There are further relations between the two families of polynomials.
+
+
+=== Combinatorial interpretation of coefficients ===
+In the Hermite polynomial Hen(x) of variance 1, the absolute value of the coefficient of xk is the number of (unordered) partitions of an n-member set into k singletons and (n − k)/2 (unordered) pairs. The sum of the absolute values of the coefficients gives the total number of partitions into singletons and pairs, the so-called telephone numbers
+1, 1, 2, 4, 10, 26, 76, 232, 764, 2620, 9496, ... (sequence A000085 in the OEIS).
+This combinatorial interpretation can be related to complete exponential Bell polynomials as
+
+  
+    
+      
+        H
+        
+          e
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          B
+          
+            n
+          
+        
+        (
+        x
+        ,
+        −
+        1
+        ,
+        0
+        ,
+        …
+        ,
+        0
+        )
+        ,
+      
+    
+    {\displaystyle He_{n}(x)=B_{n}(x,-1,0,\ldots ,0),}
+  
+where xi = 0 for all i > 2.
+These numbers may also be expressed as a special value of the Hermite polynomials
+
+  
+    
+      
+        T
+        (
+        n
+        )
+        =
+        
+          
+            
+              
+                
+                  
+                    H
+                    e
+                  
+                
+                
+                  n
+                
+              
+              (
+              i
+              )
+            
+            
+              i
+              
+                n
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle T(n)={\frac {{\mathop {He}}_{n}(i)}{i^{n}}}.}
+  
+
+
+=== Completeness relation ===
+The Christoffel–Darboux formula for Hermite polynomials reads
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              
+                H
+                
+                  k
+                
+              
+              (
+              x
+              )
+              
+                H
+                
+                  k
+                
+              
+              (
+              y
+              )
+            
+            
+              k
+              !
+              
+                2
+                
+                  k
+                
+              
+            
+          
+        
+        =
+        
+          
+            1
+            
+              n
+              !
+              
+                2
+                
+                  n
+                  +
+                  1
+                
+              
+            
+          
+        
+         
+        
+          
+            
+              
+                H
+                
+                  n
+                
+              
+              (
+              y
+              )
+              
+                H
+                
+                  n
+                  +
+                  1
+                
+              
+              (
+              x
+              )
+              −
+              
+                H
+                
+                  n
+                
+              
+              (
+              x
+              )
+              
+                H
+                
+                  n
+                  +
+                  1
+                
+              
+              (
+              y
+              )
+            
+            
+              x
+              −
+              y
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \sum _{k=0}^{n}{\frac {H_{k}(x)H_{k}(y)}{k!2^{k}}}={\frac {1}{n!2^{n+1}}}~{\frac {H_{n}(y)H_{n+1}(x)-H_{n}(x)H_{n+1}(y)}{x-y}}.}
+  
+Moreover, the following completeness identity for the above Hermite functions holds in the sense of distributions
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+          ψ
+          
+            n
+          
+        
+        (
+        y
+        )
+        =
+        δ
+        (
+        x
+        −
+        y
+        )
+        ,
+      
+    
+    {\displaystyle \sum _{n=0}^{\infty }\psi _{n}(x)\psi _{n}(y)=\delta (x-y),}
+  
+
+where δ is the Dirac delta function, ψn the Hermite functions, and δ(x − y) represents the Lebesgue measure on the line y = x in ℝ2, normalized so that its projection on the horizontal axis is the usual Lebesgue measure.
+This distributional identity follows (N.Wiener) by taking u → 1 in Mehler's formula, valid when −1 < u < 1,
+
+  
+    
+      
+        E
+        (
+        x
+        ,
+        y
+        ;
+        u
+        )
+        :=
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          u
+          
+            n
+          
+        
+        
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        
+        
+          ψ
+          
+            n
+          
+        
+        (
+        y
+        )
+        =
+        
+          
+            1
+            
+              π
+              (
+              1
+              −
+              
+                u
+                
+                  2
+                
+              
+              )
+            
+          
+        
+        
+        
+          e
+          x
+          p
+        
+        
+          (
+          −
+          
+            
+              
+                1
+                −
+                u
+              
+              
+                1
+                +
+                u
+              
+            
+          
+          
+          
+            
+              
+                (
+                x
+                +
+                y
+                
+                  )
+                  
+                    2
+                  
+                
+              
+              4
+            
+          
+          −
+          
+            
+              
+                1
+                +
+                u
+              
+              
+                1
+                −
+                u
+              
+            
+          
+          
+          
+            
+              
+                (
+                x
+                −
+                y
+                
+                  )
+                  
+                    2
+                  
+                
+              
+              4
+            
+          
+          )
+        
+         
+        ,
+      
+    
+    {\displaystyle E(x,y;u):=\sum _{n=0}^{\infty }u^{n}\,\psi _{n}(x)\,\psi _{n}(y)={\frac {1}{\sqrt {\pi (1-u^{2})}}}\,\mathrm {exp} \left(-{\frac {1-u}{1+u}}\,{\frac {(x+y)^{2}}{4}}-{\frac {1+u}{1-u}}\,{\frac {(x-y)^{2}}{4}}\right)~,}
+  
+which is often stated equivalently as a separable kernel,
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              
+                H
+                
+                  n
+                
+              
+              (
+              x
+              )
+              
+                H
+                
+                  n
+                
+              
+              (
+              y
+              )
+            
+            
+              n
+              !
+            
+          
+        
+        
+          
+            (
+            
+              
+                u
+                2
+              
+            
+            )
+          
+          
+            n
+          
+        
+        =
+        
+          
+            1
+            
+              1
+              −
+              
+                u
+                
+                  2
+                
+              
+            
+          
+        
+        
+          e
+          
+            
+              
+                
+                  2
+                  u
+                
+                
+                  1
+                  +
+                  u
+                
+              
+            
+            x
+            y
+            −
+            
+              
+                
+                  u
+                  
+                    2
+                  
+                
+                
+                  1
+                  −
+                  
+                    u
+                    
+                      2
+                    
+                  
+                
+              
+            
+            (
+            x
+            −
+            y
+            
+              )
+              
+                2
+              
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \sum _{n=0}^{\infty }{\frac {H_{n}(x)H_{n}(y)}{n!}}\left({\frac {u}{2}}\right)^{n}={\frac {1}{\sqrt {1-u^{2}}}}e^{{\frac {2u}{1+u}}xy-{\frac {u^{2}}{1-u^{2}}}(x-y)^{2}}~.}
+  
+The function (x, y) → E(x, y; u) is the bivariate Gaussian probability density on ℝ2 which is, when u is close to 1, very concentrated around the line y = x, and very spread out on that line. It follows that
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          u
+          
+            n
+          
+        
+        ⟨
+        f
+        ,
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+        
+          ⟨
+          
+            ψ
+            
+              n
+            
+          
+          ,
+          g
+          ⟩
+        
+        =
+        ∬
+        E
+        (
+        x
+        ,
+        y
+        ;
+        u
+        )
+        f
+        (
+        x
+        )
+        
+          
+            
+              g
+              (
+              y
+              )
+            
+            ¯
+          
+        
+        
+        
+          d
+        
+        x
+        
+        
+          d
+        
+        y
+        →
+        ∫
+        f
+        (
+        x
+        )
+        
+          
+            
+              g
+              (
+              x
+              )
+            
+            ¯
+          
+        
+        
+        
+          d
+        
+        x
+        =
+        ⟨
+        f
+        ,
+        g
+        ⟩
+         
+        ,
+      
+    
+    {\displaystyle \sum _{n=0}^{\infty }u^{n}\langle f,\psi _{n}\rangle \left\langle \psi _{n},g\right\rangle =\iint E(x,y;u)f(x){\overline {g(y)}}\,\mathrm {d} x\,\mathrm {d} y\to \int f(x){\overline {g(x)}}\,\mathrm {d} x=\langle f,g\rangle ~,}
+  
+when f, g are continuous and compactly supported.
+This yields that f can be expressed in Hermite functions, as the sum of a series of vectors in L2(ℝ), namely
+
+  
+    
+      
+        f
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        ⟨
+        f
+        ,
+        
+          ψ
+          
+            n
+          
+        
+        ⟩
+        
+          ψ
+          
+            n
+          
+        
+         
+        .
+      
+    
+    {\displaystyle f=\sum _{n=0}^{\infty }\langle f,\psi _{n}\rangle \psi _{n}~.}
+  
+In order to prove the above equality for E(x, y; u), the Fourier transform of Gaussian functions is used repeatedly,
+
+  
+    
+      
+        ρ
+        
+          
+            π
+          
+        
+        
+          e
+          
+            −
+            
+              
+                
+                  
+                    ρ
+                    
+                      2
+                    
+                  
+                  
+                    x
+                    
+                      2
+                    
+                  
+                
+                4
+              
+            
+          
+        
+        =
+        ∫
+        
+          e
+          
+            i
+            s
+            x
+            −
+            
+              s
+              
+                2
+              
+            
+            
+              /
+            
+            
+              ρ
+              
+                2
+              
+            
+          
+        
+        
+        
+          d
+        
+        s
+        ,
+        
+        ρ
+        >
+        0.
+      
+    
+    {\displaystyle \rho {\sqrt {\pi }}e^{-{\frac {\rho ^{2}x^{2}}{4}}}=\int e^{isx-s^{2}/\rho ^{2}}\,\mathrm {d} s,\qquad \rho >0.}
+  
+The Hermite polynomial is then represented as
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          e
+          
+            
+              x
+              
+                2
+              
+            
+          
+        
+        
+          
+            
+              
+                d
+              
+              
+                n
+              
+            
+            
+              
+                d
+              
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+        
+          (
+          
+            
+              1
+              
+                2
+                
+                  
+                    π
+                  
+                
+              
+            
+          
+          ∫
+          
+            e
+            
+              i
+              s
+              x
+              −
+              
+                
+                  
+                    s
+                    
+                      2
+                    
+                  
+                  4
+                
+              
+            
+          
+          
+          
+            d
+          
+          s
+          )
+        
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          e
+          
+            
+              x
+              
+                2
+              
+            
+          
+        
+        
+          
+            1
+            
+              2
+              
+                
+                  π
+                
+              
+            
+          
+        
+        ∫
+        (
+        i
+        s
+        
+          )
+          
+            n
+          
+        
+        
+          e
+          
+            i
+            s
+            x
+            −
+            
+              
+                
+                  s
+                  
+                    2
+                  
+                
+                4
+              
+            
+          
+        
+        
+        
+          d
+        
+        s
+        .
+      
+    
+    {\displaystyle H_{n}(x)=(-1)^{n}e^{x^{2}}{\frac {\mathrm {d} ^{n}}{\mathrm {d} x^{n}}}\left({\frac {1}{2{\sqrt {\pi }}}}\int e^{isx-{\frac {s^{2}}{4}}}\,\mathrm {d} s\right)=(-1)^{n}e^{x^{2}}{\frac {1}{2{\sqrt {\pi }}}}\int (is)^{n}e^{isx-{\frac {s^{2}}{4}}}\,\mathrm {d} s.}
+  
+With this representation for Hn(x) and Hn(y), it is evident that
+
+  
+    
+      
+        
+          
+            
+              
+                E
+                (
+                x
+                ,
+                y
+                ;
+                u
+                )
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    n
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      u
+                      
+                        n
+                      
+                    
+                    
+                      
+                        2
+                        
+                          n
+                        
+                      
+                      n
+                      !
+                      
+                        
+                          π
+                        
+                      
+                    
+                  
+                
+                
+                
+                  H
+                  
+                    n
+                  
+                
+                (
+                x
+                )
+                
+                  H
+                  
+                    n
+                  
+                
+                (
+                y
+                )
+                
+                  e
+                  
+                    −
+                    
+                      
+                        
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          +
+                          
+                            y
+                            
+                              2
+                            
+                          
+                        
+                        2
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      e
+                      
+                        
+                          
+                            
+                              x
+                              
+                                2
+                              
+                            
+                            +
+                            
+                              y
+                              
+                                2
+                              
+                            
+                          
+                          2
+                        
+                      
+                    
+                    
+                      4
+                      π
+                      
+                        
+                          π
+                        
+                      
+                    
+                  
+                
+                ∬
+                
+                  (
+                  
+                    ∑
+                    
+                      n
+                      =
+                      0
+                    
+                    
+                      ∞
+                    
+                  
+                  
+                    
+                      1
+                      
+                        
+                          2
+                          
+                            n
+                          
+                        
+                        n
+                        !
+                      
+                    
+                  
+                  (
+                  −
+                  u
+                  s
+                  t
+                  
+                    )
+                    
+                      n
+                    
+                  
+                  )
+                
+                
+                  e
+                  
+                    i
+                    s
+                    x
+                    +
+                    i
+                    t
+                    y
+                    −
+                    
+                      
+                        
+                          s
+                          
+                            2
+                          
+                        
+                        4
+                      
+                    
+                    −
+                    
+                      
+                        
+                          t
+                          
+                            2
+                          
+                        
+                        4
+                      
+                    
+                  
+                
+                
+                
+                  d
+                
+                s
+                
+                
+                  d
+                
+                t
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      e
+                      
+                        
+                          
+                            
+                              x
+                              
+                                2
+                              
+                            
+                            +
+                            
+                              y
+                              
+                                2
+                              
+                            
+                          
+                          2
+                        
+                      
+                    
+                    
+                      4
+                      π
+                      
+                        
+                          π
+                        
+                      
+                    
+                  
+                
+                ∬
+                
+                  e
+                  
+                    −
+                    u
+                    s
+                    t
+                    
+                      /
+                    
+                    2
+                  
+                
+                
+                
+                  e
+                  
+                    i
+                    s
+                    x
+                    +
+                    i
+                    t
+                    y
+                    −
+                    
+                      
+                        
+                          s
+                          
+                            2
+                          
+                        
+                        4
+                      
+                    
+                    −
+                    
+                      
+                        
+                          t
+                          
+                            2
+                          
+                        
+                        4
+                      
+                    
+                  
+                
+                
+                
+                  d
+                
+                s
+                
+                
+                  d
+                
+                t
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}E(x,y;u)&=\sum _{n=0}^{\infty }{\frac {u^{n}}{2^{n}n!{\sqrt {\pi }}}}\,H_{n}(x)H_{n}(y)e^{-{\frac {x^{2}+y^{2}}{2}}}\\&={\frac {e^{\frac {x^{2}+y^{2}}{2}}}{4\pi {\sqrt {\pi }}}}\iint \left(\sum _{n=0}^{\infty }{\frac {1}{2^{n}n!}}(-ust)^{n}\right)e^{isx+ity-{\frac {s^{2}}{4}}-{\frac {t^{2}}{4}}}\,\mathrm {d} s\,\mathrm {d} t\\&={\frac {e^{\frac {x^{2}+y^{2}}{2}}}{4\pi {\sqrt {\pi }}}}\iint e^{-ust/2}\,e^{isx+ity-{\frac {s^{2}}{4}}-{\frac {t^{2}}{4}}}\,\mathrm {d} s\,\mathrm {d} t\end{aligned}}}
+  
+and this yields the desired resolution of the identity result, using again the Fourier transform of Gaussian kernels under the substitution
+
+  
+    
+      
+        s
+        =
+        
+          
+            
+              σ
+              +
+              τ
+            
+            
+              2
+            
+          
+        
+        ,
+        
+        
+        t
+        =
+        
+          
+            
+              σ
+              −
+              τ
+            
+            
+              2
+            
+          
+        
+        .
+      
+    
+    {\displaystyle s={\frac {\sigma +\tau }{\sqrt {2}}},\qquad \qquad t={\frac {\sigma -\tau }{\sqrt {2}}}.}
+  
+
+
+== See also ==
+Mehler kernel
+Turán's inequalities
+Parabolic cylinder function
+Legendre polynomials
+Romanovski polynomials
+
+
+== Notes ==
+
+
+== References ==
+Abramowitz, Milton; Stegun, Irene Ann, eds. (1983) [June 1964]. "Chapter 22". Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables. Applied Mathematics Series. 55 (Ninth reprint with additional corrections of tenth original printing with corrections (December 1972); first ed.). Washington D.C.; New York: United States Department of Commerce, National Bureau of Standards; Dover Publications. p. 773. ISBN 978-0-486-61272-0. LCCN 64-60036. MR 0167642. LCCN 65-12253. 
+Courant, Richard; Hilbert, David (1953), Methods of Mathematical Physics, Volume I, Wiley-Interscience 
+Erdélyi, Arthur; Magnus, Wilhelm; Oberhettinger, Fritz; Tricomi, Francesco G. (1955), Higher transcendental functions. Vol. II, McGraw-Hill  (scan,[1])
+Fedoryuk, M.V. (2001), "Hermite functions", in Hazewinkel, Michiel, Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+Koornwinder, Tom H.; Wong, Roderick S. C.; Koekoek, Roelof; Swarttouw, René F. (2010), "Orthogonal Polynomials", in Olver, Frank W. J.; Lozier, Daniel M.; Boisvert, Ronald F.; Clark, Charles W., NIST Handbook of Mathematical Functions, Cambridge University Press, ISBN 978-0521192255, MR 2723248 
+Shohat, Hille, Walsh: Bibliography on Hermite polynomials, 1940 (2000 references)
+Laplace, P. S. (1810), Mém. Cl. Sci. Math. Phys. Inst. France, 58: 279–347  
+Suetin, P. K. (2001), "H/h047010", in Hazewinkel, Michiel, Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+Szegő, Gábor (1955) [1939], Orthogonal Polynomials, American Mathematical Society 
+Wiener, Norbert (1958), The Fourier Integral and Certain of its Applications, New York: Dover Publications, ISBN 0-486-60272-9 
+Whittaker, E. T.; Watson, G. N. (1962), 4th, ed., A Course of Modern Analysis, London: Cambridge University Press 
+Temme, Nico, Special Functions: An Introduction to the Classical Functions of Mathematical Physics, Wiley, New York, 1996
+
+
+== External links ==
+Weisstein, Eric W. "Hermite Polynomial". MathWorld. 
+Module for Hermite Polynomial Interpolation by John H. Mathews

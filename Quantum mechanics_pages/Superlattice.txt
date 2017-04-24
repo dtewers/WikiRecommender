@@ -1,0 +1,906 @@
+A superlattice is a periodic structure of layers of two (or more) materials. Typically, the thickness of one layer is several nanometers. It can also refer to a lower-dimensional structure such as an array of quantum dots or quantum wires.
+
+
+== Discovery ==
+Superlattices were discovered early in 1925 by Johansson and Linde  after the studies on gold-copper and palladium-copper systems through their special X-ray diffraction patterns. Further experimental observations and theoretical modifications on the field were done by Bradley and Jay, Gorsky, Borelius, Dehlinger and Graf, Bragg and Williams  and Bethe. Theories were based on the transition of arrangement of atoms in crystal lattices from disordered state to an ordered state.
+
+
+== Mechanical properties ==
+J.S. Koehler theoretically predicted  that by using alternate (nano-)layers of materials with high and low elastic constants, shearing resistance is improved by up to 100 times as the Frank–Read source of dislocations cannot operate in the nanolayers.
+The increased mechanical hardness of such superlattice materials was confirmed firstly by Lehoczky in 1978 on Al-Cu and Al-Ag, and later on by several others, e.g. Barnett and Sproul  on hard PVD coatings.
+
+
+== Semiconductor properties ==
+If the superlattice is made of two semiconductor materials with different band gaps, each quantum well sets up new selection rules that affect the conditions for charges to flow through the structure. The two different semiconductor materials are deposited alternately on each other to form a periodic structure in the growth direction. Since the 1970 proposal of synthetic superlattices by Esaki and Tsu, advances in the physics of such ultra-fine semiconductors, presently called quantum structures, have been made. The concept of quantum confinement has led to the observation of quantum size effects in isolated quantum well heterostructures and is closely related to superlattices through the tunneling phenomena. Therefore, these two ideas are often discussed on the same physical basis, but each has different physics useful for applications in electric and optical devices.
+
+
+== Semiconductor superlattice types ==
+Superlattice miniband structures depend on the heterostructure type, either type I, type II or type III. For type I the bottom of the conduction band and the top of the valence subband are formed in the same semiconductor layer. In type II the conduction and valence subbands are staggered in both real and reciprocal space, so that electrons and holes are confined in different layers. Type III superlattices involve semimetal material, such as HgTe/CdTe. Although the bottom of the conduction subband and the top of the valence subband are formed in the same semiconductor layer in Type III superlattice, which is similar with Type I superlattice, the band gap of Type III superlattices can be continuously adjusted from semiconductor to zero band gap material and to semimetal with negative band gap.
+Another class of quasiperiodic superlattices is named after Fibonacci. A Fibonacci superlattice can be viewed as a one-dimensional quasicrystal, where either electron hopping transfer or on-site energy takes two values arranged in a Fibonacci sequence.
+
+
+== Semiconductor materials ==
+
+Semiconductor materials, which are used to fabricate the superlattice structures, may be divided by the element groups, IV, III-V and II-VI. While group III-V semiconductors (especially GaAs/AlxGa1-xAs) have been extensively studied, group IV heterostructures such as the SixGe1−x system are much more difficult to realize because of the large lattice mismatch. Nevertheless, the strain modification of the subband structures is interesting in these quantum structures and has attracted much attention.
+In the GaAs/AlAs system both the difference in lattice constant between GaAs and AlAs and the difference of their thermal expansion coefficient are small. Thus, the remaining strain at room temperature can be minimized after cooling from epitaxial growth temperatures. The first compositional superlattice was realized using the GaAs/AlxGa1-xAs material system.
+A graphene/boron nitride system forms a semiconductor superlattice once the two crystals are aligned. Its charge carriers move perpendicular to the electric field, with little energy dissipation. h-BN has a hexagonal structure similar to graphene's. The superlattice has broken inversion symmetry. Locally, topological currents are comparable in strength to the applied current, indicating large valley-Hall angles.
+
+
+=== Production ===
+Superlattices can be produced using various techniques, but the most common are molecular-beam epitaxy (MBE) and sputtering. With these methods, layers can be produced with thicknesses of only a few atomic spacings. An example of specifying a superlattice is [Fe
+20V
+30]20. It describes a bi-layer of 20Å of Iron (Fe) and 30Å of Vanadium (V) repeated 20 times, thus yielding a total thickness of 1000Å or 100 nm. The MBE technology as a means of fabricating semiconductor superlattices is of primary importance. In addition to the MBE technology, metal-organic chemical vapor deposition (MO-CVD) has contributed to the development of superconductor superlattices, which are composed of quaternary III-V compound semiconductors like InGaAsP alloys. Newer techniques include a combination of gas source handling with ultrahigh vacuum (UHV) technologies such as metal-organic molecules as source materials and gas-source MBE using hybrid gases such as arsine (AsH
+3) and phosphine (PH
+3) have been developed.
+Generally speaking MBE is a method of using three temperatures in binary systems, e.g., the substrate temperature, the source material temperature of the group III and the group V elements in the case of III-V compounds.
+The structural quality of the produced superlattices can be verified by means of X-ray diffraction or neutron diffraction spectra which contain characteristic satellite peaks. Other effects associated with the alternating layering are: giant magnetoresistance, tunable reflectivity for X-ray and neutron mirrors, neutron spin polarization, and changes in elastic and acoustic properties. Depending on the nature of its components, a superlattice may be called magnetic, optical or semiconducting.
+
+
+== Miniband structure ==
+The schematic structure of a periodic superlattice is shown below, where A and B are two semiconductor materials of respective layer thickness a and b (period: 
+  
+    
+      
+        d
+        =
+        a
+        +
+        b
+      
+    
+    {\displaystyle d=a+b}
+  ). When a and b are not too small compared with the interatomic spacing, an adequate approximation is obtained by replacing these fast varying potentials by an effective potential derived from the band structure of the original bulk semiconductors. It is straightforward to solve 1D Schrödinger equations in each of the individual layers, whose solutions 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   are linear combinations of real or imaginary exponentials.
+For a large barrier thickness, tunneling is a weak perturbation with regard to the uncoupled dispersionless states, which are fully confined as well. In this case the dispersion relation 
+  
+    
+      
+        
+          E
+          
+            z
+          
+        
+        (
+        
+          k
+          
+            z
+          
+        
+        )
+      
+    
+    {\displaystyle E_{z}(k_{z})}
+  , periodic over 
+  
+    
+      
+        2
+        π
+        
+          /
+        
+        d
+      
+    
+    {\displaystyle 2\pi /d}
+   with over 
+  
+    
+      
+        d
+        =
+        a
+        +
+        b
+      
+    
+    {\displaystyle d=a+b}
+   by virtue of the Bloch theorem, is fully sinusoidal:
+
+  
+    
+      
+         
+        
+          E
+          
+            z
+          
+        
+        (
+        
+          k
+          
+            z
+          
+        
+        )
+        =
+        
+          
+            Δ
+            2
+          
+        
+        (
+        1
+        −
+        cos
+        ⁡
+        (
+        
+          k
+          
+            z
+          
+        
+        d
+        )
+        )
+      
+    
+    {\displaystyle \ E_{z}(k_{z})={\frac {\Delta }{2}}(1-\cos(k_{z}d))}
+  
+and the effective mass changes sign for 
+  
+    
+      
+        2
+        π
+        
+          /
+        
+        d
+      
+    
+    {\displaystyle 2\pi /d}
+  :
+
+  
+    
+      
+         
+        
+          
+            m
+            
+              ∗
+            
+          
+          =
+          
+            
+              
+                ℏ
+                
+                  2
+                
+              
+              
+                
+                  ∂
+                  
+                    2
+                  
+                
+                E
+                
+                  /
+                
+                ∂
+                
+                  k
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+        
+          
+            |
+          
+          
+            k
+            =
+            0
+          
+        
+      
+    
+    {\displaystyle \ {m^{*}={\frac {\hbar ^{2}}{\partial ^{2}E/\partial k^{2}}}}|_{k=0}}
+  
+In the case of minibands, this sinusoidal character is no longer preserved. Only high up in the miniband (for wavevectors well beyond 
+  
+    
+      
+        2
+        π
+        
+          /
+        
+        d
+      
+    
+    {\displaystyle 2\pi /d}
+  ) is the top actually 'sensed' and does the effective mass change sign. The shape of the miniband dispersion influences miniband transport profoundly and accurate dispersion relation calculations are required given wide minibands. The condition for observing single miniband transport is the absence of interminiband transfer by any process. The thermal quantum kBT should be much smaller than the energy difference 
+  
+    
+      
+        
+          E
+          
+            2
+          
+        
+        −
+        
+          E
+          
+            1
+          
+        
+      
+    
+    {\displaystyle E_{2}-E_{1}}
+   between the first and second miniband, even in the presence of the applied electric field.
+
+
+== Bloch states ==
+For an ideal superlattice a complete set of eigenstates states can be constructed by products of plane waves 
+  
+    
+      
+        
+          e
+          
+            i
+            
+              k
+            
+            ⋅
+            
+              r
+            
+          
+        
+        
+          /
+        
+        2
+        π
+      
+    
+    {\displaystyle e^{i\mathbf {k} \cdot \mathbf {r} }/2\pi }
+   and a z-dependent function 
+  
+    
+      
+        
+          f
+          
+            k
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle f_{k}(z)}
+   which satisfies the eigenvalue equation
+
+  
+    
+      
+        
+          (
+          
+            E
+            
+              c
+            
+          
+          (
+          z
+          )
+          −
+          
+            
+              ∂
+              
+                ∂
+                z
+              
+            
+          
+          
+            
+              
+                ℏ
+                
+                  2
+                
+              
+              
+                2
+                
+                  m
+                  
+                    c
+                  
+                
+                (
+                z
+                )
+              
+            
+          
+          
+            
+              ∂
+              
+                ∂
+                z
+              
+            
+          
+          +
+          
+            
+              
+                
+                  ℏ
+                  
+                    2
+                  
+                
+                
+                  
+                    k
+                  
+                  
+                    2
+                  
+                
+              
+              
+                2
+                
+                  m
+                  
+                    c
+                  
+                
+                (
+                z
+                )
+              
+            
+          
+          )
+        
+        
+          f
+          
+            k
+          
+        
+        (
+        z
+        )
+        =
+        E
+        
+          f
+          
+            k
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle \left(E_{c}(z)-{\frac {\partial }{\partial z}}{\frac {\hbar ^{2}}{2m_{c}(z)}}{\frac {\partial }{\partial z}}+{\frac {\hbar ^{2}\mathbf {k} ^{2}}{2m_{c}(z)}}\right)f_{k}(z)=Ef_{k}(z)}
+  .
+As 
+  
+    
+      
+        
+          E
+          
+            c
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle E_{c}(z)}
+   and 
+  
+    
+      
+        
+          m
+          
+            c
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle m_{c}(z)}
+   are periodic functions with the superlattice period d, the eigenstates are Bloch state 
+  
+    
+      
+        
+          f
+          
+            k
+          
+        
+        (
+        z
+        )
+        =
+        
+          ϕ
+          
+            q
+            ,
+            
+              k
+            
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle f_{k}(z)=\phi _{q,\mathbf {k} }(z)}
+   with energy 
+  
+    
+      
+        
+          E
+          
+            ν
+          
+        
+        (
+        q
+        ,
+        
+          k
+        
+        )
+      
+    
+    {\displaystyle E^{\nu }(q,\mathbf {k} )}
+  . Within first-order perturbation theory in k2, one obtains the energy
+
+  
+    
+      
+        
+          E
+          
+            ν
+          
+        
+        (
+        q
+        ,
+        
+          k
+        
+        )
+        ≈
+        
+          E
+          
+            ν
+          
+        
+        (
+        q
+        ,
+        
+          0
+        
+        )
+        +
+        ⟨
+        
+          ϕ
+          
+            q
+            ,
+            
+              k
+            
+          
+        
+        ∣
+        
+          
+            
+              
+                ℏ
+                
+                  2
+                
+              
+              
+                
+                  k
+                
+                
+                  2
+                
+              
+            
+            
+              2
+              
+                m
+                
+                  c
+                
+              
+              (
+              z
+              )
+            
+          
+        
+        ∣
+        
+          ϕ
+          
+            q
+            ,
+            
+              k
+            
+          
+        
+        ⟩
+      
+    
+    {\displaystyle E^{\nu }(q,\mathbf {k} )\approx E^{\nu }(q,\mathbf {0} )+\langle \phi _{q,\mathbf {k} }\mid {\frac {\hbar ^{2}\mathbf {k} ^{2}}{2m_{c}(z)}}\mid \phi _{q,\mathbf {k} }\rangle }
+  .
+Now, 
+  
+    
+      
+        
+          ϕ
+          
+            q
+            ,
+            
+              0
+            
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle \phi _{q,\mathbf {0} }(z)}
+   will exhibit a larger probability in the well, so that it seems reasonable to replace the second term by
+
+  
+    
+      
+        
+          E
+          
+            k
+          
+        
+        =
+        
+          
+            
+              
+                ℏ
+                
+                  2
+                
+              
+              
+                
+                  k
+                
+                
+                  2
+                
+              
+            
+            
+              2
+              
+                m
+                
+                  w
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle E_{k}={\frac {\hbar ^{2}\mathbf {k} ^{2}}{2m_{w}}}}
+  
+where 
+  
+    
+      
+        
+          m
+          
+            w
+          
+        
+      
+    
+    {\displaystyle m_{w}}
+   is the effective mass of the quantum well.
+
+
+== Wannier functions ==
+By definition the Bloch functions are delocalized over the whole superlattice. This may provide difficulties if electric fields are applied or effects due to the superlattice's finite length are considered. Therefore, it is often helpful to use different sets of basis states that are better localized. A tempting choice would be the use of eigenstates of single quantum wells. Nevertheless, such a choice has a severe shortcoming: the corresponding states are solutions of two different Hamiltonians, each neglecting the presence of the other well. Thus these states are not orthogonal, creating complications. Typically, the coupling is estimated by the transfer Hamiltonian within this approach. For these reasons, it is more convenient to use the set of Wannier functions.
+
+
+== Wannier–Stark ladder ==
+Applying an electric field F to the superlattice structure causes the Hamiltonian to exhibit an additional scalar potential eφ(z) = −eFz that destroys the translational invariance. In this case, given an eigenstate with wavefunction 
+  
+    
+      
+        
+          Φ
+          
+            0
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle \Phi _{0}(z)}
+   and energy 
+  
+    
+      
+        
+          E
+          
+            0
+          
+        
+      
+    
+    {\displaystyle E_{0}}
+  , then the set of states corresponding to wavefunctions 
+  
+    
+      
+        
+          Φ
+          
+            j
+          
+        
+        (
+        z
+        )
+        =
+        
+          Φ
+          
+            0
+          
+        
+        (
+        z
+        −
+        j
+        d
+        )
+      
+    
+    {\displaystyle \Phi _{j}(z)=\Phi _{0}(z-jd)}
+   are eigenstates of the Hamiltonian with energies Ej = E0 − jeFd. These states are equally spaced both in energy and real space and form the so-called Wannier–Stark ladder. The potential 
+  
+    
+      
+        
+          Φ
+          
+            0
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle \Phi _{0}(z)}
+   is not bounded for the infinite crystal, which implies a continuous energy spectrum. Nevertheless, the characteristic energy spectrum of these Wannier–Stark ladders could be resolved experimentally.
+
+
+== Transport ==
+
+The motion of charge carriers in a superlattice is different from that in the individual layers: mobility of charge carriers can be enhanced, which is beneficial for high-frequency devices, and specific optical properties are used in semiconductor lasers.
+If an external bias is applied to a conductor, such as a metal or a semiconductor, typically an electric current is generated. The magnitude of this current is determined by the band structure of the material, scattering processes, the applied field strength and the equilibrium carrier distribution of the conductor.
+A particular case of superlattices called superstripes are made of superconducting units separated by spacers. In each miniband the superconducting order parameter, called the superconducting gap, takes different values, producing a multi-gap, or two-gap or multiband superconductivity.
+
+
+== Other dimensionalities ==
+Soon after two-dimensional electron gases (2DEG) had become commonly available for experiments, research groups attempted to create structures that could be called 2D artificial crystals. The idea is to subject the electrons confined to an interface between two semiconductors (i.e. along z-direction) to an additional modulation potential V(x,y). Contrary to the classical superlattices (1D/3D, that is 1D modulation of electrons in 3D bulk) described above, this is typically achieved by treating the heterostructure surface: depositing a suitably patterned metallic gate or etching. If the amplitude of V(x,y) is large (take 
+  
+    
+      
+        V
+        (
+        x
+        ,
+        y
+        )
+        =
+        −
+        
+          V
+          
+            0
+          
+        
+        (
+        cos
+        ⁡
+        2
+        π
+        x
+        
+          /
+        
+        a
+        +
+        cos
+        ⁡
+        2
+        π
+        y
+        
+          /
+        
+        a
+        )
+        ,
+        
+          V
+          
+            0
+          
+        
+        >
+        0
+      
+    
+    {\displaystyle V(x,y)=-V_{0}(\cos 2\pi x/a+\cos 2\pi y/a),V_{0}>0}
+   as an example) compared to the Fermi level, 
+  
+    
+      
+        
+          |
+        
+        
+          V
+          
+            0
+          
+        
+        
+          |
+        
+        ≫
+        
+          E
+          
+            f
+          
+        
+      
+    
+    {\displaystyle |V_{0}|\gg E_{f}}
+  , the electrons in the superlattice should behave similarly to electrons in an atomic crystal with square lattice (in the example, these "atoms" would be located at positions (na,ma) where n,m are integers).
+The difference is in the length and energy scales. Lattice constants of atomic crystals are of the order of 1Å while those of superlattices (a) are several hundreds or thousands larger as dictated by technological limits (e.g. electron-beam lithography used for the patterning of the heterostructure surface). Energies are correspondingly smaller in superlattices. Using the simple quantum-mechanically confined-particle model suggests 
+  
+    
+      
+        E
+        ∝
+        1
+        
+          /
+        
+        
+          a
+          
+            2
+          
+        
+      
+    
+    {\displaystyle E\propto 1/a^{2}}
+  . This relation is only a rough guide and actual calculations with currently topical graphene (a natural atomic crystal) and artificial graphene (superlattice) show that characteristic band widths are of the order of 1 eV and 10 meV, respectively. In the regime of weak modulation (
+  
+    
+      
+        
+          |
+        
+        
+          V
+          
+            0
+          
+        
+        
+          |
+        
+        ≪
+        
+          E
+          
+            f
+          
+        
+      
+    
+    {\displaystyle |V_{0}|\ll E_{f}}
+  ), phenomena like commensurability oscillations or fractal energy spectra (Hofstadter butterfly) occur.
+Artificial two-dimensional crystals can be viewed as a 2D/2D case (2D modulation of a 2D system) and other combinations are experimentally available: an array of quantum wires (1D/2D) or 3D/3D photonic crystals.
+
+
+== See also ==
+Wannier function
+
+
+== References ==
+
+H.T. Grahn, "Semiconductor Superlattices", World Scientific (1995). ISBN 978-981-02-2061-7
+Schuller, I. (1980). "New Class of Layered Materials". Physical Review Letters. 44 (24): 1597–1600. Bibcode:1980PhRvL..44.1597S. doi:10.1103/PhysRevLett.44.1597. 
+Morten Jagd Christensen, "Epitaxy, Thin Films and Superlattices", Risø National Laboratory, (1997). ISBN 8755022987 Superlattice at Google Books [1]
+C. Hamaguchi, "Basic Semiconductor Physics", Springer (2001). Superlattice at Google Books ISBN 3540416390
+Wacker, A. (2002). "Semiconductor superlattices: A model system for nonlinear transport". Physics Reports. 357: 1–7. arXiv:cond-mat/0107207. Bibcode:2002PhR...357....1W. doi:10.1016/S0370-1573(01)00029-1. 
+Haugan, H. J.; Szmulowicz, F.; Mahalingam, K.; Brown, G. J.; Munshi, S. R.; Ullrich, B. (2005). "Short-period InAs∕GaSb type-II superlattices for mid-infrared detectors". Applied Physics Letters. 87 (26): 261106. Bibcode:2005ApPhL..87z1106H. doi:10.1063/1.2150269.  [2]
+
+
+== Further reading ==
+Mendez, E. E.; Bastard, G. R. (1993). "Wannier-Stark Ladders and Bloch Oscillations in Superlattices". Physics Today. 46 (6): 34–42. doi:10.1063/1.881353.

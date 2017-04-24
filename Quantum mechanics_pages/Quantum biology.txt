@@ -1,0 +1,60 @@
+Quantum biology refers to applications of quantum mechanics and theoretical chemistry to biological objects and problems. Many biological processes involve the conversion of energy into forms that are usable for chemical transformations and are quantum mechanical in nature. Such processes involve chemical reactions, light absorption, formation of excited electronic states, transfer of excitation energy, and the transfer of electrons and protons (hydrogen ions) in chemical processes such as photosynthesis and cellular respiration. Quantum biology may use computations to model biological interactions in light of quantum mechanical effects. Quantum biology is concerned with the influence of non-trivial quantum phenomena, as opposed to the so-called trivial quantum phenomena present in all biology by reduction to fundamental physics.
+
+
+== History ==
+Early pioneers of quantum physics saw applications of quantum mechanics in biological problems. Erwin Schrödinger published What is Life? in 1944 discussing applications of quantum mechanics in biology. Schrödinger introduced the idea of an "aperiodic crystal" that contained genetic information in its configuration of covalent chemical bonds. He further suggested that mutations are introduced by "quantum leaps". Other pioneers Niels Bohr, Pascual Jordan, and Max Delbruck argued that the quantum idea of complementarity was fundamental to the life sciences. In 1963 Per-Olov Löwdin published proton tunneling as another mechanism for DNA mutation. In his paper, he stated that there is a new field of study called "quantum biology".
+
+
+== Applications ==
+
+
+=== Photosynthesis ===
+
+Organisms that undergo photosynthesis initially absorb light energy through the process of electron excitation in an antenna. This antenna varies between organisms. Bacteria can use ring like structures as antennas, whereas plants and other organisms use chlorophyll pigments to absorb photons. This electron excitation creates a separation of charge in a reaction site that is later converted into chemical energy for the cell to use. However, this electron excitation must be transferred in an efficient and timely manner, before that energy is lost in fluorescence.
+Various structures are responsible for transferring energy from the antennas to a reaction site. One of the most well studied is the FMO complex in green sulfur bacteria. FT electron spectroscopy studies show an efficiency of above 99% between the absorption of electrons and transfer to the reaction site with short lived intermediates. This high efficiency cannot be explained by classical mechanics such as a diffusion model.
+Studies published in 2010 claimed to identify electronic quantum coherence and entanglement between the excited states of different pigments in the light-harvesting stage of photosynthesis. However, critical follow-up studies question the interpretation of these results and assign the reported signatures of electronic quantum coherence to nuclear dynamics in the chromophores. There are a number of proposals as to how quantum coherence transfers the absorbed energy to the reaction site. According to one proposal, if each site within the complex feels its own environmental noise, then because of both quantum coherence and thermal environment, the electron will not remain in any local minimum but proceed to the reaction site. Another proposal is that the rate of quantum coherence combined with electron tunneling creates an energy sink that moves the electron to the reaction site quickly. Recent work indicates that symmetries present in the geometric arrangement of the complex may favor efficient energy transfer to the reaction center, in a way that resembles perfect state transfer in quantum networks. However, control experiments cast doubts on the interpretation that quantum effects last any longer than one hundred femtoseconds.
+
+
+=== Vision ===
+
+Vision relies on quantized energy in order to convert light signals to an action potential in a process called phototransduction. In phototransduction, a photon interacts with a chromophore in a light receptor. The chromophore absorbs the photon and undergoes photoisomerization. This change in structure induces a change in the structure of the photo receptor and resulting signal transduction pathways lead to a visual signal. However, the photoisomerization reaction occurs at a rapid rate, <200 fs, with high yield. Models suggest the use of quantum effects in shaping the ground state and excited state potentials in order to achieve this efficiency.
+
+
+=== Enzymatic activity (quantum biochemistry) ===
+Enzymes may use quantum tunneling to transfer electrons long distances. Tunneling refers to the ability of a small mass particle to travel through energy barriers. Studies show that long distance electron transfers between redox centers through quantum tunneling plays important roles in enzymatic activity of photosynthesis and cellular respiration. For example, studies show that long range electron tunneling on the order of 15–30 Å plays a role in redox reactions in enzymes of cellular respiration. Even though there are such large separations between redox sites within enzymes, electrons successfully transfer in a temperature independent and distance dependent manner. This suggests the ability of electrons to tunnel in physiological conditions. Further research is needed to determine whether this specific tunneling is also coherent.
+
+
+=== Magnetoreception ===
+
+Magnetoreception refers to the ability of animals to navigate using the inclination of the magnetic field of the earth. A possible explanation for magnetoreception is the radical pair mechanism. The radical-pair mechanism is well-established in spin chemistry, and was speculated to apply to magnetoreception in 1978 by Schulten et al.. In 2000, cryptochrome was proposed as the "magnetic molecule", so to speak, that could harbor magnetically sensitive radical-pairs. Cryptochrome, a flavoprotein found in the eye of at least the European robin, is the only protein known to form photoinduced radical-pairs in animals. The function of cryptochrome is diverse across species, however, the photoinduction of radical-pairs occurs by exposure to blue light, which excites an electron in a chromophore.
+Furthermore, the excited electron is quantum entangled to another electron so it is simultaneously in both the singlet and triplet states. However, in principle, entanglement is not necessary for a radical-pair mechanism of magnetoreception, so evidence of a radical-pair mechanism of magnetoreception is not necessarily synonymous with evidence for quantum biology.
+Nevertheless, in the lab, the direction of weak magnetic fields can affect radical-pair's reactivity, and therefore can "catalyze" the formation of chemical products. Whether this mechanism applies to magnetoreception and/or quantum biology, that is, whether earth's magnetic field "catalyzes" the formation of biochemical products by the aid of entangled or non-entangled radical-pairs, is doubly undetermined. As to the former, researchers found evidence for the radical-pair mechanism of magnetoreception when European robins, cockroaches, and garden warblers, could no longer navigate when exposed to a radio frequency oscillating magnetic fields, which specially disturbs radical-pair chemistry. To empirically suggest the involvement of entanglement, an experiment would need to be devised that could disturb entangled radical-pairs without disturbing other radical-pairs, or vice versa, which would first need to be demonstrated in a laboratory setting before being applied to magnetoreception.
+
+
+=== Other biological applications ===
+Other examples of quantum phenomena in biological systems include olfaction, the conversion of chemical energy into motion, DNA mutation and brownian motors in many cellular processes.
+
+
+== References ==
+
+
+== Further reading ==
+Abbott, Davies, Pati, eds, Quantum Aspects of Life, 2008.
+How Long is a Piece of Time? Phenomenal Time and Quantum Coherence. Toward a Solution Vimal (Ram Lakhan Pandey) & Davia (Christopher James) Quantum Biosystems, 1(2) 102-151, Editor Massimo Pregnolato
+Derek Abbott, Julio Gea-Banacloche, Paul C. W. Davies, Stuart Hameroff, Anton Zeilinger, Jens Eisert, Howard M. Wiseman, Sergey M. Bezrukov, and Hans Frauenfelder, "Plenary debate: quantum effects in biology―trivial or not?" Fluctuation and Noise Letters, 8(1), pp. C5–C26, 2008.
+Ball, Philip (2011). "Physics of life: The dawn of quantum biology". Nature. 474: 272–274. doi:10.1038/474272a. 
+Bordonaro, M; Ogryzko, VV (2013). "Quantum biology at the cellular level - Elements of the research program". Biosystems. 112 (1): 11–30. doi:10.1016/j.biosystems.2013.02.008. 
+Davies, P.C.W. (2004). "Does quantum mechanics play a non-trivial role in life?". BioSystems. 78: 69–79. doi:10.1016/j.biosystems.2004.07.001. PMID 15555759. 
+P.C.W. Davies, "Quantum fluctuations and life", quant-ph/0403017, 2 March 2004
+McFadden, Johnjoe; Al-Khalili, Jim (1999). "A quantum mechanical model of adaptive mutation". BioSystems. 50: 203–211. doi:10.1016/s0303-2647(99)00004-0. 
+Jim Al-Khalili and Johnjoe McFadden, Life on the Edge: The Coming of Age of Quantum Biology, Bantam Press, 2014 [1]
+Ogryzko, VV (2008). "Erwin Schroedinger, Francis Crick and epigenetic stability". Biol Direct. 3: 15. doi:10.1186/1745-6150-3-15. PMC 2413215. PMID 18419815. 
+Erwin Schrödinger. What is Life?, Cambridge, 1944.
+Tegmark, M. (2000). "Why the brain is probably not a quantum computer". Information Sciences. 128: 155–179. doi:10.1016/s0020-0255(00)00051-7. 
+Trixler, F. (2013). "Quantum tunnelling to the origin and evolution of life" (PDF). Current Organic Chemistry. 17 (16): 1758–1770. doi:10.2174/13852728113179990083. PMC 3768233. PMID 24039543. 
+
+
+== External links ==
+Quantum Biology and the Hidden Nature of Nature, World Science Festival 2012, video of podium discussion
+Theoretical and Computational Biophysics Group, University of Illinois at Urbana-Champaign
+Quantum Biology Workshop, September 2012, University of Surrey, UK - videos of plenary talks and interviews with participants

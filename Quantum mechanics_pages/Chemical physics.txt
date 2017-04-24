@@ -1,0 +1,36 @@
+Chemical physics is a subdiscipline of chemistry and physics that investigates physicochemical phenomena using techniques from atomic and molecular physics and condensed matter physics; it is the branch of physics that studies chemical processes from the point of view of physics. While at the interface of physics and chemistry, chemical physics is distinct from physical chemistry in that it focuses more on the characteristic elements and theories of physics. Meanwhile, physical chemistry studies the physical nature of chemistry. Nonetheless, the distinction between the two fields is vague, and workers often practice in both fields during the course of their research.
+The United States Department of Education defines chemical physics as "A program that focuses on the scientific study of structural phenomena combining the disciplines of physical chemistry and atomic/molecular physics. Includes instruction in heterogeneous structures, alignment and surface phenomena, quantum theory, mathematical physics, statistical and classical mechanics, chemical kinetics, and laser physics."
+
+
+== What chemical physicists do ==
+Chemical physicists commonly probe the structure and dynamics of ions, free radicals, polymers, clusters, and molecules. Areas of study include the quantum mechanical behavior of chemical reactions, the process of solvation, inter- and intra-molecular energy flow, and single entities such as quantum dots. Experimental chemical physicists use a variety of spectroscopic techniques to better understand hydrogen bonding, electron transfer, the formation and dissolution of chemical bonds, chemical reactions, and the formation of nanoparticles. Theoretical chemical physicists create simulations of the molecular processes probed in these experiments to both explain results and guide future investigations. The goals of chemical physics research include understanding chemical structures and reactions at the quantum mechanical level, elucidating the structure and reactivity of gas phase ions and radicals, and discovering accurate approximations to make the physics of chemical phenomena computationally accessible. Chemical physicists are looking for answers to such questions as:
+Can we experimentally test quantum mechanical predictions of the vibrations and rotations of simple molecules? Or even those of complex molecules (such as proteins)?
+Can we develop more accurate methods for calculating the electronic structure and properties of molecules?
+Can we understand chemical reactions from first principles?
+Why do quantum dots start blinking (in a pattern suggesting fractal kinetics) after absorbing photons of light?
+How do chemical reactions really take place?
+What is the step-by-step process that occurs when an isolated molecule becomes solvated? Or when a whole ensemble of molecules becomes solvated?
+Can we use the properties of negative ions to determine molecular structures, understand the dynamics of chemical reactions, or explain photodissociation?
+Why does a stream of soft x-rays knock enough electrons out of the atoms in a xenon cluster to cause the cluster to explode?
+
+
+== Journals ==
+
+Chemical Physics Letters
+Journal of Physical Chemistry A, B, and C
+The Journal of Chemical Physics
+Physical Chemistry Chemical Physics
+Chemical Physics
+
+
+== See also ==
+
+Intermolecular force
+Molecular dynamics
+Quantum chemistry
+Solid-state physics
+Surface science
+Van der Waals molecule
+
+
+== References ==

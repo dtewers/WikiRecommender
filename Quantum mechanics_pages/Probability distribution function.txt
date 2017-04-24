@@ -1,0 +1,6 @@
+A probability distribution function is some function that may be used to define a particular probability distribution. Depending upon which text is consulted, the term may refer to:
+a cumulative distribution function,
+a probability mass function, and/or
+a probability density function.
+The similar term probability function may mean any of the above and, in addition,
+a probability measure function, as in a probability space, where the domain of the function is the set of events.

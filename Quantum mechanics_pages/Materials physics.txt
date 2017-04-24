@@ -1,0 +1,6 @@
+Material physics is the use of physics to describe the physical properties of materials. It is a synthesis of physical sciences such as chemistry, solid mechanics, solid state physics, and materials science. Materials physics is considered a subset of condensed matter physics and applies fundamental condensed matter concepts to complex multiphase media, including materials of technological interest.
+Current fields that materials physicists work in include electronic, optical, and magnetic materials, novel materials and structures, quantum phenomena in materials, nonequilibrium physics, and soft condensed matter physics. New experimental and computational tools are constantly improving how materials systems are modeled and studied and are also fields when materials physicists work in.
+
+
+== See also ==
+Material science

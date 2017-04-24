@@ -1,0 +1,29 @@
+Applied physics is physics which is intended for a particular technological or practical use. It is usually considered as a bridge or a connection between physics and engineering.
+"Applied" is distinguished from "pure" by a subtle combination of factors such as the motivation and attitude of researchers and the nature of the relationship to the technology or science that may be affected by the work. Applied Physics is rooted in the fundamental truths and basic concepts of the physical sciences but is concerned with the utilization of scientific principles in practical devices and systems, and in the application of physics in other areas of science.
+It usually differs from engineering in that an applied physicist may not be designing something in particular, but rather is using physics or conducting physics research with the aim of developing new technologies or solving an engineering problem. This approach is similar to that of applied mathematics.
+In other words, applied physics is rooted in the fundamental truths and basic concepts of the physical sciences but is concerned with the utilization of these scientific principles in practical devices and systems.
+Applied physicists can also be interested in the use of physics for scientific research. For instance, the field of accelerator physics can contribute to research in theoretical physics by working with engineers enabling design and construction of high-energy colliders.
+
+
+== Examples of research & development areas ==
+The transistor, which was first invented by physicists John Bardeen, Walter Brattain and William Shockley in 1947
+Lasers, such as Vertical-cavity surface-emitting lasers
+Photonic crystals and quantum optics
+Magnetic resonance imaging
+Microscopy
+Semiconductors
+Accelerator physics
+Quantum information science
+Quantum technology
+Astrodynamics
+Electromagnetic propulsion
+Stealth technology
+Nuclear engineering
+Engineering Physics
+Electronics
+Sonar
+Radar
+Lidar
+
+
+== References ==

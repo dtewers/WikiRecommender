@@ -1,0 +1,282 @@
+The ensemble interpretation of quantum mechanics considers the quantum state description to apply only to an ensemble of similarly prepared systems, rather than supposing that it exhaustively represents an individual physical system.
+The advocates of the ensemble interpretation of quantum mechanics claim that it is minimalist, making the fewest physical assumptions about the meaning of the standard mathematical formalism. It proposes to take to the fullest extent the statistical interpretation of Max Born, for which he won the Nobel Prize in Physics. For example, a new version of the ensemble interpretation that relies on a new formulation of probability theory was introduced by Raed Shaiia, which showed that the laws of quantum mechanics are the inevitable result of this new formulation  On the face of it, the ensemble interpretation might appear to contradict the doctrine proposed by Niels Bohr, that the wave function describes an individual system or particle, not an ensemble, though he accepted Born's statistical interpretation of quantum mechanics. It is not quite clear exactly what kind of ensemble Bohr intended to exclude, since he did not describe probability in terms of ensembles. The ensemble interpretation is sometimes, especially by its proponents, called "the statistical interpretation", but it seems perhaps different from Born's statistical interpretation.
+As is the case for "the" Copenhagen interpretation, "the" ensemble interpretation might not be uniquely defined. In one view, the ensemble interpretation may be defined as that advocated by Leslie E. Ballentine, Professor at Simon Fraser University His interpretation does not attempt to justify, or otherwise derive, or explain quantum mechanics from any deterministic process, or make any other statement about the real nature of quantum phenomena; it intends simply to interpret the wave function. It does not propose to lead to actual results that differ from orthodox interpretations. It makes the statistical operator primary in reading the wave function, deriving the notion of a pure state from that. In the opinion of Ballentine, perhaps the most notable supporter of such an interpretation was Albert Einstein:
+
+The attempt to conceive the quantum-theoretical description as the complete description of the individual systems leads to unnatural theoretical interpretations, which become immediately unnecessary if one accepts the interpretation that the description refers to ensembles of systems and not to individual systems.
+
+Nevertheless, one may doubt as to whether Einstein, over the years, had in mind one definite kind of ensemble.
+
+
+== Meaning of "Ensemble" and "System" ==
+Perhaps the first expression of an ensemble interpretation was that of Max Born. He used the German words 'Haufen gleicher', which are often translated into English, in this context, as 'ensemble' or 'assembly'. The atoms in his assembly were uncoupled, meaning that the ensemble was an imaginary set of independent atoms that defines its observable statistical properties. Born did not write there of an ensemble of instances of a certain kind of wave function, or of one composed of instances of a certain kind of state vector. There may be room here for confusion or miscommunication.
+An example of an ensemble is composed by preparing and observing many copies of one and the same kind of quantum system. This is referred to as an ensemble of systems. It is not, for example, a single preparation and observation of one simultaneous set ("ensemble") of particles. A single body of many particles, as in a gas, is not an "ensemble" of particles in the sense of the "ensemble interpretation", although a repeated preparation and observation of many copies of one and the same kind of body of particles may constitute an "ensemble" of systems, each system being a body of many particles. The ensemble is not in principle confined to such a laboratory paradigm, but may be a natural system conceived of as occurring repeatedly in nature; it is not quite clear whether or how this might be realized.
+The members of the ensemble are said to be in the same state, and this defines the term 'state'. The state is mathematically denoted by a mathematical object called a statistical operator. Such an operator is a map from a certain corresponding Hilbert space to itself, and may be written as a density matrix. It is characteristic of the ensemble interpretation to define the state by the statistical operator. Other interpretations may instead define the state by the corresponding Hilbert space. Such a difference between the modes of definition of state seems to make no difference to the physical meaning. Indeed, according to Ballentine, one can define the state by an ensemble of identically prepared systems, denoted by a point in the Hilbert space, as is perhaps more customary. The link is established by making the observing procedure a copy of the preparative procedure; mathematically the corresponding Hilbert spaces are mutually dual. Since Bohr's concern was that the specimen phenomena are joint preparation-observation occasions, it is not evident that the Copenhagen and ensemble interpretations differ substantially in this respect.
+According to Ballentine, the distinguishing difference between the Copenhagen interpretation (CI) and the ensemble interpretation (EI) is the following:
+CI: A pure state 
+  
+    
+      
+        
+          |
+        
+        y
+        ⟩
+      
+    
+    {\displaystyle |y\rangle }
+   provides a "complete" description of an individual system, in the sense that a dynamical variable represented by the operator 
+  
+    
+      
+        Q
+      
+    
+    {\displaystyle \operatorname {Q} }
+   has a definite value (
+  
+    
+      
+        q
+      
+    
+    {\displaystyle q}
+  , say) if and only if 
+  
+    
+      
+        Q
+        ⁡
+        
+          |
+        
+        y
+        ⟩
+        =
+        q
+        
+          |
+        
+        y
+        ⟩
+      
+    
+    {\displaystyle \operatorname {Q} |y\rangle =q|y\rangle }
+  .
+EI: A pure state describes the statistical properties of an ensemble of identically prepared systems, of which the statistical operator is idempotent.
+Ballentine emphasizes that the meaning of the "Quantum State" or "State Vector" may be described, essentially, by a one-to-one correspondence to the probability distributions of measurement results, not the individual measurement results themselves. A mixed state is a description only of the probabilities, 
+  
+    
+      
+        
+          
+            P
+          
+        
+        (
+        
+          χ
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {P}}(\chi _{1})}
+   and 
+  
+    
+      
+        
+          
+            P
+          
+        
+        (
+        
+          χ
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {P}}(\chi _{2})}
+   of positions, not a description of actual individual positions. A mixed state is a mixture of probabilities of physical states, not a coherent superposition of physical states.
+
+
+== Ensemble interpretation applied to single systems ==
+The statement that the quantum mechanical wave function itself does not apply to a single system in one sense does not imply that the ensemble interpretation itself does not apply to single systems in the sense meant by the ensemble interpretation. The condition is that there is not a direct one-to-one correspondence of the wave function with an individual system that might imply, for example, that an object might physically exist in two states simultaneously. The ensemble interpretation may well be applied to a single system or particle, and predict what is the probability that that single system will have for a value of one of its properties, on repeated measurements.
+Consider the throwing of two dice simultaneously on a craps table. The system in this case would consist of only the two dice. There are probabilities of various results, e.g. two fives, two twos, a one and a six etc. Throwing the pair of dice 100 times, would result in an ensemble of 100 trials. Classical statistics would then be able predict what typically would be the number of times that certain results would occur. However, classical statistics would not be able to predict what definite single result would occur with a single throw of the pair of dice. That is, probabilities applied to single one off events are, essentially, meaningless, except in the case of a probability equal to 0 or 1. It is in this way that the ensemble interpretation states that the wave function does not apply to an individual system. That is, by individual system, it is meant a single experiment or single throw of the dice, of that system.
+The Craps throws could equally well have been of only one dice, that is, a single system or particle. Classical statistics would also equally account for repeated throws of this single dice. It is in this manner, that the ensemble interpretation is quite able to deal with "single" or individual systems on a probabilistic basis. The standard Copenhagen Interpretation (CI) is no different in this respect. A fundamental principle of QM is that only probabilistic statements may be made, whether for individual systems/particles, a simultaneous group of systems/particles, or a collection (ensemble) of systems/particles. An identification that the wave function applies to an individual system in standard CI QM, does not defeat the inherent probabilistic nature of any statement that can be made within standard QM. To verify the probabilities of quantum mechanical predictions, however interpreted, inherently requires the repetition of experiments, i.e. an ensemble of systems in the sense meant by the ensemble interpretation. QM cannot state that a single particle will definitely be in a certain position, with a certain momentum at a later time, irrespective of whether or not the wave function is taken to apply to that single particle. In this way, the standard CI also "fails" to completely describe "single" systems.
+However, it should be stressed that, in contrast to classical systems and older ensemble interpretations, the modern ensemble interpretation as discussed here, does not assume, nor require, that there exist specific values for the properties of the objects of the ensemble, prior to measurement.
+
+
+== Preparative and observing devices as origins of quantum randomness ==
+An isolated quantum mechanical system, specified by a wave function, evolves in time in a deterministic way according to the Schrödinger equation that is characteristic of the system. Though the wave function can generate probabilities, no randomness or probability is involved in the temporal evolution of the wave function itself. This is agreed, for example, by Born, Dirac, von Neumann, London & Bauer, Messiah, and Feynman & Hibbs. An isolated system is not subject to observation; in quantum theory, this is because observation is an intervention that violates isolation.
+The system's initial state is defined by the preparative procedure; this is recognized in the ensemble interpretation, as well as in the Copenhagen approach. The system's state as prepared, however, does not entirely fix all properties of the system. The fixing of properties goes only as far as is physically possible, and is not physically exhaustive; it is, however, physically complete in the sense that no physical procedure can make it more detailed. This is stated clearly by Heisenberg in his 1927 paper. It leaves room for further unspecified properties. For example, if the system is prepared with a definite energy, then the quantum mechanical phase of the wave function is left undetermined by the mode of preparation. The ensemble of prepared systems, in a definite pure state, then consists of a set of individual systems, all having one and the same the definite energy, but each having a different quantum mechanical phase, regarded as probabilistically random. The wave function, however, does have a definite phase, and thus specification by a wave function is more detailed than specification by state as prepared. The members of the ensemble are logically distinguishable by their distinct phases, though the phases are not defined by the preparative procedure. The wave function can be multiplied by a complex number of unit magnitude without changing the state as defined by the preparative procedure.
+The preparative state, with unspecified phase, leaves room for the several members of the ensemble to interact in respectively several various ways with other systems. An example is when an individual system is passed to an observing device so as to interact with it. Individual systems with various phases are scattered in various respective directions in the analyzing part of the observing device, in a probabilistic way. In each such direction, a detector is placed, in order to complete the observation. When the system hits the analyzing part of the observing device, that scatters it, it ceases to be adequately described by its own wave function in isolation. Instead it interacts with the observing device in ways partly determined by the properties of the observing device. In particular, there is in general no phase coherence between system and observing device. This lack of coherence introduces an element of probabilistic randomness to the system–device interaction. It is this randomness that is described by the probability calculated by the Born rule. There are two independent originative random processes, one that of preparative phase, the other that of the phase of the observing device. The random process that is actually observed, however, is neither of those originative ones. It is the phase difference between them, a single derived random process.
+The Born rule describes that derived random process, the observation of a single member of the preparative ensemble. In the ordinary language of classical or Aristotelian scholarship, the preparative ensemble consists of many specimens of a species. The quantum mechanical technical term 'system' refers to a single specimen, a particular object that may be prepared or observed. Such an object, as is generally so for objects, is in a sense a conceptual abstraction, because, according to the Copenhagen approach, it is defined, not in its own right as an actual entity, but by the two macroscopic devices that should prepare and observe it. The random variability of the prepared specimens does not exhaust the randomness of a detected specimen. Further randomness is injected by the quantum randomness of the observing device. It is this further randomness that makes Bohr emphasize that there is randomness in the observation that is not fully described by the randomness of the preparation. This is what Bohr means when he says that the wave function describes "a single system". He is focusing on the phenomenon as a whole, recognizing that the preparative state leaves the phase unfixed, and therefore does not exhaust the properties of the individual system. The phase of the wave function encodes further detail of the properties of the individual system. The interaction with the observing device reveals that further encoded detail. It seems that this point, emphasized by Bohr, is not explicitly recognized by the ensemble interpretation, and this may be what distinguishes the two interpretations. It seems, however, that this point is not explicitly denied by the ensemble interpretation.
+Einstein perhaps sometimes seemed to interpret the probabilistic "ensemble" as a preparative ensemble, recognizing that the preparative procedure does not exhaustively fix the properties of the system; therefore he said that the theory is "incomplete". Bohr, however, insisted that the physically important probabilistic "ensemble" was the combined prepared-and-observed one. Bohr expressed this by demanding that an actually observed single fact should be a complete "phenomenon", not a system alone, but always with reference to both the preparing and the observing devices. The Einstein–Podolsky–Rosen criterion of "completeness" is clearly and importantly different from Bohr's. Bohr regarded his concept of "phenomenon" as a major contribution that he offered for quantum theoretical understanding. The decisive randomness comes from both preparation and observation, and may be summarized in a single randomness, that of the phase difference between preparative and observing devices. The distinction between these two devices is an important point of agreement between Copenhagen and ensemble interpretations. Though Ballentine claims that Einstein advocated "the ensemble approach", a detached scholar would not necessarily be convinced by that claim of Ballentine. There is room for confusion about how "the ensemble" might be defined.
+
+
+== "Each photon interferes only with itself" ==
+Perhaps here may be found reason for differences of opinion, as between Niels Bohr's and other interpretations. Neils Bohr famously insisted that the wave function refers to a single individual quantum system. What did he mean by this? He was expressing the idea that Dirac expressed when he famously wrote: "Each photon then interferes only with itself. Interference between different photons never occurs.". Dirac clarified this by writing: "This, of course, is true only provided the two states that are superposed refer to the same beam of light, i.e. all that is known about the position and momentum of a photon in either of these states must be the same for each." Bohr wanted to emphasize that a superposition is different from a mixture. He seemed to think that those who spoke of a "statistical interpretation" were not taking that into account. To create, by a superposition experiment, a new and different pure state, from an original pure beam, one can put absorbers and phase-shifters into some of the sub-beams, so as to alter the composition of the re-constituted superposition. But one cannot do so by mixing a fragment of the original unsplit beam with component split sub-beams. That is because one photon cannot both go into the unsplit fragment and go into the split component sub-beams. Bohr felt that talk in statistical terms might hide this fact.
+The physics here is that the effect of the randomness contributed by the observing apparatus depends on whether the detector is in the path of a component sub-beam, or in the path of the single superposed beam. This is not explained by the randomness contributed by the preparative device.
+
+
+== Measurement and collapse ==
+
+
+=== Bras and kets ===
+The ensemble interpretation is notable for its relative de-emphasis on the duality and theoretical symmetry between bras and kets. The approach emphasizes the ket as signifying a physical preparation procedure. There is little or no expression of the dual role of the bra as signifying a physical observational procedure. The bra is mostly regarded as a mere mathematical object, without very much physical significance. It is the absence of the physical interpretation of the bra that allows the ensemble approach to by-pass the notion of "collapse". Instead, the density operator expresses the observational side of the ensemble interpretation. It hardly needs saying that this account could be expressed in a dual way, with bras and kets interchanged, mutation mutandis. In the ensemble approach, the notion of the pure state is conceptually derived by analysis of the density operator, rather than the density operator being conceived as conceptually synthesized from the notion of the pure state.
+An attraction of the ensemble interpretation is that it appears to dispense with the metaphysical issues associated with reduction of the state vector, Schrödinger cat states, and other issues related to the concepts of multiple simultaneous states. The ensemble interpretation postulates that the wave function only applies to an ensemble of systems as prepared, but not observed. There is no recognition of the notion that a single specimen system could manifest more than one state at a time, as assumed, for example, by Dirac. Hence, the wave function is not envisaged as being physically required to be "reduced". This can be illustrated by an example:
+Consider a quantum die. If this is expressed in Dirac notation, the "state" of the die can be represented by a "wave" function describing the probability of an outcome given by:
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        
+          
+            
+              
+                |
+              
+              1
+              ⟩
+              +
+              
+                |
+              
+              2
+              ⟩
+              +
+              
+                |
+              
+              3
+              ⟩
+              +
+              
+                |
+              
+              4
+              ⟩
+              +
+              
+                |
+              
+              5
+              ⟩
+              +
+              
+                |
+              
+              6
+              ⟩
+            
+            
+              6
+            
+          
+        
+      
+    
+    {\displaystyle |\psi \rangle ={\frac {|1\rangle +|2\rangle +|3\rangle +|4\rangle +|5\rangle +|6\rangle }{\sqrt {6}}}}
+  
+Where it should be noted that the "+" sign of a probabilistic equation is not an addition operator, it is a standard probabilistic or Boolean logical OR operator. The state vector is inherently defined as a probabilistic mathematical object such that the result of a measurement is one outcome OR another outcome.
+It is clear that on each throw, only one of the states will be observed, but this is not expressed by a bra. Consequently, there appears to be no requirement for a notion of collapse of the wave function/reduction of the state vector, or for the die to physically exist in the summed state. In the ensemble interpretation, wave function collapse would make as much sense as saying that the number of children a couple produced, collapsed to 3 from its average value of 2.4.
+The state function is not taken to be physically real, or be a literal summation of states. The wave function, is taken to be an abstract statistical function, only applicable to the statistics of repeated preparation procedures. The ket does not directly apply to a single particle detection, but only the statistical results of many. This is why the account does not refer to bras, and mentions only kets.
+
+
+=== Diffraction ===
+The ensemble approach differs significantly from the Copenhagen approach in its view of diffraction. The Copenhagen interpretation of diffraction, especially in the viewpoint of Niels Bohr, puts weight on the doctrine of wave–particle duality. In this view, a particle that is diffracted by a diffractive object, such as for example a crystal, is regarded as really and physically behaving like a wave, split into components, more or less corresponding to the peaks of intensity in the diffraction pattern. Though Dirac does not speak of wave–particle duality, he does speak of "conflict" between wave and particle conceptions. He indeed does describe a particle, before it is detected, as being somehow simultaneously and jointly or partly present in the several beams into which the original beam is diffracted. So does Feynman, who speaks of this as "mysterious".
+The ensemble approach points out that this seems perhaps reasonable for a wave function that describes a single particle, but hardly makes sense for a wave function that describes a system of several particles. The ensemble approach demystifies this situation along the lines advocated by Alfred Landé, accepting Duane's hypothesis. In this view, the particle really and definitely goes into one or other of the beams, according to a probability given by the wave function appropriately interpreted. There is definite quantal transfer of translative momentum between particle and diffractive object. This is recognized also in Heisenberg's 1930 textbook, though usually not recognized as part of the doctrine of the so-called "Copenhagen interpretation". This gives a clear and utterly non-mysterious physical or direct explanation instead of the debated concept of wave function "collapse". It is presented in terms of quantum mechanics by other present day writers also, for example, Van Vliet. For those who prefer physical clarity rather than mysterianism, this is an advantage of the ensemble approach, though it is not the sole property of the ensemble approach. With a few exceptions, this demystification is not recognized or emphasized in many textbooks and journal articles.
+
+
+=== Criticism ===
+David Mermin sees the Ensemble interpretation as being motivated by an adherence ("not always acknowledged") to classical principles.
+
+"[...] the notion that probabilistic theories must be about ensembles implicitly assumes that probability is about ignorance. (The 'hidden variables' are whatever it is that we are ignorant of.) But in a non-deterministic world probability has nothing to do with incomplete knowledge, and ought not to require an ensemble of systems for its interpretation".
+
+However, according to Einstein and others, a key motivation for the ensemble interpretation is not about any alleged, implicitly assumed probabilistic ignorance, but the removal of "…unnatural theoretical interpretations…". A specific example being the Schrödinger Cat problem stated above, but this concept applies to any system where there is an interpretation that postulates, for example, that an object might exist in two positions at once.
+Mermin also emphasises the importance of describing single systems, rather than ensembles.
+
+"The second motivation for an ensemble interpretation is the intuition that because quantum mechanics is inherently probabilistic, it only needs to make sense as a theory of ensembles. Whether or not probabilities can be given a sensible meaning for individual systems, this motivation is not compelling. For a theory ought to be able to describe as well as predict the behavior of the world. The fact that physics cannot make deterministic predictions about individual systems does not excuse us from pursuing the goal of being able to describe them as they currently are."
+
+
+== Single particles ==
+According to proponents of this interpretation, no single system is ever required to be postulated to exist in a physical mixed state so the state vector does not need to collapse.
+It can also be argued that this notion is consistent with the standard interpretation in that, in the Copenhagen interpretation, statements about the exact system state prior to measurement cannot be made. That is, if it were possible to absolutely, physically measure say, a particle in two positions at once, then quantum mechanics would be falsified as quantum mechanics explicitly postulates that the result of any measurement must be a single eigenvalue of a single eigenstate.
+
+
+=== Criticism ===
+Arnold Neumaier finds limitations with the applicability of the ensemble interpretation to small systems.
+
+"Among the traditional interpretations, the statistical interpretation discussed by Ballentine in Rev. Mod. Phys. 42, 358-381 (1970) is the least demanding (assumes less than the Copenhagen interpretation and the Many Worlds interpretation) and the most consistent one. It explains almost everything, and only has the disadvantage that it explicitly excludes the applicability of QM to single systems or very small ensembles (such as the few solar neutrinos or top quarks actually detected so far), and does not bridge the gulf between the classical domain (for the description of detectors) and the quantum domain (for the description of the microscopic system)".
+(spelling amended) 
+However, the "ensemble" of the ensemble interpretation is not directly related to a real, existing collection of actual particles, such as a few solar neutrinos, but it is concerned with the ensemble collection of a virtual set of experimental preparations repeated many times. This ensemble of experiments may include just one particle/one system or many particles/many systems. In this light, it is arguably, difficult to understand Neumaier's criticism, other than that Neumaier possibly misunderstands the basic premise of the ensemble interpretation itself.
+
+
+== Schrödinger's cat ==
+The ensemble interpretation states that superpositions are nothing but subensembles of a larger statistical ensemble. That being the case, the state vector would not apply to individual cat experiments, but only to the statistics of many similar prepared cat experiments. Proponents of this interpretation state that this makes the Schrödinger's cat paradox a trivial non-issue. However, the application of state vectors to individual systems, rather than ensembles, has claimed explanatory benefits, in areas like single-particle twin-slit experiments and quantum computing (see Schrödinger's cat applications). As an avowedly minimalist approach, the ensemble interpretation does not offer any specific alternative explanation for these phenomena.
+
+
+== The frequentist probability variation ==
+The claim that the wave functional approach fails to apply to single particle experiments cannot be taken as a claim that quantum mechanics fails in describing single-particle phenomena. In fact, it gives correct results within the limits of a probabilistic or stochastic theory.
+Probability always requires a set of multiple data, and thus single-particle experiments are really part of an ensemble — an ensemble of individual experiments that are performed one after the other over time. In particular, the interference fringes seen in the double-slit experiment require repeated trials to be observed.
+
+
+== The quantum Zeno effect ==
+
+Leslie Ballentine promoted the ensemble interpretation in his book Quantum Mechanics, A Modern Development. In it, he described what he called the "Watched Pot Experiment". His argument was that, under certain circumstances, a repeatedly measured system, such as an unstable nucleus, would be prevented from decaying by the act of measurement itself. He initially presented this as a kind of reductio ad absurdum of wave function collapse.
+The effect has been shown to be real. Ballentine later wrote papers claiming that it could be explained without wave function collapse.
+
+
+== Classical Ensemble ideas ==
+These views regard the randomness of the ensemble as fully defined by the preparation, neglecting the subsequent random contribution of the observing process. This neglect was particularly criticized by Bohr.
+
+
+=== Einstein ===
+Early proponents, for example Einstein, of statistical approaches regarded quantum mechanics as an approximation to a classical theory. John Gribbin writes:
+
+"The basic idea is that each quantum entity (such as an electron or a photon) has precise quantum properties (such as position or momentum) and the quantum wavefunction is related to the probability of getting a particular experimental result when one member (or many members) of the ensemble is selected by an experiment"
+
+But hopes for turning quantum mechanics back into a classical theory were dashed. Gribbin continues:
+
+"There are many difficulties with the idea, but the killer blow was struck when individual quantum entities such as photons were observed behaving in experiments in line with the quantum wave function description. The Ensemble interpretation is now only of historical interest."
+
+In 1936 Einstein wrote a paper, in German, in which, amongst other matters, he considered quantum mechanics in general conspectus.
+He asked "How far does the ψ-function describe a real state of a mechanical system?" Following this, Einstein offers some argument that leads him to infer that "It seems to be clear, therefore, that the Born statistical interpretation of the quantum theory is the only possible one." At this point a neutral student may ask do Heisenberg and Bohr, considered respectively in their own rights, agree with that result? Born in 1971 wrote about the situation in 1936: "All theoretical physicists were in fact working with the statistical concept by then; this was particularly true of Niels Bohr and his school, who also made a vital contribution to the clarification of the concept."
+Where, then, is to be found disagreement between Bohr and Einstein on the statistical interpretation? Not in the basic link between theory and experiment; they agree on the Born "statistical" interpretation". They disagree on the metaphysical question of the determinism or indeterminism of evolution of the natural world. Einstein believed in determinism while Bohr (and it seems many physicists) believed in indeterminism; the context is atomic and sub-atomic physics. It seems that this is a fine question. Physicists generally believe that the Schrödinger equation describes deterministic evolution for atomic and sub-atomic physics. Exactly how that might relate to the evolution of the natural world may be a fine question.
+
+
+=== Objective-realist version ===
+Willem de Muynck describes an "objective-realist" version of the ensemble interpretation featuring counterfactual definiteness and the "possessed values principle", in which values of the quantum mechanical observables may be attributed to the object as objective properties the object possesses independent of observation. He states that there are "strong indications, if not proofs" that neither is a possible assumption.
+
+
+== See also ==
+Atomic electron transition
+Interpretations of quantum mechanics
+
+
+== References ==
+
+
+== External links ==
+Quantum mechanics as Wim Muynk sees it
+Einstein's reply to criticisms
+Kevin Aylwards's account of the ensemble interpretation
+Detailed ensemble interpretation by Marcel Nooijen
+Pechenkin, A.A. The early statistical interpretations of quantum mechanics
+Krüger, T. An attempt to close the Einstein–Podolsky–Rosen debate
+Duda, J. Four-dimensional understanding of quantum mechanics
+Ulf Klein's website on the statistical interpretation of quantum theory
+Mamas, D.L. An intrinsic quantum state interpretation of quantum mechanics

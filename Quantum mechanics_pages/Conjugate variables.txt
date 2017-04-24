@@ -1,0 +1,32 @@
+Conjugate variables are pairs of variables mathematically defined in such a way that they become Fourier transform duals of one another, or more generally are related through Pontryagin duality. The duality relations lead naturally to an uncertainty relation—in physics called the Heisenberg uncertainty principle—between them. In mathematical terms, conjugate variables are part of a symplectic basis, and the uncertainty relation corresponds to the symplectic form.
+
+
+== Examples ==
+There are many types of conjugate variables, depending on the type of work a certain system is doing (or is being subjected to). Examples of canonically conjugate variables include the following:
+Time and frequency: the longer a musical note is sustained, the more precisely we know its frequency (but it spans more time). Conversely, a very short musical note becomes just a click, and so one can't determine its frequency very accurately.
+Doppler and range: the more we know about how far away a radar target is, the less we can know about the exact velocity of approach or retreat, and vice versa. In this case, the two dimensional function of doppler and range is known as a radar ambiguity function or radar ambiguity diagram.
+Surface energy: γdA (γ = surface tension ; A = surface area).
+Elastic stretching: FdL (F = elastic force; L length stretched).
+
+
+=== Derivatives of action ===
+In classical physics, the derivatives of action are conjugate variables to the quantity with respect to which one is differentiating. In quantum mechanics, these same pairs of variables are related by the Heisenberg uncertainty principle.
+The energy of a particle at a certain event is the negative of the derivative of the action along a trajectory of that particle ending at that event with respect to the time of the event.
+The linear momentum of a particle is the derivative of its action with respect to its position.
+The angular momentum of a particle is the derivative of its action with respect to its orientation (angular position).
+The electric potential (φ, voltage) at an event is the negative of the derivative of the action of the electromagnetic field with respect to the density of (free) electric charge at that event.
+The magnetic potential (A) at an event is the derivative of the action of the electromagnetic field with respect to the density of (free) electric current at that event.
+The electric field (E) at an event is the derivative of the action of the electromagnetic field with respect to the electric polarization density at that event.
+The magnetic induction (B) at an event is the derivative of the action of the electromagnetic field with respect to the magnetization at that event.
+The Newtonian gravitational potential at an event is the negative of the derivative of the action of the Newtonian gravitation field with respect to the mass density at that event.
+
+
+=== Fluid Mechanics ===
+In Hamiltonian fluid mechanics and quantum hydrodynamics, the action itself (or velocity potential) is the conjugate variable of the density (or probability density).
+
+
+== See also ==
+Canonical coordinates
+
+
+== Notes ==

@@ -1,0 +1,32 @@
+The classical limit or correspondence limit is the ability of a physical theory to approximate or "recover" classical mechanics when considered over special values of its parameters. The classical limit is used with physical theories that predict non-classical behavior.
+
+
+== Quantum theory ==
+A heuristic postulate called the correspondence principle was introduced to quantum theory by Niels Bohr: in effect it states that some kind of continuity argument should apply to the classical limit of quantum systems as the value of Planck's constant normalized by the action of these systems becomes very small. Often, this is approached through "quasi-classical" techniques (cf. WKB approximation).
+More rigorously, the mathematical operation involved in classical limits is a group contraction, approximating physical systems where the relevant action is much larger than Planck's constant ħ, so the "deformation parameter" ħ/S can be effectively taken to be zero (cf. Weyl quantization.) Thus typically, quantum commutators (equivalently, Moyal brackets) reduce to Poisson brackets, in a group contraction.
+In quantum mechanics, due to Heisenberg's uncertainty principle, an electron can never be at rest; it must always have a non-zero kinetic energy, a result not found in classical mechanics. For example, if we consider something very large relative to an electron, like a baseball, the uncertainty principle predicts that it cannot really have zero kinetic energy, but the uncertainty in kinetic energy is so small that the baseball can effectively appear to be at rest, and hence it appears to obey classical mechanics. In general, if large energies and large objects (relative to the size and energy levels of an electron) are considered in quantum mechanics, the result will appear to obey classical mechanics. The typical occupation numbers involved are huge: a macroscopic harmonic oscillator with ω = 2 Hz, m = 10 g, and maximum amplitude x0 = 10 cm, has S ≈ E/ω ≈ mωx2
+0/2 ≈ 10−4 kg·m2/s = ħn , so that n ≃ 1030. Further see coherent states. It is less clear, however, how the classical limit applies to chaotic systems, a field known as quantum chaos.
+Quantum mechanics and classical mechanics are usually treated with entirely different formalisms: quantum theory using Hilbert space, and classical mechanics using a representation in phase space. One can bring the two into a common mathematical framework in various ways. In the phase space formulation of quantum mechanics, which is statistical in nature, logical connections between quantum mechanics and classical statistical mechanics are made, enabling natural comparisons between them.
+In a crucial paper (1933), Dirac explained how classical mechanics is an emergent phenomenon of quantum mechanics: destructive interference among paths with non-extremal macroscopic actions S » ħ obliterate amplitude contributions in the path integral he introduced, leaving the extremal action Sclass, thus the classical action path as the dominant contribution, an observation further elaborated by Feynman in his 1942 PhD dissertation. (Further see quantum decoherence.)
+
+
+== Relativity and other deformations ==
+Other familiar deformations in physics involve:
+The deformation of classical Newtonian into relativistic mechanics (special relativity), with deformation parameter v/c; the classical limit involves small speeds, so v/c→0, and the systems appear to obey Newtonian mechanics.
+Similarly for the deformation of Newtonian gravity into general relativity, with deformation parameter Schwarzschild-radius/characteristic-dimension, we find that objects once again appear to obey classical mechanics (flat space), when the mass of an object times the square of the Planck length is much smaller than its size and the sizes of the problem addressed.
+Wave optics might also be regarded as a deformation of ray optics for deformation parameter λ/a.
+Likewise, thermodynamics deforms to statistical mechanics with deformation parameter 1/N.
+
+
+== See also ==
+WKB approximation
+Quantum decoherence
+Quantum limit
+Quantum realm
+Wigner–Weyl transform
+Quantum chaos
+Fresnel integral
+Semiclassical physics
+
+
+== References ==

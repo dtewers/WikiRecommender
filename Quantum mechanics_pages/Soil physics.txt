@@ -1,0 +1,34 @@
+Soil physics is the study of soil physical properties and processes. It is applied to management and prediction under natural and managed ecosystems. Soil physics deals with the dynamics of physical soil components and their phases as solid, liquids, and gases. It draws on the principles of physics, physical chemistry, engineering, and meteorology. It is especially important in this day and age because most farmers require an understanding of agroecosystems. Soil physics applies these principles to address practical problems of agriculture, ecology, and engineering.
+
+
+== Prominent soil physicists ==
+Edgar Buckingham (1867–1940)
+The theory of gas diffusion in soil and vadose zone water flow in soil.
+Lorenzo A. Richards (1904–1993)
+General transport of water in unsaturated soil, measurement of soil water potential using tensiometer.
+John R. Philip (1927–1999)
+Analytical solution to general soil water transport, Environmental Mechanics.
+
+
+== See also ==
+Agrophysics
+Bulk density
+Capacitance probe
+Frequency domain sensor
+Geotechnical engineering
+Irrigation
+Irrigation scheduling
+Neutron probe
+Soil porosity
+Soil thermal properties
+Time domain reflectometer
+Water content
+
+
+== Notes ==
+Horton, Horn, Bachmann & Peth eds. 2016: Essential Soil Physics Schweizerbart, ISBN 978-3-510-65288-4
+Encyclopedia of Soil Science, edts. Ward Chesworth, 2008, Uniw. of Guelph Canada, Publ. Springer, ISBN 978-1-4020-3994-2
+
+
+== External links ==
+SSSA Soil Physics Division

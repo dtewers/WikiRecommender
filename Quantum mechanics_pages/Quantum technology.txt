@@ -1,0 +1,56 @@
+Quantum technology is a new field of physics and engineering, which transitions some of the properties of quantum mechanics, especially quantum entanglement, quantum superposition and quantum tunnelling, into practical applications such as quantum computing, quantum sensing, quantum cryptography, quantum simulation, quantum metrology and quantum imaging.
+
+
+== Applications ==
+
+
+=== Sensing ===
+Quantum superposition states can be very sensitive to a number of external effects, such as electric, magnetic and gravitational fields; rotation, acceleration and time, and therefore can used to make very accurate sensors. There are many experimental demonstrations of quantum sensing devices, such as the experiments carried out by the nobel laureate William D. Phillips on using cold atom interferometer systems to measure gravity and the atomic clock which is used by many national standards agencies around the world to define the second.
+Recent efforts are being made to engineer quantum sensing devices, so that they are cheaper, easier to use, more portable, lighter and consume less power. It is believed that if these efforts are successful, it will lead to multiple commercial markets, such as for the monitoring of oil and gas deposits, or in construction.
+
+
+=== Secure communications ===
+Quantum secure communication are methods which are expected to be 'quantum safe' in the advent of a quantum computing systems that could break current cryptography systems. One significant component of a quantum secure communication systems is expected to be Quantum key distribution, or 'QKD': a method of transmitting information using entangled light in a way that makes any interception of the transmission obvious to the user.
+
+
+=== Computing ===
+Quantum computers are the ultimate quantum network, combining 'quantum bits' or 'qubit' which are devices which can store and process quantum data (as opposed to binary data) with links that can transfer quantum information between qubits. In doing this, quantum computers are predicted to calculate certain algorithms significantly faster than even the largest classical computer available today.
+Quantum computers are expected to have a number of significant uses in computing fields such as optimization and machine learning. They are famous for their expected ability to carry out 'Shor's Algorithm', which can be used to factorise large numbers which are mathematically important to secure data transmission.
+
+
+== The first and second quantum revolutions ==
+There are many devices available today which are fundamentally reliant on the effects of quantum mechanics. These include: laser systems, transistors and semi-conductor devices and other devices, such as MRI imagers. These devices are often referred to belonging to the 'first quantum revolution'; the UK Defence Science and Technology Laboratory (Dstl) grouped these devices as 'quantum 1.0', that is devices which rely on the effects of quantum mechanics. Quantum technologies are often described as the 'second quantum revolution' or 'quantum 2.0'. These are generally regarded as a class of device that actively create, manipulate and read out quantum states of matter, often using the quantum effects of superposition and entanglement.
+
+
+== History ==
+The field of quantum technology was first outlined in a 1997 book by Gerard J. Milburn, which was then followed by a 2003 article by Jonathan P. Dowling and Gerard J. Milburn, as well as a 2003 article by David Deutsch. The field of quantum technology has benefited immensely from the influx of new ideas from the field of quantum information processing, particularly quantum computing. Disparate areas of quantum physics, such as quantum optics, atom optics, quantum electronics, and quantum nanomechanical devices, have been unified under the search for a quantum computer and given a common language, that of quantum information theory.
+The Quantum Manifesto was signed by 3,400 scientists and officially released at the 2016 Quantum Europe Conference, calling for a quantum technology initiative to coordinate between academia and industry, to move quantum technologies from the laboratory to industry, and to educate quantum technology professionals in a combination of science, engineering, and business.
+The European Commission responded to that manifesto with the Quantum Technology Flagship, a €1 Billion, 10-year-long megaproject, similar in size to earlier European Future and Emerging Technologies Flagship projects such as the Graphene Flagship and Human Brain Project. 
+
+
+== National programmes ==
+From 2010 onwards, multiple governments have established programmes to explore quantum technologies, such as the UK National Quantum Technologies Programme, which created four quantum 'hubs', the Centre for Quantum Technologies in Singapore, and QuTech a Dutch centre to develop a topological quantum computer.
+In the private sector, there have been multiple investments into quantum technologies made by large companies. Examples include Google's partnership with the John Martinis group at UCSB, multiple partnerships with the Canadian quantum computing company D-wave systems, and investment by many UK companies within the UK quantum technologies programme.
+
+
+== See also ==
+Quantum nanoscience
+Atomic engineering
+
+
+== References ==
+
+
+== External links ==
+"National Strategy for Quantum Technologies" UK Quantum Technologies strategy
+"Gadgets from the Quantum Spookhouse," Science News, Vol. 160, No. 23, Dec. 8, 2001, p. 364.
+"Spooky Timing: Quantum-linked photons coordinate clock ticks," Science News, Vol. 166, No. 13, Sept. 25, 2004, p. 196.
+"Kittens Catch Phase," Jonathan P. Dowling, Nature 450, 362-363 (15 November 2007).
+"Quantum-enhanced positioning and clock synchronization," Nature 412, 417-419 (26 July 2001).
+B. Bylicka, D. Chruściński, S. Maniscalco Non-Markovianity as a Resource for Quantum Technologies arXiv:1301.2585
+G.J. Milburn, M.J. Woolley, «Quantum nanoscience» Contemporary Physics, Vol. 49, No. 6, (2008) 413—433.
+V.E. Tarasov, «Quantum Nanotechnology» International Journal of Nanoscience. Vol.8. No.4-5. (2009) 337—344.
+Quantum Feedback Control and Metrology with Cold Atoms
+Quantum Atomic Gravity Gradiometer
+Real World Quantum Effects Demonstrated
+EPJ Quantum Technology Springer journal

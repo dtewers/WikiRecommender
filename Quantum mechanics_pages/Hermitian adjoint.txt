@@ -1,0 +1,1476 @@
+In mathematics, specifically in functional analysis, each bounded linear operator on a complex Hilbert space has a corresponding adjoint operator. Adjoints of operators generalize conjugate transposes of square matrices to (possibly) infinite-dimensional situations. If one thinks of operators on a complex Hilbert space as "generalized complex numbers", then the adjoint of an operator plays the role of the complex conjugate of a complex number.
+In a similar sense there can be defined an adjoint operator for linear (and possibly unbounded) operators between Banach spaces.
+The adjoint of an operator A may also be called the Hermitian adjoint, Hermitian conjugate or Hermitian transpose (after Charles Hermite) of A and is denoted by A∗ or A† (the latter especially when used in conjunction with the bra–ket notation).
+
+
+== Informal definition ==
+Consider a linear operator 
+  
+    
+      
+        A
+        :
+        
+          H
+          
+            1
+          
+        
+        →
+        
+          H
+          
+            2
+          
+        
+      
+    
+    {\displaystyle A:H_{1}\to H_{2}}
+   between Hilbert spaces. Without taking care of any details, the adjoint operator is the (in most cases uniquely defined) linear operator 
+  
+    
+      
+        
+          A
+          
+            ∗
+          
+        
+        :
+        
+          H
+          
+            2
+          
+        
+        →
+        
+          H
+          
+            1
+          
+        
+      
+    
+    {\displaystyle A^{*}:H_{2}\to H_{1}}
+   fulfilling
+
+  
+    
+      
+        ⟨
+        A
+        
+          h
+          
+            1
+          
+        
+        ,
+        
+          h
+          
+            2
+          
+        
+        
+          ⟩
+          
+            
+              H
+              
+                2
+              
+            
+          
+        
+        =
+        ⟨
+        
+          h
+          
+            1
+          
+        
+        ,
+        
+          A
+          
+            ∗
+          
+        
+        
+          h
+          
+            2
+          
+        
+        
+          ⟩
+          
+            
+              H
+              
+                1
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \langle Ah_{1},h_{2}\rangle _{H_{2}}=\langle h_{1},A^{*}h_{2}\rangle _{H_{1}},}
+  
+where 
+  
+    
+      
+        ⟨
+        ⋅
+        ,
+        ⋅
+        
+          ⟩
+          
+            
+              H
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle \langle \cdot ,\cdot \rangle _{H_{i}}}
+   is the inner product in the Hilbert space 
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+      
+    
+    {\displaystyle H_{i}}
+  . Note the special case where both Hilbert spaces are identical and 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   is an operator on some Hilbert space.
+When one trades the dual pairing for the inner product, one can define the adjoint of an operator 
+  
+    
+      
+        A
+        :
+        E
+        →
+        F
+      
+    
+    {\displaystyle A:E\to F}
+  , where 
+  
+    
+      
+        E
+        ,
+        F
+      
+    
+    {\displaystyle E,F}
+   are Banach spaces with corresponding norms 
+  
+    
+      
+        ∥
+        ⋅
+        
+          ∥
+          
+            E
+          
+        
+        ,
+        ∥
+        ⋅
+        
+          ∥
+          
+            F
+          
+        
+      
+    
+    {\displaystyle \|\cdot \|_{E},\|\cdot \|_{F}}
+  . Here (again not considering any technicalities), its adjoint operator is defined as 
+  
+    
+      
+        
+          A
+          
+            ∗
+          
+        
+        :
+        
+          F
+          
+            ∗
+          
+        
+        →
+        
+          E
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle A^{*}:F^{*}\to E^{*}}
+   with
+
+  
+    
+      
+        
+          A
+          
+            ∗
+          
+        
+        f
+        =
+        (
+        u
+        ↦
+        f
+        (
+        A
+        u
+        )
+        )
+        ,
+      
+    
+    {\displaystyle A^{*}f=(u\mapsto f(Au)),}
+  
+i.e. 
+  
+    
+      
+        (
+        
+          A
+          
+            ∗
+          
+        
+        f
+        )
+        (
+        u
+        )
+        =
+        f
+        (
+        A
+        u
+        )
+      
+    
+    {\displaystyle (A^{*}f)(u)=f(Au)}
+   for 
+  
+    
+      
+        f
+        ∈
+        
+          F
+          
+            ∗
+          
+        
+        ,
+        u
+        ∈
+        E
+      
+    
+    {\displaystyle f\in F^{*},u\in E}
+  .
+Note that the above definition in the Hilbert space setting is really just an application of the Banach space case when one identifies a Hilbert space with its dual. Then it is only natural that we can also obtain the adjoint of an operator 
+  
+    
+      
+        A
+        :
+        H
+        →
+        E
+      
+    
+    {\displaystyle A:H\to E}
+  , where 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+   is a Hilbert space and 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   is a Banach space. The dual is then defined as 
+  
+    
+      
+        
+          A
+          
+            ∗
+          
+        
+        :
+        
+          E
+          
+            ∗
+          
+        
+        →
+        H
+      
+    
+    {\displaystyle A^{*}:E^{*}\to H}
+   with 
+  
+    
+      
+        
+          A
+          
+            ∗
+          
+        
+        f
+        =
+        
+          h
+          
+            f
+          
+        
+      
+    
+    {\displaystyle A^{*}f=h_{f}}
+   such that
+
+  
+    
+      
+        ⟨
+        
+          h
+          
+            f
+          
+        
+        ,
+        h
+        
+          ⟩
+          
+            H
+          
+        
+        =
+        f
+        (
+        A
+        u
+        )
+        .
+      
+    
+    {\displaystyle \langle h_{f},h\rangle _{H}=f(Au).}
+  
+
+
+== Definition for unbounded operators between normed spaces ==
+Let 
+  
+    
+      
+        (
+        E
+        ,
+        ∥
+        ⋅
+        
+          ∥
+          
+            E
+          
+        
+        )
+        ,
+        (
+        F
+        ,
+        ∥
+        ⋅
+        
+          ∥
+          
+            F
+          
+        
+        )
+      
+    
+    {\displaystyle (E,\|\cdot \|_{E}),(F,\|\cdot \|_{F})}
+   be Banach spaces. Suppose 
+  
+    
+      
+        A
+        :
+        E
+        ⊃
+        D
+        (
+        A
+        )
+        →
+        F
+      
+    
+    {\displaystyle A:E\supset D(A)\to F}
+   is a (possibly unbounded) linear operator which is densely defined (i.e. 
+  
+    
+      
+        D
+        (
+        A
+        )
+      
+    
+    {\displaystyle D(A)}
+   is dense in 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+  ). Then its adjoint operator 
+  
+    
+      
+        
+          A
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle A^{*}}
+   is defined as follows. The domain is
+
+  
+    
+      
+        D
+        (
+        
+          A
+          
+            ∗
+          
+        
+        )
+        :=
+        {
+        g
+        ∈
+        
+          F
+          
+            ∗
+          
+        
+        :
+         
+        ∃
+        c
+        ≥
+        0
+        :
+         
+        ∀
+        u
+        ∈
+        D
+        (
+        A
+        )
+        :
+         
+        
+          |
+        
+        g
+        (
+        A
+        u
+        )
+        
+          |
+        
+        ≤
+        c
+        ⋅
+        ∥
+        u
+        
+          ∥
+          
+            E
+          
+        
+        }
+      
+    
+    {\displaystyle D(A^{*}):=\{g\in F^{*}:~\exists c\geq 0:~\forall u\in D(A):~|g(Au)|\leq c\cdot \|u\|_{E}\}}
+  .
+Now for arbitrary but fixed 
+  
+    
+      
+        g
+        ∈
+        D
+        (
+        
+          A
+          
+            ∗
+          
+        
+        )
+      
+    
+    {\displaystyle g\in D(A^{*})}
+   we set 
+  
+    
+      
+        f
+        :
+        D
+        (
+        A
+        )
+        →
+        
+          R
+        
+      
+    
+    {\displaystyle f:D(A)\to \mathbb {R} }
+   with 
+  
+    
+      
+        f
+        (
+        u
+        )
+        =
+        g
+        (
+        A
+        u
+        )
+      
+    
+    {\displaystyle f(u)=g(Au)}
+  . By choice of 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+   and definition of 
+  
+    
+      
+        D
+        (
+        
+          A
+          
+            ∗
+          
+        
+        )
+      
+    
+    {\displaystyle D(A^{*})}
+  , f is (uniformly) continuous on 
+  
+    
+      
+        D
+        (
+        A
+        )
+      
+    
+    {\displaystyle D(A)}
+   as 
+  
+    
+      
+        
+          |
+        
+        f
+        (
+        u
+        )
+        
+          |
+        
+        =
+        
+          |
+        
+        g
+        (
+        A
+        u
+        )
+        
+          |
+        
+        ≤
+        c
+        ⋅
+        ∥
+        u
+        
+          ∥
+          
+            E
+          
+        
+      
+    
+    {\displaystyle |f(u)|=|g(Au)|\leq c\cdot \|u\|_{E}}
+  . Then by Hahn–Banach theorem or alternatively through extension by continuity this yields an extension of 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  , called 
+  
+    
+      
+        
+          
+            
+              f
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {f}}}
+   defined on all of 
+  
+    
+      
+        
+          E
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle E^{*}}
+  . Note that this technicality is necessary to later obtain 
+  
+    
+      
+        
+          A
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle A^{*}}
+   as an operator 
+  
+    
+      
+        D
+        (
+        
+          A
+          
+            ∗
+          
+        
+        )
+        →
+        
+          E
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle D(A^{*})\to E^{*}}
+   instead of 
+  
+    
+      
+        D
+        (
+        
+          A
+          
+            ∗
+          
+        
+        )
+        →
+        (
+        D
+        (
+        A
+        )
+        
+          )
+          
+            ∗
+          
+        
+        .
+      
+    
+    {\displaystyle D(A^{*})\to (D(A))^{*}.}
+   Remark also that this does not mean that 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   can be extended on all of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   but the extension only worked for specific elements 
+  
+    
+      
+        g
+        ∈
+        D
+        (
+        
+          A
+          
+            ∗
+          
+        
+        )
+      
+    
+    {\displaystyle g\in D(A^{*})}
+  .
+Now we can define the adjoint of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   as
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  A
+                  
+                    ∗
+                  
+                
+                :
+                
+                  F
+                  
+                    ∗
+                  
+                
+                ⊃
+                D
+                (
+                
+                  A
+                  
+                    ∗
+                  
+                
+                )
+              
+              
+                
+                →
+                
+                  E
+                  
+                    ∗
+                  
+                
+              
+            
+            
+              
+                g
+              
+              
+                
+                ↦
+                
+                  A
+                  
+                    ∗
+                  
+                
+                g
+                =
+                
+                  
+                    
+                      f
+                      ^
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}A^{*}:F^{*}\supset D(A^{*})&\to E^{*}\\g&\mapsto A^{*}g={\hat {f}}\end{aligned}}}
+  
+The fundamental defining identity is thus
+
+  
+    
+      
+        g
+        (
+        A
+        u
+        )
+        =
+        (
+        
+          A
+          
+            ∗
+          
+        
+        g
+        )
+        (
+        u
+        )
+      
+    
+    {\displaystyle g(Au)=(A^{*}g)(u)}
+   for 
+  
+    
+      
+        u
+        ∈
+        D
+        (
+        A
+        )
+        .
+      
+    
+    {\displaystyle u\in D(A).}
+  
+
+
+== Definition for bounded operators between Hilbert spaces ==
+Suppose H is a complex Hilbert space, with inner product 
+  
+    
+      
+        ⟨
+        ⋅
+        ,
+        ⋅
+        ⟩
+      
+    
+    {\displaystyle \langle \cdot ,\cdot \rangle }
+  . Consider a continuous linear operator A : H → H (for linear operators, continuity is equivalent to being a bounded operator). Then the adjoint of A is the continuous linear operator A∗ : H → H satisfying
+
+  
+    
+      
+        ⟨
+        A
+        x
+        ,
+        y
+        ⟩
+        =
+        ⟨
+        x
+        ,
+        
+          A
+          
+            ∗
+          
+        
+        y
+        ⟩
+        
+        
+          for all 
+        
+        x
+        ,
+        y
+        ∈
+        H
+        .
+      
+    
+    {\displaystyle \langle Ax,y\rangle =\langle x,A^{*}y\rangle \quad {\mbox{for all }}x,y\in H.}
+  
+Existence and uniqueness of this operator follows from the Riesz representation theorem.
+This can be seen as a generalization of the adjoint matrix of a square matrix which has a similar property involving the standard complex inner product.
+
+
+== Properties ==
+The following properties of the Hermitian adjoint of bounded operators are immediate:
+A∗∗ = A – involutiveness
+If A is invertible, then so is A∗, with (A∗)−1 = (A−1)∗
+(A + B)∗ = A∗ + B∗
+(λA)∗ = λA∗, where λ denotes the complex conjugate of the complex number λ – antilinearity (together with 3.)
+(AB)∗ = B∗A∗
+If we define the operator norm of A by
+
+  
+    
+      
+        ∥
+        A
+        
+          ∥
+          
+            o
+            p
+          
+        
+        :=
+        sup
+        {
+        ∥
+        A
+        x
+        ∥
+        :
+        ∥
+        x
+        ∥
+        ≤
+        1
+        }
+      
+    
+    {\displaystyle \|A\|_{op}:=\sup\{\|Ax\|:\|x\|\leq 1\}}
+  
+then
+
+  
+    
+      
+        ∥
+        
+          A
+          
+            ∗
+          
+        
+        
+          ∥
+          
+            o
+            p
+          
+        
+        =
+        ∥
+        A
+        
+          ∥
+          
+            o
+            p
+          
+        
+        .
+      
+    
+    {\displaystyle \|A^{*}\|_{op}=\|A\|_{op}.}
+  
+Moreover,
+
+  
+    
+      
+        ∥
+        
+          A
+          
+            ∗
+          
+        
+        A
+        
+          ∥
+          
+            o
+            p
+          
+        
+        =
+        ∥
+        A
+        
+          ∥
+          
+            o
+            p
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle \|A^{*}A\|_{op}=\|A\|_{op}^{2}.}
+  
+One says that a norm that satisfies this condition behaves like a "largest value", extrapolating from the case of self-adjoint operators.
+The set of bounded linear operators on a complex Hilbert space H together with the adjoint operation and the operator norm form the prototype of a C*-algebra.
+
+
+== Adjoint of densely defined unbounded operators between Hilbert spaces ==
+A densely defined operator A from a complex Hilbert space H to itself is a linear operator whose domain D(A) is a dense linear subspace of H and whose values lies in H. By definition, the domain D(A∗) of its adjoint A∗ is the set of all y ∈ H for which there is a z ∈ H satisfying
+
+  
+    
+      
+        ⟨
+        A
+        x
+        ,
+        y
+        ⟩
+        =
+        ⟨
+        x
+        ,
+        z
+        ⟩
+        
+        
+          for all 
+        
+        x
+        ∈
+        D
+        (
+        A
+        )
+        ,
+      
+    
+    {\displaystyle \langle Ax,y\rangle =\langle x,z\rangle \quad {\mbox{for all }}x\in D(A),}
+  
+and A∗(y) is defined to be the z thus found.
+Properties 1.–5. hold with appropriate clauses about domains and codomains. For instance, the last property now states that (AB)∗ is an extension of B∗A∗ if A, B and AB are densely defined operators.
+The relationship between the image of A and the kernel of its adjoint is given by:
+
+  
+    
+      
+        ker
+        ⁡
+        
+          A
+          
+            ∗
+          
+        
+        =
+        
+          
+            (
+            im
+            ⁡
+             
+            A
+            )
+          
+          
+            ⊥
+          
+        
+      
+    
+    {\displaystyle \ker A^{*}=\left(\operatorname {im} \ A\right)^{\bot }}
+  
+
+  
+    
+      
+        
+          
+            (
+            ker
+            ⁡
+            
+              A
+              
+                ∗
+              
+            
+            )
+          
+          
+            ⊥
+          
+        
+        =
+        
+          
+            
+              im
+              ⁡
+               
+              A
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle \left(\ker A^{*}\right)^{\bot }={\overline {\operatorname {im} \ A}}}
+  
+These statements are equivalent. See orthogonal complement for the proof of this and for the definition of 
+  
+    
+      
+        ⊥
+      
+    
+    {\displaystyle \bot }
+  .
+Proof of the first equation:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  A
+                  
+                    ∗
+                  
+                
+                x
+                =
+                0
+              
+              
+                
+                
+                ⟺
+                
+                ⟨
+                
+                  A
+                  
+                    ∗
+                  
+                
+                x
+                ,
+                y
+                ⟩
+                =
+                0
+                
+                ∀
+                y
+                ∈
+                H
+              
+            
+            
+              
+              
+                
+                
+                ⟺
+                
+                ⟨
+                x
+                ,
+                A
+                y
+                ⟩
+                =
+                0
+                
+                ∀
+                y
+                ∈
+                H
+              
+            
+            
+              
+              
+                
+                
+                ⟺
+                
+                x
+                 
+                ⊥
+                 
+                im
+                ⁡
+                 
+                A
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}A^{*}x=0&\iff \langle A^{*}x,y\rangle =0\quad \forall y\in H\\&\iff \langle x,Ay\rangle =0\quad \forall y\in H\\&\iff x\ \bot \ \operatorname {im} \ A\end{aligned}}}
+  
+The second equation follows from the first by taking the orthogonal complement on both sides. Note that in general, the image need not be closed, but the kernel of a continuous operator always is.
+
+
+== Hermitian operators ==
+A bounded operator A : H → H is called Hermitian or self-adjoint if
+
+  
+    
+      
+        A
+        =
+        
+          A
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle A=A^{*}}
+  
+which is equivalent to
+
+  
+    
+      
+        ⟨
+        A
+        x
+        ,
+        y
+        ⟩
+        =
+        ⟨
+        x
+        ,
+        A
+        y
+        ⟩
+        
+           for all 
+        
+        x
+        ,
+        y
+        ∈
+        H
+        .
+      
+    
+    {\displaystyle \langle Ax,y\rangle =\langle x,Ay\rangle {\mbox{ for all }}x,y\in H.}
+  
+In some sense, these operators play the role of the real numbers (being equal to their own "complex conjugate") and form a real vector space. They serve as the model of real-valued observables in quantum mechanics. See the article on self-adjoint operators for a full treatment.
+
+
+== Adjoints of antilinear operators ==
+For an antilinear operator the definition of adjoint needs to be adjusted in order to compensate for the complex conjugation. An adjoint operator of the antilinear operator A on a complex Hilbert space H is an antilinear operator A∗ : H → H with the property:
+
+  
+    
+      
+        ⟨
+        A
+        x
+        ,
+        y
+        ⟩
+        =
+        
+          
+            
+              ⟨
+              x
+              ,
+              
+                A
+                
+                  ∗
+                
+              
+              y
+              ⟩
+            
+            ¯
+          
+        
+        
+        
+          for all 
+        
+        x
+        ,
+        y
+        ∈
+        H
+        .
+      
+    
+    {\displaystyle \langle Ax,y\rangle ={\overline {\langle x,A^{*}y\rangle }}\quad {\text{for all }}x,y\in H.}
+  
+
+
+== Other adjoints ==
+The equation
+
+  
+    
+      
+        ⟨
+        A
+        x
+        ,
+        y
+        ⟩
+        =
+        ⟨
+        x
+        ,
+        
+          A
+          
+            ∗
+          
+        
+        y
+        ⟩
+      
+    
+    {\displaystyle \langle Ax,y\rangle =\langle x,A^{*}y\rangle }
+  
+is formally similar to the defining properties of pairs of adjoint functors in category theory, and this is where adjoint functors got their name from.
+
+
+== See also ==
+Mathematical concepts
+Hermitian operator
+Norm (mathematics)
+Transpose of linear maps
+
+Physical applications
+Operator (physics)
+†-algebra
+
+
+== Footnotes ==
+
+
+== References ==
+Reed, Michael; Simon, Barry (2003), Functional Analysis, Elsevier, ISBN 981-4141-65-8 .
+Rudin, Walter (1991), Functional Analysis (second ed.), McGraw-Hill, ISBN 0-07-054236-8 .
+Brezis, Haim (2011), Functional Analysis, Sobolev Spaces and Partial Differential Equations (first ed.), Springer, ISBN 978-0-387-70913-0 .

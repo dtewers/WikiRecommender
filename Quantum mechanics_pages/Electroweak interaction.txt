@@ -1,0 +1,2572 @@
+In particle physics, the electroweak interaction is the unified description of two of the four known fundamental interactions of nature: electromagnetism and the weak interaction. Although these two forces appear very different at everyday low energies, the theory models them as two different aspects of the same force. Above the unification energy, on the order of 246 GeV, they would merge into a single electroweak force. Thus, if the universe is hot enough (approximately 1015 K, a temperature exceeded until shortly after the Big Bang), then the electromagnetic force and weak force merge into a combined electroweak force. During the electroweak epoch, the electroweak force separated from the strong force. During the quark epoch, the electroweak force split into the electromagnetic and weak force.
+Sheldon Glashow, Abdus Salam, and Steven Weinberg were awarded the 1979 Nobel Prize in Physics for their contributions to the unification of the weak and electromagnetic interaction between elementary particles. The existence of the electroweak interactions was experimentally established in two stages, the first being the discovery of neutral currents in neutrino scattering by the Gargamelle collaboration in 1973, and the second in 1983 by the UA1 and the UA2 collaborations that involved the discovery of the W and Z gauge bosons in proton–antiproton collisions at the converted Super Proton Synchrotron. In 1999, Gerardus 't Hooft and Martinus Veltman were awarded the Nobel prize for showing that the electroweak theory is renormalizable.
+
+
+== Formulation ==
+
+Mathematically, the unification is accomplished under an SU(2) × U(1) gauge group. The corresponding gauge bosons are the three W bosons of weak isospin from SU(2) (W1, W2, and W3), and the B boson of weak hypercharge from U(1), respectively, all of which are massless.
+In the Standard Model, the W± and Z0 bosons, and the photon, are produced by the spontaneous symmetry breaking of the electroweak symmetry from SU(2) × U(1)Y to U(1)em, caused by the Higgs mechanism (see also Higgs boson). U(1)Y and U(1)em are different copies of U(1); the generator of U(1)em is given by Q = Y/2 + I3, where Y is the generator of U(1)Y (called the weak hypercharge), and I3 is one of the SU(2) generators (a component of weak isospin).
+The spontaneous symmetry breaking makes the W3 and B bosons coalesce into two different bosons – the Z0 boson, and the photon (γ),
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  γ
+                
+              
+              
+                
+                  
+                    Z
+                    
+                      0
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  cos
+                  ⁡
+                  
+                    θ
+                    
+                      W
+                    
+                  
+                
+                
+                  sin
+                  ⁡
+                  
+                    θ
+                    
+                      W
+                    
+                  
+                
+              
+              
+                
+                  −
+                  sin
+                  ⁡
+                  
+                    θ
+                    
+                      W
+                    
+                  
+                
+                
+                  cos
+                  ⁡
+                  
+                    θ
+                    
+                      W
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  B
+                
+              
+              
+                
+                  
+                    W
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle {\begin{pmatrix}\gamma \\Z^{0}\end{pmatrix}}={\begin{pmatrix}\cos \theta _{W}&\sin \theta _{W}\\-\sin \theta _{W}&\cos \theta _{W}\end{pmatrix}}{\begin{pmatrix}B\\W_{3}\end{pmatrix}}}
+  
+Where θW is the weak mixing angle. The axes representing the particles have essentially just been rotated, in the (W3, B) plane, by the angle θW. This also introduces a mismatch between the mass of the Z0 and the mass of the W± particles (denoted as MZ and MW, respectively),
+
+  
+    
+      
+        
+          M
+          
+            Z
+          
+        
+        =
+        
+          
+            
+              M
+              
+                W
+              
+            
+            
+              cos
+              ⁡
+              
+                θ
+                
+                  W
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle M_{Z}={\frac {M_{W}}{\cos \theta _{W}}}.}
+  
+The W1 and W2 bosons, in turn, combine to give massive charged bosons
+
+  
+    
+      
+        
+          W
+          
+            ±
+          
+        
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        (
+        
+          W
+          
+            1
+          
+        
+        ∓
+        i
+        
+          W
+          
+            2
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle W^{\pm }={\frac {1}{\sqrt {2}}}(W_{1}\mp iW_{2}).}
+  
+The distinction between electromagnetism and the weak force arises because there is a (nontrivial) linear combination of Y and I3 that vanishes for the Higgs boson (it is an eigenstate of both Y and I3, so the coefficients may be taken as −I3 and Y): U(1)em is defined to be the group generated by this linear combination, and is unbroken because it does not interact with the Higgs.
+
+
+== Lagrangian ==
+
+
+=== Before electroweak symmetry breaking ===
+The Lagrangian for the electroweak interactions is divided into four parts before electroweak symmetry breaking
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            E
+            W
+          
+        
+        =
+        
+          
+            
+              L
+            
+          
+          
+            g
+          
+        
+        +
+        
+          
+            
+              L
+            
+          
+          
+            f
+          
+        
+        +
+        
+          
+            
+              L
+            
+          
+          
+            h
+          
+        
+        +
+        
+          
+            
+              L
+            
+          
+          
+            y
+          
+        
+        .
+      
+    
+    {\displaystyle {\mathcal {L}}_{EW}={\mathcal {L}}_{g}+{\mathcal {L}}_{f}+{\mathcal {L}}_{h}+{\mathcal {L}}_{y}.}
+  
+The 
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            g
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{g}}
+   term describes the interaction between the three W particles and the B particle.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            g
+          
+        
+        =
+        −
+        
+          
+            1
+            4
+          
+        
+        
+          W
+          
+            a
+          
+          
+            μ
+            ν
+          
+        
+        
+          W
+          
+            μ
+            ν
+          
+          
+            a
+          
+        
+        −
+        
+          
+            1
+            4
+          
+        
+        
+          B
+          
+            μ
+            ν
+          
+        
+        
+          B
+          
+            μ
+            ν
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{g}=-{\frac {1}{4}}W_{a}^{\mu \nu }W_{\mu \nu }^{a}-{\frac {1}{4}}B^{\mu \nu }B_{\mu \nu }}
+  ,
+where 
+  
+    
+      
+        
+          W
+          
+            a
+            μ
+            ν
+          
+        
+      
+    
+    {\displaystyle W^{a\mu \nu }}
+   (
+  
+    
+      
+        a
+        =
+        1
+        ,
+        2
+        ,
+        3
+      
+    
+    {\displaystyle a=1,2,3}
+  ) and 
+  
+    
+      
+        
+          B
+          
+            μ
+            ν
+          
+        
+      
+    
+    {\displaystyle B^{\mu \nu }}
+   are the field strength tensors for the weak isospin and weak hypercharge fields.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            f
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{f}}
+   is the kinetic term for the Standard Model fermions. The interaction of the gauge bosons and the fermions are through the gauge covariant derivative.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            f
+          
+        
+        =
+        
+          
+            
+              Q
+              ¯
+            
+          
+          
+            i
+          
+        
+        i
+        D
+        
+        
+        
+        
+        
+          /
+        
+        
+        
+          Q
+          
+            i
+          
+        
+        +
+        
+          
+            
+              u
+              ¯
+            
+          
+          
+            i
+          
+        
+        i
+        D
+        
+        
+        
+        
+        
+          /
+        
+        
+        
+          u
+          
+            i
+          
+        
+        +
+        
+          
+            
+              d
+              ¯
+            
+          
+          
+            i
+          
+        
+        i
+        D
+        
+        
+        
+        
+        
+          /
+        
+        
+        
+          d
+          
+            i
+          
+        
+        +
+        
+          
+            
+              L
+              ¯
+            
+          
+          
+            i
+          
+        
+        i
+        D
+        
+        
+        
+        
+        
+          /
+        
+        
+        
+          L
+          
+            i
+          
+        
+        +
+        
+          
+            
+              e
+              ¯
+            
+          
+          
+            i
+          
+        
+        i
+        D
+        
+        
+        
+        
+        
+          /
+        
+        
+        
+          e
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{f}={\overline {Q}}_{i}iD\!\!\!\!/\;Q_{i}+{\overline {u}}_{i}iD\!\!\!\!/\;u_{i}+{\overline {d}}_{i}iD\!\!\!\!/\;d_{i}+{\overline {L}}_{i}iD\!\!\!\!/\;L_{i}+{\overline {e}}_{i}iD\!\!\!\!/\;e_{i}}
+  ,
+where the subscript 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+   runs over the three generations of fermions, 
+  
+    
+      
+        Q
+      
+    
+    {\displaystyle Q}
+  , 
+  
+    
+      
+        u
+      
+    
+    {\displaystyle u}
+  , and 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+   are the left-handed doublet, right-handed singlet up, and right handed singlet down quark fields, and 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+   and 
+  
+    
+      
+        e
+      
+    
+    {\displaystyle e}
+   are the left-handed doublet and right-handed singlet electron fields.
+The h term describes the Higgs field F.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            h
+          
+        
+        =
+        
+          |
+        
+        
+          D
+          
+            μ
+          
+        
+        h
+        
+          
+            |
+          
+          
+            2
+          
+        
+        −
+        λ
+        
+          
+            (
+            
+              |
+            
+            h
+            
+              
+                |
+              
+              
+                2
+              
+            
+            −
+            
+              
+                
+                  v
+                  
+                    2
+                  
+                
+                2
+              
+            
+            )
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{h}=|D_{\mu }h|^{2}-\lambda \left(|h|^{2}-{\frac {v^{2}}{2}}\right)^{2}}
+  
+The y term gives the Yukawa interaction that generates the fermion masses after the Higgs acquires a nonzero vacuum expectation value.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            y
+          
+        
+        =
+        −
+        
+          y
+          
+            u
+            
+            i
+            j
+          
+        
+        
+          ϵ
+          
+            a
+            b
+          
+        
+        
+        
+          h
+          
+            b
+          
+          
+            †
+          
+        
+        
+        
+          
+            
+              Q
+              ¯
+            
+          
+          
+            i
+            a
+          
+        
+        
+          u
+          
+            j
+          
+          
+            c
+          
+        
+        −
+        
+          y
+          
+            d
+            
+            i
+            j
+          
+        
+        
+        h
+        
+        
+          
+            
+              Q
+              ¯
+            
+          
+          
+            i
+          
+        
+        
+          d
+          
+            j
+          
+          
+            c
+          
+        
+        −
+        
+          y
+          
+            e
+            
+            i
+            j
+          
+        
+        
+        h
+        
+        
+          
+            
+              L
+              ¯
+            
+          
+          
+            i
+          
+        
+        
+          e
+          
+            j
+          
+          
+            c
+          
+        
+        +
+        h
+        .
+        c
+        .
+      
+    
+    {\displaystyle {\mathcal {L}}_{y}=-y_{u\,ij}\epsilon ^{ab}\,h_{b}^{\dagger }\,{\overline {Q}}_{ia}u_{j}^{c}-y_{d\,ij}\,h\,{\overline {Q}}_{i}d_{j}^{c}-y_{e\,ij}\,h\,{\overline {L}}_{i}e_{j}^{c}+h.c.}
+  
+
+
+=== After electroweak symmetry breaking ===
+The Lagrangian reorganizes itself after the Higgs boson acquires a vacuum expectation value. Due to its complexity, this Lagrangian is best described by breaking it up into several parts as follows.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            E
+            W
+          
+        
+        =
+        
+          
+            
+              L
+            
+          
+          
+            K
+          
+        
+        +
+        
+          
+            
+              L
+            
+          
+          
+            N
+          
+        
+        +
+        
+          
+            
+              L
+            
+          
+          
+            C
+          
+        
+        +
+        
+          
+            
+              L
+            
+          
+          
+            H
+          
+        
+        +
+        
+          
+            
+              L
+            
+          
+          
+            H
+            V
+          
+        
+        +
+        
+          
+            
+              L
+            
+          
+          
+            W
+            W
+            V
+          
+        
+        +
+        
+          
+            
+              L
+            
+          
+          
+            W
+            W
+            V
+            V
+          
+        
+        +
+        
+          
+            
+              L
+            
+          
+          
+            Y
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{EW}={\mathcal {L}}_{K}+{\mathcal {L}}_{N}+{\mathcal {L}}_{C}+{\mathcal {L}}_{H}+{\mathcal {L}}_{HV}+{\mathcal {L}}_{WWV}+{\mathcal {L}}_{WWVV}+{\mathcal {L}}_{Y}}
+  
+The kinetic term 
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            K
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{K}}
+   contains all the quadratic terms of the Lagrangian, which include the dynamic terms (the partial derivatives) and the mass terms (conspicuously absent from the Lagrangian before symmetry breaking)
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      L
+                    
+                  
+                  
+                    K
+                  
+                
+                =
+                
+                  ∑
+                  
+                    f
+                  
+                
+                
+                  
+                    f
+                    ¯
+                  
+                
+                (
+                i
+                ∂
+                
+                
+                
+                
+                  /
+                
+                
+                
+                −
+                
+                  m
+                  
+                    f
+                  
+                
+                )
+                f
+                −
+                
+                  
+                    1
+                    4
+                  
+                
+                
+                  A
+                  
+                    μ
+                    ν
+                  
+                
+                
+                  A
+                  
+                    μ
+                    ν
+                  
+                
+                −
+                
+                  
+                    1
+                    2
+                  
+                
+                
+                  W
+                  
+                    μ
+                    ν
+                  
+                  
+                    +
+                  
+                
+                
+                  W
+                  
+                    −
+                    μ
+                    ν
+                  
+                
+                +
+                
+                  m
+                  
+                    W
+                  
+                  
+                    2
+                  
+                
+                
+                  W
+                  
+                    μ
+                  
+                  
+                    +
+                  
+                
+                
+                  W
+                  
+                    −
+                    μ
+                  
+                
+              
+            
+            
+              
+                
+                −
+                
+                  
+                    1
+                    4
+                  
+                
+                
+                  Z
+                  
+                    μ
+                    ν
+                  
+                
+                
+                  Z
+                  
+                    μ
+                    ν
+                  
+                
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+                
+                  m
+                  
+                    Z
+                  
+                  
+                    2
+                  
+                
+                
+                  Z
+                  
+                    μ
+                  
+                
+                
+                  Z
+                  
+                    μ
+                  
+                
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+                (
+                
+                  ∂
+                  
+                    μ
+                  
+                
+                H
+                )
+                (
+                
+                  ∂
+                  
+                    μ
+                  
+                
+                H
+                )
+                −
+                
+                  
+                    1
+                    2
+                  
+                
+                
+                  m
+                  
+                    H
+                  
+                  
+                    2
+                  
+                
+                
+                  H
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\mathcal {L}}_{K}=\sum _{f}{\overline {f}}(i\partial \!\!\!/\!\;-m_{f})f-{\frac {1}{4}}A_{\mu \nu }A^{\mu \nu }-{\frac {1}{2}}W_{\mu \nu }^{+}W^{-\mu \nu }+m_{W}^{2}W_{\mu }^{+}W^{-\mu }\\\qquad -{\frac {1}{4}}Z_{\mu \nu }Z^{\mu \nu }+{\frac {1}{2}}m_{Z}^{2}Z_{\mu }Z^{\mu }+{\frac {1}{2}}(\partial ^{\mu }H)(\partial _{\mu }H)-{\frac {1}{2}}m_{H}^{2}H^{2}\end{aligned}}}
+  
+where the sum runs over all the fermions of the theory (quarks and leptons), and the fields 
+  
+    
+      
+        
+          A
+          
+            μ
+            ν
+          
+          
+
+          
+        
+      
+    
+    {\displaystyle A_{\mu \nu }^{}}
+  , 
+  
+    
+      
+        
+          Z
+          
+            μ
+            ν
+          
+          
+
+          
+        
+      
+    
+    {\displaystyle Z_{\mu \nu }^{}}
+  , 
+  
+    
+      
+        
+          W
+          
+            μ
+            ν
+          
+          
+            −
+          
+        
+      
+    
+    {\displaystyle W_{\mu \nu }^{-}}
+  , and 
+  
+    
+      
+        
+          W
+          
+            μ
+            ν
+          
+          
+            +
+          
+        
+        ≡
+        (
+        
+          W
+          
+            μ
+            ν
+          
+          
+            −
+          
+        
+        
+          )
+          
+            †
+          
+        
+      
+    
+    {\displaystyle W_{\mu \nu }^{+}\equiv (W_{\mu \nu }^{-})^{\dagger }}
+   are given as
+
+  
+    
+      
+        
+          X
+          
+            μ
+            ν
+          
+        
+        =
+        
+          ∂
+          
+            μ
+          
+        
+        
+          X
+          
+            ν
+          
+        
+        −
+        
+          ∂
+          
+            ν
+          
+        
+        
+          X
+          
+            μ
+          
+        
+        +
+        g
+        
+          f
+          
+            a
+            b
+            c
+          
+        
+        
+          X
+          
+            μ
+          
+          
+            b
+          
+        
+        
+          X
+          
+            ν
+          
+          
+            c
+          
+        
+      
+    
+    {\displaystyle X_{\mu \nu }=\partial _{\mu }X_{\nu }-\partial _{\nu }X_{\mu }+gf^{abc}X_{\mu }^{b}X_{\nu }^{c}}
+  , (replace X by the relevant field, and fabc with the structure constants for the gauge group).
+The neutral current 
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            N
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{N}}
+   and charged current 
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            C
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{C}}
+   components of the Lagrangian contain the interactions between the fermions and gauge bosons.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            N
+          
+        
+        =
+        e
+        
+          J
+          
+            μ
+          
+          
+            e
+            m
+          
+        
+        
+          A
+          
+            μ
+          
+        
+        +
+        
+          
+            g
+            
+              cos
+              ⁡
+              
+                θ
+                
+                  W
+                
+              
+            
+          
+        
+        (
+        
+          J
+          
+            μ
+          
+          
+            3
+          
+        
+        −
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        
+          θ
+          
+            W
+          
+        
+        
+          J
+          
+            μ
+          
+          
+            e
+            m
+          
+        
+        )
+        
+          Z
+          
+            μ
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{N}=eJ_{\mu }^{em}A^{\mu }+{\frac {g}{\cos \theta _{W}}}(J_{\mu }^{3}-\sin ^{2}\theta _{W}J_{\mu }^{em})Z^{\mu }}
+  ,
+where the electromagnetic current 
+  
+    
+      
+        
+          J
+          
+            μ
+          
+          
+            e
+            m
+          
+        
+      
+    
+    {\displaystyle J_{\mu }^{em}}
+   and the neutral weak current 
+  
+    
+      
+        
+          J
+          
+            μ
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle J_{\mu }^{3}}
+   are
+
+  
+    
+      
+        
+          J
+          
+            μ
+          
+          
+            e
+            m
+          
+        
+        =
+        
+          ∑
+          
+            f
+          
+        
+        
+          q
+          
+            f
+          
+        
+        
+          
+            f
+            ¯
+          
+        
+        
+          γ
+          
+            μ
+          
+        
+        f
+      
+    
+    {\displaystyle J_{\mu }^{em}=\sum _{f}q_{f}{\overline {f}}\gamma _{\mu }f}
+  ,
+and
+
+  
+    
+      
+        
+          J
+          
+            μ
+          
+          
+            3
+          
+        
+        =
+        
+          ∑
+          
+            f
+          
+        
+        
+          I
+          
+            f
+          
+          
+            3
+          
+        
+        
+          
+            f
+            ¯
+          
+        
+        
+          γ
+          
+            μ
+          
+        
+        
+          
+            
+              1
+              −
+              
+                γ
+                
+                  5
+                
+              
+            
+            2
+          
+        
+        f
+      
+    
+    {\displaystyle J_{\mu }^{3}=\sum _{f}I_{f}^{3}{\overline {f}}\gamma _{\mu }{\frac {1-\gamma ^{5}}{2}}f}
+  
+
+  
+    
+      
+        
+          q
+          
+            f
+          
+          
+
+          
+        
+      
+    
+    {\displaystyle q_{f}^{}}
+   and 
+  
+    
+      
+        
+          I
+          
+            f
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle I_{f}^{3}}
+   are the fermions' electric charges and weak isospin.
+The charged current part of the Lagrangian is given by
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            C
+          
+        
+        =
+        −
+        
+          
+            g
+            
+              2
+            
+          
+        
+        
+          [
+          
+            
+              
+                u
+                ¯
+              
+            
+            
+              i
+            
+          
+          
+            γ
+            
+              μ
+            
+          
+          
+            
+              
+                1
+                −
+                
+                  γ
+                  
+                    5
+                  
+                
+              
+              2
+            
+          
+          
+            M
+            
+              i
+              j
+            
+            
+              C
+              K
+              M
+            
+          
+          
+            d
+            
+              j
+            
+          
+          +
+          
+            
+              
+                ν
+                ¯
+              
+            
+            
+              i
+            
+          
+          
+            γ
+            
+              μ
+            
+          
+          
+            
+              
+                1
+                −
+                
+                  γ
+                  
+                    5
+                  
+                
+              
+              2
+            
+          
+          
+            e
+            
+              i
+            
+          
+          ]
+        
+        
+          W
+          
+            μ
+          
+          
+            +
+          
+        
+        +
+        h
+        .
+        c
+        .
+      
+    
+    {\displaystyle {\mathcal {L}}_{C}=-{\frac {g}{\sqrt {2}}}\left[{\overline {u}}_{i}\gamma ^{\mu }{\frac {1-\gamma ^{5}}{2}}M_{ij}^{CKM}d_{j}+{\overline {\nu }}_{i}\gamma ^{\mu }{\frac {1-\gamma ^{5}}{2}}e_{i}\right]W_{\mu }^{+}+h.c.}
+  
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            H
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{H}}
+   contains the Higgs three-point and four-point self interaction terms.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            H
+          
+        
+        =
+        −
+        
+          
+            
+              g
+              
+                m
+                
+                  H
+                
+                
+                  2
+                
+              
+            
+            
+              4
+              
+                m
+                
+                  W
+                
+              
+            
+          
+        
+        
+          H
+          
+            3
+          
+        
+        −
+        
+          
+            
+              
+                g
+                
+                  2
+                
+              
+              
+                m
+                
+                  H
+                
+                
+                  2
+                
+              
+            
+            
+              32
+              
+                m
+                
+                  W
+                
+                
+                  2
+                
+              
+            
+          
+        
+        
+          H
+          
+            4
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{H}=-{\frac {gm_{H}^{2}}{4m_{W}}}H^{3}-{\frac {g^{2}m_{H}^{2}}{32m_{W}^{2}}}H^{4}}
+  
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            H
+            V
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{HV}}
+   contains the Higgs interactions with gauge vector bosons.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            H
+            V
+          
+        
+        =
+        
+          (
+          g
+          
+            m
+            
+              W
+            
+          
+          H
+          +
+          
+            
+              
+                g
+                
+                  2
+                
+              
+              4
+            
+          
+          
+            H
+            
+              2
+            
+          
+          )
+        
+        
+          (
+          
+            W
+            
+              μ
+            
+            
+              +
+            
+          
+          
+            W
+            
+              −
+              μ
+            
+          
+          +
+          
+            
+              1
+              
+                2
+                
+                  cos
+                  
+                    2
+                  
+                
+                ⁡
+                
+                  θ
+                  
+                    W
+                  
+                
+              
+            
+          
+          
+            Z
+            
+              μ
+            
+          
+          
+            Z
+            
+              μ
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{HV}=\left(gm_{W}H+{\frac {g^{2}}{4}}H^{2}\right)\left(W_{\mu }^{+}W^{-\mu }+{\frac {1}{2\cos ^{2}\theta _{W}}}Z_{\mu }Z^{\mu }\right)}
+  
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            W
+            W
+            V
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{WWV}}
+   contains the gauge three-point self interactions.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            W
+            W
+            V
+          
+        
+        =
+        −
+        i
+        g
+        [
+        (
+        
+          W
+          
+            μ
+            ν
+          
+          
+            +
+          
+        
+        
+          W
+          
+            −
+            μ
+          
+        
+        −
+        
+          W
+          
+            +
+            μ
+          
+        
+        
+          W
+          
+            μ
+            ν
+          
+          
+            −
+          
+        
+        )
+        (
+        
+          A
+          
+            ν
+          
+        
+        sin
+        ⁡
+        
+          θ
+          
+            W
+          
+        
+        −
+        
+          Z
+          
+            ν
+          
+        
+        cos
+        ⁡
+        
+          θ
+          
+            W
+          
+        
+        )
+        +
+        
+          W
+          
+            ν
+          
+          
+            −
+          
+        
+        
+          W
+          
+            μ
+          
+          
+            +
+          
+        
+        (
+        
+          A
+          
+            μ
+            ν
+          
+        
+        sin
+        ⁡
+        
+          θ
+          
+            W
+          
+        
+        −
+        
+          Z
+          
+            μ
+            ν
+          
+        
+        cos
+        ⁡
+        
+          θ
+          
+            W
+          
+        
+        )
+        ]
+      
+    
+    {\displaystyle {\mathcal {L}}_{WWV}=-ig[(W_{\mu \nu }^{+}W^{-\mu }-W^{+\mu }W_{\mu \nu }^{-})(A^{\nu }\sin \theta _{W}-Z^{\nu }\cos \theta _{W})+W_{\nu }^{-}W_{\mu }^{+}(A^{\mu \nu }\sin \theta _{W}-Z^{\mu \nu }\cos \theta _{W})]}
+  
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            W
+            W
+            V
+            V
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{WWVV}}
+   contains the gauge four-point self interactions
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      L
+                    
+                  
+                  
+                    W
+                    W
+                    V
+                    V
+                  
+                
+                =
+                −
+                
+                  
+                    
+                      g
+                      
+                        2
+                      
+                    
+                    4
+                  
+                
+                
+                  
+                    {
+                  
+                
+              
+              
+                
+                [
+                2
+                
+                  W
+                  
+                    μ
+                  
+                  
+                    +
+                  
+                
+                
+                  W
+                  
+                    −
+                    μ
+                  
+                
+                +
+                (
+                
+                  A
+                  
+                    μ
+                  
+                
+                sin
+                ⁡
+                
+                  θ
+                  
+                    W
+                  
+                
+                −
+                
+                  Z
+                  
+                    μ
+                  
+                
+                cos
+                ⁡
+                
+                  θ
+                  
+                    W
+                  
+                
+                
+                  )
+                  
+                    2
+                  
+                
+                
+                  ]
+                  
+                    2
+                  
+                
+              
+            
+            
+              
+              
+                
+                −
+                [
+                
+                  W
+                  
+                    μ
+                  
+                  
+                    +
+                  
+                
+                
+                  W
+                  
+                    ν
+                  
+                  
+                    −
+                  
+                
+                +
+                
+                  W
+                  
+                    ν
+                  
+                  
+                    +
+                  
+                
+                
+                  W
+                  
+                    μ
+                  
+                  
+                    −
+                  
+                
+                +
+                (
+                
+                  A
+                  
+                    μ
+                  
+                
+                sin
+                ⁡
+                
+                  θ
+                  
+                    W
+                  
+                
+                −
+                
+                  Z
+                  
+                    μ
+                  
+                
+                cos
+                ⁡
+                
+                  θ
+                  
+                    W
+                  
+                
+                )
+                (
+                
+                  A
+                  
+                    ν
+                  
+                
+                sin
+                ⁡
+                
+                  θ
+                  
+                    W
+                  
+                
+                −
+                
+                  Z
+                  
+                    ν
+                  
+                
+                cos
+                ⁡
+                
+                  θ
+                  
+                    W
+                  
+                
+                )
+                
+                  ]
+                  
+                    2
+                  
+                
+                
+                  
+                    }
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\mathcal {L}}_{WWVV}=-{\frac {g^{2}}{4}}{\Big \{}&[2W_{\mu }^{+}W^{-\mu }+(A_{\mu }\sin \theta _{W}-Z_{\mu }\cos \theta _{W})^{2}]^{2}\\&-[W_{\mu }^{+}W_{\nu }^{-}+W_{\nu }^{+}W_{\mu }^{-}+(A_{\mu }\sin \theta _{W}-Z_{\mu }\cos \theta _{W})(A_{\nu }\sin \theta _{W}-Z_{\nu }\cos \theta _{W})]^{2}{\Big \}}\end{aligned}}}
+  
+and 
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            Y
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}_{Y}}
+   contains the Yukawa interactions between the fermions and the Higgs field.
+
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            Y
+          
+        
+        =
+        −
+        
+          ∑
+          
+            f
+          
+        
+        
+          
+            
+              g
+              
+                m
+                
+                  f
+                
+              
+            
+            
+              2
+              
+                m
+                
+                  W
+                
+              
+            
+          
+        
+        
+          
+            f
+            ¯
+          
+        
+        f
+        H
+      
+    
+    {\displaystyle {\mathcal {L}}_{Y}=-\sum _{f}{\frac {gm_{f}}{2m_{W}}}{\overline {f}}fH}
+  
+Note the 
+  
+    
+      
+        
+          
+            
+              1
+              −
+              
+                γ
+                
+                  5
+                
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle {\frac {1-\gamma ^{5}}{2}}}
+   factors in the weak couplings: these factors project out the left handed components of the spinor fields. This is why electroweak theory (after symmetry breaking) is commonly said to be a chiral theory.
+
+
+== See also ==
+Fundamental forces
+History of quantum field theory
+Standard Model (mathematical formulation)
+Unitarity gauge
+Weinberg angle
+
+
+== References ==
+
+
+== Further reading ==
+
+
+=== General readers ===
+B. A. Schumm (2004). Deep Down Things: The Breathtaking Beauty of Particle Physics. Johns Hopkins University Press. ISBN 0-8018-7971-X.  Conveys much of the Standard Model with no formal mathematics. Very thorough on the weak interaction.
+
+
+=== Texts ===
+D. J. Griffiths (1987). Introduction to Elementary Particles. John Wiley & Sons. ISBN 0-471-60386-4. 
+W. Greiner; B. Müller (2000). Gauge Theory of Weak Interactions. Springer. ISBN 3-540-67672-4. 
+G. L. Kane (1987). Modern Elementary Particle Physics. Perseus Books. ISBN 0-201-11749-5. 
+
+
+=== Articles ===
+E. S. Abers; B. W. Lee (1973). "Gauge theories". Physics Reports. 9: 1–141. Bibcode:1973PhR.....9....1A. doi:10.1016/0370-1573(73)90027-6. 
+Y. Hayato; et al. (1999). "Search for Proton Decay through p → νK+ in a Large Water Cherenkov Detector". Physical Review Letters. 83 (8): 1529. arXiv:hep-ex/9904020. Bibcode:1999PhRvL..83.1529H. doi:10.1103/PhysRevLett.83.1529. 
+J. Hucks (1991). "Global structure of the standard model, anomalies, and charge quantization". Physical Review D. 43 (8): 2709–2717. Bibcode:1991PhRvD..43.2709H. doi:10.1103/PhysRevD.43.2709. 
+S. F. Novaes (2000). "Standard Model: An Introduction". arXiv:hep-ph/0001283 [hep-ph]. 
+D. P. Roy (1999). "Basic Constituents of Matter and their Interactions — A Progress Report". arXiv:hep-ph/9912523 [hep-ph].

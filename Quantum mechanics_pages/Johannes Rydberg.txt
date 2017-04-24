@@ -1,0 +1,31 @@
+Johannes (Janne) Robert Rydberg (8 November 1854 – 28 December 1919) was a Swedish physicist mainly known for devising the Rydberg formula, in 1888, which is used to predict the wavelengths of photons (of light and other electromagnetic radiation) emitted by changes in the energy level of an electron in a hydrogen atom.
+
+
+== Biography ==
+Rydberg was born 8 November 1854 in Halmstad i southern Sweden, and he was the only child of Sven Rydberg och Maria Anderson Rydberg. When he was 4 years old his father died, and the family was forced to live with a little income. In 1973 he graduated from Halmstads elementärläroverk, where he received high grades in maths and physics. Later that year he enrolled in Lund University, and two years later he was awarded his Bachelor's degree. In 1879 he was awarded his Doctor of Philosophy with his dissertation "Konstruktioner af kägelsnitt i 3- och 4-punktskontakt".
+
+
+== Professional career ==
+Rydberg begun his career as an amanuensis in the institution. He became a docent in maths in 1880, and in 1882 he became a docent in physics. At this time he begun studying the relative atomic mass, because he wondered what was the reason for the seemingly random increase in weight for the atoms in Mendeleev's periodic system. He searched for an formula for several years to no avail.
+
+
+== Rydbergs formula ==
+The physical constant known as the Rydberg constant is named after him, as is the Rydberg unit. Excited atoms with very high values of the principal quantum number, represented by n in the Rydberg formula, are called Rydberg atoms. Rydberg's anticipation that spectral studies could assist in a theoretical understanding of the atom and its chemical properties was justified in 1913 by the work of Niels Bohr (see hydrogen spectrum). An important spectroscopic constant based on a hypothetical atom of infinite mass is called the Rydberg (R) in his honour.
+
+
+== See also ==
+Rydberg matter
+Rydberg state
+Rydberg atom
+
+
+== Literature ==
+Sutton, Mike. “Getting the numbers right – the lonely struggle of Rydberg.” Chemistry World, Vol. 1, No. 7, July 2004.
+Martinson, Indrek; Curtis, L.J. (2005). "Janne Rydberg – his life and work" (PDF). NIM B. 235: 17–22. Bibcode:2005NIMPB.235...17M. doi:10.1016/j.nimb.2005.03.137. 
+
+
+== References ==
+
+
+== External links ==
+O'Connor, John J.; Robertson, Edmund F., "Johannes Rydberg", MacTutor History of Mathematics archive, University of St Andrews .

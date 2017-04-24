@@ -1,0 +1,1159 @@
+In quantum mechanics and its applications to quantum many-particle systems, notably quantum chemistry, angular momentum diagrams, or more accurately from a mathematical viewpoint angular momentum graphs, are a diagrammatic method for representing angular momentum quantum states of a quantum system allowing calculations to be done symbolically. More specifically, the arrows encode angular momentum states in bra–ket notation and include the abstract nature of the state, such as tensor products and transformation rules.
+The notation parallels the idea of Penrose graphical notation and Feynman diagrams. The diagrams consist of arrows and vertices with quantum numbers as labels, hence the alternative term "graphs". The sense of each arrow is related to Hermitian conjugation, which roughly corresponds to time reversal of the angular momentum states (c.f. Schrödinger equation). The diagrammatic notation is a considerably large topic in its own right with a number of specialized features – this article introduces the very basics.
+They were developed primarily by Adolfas Jucys in the twentieth century.
+
+
+== Equivalence between Dirac notation and Jucys diagrams ==
+
+
+=== Angular momentum states ===
+The quantum state vector of a single particle with total angular momentum quantum number j and total magnetic quantum number m = j, j − 1, ..., −j + 1, −j, is denoted as a ket |j, m⟩. As a diagram this is a singleheaded arrow.
+Symmetrically, the corresponding bra is ⟨j, m|. In diagram form this is a doubleheaded arrow, pointing in the opposite direction to the ket.
+In each case;
+the quantum numbers j, m are often labelled next to the arrows to refer to a specific angular momentum state,
+arrowheads are almost always placed at the middle of the line, rather than at the tip,
+equals signs "=" are placed between equivalent diagrams, exactly like for multiple algebraic expressions equal to each other.
+The most basic diagrams are for kets and bras:
+
+Arrows are directed to or from vertices, a state transforming according to:
+a standard representation is designated by an oriented line leaving a vertex,
+a contrastandard representation is depicted as a line entering a vertex.
+As a general rule, the arrows follow each other in the same sense. In the contrastandard representation, the time reversal operator, denoted here by T, is used. It is unitary, which means the Hermitian conjugate T† equals the inverse operator T−1, that is T† = T−1. It's action on the position operator leaves it invariant:
+
+  
+    
+      
+        T
+        
+          
+            
+              
+                x
+              
+              ^
+            
+          
+        
+        
+          T
+          
+            †
+          
+        
+        =
+        
+          
+            
+              
+                x
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle T{\hat {\mathbf {x} }}T^{\dagger }={\hat {\mathbf {x} }}}
+  
+but the linear momentum operator becomes negative:
+
+  
+    
+      
+        T
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+        
+          T
+          
+            †
+          
+        
+        =
+        −
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle T{\hat {\mathbf {p} }}T^{\dagger }=-{\hat {\mathbf {p} }}}
+  
+and the spin operator becomes negative:
+
+  
+    
+      
+        T
+        
+          
+            
+              
+                S
+              
+              ^
+            
+          
+        
+        
+          T
+          
+            †
+          
+        
+        =
+        −
+        
+          
+            
+              
+                S
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle T{\hat {\mathbf {S} }}T^{\dagger }=-{\hat {\mathbf {S} }}}
+  
+Since the orbital angular momentum operator is L = x × p, this must also become negative:
+
+  
+    
+      
+        T
+        
+          
+            
+              
+                L
+              
+              ^
+            
+          
+        
+        
+          T
+          
+            †
+          
+        
+        =
+        −
+        
+          
+            
+              
+                L
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle T{\hat {\mathbf {L} }}T^{\dagger }=-{\hat {\mathbf {L} }}}
+  
+and therefore the total angular momentum operator J = L + S becomes negative:
+
+  
+    
+      
+        T
+        
+          
+            
+              
+                J
+              
+              ^
+            
+          
+        
+        
+          T
+          
+            †
+          
+        
+        =
+        −
+        
+          
+            
+              
+                J
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle T{\hat {\mathbf {J} }}T^{\dagger }=-{\hat {\mathbf {J} }}}
+  
+Acting on an eigenstate of angular momentum |j, m⟩, it can be shown that [see for example P.E.S. Wormer and J. Paldus (2006)]:
+
+  
+    
+      
+        T
+        
+          |
+          j
+          ,
+          m
+          ⟩
+        
+        ≡
+        
+          |
+          T
+          (
+          j
+          ,
+          m
+          )
+          ⟩
+        
+        =
+        
+          
+            (
+            −
+            1
+            )
+          
+          
+            j
+            −
+            m
+          
+        
+        
+          |
+          j
+          ,
+          −
+          m
+          ⟩
+        
+      
+    
+    {\displaystyle T\left|j,m\right\rangle \equiv \left|T(j,m)\right\rangle ={(-1)}^{j-m}\left|j,-m\right\rangle }
+  
+The time-reversed diagrams for kets and bras are:
+
+It is important to position the vertex correctly, as forward-time and reversed-time operators would become mixed up.
+
+
+=== Inner product ===
+The inner product of two states |j1, m1⟩ and |j2, m2⟩ is:
+
+  
+    
+      
+        ⟨
+        
+          j
+          
+            2
+          
+        
+        ,
+        
+          m
+          
+            2
+          
+        
+        
+          |
+        
+        
+          j
+          
+            1
+          
+        
+        ,
+        
+          m
+          
+            1
+          
+        
+        ⟩
+        =
+        
+          δ
+          
+            
+              j
+              
+                1
+              
+            
+            
+              j
+              
+                2
+              
+            
+          
+        
+        
+          δ
+          
+            
+              m
+              
+                1
+              
+            
+            
+              m
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \langle j_{2},m_{2}|j_{1},m_{1}\rangle =\delta _{j_{1}j_{2}}\delta _{m_{1}m_{2}}}
+  
+and the diagrams are:
+
+For summations over the inner product, also known in this context as a contraction (c.f. tensor contraction):
+
+  
+    
+      
+        
+          ∑
+          
+            m
+          
+        
+        ⟨
+        j
+        ,
+        m
+        
+          |
+        
+        j
+        ,
+        m
+        ⟩
+        =
+        2
+        j
+        +
+        1
+      
+    
+    {\displaystyle \sum _{m}\langle j,m|j,m\rangle =2j+1}
+  
+it is conventional to denote the result as a closed circle labelled only by j, not m:
+
+
+=== Outer products ===
+The outer product of two states |j1, m1⟩ and |j2, m2⟩ is an operator:
+
+  
+    
+      
+        
+          |
+          
+            j
+            
+              2
+            
+          
+          ,
+          
+            m
+            
+              2
+            
+          
+          ⟩
+        
+        
+          ⟨
+          
+            j
+            
+              1
+            
+          
+          ,
+          
+            m
+            
+              1
+            
+          
+          |
+        
+      
+    
+    {\displaystyle \left|j_{2},m_{2}\right\rangle \left\langle j_{1},m_{1}\right|}
+  
+and the diagrams are:
+
+For summations over the outer product, also known in this context as a contraction (c.f. tensor contraction):
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ∑
+                  
+                    m
+                  
+                
+                
+                  |
+                
+                j
+                ,
+                m
+                ⟩
+                ⟨
+                j
+                ,
+                m
+                
+                  |
+                
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    m
+                  
+                
+                
+                  |
+                
+                j
+                ,
+                −
+                m
+                ⟩
+                ⟨
+                j
+                ,
+                −
+                m
+                
+                  |
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    m
+                  
+                
+                
+                  
+                    (
+                    −
+                    1
+                    )
+                  
+                  
+                    2
+                    (
+                    j
+                    −
+                    m
+                    )
+                  
+                
+                
+                  |
+                
+                j
+                ,
+                −
+                m
+                ⟩
+                ⟨
+                j
+                ,
+                −
+                m
+                
+                  |
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    m
+                  
+                
+                
+                  
+                    (
+                    −
+                    1
+                    )
+                  
+                  
+                    j
+                    −
+                    m
+                  
+                
+                
+                  |
+                
+                j
+                ,
+                −
+                m
+                ⟩
+                ⟨
+                j
+                ,
+                −
+                m
+                
+                  |
+                
+                
+                  
+                    (
+                    −
+                    1
+                    )
+                  
+                  
+                    j
+                    −
+                    m
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    m
+                  
+                
+                T
+                
+                  |
+                
+                j
+                ,
+                m
+                ⟩
+                ⟨
+                j
+                ,
+                m
+                
+                  |
+                
+                
+                  T
+                  
+                    †
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sum _{m}|j,m\rangle \langle j,m|&=\sum _{m}|j,-m\rangle \langle j,-m|\\&=\sum _{m}{(-1)}^{2(j-m)}|j,-m\rangle \langle j,-m|\\&=\sum _{m}{(-1)}^{j-m}|j,-m\rangle \langle j,-m|{(-1)}^{j-m}\\&=\sum _{m}T|j,m\rangle \langle j,m|T^{\dagger }\end{aligned}}}
+  
+where the result for T|j, m⟩ was used, and the fact that m takes the set of values given above. There is no difference between the forward-time and reversed-time states for the outer product contraction, so here they share the same diagram, represented as one line without direction, again labelled by j only and not m:
+
+
+=== Tensor products ===
+The tensor product ⊗ of n states |j1, m1⟩, |j2, m2⟩, ... |jn, mn⟩ is written
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  |
+                  
+                    j
+                    
+                      1
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      1
+                    
+                  
+                  ,
+                  
+                    j
+                    
+                      2
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      2
+                    
+                  
+                  ,
+                  .
+                  .
+                  .
+                  
+                    j
+                    
+                      n
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      n
+                    
+                  
+                  ⟩
+                
+              
+              
+                
+                ≡
+                
+                  |
+                  
+                    j
+                    
+                      1
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      1
+                    
+                  
+                  ⟩
+                
+                ⊗
+                
+                  |
+                  
+                    j
+                    
+                      2
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      2
+                    
+                  
+                  ⟩
+                
+                ⊗
+                ⋯
+                ⊗
+                
+                  |
+                  
+                    j
+                    
+                      n
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      n
+                    
+                  
+                  ⟩
+                
+              
+            
+            
+              
+              
+                
+                ≡
+                
+                  |
+                  
+                    j
+                    
+                      1
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      1
+                    
+                  
+                  ⟩
+                
+                
+                  |
+                  
+                    j
+                    
+                      2
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      2
+                    
+                  
+                  ⟩
+                
+                ⋯
+                
+                  |
+                  
+                    j
+                    
+                      n
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      n
+                    
+                  
+                  ⟩
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\left|j_{1},m_{1},j_{2},m_{2},...j_{n},m_{n}\right\rangle &\equiv \left|j_{1},m_{1}\right\rangle \otimes \left|j_{2},m_{2}\right\rangle \otimes \cdots \otimes \left|j_{n},m_{n}\right\rangle \\&\equiv \left|j_{1},m_{1}\right\rangle \left|j_{2},m_{2}\right\rangle \cdots \left|j_{n},m_{n}\right\rangle \end{aligned}}}
+  
+and in diagram form, each separate state leaves or enters a common vertex creating a "fan" of arrows - n lines attached to a single vertex.
+Vertices in tensor products have signs (sometimes called "node signs"), to indicate the ordering of the tensor-multiplied states:
+a minus sign (−) indicates the ordering is clockwise, 
+  
+    
+      
+        ↻
+      
+    
+    {\displaystyle \circlearrowright }
+  , and
+a plus sign (+) for anticlockwise, 
+  
+    
+      
+        ↺
+      
+    
+    {\displaystyle \circlearrowleft }
+  .
+Signs are of course not required for just one state, diagrammatically one arrow at a vertex. Sometimes curved arrows with the signs are included to show explicitly the sense of tensor multiplication, but usually just the sign is shown with the arrows left out.
+
+For the inner product of two tensor product states:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  ⟨
+                  
+                    j
+                    
+                      n
+                    
+                    ′
+                  
+                  ,
+                  
+                    m
+                    
+                      n
+                    
+                    ′
+                  
+                  ,
+                  .
+                  .
+                  .
+                  ,
+                  
+                    j
+                    
+                      2
+                    
+                    ′
+                  
+                  ,
+                  
+                    m
+                    
+                      2
+                    
+                    ′
+                  
+                  ,
+                  
+                    j
+                    
+                      1
+                    
+                    ′
+                  
+                  ,
+                  
+                    m
+                    
+                      1
+                    
+                    ′
+                  
+                  
+                    |
+                  
+                  
+                    j
+                    
+                      1
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      1
+                    
+                  
+                  ,
+                  
+                    j
+                    
+                      2
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      2
+                    
+                  
+                  ,
+                  .
+                  .
+                  .
+                  
+                    j
+                    
+                      n
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      n
+                    
+                  
+                  ⟩
+                
+              
+            
+            
+              
+                =
+              
+              
+                
+                ⟨
+                
+                  j
+                  
+                    n
+                  
+                  ′
+                
+                ,
+                
+                  m
+                  
+                    n
+                  
+                  ′
+                
+                
+                  |
+                
+                .
+                .
+                .
+                ⟨
+                
+                  j
+                  
+                    2
+                  
+                  ′
+                
+                ,
+                
+                  m
+                  
+                    2
+                  
+                  ′
+                
+                
+                  |
+                
+                ⟨
+                
+                  j
+                  
+                    1
+                  
+                  ′
+                
+                ,
+                
+                  m
+                  
+                    1
+                  
+                  ′
+                
+                
+                  |
+                
+                
+                  |
+                
+                
+                  j
+                  
+                    1
+                  
+                
+                ,
+                
+                  m
+                  
+                    1
+                  
+                
+                ⟩
+                
+                  |
+                
+                
+                  j
+                  
+                    2
+                  
+                
+                ,
+                
+                  m
+                  
+                    2
+                  
+                
+                ⟩
+                .
+                .
+                .
+                
+                  |
+                
+                
+                  j
+                  
+                    n
+                  
+                
+                ,
+                
+                  m
+                  
+                    n
+                  
+                
+                ⟩
+              
+            
+            
+              
+                =
+              
+              
+                
+                
+                  ∏
+                  
+                    k
+                    =
+                    1
+                  
+                  
+                    n
+                  
+                
+                
+                  ⟨
+                  
+                    j
+                    
+                      k
+                    
+                    ′
+                  
+                  ,
+                  
+                    m
+                    
+                      k
+                    
+                    ′
+                  
+                  
+                    |
+                  
+                  
+                    j
+                    
+                      k
+                    
+                  
+                  ,
+                  
+                    m
+                    
+                      k
+                    
+                  
+                  ⟩
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&\left\langle j'_{n},m'_{n},...,j'_{2},m'_{2},j'_{1},m'_{1}|j_{1},m_{1},j_{2},m_{2},...j_{n},m_{n}\right\rangle \\=&\langle j'_{n},m'_{n}|...\langle j'_{2},m'_{2}|\langle j'_{1},m'_{1}||j_{1},m_{1}\rangle |j_{2},m_{2}\rangle ...|j_{n},m_{n}\rangle \\=&\prod _{k=1}^{n}\left\langle j'_{k},m'_{k}|j_{k},m_{k}\right\rangle \end{aligned}}}
+  
+there are n lots of inner product arrows:
+
+
+== Examples and applications ==
+The diagrams are well-suited for Clebsch–Gordan coefficients.
+Calculations with real quantum systems, such as multielectron atoms and molecular systems.
+
+
+== See also ==
+
+Vector model of the atom
+Ladder operator
+Fock space
+Feynman diagrams
+
+
+== References ==
+
+
+=== Notes ===
+P.E.S. Wormer; J. Paldus (2006). "Angular Momentum Diagrams". Advances in Quantum Chemistry. 51. Elsevier. pp. 59–124. doi:10.1016/S0065-3276(06)51002-0. ISSN 0065-3276.  These authors use the theta variant ϑ for the time reversal operator, here we use T.
+I. Lindgren; J. Morrison (1986). Atomic Many-Body Theory. Chemical Physics. 13 (2nd ed.). Springer-Verlag. ISBN 3-540-16649-1. 
+
+
+=== Further reading ===
+G.W.F. Drake (2006). Springer Handbook of Atomic, Molecular, and Optical Physics (2nd ed.). springer. p. 60. ISBN 0-387-26308-X. 
+U. Kaldor; S. Wilson (2003). Theoretical Chemistry and Physics of Heavy and Superheavy Elements. Progress in Theoretical Chemistry and Physics. 11. springer. p. 183. ISBN 1-4020-1371-X. 
+E.J. Brändas; P.O. Löwdin; E. Brändas; E.S. Kryachko (2004). Fundamental World of Quantum Chemistry: A Tribute to the Memory of Per-Olov Löwdin. 3. Springer. p. 385. ISBN 1-4020-2583-1. 
+P. Schwerdtfeger (2004). Relativistic Electronic Structure Theory: Part 2. Applications. Theoretical and Computational Chemistry. 14. Elsevier. p. 97. ISBN 0-08-054047-3. 
+M. Barysz; Y. Ishikawa (2010). Relativistic Methods for Chemists. Challenges and Advances in Computational Chemistry and Physics. 10. Springer. p. 311. ISBN 1-4020-9975-4. 
+G.H.F. Diercksen; S. Wilson (1983). Methods in Computational Molecular Physics. NATO Science Series C. 113. Springer. ISBN 90-277-1638-2. 
+Zenonas Rudzikas (2007). "8". Theoretical Atomic Spectroscopy. Cambridge Monographs on Atomic, Molecular and Chemical Physics. 7. University of Chicago: Cambridge University Press. ISBN 0-521-02622-9. 
+Lietuvos Fizikų draugija (2004). Lietuvos fizikos žurnalas. 44. University of Chicago: Draugija. 
+P.E.T. Jorgensen (1987). Operators and Representation Theory: Canonical Models for Algebras of Operators Arising in Quantum Mechanics. University of Chicago: Elsevier. ISBN 0-08-087258-1. 
+P. Cvitanović (2008). Group Theory - Birdtracks, Lie's, and Exceptional Groups. Princeton, NJ: Princeton Univ. Press. ISBN 0-691-11836-1.

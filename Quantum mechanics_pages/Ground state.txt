@@ -1,0 +1,909 @@
+The ground state of a quantum mechanical system is its lowest-energy state; the energy of the ground state is known as the zero-point energy of the system. An excited state is any state with energy greater than the ground state. In the quantum field theory, the ground state is usually called the vacuum state or the vacuum.
+If more than one ground state exists, they are said to be degenerate. Many systems have degenerate ground states. Degeneracy occurs whenever there exists a unitary operator which acts non-trivially on a ground state and commutes with the Hamiltonian of the system.
+According to the third law of thermodynamics, a system at absolute zero temperature exists in its ground state; thus, its entropy is determined by the degeneracy of the ground state. Many systems, such as a perfect crystal lattice, have a unique ground state and therefore have zero entropy at absolute zero. It is also possible for the highest excited state to have absolute zero temperature for systems that exhibit negative temperature.
+
+
+== 1D ground state has no nodes ==
+In 1D, the ground state of the Schrödinger equation has no nodes. This can be proved considering the average energy of a state with a node at 
+  
+    
+      
+        x
+        =
+        0
+      
+    
+    {\displaystyle x=0}
+  ; i.e., 
+  
+    
+      
+        ψ
+        (
+        0
+        )
+        =
+        0
+      
+    
+    {\displaystyle \psi (0)=0}
+  . Consider the average energy in this state
+
+  
+    
+      
+        
+          ⟨
+          ψ
+          
+            |
+          
+          H
+          
+            |
+          
+          ψ
+          ⟩
+        
+        =
+        ∫
+        d
+        x
+        
+        
+          (
+          −
+          
+            
+              
+                ℏ
+                
+                  2
+                
+              
+              
+                2
+                m
+              
+            
+          
+          
+            ψ
+            
+              ∗
+            
+          
+          
+            
+              
+                
+                  d
+                  
+                    2
+                  
+                
+                ψ
+              
+              
+                d
+                
+                  x
+                  
+                    2
+                  
+                
+              
+            
+          
+          +
+          V
+          (
+          x
+          )
+          
+            |
+          
+          ψ
+          (
+          x
+          )
+          
+            
+              |
+            
+            
+              2
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \left\langle \psi |H|\psi \right\rangle =\int dx\;\left(-{\frac {\hbar ^{2}}{2m}}\psi ^{*}{\frac {d^{2}\psi }{dx^{2}}}+V(x)|\psi (x)|^{2}\right)}
+  
+where 
+  
+    
+      
+        V
+        (
+        x
+        )
+      
+    
+    {\displaystyle V(x)}
+   is the potential. Now consider a small interval around 
+  
+    
+      
+        x
+        =
+        0
+      
+    
+    {\displaystyle x=0}
+  ; i.e., 
+  
+    
+      
+        x
+        ∈
+        [
+        −
+        ϵ
+        ,
+        ϵ
+        ]
+      
+    
+    {\displaystyle x\in [-\epsilon ,\epsilon ]}
+  . Take a new wave function 
+  
+    
+      
+        
+          ψ
+          ′
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \psi '(x)}
+   to be defined as 
+  
+    
+      
+        
+          ψ
+          ′
+        
+        (
+        x
+        )
+        =
+        ψ
+        (
+        x
+        )
+        ,
+        x
+        <
+        −
+        ϵ
+      
+    
+    {\displaystyle \psi '(x)=\psi (x),x<-\epsilon }
+   and 
+  
+    
+      
+        
+          ψ
+          ′
+        
+        (
+        x
+        )
+        =
+        −
+        ψ
+        (
+        x
+        )
+        ,
+        x
+        >
+        ϵ
+      
+    
+    {\displaystyle \psi '(x)=-\psi (x),x>\epsilon }
+   and constant for 
+  
+    
+      
+        x
+        ∈
+        [
+        −
+        ϵ
+        ,
+        ϵ
+        ]
+      
+    
+    {\displaystyle x\in [-\epsilon ,\epsilon ]}
+  . If 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+   is small enough then this is always possible to do so that 
+  
+    
+      
+        
+          ψ
+          ′
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \psi '(x)}
+   is continuous. Assuming 
+  
+    
+      
+        ψ
+        (
+        x
+        )
+        ≈
+        −
+        c
+        x
+      
+    
+    {\displaystyle \psi (x)\approx -cx}
+   around 
+  
+    
+      
+        x
+        =
+        0
+      
+    
+    {\displaystyle x=0}
+  , we can write
+
+  
+    
+      
+        
+          ψ
+          ′
+        
+        (
+        x
+        )
+        =
+        N
+        
+          {
+          
+            
+              
+                
+                  
+                    |
+                  
+                  ψ
+                  (
+                  x
+                  )
+                  
+                    |
+                  
+                
+                
+                  
+                    |
+                  
+                  x
+                  
+                    |
+                  
+                  >
+                  ϵ
+                
+              
+              
+                
+                  c
+                  ϵ
+                
+                
+                  
+                    |
+                  
+                  x
+                  
+                    |
+                  
+                  ≤
+                  ϵ
+                
+              
+            
+          
+          
+        
+      
+    
+    {\displaystyle \psi '(x)=N\left\{{\begin{array}{ll}|\psi (x)|&|x|>\epsilon \\c\epsilon &|x|\leq \epsilon \end{array}}\right.}
+  
+where 
+  
+    
+      
+        N
+        =
+        
+          
+            1
+            
+              1
+              +
+              
+                
+                  4
+                  3
+                
+              
+              
+                |
+              
+              c
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+              
+                ϵ
+                
+                  3
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle N={\frac {1}{\sqrt {1+{\frac {4}{3}}|c|^{2}\epsilon ^{3}}}}}
+   is the norm.
+Note that the kinetic energy density 
+  
+    
+      
+        
+          
+            |
+            
+              
+                
+                  d
+                  
+                    ψ
+                    ′
+                  
+                
+                
+                  d
+                  x
+                
+              
+            
+            |
+          
+          
+            2
+          
+        
+        <
+        
+          
+            |
+            
+              
+                
+                  d
+                  ψ
+                
+                
+                  d
+                  x
+                
+              
+            
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \left|{\frac {d\psi '}{dx}}\right|^{2}<\left|{\frac {d\psi }{dx}}\right|^{2}}
+   everywhere because of the normalization. Now consider the potential energy. For definiteness let us choose 
+  
+    
+      
+        V
+        (
+        x
+        )
+        ≥
+        0
+      
+    
+    {\displaystyle V(x)\geq 0}
+  . Then it is clear that outside the interval 
+  
+    
+      
+        x
+        ∈
+        [
+        −
+        ϵ
+        ,
+        ϵ
+        ]
+      
+    
+    {\displaystyle x\in [-\epsilon ,\epsilon ]}
+   the potential energy density is smaller for the 
+  
+    
+      
+        
+          ψ
+          ′
+        
+      
+    
+    {\displaystyle \psi '}
+   because 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          ′
+        
+        
+          |
+        
+        <
+        
+          |
+        
+        ψ
+        
+          |
+        
+      
+    
+    {\displaystyle |\psi '|<|\psi |}
+   there. On the other hand, in the interval 
+  
+    
+      
+        x
+        ∈
+        [
+        −
+        ϵ
+        ,
+        ϵ
+        ]
+      
+    
+    {\displaystyle x\in [-\epsilon ,\epsilon ]}
+   we have
+
+  
+    
+      
+        
+          
+            
+              V
+              
+                avg
+              
+              
+                ϵ
+              
+            
+          
+          ′
+        
+        =
+        
+          ∫
+          
+            −
+            ϵ
+          
+          
+            ϵ
+          
+        
+        d
+        x
+        
+        V
+        (
+        x
+        )
+        
+          |
+        
+        
+          ψ
+          ′
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          
+            
+              
+                ϵ
+                
+                  2
+                
+              
+              
+                |
+              
+              c
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+            
+            
+              1
+              +
+              
+                
+                  4
+                  3
+                
+              
+              
+                |
+              
+              c
+              
+                
+                  |
+                
+                
+                  2
+                
+              
+              
+                ϵ
+                
+                  3
+                
+              
+            
+          
+        
+        
+          ∫
+          
+            −
+            ϵ
+          
+          
+            ϵ
+          
+        
+        V
+        (
+        x
+        )
+        ≃
+        2
+        
+          ϵ
+          
+            3
+          
+        
+        
+          |
+        
+        c
+        
+          
+            |
+          
+          
+            2
+          
+        
+        V
+        (
+        0
+        )
+        +
+        ⋯
+        ,
+      
+    
+    {\displaystyle {V_{\text{avg}}^{\epsilon }}'=\int _{-\epsilon }^{\epsilon }dx\;V(x)|\psi '|^{2}={\frac {\epsilon ^{2}|c|^{2}}{1+{\frac {4}{3}}|c|^{2}\epsilon ^{3}}}\int _{-\epsilon }^{\epsilon }V(x)\simeq 2\epsilon ^{3}|c|^{2}V(0)+\cdots ,}
+  
+which is correct to order 
+  
+    
+      
+        
+          ϵ
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \epsilon ^{3}}
+  . On the other hand, the contribution to the potential energy from this region for the state with a node, 
+  
+    
+      
+        ψ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \psi (x)}
+  , is
+
+  
+    
+      
+        
+          V
+          
+            avg
+          
+          
+            ϵ
+          
+        
+        =
+        
+          ∫
+          
+            −
+            ϵ
+          
+          
+            ϵ
+          
+        
+        d
+        x
+        
+        V
+        (
+        x
+        )
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        
+          |
+        
+        c
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          ∫
+          
+            −
+            ϵ
+          
+          
+            ϵ
+          
+        
+        d
+        x
+        
+        
+          x
+          
+            2
+          
+        
+        V
+        (
+        x
+        )
+        ≃
+        
+          
+            2
+            3
+          
+        
+        
+          ϵ
+          
+            3
+          
+        
+        
+          |
+        
+        c
+        
+          
+            |
+          
+          
+            2
+          
+        
+        V
+        (
+        0
+        )
+        +
+        ⋯
+        ,
+      
+    
+    {\displaystyle V_{\text{avg}}^{\epsilon }=\int _{-\epsilon }^{\epsilon }dx\;V(x)|\psi |^{2}=|c|^{2}\int _{-\epsilon }^{\epsilon }dx\;x^{2}V(x)\simeq {\frac {2}{3}}\epsilon ^{3}|c|^{2}V(0)+\cdots ,}
+  
+which is of the same order as for the state 
+  
+    
+      
+        
+          ψ
+          ′
+        
+      
+    
+    {\displaystyle \psi '}
+  . Therefore, the potential energy is unchanged up to order 
+  
+    
+      
+        
+          ϵ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \epsilon ^{2}}
+   if we deform the state with a node 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   into a state without a node 
+  
+    
+      
+        
+          ψ
+          ′
+        
+      
+    
+    {\displaystyle \psi '}
+  . We can therefore remove all nodes and reduce the energy, which implies that the ground-state wave function cannot have a node. This completes the proof.
+
+
+== Examples ==
+
+The wave function of the ground state of a particle in a one-dimensional well is a half-period sine wave which goes to zero at the two edges of the well. The energy of the particle is given by 
+  
+    
+      
+        
+          
+            
+              
+                h
+                
+                  2
+                
+              
+              
+                n
+                
+                  2
+                
+              
+            
+            
+              8
+              m
+              
+                L
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {h^{2}n^{2}}{8mL^{2}}}}
+  , where h is the Planck constant, m is the mass of the particle, n is the energy state (n = 1 corresponds to the ground-state energy), and L is the width of the well.
+The wave function of the ground state of a hydrogen atom is a spherically-symmetric distribution centred on the nucleus, which is largest at the center and reduces exponentially at larger distances. The electron is most likely to be found at a distance from the nucleus equal to the Bohr radius. This function is known as the 1s atomic orbital. For hydrogen (H), an electron in the ground state has energy −13.6 eV, relative to the ionization threshold. In other words, 13.6 eV is the energy input required for the electron to no longer be bound to the atom.
+The exact definition of one second of time since 1997 has been the duration of 9,192,631,770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium-133 atom at rest at a temperature of 0 K.
+
+
+== Notes ==
+
+
+== Bibliography ==
+Feynman, Richard; Leighton, Robert; Sands, Matthew (1965). "see section 2-5 for energy levels, 19 for the hydrogen atom". The Feynman Lectures on Physics. 3.

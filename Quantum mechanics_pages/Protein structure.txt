@@ -1,0 +1,100 @@
+Protein structure is the three-dimensional arrangement of atoms in a protein molecule. Proteins are polymers — specifically polypeptides — formed from sequences of amino acids, the monomers of the polymer. A single amino acid monomer may also be called a residue indicating a repeating unit of a polymer. Proteins form by amino acids undergoing condensation reactions, in which the amino acids lose one water molecule per reaction in order to attach to one another with a peptide bond. By convention, a chain under 30 amino acids is often identified as a peptide, rather than a protein. To be able to perform their biological function, proteins fold into one or more specific spatial conformations driven by a number of non-covalent interactions such as hydrogen bonding, ionic interactions, Van der Waals forces, and hydrophobic packing. To understand the functions of proteins at a molecular level, it is often necessary to determine their three-dimensional structure. This is the topic of the scientific field of structural biology, which employs techniques such as X-ray crystallography, NMR spectroscopy, and dual polarisation interferometry to determine the structure of proteins.
+Protein structures range in size from tens to several thousand amino acids. By physical size, proteins are classified as nanoparticles, between 1–100 nm. Very large aggregates can be formed from protein subunits. For example, many thousands of actin molecules assemble into a microfilament.
+A protein may undergo reversible structural changes in performing its biological function. The alternative structures of the same protein are referred to as different conformational isomers, or simply, conformations, and transitions between them are called conformational changes. By Md Saddamul Rashid
+
+
+== Levels of protein structure ==
+There are four distinct levels of protein structure.
+
+
+=== Amino acid residues ===
+
+Each α-amino acid consists of a backbone that is present in all the amino acid types and a side chain that is unique to each type of residue. An exception from this rule is proline. Because the carbon atom is bound to four different groups it is chiral, however only one of the isomers occur in biological proteins. Glycine however, is not chiral since its side chain is a hydrogen atom. A simple mnemonic for correct L-form is "CORN": when the Cα atom is viewed with the H in front, the residues read "CO-R-N" in a clockwise direction.
+
+
+=== Primary structure ===
+
+The primary structure of a protein refers to the linear sequence of amino acids in the polypeptide chain. The primary structure is held together by covalent bonds such as peptide bonds, which are made during the process of protein biosynthesis. The two ends of the polypeptide chain are referred to as the carboxyl terminus (C-terminus) and the amino terminus (N-terminus) based on the nature of the free group on each extremity. Counting of residues always starts at the N-terminal end (NH2-group), which is the end where the amino group is not involved in a peptide bond. The primary structure of a protein is determined by the gene corresponding to the protein. A specific sequence of nucleotides in DNA is transcribed into mRNA, which is read by the ribosome in a process called translation. The sequence of amino acids in insulin was discovered by Frederick Sanger, establishing that proteins have defining amino acid sequences. The sequence of a protein is unique to that protein, and defines the structure and function of the protein. The sequence of a protein can be determined by methods such as Edman degradation or tandem mass spectrometry. Often, however, it is read directly from the sequence of the gene using the genetic code. It is strictly recommended to use the words "amino acid residues" when discussing proteins because when a peptide bond is formed, a water molecule is lost, and therefore proteins are made up of amino acid residues. Post-translational modification such as disulfide bond formation, phosphorylations and glycosylations are usually also considered a part of the primary structure, and cannot be read from the gene. For example, insulin is composed of 51 amino acids in 2 chains. One chain has 31 amino acids, and the other has 20 amino acids.
+
+
+=== Secondary structure ===
+
+Secondary structure refers to highly regular local sub-structures on the actual polypeptide backbone chain. Two main types of secondary structure, the α-helix and the β-strand or β-sheets, were suggested in 1951 by Linus Pauling and coworkers. These secondary structures are defined by patterns of hydrogen bonds between the main-chain peptide groups. They have a regular geometry, being constrained to specific values of the dihedral angles ψ and φ on the Ramachandran plot. Both the α-helix and the β-sheet represent a way of saturating all the hydrogen bond donors and acceptors in the peptide backbone. Some parts of the protein are ordered but do not form any regular structures. They should not be confused with random coil, an unfolded polypeptide chain lacking any fixed three-dimensional structure. Several sequential secondary structures may form a "supersecondary unit".
+
+
+=== Tertiary structure ===
+
+Tertiary structure refers to the three-dimensional structure of monomeric and multimeric protein molecules. The α-helixes and β-pleated-sheets are folded into a compact globular structure. The folding is driven by the non-specific hydrophobic interactions, the burial of hydrophobic residues from water, but the structure is stable only when the parts of a protein domain are locked into place by specific tertiary interactions, such as salt bridges, hydrogen bonds, and the tight packing of side chains and disulfide bonds. The disulfide bonds are extremely rare in cytosolic proteins, since the cytosol (intracellular fluid) is generally a reducing environment.
+
+
+=== Quaternary structure ===
+
+Quaternary structure is the three-dimensional structure of a multi-subunit protein and how the subunits fit together. In this context, the quaternary structure is stabilized by the same non-covalent interactions and disulfide bonds as the tertiary structure. Complexes of two or more polypeptides (i.e. multiple subunits) are called multimers. Specifically it would be called a dimer if it contains two subunits, a trimer if it contains three subunits, a tetramer if it contains four subunits, and a pentamer if it contains five subunits. The subunits are frequently related to one another by symmetry operations, such as a 2-fold axis in a dimer. Multimers made up of identical subunits are referred to with a prefix of "homo-" (e.g. a homotetramer) and those made up of different subunits are referred to with a prefix of "hetero-", for example, a heterotetramer, such as the two alpha and two beta chains of hemoglobin.
+
+
+== Domains, motifs, and folds in protein structure ==
+
+Proteins are frequently described as consisting of several structural units. These units include domains, motifs, and folds. Despite the fact that there are about 100,000 different proteins expressed in eukaryotic systems, there are many fewer different domains, structural motifs and folds.
+
+
+=== Structural domain ===
+A structural domain is an element of the protein's overall structure that is self-stabilizing and often folds independently of the rest of the protein chain. Many domains are not unique to the protein products of one gene or one gene family but instead appear in a variety of proteins. Domains often are named and singled out because they figure prominently in the biological function of the protein they belong to; for example, the "calcium-binding domain of calmodulin". Because they are independently stable, domains can be "swapped" by genetic engineering between one protein and another to make chimera proteins.
+
+
+=== Structural and sequence motif ===
+The structural and sequence motifs refer to short segments of protein three-dimensional structure or amino acid sequence that were found in a large number of different proteins.
+
+
+=== Supersecondary structure ===
+The supersecondary structure refers to a specific combination of secondary structure elements, such as β-α-β units or a helix-turn-helix motif. Some of them may be also referred to as structural motifs.
+
+
+=== Protein fold ===
+A protein fold refers to the general protein architecture, like a helix bundle, β-barrel, Rossman fold or different "folds" provided in the Structural Classification of Proteins database. A related concept is protein topology that refers to the arrangement of contacts within the protein.
+
+
+=== Superdomain ===
+A superdomain consists of two or more nominally unrelated structural domains that are inherited as a single unit and occur in different proteins. An example is provided by the protein tyrosine phosphatase domain and C2 domain pair in PTEN, several tensin proteins, auxilin and proteins in plants and fungi. The PTP-C2 superdomain evidently came into existence prior to the divergence of fungi, plants and animals is therefore likely to be about 1.5 billion years old.
+
+
+== Protein folding ==
+
+Once translated by a ribosome, each polypeptide folds into its characteristic three-dimensional structure from a random coil. Since the fold is maintained by a network of interactions between amino acids in the polypeptide, the native state of the protein chain is determined by the amino acid sequence (Anfinsen's dogma).
+
+
+== Protein structure determination ==
+
+Around 90% of the protein structures available in the Protein Data Bank have been determined by X-ray crystallography. This method allows one to measure the three-dimensional (3-D) density distribution of electrons in the protein, in the crystallized state, and thereby infer the 3-D coordinates of all the atoms to be determined to a certain resolution. Roughly 9% of the known protein structures have been obtained by nuclear magnetic resonance techniques. The secondary structure composition can be determined via circular dichroism. Vibrational spectroscopy can also be used to characterize the conformation of peptides, polypeptides, and proteins. Two-dimensional infrared spectroscopy has become a valuable method to investigate the structures of flexible peptides and proteins that cannot be studied with other methods. Cryo-electron microscopy has recently become a means of determining protein structures to high resolution, less than 5 ångströms or 0.5 nanometer, and is anticipated to increase in power as a tool for high resolution work in the next decade. This technique is still a valuable resource for researchers working with very large protein complexes such as virus coat proteins and amyloid fibers. A more qualitative picture of protein structure is often obtained by proteolysis, which is also useful to screen for more crystallizable protein samples. Novel implementations of this approach, including fast parallel proteolysis (FASTpp), can probe the structured fraction and its stability without the need for purification.
+
+
+=== Protein Sequence Analysis: Ensembles ===
+
+Proteins are often thought of as relatively stable structures that have a set tertiary structure and experience conformational changes as a result of being modified by other proteins or as part of enzymatic activity. However proteins have varying degrees of stability and some of the less stable variants are intrinsically disordered proteins. These proteins exist and function in a relatively 'disordered' state lacking a stable tertiary structure. As a result, they are difficult to describe in a standard protein structure model that was designed for proteins with a fixed tertiary structure. Conformational ensembles have been devised as a way to provide a more accurate and 'dynamic' representation of the conformational state of intrinsically disordered proteins. Conformational ensembles function by attempting to represent the various conformations of intrinsically disordered proteins within an ensemble file (the type found at the Protein Ensemble Database).
+Protein ensemble files are a representation of a protein that can be considered to have a flexible structure. Creating these files requires determining which of the various theoretically possible protein conformations actually exist. One approach is to apply computational algorithms to the protein data in order to try to determine the most likely set of conformations for an ensemble file.
+There are multiple methods for preparing data for the Protein Ensemble Database that fall into two general methodologies – pool and molecular dynamics (MD) approaches (diagrammed in the figure). The pool based approach uses the protein’s amino acid sequence to create a massive pool of random conformations. This pool is then subjected to more computational processing that creates a set of theoretical parameters for each conformation based on the structure. Conformational subsets from this pool whose average theoretical parameters closely match known experimental data for this protein are selected.
+The molecular dynamics approach takes multiple random conformations at a time and subjects all of them to experimental data. Here the experimental data is serving as limitations to be placed on the conformations (e.g. known distances between atoms). Only conformations that manage to remain within the limits set by the experimental data are accepted. This approach often applies large amounts of experimental data to the conformations which is a very computationally demanding task.
+(adapted from image in "Computational approaches for inferring the functions of intrinsically disordered proteins")
+
+
+== Structure classification ==
+Protein structures can be grouped based on their similarity or a common evolutionary origin. The Structural Classification of Proteins database and CATH database provide two different structural classifications of proteins. Shared structure between proteins is considered evidence of evolutionary relatedness between proteins and is used group proteins together into protein superfamilies.
+
+
+== Computational prediction of protein structure ==
+
+The generation of a protein sequence is much easier than the determination of a protein structure. However, the structure of a protein gives much more insight in the function of the protein than its sequence. Therefore, a number of methods for the computational prediction of protein structure from its sequence have been developed. Ab initio prediction methods use just the sequence of the protein. Threading and homology modeling methods can build a 3-D model for a protein of unknown structure from experimental structures of evolutionarily-related proteins, called a protein family.
+
+
+== See also ==
+3did
+Biomolecular structure
+Gene structure
+Nucleic acid structure
+Z-matrix conversion from Torsion angles to Cartesian coordinates
+
+
+== References ==
+
+
+== Further reading ==
+50 Years of Protein Structure Determination Timeline - HTML Version - National Institute of General Medical Sciences at NIH

@@ -1,0 +1,307 @@
+This is a timeline of quantum computing.
+
+
+== 1970s ==
+1960
+Stephen Wiesner invents conjugate coding.
+
+1973
+Alexander Holevo publishes a paper showing that n qubits cannot carry more than n classical bits of information (a result known as "Holevo's theorem" or "Holevo's bound").
+Charles H. Bennett shows that computation can be done reversibly.
+
+1975
+R. P. Poplavskii publishes "Thermodynamical models of information processing" (in Russian) which showed the computational infeasibility of simulating quantum systems on classical computers, due to the superposition principle.
+
+1976
+Polish mathematical physicist Roman Stanisław Ingarden publishes a seminal paper entitled "Quantum Information Theory" in Reports on Mathematical Physics, vol. 10, 43–72, 1976. (The paper was submitted in 1975.) It is one of the first attempts at creating a quantum information theory, showing that Shannon information theory cannot directly be generalized to the quantum case, but rather that it is possible to construct a quantum information theory, which is a generalization of Shannon's theory, within the formalism of a generalized quantum mechanics of open systems and a generalized concept of observables (the so-called semi-observables).
+
+
+== 1980s ==
+1980
+Paul Benioff described quantum mechanical Hamiltonian models of computers
+Yuri Manin proposed an idea of quantum computing
+
+1981
+Richard Feynman in his talk (and also in his famous lecture "There's Plenty of Room at the Bottom", too) at the First Conference on the Physics of Computation, held at MIT in May, observed that it appeared to be impossible in general to simulate an evolution of a quantum system on a classical computer in an efficient way. He proposed a basic model for a quantum computer that would be capable of such simulations
+Paul Benioff gave talk at the conference, "Physics of Computation" held at MIT in May 1981. Talk title was "Quantum mechanical Hamiltonian models of discrete processes that erase their own histories: application to Turing machines".
+Tommaso Toffoli introduced the reversible Toffoli gate, which, together with the NOT and XOR gates provides a universal set for classical computation.
+
+1982
+Paul Benioff proposes the first recognisable theoretical framework for a quantum computer
+William Wootters and Wojciech Zurek, and independently Dennis Dieks prove the no-cloning theorem.
+
+1984
+Charles Bennett and Gilles Brassard employ Wiesner's conjugate coding for distribution of cryptographic keys.
+
+1985
+David Deutsch, at the University of Oxford, described the first universal quantum computer. Just as a Universal Turing machine can simulate any other Turing machine efficiently, so the universal quantum computer is able to simulate any other quantum computer with at most a polynomial slowdown.
+
+1989
+Bikas K. Chakrabarti & collaborators from Saha Institute of Nuclear Physics, Kolkata, proposed the idea that quantum fluctuations could help explore rough energy landscapes by escaping from local minima of glassy stems having tall but thin barriers by tunnelling (instead of climbing over using thermal excitations), suggesting effectiveness of quantum annealing over classical simulated annealing.
+
+
+== 1990s ==
+1991
+Artur Ekert at the University of Oxford, invents entanglement based secure communication.
+
+1993
+Dan Simon, at Université de Montréal, invented an oracle problem for which a quantum computer would be exponentially faster than a conventional computer. This algorithm introduced the main ideas which were then developed in Peter Shor's factorization algorithm.
+
+1994
+Peter Shor, at AT&T's Bell Labs in New Jersey, discovers an important algorithm. It allowed a quantum computer to factor large integers quickly. It solved both the factoring problem and the discrete log problem. Shor's algorithm could theoretically break many of the cryptosystems in use today. Its invention sparked a tremendous interest in quantum computers.
+First United States Government workshop on quantum computing is organized by NIST in Gaithersburg, Maryland, in autumn.
+In December, Ignacio Cirac, at University of Castilla-La Mancha at Ciudad Real, and Peter Zoller at the University of Innsbruck proposed an experimental realization of the controlled-NOT gate with trapped ions.
+
+1995
+First United States Department of Defense workshop on quantum computing and quantum cryptography is organized by United States Army physicists Charles M. Bowden, Jonathan P. Dowling, and Henry O. Everitt; it takes place in February at the University of Arizona in Tucson.
+Peter Shor and Andrew Steane simultaneously proposed the first schemes for quantum error correction.
+Christopher Monroe and David Wineland at NIST (Boulder, Colorado) experimentally realize the first quantum logic gate – the C-NOT gate – with trapped ions, according to Cirac and Zoller's proposal.
+
+1996
+Lov Grover, at Bell Labs, invented the quantum database search algorithm. The quadratic speedup is not as dramatic as the speedup for factoring, discrete logs, or physics simulations. However, the algorithm can be applied to a much wider variety of problems. Any problem that had to be solved by random, brute-force search, could now have a quadratic speedup.
+The United States Government, particularly in a joint partnership of the Army Research Office (now part of the Army Research Laboratory) and the National Security Agency, issues the first public call for research proposals in quantum information processing.
+David P. DiVincenzo, from IBM, proposed a list of minimal requirements for creating a quantum computer.
+
+1997
+David Cory, Amr Fahmy and Timothy Havel, and at the same time Neil Gershenfeld and Isaac L. Chuang at MIT published the first papers realising gates for quantum computers based on bulk spin resonance, or thermal ensembles. The technology is based on a nuclear magnetic resonance (NMR) machine, which is similar to the medical magnetic resonance imaging machine.
+Alexei Kitaev described the principles of topological quantum computation as a method for combating decoherence.
+Daniel Loss and David P. DiVincenzo proposed the Loss-DiVincenzo quantum computer, using as qubits the intrinsic spin-1/2 degree of freedom of individual electrons confined to quantum dots.
+
+1998
+First experimental demonstration of a quantum algorithm. A working 2-qubit NMR quantum computer used to solve Deutsch's problem was demonstrated by Jonathan A. Jones and Michele Mosca at Oxford University and shortly after by Isaac L. Chuang at IBM's Almaden Research Center together with coworkers at Stanford University and MIT.
+First working 3-qubit NMR computer.
+First execution of Grover's algorithm on an NMR computer.
+Hidetoshi Nishimori & colleagues from Tokyo Institute of Technology showed that quantum annealing algorithm can perform better than classical simulated annealing.
+Daniel Gottesman and Emanuel Knill independently prove that a certain subclass of quantum computations can be efficiently emulated with classical resources.
+
+1999
+Samuel L. Braunstein and collaborators showed that there was no mixed state quantum entanglement in any bulk NMR experiment. Pure state quantum entanglement is necessary for any quantum computational speedup, and thus this gave evidence that NMR computers would not yield benefit over classical computer. It was still an open question as to whether mixed state entanglement is necessary for quantum computational speedup
+Gabriel Aeppli, Thomas Felix Rosenbaum and colleagues demonstrated experimentally the basic concepts of quantum annealing in a condensed matter system.
+
+
+== 2000s ==
+2000
+First working 5-qubit NMR computer demonstrated at the Technical University of Munich.
+First execution of order finding (part of Shor's algorithm) at IBM's Almaden Research Center and Stanford University.
+First working 7-qubit NMR computer demonstrated at the Los Alamos National Laboratory.
+
+2001
+First execution of Shor's algorithm at IBM's Almaden Research Center and Stanford University. The number 15 was factored using 1018 identical molecules, each containing seven active nuclear spins.
+Noah Linden and Sandu Popescu proved that the presence of entanglement is a necessary condition for a large class of quantum protocols. This, coupled with Brauenstein's result (see 1999 above), called the validity of NMR quantum computation into question.
+Emanuel Knill, Raymond Laflamme, and Gerard Milburn show that optical quantum computing is possible with single photon sources, linear optical elements, and single photon detectors, launching the field of linear optical quantum computing.
+Robert Raussendorf and Hans J. Briegel propose measurement-based quantum computation.
+
+2002
+The Quantum Information Science and Technology Roadmapping Project, involving some of the main participants in the field, laid out the Quantum computation roadmap.
+The Institute for Quantum Computing established at the University of Waterloo in Waterloo, Ontario by Mike Lazaridis, Raymond Laflamme and Michele Mosca.
+
+2003
+Todd D. Pittman and collaborators at Johns Hopkins University, Applied Physics Laboratory and independently Jeremy L. O'Brien and collaborators at the University of Queensland, demonstrate quantum controlled-not gates using only linear optical elements.
+DARPA Quantum Network becomes fully operational on October 23, 2003.
+
+2004
+First working pure state NMR quantum computer (based on parahydrogen) demonstrated at Oxford University and University of York.
+First five-photon entanglement demonstrated by Jian-Wei Pan's group at the University of Science and Technology of China, the minimal number of qubits required for universal quantum error correction.
+
+
+=== 2005 ===
+University of Illinois at Urbana-Champaign scientists demonstrate quantum entanglement of multiple characteristics, potentially allowing multiple qubits per particle.
+Two teams of physicists have measured the capacitance of a Josephson junction for the first time. The methods could be used to measure the state of quantum bits in a quantum computer without disturbing the state.
+In December, the first quantum byte, or qubyte, is announced to have been created by scientists at The Institute of Quantum Optics and Quantum Information at the University of Innsbruck in Austria, with the formal paper published in the December 1 issue of Nature.
+Harvard University and Georgia Institute of Technology researchers succeeded in transferring quantum information between "quantum memories" – from atoms to photons and back again.
+
+
+=== 2006 ===
+Materials Science Department of Oxford University, cage a qubit in a buckyball (a Buckminster fullerene particle), and demonstrated quantum "bang-bang" error correction.
+Researchers from the University of Illinois at Urbana-Champaign use the Zeno Effect, repeatedly measuring the properties of a photon to gradually change it without actually allowing the photon to reach the program, to search a database without actually "running" the quantum computer.
+Vlatko Vedral of the University of Leeds and colleagues at the universities of Porto and Vienna found that the photons in ordinary laser light can be quantum mechanically entangled with the vibrations of a macroscopic mirror.
+Samuel L. Braunstein at the University of York along with the University of Tokyo and the Japan Science and Technology Agency gave the first experimental demonstration of quantum telecloning.
+Professors at the University of Sheffield develop a means to efficiently produce and manipulate individual photons at high efficiency at room temperature.
+New error checking method theorized for Josephson junction computers.
+First 12 qubit quantum computer benchmarked by researchers at the Institute for Quantum Computing and the Perimeter Institute for Theoretical Physics in Waterloo, as well as MIT, Cambridge.
+Two dimensional ion trap developed for quantum computing.
+Seven atoms placed in stable line, a step on the way to constructing a quantum gate, at the University of Bonn.
+A team at Delft University of Technology in the Netherlands created a device that can manipulate the "up" or "down" spin-states of electrons on quantum dots.
+University of Arkansas develops quantum dot molecules.
+Spinning new theory on particle spin brings science closer to quantum computing.
+University of Copenhagen develops quantum teleportation between photons and atoms.
+University of Camerino scientists develop theory of macroscopic object entanglement, which has implications for the development of quantum repeaters.
+Tai-Chang Chiang, at Illinois at Urbana-Champaign, finds that quantum coherence can be maintained in mixed-material systems.
+Cristophe Boehme, University of Utah, demonstrates the feasibility of reading spin-data on a silicon-phosphorus quantum computer.
+
+
+=== 2007 ===
+Subwavelength waveguide developed for light.
+Single photon emitter for optical fibers developed.
+Six-photon one-way quantum computer is created in lab.
+New material proposed for quantum computing.
+Single atom single photon server devised.
+First use of Deutsch's Algorithm in a cluster state quantum computer.
+University of Cambridge develops electron quantum pump.
+Superior method of qubit coupling developed.
+Successful demonstration of controllably coupled qubits.
+Breakthrough in applying spin-based electronics to silicon.
+Scientists demonstrate quantum state exchange between light and matter.
+Diamond quantum register developed.
+Controlled-NOT quantum gates on a pair of superconducting quantum bits realized.
+Scientists contain, study hundreds of individual atoms in 3D array.
+Nitrogen in buckyball used in quantum computing.
+Large number of electrons quantum coupled.
+Spin-orbit interaction of electrons measured.
+Atoms quantum manipulated in laser light.
+Light pulses used to control electron spins.
+Quantum effects demonstrated across tens of nanometers.
+Light pulses used to accelerate quantum computing development.
+Quantum RAM blueprint unveiled.
+Model of quantum transistor developed.
+Long distance entanglement demonstrated.
+Photonic quantum computing used to factor number by two independent labs.
+Quantum bus developed by two independent labs.
+Superconducting quantum cable developed.
+Transmission of qubits demonstrated.
+Superior qubit material devised.
+Single electron qubit memory.
+Bose-Einstein condensate quantum memory developed.
+D-Wave Systems claims to have a working 28-qubit quantum annealing computer, though this claim has yet to be verified.
+New cryonic method reduces decoherence and increases interaction distance, and thus quantum computing speed.
+Photonic quantum computer demonstrated.
+Graphene quantum dot spin qubits proposed.
+
+
+=== 2008 ===
+Graphene quantum dot qubits
+Quantum bit stored
+3D qubit-qutrit entanglement demonstrated
+Analog quantum computing devised
+Control of quantum tunneling
+Entangled memory developed
+Superior NOT gate developed
+Qutrits developed
+Quantum logic gate in optical fiber
+Superior quantum Hall Effect discovered
+Enduring spin states in quantum dots
+Molecular magnets proposed for quantum RAM
+Quasiparticles offer hope of stable quantum computer
+Image storage may have better storage of qubits
+Quantum entangled images
+Quantum state intentionally altered in molecule
+Electron position controlled in silicon circuit
+Superconducting electronic circuit pumps microwave photons
+Amplitude spectroscopy developed
+Superior quantum computer test developed
+Optical frequency comb devised
+Quantum Darwinism supported
+Hybrid qubit memory developed
+Qubit stored for over 1 second in atomic nucleus
+Faster electron spin qubit switching and reading developed
+Possible non-entanglement quantum computing
+D-Wave Systems claims to have produced a 128 qubit computer chip, though this claim has yet to be verified.
+
+
+=== 2009 ===
+Carbon 12 purified for longer coherence times
+Lifetime of qubits extended to hundreds of milliseconds
+Quantum control of photons
+Quantum entanglement demonstrated over 240 micrometres
+Qubit lifetime extended by factor of 1000
+First electronic quantum processor created
+Six-photon graph state entanglement used to simulate the fractional statistics of anyons living in artificial spin-lattice models
+Single molecule optical transistor
+NIST reads, writes individual qubits
+NIST demonstrates multiple computing operations on qubits
+A combination of all of the fundamental elements required to perform scalable quantum computing through the use of qubits stored in the internal states of trapped atomic ions shown
+Researchers at University of Bristol demonstrate Shor's algorithm on a silicon photonic chip
+Quantum Computing with an Electron Spin Ensemble
+Scalable flux qubit demonstrated
+Photon machine gun developed for quantum computing
+Quantum algorithm developed for differential equation systems
+First universal programmable quantum computer unveiled
+Scientists electrically control quantum states of electrons
+Google collaborates with D-Wave Systems on image search technology using quantum computing
+A method for synchronizing the properties of multiple coupled CJJ rf-SQUID flux qubits with a small spread of device parameters due to fabrication variations was demonstrated
+
+
+== 2010s ==
+
+
+=== 2010 ===
+Ion trapped in optical trap
+Optical quantum computer with three qubits calculated the energy spectrum of molecular hydrogen to high precision
+First germanium laser brings us closer to 'optical computers'
+Single electron qubit developed
+Quantum state in macroscopic object
+New quantum computer cooling method developed
+Racetrack ion trap developed
+5/2 quantum Hall liquids developed
+Quantum interface between a single photon and a single atom demonstrated
+LED quantum entanglement demonstrated
+Two photon optical chip
+Microfabricated planar ion traps
+Qubits manipulated electrically, not magnetically
+
+
+=== 2011 ===
+Entanglement in a solid-state spin ensemble
+NOON photons in superconducting quantum integrated circuit
+Quantum antenna
+Multimode quantum interference
+Magnetic Resonance applied to quantum computing
+Quantum pen
+Atomic "Racing Dual"
+14 qubit register
+D-Wave claims to have developed quantum annealing and introduces their product called D-Wave One. The company claims this is the first commercially available quantum computer
+Repetitive error correction demonstrated in a quantum processor
+Diamond quantum computer memory demonstrated
+Qmodes developed
+Decoherence suppressed
+Simplification of controlled operations
+Ions entangled using microwaves
+Practical error rates achieved
+Quantum computer employing Von Neumann architecture
+Quantum spin Hall topological insulator
+Two Diamonds Linked by Quantum Entanglement could help develop photonic processors
+
+
+=== 2012 ===
+D-Wave claims a quantum computation using 84 qubits.
+Physicists create a working transistor from a single atom
+A method for manipulating the charge of nitrogen vacancy-centres in diamond
+Reported creation of a 300 qubit/particle quantum simulator.
+Demonstration of topologically protected qubits with an eight-photon entanglement, a robust approach to practical quantum computing [1]
+1QB Information Technologies (1QBit) founded. World's first dedicated quantum computing software company.
+Decoherence suppressed for 2 seconds at room temperature by manipulating Carbon-13 atoms with lasers.
+Theory of Bell-based randomness expansion with reduced assumption of measurement independence.
+
+
+=== 2013 ===
+Coherent superposition of an ensemble of approximately 3 billion qubits for 39 minutes at room temperature, and 3 hours at cryogenic temperatures. The previous record was 2 seconds.
+
+
+=== 2014 ===
+Documents leaked by Edward Snowden confirm the Penetrating Hard Targets project, by which the National Security Agency seeks to develop a quantum computing capability for cryptography purposes.
+Scientists transfer data by quantum teleportation over a distance of 10 feet (3.048 meters) with zero percent error rate, a vital step towards a quantum Internet.
+Nike Dattani & Nathan Bryans break the record for largest number factored on a quantum device: 56153 (previous record was 143).
+
+
+=== 2015 ===
+Optically addressable nuclear spins in a solid with a six-hour coherence time.
+Quantum information encoded by simple electrical pulses.
+Quantum error detection code using a square lattice of four superconducting qubits.
+D-Wave Systems Inc., the world's first quantum computing company, announced on 22 June that it had broken the 1000 qubit barrier.
+Two qubit silicon logic gate developed.
+
+
+=== 2016 ===
+Google, using an array of 9 superconducting qubits developed by the Martinis group and UCSB, accurately simulates a hydrogen molecule.
+
+
+=== 2017 ===
+D-Wave Systems Inc., announced on 24 January general commercial availability of the D-Wave 2000Q, with 2000 qubits.
+Working blueprint for a microwave trapped ion quantum computer published in Science Advances by international collaborators.
+
+
+== See also ==
+List of Companies involved in Quantum Computing or Communication
+
+
+== References ==

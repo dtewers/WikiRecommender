@@ -1,0 +1,47 @@
+A counterintuitive proposition is one that does not seem likely to be true when assessed using intuition, common sense, or gut feelings.
+Scientifically discovered, objective truths are often called counterintuitive when intuition, emotions, and other cognitive processes outside of deductive rationality interpret them to be wrong. However, the subjective nature of intuition limits the objectivity of what to call counterintuitive because what is counter-intuitive for one may be intuitive for another. This might occur in instances where intuition changes with knowledge. For instance, many aspects of quantum mechanics or general relativity may sound counterintuitive to a layman, while they may be intuitive to a particle physicist.
+Flawed intuitive understanding of a problem may lead to counter-productive behavior with undesirable outcomes. In some such cases, counterintuitive policies may then produce a more desirable outcome. This can lead to conflicts between those who hold deontological and consequentialist ethical perspectives on those issues.
+
+
+== Counterintuition in science ==
+Many scientific ideas that are generally accepted by people today were formerly considered to be contrary to intuition and common sense.
+For example, most everyday experience suggests that the Earth is flat; actually, this view turns out to be a remarkably good approximation to the true state of affairs, which is that the Earth is a very big (relative to the day-to-day scale familiar to humans) oblate spheroid. Furthermore, prior to the Copernican revolution, heliocentrism, the belief that the Earth goes around the Sun, rather than vice versa, was considered to be contrary to common sense.
+Another counterintuitive scientific idea concerns space travel: it was initially believed that highly streamlined shapes would be best for re-entering the earth's atmosphere. In fact, experiments proved that blunt-shaped re-entry bodies make the most efficient heat shields when returning to earth from space. Blunt-shaped re-entry vehicles have been used for all manned-spaceflights, including the Mercury, Gemini, Apollo and Space Shuttle missions.
+The Michelson-Morley experiment sought to measure the velocity of the Earth through the aether as it revolved around the Sun. The result was that it has no aether velocity at all. Relativity theory later explained the results, replacing the conventional notions of aether and separate space, time, mass, and energy with a counterintuitive four-dimensional non-Euclidean universe.
+
+
+== Examples ==
+Some further counterintuitive examples are:
+In science:
+Gödel's incompleteness theorems - for thousands of years, it was confidently assumed that arithmetic, and therefore similar systems of logic, were completely solid in terms of being reliable for deductions. Gödel proved that such systems could not be both complete and consistent.
+Wave–particle duality / photoelectric effect - As demonstrated by the double slit experiment light and quantum particles behave as both waves and particles.
+A significant number of people find it difficult to accept the mathematical fact that 0.999... equals 1.
+The Monty Hall problem poses a simple yes-or-no question from probability that even professionals can find difficult to reconcile with their intuition.
+Horseshoe orbits in orbital mechanics
+That light may pass through two perpendicularly oriented polarizing filters if a third filter, not oriented perpendicular to either of the other two, is placed between them.
+The Mpemba effect, in which, under certain circumstances, a warmer body of water will freeze faster than a cooler body in the same environment.
+That water vapor is lighter than air and is the reason clouds float and barometers work.
+In politics and economics:
+The violation of the monotonicity criterion in voting systems
+David Ricardo's theory of comparative advantage that suggests that comparative advantage is in general more important than absolute advantage
+Many examples of cognitive bias, such as:
+The clustering illusion that suggests that significant patterns exist in a set of random points when no other cause than chance is present
+That alignments of random points on a plane are vastly easier to find than intuition would suggest
+
+
+== See also ==
+Folk physics
+Folk psychology
+Paradox
+Unintended consequences
+List of paradoxes
+
+
+== References ==
+
+
+== Further reading ==
+Alvermann, D. E.; Hague, S. A. (1989). "Comprehension of counterintuitive science text: Effects of prior knowledge and text structure". The Journal of Educational Research. 82 (4): 197–202. JSTOR 27540341. 
+Forrester, J. W. (1971). "Counterintuitive Behavior of Social Systems". Technology Review. Alumni Association of the Massachusetts Institute of Technology. CiteSeerX 10.1.1.35.4776.  Based on testimony given to the Subcommittee on Urban Growth of the Committee on Banking and Currency, U.S. House of Representatives. Updated March, 1995.
+Havil, J. (2008). Impossible?: surprising solutions to counterintuitive conundrums. Princeton University Press. ISBN 978-0-691-13131-3. 
+Norenzayan, A.; Atran, S.; Faulkner, J.; Schaller, M. (2006). "The cultural selection of minimally counterintuitive narratives". Cognitive Science. 30: 531–553. CiteSeerX 10.1.1.88.187. doi:10.1207/s15516709cog0000_68.

@@ -1,0 +1,1565 @@
+In quantum mechanics, momentum is an operator which maps the wave function ψ(x, t) to another function. If this new function is a constant p multiplied by the original wave function ψ, then p is the eigenvalue of the momentum operator, and ψ is the eigenfunction of the momentum operator. In quantum mechanics, the set of eigenvalues of an operator are the possible results measured in an experiment. The momentum operator is an example of a differential operator, for the case of one particle in one dimension, the definition is
+
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {p}}=-i\hbar {\frac {\partial }{\partial x}}}
+  
+where ħ is Planck's reduced constant, i the imaginary unit, and partial derivatives (denoted by 
+  
+    
+      
+        ∂
+      
+    
+    {\displaystyle \partial }
+  ) are used instead of a total derivative (d/dx) since the wave function is also a function of time. The "hat" indicates an operator. The "application" of the operator on the wave function is as follows:
+
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        ψ
+        =
+        −
+        i
+        ℏ
+        
+          
+            
+              ∂
+              ψ
+            
+            
+              ∂
+              x
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {p}}\psi =-i\hbar {\frac {\partial \psi }{\partial x}}}
+  
+It is usual to think of the p-operator as "multiplying" the function, but this is not what is happening. The derivative of the function is taken.
+At the time quantum mechanics was developed in the 1920s, the momentum operator was found by many theoretical physicists, including Niels Bohr, Arnold Sommerfeld, Erwin Schrödinger, and Eugene Wigner.
+
+
+== Origin from De Broglie plane waves ==
+The momentum and energy operators can be constructed in the following way.
+
+
+=== One dimension ===
+Starting in one dimension, using the plane wave solution to Schrödinger's equation:
+
+  
+    
+      
+        ψ
+        =
+        
+          e
+          
+            i
+            (
+            k
+            x
+            −
+            ω
+            t
+            )
+          
+        
+      
+    
+    {\displaystyle \psi =e^{i(kx-\omega t)}}
+  
+The first order partial derivative with respect to space is
+
+  
+    
+      
+        
+          
+            
+              ∂
+              ψ
+            
+            
+              ∂
+              x
+            
+          
+        
+        =
+        i
+        k
+        
+          e
+          
+            i
+            (
+            k
+            x
+            −
+            ω
+            t
+            )
+          
+        
+        =
+        i
+        k
+        ψ
+      
+    
+    {\displaystyle {\frac {\partial \psi }{\partial x}}=ike^{i(kx-\omega t)}=ik\psi }
+  
+By expressing k from the De Broglie relation:
+
+  
+    
+      
+        p
+        =
+        ℏ
+        k
+      
+    
+    {\displaystyle p=\hbar k}
+  
+the formula for the derivative of ψ becomes:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              ψ
+            
+            
+              ∂
+              x
+            
+          
+        
+        =
+        i
+        
+          
+            p
+            ℏ
+          
+        
+        ψ
+      
+    
+    {\displaystyle {\frac {\partial \psi }{\partial x}}=i{\frac {p}{\hbar }}\psi }
+  
+This suggests the operator equivalence:
+
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {p}}=-i\hbar {\frac {\partial }{\partial x}}}
+  
+so the momentum value p is a scalar factor, the momentum of the particle and the value that is measured, is the eigenvalue of the operator.
+Since the partial derivative is a linear operator, the momentum operator is also linear, and because any wavefunction can be expressed as a superposition of other states, when this momentum operator acts on the entire superimposed wave, it yields the momentum eigenvalues for each plane wave component, the momenta add to the total momentum of the superimposed wave.
+
+
+=== Three dimensions ===
+The derivation in three dimensions is the same, except the gradient operator del is used instead of one partial derivative. In three dimensions, the plane wave solution to Schrödinger's equation is:
+
+  
+    
+      
+        ψ
+        =
+        
+          e
+          
+            i
+            (
+            
+              
+                k
+              
+            
+            ⋅
+            
+              
+                r
+              
+            
+            −
+            ω
+            t
+            )
+          
+        
+      
+    
+    {\displaystyle \psi =e^{i({\mathbf {k}}\cdot {\mathbf {r}}-\omega t)}}
+  
+and the gradient is
+
+  
+    
+      
+        
+          
+            
+              
+                ∇
+                ψ
+              
+              
+                
+                =
+                
+                  
+                    
+                      e
+                    
+                  
+                  
+                    x
+                  
+                
+                
+                  
+                    
+                      ∂
+                      ψ
+                    
+                    
+                      ∂
+                      x
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      e
+                    
+                  
+                  
+                    y
+                  
+                
+                
+                  
+                    
+                      ∂
+                      ψ
+                    
+                    
+                      ∂
+                      y
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      e
+                    
+                  
+                  
+                    z
+                  
+                
+                
+                  
+                    
+                      ∂
+                      ψ
+                    
+                    
+                      ∂
+                      z
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                i
+                
+                  k
+                  
+                    x
+                  
+                
+                ψ
+                
+                  
+                    
+                      e
+                    
+                  
+                  
+                    x
+                  
+                
+                +
+                i
+                
+                  k
+                  
+                    y
+                  
+                
+                ψ
+                
+                  
+                    
+                      e
+                    
+                  
+                  
+                    y
+                  
+                
+                +
+                i
+                
+                  k
+                  
+                    z
+                  
+                
+                ψ
+                
+                  
+                    
+                      e
+                    
+                  
+                  
+                    z
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    i
+                    ℏ
+                  
+                
+                
+                  (
+                  
+                    p
+                    
+                      x
+                    
+                  
+                  
+                    
+                      
+                        e
+                      
+                    
+                    
+                      x
+                    
+                  
+                  +
+                  
+                    p
+                    
+                      y
+                    
+                  
+                  
+                    
+                      
+                        e
+                      
+                    
+                    
+                      y
+                    
+                  
+                  +
+                  
+                    p
+                    
+                      z
+                    
+                  
+                  
+                    
+                      
+                        e
+                      
+                    
+                    
+                      z
+                    
+                  
+                  )
+                
+                ψ
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    i
+                    ℏ
+                  
+                
+                
+                  
+                    
+                      
+                        p
+                        ^
+                      
+                    
+                  
+                
+                ψ
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\nabla \psi &={\mathbf {e}}_{x}{\frac {\partial \psi }{\partial x}}+{\mathbf {e}}_{y}{\frac {\partial \psi }{\partial y}}+{\mathbf {e}}_{z}{\frac {\partial \psi }{\partial z}}\\&=ik_{x}\psi {\mathbf {e}}_{x}+ik_{y}\psi {\mathbf {e}}_{y}+ik_{z}\psi {\mathbf {e}}_{z}\\&={\frac {i}{\hbar }}\left(p_{x}{\mathbf {e}}_{x}+p_{y}{\mathbf {e}}_{y}+p_{z}{\mathbf {e}}_{z}\right)\psi \\&={\frac {i}{\hbar }}{\mathbf {\hat {p}}}\psi \end{aligned}}}
+  
+where ex, ey and ez are the unit vectors for the three spatial dimensions, hence
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        ∇
+      
+    
+    {\displaystyle {\mathbf {\hat {p}}}=-i\hbar \nabla }
+  
+This momentum operator is in position space because the partial derivatives were taken with respect to the spatial variables.
+
+
+== Definition (position space) ==
+
+For a single particle with no electric charge and no spin, the momentum operator can be written in the position basis as:
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        ∇
+      
+    
+    {\displaystyle {\mathbf {\hat {p}}}=-i\hbar \nabla }
+  
+where ∇ is the gradient operator, ħ is the reduced Planck constant, and i is the imaginary unit.
+In one spatial dimension this becomes:
+
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            x
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\hat {p}}={\hat {p}}_{x}=-i\hbar {\partial  \over \partial x}.}
+  
+This is a commonly encountered form of the momentum operator, though not the most general one. For a charged particle q in an electromagnetic field, described by the scalar potential φ and vector potential A, the momentum operator must be replaced by:
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        ∇
+        −
+        q
+        
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\mathbf {\hat {p}}}=-i\hbar \nabla -q{\mathbf {A}}}
+  
+where the canonical momentum operator is the above momentum operator:
+
+  
+    
+      
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        ∇
+      
+    
+    {\displaystyle {\mathbf {\hat {P}}}=-i\hbar \nabla }
+  
+This is of course true for electrically neutral particles also, since the second term vanishes if q = 0 and the original operator appears.
+
+
+== Properties ==
+
+
+=== Hermiticity ===
+The momentum operator is always a Hermitian operator when it acts on physical (in particular, normalizable) quantum states.
+(In certain artificial situations, such as the quantum states on the semi-infinite interval [0,∞), there is no way to make the momentum operator Hermitian. This is closely related to the fact that a semi-infinite interval cannot have translational symmetry—more specifically, it does not have unitary translation operators. See below.)
+
+
+=== Canonical commutation relation ===
+
+One can easily show that by appropriately using the momentum basis and the position basis:
+
+  
+    
+      
+        
+          [
+          
+            
+              
+                x
+                ^
+              
+            
+          
+          ,
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          ]
+        
+        =
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        −
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        =
+        i
+        ℏ
+        .
+      
+    
+    {\displaystyle \left[{\hat {x}},{\hat {p}}\right]={\hat {x}}{\hat {p}}-{\hat {p}}{\hat {x}}=i\hbar .}
+  
+The Heisenberg uncertainty principle defines limits on how accurately the momentum and position of a single observable system can be known at once. In quantum mechanics, position and momentum are conjugate variables.
+
+
+=== Fourier transform ===
+One can show that the Fourier transform of the momentum in quantum mechanics is the position operator. The Fourier transform turns the momentum-basis into the position-basis. The following discussion uses the bra–ket notation:
+Let 
+  
+    
+      
+        ψ
+        =
+        ψ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \psi =\psi (x)}
+   be a wave packet 
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle \langle \psi |\psi \rangle }
+   = 1, 
+  
+    
+      
+        
+          ψ
+          ′
+        
+      
+    
+    {\displaystyle \psi '}
+   the Fourier transform of 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+  :
+
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        h
+        ⟨
+        
+          ψ
+          ′
+        
+        
+          |
+        
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        
+          |
+        
+        
+          ψ
+          ′
+        
+        ⟩
+      
+    
+    {\displaystyle \langle \psi |{\hat {p}}|\psi \rangle =h\langle \psi '|{\hat {x}}|\psi '\rangle }
+  
+So momentum = h x spatial frequency, which is similar to energy = h x temporal frequency.
+
+  
+    
+      
+        ⟨
+        x
+        
+          |
+        
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        −
+        i
+        ℏ
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        ψ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \langle x|{\hat {p}}|\psi \rangle =-i\hbar {\frac {d}{dx}}\psi (x)}
+  
+The same applies for the position operator in the momentum basis:
+
+  
+    
+      
+        ⟨
+        p
+        
+          |
+        
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        i
+        ℏ
+        
+          
+            d
+            
+              d
+              p
+            
+          
+        
+        ψ
+        (
+        p
+        )
+      
+    
+    {\displaystyle \langle p|{\hat {x}}|\psi \rangle =i\hbar {\frac {d}{dp}}\psi (p)}
+  
+and other useful relations:
+
+  
+    
+      
+        ⟨
+        p
+        
+          |
+        
+        
+          
+            
+              x
+              ^
+            
+          
+        
+        
+          |
+        
+        
+          p
+          ′
+        
+        ⟩
+        =
+        i
+        ℏ
+        
+          
+            d
+            
+              d
+              p
+            
+          
+        
+        δ
+        (
+        p
+        −
+        
+          p
+          ′
+        
+        )
+      
+    
+    {\displaystyle \langle p|{\hat {x}}|p'\rangle =i\hbar {\frac {d}{dp}}\delta (p-p')}
+  
+
+  
+    
+      
+        ⟨
+        x
+        
+          |
+        
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        
+          |
+        
+        
+          x
+          ′
+        
+        ⟩
+        =
+        −
+        i
+        ℏ
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        δ
+        (
+        x
+        −
+        
+          x
+          ′
+        
+        )
+      
+    
+    {\displaystyle \langle x|{\hat {p}}|x'\rangle =-i\hbar {\frac {d}{dx}}\delta (x-x')}
+  
+where δ stands for Dirac's delta function.
+
+
+== Derivation from infinitesimal translations ==
+
+The translation operator is denoted T(ε), where ε represents the length of the translation. It satisfies the following identity:
+
+  
+    
+      
+        T
+        (
+        ε
+        )
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        ∫
+        d
+        x
+        T
+        (
+        ε
+        )
+        
+          |
+        
+        x
+        ⟩
+        ⟨
+        x
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle T(\varepsilon )|\psi \rangle =\int dxT(\varepsilon )|x\rangle \langle x|\psi \rangle }
+  
+that becomes
+
+  
+    
+      
+        ∫
+        d
+        x
+        
+          |
+        
+        x
+        +
+        ε
+        ⟩
+        ⟨
+        x
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        ∫
+        d
+        x
+        
+          |
+        
+        x
+        ⟩
+        ⟨
+        x
+        −
+        ε
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        ∫
+        d
+        x
+        
+          |
+        
+        x
+        ⟩
+        ψ
+        (
+        x
+        −
+        ε
+        )
+      
+    
+    {\displaystyle \int dx|x+\varepsilon \rangle \langle x|\psi \rangle =\int dx|x\rangle \langle x-\varepsilon |\psi \rangle =\int dx|x\rangle \psi (x-\varepsilon )}
+  
+Assuming the function ψ to be analytic (i.e. differentiable in some domain of the complex plane), one may expand in a Taylor series about x:
+
+  
+    
+      
+        ψ
+        (
+        x
+        −
+        ε
+        )
+        =
+        ψ
+        (
+        x
+        )
+        −
+        ε
+        
+          
+            
+              d
+              ψ
+            
+            
+              d
+              x
+            
+          
+        
+      
+    
+    {\displaystyle \psi (x-\varepsilon )=\psi (x)-\varepsilon {\frac {d\psi }{dx}}}
+  
+so for infinitesimal values of ε:
+
+  
+    
+      
+        T
+        (
+        ε
+        )
+        =
+        1
+        −
+        ε
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        =
+        1
+        −
+        
+          
+            i
+            ℏ
+          
+        
+        ε
+        
+          (
+          −
+          i
+          ℏ
+          
+            
+              d
+              
+                d
+                x
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle T(\varepsilon )=1-\varepsilon {d \over dx}=1-{i \over \hbar }\varepsilon \left(-i\hbar {d \over dx}\right)}
+  
+As it is known from classical mechanics, the momentum is the generator of translation, so the relation between translation and momentum operators is:
+
+  
+    
+      
+        T
+        (
+        ε
+        )
+        =
+        1
+        −
+        
+          
+            i
+            ℏ
+          
+        
+        ε
+        
+          
+            
+              p
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle T(\varepsilon )=1-{i \over \hbar }\varepsilon {\hat {p}}}
+  
+thus
+
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\hat {p}}=-i\hbar {d \over dx}.}
+  
+
+
+== 4-momentum operator ==
+Inserting the 3d momentum operator above and the energy operator into the 4-momentum (as a 1-form with (+ − − −) metric signature):
+
+  
+    
+      
+        
+          P
+          
+            μ
+          
+        
+        =
+        
+          (
+          
+            
+              E
+              c
+            
+          
+          ,
+          −
+          
+            
+              p
+            
+          
+          )
+        
+      
+    
+    {\displaystyle P_{\mu }=\left({\frac {E}{c}},-{\mathbf {p}}\right)}
+  
+obtains the 4-momentum operator;
+
+  
+    
+      
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            μ
+          
+        
+        =
+        
+          (
+          
+            
+              1
+              c
+            
+          
+          
+            
+              
+                E
+                ^
+              
+            
+          
+          ,
+          −
+          
+            
+              
+                
+                  p
+                  ^
+                
+              
+            
+          
+          )
+        
+        =
+        i
+        ℏ
+        
+          (
+          
+            
+              1
+              c
+            
+          
+          
+            
+              ∂
+              
+                ∂
+                t
+              
+            
+          
+          ,
+          ∇
+          )
+        
+        =
+        i
+        ℏ
+        
+          ∂
+          
+            μ
+          
+        
+      
+    
+    {\displaystyle {\hat {P}}_{\mu }=\left({\frac {1}{c}}{\hat {E}},-{\mathbf {\hat {p}}}\right)=i\hbar \left({\frac {1}{c}}{\frac {\partial }{\partial t}},\nabla \right)=i\hbar \partial _{\mu }}
+  
+where ∂μ is the 4-gradient, and the −iħ  becomes +iħ  preceding the 3-momentum operator. This operator occurs in relativistic quantum field theory, such as the Dirac equation and other relativistic wave equations, since energy and momentum combine into the 4-momentum vector above, momentum and energy operators correspond to space and time derivatives, and they need to be first order partial derivatives for Lorentz covariance.
+The Dirac operator and Dirac slash of the 4-momentum is given by contracting with the gamma matrices:
+
+  
+    
+      
+        
+          γ
+          
+            μ
+          
+        
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            μ
+          
+        
+        =
+        i
+        ℏ
+        
+          γ
+          
+            μ
+          
+        
+        
+          ∂
+          
+            μ
+          
+        
+        =
+        
+          
+            
+              P
+              ^
+            
+          
+        
+        =
+        i
+        ℏ
+        ∂
+        
+        
+        
+        
+          /
+        
+      
+    
+    {\displaystyle \gamma ^{\mu }{\hat {P}}_{\mu }=i\hbar \gamma ^{\mu }\partial _{\mu }={\hat {P}}=i\hbar \partial \!\!\!/}
+  
+If the signature was (− + + +), the operator would be
+
+  
+    
+      
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            μ
+          
+        
+        =
+        
+          (
+          −
+          
+            
+              1
+              c
+            
+          
+          
+            
+              
+                E
+                ^
+              
+            
+          
+          ,
+          
+            
+              
+                
+                  p
+                  ^
+                
+              
+            
+          
+          )
+        
+        =
+        −
+        i
+        ℏ
+        
+          (
+          
+            
+              1
+              c
+            
+          
+          
+            
+              ∂
+              
+                ∂
+                t
+              
+            
+          
+          ,
+          ∇
+          )
+        
+        =
+        −
+        i
+        ℏ
+        
+          ∂
+          
+            μ
+          
+        
+      
+    
+    {\displaystyle {\hat {P}}_{\mu }=\left(-{\frac {1}{c}}{\hat {E}},{\mathbf {\hat {p}}}\right)=-i\hbar \left({\frac {1}{c}}{\frac {\partial }{\partial t}},\nabla \right)=-i\hbar \partial _{\mu }}
+  
+instead.
+
+
+== See also ==
+Mathematical descriptions of the electromagnetic field
+Translation operator (quantum mechanics)
+Relativistic wave equations
+Pauli–Lubanski pseudovector
+
+
+== References ==

@@ -1,0 +1,1321 @@
+In the physics of wave propagation, a plane wave (also spelled planewave) is a wave whose wavefronts (surfaces of constant phase) are infinite parallel planes. Mathematically a plane wave takes the form
+
+  
+    
+      
+        A
+        
+          (
+          
+            
+              
+                x
+                →
+              
+            
+          
+          ,
+          t
+          )
+        
+        =
+        f
+        
+          (
+          
+            
+              
+                
+                  n
+                  →
+                
+              
+              c
+            
+          
+          ⋅
+          
+            
+              
+                x
+                →
+              
+            
+          
+          −
+          t
+          )
+        
+        
+      
+    
+    {\displaystyle A\left({\vec {x}},t\right)=f\left({\frac {\vec {n}}{c}}\cdot {\vec {x}}-t\right)\,}
+  
+in which the arbitrary (scalar or vector) function 
+  
+    
+      
+        τ
+        ↦
+        f
+        (
+        τ
+        )
+      
+    
+    {\displaystyle \tau \mapsto f(\tau )}
+   gives the variation of the wave's amplitude, and the fixed unit vector 
+  
+    
+      
+        
+          |
+        
+        
+          
+            
+              n
+              →
+            
+          
+        
+        
+          |
+        
+        =
+        1
+      
+    
+    {\displaystyle |{\vec {n}}|=1}
+   is the wave's direction of propagation. The solutions in 
+  
+    
+      
+        
+          
+            
+              x
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {x}}}
+   of
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  n
+                  →
+                
+              
+              c
+            
+          
+        
+        ⋅
+        
+          
+            
+              x
+              →
+            
+          
+        
+        −
+        t
+        =
+        c
+        o
+        n
+        s
+        t
+        .
+      
+    
+    {\displaystyle {\tfrac {\vec {n}}{c}}\cdot {\vec {x}}-t=const.}
+  
+comprise the plane with normal vector 
+  
+    
+      
+        
+          
+            
+              n
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {n}}}
+  . Thus, the points of equal field value of 
+  
+    
+      
+        A
+        
+          (
+          
+            
+              
+                x
+                →
+              
+            
+          
+          ,
+          t
+          )
+        
+      
+    
+    {\displaystyle A\left({\vec {x}},t\right)}
+   always form a plane in space. This plane then shifts with time 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  , along the direction of propagation 
+  
+    
+      
+        
+          
+            
+              n
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {n}}}
+   with velocity c.
+The term is often used to mean the special case of a monochromatic, homogeneous plane wave. A monochromatic (constant-frequency) plane wave is one in which the amplitude is a sinusoidal function of 
+  
+    
+      
+        x
+        
+      
+    
+    {\displaystyle x\,}
+   and 
+  
+    
+      
+        t
+        
+      
+    
+    {\displaystyle t\,}
+  . A homogeneous plane wave is one in which the planes of constant phase are perpendicular to the direction of propagation 
+  
+    
+      
+        
+          
+            
+              n
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {n}}}
+  .
+It is not possible in practice to have a true plane wave because it would have to fill all space and thus would require infinite energy; only a plane wave of infinite extent will propagate as a plane wave. However, many waves are approximately plane waves in a localized region of space. For example, a localized source such as an antenna produces a field that is approximately a plane wave far from the antenna in its far-field region. Similarly, if the length scales are much longer than the wave’s wavelength, as is often the case for light in the field of optics, one can treat the waves as light rays which correspond locally to plane waves.
+
+
+== Mathematical formalisms ==
+
+Two functions that meet the above criteria of having a constant frequency (being harmonic) and constant amplitude are the sine and cosine functions. One of the simplest ways to use such a sinusoid involves defining it along the direction of the x-axis. The equation below, which is illustrated toward the right, uses the cosine function to represent a harmonic and homogeneous plane wave travelling in the positive x direction.
+
+  
+    
+      
+        A
+        (
+        x
+        ,
+        t
+        )
+        =
+        
+          A
+          
+            o
+          
+        
+        cos
+        ⁡
+        (
+        k
+        x
+        −
+        ω
+        t
+        +
+        φ
+        )
+      
+    
+    {\displaystyle A(x,t)=A_{o}\cos(kx-\omega t+\varphi )}
+  
+In the above equation:
+
+  
+    
+      
+        A
+        (
+        x
+        ,
+        t
+        )
+        
+      
+    
+    {\displaystyle A(x,t)\,}
+   is the magnitude or disturbance of the wave at a given point in space and time. An example would be to let 
+  
+    
+      
+        A
+        (
+        x
+        ,
+        t
+        )
+        
+      
+    
+    {\displaystyle A(x,t)\,}
+   represent the variation of air pressure relative to the norm in the case of a sound wave.
+
+  
+    
+      
+        
+          A
+          
+            o
+          
+        
+        
+      
+    
+    {\displaystyle A_{o}\,}
+   is the amplitude of the wave which is the peak magnitude of the oscillation.
+
+  
+    
+      
+        k
+        
+      
+    
+    {\displaystyle k\,}
+   is the wave’s wave number or more specifically the angular wave number and equals 2π/λ, where λ is the wavelength of the wave. 
+  
+    
+      
+        k
+        
+      
+    
+    {\displaystyle k\,}
+   has the units of radians per unit distance and is a measure of how rapidly the disturbance changes over a given distance at a particular point in time.
+
+  
+    
+      
+        x
+        
+      
+    
+    {\displaystyle x\,}
+   is a point along the x-axis. 
+  
+    
+      
+        y
+        
+      
+    
+    {\displaystyle y\,}
+   and 
+  
+    
+      
+        z
+        
+      
+    
+    {\displaystyle z\,}
+   are not part of the equation because the wave's magnitude and phase are the same at every point on any given y-z plane. This equation defines what that magnitude and phase are.
+
+  
+    
+      
+        ω
+        
+      
+    
+    {\displaystyle \omega \,}
+   is the wave’s angular frequency which equals 2π/T, where T is the period of the wave. 
+  
+    
+      
+        ω
+        
+      
+    
+    {\displaystyle \omega \,}
+   has the units of radians per unit time and is a measure of how rapidly the disturbance changes over a given length of time at a particular point in space.
+
+  
+    
+      
+        t
+        
+      
+    
+    {\displaystyle t\,}
+   is a given point in time
+
+  
+    
+      
+        φ
+        
+      
+    
+    {\displaystyle \varphi \,}
+   is the phase shift of the wave and has the units of radians. Note that a positive phase shift, at a given moment of time, shifts the wave in the negative x-axis direction. A phase shift of 2π radians shifts it exactly one wavelength.
+Other formalisms which directly use the wave’s wavelength 
+  
+    
+      
+        λ
+        
+      
+    
+    {\displaystyle \lambda \,}
+  , period 
+  
+    
+      
+        T
+        
+      
+    
+    {\displaystyle T\,}
+  , frequency 
+  
+    
+      
+        f
+        
+      
+    
+    {\displaystyle f\,}
+   and velocity 
+  
+    
+      
+        c
+        
+      
+    
+    {\displaystyle c\,}
+   are below.
+
+  
+    
+      
+        A
+        =
+        
+          A
+          
+            o
+          
+        
+        cos
+        ⁡
+        [
+        2
+        π
+        (
+        x
+        
+          /
+        
+        λ
+        −
+        t
+        
+          /
+        
+        T
+        )
+        +
+        φ
+        ]
+        
+      
+    
+    {\displaystyle A=A_{o}\cos[2\pi (x/\lambda -t/T)+\varphi ]\,}
+  
+
+  
+    
+      
+        A
+        =
+        
+          A
+          
+            o
+          
+        
+        cos
+        ⁡
+        [
+        2
+        π
+        (
+        x
+        
+          /
+        
+        λ
+        −
+        f
+        t
+        )
+        +
+        φ
+        ]
+        
+      
+    
+    {\displaystyle A=A_{o}\cos[2\pi (x/\lambda -ft)+\varphi ]\,}
+  
+
+  
+    
+      
+        A
+        =
+        
+          A
+          
+            o
+          
+        
+        cos
+        ⁡
+        [
+        (
+        2
+        π
+        
+          /
+        
+        λ
+        )
+        (
+        x
+        −
+        c
+        t
+        )
+        +
+        φ
+        ]
+        
+      
+    
+    {\displaystyle A=A_{o}\cos[(2\pi /\lambda )(x-ct)+\varphi ]\,}
+  
+To appreciate the equivalence of the above set of equations note that 
+  
+    
+      
+        f
+        =
+        1
+        
+          /
+        
+        T
+        
+        
+      
+    
+    {\displaystyle f=1/T\,\!}
+   and 
+  
+    
+      
+        c
+        =
+        λ
+        
+          /
+        
+        T
+        =
+        ω
+        
+          /
+        
+        k
+        
+        
+      
+    
+    {\displaystyle c=\lambda /T=\omega /k\,\!}
+  
+
+
+=== Arbitrary direction ===
+The more generalized form is used to describe a plane wave traveling in an arbitrary direction. It uses vectors in combination with the vector dot product.
+
+  
+    
+      
+        A
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          A
+          
+            o
+          
+        
+        cos
+        ⁡
+        (
+        
+          k
+        
+        ⋅
+        
+          r
+        
+        −
+        ω
+        t
+        +
+        φ
+        )
+      
+    
+    {\displaystyle A(\mathbf {r} ,t)=A_{o}\cos(\mathbf {k} \cdot \mathbf {r} -\omega t+\varphi )}
+  
+here:
+
+  
+    
+      
+        
+          k
+        
+      
+    
+    {\displaystyle \mathbf {k} }
+   is the wave vector which only differs from a wave number in that it has a direction as well as a magnitude. This means that, 
+  
+    
+      
+        
+          |
+        
+        
+          k
+        
+        
+          |
+        
+        =
+        k
+        =
+        2
+        π
+        
+          /
+        
+        λ
+      
+    
+    {\displaystyle |\mathbf {k} |=k=2\pi /\lambda }
+  . The direction of the wave vector is ordinarily that direction which the plane wave is traveling, but it can differ slightly in an anisotropic medium.
+
+  
+    
+      
+        ⋅
+      
+    
+    {\displaystyle \cdot }
+    is the vector dot product.
+
+  
+    
+      
+        
+          r
+        
+      
+    
+    {\displaystyle \mathbf {r} }
+   is the position vector which defines a point in three-dimensional space.
+
+
+=== Complex exponential form ===
+Many choose to use a more mathematically versatile formulation that utilizes the complex number plane. It requires the use of the natural exponent 
+  
+    
+      
+        e
+        
+      
+    
+    {\displaystyle e\,}
+   and the imaginary number 
+  
+    
+      
+        i
+        
+      
+    
+    {\displaystyle i\,}
+  .
+
+  
+    
+      
+        U
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          A
+          
+            o
+          
+        
+        
+          e
+          
+            i
+            (
+            
+              k
+            
+            ⋅
+            
+              r
+            
+            −
+            ω
+            t
+            +
+            φ
+            )
+          
+        
+      
+    
+    {\displaystyle U(\mathbf {r} ,t)=A_{o}e^{i(\mathbf {k} \cdot \mathbf {r} -\omega t+\varphi )}}
+  
+To appreciate this equation’s relationship to the earlier ones, below is this same equation expressed using sines and cosines. Observe that the first term equals the real form of the plane wave just discussed.
+
+  
+    
+      
+        U
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          A
+          
+            o
+          
+        
+        cos
+        ⁡
+        (
+        
+          k
+        
+        ⋅
+        
+          r
+        
+        −
+        ω
+        t
+        +
+        φ
+        )
+        +
+        i
+        
+          A
+          
+            o
+          
+        
+        sin
+        ⁡
+        (
+        
+          k
+        
+        ⋅
+        
+          r
+        
+        −
+        ω
+        t
+        +
+        φ
+        )
+      
+    
+    {\displaystyle U(\mathbf {r} ,t)=A_{o}\cos(\mathbf {k} \cdot \mathbf {r} -\omega t+\varphi )+iA_{o}\sin(\mathbf {k} \cdot \mathbf {r} -\omega t+\varphi )}
+  
+
+  
+    
+      
+        U
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+         
+         
+        A
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        
+        
+        +
+        i
+        
+          A
+          
+            o
+          
+        
+        sin
+        ⁡
+        (
+        
+          k
+        
+        ⋅
+        
+          r
+        
+        −
+        ω
+        t
+        +
+        φ
+        )
+      
+    
+    {\displaystyle U(\mathbf {r} ,t)=\qquad \ \ A(\mathbf {r} ,t)\qquad \qquad +iA_{o}\sin(\mathbf {k} \cdot \mathbf {r} -\omega t+\varphi )}
+  
+The introduced complex form of the plane wave can be simplified by using a complex-valued amplitude 
+  
+    
+      
+        
+          U
+          
+            o
+          
+        
+        
+      
+    
+    {\displaystyle U_{o}\,}
+   substitute the real valued amplitude 
+  
+    
+      
+        
+          A
+          
+            o
+          
+        
+        
+      
+    
+    {\displaystyle A_{o}\,}
+  .
+Specifically, since the complex form…
+
+  
+    
+      
+        U
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          A
+          
+            o
+          
+        
+        
+          e
+          
+            i
+            (
+            
+              k
+            
+            ⋅
+            
+              r
+            
+            −
+            ω
+            t
+            +
+            φ
+            )
+          
+        
+      
+    
+    {\displaystyle U(\mathbf {r} ,t)=A_{o}e^{i(\mathbf {k} \cdot \mathbf {r} -\omega t+\varphi )}}
+  
+equals
+
+  
+    
+      
+        U
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          A
+          
+            o
+          
+        
+        
+          e
+          
+            i
+            (
+            
+              k
+            
+            ⋅
+            
+              r
+            
+            −
+            ω
+            t
+            )
+          
+        
+        
+          e
+          
+            i
+            φ
+          
+        
+      
+    
+    {\displaystyle U(\mathbf {r} ,t)=A_{o}e^{i(\mathbf {k} \cdot \mathbf {r} -\omega t)}e^{i\varphi }}
+  
+one can absorb the phase factor 
+  
+    
+      
+        
+          e
+          
+            i
+            φ
+          
+        
+      
+    
+    {\displaystyle e^{i\varphi }}
+   into a complex amplitude by letting 
+  
+    
+      
+        
+          U
+          
+            o
+          
+        
+        =
+        
+          A
+          
+            o
+          
+        
+        
+          e
+          
+            i
+            φ
+          
+        
+      
+    
+    {\displaystyle U_{o}=A_{o}e^{i\varphi }}
+  , resulting in the more compact equation
+
+  
+    
+      
+        U
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          U
+          
+            o
+          
+        
+        
+          e
+          
+            i
+            (
+            
+              k
+            
+            ⋅
+            
+              r
+            
+            −
+            ω
+            t
+            )
+          
+        
+      
+    
+    {\displaystyle U(\mathbf {r} ,t)=U_{o}e^{i(\mathbf {k} \cdot \mathbf {r} -\omega t)}}
+  
+While the complex form has an imaginary component, after the necessary calculations are performed in the complex plane, its real value can be extracted giving a real valued equation representing an actual plane wave.
+
+  
+    
+      
+        R
+        e
+        [
+        U
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        ]
+        =
+        A
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          A
+          
+            o
+          
+        
+        cos
+        ⁡
+        (
+        
+          k
+        
+        ⋅
+        
+          r
+        
+        −
+        ω
+        t
+        +
+        φ
+        )
+      
+    
+    {\displaystyle Re[U(\mathbf {r} ,t)]=A(\mathbf {r} ,t)=A_{o}\cos(\mathbf {k} \cdot \mathbf {r} -\omega t+\varphi )}
+  
+The main reason one would choose to work with complex exponential form of plane waves is that complex exponentials are often algebraically easier to handle than the trigonometric sines and cosines. Specifically, the angle-addition rules are extremely simple for exponentials.
+Additionally, when using Fourier analysis techniques for waves in a lossy medium, the resulting attenuation is easier to deal with using complex Fourier coefficients. It should be noted however that if a wave is traveling through a lossy medium, the amplitude of the wave is no longer constant, and therefore the wave is strictly speaking no longer a true plane wave.
+In quantum mechanics the solutions of the Schrödinger wave equation are by their very nature complex and in the simplest instance take a form identical to the complex plane wave representation above. The imaginary component in that instance however has not been introduced for the purpose of mathematical expediency but is in fact an inherent part of the “wave”.
+In special relativity, one can utilize an even more compact expression by using four-vectors.
+The four-position 
+  
+    
+      
+        
+          R
+        
+        =
+        (
+        c
+        t
+        ,
+        
+          r
+        
+        )
+      
+    
+    {\displaystyle \mathbf {R} =(ct,\mathbf {r} )}
+  
+The four-wavevector 
+  
+    
+      
+        
+          K
+        
+        =
+        
+          (
+          
+            
+              ω
+              c
+            
+          
+          ,
+          
+            k
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {K} =\left({\frac {\omega }{c}},\mathbf {k} \right)}
+  
+The scalar product 
+  
+    
+      
+        
+          K
+        
+        ⋅
+        
+          R
+        
+        =
+        ω
+        t
+        −
+        
+          k
+        
+        ⋅
+        
+          r
+        
+      
+    
+    {\displaystyle \mathbf {K} \cdot \mathbf {R} =\omega t-\mathbf {k} \cdot \mathbf {r} }
+  
+Thus,
+
+  
+    
+      
+        U
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          U
+          
+            o
+          
+        
+        
+          e
+          
+            i
+            (
+            
+              k
+            
+            ⋅
+            
+              r
+            
+            −
+            ω
+            t
+            )
+          
+        
+      
+    
+    {\displaystyle U(\mathbf {r} ,t)=U_{o}e^{i(\mathbf {k} \cdot \mathbf {r} -\omega t)}}
+  
+becomes
+
+  
+    
+      
+        U
+        (
+        
+          R
+        
+        )
+        =
+        
+          U
+          
+            o
+          
+        
+        
+          e
+          
+            −
+            i
+            (
+            
+              K
+            
+            ⋅
+            
+              R
+            
+            )
+          
+        
+      
+    
+    {\displaystyle U(\mathbf {R} )=U_{o}e^{-i(\mathbf {K} \cdot \mathbf {R} )}}
+  
+
+
+=== Applications ===
+These waves are solutions for a scalar wave equation in a homogeneous medium. For vector wave equations, such as the ones describing electromagnetic radiation or waves in an elastic solid, the solution for a homogeneous medium is similar: the scalar amplitude Ao is replaced by a constant vector Ao. For example, in electromagnetism Ao is typically the vector for the electric field, magnetic field, or vector potential. A transverse wave is one in which the amplitude vector is orthogonal to k, which is the case for electromagnetic waves in an isotropic medium. By contrast, a longitudinal wave is one in which the amplitude vector is parallel to k, such as for acoustic waves in a gas or fluid.
+The plane-wave equation works for arbitrary combinations of ω and k, but any real physical medium will only allow such waves to propagate for those combinations of ω and k that satisfy the dispersion relation of the medium. The dispersion relation is often expressed as a function, ω(k). The ratio ω/|k| gives the magnitude of the phase velocity and dω/dk gives the group velocity. For electromagnetism in an isotropic medium with index of refraction n, the phase velocity is c/n, which equals the group velocity if the index is not frequency-dependent.
+In linear uniform media, a wave solution can be expressed as a superposition of plane waves. This approach is known as the Angular spectrum method. The form of the planewave solution is actually a general consequence of translational symmetry. More generally, for periodic structures having discrete translational symmetry, the solutions take the form of Bloch waves, most famously in crystalline atomic materials but also in photonic crystals and other periodic wave equations. As another generalization, for structures that are only uniform along one direction x (such as a waveguide along the x direction), the solutions (waveguide modes) are of the form exp[i(kx-ωt)] multiplied by some amplitude function a(y,z). This is a special case of a separable partial differential equation.
+
+
+== Polarized electromagnetic plane waves ==
+
+Represented in the first illustration toward the right is a linearly polarized, electromagnetic wave. Because this is a plane wave, each blue vector, indicating the perpendicular displacement from a point on the axis out to the sine wave, represents the magnitude and direction of the electric field for an entire plane that is perpendicular to the axis.
+Represented in the second illustration is a circularly polarized, electromagnetic plane wave. Each blue vector indicating the perpendicular displacement from a point on the axis out to the helix, also represents the magnitude and direction of the electric field for an entire plane perpendicular to the axis.
+In both illustrations, along the axes is a series of shorter blue vectors which are scaled down versions of the longer blue vectors. These shorter blue vectors are extrapolated out into the block of black vectors which fill a volume of space. Notice that for a given plane, the black vectors are identical, indicating that the magnitude and direction of the electric field is constant along that plane.
+In the case of the linearly polarized light, the field strength from plane to plane varies from a maximum in one direction, down to zero, and then back up to a maximum in the opposite direction.
+In the case of the circularly polarized light, the field strength remains constant from plane to plane but its direction steadily changes in a rotary type manner.
+Not indicated in either illustration is the electric field’s corresponding magnetic field which is proportional in strength to the electric field at each point in space but is at a right angle to it. Illustrations of the magnetic field vectors would be virtually identical to these except all the vectors would be rotated 90 degrees about the axis of propagation so that they were perpendicular to both the direction of propagation and the electric field vector.
+The ratio of the amplitudes of the electric and magnetic field components of a plane wave in free space is known as the free-space wave-impedance, equal to 376.730313 ohms.
+
+
+== See also ==
+Angular spectrum method
+Plane waves in a vacuum
+Plane wave expansion
+Wave equation
+
+
+== References ==
+
+J. D. Jackson, Classical Electrodynamics (Wiley: New York, 1998).
+L. M. Brekhovskikh, "Waves in Layered Media, Series:Applied Mathematics and Mechanics, Vol. 16, (Academic Press, 1980).

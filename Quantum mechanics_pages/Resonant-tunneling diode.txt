@@ -1,0 +1,81 @@
+A resonant-tunneling diode (RTD) is a diode with a resonant-tunneling structure in which electrons can tunnel through some resonant states at certain energy levels. The current–voltage characteristic often exhibits negative differential resistance regions.
+All types of tunneling diodes make use of quantum mechanical tunneling. Characteristic to the current–voltage relationship of a tunneling diode is the presence of one or more negative differential resistance regions, which enables many unique applications. Tunneling diodes can be very compact and are also capable of ultra-high-speed operation because the quantum tunneling effect through the very thin layers is a very fast process. One area of active research is directed toward building oscillators and switching devices that can operate at terahertz frequencies.
+
+
+== Introduction ==
+
+An RTD can be fabricated using many different types of materials (such as III–V, type IV, II–VI semiconductor) and different types of resonant tunneling structures, such as the heavily doped p–n junction in Esaki diodes, double barrier, triple barrier, quantum well, or quantum wire. The structure and fabrication process of Si/SiGe resonant interband tunneling diodes are suitable for integration with modern Si complementary metal–oxide–semiconductor (CMOS) and Si/SiGe heterojunction bipolar technology.
+One type of RTDs is formed as a single quantum well structure surrounded by very thin layer barriers. This structure is called a double barrier structure. Carriers such as electrons and holes can only have discrete energy values inside the quantum well. When a voltage is placed across an RTD, a terahertz wave is emitted, which is why the energy value inside the quantum well is equal to that of the emitter side. As voltage is increased, the terahertz wave dies out because the energy value in the quantum well is outside the emitter side energy.
+Another feature seen in RTD structures is the negative resistance on application of bias as can be seen in the image generated from Nanohub. The forming of negative resistance will be examined in detail in operation section below.
+This structure can be grown by molecular beam heteroepitaxy. GaAs and AlAs in particular are used to form this structure. AlAs/InGaAs or InAlAs/InGaAs can be used.
+The operation of electronic circuits containing RTDs can be described by a Liénard system of equations, which are a generalization of the Van der Pol oscillator equation.
+
+
+== Operation ==
+The following process is also illustrated from rightside figure. Depending on the number of barriers and number of confined states inside the well, the process described below could be repeated.
+
+
+=== Positive resistance region ===
+For low bias, as the bias increase, the 1st confined state between the potential barriers is getting closer to the source Fermi level, so the current it carries increases.
+
+
+=== Negative resistance region ===
+As bias increases further, the 1st confined state becomes lower in energy and gradually goes into the energy range of bandgap, so the current it carries decreases. At this time, the 2nd confined state is still too high above in energy to conduct significant current.
+
+
+=== 2nd positive resistance region ===
+Similar to the first region, as the 2nd confined state becomes closer and closer to source Fermi level, it carries more current, causing the total current to increase again.
+
+
+== Intraband resonant tunneling ==
+
+In quantum tunneling through a single barrier, the transmission coefficient, or the tunneling probability, is always less than one (for incoming particle energy less than the potential barrier height). Considering a potential profile which contains two barriers (which are located close to each other), one can calculate the transmission coefficient (as a function of the incoming particle energy) using any of the standard methods.
+Tunneling through a double barrier was first solved in the Wentzel-Kramers-Brillouin (WKB) approximation by David Bohm in 1951, who pointed out the resonances in the transmission coefficient occur at certain incident electron energies. It turns out that, for certain energies, the transmission coefficient is equal to one, i.e. the double barrier is totally transparent for particle transmission. This phenomenon is called resonant tunneling. It is interesting that while the transmission coefficient of a potential barrier is always lower than one (and decreases with increasing barrier height and width), two barriers in a row can be completely transparent for certain energies of the incident particle.
+Later, in 1964, L. V. Iogansen discussed the possibility of resonant transmission of an electron through double barriers formed in semiconductor crystals. In the early 1970s, Tsu, Esaki, and Chang computed the two terminal current-voltage (I-V) characteristic of a finite superlattice, and predicted that resonances could be observed not only in the transmission coefficient but also in the I-V characteristic. Resonant tunneling also occurs in potential profiles with more than two barriers. Advances in the MBE technique led to observation of negative differential conductance (NDC) at terahertz frequencies, as reported by Sollner et al. in the early 1980s. This triggered a considerable research effort to study tunneling through multi-barrier structures.
+The potential profiles required for resonant tunneling can be realized in semiconductor system using heterojunctions which utilize semiconductors of different types to create potential barriers or wells in the conduction band or the valence band.
+
+
+=== III-V resonant tunneling diodes ===
+Resonant tunneling diodes are typically realized in III-V compound material systems, where heterojunctions made up of various III-V compound semiconductors are used to create the double or multiple potential barriers in the conduction band or valence band. Reasonably high performance III-V resonant tunneling diodes have been realized. Such devices have not entered mainstream applications yet because the processing of III-V materials is incompatible with Si CMOS technology and the cost is high.
+Most of semiconductor optoelectronics use III-V semiconductors and so it is possible to combine III-V RTDs to make OptoElectronic Integrated Circuits (OEICS) that use the negative differential resistance of the RTD to provide electrical gain for optoelectronic devices. Recently, the device to device variability in an RTDs current-voltage characteristic has been used as a way to uniquely identify electronic devices, in what is known as a quantum confinement physical unclonable function (QC-PUF).
+
+
+=== Si/SiGe resonant tunneling diodes ===
+Resonant tunneling diodes can also be realized using the Si/SiGe materials system. Both hole tunneling and electron tunneling have been observed. However, the performance of Si/SiGe resonant tunneling diodes was limited due to the limited conduction band and valence band discontinuities between Si and SiGe alloys. Resonant tunneling of holes through Si/SiGe heterojunctions was attempted first because of the typically relatively larger valence band discontinuity in Si/SiGe heterojunctions than the conduction band discontinuity for (compressively) strained Si1−xGex layers grown on Si substrates. Negative differential resistance was only observed at low temperatures but not at room temperature. Resonant tunneling of electrons through Si/SiGe heterojunctions was obtained later, with a limited peak-to-valley current ratio (PVCR) of 1.2 at room temperature. Subsequent developments have realized Si/SiGe RTDs (electron tunneling) with a PVCR of 2.9 with a PCD of 4.3 kA/cm2  and a PVCR of 2.43 with a PCD of 282 kA/cm2 at room temperature.
+
+
+== Interband resonant tunneling diodes ==
+Resonant interband tunneling diodes (RITDs) combine the structures and behaviors of both intraband resonant tunneling diodes (RTDs) and conventional interband tunneling diodes, in which electronic transitions occur between the energy levels in the quantum wells in the conduction band and that in the valence band. Like resonant tunneling diodes, resonant interband tunneling diodes can be realized in both the III-V and Si/SiGe materials systems.
+
+
+=== III-V RITDs ===
+In the III-V materials system, InAlAs/InGaAs RITDs with peak-to-valley current ratios (PVCRs) higher than 70 and as high as 144 at room temperature and Sb-based RITDs with room temperature PVCR as high as 20 have been obtained. The main drawback of III-V RITDs is the use of III-V materials whose processing is incompatible with Si processing and is expensive.
+
+
+=== Si/SiGe RITDs ===
+
+In Si/SiGe materials system, Si/SiGe resonant interband tunneling diodes have also been developed which have the potential of being integrated into the mainstream Si integrated circuits technology.
+
+
+==== Structure ====
+The five key points to the design are: (i) an intrinsic tunneling barrier, (ii) delta-doped injectors, (iii) offset of the delta-doping planes from the heterojunction interfaces, (iv) low temperature molecular beam epitaxial growth (LTMBE), and (v) postgrowth rapid thermal annealing (RTA) for activation of dopants and reduction of density of point defects.
+
+
+==== Performance ====
+A minimum PVCR of about 3 is needed for typical circuit applications. Low current density Si/SiGe RITDs are suitable for low-power memory applications, and high current density tunnel diodes are needed for high-speed digital/mixed-signal applications. Si/SiGe RITDs have been engineered to have room temperature PVCRs up to 4.0. The same structure was duplicated by another research group using a different MBE system, and PVCRs of up to 6.0 have been obtained. In terms of peak current density, peak current densities ranging from as low as 20 mA/cm2 and as high as 218 kA/cm2, spanning seven orders of magnitude, have been achieved. A resistive cut-off frequency of 20.2 GHz has been realized on photolithography defined SiGe RITD followed by wet etching for further reducing the diode size, which should be able to improve when even smaller RITDs are fabricated using techniques such as electron beam lithography.
+
+
+==== Applications ====
+In addition to the realization of integration with Si CMOS and SiGe heterojunction bipolar transistors that is discussed in the next section, other applications of SiGe RITD have been demonstrated using breadboard circuits, including multi-state logic.
+
+
+==== Integration with Si/SiGe CMOS and heterojunction bipolar transistors ====
+Integration of Si/SiGe RITDs with Si CMOS has been demonstrated. Vertical integration of Si/SiGe RITD and SiGe heterojunction bipolar transistors was also demonstrated, realizing a 3-terminal negative differential resistance circuit element with adjustable peak-to-valley current ratio. These results indicate that Si/SiGe RITDs is a promising candidate of being integrated with the Si integrated circuit technology.
+
+
+== References ==
+
+
+== External links ==
+For information on Optoelectronic applications of RTDs see http://userweb.elec.gla.ac.uk/i/ironside/RTD/RTDOpto.html.
+Resonant Tunneling Diode Simulation Tool on Nanohub enables the simulation of resonant tunneling diodes under realistic bias conditions for realistically extended devices.

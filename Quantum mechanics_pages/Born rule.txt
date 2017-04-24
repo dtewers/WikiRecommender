@@ -1,0 +1,490 @@
+The Born rule (also called the Born law, Born's rule, or Born's law) formulated by German physicist Max Born in 1926, is a law of quantum mechanics giving the probability that a measurement on a quantum system will yield a given result. In its simplest form it states that the probability of finding the particle at a given point is proportional to the square of the magnitude of the particle's wavefunction at that point. The Born rule is one of the key principles of quantum mechanics. There have been many attempts to derive the Born rule from the other assumptions of quantum mechanics, with inconclusive results.
+
+
+== The rule ==
+The Born rule states that if an observable corresponding to a Hermitian operator 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   with discrete spectrum is measured in a system with normalized wave function 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   (see bra–ket notation), then
+the measured result will be one of the eigenvalues 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+   of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  , and
+the probability of measuring a given eigenvalue 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{i}}
+   will equal 
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        
+          P
+          
+            i
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle \langle \psi |P_{i}|\psi \rangle }
+  , where 
+  
+    
+      
+        
+          P
+          
+            i
+          
+        
+      
+    
+    {\displaystyle P_{i}}
+   is the projection onto the eigenspace of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   corresponding to 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{i}}
+  .
+(In the case where the eigenspace of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   corresponding to 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{i}}
+   is one-dimensional and spanned by the normalized eigenvector 
+  
+    
+      
+        
+          |
+        
+        
+          λ
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\lambda _{i}\rangle }
+  , 
+  
+    
+      
+        
+          P
+          
+            i
+          
+        
+      
+    
+    {\displaystyle P_{i}}
+   is equal to 
+  
+    
+      
+        
+          |
+        
+        
+          λ
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          λ
+          
+            i
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |\lambda _{i}\rangle \langle \lambda _{i}|}
+  , so the probability 
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        
+          P
+          
+            i
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle \langle \psi |P_{i}|\psi \rangle }
+   is equal to 
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        
+          λ
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          λ
+          
+            i
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle \langle \psi |\lambda _{i}\rangle \langle \lambda _{i}|\psi \rangle }
+  . Since the complex number 
+  
+    
+      
+        ⟨
+        
+          λ
+          
+            i
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle \langle \lambda _{i}|\psi \rangle }
+   is known as the probability amplitude that the state vector 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   assigns to the eigenvector 
+  
+    
+      
+        
+          |
+        
+        
+          λ
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\lambda _{i}\rangle }
+  , it is common to describe the Born rule as telling us that probability is equal to the amplitude-squared (really the amplitude times its own complex conjugate). Equivalently, the probability can be written as 
+  
+    
+      
+        
+          |
+        
+        ⟨
+        
+          λ
+          
+            i
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\langle \lambda _{i}|\psi \rangle |^{2}}
+  .)
+In the case where the spectrum of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   is not wholly discrete, the spectral theorem proves the existence of a certain projection-valued measure 
+  
+    
+      
+        Q
+      
+    
+    {\displaystyle Q}
+  , the spectral measure of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  . In this case,
+the probability that the result of the measurement lies in a measurable set 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+   will be given by 
+  
+    
+      
+        ⟨
+        ψ
+        
+          |
+        
+        Q
+        (
+        M
+        )
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle \langle \psi |Q(M)|\psi \rangle }
+  .
+If we are given a wave function 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   for a single structureless particle in position space, this reduces to saying that the probability density function 
+  
+    
+      
+        p
+        (
+        x
+        ,
+        y
+        ,
+        z
+        )
+      
+    
+    {\displaystyle p(x,y,z)}
+   for a measurement of the position at time 
+  
+    
+      
+        
+          t
+          
+            0
+          
+        
+      
+    
+    {\displaystyle t_{0}}
+   will be given by
+
+  
+    
+      
+        p
+        (
+        x
+        ,
+        y
+        ,
+        z
+        )
+        =
+      
+    
+    {\displaystyle p(x,y,z)=}
+  
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        x
+        ,
+        y
+        ,
+        z
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle |\psi (x,y,z,t_{0})|^{2}.}
+  
+
+
+== History ==
+The Born rule was formulated by Born in a 1926 paper. In this paper, Born solves the Schrödinger equation for a scattering problem and, inspired by Einstein's work on the photoelectric effect, concluded, in a footnote, that the Born rule gives the only possible interpretation of the solution. In 1954, together with Walther Bothe, Born was awarded the Nobel Prize in Physics for this and other work. John von Neumann discussed the application of spectral theory to Born's rule in his 1932 book.
+
+
+== Interpretations ==
+Within the Quantum Bayesianism interpretation of quantum theory, the Born rule is seen as an extension of the standard Law of Total Probability, which takes into account the Hilbert space dimension of the physical system involved.  In the ambit of the so-called Hidden-Measurements Interpretation of quantum mechanics the Born rule can be derived by averaging over all possible measurement-interactions that can take place between the quantum entity and the measuring system.  Pilot Wave Theory can also statistically derive Born's law.  While it has been claimed that Born's law can be derived from the Many Worlds Interpretation, the existing proofs have been criticized as circular. 
+
+
+== See also ==
+Unitarity
+Quantum non-equilibrium
+Gleason's theorem
+Transactional interpretation of quantum mechanics
+Hidden-measurements interpretation of quantum mechanics
+
+
+== References ==
+
+
+== External links ==
+Quantum Mechanics Not in Jeopardy: Physicists Confirm a Decades-Old Key Principle Experimentally ScienceDaily (July 23, 2010)

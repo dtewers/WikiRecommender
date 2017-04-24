@@ -1,0 +1,115 @@
+Electromagnetism is a branch of physics involving the study of the electromagnetic force, a type of physical interaction that occurs between electrically charged particles. The electromagnetic force usually exhibits electromagnetic fields such as electric fields, magnetic fields, and light and is one of the four fundamental interactions (commonly called forces) in nature. The other three fundamental interactions are the strong interaction, the weak interaction, and gravitation.
+
+The word electromagnetism is a compound form of two Greek terms, ἤλεκτρον, ēlektron, "amber", and μαγνῆτις λίθος magnētis lithos, which means "magnesian stone", a type of iron ore. Electromagnetic phenomena are defined in terms of the electromagnetic force, sometimes called the Lorentz force, which includes both electricity and magnetism as different manifestations of the same phenomenon.
+The electromagnetic force plays a major role in determining the internal properties of most objects encountered in daily life. Ordinary matter takes its form as a result of intermolecular forces between individual atoms and molecules in matter, and is a manifestation of the electromagnetic force. Electrons are bound by the electromagnetic force to atomic nuclei, and their orbital shapes and their influence on nearby atoms with their electrons is described by quantum mechanics. The electromagnetic force governs the processes involved in chemistry, which arise from interactions between the electrons of neighboring atoms.
+There are numerous mathematical descriptions of the electromagnetic field. In classical electrodynamics, electric fields are described as electric potential and electric current. In Faraday's law, magnetic fields are associated with electromagnetic induction and magnetism, and Maxwell's equations describe how electric and magnetic fields are generated and altered by each other and by charges and currents.
+The theoretical implications of electromagnetism, particularly the establishment of the speed of light based on properties of the "medium" of propagation (permeability and permittivity), led to the development of special relativity by Albert Einstein in 1905.
+Although electromagnetism is considered one of the four fundamental forces, at high energy the weak force and electromagnetic force are unified as a single electroweak force. In the history of the universe, during the quark epoch the unified force broke into the two separate forces as the universe cooled.
+
+
+== History of the theory ==
+
+Originally, electricity and magnetism were considered to be two separate forces. This view changed, however, with the publication of James Clerk Maxwell's 1873 A Treatise on Electricity and Magnetism in which the interactions of positive and negative charges were shown to be mediated by one force. There are four main effects resulting from these interactions, all of which have been clearly demonstrated by experiments:
+Electric charges attract or repel one another with a force inversely proportional to the square of the distance between them: unlike charges attract, like ones repel.
+Magnetic poles (or states of polarization at individual points) attract or repel one another in a manner similar to positive and negative charges and always exist as pairs: every north pole is yoked to a south pole.
+An electric current inside a wire creates a corresponding circumferential magnetic field outside the wire. Its direction (clockwise or counter-clockwise) depends on the direction of the current in the wire.
+A current is induced in a loop of wire when it is moved toward or away from a magnetic field, or a magnet is moved towards or away from it; the direction of current depends on that of the movement.
+
+While preparing for an evening lecture on 21 April 1820, Hans Christian Ørsted made a surprising observation. As he was setting up his materials, he noticed a compass needle deflected away from magnetic north when the electric current from the battery he was using was switched on and off. This deflection convinced him that magnetic fields radiate from all sides of a wire carrying an electric current, just as light and heat do, and that it confirmed a direct relationship between electricity and magnetism.
+
+At the time of discovery, Ørsted did not suggest any satisfactory explanation of the phenomenon, nor did he try to represent the phenomenon in a mathematical framework. However, three months later he began more intensive investigations. Soon thereafter he published his findings, proving that an electric current produces a magnetic field as it flows through a wire. The CGS unit of magnetic induction (oersted) is named in honor of his contributions to the field of electromagnetism.
+
+His findings resulted in intensive research throughout the scientific community in electrodynamics. They influenced French physicist André-Marie Ampère's developments of a single mathematical form to represent the magnetic forces between current-carrying conductors. Ørsted's discovery also represented a major step toward a unified concept of energy.
+This unification, which was observed by Michael Faraday, extended by James Clerk Maxwell, and partially reformulated by Oliver Heaviside and Heinrich Hertz, is one of the key accomplishments of 19th century mathematical physics. It has had far-reaching consequences, one of which was the understanding of the nature of light. Unlike what was proposed by electromagnetic theory of that time, light and other electromagnetic waves are at present seen as taking the form of quantized, self-propagating oscillatory electromagnetic field disturbances called photons. Different frequencies of oscillation give rise to the different forms of electromagnetic radiation, from radio waves at the lowest frequencies, to visible light at intermediate frequencies, to gamma rays at the highest frequencies.
+Ørsted was not the only person to examine the relationship between electricity and magnetism. In 1802, Gian Domenico Romagnosi, an Italian legal scholar, deflected a magnetic needle using electrostatic charges. Actually, no galvanic current existed in the setup and hence no electromagnetism was present. An account of the discovery was published in 1802 in an Italian newspaper, but it was largely overlooked by the contemporary scientific community.
+
+
+== Fundamental forces ==
+
+The electromagnetic force is one of the four known fundamental forces. The other fundamental forces are:
+the weak nuclear force, which binds to all known particles in the Standard Model, and causes certain forms of radioactive decay. (In particle physics though, the electroweak interaction is the unified description of two of the four known fundamental interactions of nature: electromagnetism and the weak interaction);
+the strong nuclear force, which binds quarks to form nucleons, and binds nucleons to form nuclei
+the gravitational force.
+All other forces (e.g., friction, contact forces) are derived from these four fundamental forces (including momentum which is carried by the movement of particles).
+The electromagnetic force is the one responsible for practically all the phenomena one encounters in daily life above the nuclear scale, with the exception of gravity. Roughly speaking, all the forces involved in interactions between atoms can be explained by the electromagnetic force acting between the electrically charged atomic nuclei and electrons of the atoms. Electromagnetic forces also explain how these particles carry momentum by their movement. This includes the forces we experience in "pushing" or "pulling" ordinary material objects, which result from the intermolecular forces that act between the individual molecules in our bodies and those in the objects. The electromagnetic force is also involved in all forms of chemical phenomena.
+A necessary part of understanding the intra-atomic and intermolecular forces is the effective force generated by the momentum of the electrons' movement, such that as electrons move between interacting atoms they carry momentum with them. As a collection of electrons becomes more confined, their minimum momentum necessarily increases due to the Pauli exclusion principle. The behaviour of matter at the molecular scale including its density is determined by the balance between the electromagnetic force and the force generated by the exchange of momentum carried by the electrons themselves.
+
+
+== Classical electrodynamics ==
+
+In 1600, William Gilbert proposed, in his De Magnete, that electricity and magnetism, while both capable of causing attraction and repulsion of objects, were distinct effects. Mariners had noticed that lightning strikes had the ability to disturb a compass needle, but the link between lightning and electricity was not confirmed until Benjamin Franklin's proposed experiments in 1752. One of the first to discover and publish a link between man-made electric current and magnetism was Romagnosi, who in 1802 noticed that connecting a wire across a voltaic pile deflected a nearby compass needle. However, the effect did not become widely known until 1820, when Ørsted performed a similar experiment. Ørsted's work influenced Ampère to produce a theory of electromagnetism that set the subject on a mathematical foundation.
+A theory of electromagnetism, known as classical electromagnetism, was developed by various physicists the period between 1820 and 1873 when it culminated in the publication of a treatise by James Clerk Maxwell, which unified the preceding developments into a single theory and discovered the electromagnetic nature of light. In classical electromagnetism, the behavior of the electromagnetic field is described by a set of equations known as Maxwell's equations, and the electromagnetic force is given by the Lorentz force law.
+One of the peculiarities of classical electromagnetism is that it is difficult to reconcile with classical mechanics, but it is compatible with special relativity. According to Maxwell's equations, the speed of light in a vacuum is a universal constant that is dependent only on the electrical permittivity and magnetic permeability of free space. This violates Galilean invariance, a long-standing cornerstone of classical mechanics. One way to reconcile the two theories (electromagnetism and classical mechanics) is to assume the existence of a luminiferous aether through which the light propagates. However, subsequent experimental efforts failed to detect the presence of the aether. After important contributions of Hendrik Lorentz and Henri Poincaré, in 1905, Albert Einstein solved the problem with the introduction of special relativity, which replaced classical kinematics with a new theory of kinematics compatible with classical electromagnetism. (For more information, see History of special relativity.)
+In addition, relativity theory implies that in moving frames of reference a magnetic field transforms to a field with a nonzero electric component and conversely, a moving electric field transforms to a nonzero magnetic component, thus firmly showing that the phenomena are two sides of the same coin. Hence the term "electromagnetism". (For more information, see Classical electromagnetism and special relativity and Covariant formulation of classical electromagnetism.
+
+
+== Quantum mechanics ==
+
+
+=== Early quantum theory ===
+
+In a second paper published in 1905, Albert Einstein undermined the very foundations of classical electromagnetism. In his theory of the photoelectric effect, for which he won the Nobel prize in physics, he posited that light could exist in discrete particle-like quantities, which later came to be called photons. Einstein's theory of the photoelectric effect extended the insights that appeared in the solution of the ultraviolet catastrophe presented by Max Planck in 1900 and who coined the term "quanta" . In his work, Planck showed that hot objects emit electromagnetic radiation in discrete packets ("quanta"), which leads to a finite total energy emitted as black body radiation. Both of these results were in direct contradiction with the classical view of light as a continuous wave. Planck's and Einstein's theories were progenitors of quantum mechanics, which, when formulated in 1925, necessitated the invention of a quantum theory of electromagnetism.
+
+
+=== Quantum electrodynamics ===
+
+Maxwell's equations have been superseded by quantum electrodynamics (QED). Richard Feynman called it "the jewel of physics" for its extremely accurate predictions of quantities like the Lamb shift, and measurement of the magnetic moment of the electron. The electromagnetic field is quantized by imagining that at every point in space and time is a quantum harmonic oscillator. The empty field (vacuum state) fluctuates randomly as a consequence of the uncertainty principle. This theory, completed in the 1940s–1950s, is one of the most accurate theories known to physics in situations where perturbation theory can be applied. Like classical electromagnetism, QED is a linear U(1) gauge group.
+
+
+=== Electroweak interaction ===
+
+The electroweak interaction is a unified field theory description of two of the four known fundamental interactions of nature: electromagnetism and the weak interaction. It is a SU(2) × U(1) gauge group. Although these two forces appear very different at everyday low energies, the theory models them as two different aspects of the same force. At energies greater than 100 GeV, called the unification energy, the two forces merge into a single electroweak force. Thus when the universe was hot enough (approximately 1015 K, a temperature that was exceeded until shortly after the Big Bang) the electromagnetic force and weak force were merged into the electroweak force. With the cooling of the universe, at the end of the electroweak epoch, the electroweak force separated into the electromagnetic force and the weak force. During the following quark epoch, it was still too hot for quarks to combine into hadrons and they moved about freely.
+
+
+== Chaotic and emergent phenomena ==
+
+The mathematical models used in classical electromagnetism, quantum electrodynamics (QED) and the standard model all view the electromagnetic force as a linear set of equations. In these theories electromagnetism is a U(1) gauge theory, whose topological properties do not allow any complex nonlinear interaction of a field with and on itself. For example, in the QED vacuum the field fluctuates randomly as a consequence of the uncertainty principle but these fluctuations cancel each other out with no overall observable effect. However, there are many observed nonlinear physical electromagnetic phenomena such as Aharonov–Bohm (AB) and Altshuler–Aronov– Spivak (AAS) effects, Berry, Aharonov– Anandan, Pancharatnam and Chiao–Wu phase rotation effects, Josephson effect,  Quantum Hall effect, the de Haas–van Alphen effect, the Sagnac effect and many other physically observable phenomena which would indicate that the electromagnetic potential field has real physical meaning rather than being a mathematical artifact and therefore an all encompassing theory would not confine electromagnetism as a local force as is currently done, but as a SU(2) gauge theory or higher geometry. Higher symmetries allow for nonlinear, aperiodic behaviour which manifest as a variety of complex non-equilibrium phenomena that do not arise in the linearised U(1) theory, such as multiple stable states, symmetry breaking, chaos and emergence. In higher symmetry groups, the electromagnetic field is not a calm, randomly fluctuating, passive substance, but can at times can be viewed as a turbulent virtual plasma that can have complex vortices, entangled states and a rich nonlinear structure.
+What are called Maxwell's equation's today are in fact a simplified version of the original equations reformulated by Heaviside, FitzGerald, Lodge and Hertz. The original equations used Hamilton's more expressive quaternion notation, a kind of Clifford algebra, which fully subsumes the standard Maxwell vectorial equations largely used today. In the late 1880s there was a debate over the relative merits of vector analysis and quaternions. According to Heaviside the electromagnetic potential field was purely metaphysical, an arbitrary mathematical fiction, that needed to be "murdered". It was concluded that there was no need for the greater physical insights provided by the quaternions if the theory was purely local in nature. Local vector analysis has become the dominant way of using Maxwell's equations ever since. However, this strictly vectorial approach as led to a restrictive topological understanding in some areas of electromagnetism, for example, a full understanding of the energy transfer dynamics in Tesla's oscillator-shuttle-circuit can be achieved only in quaternionic algebra or higher SU(2) symmetries. It has often been argued that quaternions are not compatible with special relativity, but multiple papers have shown ways of incorporating relativity
+
+A good example of nonlinear electromagnetics is in high energy dense plasmas, where vortical phenomena occur which seemingly violate the second law of thermodynamics by increasing the energy gradient within the electromagnetic field and violate Maxwell's laws by creating ion currents which capture and concentrate their own and surrounding magnetic fields. In particular Lorentz force law, which elaborates Maxwell's equations is violated by these force free vortices. These apparent violations are due to the fact that the traditional conservation laws in classical and quantum electrodynamics (QED) only display linear U(1) symmetry (in particular, by the extended Noether theorem, conservation laws such as the laws of thermodynamics need not always apply to dissipative systems, which are expressed in gauges of higher symmetry). The second law of thermodynamics states that in a closed linear system entropy flow can be only be positive (or exactly zero at the end of a cycle). However, negative entropy (i.e. increased order, structure or self-organisation) can spontaneously appear in an open nonlinear thermodynamic system that is far from equilibrium, so long as this emergent order accelerates the overall flow of entropy in the total system.
+
+Given the complex and adaptive behaviour that arises from nonlinear systems considerable attention in recent years has gone into studying a new class of phase transitions which occur at absolute zero temperature. These are quantum phase transitions which are driven by electomagnetic field fluctuations as a consequence of zero-point energy A good example of a spontaneous phase transition that are attributed to zero-point fluctuations can be found in superconductors. Superconductivity is one of the best known empirically quantified macroscopic electromagnetic phenomena whose basis is recognised to be quantum mechanical in origin. The behaviour of the electric and magnetic fields under superconductivity is governed by the London equations. However, it has been questioned in a series of journal articles whether the quantum mechanically canonised London equations can be given a purely classical derivation. Bostick for instance, has claimed to show that the London equations do indeed have a classical origin that applies to superconductors and to some collisionless plasmas as well. In particular it has been asserted that the Beltrami vortices in the plasma focus display the same paired flux-tube morphology as Type II superconductors. Others have also pointed out this connection, Fröhlich has shown that the hydrodynamic equations of compressible fluids, together with the London equations, lead to a macroscopic parameter (
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+   = electric charge density / mass density), without involving either quantum phase factors or Planck's constant. In essence, it has been asserted that Beltrami plasma vortex structures are able to at least simulate the morphology of Type I and Type II superconductors. This occurs because the "organised" dissipative energy of the vortex configuration comprising the ions and electrons far exceeds the "disorganised" dissipative random thermal energy. The transition from disorganised fluctuations to organised helical structures is a phase transition involving a change in the condensate's energy (i.e. the ground state or zero-point energy) but without any associated rise in temperature. This is an example of zero-point energy having multiple stable states (see Quantum phase transition, Quantum critical point, Topological degeneracy, Topological order) and where the overall system structure is independent of a reductionist or deterministic view, that "classical" macroscopic order can also causally affect quantum phenomena.
+
+
+== Quantities and units ==
+
+Electromagnetic units are part of a system of electrical units based primarily upon the magnetic properties of electric currents, the fundamental SI unit being the ampere. The units are:
+
+In the electromagnetic cgs system, electric current is a fundamental quantity defined via Ampère's law and takes the permeability as a dimensionless quantity (relative permeability) whose value in a vacuum is unity. As a consequence, the square of the speed of light appears explicitly in some of the equations interrelating quantities in this system.
+Formulas for physical laws of electromagnetism (such as Maxwell's equations) need to be adjusted depending on what system of units one uses. This is because there is no one-to-one correspondence between electromagnetic units in SI and those in CGS, as is the case for mechanical units. Furthermore, within CGS, there are several plausible choices of electromagnetic units, leading to different unit "sub-systems", including Gaussian, "ESU", "EMU", and Heaviside–Lorentz. Among these choices, Gaussian units are the most common today, and in fact the phrase "CGS units" is often used to refer specifically to CGS-Gaussian units.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+=== Web sources ===
+
+
+=== Textbooks ===
+
+
+=== General references ===
+
+
+== External links ==
+Oppelt, Arnulf (2006-11-02). "magnetic field strength". Retrieved 2007-06-04. 
+"magnetic field strength converter". Retrieved 2007-06-04. 
+Electromagnetic Force - from Eric Weisstein's World of Physics
+Goudarzi, Sara (2006-08-15). "Ties That Bind Atoms Weaker Than Thought". LiveScience.com. Retrieved 2013-11-12. 
+Quarked Electromagnetic force - A good introduction for kids
+The Deflection of a Magnetic Compass Needle by a Current in a Wire (video) on YouTube
+Electromagnetism abridged

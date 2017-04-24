@@ -1,0 +1,4083 @@
+In physics, relativistic quantum mechanics (RQM) is any Poincaré covariant formulation of quantum mechanics (QM). This theory is applicable to massive particles propagating at all velocities up to those comparable to the speed of light c, and can accommodate massless particles. The theory has application in high energy physics, particle physics and accelerator physics, as well as atomic physics, chemistry and condensed matter physics. Non-relativistic quantum mechanics refers to the mathematical formulation of quantum mechanics applied in the context of Galilean relativity, more specifically quantizing the equations of classical mechanics by replacing dynamical variables by operators. Relativistic quantum mechanics (RQM) is quantum mechanics applied with special relativity, but not general relativity. Although the earlier formulations, like the Schrödinger picture and Heisenberg picture were originally formulated in a non-relativistic background, these pictures of quantum mechanics also apply with special relativity.
+The relativistic formulation is more successful than the original quantum mechanics in some contexts, in particular: the prediction of antimatter, electron spin, spin magnetic moments of elementary spin-1/2 fermions, fine structure, and quantum dynamics of charged particles in electromagnetic fields. The key result is the Dirac equation, from which these predictions emerge automatically. By contrast, in quantum mechanics, terms have to be introduced artificially into the Hamiltonian operator to achieve agreement with experimental observations.
+Nevertheless, RQM is only an approximation to a fully self-consistent relativistic theory of known particle interactions because it does not describe cases where the number of particles changes; for example in matter creation and annihilation. By yet another theoretical advance, a more accurate theory that allows for these occurrences and other predictions is relativistic quantum field theory in which particles are interpreted as field quanta (see article for details).
+In this article, the equations are written in familiar 3d vector calculus notation and use hats for operators (not necessarily in the literature), and where space and time components can be collected, tensor index notation is shown also (frequently used in the literature), in addition the Einstein summation convention is used. SI units are used here; Gaussian units and natural units are common alternatives. All equations are in the position representation; for the momentum representation the equations have to be Fourier transformed – see position and momentum space.
+
+
+== Combining special relativity and quantum mechanics ==
+One approach is to modify the Schrödinger picture to be consistent with special relativity.
+A postulate of quantum mechanics is that the time evolution of any quantum system is given by the Schrödinger equation:
+
+  
+    
+      
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        ψ
+        =
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        ψ
+      
+    
+    {\displaystyle i\hbar {\frac {\partial }{\partial t}}\psi ={\hat {H}}\psi }
+  
+using a suitable Hamiltonian operator Ĥ corresponding to the system. The solution is a complex-valued wavefunction ψ(r, t), a function of the 3d position vector r of the particle at time t, describing the behavior of the system.
+Every particle has a non-negative spin quantum number s. The number 2s is an integer, odd for fermions and even for bosons. Each s has 2s + 1 z-projection quantum numbers; σ = s, s − 1, ... , −s + 1, −s. This is an additional discrete variable the wavefunction requires; ψ(r, t, σ).
+Historically, in the early 1920s Pauli, Kronig, Uhlenbeck and Goudsmit were the first to propose the concept of spin. The inclusion of spin in the wavefunction incorporates the Pauli exclusion principle (1925) and the more general spin-statistics theorem (1939) due to Fierz, rederived by Pauli a year later. This is the explanation for a diverse range of subatomic particle behavior and phenomena: from the electronic configurations of atoms, nuclei (and therefore all elements on the periodic table and their chemistry), to the quark configurations and color charge (hence the properties of baryons and mesons).
+A fundamental prediction of special relativity is the relativistic energy–momentum relation; for a particle of rest mass m, and in a particular frame of reference with energy E and 3-momentum p with magnitude in terms of the dot product p = √p · p, it is:
+
+  
+    
+      
+        
+          E
+          
+            2
+          
+        
+        =
+        
+          c
+          
+            2
+          
+        
+        
+          p
+        
+        ⋅
+        
+          p
+        
+        +
+        (
+        m
+        
+          c
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle E^{2}=c^{2}\mathbf {p} \cdot \mathbf {p} +(mc^{2})^{2}\,.}
+  
+These equations are used together with the energy and momentum operators, which are respectively:
+
+  
+    
+      
+        
+          
+            
+              E
+              ^
+            
+          
+        
+        =
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        
+        ,
+        
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        ∇
+        
+        ,
+      
+    
+    {\displaystyle {\hat {E}}=i\hbar {\frac {\partial }{\partial t}}\,,\quad {\hat {\mathbf {p} }}=-i\hbar \nabla \,,}
+  
+to construct a relativistic wave equation (RWE): a partial differential equation consistent with the energy–momentum relation, and is solved for ψ to predict the quantum dynamics of the particle. For space and time to be placed on equal footing, as in relativity, the orders of space and time partial derivatives should be equal, and ideally as low as possible, so that no initial values of the derivatives need to be specified. This is important for probability interpretations, exemplified below. The lowest possible order of any differential equation is the first (zeroth order derivatives would not form a differential equation).
+The Heisenberg picture is another formulation of QM, in which case the wavefunction ψ is time-independent, and the operators A(t) contain the time dependence, governed by the equation of motion:
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        A
+        =
+        
+          
+            1
+            
+              i
+              ℏ
+            
+          
+        
+        [
+        A
+        ,
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        ]
+        +
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        A
+        
+        ,
+      
+    
+    {\displaystyle {\frac {d}{dt}}A={\frac {1}{i\hbar }}[A,{\hat {H}}]+{\frac {\partial }{\partial t}}A\,,}
+  
+This equation is also true in RQM, provided the Heisenberg operators are modified to be consistent with SR.
+Historically, around 1926, Schrödinger and Heisenberg show that wave mechanics and matrix mechanics are equivalent, later furthered by Dirac using transformation theory.
+A more modern approach to RWEs, first introduced during the time RWEs were developing for particles of any spin, is to apply representations of the Lorentz group.
+
+
+=== Space and time ===
+In classical mechanics and non-relativistic QM, time is an absolute quantity all observers and particles can always agree on, "ticking away" in the background independent of space. Thus in non-relativistic QM one has for a many particle system ψ(r1, r2, r3, ..., t, σ1, σ2, σ3...).
+In relativistic mechanics, the spatial coordinates and coordinate time are not absolute; any two observers moving relative to each other can measure different locations and times of events. The position and time coordinates combine naturally into a four-dimensional spacetime position X = (ct, r) corresponding to events, and the energy and 3-momentum combine naturally into the four momentum P = (E/c, p) of a dynamic particle, as measured in some reference frame, change according to a Lorentz transformation as one measures in a different frame boosted and/or rotated relative the original frame in consideration. The derivative operators, and hence the energy and 3-momentum operators, are also non-invariant and change under Lorentz transformations.
+Under a proper orthochronous Lorentz transformation (r, t) → Λ(r, t) in Minkowski space, all one-particle quantum states ψσ locally transform under some representation D of the Lorentz group: 
+
+  
+    
+      
+        
+          ψ
+          
+            σ
+          
+        
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        →
+        D
+        (
+        Λ
+        )
+        
+          ψ
+          
+            σ
+          
+        
+        (
+        
+          Λ
+          
+            −
+            1
+          
+        
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        )
+      
+    
+    {\displaystyle \psi _{\sigma }(\mathbf {r} ,t)\rightarrow D(\Lambda )\psi _{\sigma }(\Lambda ^{-1}(\mathbf {r} ,t))}
+  
+where D(Λ) is a finite-dimensional representation, in other words a (2s + 1)×(2s + 1) square matrix . Again, ψ is thought of as a column vector containing components with the (2s + 1) allowed values of σ. The quantum numbers s and σ as well as other labels, continuous or discrete, representing other quantum numbers are suppressed. One value of σ may occur more than once depending on the representation.
+
+
+=== Non-relativistic and relativistic Hamiltonians ===
+
+The classical Hamiltonian for a particle in a potential is the kinetic energy p·p/2m plus the potential energy V(r, t), with the corresponding quantum operator in the Schrödinger picture:
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    
+                      p
+                    
+                    ^
+                  
+                
+              
+              ⋅
+              
+                
+                  
+                    
+                      p
+                    
+                    ^
+                  
+                
+              
+            
+            
+              2
+              m
+            
+          
+        
+        +
+        V
+        (
+        
+          r
+        
+        ,
+        t
+        )
+      
+    
+    {\displaystyle {\hat {H}}={\frac {{\hat {\mathbf {p} }}\cdot {\hat {\mathbf {p} }}}{2m}}+V(\mathbf {r} ,t)}
+  
+and substituting this into the above Schrödinger equation gives a non-relativistic QM equation for the wavefunction: the procedure is a straightforward substitution of a simple expression. By contrast this is not as easy in RQM; the energy–momentum equation is quadratic in energy and momentum leading to difficulties. Naively setting:
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              E
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              c
+              
+                2
+              
+            
+            
+              
+                
+                  
+                    p
+                  
+                  ^
+                
+              
+            
+            ⋅
+            
+              
+                
+                  
+                    p
+                  
+                  ^
+                
+              
+            
+            +
+            (
+            m
+            
+              c
+              
+                2
+              
+            
+            
+              )
+              
+                2
+              
+            
+          
+        
+        
+        ⇒
+        
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              t
+            
+          
+        
+        ψ
+        =
+        
+          
+            
+              c
+              
+                2
+              
+            
+            
+              
+                
+                  
+                    p
+                  
+                  ^
+                
+              
+            
+            ⋅
+            
+              
+                
+                  
+                    p
+                  
+                  ^
+                
+              
+            
+            +
+            (
+            m
+            
+              c
+              
+                2
+              
+            
+            
+              )
+              
+                2
+              
+            
+          
+        
+        
+        ψ
+      
+    
+    {\displaystyle {\hat {H}}={\hat {E}}={\sqrt {c^{2}{\hat {\mathbf {p} }}\cdot {\hat {\mathbf {p} }}+(mc^{2})^{2}}}\quad \Rightarrow \quad i\hbar {\frac {\partial }{\partial t}}\psi ={\sqrt {c^{2}{\hat {\mathbf {p} }}\cdot {\hat {\mathbf {p} }}+(mc^{2})^{2}}}\,\psi }
+  
+is not helpful for several reasons. The square root of the operators cannot be used as it stands; it would have to be expanded in a power series before the momentum operator, raised to a power in each term, could act on ψ. As a result of the power series, the space and time derivatives are completely asymmetric: infinite-order in space derivatives but only first order in the time derivative, which is inelegant and unwieldy. Again, there is the problem of the non-invariance of the energy operator, equated to the square root which is also not invariant. Another problem, less obvious and more severe, is that it can be shown to be nonlocal and can even violate causality: if the particle is initially localized at a point r0 so that ψ(r0, t = 0) is finite and zero elsewhere, then at any later time the equation predicts delocalization ψ(r, t) ≠ 0 everywhere, even for |r| > ct which means the particle could arrive at a point before a pulse of light could. This would have to be remedied by the additional constraint ψ(|r| > ct, t) = 0.
+There is also the problem of incorporating spin in the Hamiltonian, which isn't a prediction of the non-relativistic Schrödinger theory. Particles with spin have a corresponding spin magnetic moment quantized in units of μB, the Bohr magneton:
+
+  
+    
+      
+        
+          
+            
+              
+                μ
+                ^
+              
+            
+          
+          
+            S
+          
+        
+        =
+        −
+        
+          
+            
+              g
+              
+                μ
+                
+                  B
+                
+              
+            
+            ℏ
+          
+        
+        
+          
+            
+              
+                S
+              
+              ^
+            
+          
+        
+        
+        ,
+        
+        
+          |
+          
+            
+              μ
+            
+            
+              S
+            
+          
+          |
+        
+        =
+        −
+        g
+        
+          μ
+          
+            B
+          
+        
+        σ
+        
+        ,
+      
+    
+    {\displaystyle {\hat {\boldsymbol {\mu }}}_{S}=-{\frac {g\mu _{B}}{\hbar }}{\hat {\mathbf {S} }}\,,\quad \left|{\boldsymbol {\mu }}_{S}\right|=-g\mu _{B}\sigma \,,}
+  
+where g is the (spin) g-factor for the particle, and S the spin operator, so they interact with electromagnetic fields. For a particle in an externally applied magnetic field B, the interaction term
+
+  
+    
+      
+        
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          
+            B
+          
+        
+        =
+        −
+        
+          B
+        
+        ⋅
+        
+          
+            
+              
+                μ
+                ^
+              
+            
+          
+          
+            S
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}_{B}=-\mathbf {B} \cdot {\hat {\boldsymbol {\mu }}}_{S}}
+  
+has to be added to the above non-relativistic Hamiltonian. On the contrary; a relativistic Hamiltonian introduces spin automatically as a requirement of enforcing the relativistic energy-momentum relation.
+Relativistic Hamiltonians are analogous to those of non-relativistic QM in the following respect; there are terms including rest mass and interaction terms with externally applied fields, similar to the classical potential energy term, as well as momentum terms like the classical kinetic energy term. A key difference is that relativistic Hamiltonians contain spin operators in the form of matrices, in which the matrix multiplication runs over the spin index σ, so in general a relativistic Hamiltonian:
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        (
+        
+          r
+        
+        ,
+        t
+        ,
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              
+                S
+              
+              ^
+            
+          
+        
+        )
+      
+    
+    {\displaystyle {\hat {H}}={\hat {H}}(\mathbf {r} ,t,{\hat {\mathbf {p} }},{\hat {\mathbf {S} }})}
+  
+is a function of space, time, and the momentum and spin operators.
+
+
+=== The Klein–Gordon and Dirac equations for free particles ===
+Substituting the energy and momentum operators directly into the energy–momentum relation may at first sight seem appealing, to obtain the Klein–Gordon equation:
+
+  
+    
+      
+        
+          
+            
+              
+                E
+                ^
+              
+            
+          
+          
+            2
+          
+        
+        ψ
+        =
+        
+          c
+          
+            2
+          
+        
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+        ⋅
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+        ψ
+        +
+        (
+        m
+        
+          c
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        ψ
+        
+        ,
+      
+    
+    {\displaystyle {\hat {E}}^{2}\psi =c^{2}{\hat {\mathbf {p} }}\cdot {\hat {\mathbf {p} }}\psi +(mc^{2})^{2}\psi \,,}
+  
+and was discovered by many people because of the straightforward way of obtaining it, notably by Schrödinger in 1925 before he found the non-relativistic equation named after him, and by Klein and Gordon in 1927, who included electromagnetic interactions in the equation. This is relativistically invariant, yet this equation alone isn't a sufficient foundation for RQM for a few reasons; one is that negative-energy states are solutions, another is the density (given below), and this equation as it stands is only applicable to spinless particles. This equation can be factored into the form:
+
+  
+    
+      
+        
+          (
+          
+            
+              
+                E
+                ^
+              
+            
+          
+          −
+          c
+          
+            α
+          
+          ⋅
+          
+            
+              
+                
+                  p
+                
+                ^
+              
+            
+          
+          −
+          β
+          m
+          
+            c
+            
+              2
+            
+          
+          )
+        
+        
+          (
+          
+            
+              
+                E
+                ^
+              
+            
+          
+          +
+          c
+          
+            α
+          
+          ⋅
+          
+            
+              
+                
+                  p
+                
+                ^
+              
+            
+          
+          +
+          β
+          m
+          
+            c
+            
+              2
+            
+          
+          )
+        
+        ψ
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle \left({\hat {E}}-c{\boldsymbol {\alpha }}\cdot {\hat {\mathbf {p} }}-\beta mc^{2}\right)\left({\hat {E}}+c{\boldsymbol {\alpha }}\cdot {\hat {\mathbf {p} }}+\beta mc^{2}\right)\psi =0\,,}
+  
+where α = (α1, α2, α3) and β are not simply numbers or vectors, but 4 × 4 Hermitian matrices that are required to anticommute for i ≠ j:
+
+  
+    
+      
+        
+          α
+          
+            i
+          
+        
+        β
+        =
+        −
+        β
+        
+          α
+          
+            i
+          
+        
+        ,
+        
+        
+          α
+          
+            i
+          
+        
+        
+          α
+          
+            j
+          
+        
+        =
+        −
+        
+          α
+          
+            j
+          
+        
+        
+          α
+          
+            i
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \alpha _{i}\beta =-\beta \alpha _{i},\quad \alpha _{i}\alpha _{j}=-\alpha _{j}\alpha _{i}\,,}
+  
+and square to the identity matrix:
+
+  
+    
+      
+        
+          α
+          
+            i
+          
+          
+            2
+          
+        
+        =
+        
+          β
+          
+            2
+          
+        
+        =
+        I
+        
+        ,
+      
+    
+    {\displaystyle \alpha _{i}^{2}=\beta ^{2}=I\,,}
+  
+so that terms with mixed second-order derivatives cancel while the second-order derivatives purely in space and time remain. The first factor:
+
+  
+    
+      
+        
+          (
+          
+            
+              
+                E
+                ^
+              
+            
+          
+          −
+          c
+          
+            α
+          
+          ⋅
+          
+            
+              
+                
+                  p
+                
+                ^
+              
+            
+          
+          −
+          β
+          m
+          
+            c
+            
+              2
+            
+          
+          )
+        
+        ψ
+        =
+        0
+        
+        ⇔
+        
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        c
+        
+          α
+        
+        ⋅
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+        +
+        β
+        m
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \left({\hat {E}}-c{\boldsymbol {\alpha }}\cdot {\hat {\mathbf {p} }}-\beta mc^{2}\right)\psi =0\quad \Leftrightarrow \quad {\hat {H}}=c{\boldsymbol {\alpha }}\cdot {\hat {\mathbf {p} }}+\beta mc^{2}}
+  
+is the Dirac equation. The other factor is also the Dirac equation, but for a particle of negative mass. Each factor is relativistically invariant. The reasoning can be done the other way round: propose the Hamiltonian in the above form, as Dirac did in 1928, then pre-multiply the equation by the other factor of operators E + cα · p + βmc2, and comparison with the KG equation determines the constraints on α and β. The positive mass equation can continue to be used without loss of continuity. The matrices multiplying ψ suggest it isn't a scalar wavefunction as permitted in the KG equation, but must instead be a four-component entity. The Dirac equation still predicts negative energy solutions, so Dirac postulated that negative energy states are always occupied, because according to the Pauli principle, electronic transitions from positive to negative energy levels in atoms would be forbidden. See Dirac sea for details.
+
+
+=== Densities and currents ===
+In non-relativistic quantum mechanics, the square-modulus of the wavefunction ψ gives the probability density function ρ = |ψ|2. This is the Copenhagen interpretation, circa 1927. In RQM, while ψ(r, t) is a wavefunction, the probability interpretation is not the same as in non-relativistic QM. Some RWEs do not predict a probability density ρ or probability current j (really meaning probability current density) because they are not positive definite functions of space and time. The Dirac equation does:
+
+  
+    
+      
+        ρ
+        =
+        
+          ψ
+          
+            †
+          
+        
+        ψ
+        ,
+        
+        
+          j
+        
+        =
+        
+          ψ
+          
+            †
+          
+        
+        
+          γ
+          
+            0
+          
+        
+        
+          γ
+        
+        ψ
+        
+        ⇌
+        
+        
+          J
+          
+            μ
+          
+        
+        =
+        
+          ψ
+          
+            †
+          
+        
+        
+          γ
+          
+            0
+          
+        
+        
+          γ
+          
+            μ
+          
+        
+        ψ
+      
+    
+    {\displaystyle \rho =\psi ^{\dagger }\psi ,\quad \mathbf {j} =\psi ^{\dagger }\gamma ^{0}{\boldsymbol {\gamma }}\psi \quad \rightleftharpoons \quad J^{\mu }=\psi ^{\dagger }\gamma ^{0}\gamma ^{\mu }\psi }
+  
+where the dagger denotes the Hermitian adjoint (authors usually write ψ = ψ†γ0 for the Dirac adjoint) and Jμ is the probability four-current, while the Klein–Gordon equation does not:
+
+  
+    
+      
+        ρ
+        =
+        
+          
+            
+              i
+              ℏ
+            
+            
+              2
+              m
+              
+                c
+                
+                  2
+                
+              
+            
+          
+        
+        
+          (
+          
+            ψ
+            
+              ∗
+            
+          
+          
+            
+              
+                ∂
+                ψ
+              
+              
+                ∂
+                t
+              
+            
+          
+          −
+          ψ
+          
+            
+              
+                ∂
+                
+                  ψ
+                  
+                    ∗
+                  
+                
+              
+              
+                ∂
+                t
+              
+            
+          
+          )
+        
+        
+        ,
+        
+        
+          j
+        
+        =
+        −
+        
+          
+            
+              i
+              ℏ
+            
+            
+              2
+              m
+            
+          
+        
+        
+          (
+          
+            ψ
+            
+              ∗
+            
+          
+          ∇
+          ψ
+          −
+          ψ
+          ∇
+          
+            ψ
+            
+              ∗
+            
+          
+          )
+        
+        
+        ⇌
+        
+        
+          J
+          
+            μ
+          
+        
+        =
+        
+          
+            
+              i
+              ℏ
+            
+            
+              2
+              m
+            
+          
+        
+        (
+        
+          ψ
+          
+            ∗
+          
+        
+        
+          ∂
+          
+            μ
+          
+        
+        ψ
+        −
+        ψ
+        
+          ∂
+          
+            μ
+          
+        
+        
+          ψ
+          
+            ∗
+          
+        
+        )
+      
+    
+    {\displaystyle \rho ={\frac {i\hbar }{2mc^{2}}}\left(\psi ^{*}{\frac {\partial \psi }{\partial t}}-\psi {\frac {\partial \psi ^{*}}{\partial t}}\right)\,,\quad \mathbf {j} =-{\frac {i\hbar }{2m}}\left(\psi ^{*}\nabla \psi -\psi \nabla \psi ^{*}\right)\quad \rightleftharpoons \quad J^{\mu }={\frac {i\hbar }{2m}}(\psi ^{*}\partial ^{\mu }\psi -\psi \partial ^{\mu }\psi ^{*})}
+  
+where ∂μ is the four gradient. Since the initial values of both ψ and ∂ψ/∂t may be freely chosen, the density can be negative.
+Instead, what appears look at first sight a "probability density" and "probability current" has to be reinterpreted as charge density and current density when multiplied by electric charge. Then, the wavefunction ψ is not a wavefunction at all, but reinterpreted as a field. The density and current of electric charge always satisfy a continuity equation:
+
+  
+    
+      
+        
+          
+            
+              ∂
+              ρ
+            
+            
+              ∂
+              t
+            
+          
+        
+        +
+        ∇
+        ⋅
+        
+          J
+        
+        =
+        0
+        
+        ⇌
+        
+        
+          ∂
+          
+            μ
+          
+        
+        
+          J
+          
+            μ
+          
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle {\frac {\partial \rho }{\partial t}}+\nabla \cdot \mathbf {J} =0\quad \rightleftharpoons \quad \partial _{\mu }J^{\mu }=0\,,}
+  
+as charge is a conserved quantity. Probability density and current also satisfy a continuity equation because probability is conserved, however this is only possible in the absence of interactions.
+
+
+== Spin and electromagnetically interacting particles ==
+Including interactions in RWEs is generally difficult. Minimal coupling is a simple way to include the electromagnetic interaction. For one charged particle of electric charge q in an electromagnetic field, given by the magnetic vector potential A(r, t) defined by the magnetic field B = ∇ × A, and electric scalar potential ϕ(r, t), this is:
+
+  
+    
+      
+        
+          
+            
+              E
+              ^
+            
+          
+        
+        →
+        
+          
+            
+              E
+              ^
+            
+          
+        
+        −
+        q
+        ϕ
+        
+        ,
+        
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+        →
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+        −
+        q
+        
+          A
+        
+        
+        ⇌
+        
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            μ
+          
+        
+        →
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            μ
+          
+        
+        −
+        q
+        
+          A
+          
+            μ
+          
+        
+      
+    
+    {\displaystyle {\hat {E}}\rightarrow {\hat {E}}-q\phi \,,\quad {\hat {\mathbf {p} }}\rightarrow {\hat {\mathbf {p} }}-q\mathbf {A} \quad \rightleftharpoons \quad {\hat {P}}_{\mu }\rightarrow {\hat {P}}_{\mu }-qA_{\mu }}
+  
+where Pμ is the four-momentum that has a corresponding 4-momentum operator, and Aμ the four-potential. In the following, the non-relativistic limit refers to the limiting cases:
+
+  
+    
+      
+        E
+        −
+        e
+        ϕ
+        ≈
+        m
+        
+          c
+          
+            2
+          
+        
+        
+        ,
+        
+        
+          p
+        
+        ≈
+        m
+        
+          v
+        
+        
+        ,
+      
+    
+    {\displaystyle E-e\phi \approx mc^{2}\,,\quad \mathbf {p} \approx m\mathbf {v} \,,}
+  
+that is, the total energy of the particle is approximately the rest energy for small electric potentials, and the momentum is approximately the classical momentum.
+
+
+=== Spin-0 ===
+In RQM, the KG equation admits the minimal coupling prescription;
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  E
+                  ^
+                
+              
+            
+            −
+            q
+            ϕ
+            )
+          
+          
+            2
+          
+        
+        ψ
+        =
+        
+          c
+          
+            2
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    p
+                  
+                  ^
+                
+              
+            
+            −
+            q
+            
+              A
+            
+            )
+          
+          
+            2
+          
+        
+        ψ
+        +
+        (
+        m
+        
+          c
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        ψ
+        
+        ⇌
+        
+        
+          [
+          
+            (
+            
+              
+                
+                  
+                    P
+                    ^
+                  
+                
+              
+              
+                μ
+              
+            
+            −
+            q
+            
+              A
+              
+                μ
+              
+            
+            )
+          
+          
+            (
+            
+              
+                
+                  
+                    P
+                    ^
+                  
+                
+              
+              
+                μ
+              
+            
+            −
+            q
+            
+              A
+              
+                μ
+              
+            
+            )
+          
+          −
+          
+            
+              (
+              m
+              c
+              )
+            
+            
+              2
+            
+          
+          ]
+        
+        ψ
+        =
+        0.
+      
+    
+    {\displaystyle {({\hat {E}}-q\phi )}^{2}\psi =c^{2}{({\hat {\mathbf {p} }}-q\mathbf {A} )}^{2}\psi +(mc^{2})^{2}\psi \quad \rightleftharpoons \quad \left[{({\hat {P}}_{\mu }-qA_{\mu })}{({\hat {P}}^{\mu }-qA^{\mu })}-{(mc)}^{2}\right]\psi =0.}
+  
+In the case where the charge is zero, the equation reduces trivially to the free KG equation so nonzero charge is assumed below. This is a scalar equation that is invariant under the irreducible one-dimensional scalar (0,0) representation of the Lorentz group. This means that all of its solutions will belong to a direct sum of (0,0) representations. Solutions that do not belong to the irreducible (0,0) representation will have two or more independent components. Such solutions cannot in general describe particles with nonzero spin since spin components are not independent. Other constraint will have to be imposed for that, e.g. the Dirac equation for spin 1/2, see below. Thus if a system satisfies the KG equation only, it can only be interpreted as a system with zero spin.
+The electromagnetic field is treated classically according to Maxwell's equations and the particle is described by a wavefunction, the solution to the KG equation. The equation is, as it stands, not always very useful, because massive spinless particles, such as the π-mesons, experience the much stronger strong interaction in addition to the electromagnetic interaction. It does, however, correctly describe charged spinless bosons in the absence of other interactions.
+The KG equation is applicable to spinless charged bosons in an external electromagnetic potential. As such, the equation cannot be applied to the description of atoms, since the electron is a spin 1/2 particle. In the non-relativistic limit the equation reduces to the Schrödinger equation for a spinless charged particle in an electromagnetic field:
+
+  
+    
+      
+        
+          (
+          i
+          ℏ
+          
+            
+              ∂
+              
+                ∂
+                t
+              
+            
+          
+          −
+          q
+          ϕ
+          )
+        
+        ψ
+        =
+        
+          
+            1
+            
+              2
+              m
+            
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    p
+                  
+                  ^
+                
+              
+            
+            −
+            q
+            
+              A
+            
+            )
+          
+          
+            2
+          
+        
+        ψ
+        
+        ⇔
+        
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        
+          
+            1
+            
+              2
+              m
+            
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    p
+                  
+                  ^
+                
+              
+            
+            −
+            q
+            
+              A
+            
+            )
+          
+          
+            2
+          
+        
+        +
+        q
+        ϕ
+        .
+      
+    
+    {\displaystyle \left(i\hbar {\frac {\partial }{\partial t}}-q\phi \right)\psi ={\frac {1}{2m}}{({\hat {\mathbf {p} }}-q\mathbf {A} )}^{2}\psi \quad \Leftrightarrow \quad {\hat {H}}={\frac {1}{2m}}{({\hat {\mathbf {p} }}-q\mathbf {A} )}^{2}+q\phi .}
+  
+
+
+=== Spin-1/2 ===
+
+Non relativistically, spin was phenomenologically introduced in the Pauli equation by Pauli in 1927 for particles in an electromagnetic field:
+
+  
+    
+      
+        
+          (
+          i
+          ℏ
+          
+            
+              ∂
+              
+                ∂
+                t
+              
+            
+          
+          −
+          q
+          ϕ
+          )
+        
+        ψ
+        =
+        
+          [
+          
+            
+              1
+              
+                2
+                m
+              
+            
+          
+          
+            
+              (
+              
+                σ
+              
+              ⋅
+              (
+              
+                p
+              
+              −
+              q
+              
+                A
+              
+              )
+              )
+            
+            
+              2
+            
+          
+          ]
+        
+        ψ
+        
+        ⇔
+        
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        
+          
+            1
+            
+              2
+              m
+            
+          
+        
+        
+          
+            (
+            
+              σ
+            
+            ⋅
+            (
+            
+              p
+            
+            −
+            q
+            
+              A
+            
+            )
+            )
+          
+          
+            2
+          
+        
+        +
+        q
+        ϕ
+      
+    
+    {\displaystyle \left(i\hbar {\frac {\partial }{\partial t}}-q\phi \right)\psi =\left[{\frac {1}{2m}}{({\boldsymbol {\sigma }}\cdot (\mathbf {p} -q\mathbf {A} ))}^{2}\right]\psi \quad \Leftrightarrow \quad {\hat {H}}={\frac {1}{2m}}{({\boldsymbol {\sigma }}\cdot (\mathbf {p} -q\mathbf {A} ))}^{2}+q\phi }
+  
+by means of the 2 × 2 Pauli matrices, and ψ is not just a scalar wavefunction as in the non-relativistic Schrödinger equation, but a two-component spinor field:
+
+  
+    
+      
+        ψ
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    ψ
+                    
+                      ↑
+                    
+                  
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      ↓
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \psi ={\begin{pmatrix}\psi _{\uparrow }\\\psi _{\downarrow }\end{pmatrix}}}
+  
+where the subscripts ↑ and ↓ refer to the "spin up" (σ = +1/2) and "spin down" (σ = −1/2) states.
+In RQM, the Dirac equation can also incorporate minimal coupling, rewritten from above;
+
+  
+    
+      
+        
+          (
+          i
+          ℏ
+          
+            
+              ∂
+              
+                ∂
+                t
+              
+            
+          
+          −
+          q
+          ϕ
+          )
+        
+        ψ
+        =
+        
+          γ
+          
+            0
+          
+        
+        
+          [
+          c
+          
+            γ
+          
+          ⋅
+          
+            (
+            
+              
+                
+                  
+                    p
+                  
+                  ^
+                
+              
+            
+            −
+            q
+            
+              A
+            
+            )
+          
+          −
+          m
+          
+            c
+            
+              2
+            
+          
+          ]
+        
+        ψ
+        
+        ⇌
+        
+        
+          [
+          
+            γ
+            
+              μ
+            
+          
+          (
+          
+            
+              
+                
+                  P
+                  ^
+                
+              
+            
+            
+              μ
+            
+          
+          −
+          q
+          
+            A
+            
+              μ
+            
+          
+          )
+          −
+          m
+          
+            c
+            
+              2
+            
+          
+          ]
+        
+        ψ
+        =
+        0
+      
+    
+    {\displaystyle \left(i\hbar {\frac {\partial }{\partial t}}-q\phi \right)\psi =\gamma ^{0}\left[c{\boldsymbol {\gamma }}\cdot {({\hat {\mathbf {p} }}-q\mathbf {A} )}-mc^{2}\right]\psi \quad \rightleftharpoons \quad \left[\gamma ^{\mu }({\hat {P}}_{\mu }-qA_{\mu })-mc^{2}\right]\psi =0}
+  
+and was the first equation to accurately predict spin, a consequence of the 4 × 4 gamma matrices γ0 = β, γ = (γ1, γ2, γ3) = βα = (βα1, βα2, βα3). There is a 4 × 4 identity matrix pre-multiplying the energy operator (including the potential energy term), conventionally not written for simplicity and clarity (i.e. treated like the number 1). Here ψ is a four-component spinor field, which is conventionally split into two two-component spinors in the form:
+
+  
+    
+      
+        ψ
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    ψ
+                    
+                      +
+                    
+                  
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      −
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    ψ
+                    
+                      +
+                      ↑
+                    
+                  
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      +
+                      ↓
+                    
+                  
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      −
+                      ↑
+                    
+                  
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      −
+                      ↓
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \psi ={\begin{pmatrix}\psi _{+}\\\psi _{-}\end{pmatrix}}={\begin{pmatrix}\psi _{+\uparrow }\\\psi _{+\downarrow }\\\psi _{-\uparrow }\\\psi _{-\downarrow }\end{pmatrix}}}
+  
+The 2-spinor ψ+ corresponds to a particle with 4-momentum (E, p) and charge q and two spin states (σ = ±1/2, as before). The other 2-spinor ψ− corresponds to a similar particle with the same mass and spin states, but negative 4-momentum −(E, p) and negative charge −q, that is, negative energy states, time-reversed momentum, and negated charge. This was the first interpretation and prediction of a particle and corresponding antiparticle. See Dirac spinor and bispinor for further description of these spinors. In the non-relativistic limit the Dirac equation reduces to the Pauli equation (see Dirac equation for how). When applied a one-electron atom or ion, setting A = 0 and ϕ to the appropriate electrostatic potential, additional relativistic terms include the spin-orbit interaction, electron gyromagnetic ratio, and Darwin term. In ordinary QM these terms have to be put in by hand and treated using perturbation theory. The positive energies do account accurately for the fine structure.
+Within RQM, for massless particles the Dirac equation reduces to:
+
+  
+    
+      
+        
+          (
+          
+            
+              
+                
+                  E
+                  ^
+                
+              
+              c
+            
+          
+          +
+          
+            σ
+          
+          ⋅
+          
+            
+              
+                
+                  p
+                
+                ^
+              
+            
+          
+          )
+        
+        
+          ψ
+          
+            +
+          
+        
+        =
+        0
+        
+        ,
+        
+        
+          (
+          
+            
+              
+                
+                  E
+                  ^
+                
+              
+              c
+            
+          
+          −
+          
+            σ
+          
+          ⋅
+          
+            
+              
+                
+                  p
+                
+                ^
+              
+            
+          
+          )
+        
+        
+          ψ
+          
+            −
+          
+        
+        =
+        0
+        
+        ⇌
+        
+        
+          σ
+          
+            μ
+          
+        
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            μ
+          
+        
+        
+          ψ
+          
+            +
+          
+        
+        =
+        0
+        
+        ,
+        
+        
+          σ
+          
+            μ
+          
+        
+        
+          
+            
+              
+                P
+                ^
+              
+            
+          
+          
+            μ
+          
+        
+        
+          ψ
+          
+            −
+          
+        
+        =
+        0
+        
+        ,
+      
+    
+    {\displaystyle \left({\frac {\hat {E}}{c}}+{\boldsymbol {\sigma }}\cdot {\hat {\mathbf {p} }}\right)\psi _{+}=0\,,\quad \left({\frac {\hat {E}}{c}}-{\boldsymbol {\sigma }}\cdot {\hat {\mathbf {p} }}\right)\psi _{-}=0\quad \rightleftharpoons \quad \sigma ^{\mu }{\hat {P}}_{\mu }\psi _{+}=0\,,\quad \sigma _{\mu }{\hat {P}}^{\mu }\psi _{-}=0\,,}
+  
+the first of which is the Weyl equation, a considerable simplification applicable for massless neutrinos. This time there is a 2 × 2 identity matrix pre-multiplying the energy operator conventionally not written. In RQM it is useful to take this as the zeroth Pauli matrix σ0 which couples to the energy operator (time derivative), just as the other three matrices couple to the momentum operator (spatial derivatives).
+The Pauli and gamma matrices were introduced here, in theoretical physics, rather than pure mathematics itself. They have applications to quaternions and to the SO(2) and SO(3) Lie groups, because they satisfy the important commutator [ , ] and anticommutator [ , ]+ relations respectively:
+
+  
+    
+      
+        
+          [
+          
+            σ
+            
+              a
+            
+          
+          ,
+          
+            σ
+            
+              b
+            
+          
+          ]
+        
+        =
+        2
+        i
+        
+          ε
+          
+            a
+            b
+            c
+          
+        
+        
+          σ
+          
+            c
+          
+        
+        
+        ,
+        
+        
+          
+            [
+            
+              σ
+              
+                a
+              
+            
+            ,
+            
+              σ
+              
+                b
+              
+            
+            ]
+          
+          
+            +
+          
+        
+        =
+        2
+        
+          δ
+          
+            a
+            b
+          
+        
+        
+          σ
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \left[\sigma _{a},\sigma _{b}\right]=2i\varepsilon _{abc}\sigma _{c}\,,\quad \left[\sigma _{a},\sigma _{b}\right]_{+}=2\delta _{ab}\sigma _{0}}
+  
+where εabc is the three-dimensional Levi-Civita symbol. The gamma matrices form bases in Clifford algebra, and have a connection to the components of the flat spacetime Minkowski metric ηαβ in the anticommutation relation:
+
+  
+    
+      
+        
+          
+            [
+            
+              γ
+              
+                α
+              
+            
+            ,
+            
+              γ
+              
+                β
+              
+            
+            ]
+          
+          
+            +
+          
+        
+        =
+        
+          γ
+          
+            α
+          
+        
+        
+          γ
+          
+            β
+          
+        
+        +
+        
+          γ
+          
+            β
+          
+        
+        
+          γ
+          
+            α
+          
+        
+        =
+        2
+        
+          η
+          
+            α
+            β
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \left[\gamma ^{\alpha },\gamma ^{\beta }\right]_{+}=\gamma ^{\alpha }\gamma ^{\beta }+\gamma ^{\beta }\gamma ^{\alpha }=2\eta ^{\alpha \beta }\,,}
+  
+(This can be extended to curved spacetime by introducing vierbeins, but is not the subject of special relativity).
+In 1929, the Breit equation was found to describe two or more electromagnetically interacting massive spin-1/2 fermions to first-order relativistic corrections; one of the first attempts to describe such a relativistic quantum many-particle system. This is, however, still only an approximation, and the Hamiltonian includes numerous long and complicated sums.
+
+
+=== Helicity and chirality ===
+
+The helicity operator is defined by;
+
+  
+    
+      
+        
+          
+            
+              h
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                S
+              
+              ^
+            
+          
+        
+        ⋅
+        
+          
+            
+              
+                
+                  p
+                
+                ^
+              
+            
+            
+              
+                |
+              
+              
+                p
+              
+              
+                |
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                S
+              
+              ^
+            
+          
+        
+        ⋅
+        
+          
+            
+              c
+              
+                
+                  
+                    
+                      p
+                    
+                    ^
+                  
+                
+              
+            
+            
+              
+                E
+                
+                  2
+                
+              
+              −
+              (
+              
+                m
+                
+                  0
+                
+              
+              
+                c
+                
+                  2
+                
+              
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {h}}={\hat {\mathbf {S} }}\cdot {\frac {\hat {\mathbf {p} }}{|\mathbf {p} |}}={\hat {\mathbf {S} }}\cdot {\frac {c{\hat {\mathbf {p} }}}{\sqrt {E^{2}-(m_{0}c^{2})^{2}}}}}
+  
+where p is the momentum operator, S the spin operator for a particle of spin s, E is the total energy of the particle, and m0 its rest mass. Helicity indicates the orientations of the spin and translational momentum vectors. Helicity is frame-dependent because of the 3-momentum in the definition, and is quantized due to spin quantization, which has discrete positive values for parallel alignment, and negative values for antiparallel alignment.
+A automatic occurrence in the Dirac equation (and the Weyl equation) is the projection of the spin-1/2 operator on the 3-momentum (times c), σ · c p, which is the helicity (for the spin-1/2 case) times 
+  
+    
+      
+        
+          
+            
+              E
+              
+                2
+              
+            
+            −
+            (
+            
+              m
+              
+                0
+              
+            
+            
+              c
+              
+                2
+              
+            
+            
+              )
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\sqrt {E^{2}-(m_{0}c^{2})^{2}}}}
+  .
+For massless particles the helicity simplifies to:
+
+  
+    
+      
+        
+          
+            
+              h
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                S
+              
+              ^
+            
+          
+        
+        ⋅
+        
+          
+            
+              c
+              
+                
+                  
+                    
+                      p
+                    
+                    ^
+                  
+                
+              
+            
+            E
+          
+        
+      
+    
+    {\displaystyle {\hat {h}}={\hat {\mathbf {S} }}\cdot {\frac {c{\hat {\mathbf {p} }}}{E}}}
+  
+
+
+=== Higher spins ===
+The Dirac equation can only describe particles of spin-1/2. Beyond the Dirac equation, RWEs have been applied to free particles of various spins. In 1936, Dirac extended his equation to all fermions, three years later Fierz and Pauli rederived the same equation. The Bargmann–Wigner equations were found in 1948 using Lorentz group theory, applicable for all free particles with any spin. Considering the factorization of the KG equation above, and more rigorously by Lorentz group theory, it becomes apparent to introduce spin in the form of matrices.
+The wavefunctions are multicomponent spinor fields, which can be represented as column vectors of functions of space and time:
+
+  
+    
+      
+        ψ
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    ψ
+                    
+                      σ
+                      =
+                      s
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      σ
+                      =
+                      s
+                      −
+                      1
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      σ
+                      =
+                      −
+                      s
+                      +
+                      1
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      σ
+                      =
+                      −
+                      s
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+            
+            ]
+          
+        
+        
+        ⇌
+        
+        
+          
+            ψ
+            (
+            
+              r
+            
+            ,
+            t
+            )
+          
+          
+            †
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          σ
+                          =
+                          s
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          σ
+                          =
+                          s
+                          −
+                          1
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+                
+                  ⋯
+                
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          σ
+                          =
+                          −
+                          s
+                          +
+                          1
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          σ
+                          =
+                          −
+                          s
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \psi (\mathbf {r} ,t)={\begin{bmatrix}\psi _{\sigma =s}(\mathbf {r} ,t)\\\psi _{\sigma =s-1}(\mathbf {r} ,t)\\\vdots \\\psi _{\sigma =-s+1}(\mathbf {r} ,t)\\\psi _{\sigma =-s}(\mathbf {r} ,t)\end{bmatrix}}\quad \rightleftharpoons \quad {\psi (\mathbf {r} ,t)}^{\dagger }={\begin{bmatrix}{\psi _{\sigma =s}(\mathbf {r} ,t)}^{\star }&{\psi _{\sigma =s-1}(\mathbf {r} ,t)}^{\star }&\cdots &{\psi _{\sigma =-s+1}(\mathbf {r} ,t)}^{\star }&{\psi _{\sigma =-s}(\mathbf {r} ,t)}^{\star }\end{bmatrix}}}
+  
+where the expression on the right is the Hermitian conjugate. For a massive particle of spin s, there are 2s + 1 components for the particle, and another 2s + 1 for the corresponding antiparticle (there are 2s + 1 possible σ values in each case), altogether forming a 2(2s + 1)-component spinor field:
+
+  
+    
+      
+        ψ
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    ψ
+                    
+                      +
+                      ,
+                      
+                      σ
+                      =
+                      s
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      +
+                      ,
+                      
+                      σ
+                      =
+                      s
+                      −
+                      1
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      +
+                      ,
+                      
+                      σ
+                      =
+                      −
+                      s
+                      +
+                      1
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      +
+                      ,
+                      
+                      σ
+                      =
+                      −
+                      s
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      −
+                      ,
+                      
+                      σ
+                      =
+                      s
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      −
+                      ,
+                      
+                      σ
+                      =
+                      s
+                      −
+                      1
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      −
+                      ,
+                      
+                      σ
+                      =
+                      −
+                      s
+                      +
+                      1
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      −
+                      ,
+                      
+                      σ
+                      =
+                      −
+                      s
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+            
+            ]
+          
+        
+        
+        ⇌
+        
+        
+          
+            ψ
+            (
+            
+              r
+            
+            ,
+            t
+            )
+          
+          
+            †
+          
+        
+        
+          
+            [
+            
+              
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          +
+                          ,
+                          
+                          σ
+                          =
+                          s
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          +
+                          ,
+                          
+                          σ
+                          =
+                          s
+                          −
+                          1
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+                
+                  ⋯
+                
+                
+                  
+                    
+                      
+                        ψ
+                        
+                          −
+                          ,
+                          
+                          σ
+                          =
+                          −
+                          s
+                        
+                      
+                      (
+                      
+                        r
+                      
+                      ,
+                      t
+                      )
+                    
+                    
+                      ⋆
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle \psi (\mathbf {r} ,t)={\begin{bmatrix}\psi _{+,\,\sigma =s}(\mathbf {r} ,t)\\\psi _{+,\,\sigma =s-1}(\mathbf {r} ,t)\\\vdots \\\psi _{+,\,\sigma =-s+1}(\mathbf {r} ,t)\\\psi _{+,\,\sigma =-s}(\mathbf {r} ,t)\\\psi _{-,\,\sigma =s}(\mathbf {r} ,t)\\\psi _{-,\,\sigma =s-1}(\mathbf {r} ,t)\\\vdots \\\psi _{-,\,\sigma =-s+1}(\mathbf {r} ,t)\\\psi _{-,\,\sigma =-s}(\mathbf {r} ,t)\end{bmatrix}}\quad \rightleftharpoons \quad {\psi (\mathbf {r} ,t)}^{\dagger }{\begin{bmatrix}{\psi _{+,\,\sigma =s}(\mathbf {r} ,t)}^{\star }&{\psi _{+,\,\sigma =s-1}(\mathbf {r} ,t)}^{\star }&\cdots &{\psi _{-,\,\sigma =-s}(\mathbf {r} ,t)}^{\star }\end{bmatrix}}}
+  
+with the + subscript indicating the particle and − subscript for the antiparticle. However, for massless particles of spin s, there are only ever two-component spinor fields; one is for the particle in one helicity state corresponding to +s and the other for the antiparticle in the opposite helicity state corresponding to −s:
+
+  
+    
+      
+        ψ
+        (
+        
+          r
+        
+        ,
+        t
+        )
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    ψ
+                    
+                      +
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+              
+                
+                  
+                    ψ
+                    
+                      −
+                    
+                  
+                  (
+                  
+                    r
+                  
+                  ,
+                  t
+                  )
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \psi (\mathbf {r} ,t)={\begin{pmatrix}\psi _{+}(\mathbf {r} ,t)\\\psi _{-}(\mathbf {r} ,t)\end{pmatrix}}}
+  
+According to the relativistic energy-momentum relation, all massless particles travel at the speed of light, so particles traveling at the speed of light are also described by two-component spinors. Historically, Élie Cartan found the most general form of spinors in 1913, prior to the spinors revealed in the RWEs following the year 1927.
+For equations describing higher-spin particles, the inclusion of interactions is nowhere near as simple minimal coupling, they lead to incorrect predictions and self-inconsistencies. For spin greater than ħ/2, the RWE is not fixed by the particle's mass, spin, and electric charge; the electromagnetic moments (electric dipole moments and magnetic dipole moments) allowed by the spin quantum number are arbitrary. (Theoretically, magnetic charge would contribute also). For example, the spin-1/2 case only allows a magnetic dipole, but for spin-1 particles magnetic quadrupoles and electric dipoles are also possible. For more on this topic, see multipole expansion and (for example) Cédric Lorcé (2009).
+
+
+== Velocity operator ==
+The Schrödinger/Pauli velocity operator can be defined for a massive particle using the classical definition p = m v, and substituting quantum operators in the usual way:
+
+  
+    
+      
+        
+          
+            
+              
+                v
+              
+              ^
+            
+          
+        
+        =
+        
+          
+            1
+            m
+          
+        
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {v} }}={\frac {1}{m}}{\hat {\mathbf {p} }}}
+  
+which has eigenvalues that take any value. In RQM, the Dirac theory, it is:
+
+  
+    
+      
+        
+          
+            
+              
+                v
+              
+              ^
+            
+          
+        
+        =
+        
+          
+            i
+            ℏ
+          
+        
+        
+          [
+          
+            
+              
+                H
+                ^
+              
+            
+          
+          ,
+          
+            
+              
+                
+                  r
+                
+                ^
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {v} }}={\frac {i}{\hbar }}\left[{\hat {H}},{\hat {\mathbf {r} }}\right]}
+  
+which must have eigenvalues between ±c. See Foldy–Wouthuysen transformation for more theoretical background.
+
+
+== Relativistic quantum Lagrangians ==
+The Hamiltonian operators in the Schrödinger picture are one approach to forming the differential equations for ψ. An equivalent alternative is to determine a Lagrangian (really meaning Lagrangian density), then generate the differential equation by the field-theoretic Euler–Lagrange equation:
+
+  
+    
+      
+        
+          ∂
+          
+            μ
+          
+        
+        
+          (
+          
+            
+              
+                ∂
+                
+                  
+                    L
+                  
+                
+              
+              
+                ∂
+                (
+                
+                  ∂
+                  
+                    μ
+                  
+                
+                ψ
+                )
+              
+            
+          
+          )
+        
+        −
+        
+          
+            
+              ∂
+              
+                
+                  L
+                
+              
+            
+            
+              ∂
+              ψ
+            
+          
+        
+        =
+        0
+        
+      
+    
+    {\displaystyle \partial _{\mu }\left({\frac {\partial {\mathcal {L}}}{\partial (\partial _{\mu }\psi )}}\right)-{\frac {\partial {\mathcal {L}}}{\partial \psi }}=0\,}
+  
+For some RWEs, a Lagrangian can be found by inspection. For example, the Dirac Lagrangian is:
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        =
+        
+          
+            ψ
+            ¯
+          
+        
+        (
+        
+          γ
+          
+            μ
+          
+        
+        
+          P
+          
+            μ
+          
+        
+        −
+        m
+        c
+        )
+        ψ
+      
+    
+    {\displaystyle {\mathcal {L}}={\overline {\psi }}(\gamma ^{\mu }P_{\mu }-mc)\psi }
+  
+and Klein–Gordon Lagrangian is:
+
+  
+    
+      
+        
+          
+            L
+          
+        
+        =
+        −
+        
+          
+            
+              ℏ
+              
+                2
+              
+            
+            m
+          
+        
+        
+          η
+          
+            μ
+            ν
+          
+        
+        
+          ∂
+          
+            μ
+          
+        
+        
+          ψ
+          
+            ∗
+          
+        
+        
+          ∂
+          
+            ν
+          
+        
+        ψ
+        −
+        m
+        
+          c
+          
+            2
+          
+        
+        
+          ψ
+          
+            ∗
+          
+        
+        ψ
+        
+        .
+      
+    
+    {\displaystyle {\mathcal {L}}=-{\frac {\hbar ^{2}}{m}}\eta ^{\mu \nu }\partial _{\mu }\psi ^{*}\partial _{\nu }\psi -mc^{2}\psi ^{*}\psi \,.}
+  
+This is not possible for all RWEs; and is one reason the Lorentz group theoretic approach is important and appealing: fundamental invariance and symmetries in space and time can be used to derive RWEs using appropriate group representations. The Lagrangian approach with field interpretation of ψ is the subject of QFT rather than RQM: Feynman's path integral formulation uses invariant Lagrangians rather than Hamiltonian operators, since the latter can become extremely complicated, see (for example) S. Weinberg (1995).
+
+
+== Relativistic quantum angular momentum ==
+In non-relativistic QM, the angular momentum operator is formed from the classical pseudovector definition L = r × p. In RQM, the position and momentum operators are inserted directly where they appear in the orbital relativistic angular momentum tensor defined from the four-dimensional position and momentum of the particle, equivalently a bivector in the exterior algebra formalism:
+
+  
+    
+      
+        
+          M
+          
+            α
+            β
+          
+        
+        =
+        
+          X
+          
+            α
+          
+        
+        
+          P
+          
+            β
+          
+        
+        −
+        
+          X
+          
+            β
+          
+        
+        
+          P
+          
+            α
+          
+        
+        =
+        2
+        
+          X
+          
+            [
+            α
+          
+        
+        
+          P
+          
+            β
+            ]
+          
+        
+        
+        ⇌
+        
+        
+          M
+        
+        =
+        
+          X
+        
+        ∧
+        
+          P
+        
+        
+        ,
+      
+    
+    {\displaystyle M^{\alpha \beta }=X^{\alpha }P^{\beta }-X^{\beta }P^{\alpha }=2X^{[\alpha }P^{\beta ]}\quad \rightleftharpoons \quad \mathbf {M} =\mathbf {X} \wedge \mathbf {P} \,,}
+  
+which are six components altogether: three are the non-relativistic 3-orbital angular momenta; M12 = L3, M23 = L1, M31 = L2, and the other three M01, M02, M03 are boosts of the centre of mass of the rotating object. An additional relativistic-quantum term has to be added for particles with spin. For a particle of rest mass m, the total angular momentum tensor is:
+
+  
+    
+      
+        
+          J
+          
+            α
+            β
+          
+        
+        =
+        2
+        
+          X
+          
+            [
+            α
+          
+        
+        
+          P
+          
+            β
+            ]
+          
+        
+        +
+        
+          
+            1
+            
+              m
+              
+                2
+              
+            
+          
+        
+        
+          ε
+          
+            α
+            β
+            γ
+            δ
+          
+        
+        
+          W
+          
+            γ
+          
+        
+        
+          p
+          
+            δ
+          
+        
+        
+        ⇌
+        
+        
+          J
+        
+        =
+        
+          X
+        
+        ∧
+        
+          P
+        
+        +
+        
+          
+            1
+            
+              m
+              
+                2
+              
+            
+          
+        
+        ⋆
+        (
+        
+          W
+        
+        ∧
+        
+          P
+        
+        )
+      
+    
+    {\displaystyle J^{\alpha \beta }=2X^{[\alpha }P^{\beta ]}+{\frac {1}{m^{2}}}\varepsilon ^{\alpha \beta \gamma \delta }W_{\gamma }p_{\delta }\quad \rightleftharpoons \quad \mathbf {J} =\mathbf {X} \wedge \mathbf {P} +{\frac {1}{m^{2}}}\star (\mathbf {W} \wedge \mathbf {P} )}
+  
+where the star denotes the Hodge dual, and
+
+  
+    
+      
+        
+          W
+          
+            α
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        
+          ε
+          
+            α
+            β
+            γ
+            δ
+          
+        
+        
+          M
+          
+            β
+            γ
+          
+        
+        
+          p
+          
+            δ
+          
+        
+        
+        ⇌
+        
+        
+          W
+        
+        =
+        ⋆
+        (
+        
+          M
+        
+        ∧
+        
+          P
+        
+        )
+      
+    
+    {\displaystyle W_{\alpha }={\frac {1}{2}}\varepsilon _{\alpha \beta \gamma \delta }M^{\beta \gamma }p^{\delta }\quad \rightleftharpoons \quad \mathbf {W} =\star (\mathbf {M} \wedge \mathbf {P} )}
+  
+is the Pauli–Lubanski pseudovector. For more on relativistic spin, see (for example) S.M. Troshin and N.E. Tyurin (1994).
+
+
+=== Thomas precession and spin-orbit interactions ===
+In 1926 the Thomas precession is discovered: relativistic corrections to the spin of elementary particles with application in the spin–orbit interaction of atoms and rotation of macroscopic objects. In 1939 Wigner derived the Thomas precession.
+In classical electromagnetism and special relativity, an electron moving with a velocity v through an electric field E but not a magnetic field B, will in its own frame of reference experience a Lorentz-transformed magnetic field B′:
+
+  
+    
+      
+        
+          
+            B
+          
+          ′
+        
+        =
+        
+          
+            
+              
+                E
+              
+              ×
+              
+                v
+              
+            
+            
+              
+                c
+                
+                  2
+                
+              
+              
+                
+                  1
+                  −
+                  
+                    
+                      (
+                      v
+                      
+                        /
+                      
+                      c
+                      )
+                    
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \mathbf {B} '={\frac {\mathbf {E} \times \mathbf {v} }{c^{2}{\sqrt {1-\left(v/c\right)^{2}}}}}\,.}
+  
+In the non-relativistic limit v << c:
+
+  
+    
+      
+        
+          
+            B
+          
+          ′
+        
+        =
+        
+          
+            
+              
+                E
+              
+              ×
+              
+                v
+              
+            
+            
+              c
+              
+                2
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {B} '={\frac {\mathbf {E} \times \mathbf {v} }{c^{2}}}\,,}
+  
+so the non-relativistic spin interaction Hamiltonian becomes:
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        −
+        
+          
+            B
+          
+          ′
+        
+        ⋅
+        
+          
+            
+              
+                μ
+                ^
+              
+            
+          
+          
+            S
+          
+        
+        =
+        −
+        
+          (
+          
+            B
+          
+          +
+          
+            
+              
+                
+                  E
+                
+                ×
+                
+                  v
+                
+              
+              
+                c
+                
+                  2
+                
+              
+            
+          
+          )
+        
+        ⋅
+        
+          
+            
+              
+                μ
+                ^
+              
+            
+          
+          
+            S
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle {\hat {H}}=-\mathbf {B} '\cdot {\hat {\boldsymbol {\mu }}}_{S}=-\left(\mathbf {B} +{\frac {\mathbf {E} \times \mathbf {v} }{c^{2}}}\right)\cdot {\hat {\boldsymbol {\mu }}}_{S}\,,}
+  
+where the first term is already the non-relativistic magnetic moment interaction, and the second term the relativistic correction of order (v/c)2, but this disagrees with experimental atomic spectra by a factor of 1/2. It was pointed out by L. Thomas that there is a second relativistic effect: an electric field component perpendicular to the electron velocity causes an additional acceleration of the electron perpendicular to its instantaneous velocity, so the electron moves in a curved path. The electron moves in a rotating frame of reference, and this additional precession of the electron is called the Thomas precession. It can be shown that the net result of this effect is that the spin–orbit interaction is reduced by half, as if the magnetic field experienced by the electron has only one-half the value, and the relativistic correction in the Hamiltonian is:
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        −
+        
+          
+            B
+          
+          ′
+        
+        ⋅
+        
+          
+            
+              
+                μ
+                ^
+              
+            
+          
+          
+            S
+          
+        
+        =
+        −
+        
+          (
+          
+            B
+          
+          +
+          
+            
+              
+                
+                  E
+                
+                ×
+                
+                  v
+                
+              
+              
+                2
+                
+                  c
+                  
+                    2
+                  
+                
+              
+            
+          
+          )
+        
+        ⋅
+        
+          
+            
+              
+                μ
+                ^
+              
+            
+          
+          
+            S
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\hat {H}}=-\mathbf {B} '\cdot {\hat {\boldsymbol {\mu }}}_{S}=-\left(\mathbf {B} +{\frac {\mathbf {E} \times \mathbf {v} }{2c^{2}}}\right)\cdot {\hat {\boldsymbol {\mu }}}_{S}\,.}
+  
+In the case of RQM, the factor of 1/2 is predicted by the Dirac equation.
+
+
+== History ==
+The events which led to and established RQM, and the continuation beyond into quantum electrodynamics (QED), are summarized below [see, for example, R. Resnick and R. Eisberg (1985), and P.W Atkins (1974)]. More than half a century of experimental and theoretical research from the 1890s through to the 1950s in the new and mysterious quantum theory as it was up and coming revealed that a number of phenomena cannot be explained by QM alone. SR, found at the turn of the 20th century, was found to be a necessary component, leading to unification: RQM. Theoretical predictions and experiments mainly focused on the newly found atomic physics, nuclear physics, and particle physics; by considering spectroscopy, diffraction and scattering of particles, and the electrons and nuclei within atoms and molecules. Numerous results are attributed to the effects of spin.
+
+
+=== Relativistic description of particles in quantum phenomena ===
+Einstein in 1905 explained of the photoelectric effect; a particle description of light as photons. In 1916, Sommerfeld explains fine structure; the splitting of the spectral lines of atoms due to first order relativistic corrections. The Compton effect of 1923 provided more evidence that special relativity does apply; in this case to a particle description of photon–electron scattering. de Broglie extends wave–particle duality to matter: the de Broglie relations, which are consistent with special relativity and quantum mechanics. By 1927, Davisson and Germer and separately G. Thomson successfully diffract electrons, providing experimental evidence of wave-particle duality.
+
+
+=== Experiments ===
+1897 J. J. Thomson discovers the electron and measures its mass-to-charge ratio. Discovery of the Zeeman effect: the splitting a spectral line into several components in the presence of a static magnetic field.
+1908 Millikan measures the charge on the electron and finds experimental evidence of its quantization, in the oil drop experiment.
+1911 Alpha particle scattering in the Geiger–Marsden experiment, led by Rutherford, showed that atoms possess an internal structure: the atomic nucleus.
+1913 The Stark effect is discovered: splitting of spectral lines due to a static electric field (compare with the Zeeman effect).
+1922 Stern–Gerlach experiment: experimental evidence of spin and its quantization.
+1924 Stoner studies splitting of energy levels in magnetic fields.
+1932 Experimental discovery of the neutron by Chadwick, and positrons by Anderson, confirming the theoretical prediction of positrons.
+1958 Discovery of the Mössbauer effect: resonant and recoil-free emission and absorption of gamma radiation by atomic nuclei bound in a solid, useful for accurate measurements of gravitational redshift and time dilation, and in the analysis of nuclear electromagnetic moments in hyperfine interactions.
+
+
+=== Quantum non-locality and relativistic locality ===
+In 1935; Einstein, Rosen, Podolsky published a paper concerning quantum entanglement of particles, questioning quantum nonlocality and the apparent violation of causality upheld in SR: particles can appear to interact instantaneously at arbitrary distances. This was a misconception since information is not and cannot be transferred in the entangled states; rather the information transmission is in the process of measurement by two observers (one observer has to send a signal to the other, which cannot exceed c). QM does not violate SR. In 1959, Bohm and Aharonov publish a paper on the Aharonov–Bohm effect, questioning the status of electromagnetic potentials in QM. The EM field tensor and EM 4-potential formulations are both applicable in SR, but in QM the potentials enter the Hamiltonian (see above) and influence the motion of charged particles even in regions where the fields are zero. In 1964, Bell's theorem was published in a paper on the EPR paradox, showing that QM cannot be derived from local hidden variable theories if locality is to be maintained.
+
+
+=== The Lamb shift ===
+
+In 1947 the Lamb shift was discovered: a small difference in the 2S1/2 and 2P1/2 levels of hydrogen, due to the interaction between the electron and vacuum. Lamb and Retherford experimentally measure stimulated radio-frequency transitions the 2S1/2 and 2P1/2 hydrogen levels by microwave radiation. An explanation of the Lamb shift is presented by Bethe. Papers on the effect were published in the early 1950s.
+
+
+=== Development of quantum electrodynamics ===
+1943 Tomonaga begins work on renormalization, influential in QED.
+1947 Schwinger calculates the anomalous magnetic moment of the electron. Kusch measures of the anomalous magnetic electron moment, confirming one of QED's great predictions.
+
+
+== See also ==
+
+
+== Footnotes ==
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== Selected books ===
+P.A.M. Dirac (1981). Principles of Quantum Mechanics (4th ed.). Clarendon Press. ISBN 978-0-19-852011-5. 
+P.A.M. Dirac (1964). Lectures on Quantum Mechanics. Courier Dover Publications. ISBN 0-486-41713-1. 
+B. Thaller (2010). The Dirac Equation. Springer. ISBN 3-642-08134-7. 
+W. Pauli (1980). General Principles of Quantum Mechanics. Springer. ISBN 3-540-09842-9. 
+E. Merzbacher (1998). Quantum Mechanics (3rd ed.). ISBN 0-471-88702-1. 
+A. Messiah (1961). Quantum Mechanics. 1. John Wiley & Sons. ISBN 0-471-59766-X. 
+J.D. Bjorken; S.D. Drell (1964). Relativistic Quantum Mechanics (Pure & Applied Physics). McGraw-Hill. ISBN 0-07-005493-2. 
+R.P. Feynman; R.B. Leighton; M. Sands (1965). Feynman Lectures on Physics. 3. Addison-Wesley. ISBN 0-201-02118-8. 
+L.I. Schiff (1968). Quantum Mechanics (3rd ed.). McGraw-Hill. 
+F. Dyson (2011). Advanced Quantum Mechanics (2nd ed.). World Scientific. ISBN 981-4383-40-6. 
+R.K. Clifton (2011). Perspectives on Quantum Reality: Non-Relativistic, Relativistic, and Field-Theoretic. Springer. ISBN 90-481-4643-7. 
+C. Tannoudji, B.Diu, F.Laloë (1977). Quantum Mechanics. 1. Wiley VCH. ISBN 0-471-16433-X.  CS1 maint: Multiple names: authors list (link)
+C. Tannoudji, B.Diu, F.Laloë (1977). Quantum Mechanics. 2. Wiley VCH. ISBN 0-471-16435-6.  CS1 maint: Multiple names: authors list (link)
+A.I.M Rae (2008). Quantum Mechanics. 2 (5th ed.). Taylor & Francis. ISBN 1-58488-970-5. 
+H. Pilkuhn (2005). Relativistic Quantum Mechanics. Texts and Monographs in Physics Series (2nd ed.). Springer. ISBN 3-540-28522-9. 
+R. Parthasarathy (2010). Relativistic quantum mechanics. Alpha Science International. ISBN 1-84265-573-6. 
+U. Kaldor, S.Wilson (2003). Theoretical Chemistry and Physics of Heavy and Superheavy Elements. Springer. ISBN 1-4020-1371-X. 
+B. Thaller (2005). Advanced visual quantum mechanics. Springer. ISBN 0-387-27127-9. 
+H.P. Breuer, F.Petruccione (2000). Relativistic Quantum Measurement and Decoherence. Springer. ISBN 3-540-41061-9. 
+P.J. Shepherd (2013). A Course in Theoretical Physics. John Wiley & Sons. ISBN 1-118-51692-3. 
+H.A. Bethe, R.W. Jackiw (1997). Intermediate Quantum Mechanics. Addison-Wesley. ISBN 0-201-32831-3. 
+W. Heitler (1954). The Quantum Theory of Radiation (3rd ed.). Courier Dover Publications. ISBN 0-486-64558-4. 
+K. Gottfried; T. Yan (2003). Quantum Mechanics: Fundamentals (2nd ed.). Springer. p. 245. ISBN 0-387-95576-3. 
+F.Schwabl (2010). Quantum Mechanics. Springer. p. 220. ISBN 3-540-71933-4. 
+R.G. Sachs (1987). The Physics of Time Reversal (2nd ed.). University of Chicago Press. ISBN 0-226-73331-9. 
+
+
+=== Group theory in quantum physics ===
+H. Weyl (1950). The theory of groups and quantum mechanics. Courier Dover Publications. p. 203. 
+W.K. Tung (1985). Group Theory in Physics. World Scientific. ISBN 9971-966-56-5. 
+V. Heine (1993). Group Theory in Quantum Mechanics: An Introduction to Its Present Usage. Courier Dover Publications. ISBN 0-486-67585-8. 
+
+
+=== Selected papers ===
+P.A.M Dirac (1932). "Relativistic Quantum Mechanics" (PDF). Proceedings of the Royal Society A. 136: 453–464. Bibcode:1932RSPSA.136..453D. doi:10.1098/rspa.1932.0094. 
+W. Pauli (1945). "Exclusion principle and quantum mechanics" (PDF). 
+J.P. Antoine (2004). "Relativistic Quantum Mechanics". J. Phys. A. 37: 1465. Bibcode:2004JPhA...37.1463P. doi:10.1088/0305-4470/37/4/B01. 
+M. Henneaux; C. Teitelboim (1982). "Relativistic quantum mechanics of supersymmetric particles". 143. 
+J.R. Fanchi (1986). "Parametrizing relativistic quantum mechanics". Phys. Rev. A. 34: 1677–1681. Bibcode:1986PhRvA..34.1677F. doi:10.1103/PhysRevA.34.1677. 
+G N Ord (1983). "Fractal space-time: a geometric analogue of relativistic quantum mechanics". J. Phys. A. 16: 1869–1884. Bibcode:1983JPhA...16.1869O. doi:10.1088/0305-4470/16/9/012. 
+F. Coester; W. N. Polyzou (1982). Relativistic quantum mechanics of particles with direct interactions. Phys. Rev. D 26. 26. doi:10.1103/PhysRevD.26.1348. 
+R.B. Mann; T.C. Ralph (2012). "Relativistic quantum information". Class. Quantum Grav. 29: 220301. Bibcode:2012CQGra..29v0301M. doi:10.1088/0264-9381/29/22/220301. 
+S.G. Low (1997). "Canonically Relativistic Quantum Mechanics: Representations of the Unitary Semidirect Heisenberg Group, U(1,3) *s H(1,3)". J. Math. Phys. 38: 220301. arXiv:physics/9703008. Bibcode:2012CQGra..29v0301M. doi:10.1088/0264-9381/29/22/220301. 
+C. Fronsdal; L.E. Lundberg (1970). "Relativistic Quantum Mechanics of Two Interacting Particles". Phys. Rev. D. 1: 3247–3258. arXiv:physics/9703008. Bibcode:1970PhRvD...1.3247F. doi:10.1103/PhysRevD.1.3247. 
+V.A. Bordovitsyn; A.N. Myagkii. "Spin-orbital motion and Thomas precession in the classical and quantum theories" (PDF). American Journal of Physics. 72: 51. arXiv:physics/0310016. Bibcode:2004AmJPh..72...51K. doi:10.1119/1.1615526. 
+K. Rȩbilas (2013). "Comment on 'Elementary analysis of the special relativistic combination of velocities, Wigner rotation and Thomas precession'". Eur. J. Phys. 34: L55–L61. Bibcode:2013EJPh...34L..55R. doi:10.1088/0143-0807/34/3/L55. 
+H.C. Corben (1993). "Factors of 2 in magnetic moments, spin–orbit coupling, and Thomas precession". Am. J. Phys. 61: 551. Bibcode:1993AmJPh..61..551C. doi:10.1119/1.17207. 
+
+
+== Further reading ==
+
+
+=== Relativistic quantum mechanics and field theory ===
+T. Ohlsson (2011). Relativistic Quantum Physics: From Advanced Quantum Mechanics to Introductory Quantum Field Theory. Cambridge University Press. p. 10. ISBN 1-139-50432-0. 
+I.J.R. Aitchison; A.J.G. Hey (2002). Gauge Theories in Particle Physics: From Relativistic Quantum Mechanics to QED. 1 (3rd ed.). CRC Press. ISBN 0-8493-8775-2. 
+D. Griffiths (2008). Introduction to Elementary Particles. John Wiley & Sons. ISBN 3-527-61847-3. 
+Capri, Anton Z (2002). Relativistic quantum mechanics and introduction to quantum field theory. World Scientific. ISBN 981-238-137-6. 
+Ta-you Wu; W. Y. Pauchy Hwang (1991). Relativistic quantum mechanics and quantum fields. World Scientific. ISBN 981-02-0608-9. 
+Y. Nagashima (2010). Elementary particle physics, Quantum Field Theory. 1. ISBN 978-3-527-40962-4. 
+J.D. Bjorken; S.D. Drell (1965). Relativistic Quantum Fields (Pure & Applied Physics). McGraw-Hill. ISBN 0-07-005494-0. 
+S. Weinberg (1996). The Quantum Theory of Fields. 2. Cambridge University Press. ISBN 0-521-55002-5. 
+S. Weinberg (2000). The Quantum Theory of Fields. 3. Cambridge University Press. ISBN 0-521-66000-9. 
+F. Gross (2008). Relativistic Quantum Mechanics and Field Theory. John Wiley & Sons. ISBN 3-527-61734-5. 
+Y.V. Nazarov, J.Danon (2013). Advanced Quantum Mechanics: A Practical Guide. Cambridge University Press. ISBN 0-521-76150-6. 
+N.N. Bogolubov (1989). General Principles of Quantum Field Theory (2nd ed.). Springer. p. 272. ISBN 0-7923-0540-X. 
+F. Mandl; G. Shaw (2010). Quantum Field Theory (2nd ed.). John Wiley & Sons. ISBN 0-471-49683-9. 
+I. Lindgren (2011). Relativistic Many-body Theory: A New Field-theoretical Approach. Springer series on atomic, optical, and plasma physics. 63. Springer. ISBN 1-4419-8309-0. 
+I. P. Grant (2007). Relativistic Quantum theory of atoms and molecules. Atomic, optical, and plasma physics. Springer. ISBN 0-387-34671-6. 
+
+
+=== Quantum theory and applications in general ===
+G. Aruldhas; P. Rajagopal (2005). Modern Physics. PHI Learning Pvt. Ltd. p. 395. ISBN 81-203-2597-4. 
+R.E. Hummel (2011). Electronic properties of materials. Springer. p. 395. ISBN 1-4419-8164-0. 
+D.L. Pavia (2005). Introduction to Spectroscopy (4th ed.). Cengage Learning. p. 105. ISBN 0-495-11478-2. 
+U. Mizutani (2001). Introduction to the Electron Theory of Metals. Cambridge University Press. p. 387. ISBN 0-521-58709-3. 
+G.R. Choppin (2002). Radiochemistry and nuclear chemistry (3 ed.). Butterworth-Heinemann. p. 308. ISBN 0-7506-7463-6. 
+A.G. Sitenko (1990). Theory of nuclear reactions. World Scientific. p. 443. ISBN 9971-5-0482-0. 
+W. Nolting; A. Ramakanth (2008). Quantum theory of magnetism. Springer. ISBN 3-540-85416-9. 
+H. Luth (2013). Quantum Physics in the Nanoworld. Graduate texts in physics. Springer. p. 149. ISBN 3-642-31238-1. 
+K.D. Sattler (2010). Handbook of Nanophysics: Functional Nanomaterials. CRC Press. pp. 40–3. ISBN 1-4200-7553-5. 
+H.Kuzmany (2009). Solid-State Spectroscopy. Springer. p. 256. ISBN 3-642-01480-1. 
+J.M. Reid (1984). The Atomic Nucleus (2nd ed.). Manchester University Press. ISBN 0-7190-0978-2. 
+P. Schwerdtfeger (2002). Relativistic Electronic Structure Theory - Fundamentals. Theoretical and Computational Chemistry. 11. Elsevier. p. 208. ISBN 0-08-054046-5. 
+L. Piela (2006). Ideas of Quantum Chemistry. Elsevier. p. 676. ISBN 0-08-046676-1. 
+M. Kumar (2009). Quantum (book). ISBN 1-84831-035-8. 
+
+
+== External links ==
+W. Pfeifer (2008) [2004]. Relativistic Quantum Mechanics, an Introduction. 
+Igor Lukačević (2013). "Relativistic Quantum Mechanics (Lecture Notes)" (PDF). Archived from the original (PDF) on 2014-08-26. 
+M. De Sanctis (2011). "An Introduction to Relativistic Quantum Mechanics. I. From Relativity to Dirac Equation". arXiv:0708.0052. 
+"Relativistic Quantum Mechanics" (PDF). University of Cambridge, Cavendish Laboratory. 
+D.G. Swanson (2007). "Quantum Mechanics Foundations and Applications". Alabama, USA: Taylor & Francis. p. 160. 
+J. B. Calvert (2003) The Particle Electron and Thomas Precession
+S.N. Arteha Spin and the Thomas precession

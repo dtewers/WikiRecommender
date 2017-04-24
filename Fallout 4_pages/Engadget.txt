@@ -1,0 +1,84 @@
+Engadget is a multilingual technology blog network with daily coverage of gadgets and consumer electronics. Engadget currently operates a total of ten blogs—four written in English and six international versions with independent editorial staff. Engadget has in the past ranked among the top five in the "Technorati top 100" and was noted in Time for being one of the best blogs of 2010. It has been operated by AOL since October 2005.
+
+
+== History ==
+Engadget was founded by former Gizmodo technology weblog editor and co-founder, Peter Rojas. Engadget was the largest blog in Weblogs, Inc., a blog network with over 75 weblogs including Autoblog and Joystiq which formerly included Hack-A-Day. Weblogs Inc. was purchased by AOL in 2005. Engadget's editor-in-chief, Ryan Block, announced on July 22, 2008, that he would be stepping down as editor-in-chief in late August, leaving the role to Joshua Topolsky. On March 12, 2011, Topolsky announced that he was leaving Engadget to start The Verge, appointing Tim Stevens — profiled by Fortune on May 31, 2012—as the editor-in-chief.
+On February 13, 2013, AOL acquired gdgt, a device review website that was created by Rojas and Block. Overnight on July 15, 2013, Tim Stevens stepped down as the editor-in-chief, placing gdgt's Marc Perton as the interim executive editor. In November 2013, a major redesign was launched that merged gdgt's features into Engadget, such as database of devices and aggregated reviews. The changes aimed to turn Engadget into a more extensive consumer electronics resource, similarly to CNET and Consumer Reports, aimed towards "the early adopter in all of us".
+As of April 2014, Michael Gorman was tapped as the Editor-In-Chief alongside Christopher Trout as Executive Editor, with Perton leaving AOL to pursue other opportunities.
+On December 2, 2015, Engadget introduced another redesign, as well as a new editorial direction with a focus on broader topics influenced by technology; Gorman explained that "the core Engadget audience—people who are very much involved in the industry—pay attention to it very closely, but the new editorial direction is really meant to try to make it approachable for folks outside of that realm."
+
+
+== Blogs ==
+Engadget operates a number of blogs spanning seven different languages including English, Chinese (traditional and simplified), Japanese, Spanish, Polish (until April 1, 2010), Korean and German. The English edition of Engadget operates four blogs which, like the international editions, have been assimilated into a single site with a sub-domain prefix. These include Engadget Classic (the original Engadget blog), Engadget Mobile, Engadget HD and Engadget Alt. As of late 2013, these editions exist but have been wrapped into Engadget Classic. In March 2014, a UK edition of Engadget also launched to target the developing European tech market.
+Launched in March 2004, Engadget is updated multiple times a day with articles on gadgets and consumer electronics. It also posts rumors about the technological world, frequently offers opinion within its stories, and produces the weekly Engadget Podcast that covers tech and gadget news stories that happened during the week.
+Since its founding, dozens of writers have written for or contributed to Engadget, Engadget Alt, Engadget Mobile and Engadget HD, including high-profile bloggers, industry analysts, and professional journalists. These writers include Jason Calacanis, Paul Boutin, Phillip Torrone, Joshua Fruhlinger, Marc Perton and Susan Mernit. Darren Murph, has worked on the site as Managing Editor and Editor-at-Large. He has written over 17,212 posts as of October 5, 2010. Industry analyst Ross Rubin has contributed a weekly column called Switched On since October 2004.
+Engadget uses the Blogsmith CMS to publish its content.
+
+
+== Podcast ==
+The Engadget podcast was launched in October 2004 and was originally hosted by Phillip Torrone and Len Pryor. Torrone was the host for the first 22 episodes of the podcast at which point Eric Rice took over. Eric Rice is known for his own podcast, called The Eric Rice Show and has also produced podcasts for Weblogs, Inc.. Eric hosted and produced 4 episodes of the podcast for Engadget until the show was taken over by Peter Rojas and Ryan Block. The podcast was hosted by Editor-in-chief Joshua Topolsky along with editors Paul Miller and Nilay Patel with occasional special guests until their 2011 departure. The podcast was produced by Trent Wolbe under Topolsky's editorship and continued to be under Tim Stevens until December 2012.
+The topic of discussion for the podcast is technology-related and closely linked to events that have happened during the week in the world of technology. The show generally lasts an hour or more. The show is normally weekly, however, the frequency can change, especially during special events. When events such as the Consumer Electronics Show (CES) and the Electronic Entertainment Expo (E3) occur, the podcast has been known to be broadcast daily.
+The Engadget podcast is available as a subscription through iTunes and as an RSS feed. Alternatively, it can be downloaded directly from the site in either MP3, Ogg, AAC or m4b format. The m4b version features images related to the current topic of discussion and can be displayed in iTunes or on a compatible player.
+Engadget started doing live podcasts, usually broadcasting Thursday or Friday afternoons hosted by Ben Gilbert and Terrence O'Brien. The recorded podcast is usually available the day after. Engadget also hosts weekly Mobile and HD-focused podcasts, with the former typically featuring Brad Molen, and the latter is generally hosted by Ben Drawbaugh and Richard Lawler.
+As of June 27, 2014, all Engadget podcasts are on hiatus according to a tweet sent out from Engadget's Twitter account.
+
+
+== App ==
+On December 30, 2009, Engadget released its first mobile app for the iPhone and iPod Touch. Engadget then released an Engadget app for the Palm Pre and Palm Pixi phones on January 1, 2010 claiming it was the "1000th application in the "webOS" Catalog". A week later, on January 8, 2010 they launched the app on the BlackBerry platform. An app for Android devices was released on March 25, 2010 and the app for Windows Phone was released on July 1, 2011, making the app available on all major mobile smartphone platforms. On December 15, 2010, Engadget debuted its official iPad app, while Engadget updated its Android app to support Honeycomb (and in turn, Android tablets) on July 28, 2011. The app's features included sharing articles through Twitter, Facebook or email, the ability to tip Engadget on breaking news, and the ability to bookmark and view articles offline. Engadget also debuted "Engadget Mini,"  an app that seemed to replicate Tumblr ahead of CES 2014, during which the site shared other tweets and media content out of the event. Since CES, the app just duplicates all published articles on the site and its fate or future use is unclear.
+
+
+== Distro ==
+Engadget Distro was a tablet magazine from the editors at Engadget that has been published on a weekly basis since its inception, although Special Issues have appeared at times and multiple issues per week are published during the annual Consumer Electronics Show (CES). The magazine was born from Tim Stevens' desire to provide a different, distilled look at a week's worth of Engadget news, and to enable readers to enjoy that coverage without the frantic nature of the online experience being necessarily attached. The magazine was announced on September 20, 2011 and teased on that night's episode of The Engadget Show in New York City. It became available to the public on October 12, 2011, with the initial issues being available for Apple's iPad. On December 21, 2011, Distro officially moved into the Newsstand app within Apple's iOS ecosystem while also becoming available for the first time on Android tablets. Each issue is also made available in PDF form.
+While Distro began as a way to see a week's worth of Engadget news distilled down into a single magazine, it evolved into a platform where high-profile features and long-form content are launched. Brian Heater's profile of Apple's third founder, Ron Wayne, was the cover story for Issue 18, while Issue 69 featured an in-depth look at PayPal coupled with an interview with its president, David Marcus. In October 2013, Distro was folded into parent Engadget and is no longer producing a weekly edition.
+
+
+== Engadget Expand ==
+On December 11, 2012, Engadget announced Expand, a "live event and expo for gadget fans." This marks Engadget's first major foray into the conference world, following several years of sporadic meetups at smaller venues in New York City and San Francisco. Engadget alum Barb Dybwad was brought on to help launch the event. The inaugural event will be held March 16–17, 2013 at the Fort Mason Center in San Francisco, and it will feature "live panel and one-on-one sessions" as well as an Insert Coin: New Challengers competition where hardware startups can compete for exposure and other prizes. Nearly 2,000 people attended the first Expand, and exhibitors / panelists included Google, Microsoft, Toyota, Kickstarter, Indiegogo, Lenovo, Microsoft, Oculus Rift, Razer, Boston Dynamics, NASA, Samsung, DJ Spooky, Esko Bionics, ZBoard and OUYA.
+Tickets at the door are "$60 for a full pass, $40 for Saturday (includes the after-party) and $30 for just Sunday."
+As the inaugural Expand closed, Editor-in-chief Tim Stevens announced that a second Expand conference would occur in Q4 2013 in New York City. At Expand New York 2013, the site welcomed big names including LeVar Burton, Ben Heck, Reggie Watts, Spike Lee, Ben Huh and speakers from companies like Google, Sony, Facebook and Pebble.
+While the attempt to make the event biannual didn't pan out, the now annual Expand event is free of charge. and will return to New York City in November 2014.
+Engadget also hosts a myriad of smaller meetup style events called Engadget Live, a merger of then gdgt + Engadget events prior to the site's merger. In 2014, Live events will occur in Austin, TX, Seattle, WA, Boston, MA and Los Angeles, CA.
+
+
+== The Engadget Show ==
+
+On September 8, 2009, Joshua Topolsky announced that Engadget would be taping a new video show once a month in New York City. The show will be free admission and will later be put onto the site. It features one-on-one interviews, roundtable discussions, short video segments, and live music. At first it was taped at the Tishman Auditorium at Parsons The New School for Design, but after the fifth show they began taping at The Times Center, part of The New York Times Building.
+The show was originally hosted by Joshua Topolsky along with editors Paul Miller and Nilay Patel. After their departure from Engadget and AOL in early 2011 newly appointed editor in chief Tim Stevens became the show's host. It is directed by Michelle Stahl and is executive produced by Joshua Fruhlinger and Michael Rubens. As of 2014, the show is cancelled.
+
+
+== Controversy ==
+
+
+=== Trademark infringement ===
+In early 2006, Engadget reported that they were victims of their likeness being stolen and used as a store name at a mall in Kuala Lumpur, Malaysia. However, they stated they would not be taking any action. The store has since changed its name (or possibly shut down and a new store opened with a new name). In July 2007, another store had opened, also in Malaysia, with a logo bearing the same resemblance to Engadget's.
+
+
+=== William Shatner & Twitter verification ===
+On June 21, 2014, actor William Shatner raised an issue with several of Engadget's editorial staff and their "verification" status on Twitter. This began when the site's social media editor, John Colucci tweeted a celebration of the site hitting over 1 million Twitter followers. Besides Colucci, Shatner also targeted several junior members of the staff for being "nobodies" unlike some of his actor colleagues who didn't have such distinction. Shatner claimed Colucci and team were bullying him when giving a text interview to Mashable. Over a month later, Shatner continued to discuss the issue on his Tumblr page, to which Engadget replied with its own response, defending its team and discussing the controversy around social media verification.
+
+
+=== The Verge ===
+In early 2011, eight of the more prominent editorial and technology staff members left AOL to build a new gadget site with CEO Jim Bankoff at SB Nation. On leaving, Joshua Topolsky, former Editor-in-chief, is quoted having said, “We have been working on blogging technology that was developed in 2003, we haven’t made a hire since I started running the site, and I thought we could be more successful elsewhere”.
+It appears the departure of the team from AOL which includes not only Topolsky but editors Nilay Patel, Paul Miller, Joanna Stern, Ross Miller, Chris Ziegler, Chad Mumm, Justin Glow, Dan Chilton, Thomas Ricker and Vladislav Savov was primarily the cause of an internal memo distributed by AOL detailing "The AOL Way", a 58-page long company plan to grow AOL into a media empire. Some employees suggested that AOL was sacrificing journalism for page views and that it would be difficult for the organization to apply a 'one size fits all' business model to reporting. The group set up a "placeholder site", This Is My Next, while they developed a new technology news site in partnership with Vox Media. The new site, called The Verge, was launched on November 1, 2011.
+
+
+=== T-Mobile "magenta" accusations ===
+On March 31, 2008, Engadget reported that Deutsche Telekom (the parent company of T-Mobile and T-Mobile USA) had sent a letter requesting that Engadget cease using the color magenta in its Engadget Mobile site, claiming that T-Mobile had trademarked the color. Engadget issued a response on April 1, mainly by repainting the Engadget sites and changing the Mobile logo for the day to a logo that looks as though it is saying "Engadge t-mobile". The site has since returned to normal format, with the exception of the highlighting color.
+
+
+=== Apple bias ===
+During the period where Topolsky was editor-in-chief, Engadget was routinely accused of being biased towards Apple Inc. and the company's products. Engadget seemed to be giving higher ratings to Apple products, de-emphasizing their disadvantages. Competing products were allegedly given the opposite treatment.
+
+
+== Awards ==
+Engadget has been nominated for numerous awards, including 2004 Bloggie for Best Technology Weblog, and 2005 Bloggies for Best Computers or Technology Weblog and Best Group Weblog; Engadget won Best Tech Blog in the 2004 and 2005 Weblog Awards.
+The Engadget Show won the 2011 People's Voice Webby Award in Consumer Electronics, while also winning the official Webby in Consumer Electronics (voted on by the International Academy of Digital Arts and Sciences).
+
+
+== References ==
+
+
+== External links ==
+Official website
+Engadget on iTunes Preview
+Engadget for iPad on iTunes Preview

@@ -1,0 +1,66 @@
+In physics, complementarity is both a theoretical and an experimental result  of quantum mechanics, also referred to as principle of complementarity, closely associated with the Copenhagen interpretation. It holds that objects have complementary properties which cannot all be observed or measured simultaneously.
+The complementarity principle was formulated by Niels Bohr, a leading founder of quantum mechanics. Examples of complementary properties that Bohr considered:
+Position and momentum
+Energy and duration
+Spin on different axes
+Wave and particle
+Value of a field and its change (at a certain position)
+Entanglement and coherence 
+
+
+== Concept ==
+For example, the particle and wave aspects of physical objects are such complementary phenomena. Both concepts are borrowed from classical mechanics, where it is impossible to be a particle and wave at the same time. Therefore, it is impossible to measure the full properties of the wave and particle at a particular moment. Moreover, Bohr implies that it is not possible to regard objects governed by quantum mechanics as having intrinsic properties independent of determination with a measuring device. The type of measurement determines which property is shown. However the single and double-slit experiment and other experiments show that some effects of wave and particle can be measured in one measurement.
+
+
+== Nature ==
+An aspect of complementarity is that it not only applies to measurability or knowability of some property of a physical entity, but more importantly it applies to the limitations of that physical entity’s very manifestation of the property in the physical world. All properties of physical entities exist only in pairs, which Bohr described as complementary or conjugate pairs. Physical reality is determined and defined by manifestations of properties which are limited by trade-offs between these complementary pairs. For example, an electron can manifest a greater and greater accuracy of its position only in even trade for a complementary loss in accuracy of manifesting its momentum. This means that there is a limitation on the precision with which an electron can possess (i.e., manifest) position, since an infinitely precise position would dictate that its manifested momentum would be infinitely imprecise, or undefined (i.e., non-manifest or not possessed), which is not possible. The ultimate limitations in precision of property manifestations are quantified by the Heisenberg uncertainty principle and Planck units. Complementarity and Uncertainty dictate that therefore all properties and actions in the physical world manifest themselves as non-deterministic to some degree.
+Physicists F.A.M. Frescura and Basil Hiley have summarized the reasons for the introduction of the principle of complementarity in physics as follows:
+
+“In the traditional view, it is assumed that there exists a reality in space-time and that this reality is a given thing, all of whose aspects can be viewed or articulated at any given moment. Bohr was the first to point out that quantum mechanics called this traditional outlook into question. To him the ‘indivisibility of the quantum of action’, which was his way of describing the uncertainty principle, implied that not all aspects of a system can be viewed simultaneously. By using one particular piece of apparatus only certain features could be made manifest at the expense of others, while with a different piece of apparatus another complementary aspect could be made manifest in such a way that the original set became non-manifest, that is, the original attributes were no longer well defined. For Bohr, this was an indication that the principle of complementarity, a principle that he had previously known to appear extensively in other intellectual disciplines but which did not appear in classical physics, should be adopted as a universal principle.”
+
+The emergence of complementarity in a system occurs when one considers the circumstances under which one attempts to measure its properties; as Bohr noted, the principle of complementarity "implies the impossibility of any sharp separation between the behaviour of atomic objects and the interaction with the measuring instruments that serve to define the conditions under which the phenomena appear." It is important to distinguish, as did Bohr in his original statements, the principle of complementarity from a statement of the uncertainty principle. For a technical discussion of contemporary issues surrounding complementarity in physics see, e.g., Bandyopadhyay (2000), from which parts of this discussion were drawn.
+
+
+== Additional considerations ==
+In his original lecture on the topic, Bohr pointed out that just as the finitude of the speed of light implies the impossibility of a sharp separation between space and time (relativity), the finitude of the quantum of action implies the impossibility of a sharp separation between the behavior of a system and its interaction with the measuring instruments and leads to the well known difficulties with the concept of 'state' in quantum theory; the notion of complementarity is intended to symbolize this new situation in epistemology created by quantum theory. Some people consider it a philosophical adjunct to quantum mechanics, while others consider it to be a discovery that is as important as the formal aspects of quantum theory. Examples of the latter include Leon Rosenfeld, who claimed that "[C]omplementarity is not a philosophical superstructure invented by Bohr to be placed as a decoration on top of the quantal formalism, it is the bedrock of the quantal description.", and John Wheeler, who opined that "Bohr's principle of complementarity is the most revolutionary scientific concept of this century and the heart of his fifty-year search for the full significance of the quantum idea."
+
+
+== Experiments ==
+The quintessential example of wave–particle complementarity in the laboratory is the double slit. The crux of the complementary behavior is the question: "What information exists – embedded in the constituents of the universe – that can reveal the history of the signal particles as they pass through the double slit?" If information exists (even if it is not measured by a conscious observer) that reveals "which slit" each particle traversed, then each particle will exhibit no wave interference with the other slit. This is the particle-like behavior. But if no information exists about which slit – so that no conscious observer, no matter how well equipped, will ever be able to determine which slit each particle traverses – then the signal particles will interfere with themselves as if they traveled through both slits at the same time, as a wave. This is the wave-like behavior. These behaviors are complementary, according to the Englert–Greenberger duality relation, because when one behavior is observed the other is absent. Both behaviors can be observed at the same time, but each only as lesser manifestations of their full behavior (as determined by the duality relation). This superposition of complementary behaviors exists whenever there is partial "which slit" information. While there is some contention to the duality relation, and thus complementarity itself, the contrary position is not accepted by mainstream physics. Double slit experiments with single photons show clearly that photons are particles at the same time as they are waves. The Photons impact the screen where they are detected in points and when enough points have accumulated the wave aspect is clearly visible. Also the particle and wave aspect is seen at the same time in photons that are stationary.
+Various neutron interferometry experiments demonstrate the subtlety of the notions of duality and complementarity. By passing through the interferometer, the neutron appears to act as a wave. Yet upon passage, the neutron is subject to gravitation. As the neutron interferometer is rotated through Earth's gravitational field a phase change between the two arms of the interferometer can be observed, accompanied by a change in the constructive and destructive interference of the neutron waves on exit from the interferometer. Some interpretations claim that understanding the interference effect requires one to concede that a single neutron takes both paths through the interferometer at the same time; a single neutron would "be in two places at once", as it were. Since the two paths through a neutron interferometer can be as far as 5 cm to 15 cm apart, the effect is hardly microscopic. This is similar to traditional double-slit and mirror interferometer experiments where the slits (or mirrors) can be arbitrarily far apart. So, in interference and diffraction experiments, neutrons behave the same way as photons (or electrons) of corresponding wavelength.
+
+
+== History ==
+Niels Bohr apparently conceived of the principle of complementarity during a skiing vacation in Norway in February and March 1927, during which he received a letter from Werner Heisenberg regarding the latter's newly discovered (and not yet published) uncertainty principle. Upon returning from his vacation, by which time Heisenberg had already submitted his paper on the uncertainty principle for publication, he convinced Heisenberg that the uncertainty principle was a manifestation of the deeper concept of complementarity. Heisenberg duly appended a note to this effect to his paper on the uncertainty principle, before its publication, stating:
+
+Bohr has brought to my attention [that] the uncertainty in our observation does not arise exclusively from the occurrence of discontinuities, but is tied directly to the demand that we ascribe equal validity to the quite different experiments which show up in the [particulate] theory on one hand, and in the wave theory on the other hand.
+
+Bohr publicly introduced the principle of complementarity in a lecture he delivered on 16 September 1927 at the International Physics Congress held in Como, Italy, attended by most of the leading physicists of the era, with the notable exceptions of Einstein, Schrödinger, and Dirac. However, these three were in attendance one month later when Bohr again presented the principle at the Fifth Solvay Congress in Brussels, Belgium. The lecture was published in the proceedings of both of these conferences, and was republished the following year in Naturwissenschaften (in German) and in Nature (in English).
+An article written by Bohr in 1949 titled "Discussions with Einstein on Epistemological Problems in Atomic Physics" is considered by many to be a definitive description of the notion of complementarity.
+
+
+== See also ==
+Afshar experiment
+Bohr–Einstein debates
+Copenhagen interpretation
+Englert–Greenberger duality relation
+Ehrenfest's theorem
+Interpretation of quantum mechanics
+Incompatible Observables
+Quantum entanglement
+Quantum indeterminacy
+Transactional interpretation
+Wheeler–Feynman absorber theory
+
+
+== References ==
+
+
+== Further reading ==
+Berthold-Georg Englert, Marlan O. Scully & Herbert Walther, Quantum Optical Tests of Complementarity, Nature, Vol 351, pp 111–116 (9 May 1991) and (same authors) The Duality in Matter and Light Scientific American, pg 56–61, (December 1994). Demonstrates that complementarity is enforced, and quantum interference effects destroyed, by decoherence (irreversible object-apparatus correlations), and not, as was previously popularly believed, by Heisenberg's uncertainty principle itself.
+Niels Bohr, Causality and Complementarity: Supplementary papers edited by Jan Faye and Henry J. Folse. The Philosophical Writings of Niels Bohr, Volume IV. Ox Bow Press. 1998.
+
+
+== External links ==
+Discussions with Einstein on Epistemological Problems in Atomic Physics
+Einstein's Reply to Criticisms

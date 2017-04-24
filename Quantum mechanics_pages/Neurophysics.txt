@@ -1,0 +1,21 @@
+Neurophysics (or neural physics) is the branch of medical physics dealing with the nervous system including the brain and the spinal cord and the nerves. The term is a portmanteau of neuron and physics, to represent an emerging science which investigates the fundamentally physical basis for the brain, hence the physical structure involved in the cognition process.
+The field covers a wide spectrum of phenomena from molecular and cellular mechanisms to techniques to measure and influence the brain and to theories of brain function. It can be viewed as an approach to neuroscience that is based on solid understanding of the fundamental laws of nature.
+
+
+== See also ==
+
+
+== Books ==
+Wulfram Gerstner and Werner M. Kistler, Spiking Neuron Models, Single Neurons, Populations, Plasticity, Cambridge University Press (2002) ISBN 0-521-89079-9 ISBN 0-521-81384-0
+Alwyn Scott, Neuroscience: A Mathematical Primer, Birkhäuser (2002) ISBN 0-387-95403-1
+
+
+== References ==
+
+
+== External links ==
+Dynamical Neuroscience Laboratory; Georgia State University; Atlanta, Ga
+Institute of Theoretical Neurophysics, Bremen, Germany
+The Neurophysics Lab, The Hebrew University of Jerusalem
+Neurophysics Group at the University of Pennsylvania
+Max Planck Institute for Dynamics and Self Organization

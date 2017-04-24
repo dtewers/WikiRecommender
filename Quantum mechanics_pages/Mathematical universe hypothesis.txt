@@ -1,0 +1,76 @@
+In physics and cosmology, the mathematical universe hypothesis (MUH), also known as the Ultimate Ensemble, is a speculative "theory of everything" (TOE) proposed by the cosmologist Max Tegmark.
+
+
+== Description ==
+Tegmark's MUH is: Our external physical reality is a mathematical structure. That is, the physical universe is mathematics in a well-defined sense, and "in those [worlds] complex enough to contain self-aware substructures [they] will subjectively perceive themselves as existing in a physically 'real' world". The hypothesis suggests that worlds corresponding to different sets of initial conditions, physical constants, or altogether different equations may be considered equally real. Tegmark elaborates the MUH into the computable universe hypothesis (CUH), which posits that all computable mathematical structures (in Gödel's sense) exist.
+The theory can be considered a form of Pythagoreanism or Platonism in that it posits the existence of mathematical entities; a form of mathematical monism in that it denies that anything exists except mathematical objects; and a formal expression of ontic structural realism.
+Tegmark claims that the hypothesis has no free parameters and is not observationally ruled out. Thus, he reasons, it is preferred over other theories-of-everything by Occam's Razor. He suggests conscious experience would take the form of mathematical "self-aware substructures" that exist in a physically "real" world.
+The hypothesis is related to the anthropic principle and to Tegmark's categorization of four levels of the multiverse.
+Andreas Albrecht of Imperial College in London called it a "provocative" solution to one of the central problems facing physics. Although he "wouldn't dare" go so far as to say he believes it, he noted that "it's actually quite difficult to construct a theory where everything we see is all there is".
+
+
+== Criticisms and responses ==
+
+
+=== Definition of the ensemble ===
+Jürgen Schmidhuber argues that “Although Tegmark suggests that ‘... all mathematical structures are a priori given equal statistical weight,’ there is no way of assigning equal non-vanishing probability to all (infinitely many) mathematical structures.” Schmidhuber puts forward a more restricted ensemble which admits only universe representations describable by constructive mathematics, that is, computer programs. He explicitly includes universe representations describable by non-halting programs whose output bits converge after finite time, although the convergence time itself may not be predictable by a halting program, due to the undecidability of the halting problem.
+In response, Tegmark notes (sec. V.E) that the measure over all universes has not yet been constructed for the String theory landscape either, so this should not be regarded as a "show-stopper".
+
+
+=== Consistency with Gödel's theorem ===
+
+It has also been suggested that the MUH is inconsistent with Gödel's incompleteness theorem. In a three-way debate between Tegmark and fellow physicists Piet Hut and Mark Alford, the "secularist" (Alford) states that "the methods allowed by formalists cannot prove all the theorems in a sufficiently powerful system... The idea that math is 'out there' is incompatible with the idea that it consists of formal systems."
+Tegmark's response in (sec VI.A.1) is to offer a new hypothesis "that only Gödel-complete (fully decidable) mathematical structures have physical existence. This drastically shrinks the Level IV multiverse, essentially placing an upper limit on complexity, and may have the attractive side effect of explaining the relative simplicity of our universe." Tegmark goes on to note that although conventional theories in physics are Gödel-undecidable, the actual mathematical structure describing our world could still be Gödel-complete, and "could in principle contain observers capable of thinking about Gödel-incomplete mathematics, just as finite-state digital computers can prove certain theorems about Gödel-incomplete formal systems like Peano arithmetic." In (sec. VII) he gives a more detailed response, proposing as an alternative to MUH the more restricted "Computable Universe Hypothesis" (CUH) which only includes mathematical structures that are simple enough that Gödel's theorem does not require them to contain any undecidable or uncomputable theorems. Tegmark admits that this approach faces "serious challenges", including (a) it excludes much of the mathematical landscape; (b) the measure on the space of allowed theories may itself be uncomputable; and (c) "virtually all historically successful theories of physics violate the CUH".
+
+
+=== Observability ===
+Stoeger, Ellis, and Kircher (sec. 7) note that in a true multiverse theory, "the universes are then completely disjoint and nothing that happens in any one of them is causally linked to what happens in any other one. This lack of any causal connection in such multiverses really places them beyond any scientific support". Ellis (p29) specifically criticizes the MUH, stating that an infinite ensemble of completely disconnected universes is "completely untestable, despite hopeful remarks sometimes made, see, e.g., Tegmark (1998)." Tegmark maintains that MUH is testable, stating that it predicts (a) that "physics research will uncover mathematical regularities in nature", and (b) by assuming that we occupy a typical member of the multiverse of mathematical structures, one could "start testing multiverse predictions by assessing how typical our universe is" ( sec. VIII.C).
+
+
+=== Plausibility of radical Platonism ===
+
+The MUH is based on the Radical Platonist view that math is an external reality ( sec V.C). However, Jannes argues that "mathematics is at least in part a human construction", on the basis that if it is an external reality, then it should be found in some other animals as well: "Tegmark argues that, if we want to give a complete description of reality, then we will need a language independent of us humans, understandable for non-human sentient entities, such as aliens and future supercomputers". Brian Greene ( p. 299) argues similarly: "The deepest description of the universe should not require concepts whose meaning relies on human experience or interpretation. Reality transcends our existence and so shouldn't, in any fundamental way, depend on ideas of our making."
+However, there are many non-human entities, plenty of which are intelligent, and many of which can apprehend, memorise, compare and even approximately add numerical quantities. Several animals have also passed the mirror test of self-consciousness. But a few surprising examples of mathematical abstraction notwithstanding (for example, chimpanzees can be trained to carry out symbolic addition with digits, or the report of a parrot understanding a “zero-like concept”), all examples of animal intelligence with respect to mathematics are limited to basic counting abilities. He adds, "non-human intelligent beings should exist that understand the language of advanced mathematics. However, none of the non-human intelligent beings that we know of confirm the status of (advanced) mathematics as an objective language." In the paper "On Math, Matter and Mind" the secularist viewpoint examined argues (sec. VI.A) that math is evolving over time, there is "no reason to think it is converging to a definite structure, with fixed questions and established ways to address them", and also that "The Radical Platonist position is just another metaphysical theory like solipsism... In the end the metaphysics just demands that we use a different language for saying what we already knew." Tegmark responds (sec VI.A.1) that "The notion of a mathematical structure is rigorously defined in any book on Model Theory", and that non-human mathematics would only differ from our own "because we are uncovering a different part of what is in fact a consistent and unified picture, so math is converging in this sense." In his 2014 book on the MUH, Tegmark argues that the resolution is not that we invent the language of mathematics, but that we discover the structure of mathematics.
+
+
+=== Coexistence of all mathematical structures ===
+Don Page has argued (sec 4) that "At the ultimate level, there can be only one world and, if mathematical structures are broad enough to include all possible worlds or at least our own, there must be one unique mathematical structure that describes ultimate reality. So I think it is logical nonsense to talk of Level 4 in the sense of the co-existence of all mathematical structures." Tegmark responds ( sec. V.E) that "this is less inconsistent with Level IV than it may sound, since many mathematical structures decompose into unrelated substructures, and separate ones can be unified."
+
+
+=== Consistency with our "simple universe" ===
+Alexander Vilenkin comments (Ch. 19, p. 203) that "the number of mathematical structures increases with increasing complexity, suggesting that 'typical' structures should be horrendously large and cumbersome. This seems to be in conflict with the beauty and simplicity of the theories describing our world". He goes on to note (footnote 8, p. 222) that Tegmark's solution to this problem, the assigning of lower "weights" to the more complex structures ( sec. V.B) seems arbitrary ("Who determines the weights?") and may not be logically consistent ("It seems to introduce an additional mathematical structure, but all of them are supposed to be already included in the set").
+
+
+=== Occam's razor ===
+Tegmark has been criticized as misunderstanding the nature and application of Occam's razor; Massimo Pigliucci reminds that "Occam's razor is just a useful heuristic, it should never be used as the final arbiter to decide which theory is to be favored".
+
+
+=== Consistency with ancient/classical Pythagoreanism and Platonism, modern mathematical Platonism ===
+Rationalist-idealist/Mathematicist/Neopythagorean-Neoplatonist-Leibnizian writer Mike Hockney, and Platonist scientists/mathematicians he worked closely with, agree with Tegmark's basic idea that the universe is mathematical, but think that he overdid his theory in ways that make it more similar to popular modern empiricist materialist science (with science fiction-type speculation such as of other universes or that an "actual" quantum wave function comes out of mathematical "unreality") rather than the ancient/Classical rationalist idealist/mentalist schools of thought of science/mathematics that Pythagoreanism and Platonism actually are. This is detailed throughout Hockney's mathematicist The God Series, which is not so much theist, as atheist, intended to cover every academic subject, and advocating replacing religion/God with Pythagorean-Platonist & Leibnizian science/mathematics.
+The "mathematics-theist" God Series says that Tegmark's theory, beyond the basic hypothesis of mathematicism, isn't realistic according to Pythagorean mathematical monism expressed in Pythagoras' statement "all is number" (paraphrased by Plato, which mathematicists such as Hockney also restate as "everything is mathematics"). Hockney states that is because with existing mathematics, and by the principle of Occam's Razor, several levels aren't needed to explain reality; one only needs mental/mathematical monism (one level, with dual aspects of mind and illusory but objective matter within mind) because every geometric and material object fully contains and can be broken down into (locations for) mathematical points. This is also the case with one object that is a major basis of modern physics: the wave, which all possible waves are all plotted point-by-point with Euler's Formula or higher-dimensional versions (as the basic formula is two-dimensional). Hockney says that a mathematical point is the basis of mind (as in Leibnizian mind/monad, unit, number, or point) and because of that and the nature of Pythagoreanism, one doesn't need a quantum theory variant based on the Copenhagen Interpretation with "many worlds", not even mathematical objects (as material worlds), that he says only need to exist in the mind, but that to be true mathematicism/mentalism/Pythagoreanism or mathematical Platonism, or mathematical Leibnizianism, a single (and single-level, mental) large/infinite universe modelled by using mathematical points and waves & Euler's Formula to mathematicize the De Broglie-Bohm theory is the correct approach.
+
+
+== Major books ==
+Our Mathematical Universe: written by Max Tegmark and published on January 7, 2014, this book describes Tegmark's theory.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Schmidhuber, J. (1997) "A Computer Scientist's View of Life, the Universe, and Everything" in C. Freksa, ed., Foundations of Computer Science: Potential - Theory - Cognition. Lecture Notes in Computer Science, Springer: p. 201-08.
+Tegmark, Max (1998). "Is the 'theory of everything' merely the ultimate ensemble theory?". Annals of Physics. 270: 1–51. arXiv:gr-qc/9704009. Bibcode:1998AnPhy.270....1T. doi:10.1006/aphy.1998.5855. 
+Tegmark, Max (2008), "The Mathematical Universe", Foundations of Physics 38:101–50.
+Tegmark, Max (2014), Our Mathematical Universe: My Quest for the Ultimate Nature of Reality, ISBN 978-0-307-59980-3
+Woit, P. (17 January 2014), "Book Review: 'Our Mathematical Universe' by Max Tegmark", The Wall Street Journal.
+
+
+== External links ==
+Jürgen Schmidhuber "The ensemble of universes describable by constructive mathematics."
+Page maintained by Max Tegmark with links to his technical and popular writings.
+"The 'Everything' mailing list" (and archives). Discusses the idea that all possible universes exist.
+"Is the universe actually made of math?" Interview with Max Tegmark in Discover Magazine.
+Richard Carrier Blogs: Our Mathematical Universe

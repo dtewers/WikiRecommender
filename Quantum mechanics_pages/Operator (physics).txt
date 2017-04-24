@@ -1,0 +1,3461 @@
+In physics, an operator is a function over a space of physical states to another space of physical states. The simplest example of the utility of operators is the study of symmetry (which makes the concept of a group useful in this context). Because of this, they are a very useful tool in classical mechanics. Operators are even more important in quantum mechanics, where they form an intrinsic part of the formulation of the theory.
+
+
+== Operators in classical mechanics ==
+In classical mechanics, the movement of a particle (or system of particles) is completely determined by the Lagrangian 
+  
+    
+      
+        L
+        (
+        q
+        ,
+        
+          
+            
+              q
+              ˙
+            
+          
+        
+        ,
+        t
+        )
+      
+    
+    {\displaystyle L(q,{\dot {q}},t)}
+   or equivalently the Hamiltonian 
+  
+    
+      
+        H
+        (
+        q
+        ,
+        p
+        ,
+        t
+        )
+      
+    
+    {\displaystyle H(q,p,t)}
+  , a function of the generalized coordinates q, generalized velocities 
+  
+    
+      
+        
+          
+            
+              q
+              ˙
+            
+          
+        
+        =
+        
+          d
+        
+        q
+        
+          /
+        
+        
+          d
+        
+        t
+      
+    
+    {\displaystyle {\dot {q}}=\mathrm {d} q/\mathrm {d} t}
+   and its conjugate momenta:
+
+  
+    
+      
+        p
+        =
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                
+                  
+                    q
+                    ˙
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle p={\frac {\partial L}{\partial {\dot {q}}}}}
+  
+If either L or H are independent of a generalized coordinate q, meaning the L and H do not change when q is changed, which in turn means the dynamics of the particle are still the same even when q changes, the corresponding momenta conjugate to those coordinates will be conserved (this is part of Noether's theorem, and the invariance of motion with respect to the coordinate q is a symmetry). Operators in classical mechanics are related to these symmetries.
+More technically, when H is invariant under the action of a certain group of transformations G:
+
+  
+    
+      
+        S
+        ∈
+        G
+        ,
+        H
+        (
+        S
+        (
+        q
+        ,
+        p
+        )
+        )
+        =
+        H
+        (
+        q
+        ,
+        p
+        )
+      
+    
+    {\displaystyle S\in G,H(S(q,p))=H(q,p)}
+  .
+the elements of G are physical operators, which map physical states among themselves.
+
+
+=== Table of classical mechanics operators ===
+
+where 
+  
+    
+      
+        R
+        (
+        
+          
+            
+              n
+              ^
+            
+          
+        
+        ,
+        θ
+        )
+      
+    
+    {\displaystyle R({\hat {\boldsymbol {n}}},\theta )}
+   is the rotation matrix about an axis defined by the unit vector 
+  
+    
+      
+        
+          
+            
+              n
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\boldsymbol {n}}}}
+   and angle θ.
+
+
+== Generators ==
+If the transformation is infinitesimal, the operator action should be of the form
+
+  
+    
+      
+        I
+        +
+        ϵ
+        A
+      
+    
+    {\displaystyle I+\epsilon A}
+  
+where 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+   is the identity operator, 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+   is a parameter with a small value, and 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   will depend on the transformation at hand, and is called a generator of the group. Again, as a simple example, we will derive the generator of the space translations on 1D functions.
+As it was stated, 
+  
+    
+      
+        
+          T
+          
+            a
+          
+        
+        f
+        (
+        x
+        )
+        =
+        f
+        (
+        x
+        −
+        a
+        )
+      
+    
+    {\displaystyle T_{a}f(x)=f(x-a)}
+  . If 
+  
+    
+      
+        a
+        =
+        ϵ
+      
+    
+    {\displaystyle a=\epsilon }
+   is infinitesimal, then we may write
+
+  
+    
+      
+        
+          T
+          
+            ϵ
+          
+        
+        f
+        (
+        x
+        )
+        =
+        f
+        (
+        x
+        −
+        ϵ
+        )
+        ≈
+        f
+        (
+        x
+        )
+        −
+        ϵ
+        
+          f
+          ′
+        
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle T_{\epsilon }f(x)=f(x-\epsilon )\approx f(x)-\epsilon f'(x).}
+  
+This formula may be rewritten as
+
+  
+    
+      
+        
+          T
+          
+            ϵ
+          
+        
+        f
+        (
+        x
+        )
+        =
+        (
+        I
+        −
+        ϵ
+        D
+        )
+        f
+        (
+        x
+        )
+      
+    
+    {\displaystyle T_{\epsilon }f(x)=(I-\epsilon D)f(x)}
+  
+where 
+  
+    
+      
+        D
+      
+    
+    {\displaystyle D}
+   is the generator of the translation group, which in this case happens to be the derivative operator. Thus, it is said that the generator of translations is the derivative.
+
+
+== The exponential map ==
+The whole group may be recovered, under normal circumstances, from the generators, via the exponential map. In the case of the translations the idea works like this.
+The translation for a finite value of 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+   may be obtained by repeated application of the infinitesimal translation:
+
+  
+    
+      
+        
+          T
+          
+            a
+          
+        
+        f
+        (
+        x
+        )
+        =
+        
+          lim
+          
+            N
+            →
+            ∞
+          
+        
+        
+          T
+          
+            a
+            
+              /
+            
+            N
+          
+        
+        ⋯
+        
+          T
+          
+            a
+            
+              /
+            
+            N
+          
+        
+        f
+        (
+        x
+        )
+      
+    
+    {\displaystyle T_{a}f(x)=\lim _{N\to \infty }T_{a/N}\cdots T_{a/N}f(x)}
+  
+with the 
+  
+    
+      
+        ⋯
+      
+    
+    {\displaystyle \cdots }
+   standing for the application 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+   times. If 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+   is large, each of the factors may be considered to be infinitesimal:
+
+  
+    
+      
+        
+          T
+          
+            a
+          
+        
+        f
+        (
+        x
+        )
+        =
+        
+          lim
+          
+            N
+            →
+            ∞
+          
+        
+        (
+        I
+        −
+        (
+        a
+        
+          /
+        
+        N
+        )
+        D
+        
+          )
+          
+            N
+          
+        
+        f
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle T_{a}f(x)=\lim _{N\to \infty }(I-(a/N)D)^{N}f(x).}
+  
+But this limit may be rewritten as an exponential:
+
+  
+    
+      
+        
+          T
+          
+            a
+          
+        
+        f
+        (
+        x
+        )
+        =
+        exp
+        ⁡
+        (
+        −
+        a
+        D
+        )
+        f
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle T_{a}f(x)=\exp(-aD)f(x).}
+  
+To be convinced of the validity of this formal expression, we may expand the exponential in a power series:
+
+  
+    
+      
+        
+          T
+          
+            a
+          
+        
+        f
+        (
+        x
+        )
+        =
+        
+          (
+          I
+          −
+          a
+          D
+          +
+          
+            
+              
+                
+                  a
+                  
+                    2
+                  
+                
+                
+                  D
+                  
+                    2
+                  
+                
+              
+              
+                2
+                !
+              
+            
+          
+          −
+          
+            
+              
+                
+                  a
+                  
+                    3
+                  
+                
+                
+                  D
+                  
+                    3
+                  
+                
+              
+              
+                3
+                !
+              
+            
+          
+          +
+          ⋯
+          )
+        
+        f
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle T_{a}f(x)=\left(I-aD+{a^{2}D^{2} \over 2!}-{a^{3}D^{3} \over 3!}+\cdots \right)f(x).}
+  
+The right-hand side may be rewritten as
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        −
+        a
+        
+          f
+          ′
+        
+        (
+        x
+        )
+        +
+        
+          
+            
+              a
+              
+                2
+              
+            
+            
+              2
+              !
+            
+          
+        
+        
+          f
+          ″
+        
+        (
+        x
+        )
+        −
+        
+          
+            
+              a
+              
+                3
+              
+            
+            
+              3
+              !
+            
+          
+        
+        
+          f
+          ‴
+        
+        (
+        x
+        )
+        +
+        ⋯
+      
+    
+    {\displaystyle f(x)-af'(x)+{a^{2} \over 2!}f''(x)-{a^{3} \over 3!}f'''(x)+\cdots }
+  
+which is just the Taylor expansion of 
+  
+    
+      
+        f
+        (
+        x
+        −
+        a
+        )
+      
+    
+    {\displaystyle f(x-a)}
+  , which was our original value for 
+  
+    
+      
+        
+          T
+          
+            a
+          
+        
+        f
+        (
+        x
+        )
+      
+    
+    {\displaystyle T_{a}f(x)}
+  .
+The mathematical properties of physical operators are a topic of great importance in itself. For further information, see C*-algebra and Gelfand-Naimark theorem.
+
+
+== Operators in quantum mechanics ==
+The mathematical formulation of quantum mechanics (QM) is built upon the concept of an operator.
+The wavefunction represents the probability amplitude of finding the system in that state. The terms "wavefunction" and "state" in QM context are usually used interchangeably.
+Physical pure states in quantum mechanics are represented as unit-norm vectors (probabilities are normalized to one) in a special complex Hilbert space. Time evolution in this vector space is given by the application of the evolution operator.
+Any observable, i.e., any quantity which can be measured in a physical experiment, should be associated with a self-adjoint linear operator. The operators must yield real eigenvalues, since they are values which may come up as the result of the experiment. Mathematically this means the operators must be Hermitian. The probability of each eigenvalue is related to the projection of the physical state on the subspace related to that eigenvalue. See below for mathematical details.
+In the wave mechanics formulation of QM, the wavefunction varies with space and time, or equivalently momentum and time (see position and momentum space for details), so observables are differential operators.
+In the matrix mechanics formulation, the norm of the physical state should stay fixed, so the evolution operator should be unitary, and the operators can be represented as matrices. Any other symmetry, mapping a physical state into another, should keep this restriction.
+
+
+=== Wavefunction ===
+
+The wavefunction must be square-integrable (see Lp spaces), meaning:
+
+  
+    
+      
+        
+          ∭
+          
+            
+              
+                R
+              
+              
+                3
+              
+            
+          
+        
+        
+          |
+        
+        ψ
+        (
+        
+          
+            r
+          
+        
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          
+            
+              d
+            
+          
+          
+            3
+          
+        
+        
+          
+            r
+          
+        
+        =
+        
+          ∭
+          
+            
+              
+                R
+              
+              
+                3
+              
+            
+          
+        
+        ψ
+        (
+        
+          
+            r
+          
+        
+        
+          )
+          
+            ∗
+          
+        
+        ψ
+        (
+        
+          
+            r
+          
+        
+        )
+        
+          
+            
+              d
+            
+          
+          
+            3
+          
+        
+        
+          
+            r
+          
+        
+        <
+        ∞
+      
+    
+    {\displaystyle \iiint _{\mathbb {R} ^{3}}|\psi ({\mathbf {r}})|^{2}{\rm {d}}^{3}{\mathbf {r}}=\iiint _{\mathbb {R} ^{3}}\psi ({\mathbf {r}})^{*}\psi ({\mathbf {r}}){\rm {d}}^{3}{\mathbf {r}}<\infty }
+  
+and normalizable, so that:
+
+  
+    
+      
+        
+          ∭
+          
+            
+              
+                R
+              
+              
+                3
+              
+            
+          
+        
+        
+          |
+        
+        ψ
+        (
+        
+          
+            r
+          
+        
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        
+          
+            
+              d
+            
+          
+          
+            3
+          
+        
+        
+          
+            r
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle \iiint _{\mathbb {R} ^{3}}|\psi ({\mathbf {r}})|^{2}{\rm {d}}^{3}{\mathbf {r}}=1}
+  
+Two cases of eigenstates (and eigenvalues) are:
+for discrete eigenstates 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{i}\rangle }
+   forming a discrete basis, so the state is a sum
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          c
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ϕ
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle =\sum _{i}c_{i}|\phi _{i}\rangle }
+  
+
+where ci are complex numbers such that |ci|2 = ci*ci = probability of measuring the state 
+  
+    
+      
+        
+          |
+        
+        
+          ϕ
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\phi _{i}\rangle }
+  , and has the corresponding set of eigenvalues ai is also discrete - either finite or countably infinite,
+for a continuum of eigenstates 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{i}\rangle }
+   forming a continuous basis, so the state is an integral
+
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+        =
+        ∫
+        c
+        (
+        ϕ
+        )
+        
+          
+            d
+          
+        
+        ϕ
+        
+          |
+        
+        ϕ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle =\int c(\phi ){\rm {d}}\phi |\phi \rangle }
+  
+
+where c(φ) is a complex function such that |c(φ)|2 = c(φ)*c(φ) = probability of measuring the state 
+  
+    
+      
+        
+          |
+        
+        ϕ
+        ⟩
+      
+    
+    {\displaystyle |\phi \rangle }
+  , there is an uncountably infinite set of eigenvalues a.
+
+
+=== Linear operators in wave mechanics ===
+
+Let ψ be the wavefunction for a quantum system, and 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   be any linear operator for some observable A (such as position, momentum, energy, angular momentum etc.), then
+
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ψ
+        =
+        a
+        ψ
+        ,
+      
+    
+    {\displaystyle {\hat {A}}\psi =a\psi ,}
+  
+where:
+a is the eigenvalue of the operator, corresponding to the measured value of the observable, i.e. observable A has a measured value a
+ψ is the eigenfunction of 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   if this relation holds.
+If ψ is an eigenfunction of a given operator A, then a definite quantity (the eigenvalue a) will be observed if a measurement of the observable A is made on the state ψ. Conversely, if ψ is not an eigenfunction of A, then it has no eigenvalue for A, and the observable does not have a single definite value in that case. Instead, measurements of the observable A will yield each eigenvalue with a certain probability (related to the decomposition of ψ relative to the orthonormal eigenbasis of A).
+In bra–ket notation the above can be written;
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  
+                    
+                      A
+                      ^
+                    
+                  
+                
+                ψ
+                =
+                
+                  
+                    
+                      A
+                      ^
+                    
+                  
+                
+                ψ
+                (
+                
+                  r
+                
+                )
+                =
+                
+                  
+                    
+                      A
+                      ^
+                    
+                  
+                
+                
+                  ⟨
+                  
+                    r
+                  
+                  ∣
+                  ψ
+                  ⟩
+                
+                =
+                
+                  ⟨
+                  
+                    r
+                  
+                  ∣
+                  
+                    
+                      
+                        A
+                        ^
+                      
+                    
+                  
+                  ∣
+                  ψ
+                  ⟩
+                
+              
+            
+            
+              
+              
+                a
+                ψ
+                =
+                a
+                ψ
+                (
+                
+                  r
+                
+                )
+                =
+                a
+                
+                  ⟨
+                  
+                    r
+                  
+                  ∣
+                  ψ
+                  ⟩
+                
+                =
+                
+                  ⟨
+                  
+                    r
+                  
+                  ∣
+                  a
+                  ∣
+                  ψ
+                  ⟩
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&{\hat {A}}\psi ={\hat {A}}\psi (\mathbf {r} )={\hat {A}}\left\langle \mathbf {r} \mid \psi \right\rangle =\left\langle \mathbf {r} \mid {\hat {A}}\mid \psi \right\rangle \\&a\psi =a\psi (\mathbf {r} )=a\left\langle \mathbf {r} \mid \psi \right\rangle =\left\langle \mathbf {r} \mid a\mid \psi \right\rangle \\\end{aligned}}}
+  
+in which case 
+  
+    
+      
+        
+          |
+          ψ
+          ⟩
+        
+      
+    
+    {\displaystyle \left|\psi \right\rangle }
+   is an eigenvector, or eigenket.
+Due to linearity, vectors can be defined in any number of dimensions, as each component of the vector acts on the function separately. One mathematical example is the del operator, which is itself a vector (useful in momentum-related quantum operators, in the table below).
+An operator in n-dimensional space can be written:
+
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            e
+          
+          
+            j
+          
+        
+        
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \mathbf {\hat {A}} =\sum _{j=1}^{n}\mathbf {e} _{j}{\hat {A}}_{j}}
+  
+where ej are basis vectors corresponding to each component operator Aj. Each component will yield a corresponding eigenvalue. Acting this on the wave function ψ:
+
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ψ
+        =
+        
+          (
+          
+            ∑
+            
+              j
+              =
+              1
+            
+            
+              n
+            
+          
+          
+            
+              e
+            
+            
+              j
+            
+          
+          
+            
+              
+                
+                  A
+                  ^
+                
+              
+            
+            
+              j
+            
+          
+          )
+        
+        ψ
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          (
+          
+            
+              e
+            
+            
+              j
+            
+          
+          
+            
+              
+                
+                  A
+                  ^
+                
+              
+            
+            
+              j
+            
+          
+          ψ
+          )
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          (
+          
+            
+              e
+            
+            
+              j
+            
+          
+          
+            a
+            
+              j
+            
+          
+          ψ
+          )
+        
+      
+    
+    {\displaystyle \mathbf {\hat {A}} \psi =\left(\sum _{j=1}^{n}\mathbf {e} _{j}{\hat {A}}_{j}\right)\psi =\sum _{j=1}^{n}\left(\mathbf {e} _{j}{\hat {A}}_{j}\psi \right)=\sum _{j=1}^{n}\left(\mathbf {e} _{j}a_{j}\psi \right)}
+  
+in which
+
+  
+    
+      
+        
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          
+            j
+          
+        
+        ψ
+        =
+        
+          a
+          
+            j
+          
+        
+        ψ
+        .
+      
+    
+    {\displaystyle {\hat {A}}_{j}\psi =a_{j}\psi .}
+  
+In bra–ket notation:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  
+                    
+                      A
+                      ^
+                    
+                  
+                
+                ψ
+                =
+                
+                  
+                    
+                      A
+                      ^
+                    
+                  
+                
+                ψ
+                (
+                
+                  r
+                
+                )
+                =
+                
+                  
+                    
+                      A
+                      ^
+                    
+                  
+                
+                
+                  ⟨
+                  
+                    r
+                  
+                  ∣
+                  ψ
+                  ⟩
+                
+                =
+                
+                  ⟨
+                  
+                    r
+                  
+                  ∣
+                  
+                    
+                      
+                        A
+                        ^
+                      
+                    
+                  
+                  ∣
+                  ψ
+                  ⟩
+                
+              
+            
+            
+              
+              
+                
+                  (
+                  
+                    ∑
+                    
+                      j
+                      =
+                      1
+                    
+                    
+                      n
+                    
+                  
+                  
+                    
+                      e
+                    
+                    
+                      j
+                    
+                  
+                  
+                    
+                      
+                        
+                          A
+                          ^
+                        
+                      
+                    
+                    
+                      j
+                    
+                  
+                  )
+                
+                ψ
+                =
+                
+                  (
+                  
+                    ∑
+                    
+                      j
+                      =
+                      1
+                    
+                    
+                      n
+                    
+                  
+                  
+                    
+                      e
+                    
+                    
+                      j
+                    
+                  
+                  
+                    
+                      
+                        
+                          A
+                          ^
+                        
+                      
+                    
+                    
+                      j
+                    
+                  
+                  )
+                
+                ψ
+                (
+                
+                  r
+                
+                )
+                =
+                
+                  (
+                  
+                    ∑
+                    
+                      j
+                      =
+                      1
+                    
+                    
+                      n
+                    
+                  
+                  
+                    
+                      e
+                    
+                    
+                      j
+                    
+                  
+                  
+                    
+                      
+                        
+                          A
+                          ^
+                        
+                      
+                    
+                    
+                      j
+                    
+                  
+                  )
+                
+                
+                  ⟨
+                  
+                    r
+                  
+                  ∣
+                  ψ
+                  ⟩
+                
+                =
+                
+                  ⟨
+                  
+                    r
+                  
+                  ∣
+                  
+                    ∑
+                    
+                      j
+                      =
+                      1
+                    
+                    
+                      n
+                    
+                  
+                  
+                    
+                      e
+                    
+                    
+                      j
+                    
+                  
+                  
+                    
+                      
+                        
+                          A
+                          ^
+                        
+                      
+                    
+                    
+                      j
+                    
+                  
+                  ∣
+                  ψ
+                  ⟩
+                
+              
+            
+          
+        
+        
+        
+      
+    
+    {\displaystyle {\begin{aligned}&\mathbf {\hat {A}} \psi =\mathbf {\hat {A}} \psi (\mathbf {r} )=\mathbf {\hat {A}} \left\langle \mathbf {r} \mid \psi \right\rangle =\left\langle \mathbf {r} \mid \mathbf {\hat {A}} \mid \psi \right\rangle \\&\left(\sum _{j=1}^{n}\mathbf {e} _{j}{\hat {A}}_{j}\right)\psi =\left(\sum _{j=1}^{n}\mathbf {e} _{j}{\hat {A}}_{j}\right)\psi (\mathbf {r} )=\left(\sum _{j=1}^{n}\mathbf {e} _{j}{\hat {A}}_{j}\right)\left\langle \mathbf {r} \mid \psi \right\rangle =\left\langle \mathbf {r} \mid \sum _{j=1}^{n}\mathbf {e} _{j}{\hat {A}}_{j}\mid \psi \right\rangle \\\end{aligned}}\,\!}
+  
+
+
+=== Commutation of operators on Ψ ===
+
+If two observables A and B have linear operators 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   and 
+  
+    
+      
+        
+          
+            
+              B
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {B}}}
+  , the commutator is defined by,
+
+  
+    
+      
+        
+          [
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          ,
+          
+            
+              
+                B
+                ^
+              
+            
+          
+          ]
+        
+        =
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        −
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle \left[{\hat {A}},{\hat {B}}\right]={\hat {A}}{\hat {B}}-{\hat {B}}{\hat {A}}}
+  
+The commutator is itself a (composite) operator. Acting the commutator on ψ gives:
+
+  
+    
+      
+        
+          [
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          ,
+          
+            
+              
+                B
+                ^
+              
+            
+          
+          ]
+        
+        ψ
+        =
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        ψ
+        −
+        
+          
+            
+              B
+              ^
+            
+          
+        
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ψ
+        .
+      
+    
+    {\displaystyle \left[{\hat {A}},{\hat {B}}\right]\psi ={\hat {A}}{\hat {B}}\psi -{\hat {B}}{\hat {A}}\psi .}
+  
+If ψ is an eigenfunction with eigenvalues a and b for observables A and B respectively, and if the operators commute:
+
+  
+    
+      
+        
+          [
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          ,
+          
+            
+              
+                B
+                ^
+              
+            
+          
+          ]
+        
+        ψ
+        =
+        0
+        ,
+      
+    
+    {\displaystyle \left[{\hat {A}},{\hat {B}}\right]\psi =0,}
+  
+then the observables A and B can be measured simultaneously with infinite precision i.e. uncertainties 
+  
+    
+      
+        Δ
+        A
+        =
+        0
+      
+    
+    {\displaystyle \Delta A=0}
+  , 
+  
+    
+      
+        Δ
+        B
+        =
+        0
+      
+    
+    {\displaystyle \Delta B=0}
+   simultaneously. ψ is then said to be the simultaneous eigenfunction of A and B. To illustrate this:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  [
+                  
+                    
+                      
+                        A
+                        ^
+                      
+                    
+                  
+                  ,
+                  
+                    
+                      
+                        B
+                        ^
+                      
+                    
+                  
+                  ]
+                
+                ψ
+              
+              
+                
+                =
+                
+                  
+                    
+                      A
+                      ^
+                    
+                  
+                
+                
+                  
+                    
+                      B
+                      ^
+                    
+                  
+                
+                ψ
+                −
+                
+                  
+                    
+                      B
+                      ^
+                    
+                  
+                
+                
+                  
+                    
+                      A
+                      ^
+                    
+                  
+                
+                ψ
+              
+            
+            
+              
+              
+                
+                =
+                a
+                (
+                b
+                ψ
+                )
+                −
+                b
+                (
+                a
+                ψ
+                )
+              
+            
+            
+              
+              
+                
+                =
+                0.
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\left[{\hat {A}},{\hat {B}}\right]\psi &={\hat {A}}{\hat {B}}\psi -{\hat {B}}{\hat {A}}\psi \\&=a(b\psi )-b(a\psi )\\&=0.\\\end{aligned}}}
+  
+It shows that measurement of A and B does not cause any shift of state i.e. initial and final states are same (no disturbance due to measurement). Suppose we measure A to get value a. We then measure B to get the value b. We measure A again. We still get the same value a. Clearly the state (ψ) of the system is not destroyed and so we are able to measure A and B simultaneously with infinite precision.
+If the operators do not commute:
+
+  
+    
+      
+        
+          [
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          ,
+          
+            
+              
+                B
+                ^
+              
+            
+          
+          ]
+        
+        ψ
+        ≠
+        0
+        ,
+      
+    
+    {\displaystyle \left[{\hat {A}},{\hat {B}}\right]\psi \neq 0,}
+  
+they can't be prepared simultaneously to arbitrary precision, and there is an uncertainty relation between the observables,
+
+  
+    
+      
+        Δ
+        A
+        Δ
+        B
+        ≥
+        
+          
+            ℏ
+            2
+          
+        
+      
+    
+    {\displaystyle \Delta A\Delta B\geq {\frac {\hbar }{2}}}
+  
+even if ψ is an eigenfunction the above relation holds.. Notable pairs are position and momentum, and energy and time - uncertainty relations, and the angular momenta (spin, orbital and total) about any two orthogonal axes (such as Lx and Ly, or sy and sz etc.).
+
+
+=== Expectation values of operators on Ψ ===
+The expectation value (equivalently the average or mean value) is the average measurement of an observable, for particle in region R. The expectation value 
+  
+    
+      
+        ⟨
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ⟩
+      
+    
+    {\displaystyle \langle {\hat {A}}\rangle }
+   of the operator 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   is calculated from:
+
+  
+    
+      
+        ⟨
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ⟩
+        =
+        
+          ∫
+          
+            R
+          
+        
+        
+          ψ
+          
+            ∗
+          
+        
+        
+          (
+          
+            r
+          
+          )
+        
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        ψ
+        
+          (
+          
+            r
+          
+          )
+        
+        
+          
+            d
+          
+          
+            3
+          
+        
+        
+          r
+        
+        =
+        ⟨
+        ψ
+        
+          |
+        
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        
+          |
+        
+        ψ
+        ⟩
+        .
+      
+    
+    {\displaystyle \langle {\hat {A}}\rangle =\int _{R}\psi ^{*}\left(\mathbf {r} \right){\hat {A}}\psi \left(\mathbf {r} \right)\mathrm {d} ^{3}\mathbf {r} =\langle \psi |{\hat {A}}|\psi \rangle .}
+  
+This can be generalized to any function F of an operator:
+
+  
+    
+      
+        ⟨
+        F
+        (
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        )
+        ⟩
+        =
+        
+          ∫
+          
+            R
+          
+        
+        ψ
+        (
+        
+          r
+        
+        
+          )
+          
+            ∗
+          
+        
+        
+          [
+          F
+          (
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          )
+          ψ
+          (
+          
+            r
+          
+          )
+          ]
+        
+        
+          
+            d
+          
+          
+            3
+          
+        
+        
+          r
+        
+        =
+        ⟨
+        ψ
+        
+          |
+        
+        F
+        (
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        )
+        
+          |
+        
+        ψ
+        ⟩
+        ,
+      
+    
+    {\displaystyle \langle F({\hat {A}})\rangle =\int _{R}\psi (\mathbf {r} )^{*}\left[F({\hat {A}})\psi (\mathbf {r} )\right]\mathrm {d} ^{3}\mathbf {r} =\langle \psi |F({\hat {A}})|\psi \rangle ,}
+  
+An example of F is the 2-fold action of A on ψ, i.e. squaring an operator or doing it twice:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                F
+                (
+                
+                  
+                    
+                      A
+                      ^
+                    
+                  
+                
+                )
+                =
+                
+                  
+                    
+                      
+                        A
+                        ^
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+              
+            
+            
+              
+              
+                
+                ⇒
+                ⟨
+                
+                  
+                    
+                      
+                        A
+                        ^
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+                ⟩
+                =
+                
+                  ∫
+                  
+                    R
+                  
+                
+                
+                  ψ
+                  
+                    ∗
+                  
+                
+                
+                  (
+                  
+                    r
+                  
+                  )
+                
+                
+                  
+                    
+                      
+                        A
+                        ^
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+                ψ
+                
+                  (
+                  
+                    r
+                  
+                  )
+                
+                
+                  
+                    d
+                  
+                  
+                    3
+                  
+                
+                
+                  r
+                
+                =
+                ⟨
+                ψ
+                |
+                
+                  
+                    
+                      
+                        A
+                        ^
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+                |
+                ψ
+                ⟩
+              
+            
+          
+        
+        
+        
+      
+    
+    {\displaystyle {\begin{aligned}&F({\hat {A}})={\hat {A}}^{2}\\&\Rightarrow \langle {\hat {A}}^{2}\rangle =\int _{R}\psi ^{*}\left(\mathbf {r} \right){\hat {A}}^{2}\psi \left(\mathbf {r} \right)\mathrm {d} ^{3}\mathbf {r} =\langle \psi \vert {\hat {A}}^{2}\vert \psi \rangle \\\end{aligned}}\,\!}
+  
+
+
+=== Hermitian operators ===
+
+The definition of a Hermitian operator is:
+
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          
+            †
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}={\hat {A}}^{\dagger }}
+  
+Following from this, in bra–ket notation:
+
+  
+    
+      
+        ⟨
+        
+          ϕ
+          
+            i
+          
+        
+        
+          |
+        
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        
+          |
+        
+        
+          ϕ
+          
+            j
+          
+        
+        ⟩
+        =
+        ⟨
+        
+          ϕ
+          
+            j
+          
+        
+        
+          |
+        
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        
+          |
+        
+        
+          ϕ
+          
+            i
+          
+        
+        
+          ⟩
+          
+            ∗
+          
+        
+        .
+      
+    
+    {\displaystyle \langle \phi _{i}|{\hat {A}}|\phi _{j}\rangle =\langle \phi _{j}|{\hat {A}}|\phi _{i}\rangle ^{*}.}
+  
+Important properties of Hermitian operators include:
+real eigenvalues,
+eigenvectors with different eigenvalues are orthogonal,
+eigenvectors can be chosen to be a complete orthonormal basis,
+
+
+=== Operators in matrix mechanics ===
+An operator can be written in matrix form to map one basis vector to another. Since the operators are linear, the matrix is a linear transformation (aka transition matrix) between bases. Each basis element 
+  
+    
+      
+        
+          ϕ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \phi _{j}}
+   can be connected to another, by the expression:
+
+  
+    
+      
+        
+          A
+          
+            i
+            j
+          
+        
+        =
+        ⟨
+        
+          ϕ
+          
+            i
+          
+        
+        
+          |
+        
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        
+          |
+        
+        
+          ϕ
+          
+            j
+          
+        
+        ⟩
+        ,
+      
+    
+    {\displaystyle A_{ij}=\langle \phi _{i}|{\hat {A}}|\phi _{j}\rangle ,}
+  
+which is a matrix element:
+
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      11
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      12
+                    
+                  
+                
+                
+                  ⋯
+                
+                
+                  
+                    A
+                    
+                      1
+                      n
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      21
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      22
+                    
+                  
+                
+                
+                  ⋯
+                
+                
+                  
+                    A
+                    
+                      2
+                      n
+                    
+                  
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋱
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    A
+                    
+                      n
+                      1
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      n
+                      2
+                    
+                  
+                
+                
+                  ⋯
+                
+                
+                  
+                    A
+                    
+                      n
+                      n
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}={\begin{pmatrix}A_{11}&A_{12}&\cdots &A_{1n}\\A_{21}&A_{22}&\cdots &A_{2n}\\\vdots &\vdots &\ddots &\vdots \\A_{n1}&A_{n2}&\cdots &A_{nn}\\\end{pmatrix}}}
+  
+A further property of a Hermitian operator is that eigenfunctions corresponding to different eigenvalues are orthogonal. In matrix form, operators allow real eigenvalues to be found, corresponding to measurements. Orthogonality allows a suitable basis set of vectors to represent the state of the quantum system. The eigenvalues of the operator are also evaluated in the same way as for the square matrix, by solving the characteristic polynomial:
+
+  
+    
+      
+        det
+        
+          (
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          −
+          a
+          
+            
+              
+                I
+                ^
+              
+            
+          
+          )
+        
+        =
+        0
+        ,
+      
+    
+    {\displaystyle \det \left({\hat {A}}-a{\hat {I}}\right)=0,}
+  
+where I is the n × n identity matrix, as an operator it corresponds to the identity operator. For a discrete basis:
+
+  
+    
+      
+        
+          
+            
+              I
+              ^
+            
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ϕ
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          ϕ
+          
+            i
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle {\hat {I}}=\sum _{i}|\phi _{i}\rangle \langle \phi _{i}|}
+  
+while for a continuous basis:
+
+  
+    
+      
+        
+          
+            
+              I
+              ^
+            
+          
+        
+        =
+        ∫
+        
+          |
+        
+        ϕ
+        ⟩
+        ⟨
+        ϕ
+        
+          |
+        
+        d
+        ϕ
+      
+    
+    {\displaystyle {\hat {I}}=\int |\phi \rangle \langle \phi |d\phi }
+  
+
+
+=== Inverse of an operator ===
+A non-singular operator 
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}}
+   has an inverse 
+  
+    
+      
+        
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}^{-1}}
+   defined by:
+
+  
+    
+      
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          
+            −
+            1
+          
+        
+        =
+        
+          
+            
+              
+                A
+                ^
+              
+            
+          
+          
+            −
+            1
+          
+        
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              I
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {A}}{\hat {A}}^{-1}={\hat {A}}^{-1}{\hat {A}}={\hat {I}}}
+  
+If an operator has no inverse, it is a singular operator. In a finite-dimensional space, an operator is non-singular if and only if its determinant is nonzero:
+
+  
+    
+      
+        det
+        (
+        
+          
+            
+              A
+              ^
+            
+          
+        
+        )
+        ≠
+        0
+      
+    
+    {\displaystyle \det({\hat {A}})\neq 0}
+  
+and hence the determinant is zero for a singular operator.
+
+
+=== Table of QM operators ===
+The operators used in quantum mechanics are collected in the table below (see for example,). The bold-face vectors with circumflexes are not unit vectors, they are 3-vector operators; all three spatial components taken together.
+
+
+=== Examples of applying quantum operators ===
+The procedure for extracting information from a wave function is as follows. Consider the momentum p of a particle as an example. The momentum operator in one dimension is:
+
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {p}}=-i\hbar {\frac {\partial }{\partial x}}}
+  
+Letting this act on ψ we obtain:
+
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        ψ
+        =
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+        ψ
+        ,
+      
+    
+    {\displaystyle {\hat {p}}\psi =-i\hbar {\frac {\partial }{\partial x}}\psi ,}
+  
+if ψ is an eigenfunction of 
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {p}}}
+  , then the momentum eigenvalue p is the value of the particle's momentum, found by:
+
+  
+    
+      
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+        ψ
+        =
+        p
+        ψ
+        .
+      
+    
+    {\displaystyle -i\hbar {\frac {\partial }{\partial x}}\psi =p\psi .}
+  
+For three dimensions the momentum operator uses the nabla operator to become:
+
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        ∇
+        .
+      
+    
+    {\displaystyle \mathbf {\hat {p}} =-i\hbar \nabla .}
+  
+In Cartesian coordinates (using the standard Cartesian basis vectors ex, ey, ez) this can be written;
+
+  
+    
+      
+        
+          
+            e
+          
+          
+            
+              x
+            
+          
+        
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            x
+          
+        
+        +
+        
+          
+            e
+          
+          
+            
+              y
+            
+          
+        
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            y
+          
+        
+        +
+        
+          
+            e
+          
+          
+            
+              z
+            
+          
+        
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            z
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          (
+          
+            
+              e
+            
+            
+              
+                x
+              
+            
+          
+          
+            
+              ∂
+              
+                ∂
+                x
+              
+            
+          
+          +
+          
+            
+              e
+            
+            
+              
+                y
+              
+            
+          
+          
+            
+              ∂
+              
+                ∂
+                y
+              
+            
+          
+          +
+          
+            
+              e
+            
+            
+              
+                z
+              
+            
+          
+          
+            
+              ∂
+              
+                ∂
+                z
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {e} _{\mathrm {x} }{\hat {p}}_{x}+\mathbf {e} _{\mathrm {y} }{\hat {p}}_{y}+\mathbf {e} _{\mathrm {z} }{\hat {p}}_{z}=-i\hbar \left(\mathbf {e} _{\mathrm {x} }{\frac {\partial }{\partial x}}+\mathbf {e} _{\mathrm {y} }{\frac {\partial }{\partial y}}+\mathbf {e} _{\mathrm {z} }{\frac {\partial }{\partial z}}\right),}
+  
+that is:
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            x
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+        ,
+        
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            y
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              y
+            
+          
+        
+        ,
+        
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            z
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              z
+            
+          
+        
+        
+        
+      
+    
+    {\displaystyle {\hat {p}}_{x}=-i\hbar {\frac {\partial }{\partial x}},\quad {\hat {p}}_{y}=-i\hbar {\frac {\partial }{\partial y}},\quad {\hat {p}}_{z}=-i\hbar {\frac {\partial }{\partial z}}\,\!}
+  
+The process of finding eigenvalues is the same. Since this is a vector and operator equation, if ψ is an eigenfunction, then each component of the momentum operator will have an eigenvalue corresponding to that component of momentum. Acting 
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {\hat {p}} }
+   on ψ obtains:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      
+                        p
+                        ^
+                      
+                    
+                  
+                  
+                    x
+                  
+                
+                ψ
+              
+              
+                
+                =
+                −
+                i
+                ℏ
+                
+                  
+                    ∂
+                    
+                      ∂
+                      x
+                    
+                  
+                
+                ψ
+                =
+                
+                  p
+                  
+                    x
+                  
+                
+                ψ
+              
+            
+            
+              
+                
+                  
+                    
+                      
+                        p
+                        ^
+                      
+                    
+                  
+                  
+                    y
+                  
+                
+                ψ
+              
+              
+                
+                =
+                −
+                i
+                ℏ
+                
+                  
+                    ∂
+                    
+                      ∂
+                      y
+                    
+                  
+                
+                ψ
+                =
+                
+                  p
+                  
+                    y
+                  
+                
+                ψ
+              
+            
+            
+              
+                
+                  
+                    
+                      
+                        p
+                        ^
+                      
+                    
+                  
+                  
+                    z
+                  
+                
+                ψ
+              
+              
+                
+                =
+                −
+                i
+                ℏ
+                
+                  
+                    ∂
+                    
+                      ∂
+                      z
+                    
+                  
+                
+                ψ
+                =
+                
+                  p
+                  
+                    z
+                  
+                
+                ψ
+              
+            
+          
+        
+        
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\hat {p}}_{x}\psi &=-i\hbar {\frac {\partial }{\partial x}}\psi =p_{x}\psi \\{\hat {p}}_{y}\psi &=-i\hbar {\frac {\partial }{\partial y}}\psi =p_{y}\psi \\{\hat {p}}_{z}\psi &=-i\hbar {\frac {\partial }{\partial z}}\psi =p_{z}\psi \\\end{aligned}}\,\!}
+  
+
+
+== See also ==
+
+
+== References ==

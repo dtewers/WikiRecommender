@@ -1,0 +1,185 @@
+Medical physics (also called biomedical physics, medical biophysics or applied physics in medicine) is, generally speaking, the application of physics concepts, theories and methods to medicine or healthcare. Medical physics departments may be found in hospitals or universities.
+In the case of hospital work, the term 'Medical Physicist' is the title of a specific healthcare profession with a specific mission statement (see below). Such Medical Physicists are often found in the following healthcare specialties: diagnostic and intervention radiology (also known as medical imaging), nuclear medicine, and radiation oncology (also known as radiotherapy). However, areas of specialty are widely varied in scope and breadth, e.g. clinical physiology (also known as physiological measurement, several countries), neurophysiology (Finland), radiation protection (many countries), and audiology (Netherlands).
+University departments are of two types. The first type are mainly concerned with preparing students for a career as a hospital medical physicist and research focuses on improving the practice of the profession. A second type (increasingly called 'biomedical physics') has a much wider scope and may include research in any applications of physics to medicine from the study of biomolecular structure to microscopy and nanomedicine. For example, physicist Richard Feynman theorized about the future of nanomedicine. He wrote about the idea of a medical use for biological machines (see nanobiotechnology). Feynman and Albert Hibbs suggested that certain repair machines might one day be reduced in size to the point that it would be possible to (as Feynman put it) "swallow the doctor". The idea was discussed in Feynman's 1959 essay There's Plenty of Room at the Bottom.
+
+
+== Mission statement of Medical Physicists ==
+In the case of hospital medical physics departments, the mission statement for Medical Physicists as adopted by the European Federation of Medical Physicists is the following:
+
+"Medical Physicists will contribute to maintaining and improving the quality, safety and cost-effectiveness of healthcare services through patient-oriented activities requiring expert action, involvement or advice regarding the specification, selection, acceptance testing, commissioning, quality assurance/control and optimised clinical use of medical devices and regarding patient risks and protection from associated physical agents (e.g., x-rays, electromagnetic fields, laser light, radionuclides) including the prevention of unintended or accidental exposures; all activities will be based on current best evidence or own scientific research when the available evidence is not sufficient. The scope includes risks to volunteers in biomedical research, carers and comforters. The scope often includes risks to workers and public particularly when these impact patient risk"
+
+The term "physical agents" refers to ionising and non-ionising electromagnetic radiations, static electric and magnetic fields, ultrasound, laser light and any other Physical Agent associated with medical e.g., x-rays in computerised tomography (CT), gamma rays/radionuclides in nuclear medicine, magnetic fields and radio-frequencies in magnetic resonance imaging (MRI), ultrasound in ultrasound imaging and Doppler measurements etc.
+This mission includes the following 11 key activities:
+Scientific problem solving service: Comprehensive problem solving service involving recognition of less than optimal performance or optimised use of medical devices, identification and elimination of possible causes or misuse, and confirmation that proposed solutions have restored device performance and use to acceptable status. All activities are to be based on current best scientific evidence or own research when the available evidence is not sufficient.
+Dosimetry measurements: Measurement of doses suffered by patients, volunteers in biomedical research, carers, comforters and persons subjected to non-medical imaging exposures (e.g., for legal or employment purposes); selection, calibration and maintenance of dosimetry related instrumentation; independent checking of dose related quantities provided by dose reporting devices (including software devices); measurement of dose related quantities required as inputs to dose reporting or estimating devices (including software). Measurements to be based on current recommended techniques and protocols. Includes dosimetry of all physical agents.
+Patient safety/risk management (including volunteers in biomedical research, carers, comforters and persons subjected to non-medical imaging exposures. Surveillance of medical devices and evaluation of clinical protocols to ensure the ongoing protection of patients, volunteers in biomedical research, carers, comforters and persons subjected to non-medical imaging exposures from the deleterious effects of physical agents in accordance with the latest published evidence or own research when the available evidence is not sufficient. Includes the development of risk assessment protocols.
+Occupational and public safety/risk management (when there is an impact on medical exposure or own safety). Surveillance of medical devices and evaluation of clinical protocols with respect to protection of workers and public when impacting the exposure of patients, volunteers in biomedical research, carers, comforters and persons subjected to non-medical imaging exposures or responsibility with respect to own safety. Includes the development of risk assessment protocols in conjunction with other experts involved in occupational / public risks.
+Clinical medical device management: Specification, selection, acceptance testing, commissioning and quality assurance/ control of medical devices in accordance with the latest published European or International recommendations and the management and supervision of associated programmes. Testing to be based on current recommended techniques and protocols.
+Clinical involvement: Carrying out, participating in and supervising everyday radiation protection and quality control procedures to ensure ongoing effective and optimised use of medical radiological devices and including patient specific optimization.
+Development of service quality and cost-effectiveness: Leading the introduction of new medical radiological devices into clinical service, the introduction of new medical physics services and participating in the introduction/development of clinical protocols/techniques whilst giving due attention to economic issues.
+Expert consultancy: Provision of expert advice to outside clients (e.g., clinics with no in-house medical physics expertise).
+Education of healthcare professionals (including medical physics trainees: Contributing to quality healthcare professional education through knowledge transfer activities concerning the technical-scientific knowledge, skills and competences supporting the clinically effective, safe, evidence-based and economical use of medical radiological devices. Participation in the education of medical physics students and organisation of medical physics residency programmes.
+Health technology assessment (HTA): Taking responsibility for the physics component of health technology assessments related to medical radiological devices and /or the medical uses of radioactive substances/sources.
+Innovation: Developing new or modifying existing devices (including software) and protocols for the solution of hitherto unresolved clinical problems.
+
+
+== Medical biophysics and biomedical physics ==
+Some education institutions house departments or programs bearing the title "medical biophysics" or "biomedical physics" or "applied physics in medicine". Generally, these fall into one of two categories: interdisciplinary departments that house biophysics, radiobiology, and medical physics under a single umbrella; and undergraduate programs that prepare students for further study in medical physics, biophysics, or medicine.
+
+
+== Areas of specialty ==
+The International Organization for Medical Physics (IOMP) - the world's premier professional organization for medical physics with nearly 22,000 members in 84 countries - recognizes main areas of medical physics employment and focus. These are:
+
+
+=== Medical imaging physics ===
+
+Medical imaging physics is also known as diagnostic and interventional radiology physics. Clinical (both "in-house" and "consulting") physicists typically deal with areas of testing, optimization, and quality assurance of diagnostic radiology physics areas such as radiographic X-rays, fluoroscopy, mammography, angiography, and computed tomography, as well as non-ionizing radiation modalities such as ultrasound, and MRI. They may also be engaged with radiation protection issues such as radiation exposure monitoring and dosimetry. In addition, many imaging physicists are often also involved with nuclear medicine systems, including single photon emission computed tomography (SPECT) and positron emission tomography (PET). Sometimes, imaging physicists may be engaged in clinical areas, but for research and teaching purposes, such as e.g. quantifying intravascular ultrasound as a possible method of imaging a particular vascular object.
+
+
+=== Radiation therapeutic physics ===
+Radiation therapeutic physics is also known as radiotherapy physics or radiation oncology physics. The majority of medical physicists currently working in the US, Canada, and some western countries are of this group. A Radiation Therapy physicist typically deals with linear accelerator (Linac) systems and kilovoltage x-ray treatment units on a daily basis, as well as more advanced modalities such as TomoTherapy, gamma knife, cyberknife, proton therapy, and brachytherapy. The academic and research side of therapeutic physics may encompass fields such as boron neutron capture therapy, sealed source radiotherapy, terahertz radiation, high-intensity focused ultrasound (including lithotripsy), optical radiation lasers, ultraviolet etc. including photodynamic therapy, as well as nuclear medicine including unsealed source radiotherapy, and photomedicine, which is the use of light to treat and diagnose disease.
+
+
+=== Nuclear medicine physics ===
+This is a branch of medicine that uses radiation to provide information about the functioning of a person's specific organs or to treat disease. In most cases, the information is used by physicians to make a quick, accurate diagnosis of the patient's illness. The thyroid, bones, heart, liver and many other organs can be easily imaged, and disorders in their function revealed. In some cases radiation can be used to treat diseased organs, or tumours. Five Nobel Laureates have been intimately involved with the use of radioactive tracers in medicine. Over 10,000 hospitals worldwide use radioisotopes in medicine, and about 90% of the procedures are for diagnosis. The most common radioisotope used in diagnosis is technetium-99, with some 30 million procedures per year, accounting for 80% of all nuclear medicine procedures worldwide. In developed countries (26% of world population) the frequency of diagnostic nuclear medicine is 1.9% per year, and the frequency of therapy with radioisotopes is about one tenth of this. In the USA there are some 18 million nuclear medicine procedures per year among 311 million people, and in Europe about 10 million among 500 million people. In Australia there are about 560,000 per year among 21 million people, 470,000 of these using reactor isotopes. The use of radiopharmaceuticals in diagnosis is growing at over 10% per year. Nuclear medicine was developed in the 1950s by physicians with an endocrine emphasis, initially using iodine-131 to diagnose and then treat thyroid disease. In recent years, specialists have also come from radiology, as dual CT/PET procedures have become established. Computed X-ray tomography (CT) scans and nuclear medicine contribute 36% of the total radiation exposure and 75% of the medical exposure to the US population, according to a US National Council on Radiation Protection & Measurements report in 2009. The report showed that Americans’ average total yearly radiation exposure had increased from 3.6 millisievert to 6.2 mSv per year since the early 1980s, due to medical-related procedures. (Industrial radiation exposure, including that from nuclear power plants, is less than 0.1% of overall public radiation exposure.)
+
+
+=== Health physics ===
+Health physics is also known as Physical Hazards or Physical Safety or Radiation Safety or Radiation Protection.
+Background radiation
+Radiation protection
+Dosimetry
+Health physics
+Radiological protection of patients
+
+
+=== Clinical audiology physics ===
+Physics and acoustics for audiology: the basic physics of sound, instrumentation, and the principles of digital signal processing involved in audiological research. Topics include the physics of sound waves, room acoustics, the measurement of reverberation time; the nature of acoustic impedance; the nature of filters and amplifiers, acoustics of speech, calibration.
+
+
+=== Laser medicine ===
+Lasers and applications in medicine
+
+
+=== Medical optics ===
+Optical imaging
+
+
+=== Neurophysics ===
+Neurophysics (or neural physics) is also known as functional neuroimaging. It refers to imaging structure and function in the nervous system as well as:
+fMRI
+molecular imaging
+electrical impedance tomography
+diffuse optical imaging
+optical coherence tomography
+dual energy X-ray absorptiometry
+image-guided surgery
+
+
+=== Cardiophysics ===
+Cardiophysics (or cardiovascular physics) is using the methods of, and theories from, physics to study cardiovascular system at different levels of its organisation, from the molecular scale to whole organisms.
+Electrocardiography
+
+
+=== Physiological measurement techniques ===
+Physiological measurements have also been used to monitor and measure various physiological parameters. Many physiological measurement techniques are non-invasive and can be used in conjunction with, or as an alternative to, other invasive methods.
+Electroencephalography
+Electromyography
+Electronystagmography
+Endoscopy
+Medical ultrasonography
+Non-ionising radiation (lasers, ultraviolet etc.)
+Near infrared spectroscopy
+Pulse oximetry
+Blood gas monitor
+Blood pressure measurement
+
+
+=== Physics of the human and animal bodies ===
+(8.1) Biomechanics
+Body mass index
+Sports biomechanics
+Biofluid mechanics
+(8.2) Bioelectromagnetics of the human and animal bodies
+Bioelectrodynamics
+Biomagnetism
+Electromagnetic radiation and health
+Electrophysiology
+(8.3) Biomaterials and artificial organs
+Biomaterials for cell and organ therapies
+Cardiovascular biomaterials, artificial heart and cardiac assist devices
+Artificial skin, bones, joints, teeth and related biomaterials
+Histopathology
+Drug delivery and control release
+
+
+=== Healthcare informatics and computational physics ===
+Information and communication in medicine
+Medical informatics
+Image processing, display and visualization
+Computer-aided diagnosis
+Picture archiving and communication systems (PACS)
+Standards: DICOM, ISO, IHE
+Hospital information systems
+e-Health
+Telemedicine
+Digital operating room
+Workflow, patient-specific modeling
+Medicine on the Internet of Things
+Distant monitoring and telehomecare
+
+
+=== Areas of research and academic development ===
+
+Non-clinical physicists may or may not focus on the above areas from an academic and research point of view, but their scope of specialization may also encompass lasers and ultraviolet systems (such as photodynamic therapy), fMRI and other methods for functional imaging as well as molecular imaging, electrical impedance tomography, diffuse optical imaging, optical coherence tomography, and dual energy X-ray absorptiometry.
+
+
+== Education and training ==
+
+
+=== In Australia and New Zealand ===
+The Australasian College of Physical Scientists and Engineers in Medicine (ACPSEM) is the professional body that oversees the education and certification of medical physicists in Australia and New Zealand and has a mission to advance services and professional standards in medical physics and biomedical engineering.
+
+
+=== In Europe ===
+The presence of Medical Physicists at Expert level ('Medical Physics Experts') in healthcare in Europe is required by EC Directive 2013/59/EURATOM. The European Federation of Organizations for Medical Physics (EFOMP) has defined a detailed inventory of learning outcomes for Medical Physics Experts in terms of Knowledge, Skills and Competences (the latter in Europe means 'responsibilities'). In Europe the professional preparation for Medical Physicists consists of a first degree in Physics or equivalent (e.g., biophysics, electrical or mechanical engineering), a Masters in Medical Physics and a 2-year training Residency. For the latest EFOMP policy statement on the role and education and training requirements of the Medical Physicist and Medical Physics Expert go to. For the final version of the EC funded document 'European Guidelines on the Medical Physics Expert' download Report 174 and its annexes from.
+
+
+=== In North America ===
+In North America, medical physics training is offered at the master's, doctorate, post-doctorate and/or residency levels. Also, a professional doctorate has been recently introduced as an option. Several universities offer these degrees in Canada and the United States.
+As of October 2013, over 70 universities in North America have medical physics graduate programs or residencies that are accredited by The Commission on Accreditation of Medical Physics Education Programs (CAMPEP). The majority of residencies are therapy, but diagnostic and nuclear are also on the rise in the past several years.
+In the United States, professional certification is obtained from the American Board of Radiology (for all 4 areas), the American Board of Medical Physics (for MRI), the American Board of Science in Nuclear Medicine (for Nuc Med and PET). As of 2012, enrollment in a CAMPEP-accredited residency or graduate program is required to start the ABR certification process. Starting in 2014, completion of a CAMPEP-accredited residency will be required to advance to part 2 of the ABR certification process.
+In Canada, professional certification is obtained from the Canadian College of Physicists in Medicine. Since 2016, eligibility requirements for Radiation Oncology Physics certification includes graduation and post-graduate training from a CAMPEP accredited institution.
+
+
+=== United Kingdom ===
+From October 2011 as part of the Modernising Scientific Careers scheme, the route to accreditation as a medical physicist in England and Wales is provided by the Scientist Training Programme (STP). This scheme is a three-year graduate scheme provided by the National School of Healthcare Science. Entrants are required to have a prior undergraduate degree (1:1 or 2:1) in an appropriate physical science.
+The STP involves a part-time MSc in Medical Physics (provided by either King's College London, University of Liverpool or University of Newcastle) in addition to practical training within the National Health Service. Assessment is provided by the completion of competencies and by a final assessment similar to the OSCE undertaken by other clinical staff. Completion of the STP leads to accreditation with the Institute of Physics and Engineering in Medicine (IPEM) and registration as a Clinical Scientist.
+Prior to 2011 the training route in the United Kingdom was administered in two parts, and this scheme is still used in Scotland and Northern Ireland). Part I involved limited clinical experience and a full-time MSc in medical physics. Part II involved exclusively clinical experience in which the candidate would produce a portfolio of experience which would be submitted to the Academy for Healthcare Science which (in addition to a viva) would lead to professional accreditation with IPEM.
+
+
+=== International ===
+There are regular regional and international educational medical physics activities. The oldest of these is the International College on Medical Physics at the International Centre for Theoretical Physics (ICTP), Trieste, Italy. This College has educated more than 1000 medical physicists from developing countries.
+
+
+=== Legislative and advisory bodies ===
+ICRU: International Commission on Radiation Units and Measurements
+ICRP: International Commission on Radiological Protection
+NCRP: National Council on Radiation Protection & Measurements
+NRC: Nuclear Regulatory Commission
+FDA: Food and Drug Administration
+IAEA: International Atomic Energy Agency
+
+
+== References ==
+
+
+== External links ==
+Human Health Campus, The official website of the International Atomic Energy Agency dedicated to Professionals in Radiation Medicine. This site is managed by the Division of Human Health, Department of Nuclear Sciences and Applications
+The American Association of Physicists in Medicine
+Romanian College of Medical Physicists
+medicalphysicsweb.org from the Institute of Physics
+AIP Medical Physics portal
+Institute of Physics & Engineering in Medicine (IPEM) - UK
+European Federation of Organizations for Medical Physics (EFOMP)
+International Organization for Medical Physics (IOMP)

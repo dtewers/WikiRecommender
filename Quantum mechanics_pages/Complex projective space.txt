@@ -1,0 +1,951 @@
+In mathematics, complex projective space is the projective space with respect to the field of complex numbers. By analogy, whereas the points of a real projective space label the lines through the origin of a real Euclidean space, the points of a complex projective space label the complex lines through the origin of a complex Euclidean space (see below for an intuitive account). Formally, a complex projective space is the space of complex lines through the origin of an (n+1)-dimensional complex vector space. The space is denoted variously as P(Cn+1), Pn(C) or CPn. When n = 1, the complex projective space CP1 is the Riemann sphere, and when n = 2, CP2 is the complex projective plane (see there for a more elementary discussion).
+Complex projective space was first introduced by von Staudt (1860) as an instance of what was then known as the "geometry of position", a notion originally due to Lazare Carnot, a kind of synthetic geometry that included other projective geometries as well. Subsequently, near the turn of the 20th century it became clear to the Italian school of algebraic geometry that the complex projective spaces were the most natural domains in which to consider the solutions of polynomial equations – algebraic varieties (Grattan-Guinness 2005, pp. 445–446). In modern times, both the topology and geometry of complex projective space are well-understood and closely related to that of the sphere. Indeed, in a certain sense the (2n+1)-sphere can be regarded as a family of circles parametrized by CPn: this is the Hopf fibration. Complex projective space carries a (Kähler) metric, called the Fubini–Study metric, in terms of which it is a Hermitian symmetric space of rank 1.
+Complex projective space has many applications in both mathematics and quantum physics. In algebraic geometry, complex projective space is the home of projective varieties, a well-behaved class of algebraic varieties. In topology, the complex projective space plays an important role as a classifying space for complex line bundles: families of complex lines parametrized by another space. In this context, the infinite union of projective spaces (direct limit), denoted CP∞, is the classifying space K(Z,2). In quantum physics, the wave function associated to a pure state of a quantum mechanical system is a probability amplitude, meaning that it has unit norm, and has an inessential overall phase: that is, the wave function of a pure state is naturally a point in the projective Hilbert space of the state space.
+
+
+== Introduction ==
+
+The notion of a projective plane arises out of the idea of perspective in geometry and art: that it is sometimes useful to include in the Euclidean plane an additional "imaginary" line that represents the horizon that an artist painting the plane might see. Following each direction from the origin, there is a different point on the horizon, so the horizon can be thought of as the set of all directions from the origin. The Euclidean plane, together with its horizon, is called the real projective plane, and the horizon is sometimes called a line at infinity. By the same construction, projective spaces can be considered in higher dimensions. For instance, the real projective 3-space is a Euclidean space together with a plane at infinity that represents the horizon that an artist (who must, necessarily, live in four dimensions) would see.
+These real projective spaces can be constructed in a slightly more rigorous way as follows. Here, let Rn+1 denote the real coordinate space of n+1 dimensions, and regard the landscape to be painted as a hyperplane in this space. Suppose that the eye of the artist is the origin in Rn+1. Then along each line through his eye, there is a point of the landscape or a point on its horizon. Thus the real projective space is the space of lines through the origin in Rn+1. Without reference to coordinates, this is the space of lines through the origin in an (n+1)-dimensional real vector space.
+To describe the complex projective space in an analogous manner requires a generalization of the idea of vector, line, and direction. Imagine that instead of standing in a real Euclidean space, the artist is standing in a complex Euclidean space Cn+1 (which has real dimension 2n+2) and the landscape is a complex hyperplane (of real dimension 2n). Unlike the case of real Euclidean space, in the complex case there are directions in which the artist can look which do not see the landscape (because it does not have high enough dimension). However, in a complex space, there is an additional "phase" associated with the directions through a point, and by adjusting this phase the artist can guarantee that he typically sees the landscape. The "horizon" is then the space of directions, but such that two directions are regarded as "the same" if they differ only by a phase. The complex projective space is then the landscape (Cn) with the horizon attached "at infinity". Just like the real case, the complex projective space is the space of directions through the origin of Cn+1, where two directions are regarded as the same if they differ by a phase.
+
+
+== Construction ==
+Complex projective space is a complex manifold that may be described by n + 1 complex coordinates as
+
+  
+    
+      
+        Z
+        =
+        (
+        
+          Z
+          
+            1
+          
+        
+        ,
+        
+          Z
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          Z
+          
+            n
+            +
+            1
+          
+        
+        )
+        ∈
+        
+          
+            C
+          
+          
+            n
+            +
+            1
+          
+        
+        ,
+        
+        (
+        
+          Z
+          
+            1
+          
+        
+        ,
+        
+          Z
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          Z
+          
+            n
+            +
+            1
+          
+        
+        )
+        ≠
+        (
+        0
+        ,
+        0
+        ,
+        …
+        ,
+        0
+        )
+      
+    
+    {\displaystyle Z=(Z_{1},Z_{2},\ldots ,Z_{n+1})\in \mathbb {C} ^{n+1},\qquad (Z_{1},Z_{2},\ldots ,Z_{n+1})\neq (0,0,\ldots ,0)}
+  
+where the tuples differing by an overall rescaling are identified:
+
+  
+    
+      
+        (
+        
+          Z
+          
+            1
+          
+        
+        ,
+        
+          Z
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          Z
+          
+            n
+            +
+            1
+          
+        
+        )
+        ≡
+        (
+        λ
+        
+          Z
+          
+            1
+          
+        
+        ,
+        λ
+        
+          Z
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        λ
+        
+          Z
+          
+            n
+            +
+            1
+          
+        
+        )
+        ;
+        
+        λ
+        ∈
+        
+          C
+        
+        ,
+        
+        λ
+        ≠
+        0.
+      
+    
+    {\displaystyle (Z_{1},Z_{2},\ldots ,Z_{n+1})\equiv (\lambda Z_{1},\lambda Z_{2},\ldots ,\lambda Z_{n+1});\quad \lambda \in \mathbb {C} ,\qquad \lambda \neq 0.}
+  
+That is, these are homogeneous coordinates in the traditional sense of projective geometry. The point set CPn is covered by the patches 
+  
+    
+      
+        
+          U
+          
+            i
+          
+        
+        =
+        {
+        Z
+        ∣
+        
+          Z
+          
+            i
+          
+        
+        ≠
+        0
+        }
+      
+    
+    {\displaystyle U_{i}=\{Z\mid Z_{i}\neq 0\}}
+  . In Ui, one can define a coordinate system by
+
+  
+    
+      
+        
+          z
+          
+            1
+          
+        
+        =
+        
+          Z
+          
+            1
+          
+        
+        
+          /
+        
+        
+          Z
+          
+            i
+          
+        
+        ,
+        
+        
+          z
+          
+            2
+          
+        
+        =
+        
+          Z
+          
+            2
+          
+        
+        
+          /
+        
+        
+          Z
+          
+            i
+          
+        
+        ,
+        
+        …
+        ,
+        
+        
+          z
+          
+            i
+            −
+            1
+          
+        
+        =
+        
+          Z
+          
+            i
+            −
+            1
+          
+        
+        
+          /
+        
+        
+          Z
+          
+            i
+          
+        
+        ,
+        
+        
+          z
+          
+            i
+          
+        
+        =
+        
+          Z
+          
+            i
+            +
+            1
+          
+        
+        
+          /
+        
+        
+          Z
+          
+            i
+          
+        
+        ,
+        
+        …
+        ,
+        
+        
+          z
+          
+            n
+          
+        
+        =
+        
+          Z
+          
+            n
+            +
+            1
+          
+        
+        
+          /
+        
+        
+          Z
+          
+            i
+          
+        
+        .
+      
+    
+    {\displaystyle z_{1}=Z_{1}/Z_{i},\quad z_{2}=Z_{2}/Z_{i},\quad \dots ,\quad z_{i-1}=Z_{i-1}/Z_{i},\quad z_{i}=Z_{i+1}/Z_{i},\quad \dots ,\quad z_{n}=Z_{n+1}/Z_{i}.}
+  
+The coordinate transitions between two different such charts Ui and Uj are holomorphic functions (in fact they are fractional linear transformations). Thus CPn carries the structure of a complex manifold of complex dimension n, and a fortiori the structure of a real differentiable manifold of real dimension 2n.
+One may also regard CPn as a quotient of the unit 2n + 1 sphere in Cn+1 under the action of U(1):
+CPn = S2n+1/U(1).
+This is because every line in Cn+1 intersects the unit sphere in a circle. By first projecting to the unit sphere and then identifying under the natural action of U(1) one obtains CPn. For n = 1 this construction yields the classical Hopf bundle 
+  
+    
+      
+        
+          S
+          
+            3
+          
+        
+        →
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S^{3}\to S^{2}}
+  . From this perspective, the differentiable structure on CPn is induced from that of S2n+1, being the quotient of the latter by a compact group that acts properly.
+
+
+== Topology ==
+The topology of CPn is determined inductively by the following cell decomposition. Let H be a fixed hyperplane through the origin in Cn+1. Under the projection map Cn+1\{0} → CPn, H goes into a subspace that is homeomorphic to CPn−1. The complement of H in CPn is homeomorphic to Cn. Thus CPn arises by attaching a 2n-cell to CPn−1:
+
+  
+    
+      
+        
+          
+            C
+            P
+          
+          
+            n
+          
+        
+        =
+        
+          
+            C
+            P
+          
+          
+            n
+            −
+            1
+          
+        
+        ∪
+        
+          
+            C
+          
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle \mathbf {CP} ^{n}=\mathbf {CP} ^{n-1}\cup \mathbf {C} ^{n}.}
+  
+Alternatively, if the 2n-cell is regarded instead as the open unit ball in Cn, then the attaching map is the Hopf fibration of the boundary. An analogous inductive cell decomposition is true for all of the projective spaces; see (Besse 1978).
+
+
+=== Point-set topology ===
+Complex projective space is compact and connected, being a quotient of a compact, connected space.
+
+
+=== Homotopy groups ===
+From the fiber bundle
+
+  
+    
+      
+        
+          S
+          
+            1
+          
+        
+        ↪
+        
+          S
+          
+            2
+            n
+            +
+            1
+          
+        
+        ↠
+        
+          
+            C
+            P
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle S^{1}\hookrightarrow S^{2n+1}\twoheadrightarrow \mathbf {CP} ^{n}}
+  
+or more suggestively
+
+  
+    
+      
+        U
+        (
+        1
+        )
+        ↪
+        
+          S
+          
+            2
+            n
+            +
+            1
+          
+        
+        ↠
+        
+          
+            C
+            P
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle U(1)\hookrightarrow S^{2n+1}\twoheadrightarrow \mathbf {CP} ^{n}}
+  
+CPn is simply connected. Moreover, by the long exact homotopy sequence, the second homotopy group is π2(CPn) ≅ Z, and all the higher homotopy groups agree with those of S2n+1: πk(CPn) ≅ πk(S2n+1) for all k > 2.
+
+
+=== Homology ===
+In general, the algebraic topology of CPn is based on the rank of the homology groups being zero in odd dimensions; also H2i(CPn, Z) is infinite cyclic for i = 0 to n. Therefore, the Betti numbers run
+1, 0, 1, 0, ..., 0, 1, 0, 0, 0, ...
+That is, 0 in odd dimensions, 1 in even dimensions up to 2n. The Euler characteristic of CPn is therefore n + 1. By Poincaré duality the same is true for the ranks of the cohomology groups. In the case of cohomology, one can go further, and identify the graded ring structure, for cup product; the generator of H2(CPn, Z) is the class associated to a hyperplane, and this is a ring generator, so that the ring is isomorphic with
+Z[T]/(Tn+1),
+with T a degree two generator. This implies also that the Hodge number hi,i = 1, and all the others are zero. See (Besse 1978).
+
+
+=== K-theory ===
+It follows from induction and Bott periodicity that
+
+  
+    
+      
+        
+          K
+          
+            
+              C
+            
+          
+          
+            ∗
+          
+        
+        (
+        
+          
+            C
+            P
+          
+          
+            n
+          
+        
+        )
+        =
+        
+          K
+          
+            
+              C
+            
+          
+          
+            0
+          
+        
+        (
+        
+          
+            C
+            P
+          
+          
+            n
+          
+        
+        )
+        =
+        
+          Z
+        
+        [
+        H
+        ]
+        
+          /
+        
+        (
+        H
+        −
+        1
+        
+          )
+          
+            n
+            +
+            1
+          
+        
+        .
+      
+    
+    {\displaystyle K_{\mathbf {C} }^{*}(\mathbf {CP} ^{n})=K_{\mathbf {C} }^{0}(\mathbf {CP} ^{n})=\mathbf {Z} [H]/(H-1)^{n+1}.}
+  
+The tangent bundle satisfies
+
+  
+    
+      
+        T
+        
+          
+            C
+            P
+          
+          
+            n
+          
+        
+        ⊕
+        
+          ϑ
+          
+            1
+          
+        
+        =
+        
+          H
+          
+            ⊕
+            n
+            +
+            1
+          
+        
+        ,
+      
+    
+    {\displaystyle T\mathbf {CP} ^{n}\oplus \vartheta ^{1}=H^{\oplus n+1},}
+  
+where 
+  
+    
+      
+        
+          ϑ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \vartheta ^{1}}
+   denotes the trivial line bundle. From this, the Chern classes and characteristic numbers can be calculated.
+
+
+=== Classifying space ===
+There is a space CP∞ which, in a sense, is the inductive limit of CPn as n → ∞. It is BU(1), the classifying space of U(1), in the sense of homotopy theory, and so classifies complex line bundles; equivalently it accounts for the first Chern class. See, for instance, (Bott & Tu 1982) and (Milnor & Stasheff 1974). The space CP∞ is also the same as the infinite-dimensional projective unitary group; see that article for additional properties and discussion.
+
+
+== Differential geometry ==
+The natural metric on CPn is the Fubini–Study metric, and its holomorphic isometry group is the projective unitary group PU(n+1), where the stabilizer of a point is
+
+  
+    
+      
+        
+          P
+        
+        (
+        1
+        ×
+        
+          U
+        
+        (
+        n
+        )
+        )
+        ≅
+        
+          P
+          U
+        
+        (
+        n
+        )
+        .
+      
+    
+    {\displaystyle \mathrm {P} (1\times \mathrm {U} (n))\cong \mathrm {PU} (n).}
+  
+It is a Hermitian symmetric space (Kobayashi & Nomizu 1996), represented as a coset space
+
+  
+    
+      
+        U
+        (
+        n
+        +
+        1
+        )
+        
+          /
+        
+        (
+        U
+        (
+        1
+        )
+        ×
+        U
+        (
+        n
+        )
+        )
+        ≅
+        S
+        U
+        (
+        n
+        +
+        1
+        )
+        
+          /
+        
+        S
+        (
+        U
+        (
+        1
+        )
+        ×
+        U
+        (
+        n
+        )
+        )
+        .
+      
+    
+    {\displaystyle U(n+1)/(U(1)\times U(n))\cong SU(n+1)/S(U(1)\times U(n)).}
+  
+The geodesic symmetry at a point p is the unitary transformation that fixes p and is the negative identity on the orthogonal complement of the line represented by p.
+
+
+=== Geodesics ===
+Through any two points p, q in complex projective space, there passes a unique complex line (a CP1). A great circle of this complex line that contains p and q is a geodesic for the Fubini–Study metric. In particular, all of the geodesics are closed (they are circles), and all have equal length. (This is always true of Riemannian globally symmetric spaces of rank 1.)
+The cut locus of any point p is equal to a hyperplane CPn−1. This is also the set of fixed points of the geodesic symmetry at p (less p itself). See (Besse 1978).
+
+
+=== Sectional curvature pinching ===
+It has sectional curvature ranging from 1/4 to 1, and is the roundest manifold that is not a sphere (or covered by a sphere): by the 1/4-pinched sphere theorem, any complete, simply connected Riemannian manifold with curvature strictly between 1/4 and 1 is diffeomorphic to the sphere. Complex projective space shows that 1/4 is sharp. Conversely, if complete simply connected Riemannian manifold has sectional curvatures in the closed interval [1/4,1], then it is either diffeomorphic to the sphere, or isometric to the complex projective space, the quaternionic projective space, or else the Cayley plane F4/Spin(9); see (Brendle-Schoen 2008).
+
+
+== Algebraic geometry ==
+Complex projective space is a special case of a Grassmannian, and is a homogeneous space for various Lie groups. It is a Kähler manifold carrying the Fubini–Study metric, which is essentially determined by symmetry properties. It also plays a central role in algebraic geometry; by Chow's theorem, any compact complex submanifold of CPn is the zero locus of a finite number of polynomials, and is thus a projective algebraic variety. See (Griffiths & Harris 1994)
+
+
+=== Zariski topology ===
+
+In algebraic geometry, complex projective space can be equipped with another topology known as the Zariski topology (Hartshorne 1971, §II.2). Let S = C[Z0,...,Zn] denote the commutative ring of polynomials in the (n+1) variables Z0,...,Zn. This ring is graded by the total degree of each polynomial:
+
+  
+    
+      
+        S
+        =
+        
+          ⨁
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          S
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle S=\bigoplus _{n=0}^{\infty }S_{n}.}
+  
+Define a subset of CPn to be closed if it is the simultaneous solution set of a collection of homogeneous polynomials. Declaring the complements of the closed sets to be open, this defines a topology (the Zariski topology) on CPn.
+
+
+=== Structure as a scheme ===
+Another construction of CPn (and its Zariski topology) is possible. Let S+ ⊂ S be the ideal spanned by the homogeneous polynomials of positive degree:
+
+  
+    
+      
+        
+          ⨁
+          
+            n
+            >
+            0
+          
+        
+        
+          S
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle \bigoplus _{n>0}S_{n}.}
+  
+Define Proj S to be the set of all homogeneous prime ideals in S that do not contain S+. Call a closed of Proj S open if it has the form
+
+  
+    
+      
+        V
+        (
+        I
+        )
+        =
+        {
+        p
+        ∈
+        Proj
+        ⁡
+        S
+        ∣
+        p
+        ⊇
+        I
+        }
+      
+    
+    {\displaystyle V(I)=\{p\in \operatorname {Proj} S\mid p\supseteq I\}}
+  
+for some ideal I in S. The complements of these closed sets define a topology on Proj S. The ring S, by localization at a prime ideal, determines a sheaf of local rings on Proj S. The space Proj S, together with its topology and sheaf of local rings, is a scheme. The subset of closed points of Proj S is homeomorphic to CPn with its Zariski topology. Local sections of the sheaf are identified with the rational functions of total degree zero on CPn.
+
+
+=== Line bundles ===
+All line bundles on complex projective space can be obtained by the following construction. A function f : Cn+1\{0} → C is called homogeneous of degree k if
+
+  
+    
+      
+        f
+        (
+        λ
+        z
+        )
+        =
+        
+          λ
+          
+            k
+          
+        
+        f
+        (
+        z
+        )
+      
+    
+    {\displaystyle f(\lambda z)=\lambda ^{k}f(z)}
+  
+for all λ ∈ C\{0} and z ∈ Cn+1\{0}. More generally, this definition makes sense in cones in Cn+1\{0}. A set V ⊂ Cn+1\{0} is called a cone if, whenever v ∈ V, then λv ∈ V for all λ ∈ C\{0}; that is, a subset is a cone if it contains the complex line through each of its points. If U ⊂ CPn is an open set (in either the analytic topology or the Zariski topology), let V ⊂ Cn+1\{0} be the cone over U: the preimage of U under the projection Cn+1\{0} → CPn. Finally, for each integer k, let O(k)(U) be the set of functions that are homogeneous of degree k in V. This defines a sheaf of sections of a certain line bundle, denoted by O(k).
+In the special case k = −1, the bundle O(−1) is called the tautological line bundle. It is equivalently defined as the subbundle of the product
+
+  
+    
+      
+        
+          
+            C
+          
+          
+            n
+            +
+            1
+          
+        
+        ×
+        
+          
+            C
+            P
+          
+          
+            n
+          
+        
+        →
+        
+          
+            C
+            P
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbf {C} ^{n+1}\times \mathbf {CP} ^{n}\to \mathbf {CP} ^{n}}
+  
+whose fiber over L ∈ CPn is the set
+
+  
+    
+      
+        {
+        (
+        x
+        ,
+        L
+        )
+        ∣
+        x
+        ∈
+        L
+        }
+        .
+      
+    
+    {\displaystyle \{(x,L)\mid x\in L\}.}
+  
+These line bundles can also be described in the language of divisors. Let H = CPn−1 be a given complex hyperplane in CPn. The space of meromorphic functions on CPn with at most a simple pole along H (and nowhere else) is a one-dimensional space, denoted by O(H), and called the hyperplane bundle. The dual bundle is denoted O(−H), and the kth tensor power of O(H) is denoted by O(kH). This is the sheaf generated by holomorphic multiples of a meromorphic function with a pole of order k along H. It turns out that
+
+  
+    
+      
+        O
+        (
+        k
+        H
+        )
+        ≅
+        O
+        (
+        k
+        )
+        .
+      
+    
+    {\displaystyle O(kH)\cong O(k).}
+  
+Indeed, if L(z) = 0 is a linear defining function for H, then L−k is a meromorphic section of O(k), and locally the other sections of O(k) are multiples of this section.
+Since H1(CPn,Z) = 0, the line bundles on CPn are classified up to isomorphism by their Chern classes, which are integers: they lie in H2(CPn,Z) = Z. In fact, the first Chern classes of complex projective space are generated under Poincaré duality by the homology class associated to a hyperplane H. The line bundle O(kH) has Chern class k. Hence every holomorphic line bundle on CPn is a tensor power of O(H) or O(−H). In other words, the Picard group of CPn is generated as an abelian group by the hyperplane class [H] (Hartshorne 1977).
+
+
+== See also ==
+Gromov's inequality for complex projective space
+Projective Hilbert space
+Quaternionic projective space
+Real projective space
+Complex affine space
+
+
+== References ==
+Besse, Arthur L. (1978), Manifolds all of whose geodesics are closed, Ergebnisse der Mathematik und ihrer Grenzgebiete [Results in Mathematics and Related Areas], 93, Berlin, New York: Springer-Verlag, ISBN 978-3-540-08158-6 .
+Bott, Raoul; Tu, Loring W. (1982), Differential Forms in Algebraic Topology, Berlin, New York: Springer-Verlag, ISBN 978-0-387-90613-3 .
+Brendle, Simon; Schoen, Richard (2008), "Classification of manifolds with weakly 1/4-pinched curvatures", Acta Mathematica, 200: 1–13, doi:10.1007/s11511-008-0022-7 .
+Grattan-Guinness, Ivor (2005), Landmark writings in western mathematics 1640–1940, Elsevier, ISBN 0-444-50871-6 .
+Griffiths, Phillip; Harris, Joseph (1994), Principles of algebraic geometry, Wiley Classics Library, New York: John Wiley & Sons, ISBN 978-0-471-05059-9, MR 1288523 .
+Hartshorne, Robin (1977), Algebraic Geometry, Graduate Texts in Mathematics, 52, New York: Springer-Verlag, ISBN 978-0-387-90244-9, MR0463157 
+Klingenberg, Wilhelm (1982), Riemannian geometry, Walter de Greuter, ISBN 3-11-008673-5 .
+Kobayashi, Shoshichi; Nomizu, Katsumi (1996), Foundations of Differential Geometry, Volume II, Wiley Classics Library edition, ISBN 0-471-15732-5 .
+Milnor, John Willard; Stasheff, James D. (1974), Characteristic classes, Princeton University Press, MR 0440554 .
+von Staudt, Karl Georg Christian (1860), Beiträge zur Geometrie der Lage, Nuremberg .

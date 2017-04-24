@@ -1,0 +1,4275 @@
+The quantum harmonic oscillator is the quantum-mechanical analog of the classical harmonic oscillator. Because an arbitrary potential can usually be approximated as a harmonic potential at the vicinity of a stable equilibrium point, it is one of the most important model systems in quantum mechanics. Furthermore, it is one of the few quantum-mechanical systems for which an exact, analytical solution is known.
+
+
+== One-dimensional harmonic oscillator ==
+
+
+=== Hamiltonian and energy eigenstates ===
+
+The Hamiltonian of the particle is:
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    p
+                    ^
+                  
+                
+              
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        +
+        
+          
+            1
+            2
+          
+        
+        m
+        
+          ω
+          
+            2
+          
+        
+        
+          
+            
+              
+                x
+                ^
+              
+            
+          
+          
+            2
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle {\hat {H}}={\frac {{\hat {p}}^{2}}{2m}}+{\frac {1}{2}}m\omega ^{2}{\hat {x}}^{2}\,,}
+  
+where m is the particle's mass, ω is the angular frequency of the oscillator, ∧x is the position operator (given by x), and ∧p is the momentum operator, given by 
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        =
+        −
+        i
+        ℏ
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\hat {p}}=-i\hbar {\partial  \over \partial x}\,.}
+   The first term in the Hamiltonian represents the possible kinetic energy states of the particle, and the second term represents its corresponding possible potential energy states.
+One may write the time-independent Schrödinger equation,
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        
+          |
+          ψ
+          ⟩
+        
+        =
+        E
+        
+          |
+          ψ
+          ⟩
+        
+        
+        ,
+      
+    
+    {\displaystyle {\hat {H}}\left|\psi \right\rangle =E\left|\psi \right\rangle \,,}
+  
+where E denotes a yet-to-be-determined real number that will specify a time-independent energy level, or eigenvalue, and the solution |ψ⟩ denotes that level's energy eigenstate.
+One may solve the differential equation representing this eigenvalue problem in the coordinate basis, for the wave function ⟨x|ψ⟩ = ψ(x), using a spectral method. It turns out that there is a family of solutions. In this basis, they amount to
+
+  
+    
+      
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            1
+            
+              
+                2
+                
+                  n
+                
+              
+              
+              n
+              !
+            
+          
+        
+        ⋅
+        
+          
+            (
+            
+              
+                
+                  m
+                  ω
+                
+                
+                  π
+                  ℏ
+                
+              
+            
+            )
+          
+          
+            1
+            
+              /
+            
+            4
+          
+        
+        ⋅
+        
+          e
+          
+            −
+            
+              
+                
+                  m
+                  ω
+                  
+                    x
+                    
+                      2
+                    
+                  
+                
+                
+                  2
+                  ℏ
+                
+              
+            
+          
+        
+        ⋅
+        
+          H
+          
+            n
+          
+        
+        
+          (
+          
+            
+              
+                
+                  m
+                  ω
+                
+                ℏ
+              
+            
+          
+          x
+          )
+        
+        ,
+        
+        n
+        =
+        0
+        ,
+        1
+        ,
+        2
+        ,
+        …
+        .
+      
+    
+    {\displaystyle \psi _{n}(x)={\frac {1}{\sqrt {2^{n}\,n!}}}\cdot \left({\frac {m\omega }{\pi \hbar }}\right)^{1/4}\cdot e^{-{\frac {m\omega x^{2}}{2\hbar }}}\cdot H_{n}\left({\sqrt {\frac {m\omega }{\hbar }}}x\right),\qquad n=0,1,2,\ldots .}
+  
+The functions Hn are the physicists' Hermite polynomials,
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        (
+        z
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+         
+        
+          e
+          
+            
+              z
+              
+                2
+              
+            
+          
+        
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                z
+                
+                  n
+                
+              
+            
+          
+        
+        
+          (
+          
+            e
+            
+              −
+              
+                z
+                
+                  2
+                
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle H_{n}(z)=(-1)^{n}~e^{z^{2}}{\frac {d^{n}}{dz^{n}}}\left(e^{-z^{2}}\right).}
+  
+The corresponding energy levels are
+
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+        =
+        ℏ
+        ω
+        
+          (
+          n
+          +
+          
+            
+              1
+              2
+            
+          
+          )
+        
+        =
+        (
+        2
+        n
+        +
+        1
+        )
+        
+          
+            ℏ
+            2
+          
+        
+        ω
+        .
+      
+    
+    {\displaystyle E_{n}=\hbar \omega \left(n+{1 \over 2}\right)=(2n+1){\hbar  \over 2}\omega .}
+  
+This energy spectrum is noteworthy for three reasons. First, the energies are quantized, meaning that only discrete energy values (integer-plus-half multiples of ħω) are possible; this is a general feature of quantum-mechanical systems when a particle is confined. Second, these discrete energy levels are equally spaced, unlike in the Bohr model of the atom, or the particle in a box. Third, the lowest achievable energy (the energy of the n = 0 state, called the ground state) is not equal to the minimum of the potential well, but ħω/2 above it; this is called zero-point energy. Because of the zero-point energy, the position and momentum of the oscillator in the ground state are not fixed (as they would be in a classical oscillator), but have a small range of variance, in accordance with the Heisenberg uncertainty principle. This zero-point energy further has important implications in quantum field theory and quantum gravity.
+The ground state probability density is concentrated at the origin, which means the particle spends most of its time at the bottom of the potential well, as one would expect for a state with little energy. As the energy increases, the probability density becomes concentrated at the classical "turning points", where the state's energy coincides with the potential energy. This is consistent with the classical harmonic oscillator, in which the particle spends most of its time (and is therefore most likely to be found) at the turning points, where it is the slowest. The correspondence principle is thus satisfied. Moreover, special nondispersive wave packets, with minimum uncertainty, called coherent states oscillate very much like classical objects, as illustrated in the figure; they are not eigenstates of the Hamiltonian.
+
+
+=== Ladder operator method ===
+
+The "ladder operator" method, developed by Paul Dirac, allows extraction of the energy eigenvalues without directly solving the differential equation. It is generalizable to more complicated problems, notably in quantum field theory. Following this approach, we define the operators a and its adjoint a†,
+
+  
+    
+      
+        
+          
+            
+              
+                a
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        m
+                        ω
+                      
+                      
+                        2
+                        ℏ
+                      
+                    
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        x
+                        ^
+                      
+                    
+                  
+                  +
+                  
+                    
+                      i
+                      
+                        m
+                        ω
+                      
+                    
+                  
+                  
+                    
+                      
+                        p
+                        ^
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+                
+                  a
+                  
+                    †
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        m
+                        ω
+                      
+                      
+                        2
+                        ℏ
+                      
+                    
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        x
+                        ^
+                      
+                    
+                  
+                  −
+                  
+                    
+                      i
+                      
+                        m
+                        ω
+                      
+                    
+                  
+                  
+                    
+                      
+                        p
+                        ^
+                      
+                    
+                  
+                  )
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}a&={\sqrt {m\omega  \over 2\hbar }}\left({\hat {x}}+{i \over m\omega }{\hat {p}}\right)\\a^{\dagger }&={\sqrt {m\omega  \over 2\hbar }}\left({\hat {x}}-{i \over m\omega }{\hat {p}}\right)\end{aligned}}}
+  
+This leads to the useful representation of ∧x and ∧p,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      x
+                      ^
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        ℏ
+                        2
+                      
+                    
+                    
+                      
+                        1
+                        
+                          m
+                          ω
+                        
+                      
+                    
+                  
+                
+                (
+                
+                  a
+                  
+                    †
+                  
+                
+                +
+                a
+                )
+              
+            
+            
+              
+                
+                  
+                    
+                      p
+                      ^
+                    
+                  
+                
+              
+              
+                
+                =
+                i
+                
+                  
+                    
+                      
+                        ℏ
+                        2
+                      
+                    
+                    m
+                    ω
+                  
+                
+                (
+                
+                  a
+                  
+                    †
+                  
+                
+                −
+                a
+                )
+                 
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\hat {x}}&={\sqrt {{\frac {\hbar }{2}}{\frac {1}{m\omega }}}}(a^{\dagger }+a)\\{\hat {p}}&=i{\sqrt {{\frac {\hbar }{2}}m\omega }}(a^{\dagger }-a)~.\end{aligned}}}
+  
+The operator a is not Hermitian, since itself and its adjoint a† are not equal. The energy eigenstates |n⟩, when operated on by these ladder operators, give
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  a
+                  
+                    †
+                  
+                
+                
+                  |
+                
+                n
+                ⟩
+              
+              
+                
+                =
+                
+                  
+                    n
+                    +
+                    1
+                  
+                
+                ∣
+                n
+                +
+                1
+                ⟩
+              
+            
+            
+              
+                a
+                
+                  |
+                
+                n
+                ⟩
+              
+              
+                
+                =
+                
+                  
+                    n
+                  
+                
+                ∣
+                n
+                −
+                1
+                ⟩
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}a^{\dagger }|n\rangle &={\sqrt {n+1}}\mid n+1\rangle \\a|n\rangle &={\sqrt {n}}\mid n-1\rangle .\end{aligned}}}
+  
+It is then evident that a†, in essence, appends a single quantum of energy to the oscillator, while a removes a quantum. For this reason, they are sometimes referred to as "creation" and "annihilation" operators.
+From the relations above, we can also define a number operator N, which has the following property:
+
+  
+    
+      
+        
+          
+            
+              
+                N
+              
+              
+                
+                =
+                
+                  a
+                  
+                    †
+                  
+                
+                a
+              
+            
+            
+              
+                N
+                
+                  |
+                  n
+                  ⟩
+                
+              
+              
+                
+                =
+                n
+                
+                  |
+                  n
+                  ⟩
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}N&=a^{\dagger }a\\N\left|n\right\rangle &=n\left|n\right\rangle .\end{aligned}}}
+  
+The following commutators can be easily obtained by substituting the canonical commutation relation,
+
+  
+    
+      
+        [
+        a
+        ,
+        
+          a
+          
+            †
+          
+        
+        ]
+        =
+        1
+        ,
+        
+        [
+        N
+        ,
+        
+          a
+          
+            †
+          
+        
+        ]
+        =
+        
+          a
+          
+            †
+          
+        
+        ,
+        
+        [
+        N
+        ,
+        a
+        ]
+        =
+        −
+        a
+        ,
+      
+    
+    {\displaystyle [a,a^{\dagger }]=1,\qquad [N,a^{\dagger }]=a^{\dagger },\qquad [N,a]=-a,}
+  
+And the Hamilton operator can be expressed as
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        =
+        ℏ
+        ω
+        
+          (
+          N
+          +
+          
+            
+              1
+              2
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle {\hat {H}}=\hbar \omega \left(N+{\frac {1}{2}}\right),}
+  
+so the eigenstate of N is also the eigenstate of energy.
+The commutation property yields
+
+  
+    
+      
+        
+          
+            
+              
+                N
+                
+                  a
+                  
+                    †
+                  
+                
+                
+                  |
+                
+                n
+                ⟩
+              
+              
+                
+                =
+                
+                  (
+                  
+                    a
+                    
+                      †
+                    
+                  
+                  N
+                  +
+                  [
+                  N
+                  ,
+                  
+                    a
+                    
+                      †
+                    
+                  
+                  ]
+                  )
+                
+                
+                  |
+                
+                n
+                ⟩
+              
+            
+            
+              
+              
+                
+                =
+                
+                  (
+                  
+                    a
+                    
+                      †
+                    
+                  
+                  N
+                  +
+                  
+                    a
+                    
+                      †
+                    
+                  
+                  )
+                
+                
+                  |
+                
+                n
+                ⟩
+              
+            
+            
+              
+              
+                
+                =
+                (
+                n
+                +
+                1
+                )
+                
+                  a
+                  
+                    †
+                  
+                
+                
+                  |
+                
+                n
+                ⟩
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}Na^{\dagger }|n\rangle &=\left(a^{\dagger }N+[N,a^{\dagger }]\right)|n\rangle \\&=\left(a^{\dagger }N+a^{\dagger }\right)|n\rangle \\&=(n+1)a^{\dagger }|n\rangle ,\end{aligned}}}
+  
+and similarly,
+
+  
+    
+      
+        N
+        a
+        
+          |
+        
+        n
+        ⟩
+        =
+        (
+        n
+        −
+        1
+        )
+        a
+        ∣
+        n
+        ⟩
+        .
+      
+    
+    {\displaystyle Na|n\rangle =(n-1)a\mid n\rangle .}
+  
+This means that a acts on |n⟩ to produce, up to a multiplicative constant, |n–1⟩, and a† acts on |n⟩ to produce |n+1⟩. For this reason, a is called a "lowering operator", and a† a "raising operator". The two operators together are called ladder operators. In quantum field theory, a and a† are alternatively called "annihilation" and "creation" operators because they destroy and create particles, which correspond to our quanta of energy.
+Given any energy eigenstate, we can act on it with the lowering operator, a, to produce another eigenstate with ħω less energy. By repeated application of the lowering operator, it seems that we can produce energy eigenstates down to E = −∞. However, since
+
+  
+    
+      
+        n
+        =
+        ⟨
+        n
+        ∣
+        N
+        ∣
+        n
+        ⟩
+        =
+        ⟨
+        n
+        ∣
+        
+          a
+          
+            †
+          
+        
+        a
+        ∣
+        n
+        ⟩
+        =
+        
+          
+            (
+            a
+            ∣
+            n
+            ⟩
+            )
+          
+          
+            †
+          
+        
+        a
+        ∣
+        n
+        ⟩
+        ⩾
+        0
+        ,
+      
+    
+    {\displaystyle n=\langle n\mid N\mid n\rangle =\langle n\mid a^{\dagger }a\mid n\rangle =\left(a\mid n\rangle \right)^{\dagger }a\mid n\rangle \geqslant 0,}
+  
+the smallest eigen-number is 0, and
+
+  
+    
+      
+        a
+        
+          |
+          0
+          ⟩
+        
+        =
+        0.
+      
+    
+    {\displaystyle a\left|0\right\rangle =0.}
+  
+In this case, subsequent applications of the lowering operator will just produce zero kets, instead of additional energy eigenstates. Furthermore, we have shown above that
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        
+          |
+          0
+          ⟩
+        
+        =
+        
+          
+            
+              ℏ
+              ω
+            
+            2
+          
+        
+        
+          |
+          0
+          ⟩
+        
+      
+    
+    {\displaystyle {\hat {H}}\left|0\right\rangle ={\frac {\hbar \omega }{2}}\left|0\right\rangle }
+  
+Finally, by acting on |0⟩ with the raising operator and multiplying by suitable normalization factors, we can produce an infinite set of energy eigenstates
+
+  
+    
+      
+        
+          {
+          
+            |
+            0
+            ⟩
+          
+          ,
+          
+            |
+            1
+            ⟩
+          
+          ,
+          
+            |
+            2
+            ⟩
+          
+          ,
+          …
+          ,
+          
+            |
+            n
+            ⟩
+          
+          ,
+          …
+          }
+        
+        ,
+      
+    
+    {\displaystyle \left\{\left|0\right\rangle ,\left|1\right\rangle ,\left|2\right\rangle ,\ldots ,\left|n\right\rangle ,\ldots \right\},}
+  
+such that
+
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+        
+          |
+          n
+          ⟩
+        
+        =
+        ℏ
+        ω
+        
+          (
+          n
+          +
+          
+            
+              1
+              2
+            
+          
+          )
+        
+        
+          |
+          n
+          ⟩
+        
+        ,
+      
+    
+    {\displaystyle {\hat {H}}\left|n\right\rangle =\hbar \omega \left(n+{\frac {1}{2}}\right)\left|n\right\rangle ,}
+  
+which matches the energy spectrum given in the preceding section.
+Arbitrary eigenstates can be expressed in terms of |0⟩,
+
+  
+    
+      
+        
+          |
+        
+        n
+        ⟩
+        =
+        
+          
+            
+              (
+              
+                a
+                
+                  †
+                
+              
+              
+                )
+                
+                  n
+                
+              
+            
+            
+              n
+              !
+            
+          
+        
+        
+          |
+        
+        0
+        ⟩
+        .
+      
+    
+    {\displaystyle |n\rangle ={\frac {(a^{\dagger })^{n}}{\sqrt {n!}}}|0\rangle .}
+  
+Proof:
+
+  
+    
+      
+        
+          
+            
+              
+                ⟨
+                n
+                ∣
+                a
+                
+                  a
+                  
+                    †
+                  
+                
+                
+                  |
+                
+                n
+                ⟩
+              
+              
+                
+                =
+                ⟨
+                n
+                
+                  |
+                
+                
+                  (
+                  [
+                  a
+                  ,
+                  
+                    a
+                    
+                      †
+                    
+                  
+                  ]
+                  +
+                  
+                    a
+                    
+                      †
+                    
+                  
+                  a
+                  )
+                
+                ∣
+                n
+                ⟩
+                =
+                ⟨
+                n
+                
+                  |
+                
+                (
+                N
+                +
+                1
+                )
+                
+                  |
+                
+                n
+                ⟩
+                =
+                n
+                +
+                1
+              
+            
+            
+              
+                ⇒
+                
+                  a
+                  
+                    †
+                  
+                
+                ∣
+                n
+                ⟩
+              
+              
+                
+                =
+                
+                  
+                    n
+                    +
+                    1
+                  
+                
+                ∣
+                n
+                +
+                1
+                ⟩
+              
+            
+            
+              
+                ⇒
+                
+                  |
+                
+                n
+                ⟩
+              
+              
+                
+                =
+                
+                  
+                    
+                      a
+                      
+                        †
+                      
+                    
+                    
+                      n
+                    
+                  
+                
+                ∣
+                n
+                −
+                1
+                ⟩
+                =
+                
+                  
+                    
+                      (
+                      
+                        a
+                        
+                          †
+                        
+                      
+                      
+                        )
+                        
+                          2
+                        
+                      
+                    
+                    
+                      n
+                      (
+                      n
+                      −
+                      1
+                      )
+                    
+                  
+                
+                ∣
+                n
+                −
+                2
+                ⟩
+                =
+                ⋯
+                =
+                
+                  
+                    
+                      (
+                      
+                        a
+                        
+                          †
+                        
+                      
+                      
+                        )
+                        
+                          n
+                        
+                      
+                    
+                    
+                      n
+                      !
+                    
+                  
+                
+                
+                  |
+                
+                0
+                ⟩
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\langle n\mid aa^{\dagger }|n\rangle &=\langle n|\left([a,a^{\dagger }]+a^{\dagger }a\right)\mid n\rangle =\langle n|(N+1)|n\rangle =n+1\\\Rightarrow a^{\dagger }\mid n\rangle &={\sqrt {n+1}}\mid n+1\rangle \\\Rightarrow |n\rangle &={\frac {a^{\dagger }}{\sqrt {n}}}\mid n-1\rangle ={\frac {(a^{\dagger })^{2}}{\sqrt {n(n-1)}}}\mid n-2\rangle =\cdots ={\frac {(a^{\dagger })^{n}}{\sqrt {n!}}}|0\rangle .\end{aligned}}}
+  
+
+The ground state |0⟩ in the position representation is determined by a |0⟩ = 0,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ⟨
+                  x
+                  ∣
+                  a
+                  ∣
+                  0
+                  ⟩
+                
+              
+              
+                
+                =
+                0
+              
+            
+            
+              
+                ⇒
+                
+                  (
+                  x
+                  +
+                  
+                    
+                      ℏ
+                      
+                        m
+                        ω
+                      
+                    
+                  
+                  
+                    
+                      d
+                      
+                        d
+                        x
+                      
+                    
+                  
+                  )
+                
+                
+                  ⟨
+                  x
+                  ∣
+                  0
+                  ⟩
+                
+              
+              
+                
+                =
+                0
+              
+            
+            
+              
+                ⇒
+                
+                  ⟨
+                  x
+                  ∣
+                  0
+                  ⟩
+                
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        
+                          m
+                          ω
+                        
+                        
+                          π
+                          ℏ
+                        
+                      
+                    
+                    )
+                  
+                  
+                    
+                      1
+                      4
+                    
+                  
+                
+                exp
+                ⁡
+                
+                  (
+                  −
+                  
+                    
+                      
+                        m
+                        ω
+                      
+                      
+                        2
+                        ℏ
+                      
+                    
+                  
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ψ
+                  
+                    0
+                  
+                
+                 
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\left\langle x\mid a\mid 0\right\rangle &=0\\\Rightarrow \left(x+{\frac {\hbar }{m\omega }}{\frac {d}{dx}}\right)\left\langle x\mid 0\right\rangle &=0\\\Rightarrow \left\langle x\mid 0\right\rangle &=\left({\frac {m\omega }{\pi \hbar }}\right)^{\frac {1}{4}}\exp \left(-{\frac {m\omega }{2\hbar }}x^{2}\right)\\&=\psi _{0}~,\end{aligned}}}
+  
+and hence
+
+  
+    
+      
+        ⟨
+        x
+        ∣
+        
+          a
+          
+            †
+          
+        
+        ∣
+        0
+        ⟩
+        =
+        
+          ψ
+          
+            1
+          
+        
+        (
+        x
+        )
+         
+        ,
+      
+    
+    {\displaystyle \langle x\mid a^{\dagger }\mid 0\rangle =\psi _{1}(x)~,}
+  
+
+so 
+  
+    
+      
+        
+          ψ
+          
+            1
+          
+        
+        (
+        x
+        ,
+        t
+        )
+        =
+        ⟨
+        x
+        ∣
+        
+          e
+          
+            −
+            3
+            i
+            ω
+            t
+            
+              /
+            
+            2
+          
+        
+        
+          a
+          
+            †
+          
+        
+        ∣
+        0
+        ⟩
+      
+    
+    {\displaystyle \psi _{1}(x,t)=\langle x\mid e^{-3i\omega t/2}a^{\dagger }\mid 0\rangle }
+  , and so on, as in the previous section.
+
+
+=== Natural length and energy scales ===
+The quantum harmonic oscillator possesses natural scales for length and energy, which can be used to simplify the problem. These can be found by nondimensionalization.
+The result is that, if we measure energy in units of ħω and distance in units of √ħ/(mω), then the Hamiltonian simplifies to
+
+  
+    
+      
+        H
+        =
+        −
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          
+            
+              d
+              
+                2
+              
+            
+            
+              d
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          x
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle H=-{\tfrac {1}{2}}{d^{2} \over dx^{2}}+{\tfrac {1}{2}}x^{2},}
+  
+while the energy eigenfunctions and eigenvalues simplify to
+
+  
+    
+      
+        
+          ψ
+          
+            n
+          
+        
+        (
+        x
+        )
+        ≡
+        
+          ⟨
+          x
+          ∣
+          n
+          ⟩
+        
+        =
+        
+          
+            1
+            
+              
+                
+                  2
+                  
+                    n
+                  
+                
+                n
+                !
+              
+            
+          
+        
+         
+        
+          π
+          
+            −
+            1
+            
+              /
+            
+            4
+          
+        
+        exp
+        ⁡
+        (
+        −
+        
+          x
+          
+            2
+          
+        
+        
+          /
+        
+        2
+        )
+        
+          H
+          
+            n
+          
+        
+        (
+        x
+        )
+        ,
+      
+    
+    {\displaystyle \psi _{n}(x)\equiv \left\langle x\mid n\right\rangle ={1 \over {\sqrt {2^{n}n!}}}~\pi ^{-1/4}\exp(-x^{2}/2)H_{n}(x),}
+  
+
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+        =
+        n
+        +
+        
+          
+            
+              1
+              2
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle E_{n}=n+{\tfrac {1}{2}},}
+  
+where Hn(x) are the Hermite polynomials.
+To avoid confusion, we will not adopt these "natural units" in this article. However, they frequently come in handy when performing calculations, by bypassing clutter.
+For example, the fundamental solution (propagator) of H−i∂t, the time-dependent Schrödinger operator for this oscillator, simply boils down to the Mehler kernel,
+
+  
+    
+      
+        ⟨
+        x
+        ∣
+        exp
+        ⁡
+        (
+        −
+        i
+        t
+        H
+        )
+        ∣
+        y
+        ⟩
+        ≡
+        K
+        (
+        x
+        ,
+        y
+        ;
+        t
+        )
+        =
+        
+          
+            1
+            
+              2
+              π
+              i
+              sin
+              ⁡
+              t
+            
+          
+        
+        exp
+        ⁡
+        
+          (
+          
+            
+              i
+              
+                2
+                sin
+                ⁡
+                t
+              
+            
+          
+          
+            (
+            (
+            
+              x
+              
+                2
+              
+            
+            +
+            
+              y
+              
+                2
+              
+            
+            )
+            cos
+            ⁡
+            t
+            −
+            2
+            x
+            y
+            )
+          
+          )
+        
+         
+        ,
+      
+    
+    {\displaystyle \langle x\mid \exp(-itH)\mid y\rangle \equiv K(x,y;t)={\frac {1}{\sqrt {2\pi i\sin t}}}\exp \left({\frac {i}{2\sin t}}\left((x^{2}+y^{2})\cos t-2xy\right)\right)~,}
+  
+where K(x,y;0) =δ(x − y). The most general solution for a given initial configuration ψ(x,0) then is simply
+
+  
+    
+      
+        ψ
+        (
+        x
+        ,
+        t
+        )
+        =
+        ∫
+        d
+        y
+         
+        K
+        (
+        x
+        ,
+        y
+        ;
+        t
+        )
+        ψ
+        (
+        y
+        ,
+        0
+        )
+         
+        .
+      
+    
+    {\displaystyle \psi (x,t)=\int dy~K(x,y;t)\psi (y,0)~.}
+  
+
+
+=== Phase space solutions ===
+In the phase space formulation of quantum mechanics, solutions to the quantum harmonic oscillator in several different representations of the quasiprobability distribution can be written in closed form. The most widely used of these is for the Wigner quasiprobability distribution, which has the solution
+
+  
+    
+      
+        
+          F
+          
+            n
+          
+        
+        (
+        u
+        )
+        =
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  n
+                
+              
+            
+            
+              π
+              ℏ
+            
+          
+        
+        
+          L
+          
+            n
+          
+        
+        
+          (
+          4
+          
+            
+              u
+              
+                ℏ
+                ω
+              
+            
+          
+          )
+        
+        
+          e
+          
+            −
+            2
+            u
+            
+              /
+            
+            ℏ
+            ω
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle F_{n}(u)={\frac {(-1)^{n}}{\pi \hbar }}L_{n}\left(4{\frac {u}{\hbar \omega }}\right)e^{-2u/\hbar \omega }~,}
+  
+where
+
+  
+    
+      
+        u
+        =
+        
+          
+            1
+            2
+          
+        
+        m
+        
+          ω
+          
+            2
+          
+        
+        
+          x
+          
+            2
+          
+        
+        +
+        
+          
+            
+              p
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+      
+    
+    {\displaystyle u={\frac {1}{2}}m\omega ^{2}x^{2}+{\frac {p^{2}}{2m}}}
+  
+and Ln are the Laguerre polynomials.
+This example illustrates how the Hermite and Laguerre polynomials are linked through the Wigner map.
+
+
+== N-dimensional harmonic oscillator ==
+The one-dimensional harmonic oscillator is readily generalizable to N dimensions, where N = 1, 2, 3, ... . In one dimension, the position of the particle was specified by a single coordinate, x. In N dimensions, this is replaced by N position coordinates, which we label x1, ..., xN. Corresponding to each position coordinate is a momentum; we label these p1, ..., pN. The canonical commutation relations between these operators are
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  [
+                
+                
+                  x
+                  
+                    i
+                  
+                
+                ,
+                
+                  p
+                  
+                    j
+                  
+                
+                
+                  ]
+                
+              
+              
+                
+                =
+                i
+                ℏ
+                
+                  δ
+                  
+                    i
+                    ,
+                    j
+                  
+                
+              
+            
+            
+              
+                
+                  [
+                
+                
+                  x
+                  
+                    i
+                  
+                
+                ,
+                
+                  x
+                  
+                    j
+                  
+                
+                
+                  ]
+                
+              
+              
+                
+                =
+                0
+              
+            
+            
+              
+                
+                  [
+                
+                
+                  p
+                  
+                    i
+                  
+                
+                ,
+                
+                  p
+                  
+                    j
+                  
+                
+                
+                  ]
+                
+              
+              
+                
+                =
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{[}x_{i},p_{j}{]}&=i\hbar \delta _{i,j}\\{[}x_{i},x_{j}{]}&=0\\{[}p_{i},p_{j}{]}&=0\end{aligned}}}
+  
+The Hamiltonian for this system is
+
+  
+    
+      
+        H
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          (
+          
+            
+              
+                p
+                
+                  i
+                
+                
+                  2
+                
+              
+              
+                2
+                m
+              
+            
+          
+          +
+          
+            
+              1
+              2
+            
+          
+          m
+          
+            ω
+            
+              2
+            
+          
+          
+            x
+            
+              i
+            
+            
+              2
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle H=\sum _{i=1}^{N}\left({p_{i}^{2} \over 2m}+{1 \over 2}m\omega ^{2}x_{i}^{2}\right).}
+  
+As the form of this Hamiltonian makes clear, the N-dimensional harmonic oscillator is exactly analogous to N independent one-dimensional harmonic oscillators with the same mass and spring constant. In this case, the quantities x1, ..., xN would refer to the positions of each of the N particles. This is a convenient property of the 
+  
+    
+      
+        
+          r
+          
+            2
+          
+        
+      
+    
+    {\displaystyle r^{2}}
+   potential, which allows the potential energy to be separated into terms depending on one coordinate each.
+This observation makes the solution straightforward. For a particular set of quantum numbers {n} the energy eigenfunctions for the N-dimensional oscillator are expressed in terms of the 1-dimensional eigenfunctions as:
+
+  
+    
+      
+        ⟨
+        
+          x
+        
+        
+          |
+        
+        
+          ψ
+          
+            {
+            n
+            }
+          
+        
+        ⟩
+        =
+        
+          ∏
+          
+            i
+            =
+            1
+          
+          
+            N
+          
+        
+        ⟨
+        
+          x
+          
+            i
+          
+        
+        ∣
+        
+          ψ
+          
+            
+              n
+              
+                i
+              
+            
+          
+        
+        ⟩
+      
+    
+    {\displaystyle \langle \mathbf {x} |\psi _{\{n\}}\rangle =\prod _{i=1}^{N}\langle x_{i}\mid \psi _{n_{i}}\rangle }
+  
+In the ladder operator method, we define N sets of ladder operators,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  a
+                  
+                    i
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        m
+                        ω
+                      
+                      
+                        2
+                        ℏ
+                      
+                    
+                  
+                
+                
+                  (
+                  
+                    x
+                    
+                      i
+                    
+                  
+                  +
+                  
+                    
+                      i
+                      
+                        m
+                        ω
+                      
+                    
+                  
+                  
+                    p
+                    
+                      i
+                    
+                  
+                  )
+                
+                ,
+              
+            
+            
+              
+                
+                  a
+                  
+                    i
+                  
+                  
+                    †
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        m
+                        ω
+                      
+                      
+                        2
+                        ℏ
+                      
+                    
+                  
+                
+                
+                  (
+                  
+                    x
+                    
+                      i
+                    
+                  
+                  −
+                  
+                    
+                      i
+                      
+                        m
+                        ω
+                      
+                    
+                  
+                  
+                    p
+                    
+                      i
+                    
+                  
+                  )
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}a_{i}&={\sqrt {m\omega  \over 2\hbar }}\left(x_{i}+{i \over m\omega }p_{i}\right),\\a_{i}^{\dagger }&={\sqrt {m\omega  \over 2\hbar }}\left(x_{i}-{i \over m\omega }p_{i}\right).\end{aligned}}}
+  
+By an analogous procedure to the one-dimensional case, we can then show that each of the ai and a†i operators lower and raise the energy by ℏω respectively. The Hamiltonian is
+
+  
+    
+      
+        H
+        =
+        ℏ
+        ω
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          (
+          
+            a
+            
+              i
+            
+            
+              †
+            
+          
+          
+          
+            a
+            
+              i
+            
+          
+          +
+          
+            
+              1
+              2
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle H=\hbar \omega \,\sum _{i=1}^{N}\left(a_{i}^{\dagger }\,a_{i}+{\frac {1}{2}}\right).}
+  
+This Hamiltonian is invariant under the dynamic symmetry group U(N) (the unitary group in N dimensions), defined by
+
+  
+    
+      
+        U
+        
+        
+          a
+          
+            i
+          
+          
+            †
+          
+        
+        
+        
+          U
+          
+            †
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          a
+          
+            j
+          
+          
+            †
+          
+        
+        
+        
+          U
+          
+            j
+            i
+          
+        
+        
+        
+          for all
+        
+        
+        U
+        ∈
+        U
+        (
+        N
+        )
+        ,
+      
+    
+    {\displaystyle U\,a_{i}^{\dagger }\,U^{\dagger }=\sum _{j=1}^{N}a_{j}^{\dagger }\,U_{ji}\quad {\text{for all}}\quad U\in U(N),}
+  
+where 
+  
+    
+      
+        
+          U
+          
+            j
+            i
+          
+        
+      
+    
+    {\displaystyle U_{ji}}
+   is an element in the defining matrix representation of U(N).
+The energy levels of the system are
+
+  
+    
+      
+        E
+        =
+        ℏ
+        ω
+        
+          [
+          (
+          
+            n
+            
+              1
+            
+          
+          +
+          ⋯
+          +
+          
+            n
+            
+              N
+            
+          
+          )
+          +
+          
+            
+              N
+              2
+            
+          
+          ]
+        
+        .
+      
+    
+    {\displaystyle E=\hbar \omega \left[(n_{1}+\cdots +n_{N})+{N \over 2}\right].}
+  
+
+  
+    
+      
+        
+          n
+          
+            i
+          
+        
+        =
+        0
+        ,
+        1
+        ,
+        2
+        ,
+        …
+        
+        (
+        
+          the energy level in dimension 
+        
+        i
+        )
+        .
+      
+    
+    {\displaystyle n_{i}=0,1,2,\dots \quad ({\text{the energy level in dimension }}i).}
+  
+As in the one-dimensional case, the energy is quantized. The ground state energy is N times the one-dimensional ground energy, as we would expect using the analogy to N independent one-dimensional oscillators. There is one further difference: in the one-dimensional case, each energy level corresponds to a unique quantum state. In N-dimensions, except for the ground state, the energy levels are degenerate, meaning there are several states with the same energy.
+The degeneracy can be calculated relatively easily. As an example, consider the 3-dimensional case: Define n = n1 + n2 + n3. All states with the same n will have the same energy. For a given n, we choose a particular n1. Then n2 + n3 = n − n1. There are n − n1 + 1 possible pairs {n2, n3}. n2 can take on the values 0 to n − n1, and for each n2 the value of n3 is fixed. The degree of degeneracy therefore is:
+
+  
+    
+      
+        
+          g
+          
+            n
+          
+        
+        =
+        
+          ∑
+          
+            
+              n
+              
+                1
+              
+            
+            =
+            0
+          
+          
+            n
+          
+        
+        n
+        −
+        
+          n
+          
+            1
+          
+        
+        +
+        1
+        =
+        
+          
+            
+              (
+              n
+              +
+              1
+              )
+              (
+              n
+              +
+              2
+              )
+            
+            2
+          
+        
+      
+    
+    {\displaystyle g_{n}=\sum _{n_{1}=0}^{n}n-n_{1}+1={\frac {(n+1)(n+2)}{2}}}
+  
+Formula for general N and n [gn being the dimension of the symmetric irreducible nth power representation of the unitary group U(N)]:
+
+  
+    
+      
+        
+          g
+          
+            n
+          
+        
+        =
+        
+          
+            
+              (
+            
+            
+              
+                N
+                +
+                n
+                −
+                1
+              
+              n
+            
+            
+              )
+            
+          
+        
+      
+    
+    {\displaystyle g_{n}={\binom {N+n-1}{n}}}
+  
+The special case N = 3, given above, follows directly from this general equation. This is however, only true for distinguishable particles, or one particle in N dimensions (as dimensions are distinguishable). For the case of N bosons in a one-dimension harmonic trap, the degeneracy scales as the number of ways to partition an integer n using integers less than or equal to N.
+
+  
+    
+      
+        
+          g
+          
+            n
+          
+        
+        =
+        p
+        (
+        
+          N
+          
+            −
+          
+        
+        ,
+        n
+        )
+      
+    
+    {\displaystyle g_{n}=p(N_{-},n)}
+  
+This arises due to the constraint of putting N quanta into a state ket where 
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        k
+        
+          n
+          
+            k
+          
+        
+        =
+        n
+      
+    
+    {\displaystyle \sum _{k=0}^{\infty }kn_{k}=n}
+   and 
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          n
+          
+            k
+          
+        
+        =
+        N
+      
+    
+    {\displaystyle \sum _{k=0}^{\infty }n_{k}=N}
+  , which are the same constraints as in integer partition.
+
+
+=== Example: 3D isotropic harmonic oscillator ===
+The Schrödinger equation of a spherically-symmetric three-dimensional harmonic oscillator can be solved explicitly by separation of variables; see this article for the present case. This procedure is analogous to the separation performed in the hydrogen-like atom problem, but with the spherically symmetric potential
+
+  
+    
+      
+        V
+        (
+        r
+        )
+        =
+        
+          
+            1
+            2
+          
+        
+        μ
+        
+          ω
+          
+            2
+          
+        
+        
+          r
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle V(r)={1 \over 2}\mu \omega ^{2}r^{2},}
+  
+where μ is the mass of the problem. (Because m will be used below for the magnetic quantum number, mass is indicated by μ, instead of m, as earlier in this article.)
+The solution reads
+
+  
+    
+      
+        
+          ψ
+          
+            k
+            l
+            m
+          
+        
+        (
+        r
+        ,
+        θ
+        ,
+        ϕ
+        )
+        =
+        
+          N
+          
+            k
+            l
+          
+        
+        
+          r
+          
+            l
+          
+        
+        
+          e
+          
+            −
+            ν
+            
+              r
+              
+                2
+              
+            
+          
+        
+        
+          L
+          
+            k
+          
+          
+            (
+            l
+            +
+            
+              
+                1
+                2
+              
+            
+            )
+          
+        
+        (
+        2
+        ν
+        
+          r
+          
+            2
+          
+        
+        )
+        
+          Y
+          
+            l
+            m
+          
+        
+        (
+        θ
+        ,
+        ϕ
+        )
+      
+    
+    {\displaystyle \psi _{klm}(r,\theta ,\phi )=N_{kl}r^{l}e^{-\nu r^{2}}L_{k}^{(l+{1 \over 2})}(2\nu r^{2})Y_{lm}(\theta ,\phi )}
+  
+where
+
+  
+    
+      
+        
+          N
+          
+            k
+            l
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    2
+                    
+                      ν
+                      
+                        3
+                      
+                    
+                  
+                  π
+                
+              
+            
+            
+              
+                
+                  
+                    2
+                    
+                      k
+                      +
+                      2
+                      l
+                      +
+                      3
+                    
+                  
+                  
+                  k
+                  !
+                  
+                  
+                    ν
+                    
+                      l
+                    
+                  
+                
+                
+                  (
+                  2
+                  k
+                  +
+                  2
+                  l
+                  +
+                  1
+                  )
+                  !
+                  !
+                
+              
+            
+          
+        
+         
+         
+      
+    
+    {\displaystyle N_{kl}={\sqrt {{\sqrt {\frac {2\nu ^{3}}{\pi }}}{\frac {2^{k+2l+3}\;k!\;\nu ^{l}}{(2k+2l+1)!!}}}}~~}
+   is a normalization constant; 
+  
+    
+      
+        ν
+        ≡
+        
+          
+            
+              μ
+              ω
+            
+            
+              2
+              ℏ
+            
+          
+        
+         
+      
+    
+    {\displaystyle \nu \equiv {\mu \omega  \over 2\hbar }~}
+  ;
+
+  
+    
+      
+        
+          
+            
+              L
+              
+                k
+              
+            
+          
+          
+            (
+            l
+            +
+            
+              
+                1
+                2
+              
+            
+            )
+          
+        
+        (
+        2
+        ν
+        
+          r
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle {L_{k}}^{(l+{1 \over 2})}(2\nu r^{2})}
+  
+are generalized Laguerre polynomials; The order k of the polynomial is a non-negative integer;
+
+  
+    
+      
+        
+          Y
+          
+            l
+            m
+          
+        
+        (
+        θ
+        ,
+        ϕ
+        )
+        
+      
+    
+    {\displaystyle Y_{lm}(\theta ,\phi )\,}
+   is a spherical harmonic function;
+ħ is the reduced Planck constant:   
+  
+    
+      
+        ℏ
+        ≡
+        
+          
+            h
+            
+              2
+              π
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \hbar \equiv {\frac {h}{2\pi }}~.}
+  
+The energy eigenvalue is
+
+  
+    
+      
+        E
+        =
+        ℏ
+        ω
+        
+          (
+          2
+          k
+          +
+          l
+          +
+          
+            
+              3
+              2
+            
+          
+          )
+        
+         
+        .
+      
+    
+    {\displaystyle E=\hbar \omega \left(2k+l+{\frac {3}{2}}\right)~.}
+  
+The energy is usually described by the single quantum number
+
+  
+    
+      
+        n
+        ≡
+        2
+        k
+        +
+        l
+         
+        .
+      
+    
+    {\displaystyle n\equiv 2k+l~.}
+  
+Because k is a non-negative integer, for every even n we have ℓ = 0, 2, ...,n − 2, n and for every odd n we have ℓ =1,3,...,n − 2,n . The magnetic quantum number m is an integer satisfying −ℓ ≤ m ≤ ℓ, so for every n and ℓ there are 2ℓ + 1 different quantum states, labeled by m . Thus, the degeneracy at level n is
+
+  
+    
+      
+        
+          ∑
+          
+            l
+            =
+            …
+            ,
+            n
+            −
+            2
+            ,
+            n
+          
+        
+        (
+        2
+        l
+        +
+        1
+        )
+        =
+        
+          
+            
+              (
+              n
+              +
+              1
+              )
+              (
+              n
+              +
+              2
+              )
+            
+            2
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle \sum _{l=\ldots ,n-2,n}(2l+1)={(n+1)(n+2) \over 2}~,}
+  
+where the sum starts from 0 or 1, according to whether n is even or odd. This result is in accordance with the dimension formula above, and amounts to the dimensionality of a symmetric representation of SU(3), the relevant degeneracy group.
+
+
+== Harmonic oscillators lattice: phonons ==
+We can extend the notion of a harmonic oscillator to a one lattice of many particles. Consider a one-dimensional quantum mechanical harmonic chain of N identical atoms. This is the simplest quantum mechanical model of a lattice, and we will see how phonons arise from it. The formalism that we will develop for this model is readily generalizable to two and three dimensions.
+As in the previous section, we denote the positions of the masses by x1,x2,..., as measured from their equilibrium positions (i.e. xi = 0 if the particle i is at its equilibrium position.) In two or more dimensions, the xi are vector quantities. The Hamiltonian for this system is
+
+  
+    
+      
+        
+          H
+        
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          
+            
+              p
+              
+                i
+              
+              
+                2
+              
+            
+            
+              2
+              m
+            
+          
+        
+        +
+        
+          
+            1
+            2
+          
+        
+        m
+        
+          ω
+          
+            2
+          
+        
+        
+          ∑
+          
+            {
+            i
+            j
+            }
+            (
+            n
+            n
+            )
+          
+        
+        (
+        
+          x
+          
+            i
+          
+        
+        −
+        
+          x
+          
+            j
+          
+        
+        
+          )
+          
+            2
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle \mathbf {H} =\sum _{i=1}^{N}{p_{i}^{2} \over 2m}+{1 \over 2}m\omega ^{2}\sum _{\{ij\}(nn)}(x_{i}-x_{j})^{2}~,}
+  
+where m is the (assumed uniform) mass of each atom, and xi and pi are the position and momentum operators for the i th atom and the sum is made over the nearest neighbors (nn). However, it is customary to rewrite the Hamiltonian in terms of the normal modes of the wavevector rather than in terms of the particle coordinates so that one can work in the more convenient Fourier space.
+We introduce, then, a set of N "normal coordinates" Qk, defined as the discrete Fourier transforms of the xs, and N "conjugate momenta" Π defined as the Fourier transforms of the ps,
+
+  
+    
+      
+        
+          Q
+          
+            k
+          
+        
+        =
+        
+          
+            1
+            
+              
+                N
+              
+            
+          
+        
+        
+          ∑
+          
+            l
+          
+        
+        
+          e
+          
+            i
+            k
+            a
+            l
+          
+        
+        
+          x
+          
+            l
+          
+        
+      
+    
+    {\displaystyle Q_{k}={1 \over {\sqrt {N}}}\sum _{l}e^{ikal}x_{l}}
+  
+
+  
+    
+      
+        
+          Π
+          
+            k
+          
+        
+        =
+        
+          
+            1
+            
+              
+                N
+              
+            
+          
+        
+        
+          ∑
+          
+            l
+          
+        
+        
+          e
+          
+            −
+            i
+            k
+            a
+            l
+          
+        
+        
+          p
+          
+            l
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \Pi _{k}={1 \over {\sqrt {N}}}\sum _{l}e^{-ikal}p_{l}~.}
+  
+The quantity kn will turn out to be the wave number of the phonon, i.e. 2π divided by the wavelength. It takes on quantized values, because the number of atoms is finite.
+This preserves the desired commutation relations in either real space or wave vector space
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  [
+                  
+                    x
+                    
+                      l
+                    
+                  
+                  ,
+                  
+                    p
+                    
+                      m
+                    
+                  
+                  ]
+                
+              
+              
+                
+                =
+                i
+                ℏ
+                
+                  δ
+                  
+                    l
+                    ,
+                    m
+                  
+                
+              
+            
+            
+              
+                
+                  [
+                  
+                    Q
+                    
+                      k
+                    
+                  
+                  ,
+                  
+                    Π
+                    
+                      
+                        k
+                        ′
+                      
+                    
+                  
+                  ]
+                
+              
+              
+                
+                =
+                
+                  
+                    1
+                    N
+                  
+                
+                
+                  ∑
+                  
+                    l
+                    ,
+                    m
+                  
+                
+                
+                  e
+                  
+                    i
+                    k
+                    a
+                    l
+                  
+                
+                
+                  e
+                  
+                    −
+                    i
+                    
+                      k
+                      ′
+                    
+                    a
+                    m
+                  
+                
+                [
+                
+                  x
+                  
+                    l
+                  
+                
+                ,
+                
+                  p
+                  
+                    m
+                  
+                
+                ]
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      i
+                      ℏ
+                    
+                    N
+                  
+                
+                
+                  ∑
+                  
+                    m
+                  
+                
+                
+                  e
+                  
+                    i
+                    a
+                    m
+                    (
+                    k
+                    −
+                    
+                      k
+                      ′
+                    
+                    )
+                  
+                
+                =
+                i
+                ℏ
+                
+                  δ
+                  
+                    k
+                    ,
+                    
+                      k
+                      ′
+                    
+                  
+                
+              
+            
+            
+              
+                
+                  [
+                  
+                    Q
+                    
+                      k
+                    
+                  
+                  ,
+                  
+                    Q
+                    
+                      
+                        k
+                        ′
+                      
+                    
+                  
+                  ]
+                
+              
+              
+                
+                =
+                
+                  [
+                  
+                    Π
+                    
+                      k
+                    
+                  
+                  ,
+                  
+                    Π
+                    
+                      
+                        k
+                        ′
+                      
+                    
+                  
+                  ]
+                
+                =
+                0
+                 
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\left[x_{l},p_{m}\right]&=i\hbar \delta _{l,m}\\\left[Q_{k},\Pi _{k'}\right]&={1 \over N}\sum _{l,m}e^{ikal}e^{-ik'am}[x_{l},p_{m}]\\&={i\hbar  \over N}\sum _{m}e^{iam(k-k')}=i\hbar \delta _{k,k'}\\\left[Q_{k},Q_{k'}\right]&=\left[\Pi _{k},\Pi _{k'}\right]=0~.\end{aligned}}}
+  
+From the general result
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ∑
+                  
+                    l
+                  
+                
+                
+                  x
+                  
+                    l
+                  
+                
+                
+                  x
+                  
+                    l
+                    +
+                    m
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    1
+                    N
+                  
+                
+                
+                  ∑
+                  
+                    k
+                    
+                      k
+                      ′
+                    
+                  
+                
+                
+                  Q
+                  
+                    k
+                  
+                
+                
+                  Q
+                  
+                    
+                      k
+                      ′
+                    
+                  
+                
+                
+                  ∑
+                  
+                    l
+                  
+                
+                
+                  e
+                  
+                    i
+                    a
+                    l
+                    
+                      (
+                      k
+                      +
+                      
+                        k
+                        ′
+                      
+                      )
+                    
+                  
+                
+                
+                  e
+                  
+                    i
+                    a
+                    m
+                    
+                      k
+                      ′
+                    
+                  
+                
+                =
+                
+                  ∑
+                  
+                    k
+                  
+                
+                
+                  Q
+                  
+                    k
+                  
+                
+                
+                  Q
+                  
+                    −
+                    k
+                  
+                
+                
+                  e
+                  
+                    i
+                    a
+                    m
+                    k
+                  
+                
+              
+            
+            
+              
+                
+                  ∑
+                  
+                    l
+                  
+                
+                
+                  
+                    
+                      p
+                      
+                        l
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    k
+                  
+                
+                
+                  Π
+                  
+                    k
+                  
+                
+                
+                  Π
+                  
+                    −
+                    k
+                  
+                
+                 
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sum _{l}x_{l}x_{l+m}&={1 \over N}\sum _{kk'}Q_{k}Q_{k'}\sum _{l}e^{ial\left(k+k'\right)}e^{iamk'}=\sum _{k}Q_{k}Q_{-k}e^{iamk}\\\sum _{l}{p_{l}}^{2}&=\sum _{k}\Pi _{k}\Pi _{-k}~,\end{aligned}}}
+  
+it is easy to show, through elementary trigonometry, that the potential energy term is
+
+  
+    
+      
+        
+          
+            1
+            2
+          
+        
+        m
+        
+          ω
+          
+            2
+          
+        
+        
+          ∑
+          
+            j
+          
+        
+        (
+        
+          x
+          
+            j
+          
+        
+        −
+        
+          x
+          
+            j
+            +
+            1
+          
+        
+        
+          )
+          
+            2
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        m
+        
+          ω
+          
+            2
+          
+        
+        
+          ∑
+          
+            k
+          
+        
+        
+          Q
+          
+            k
+          
+        
+        
+          Q
+          
+            −
+            k
+          
+        
+        (
+        2
+        −
+        
+          e
+          
+            i
+            k
+            a
+          
+        
+        −
+        
+          e
+          
+            −
+            i
+            k
+            a
+          
+        
+        )
+        =
+        
+          
+            1
+            2
+          
+        
+        m
+        
+          ∑
+          
+            k
+          
+        
+        
+          
+            
+              ω
+              
+                k
+              
+            
+          
+          
+            2
+          
+        
+        
+          Q
+          
+            k
+          
+        
+        
+          Q
+          
+            −
+            k
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle {1 \over 2}m\omega ^{2}\sum _{j}(x_{j}-x_{j+1})^{2}={1 \over 2}m\omega ^{2}\sum _{k}Q_{k}Q_{-k}(2-e^{ika}-e^{-ika})={1 \over 2}m\sum _{k}{\omega _{k}}^{2}Q_{k}Q_{-k}~,}
+  
+where
+
+  
+    
+      
+        
+          ω
+          
+            k
+          
+        
+        =
+        
+          
+            2
+            
+              ω
+              
+                2
+              
+            
+            (
+            1
+            −
+            cos
+            ⁡
+            (
+            k
+            a
+            )
+            )
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \omega _{k}={\sqrt {2\omega ^{2}(1-\cos(ka))}}~.}
+  
+The Hamiltonian may be written in wave vector space as
+
+  
+    
+      
+        
+          H
+        
+        =
+        
+          
+            1
+            
+              2
+              m
+            
+          
+        
+        
+          ∑
+          
+            k
+          
+        
+        
+          (
+          
+            
+              Π
+              
+                k
+              
+            
+            
+              Π
+              
+                −
+                k
+              
+            
+          
+          +
+          
+            m
+            
+              2
+            
+          
+          
+            ω
+            
+              k
+            
+            
+              2
+            
+          
+          
+            Q
+            
+              k
+            
+          
+          
+            Q
+            
+              −
+              k
+            
+          
+          )
+        
+         
+        .
+      
+    
+    {\displaystyle \mathbf {H} ={1 \over {2m}}\sum _{k}\left({\Pi _{k}\Pi _{-k}}+m^{2}\omega _{k}^{2}Q_{k}Q_{-k}\right)~.}
+  
+Note that the couplings between the position variables have been transformed away; if the Qs and Πs were hermitian(which they are not), the transformed Hamiltonian would describe N uncoupled harmonic oscillators.
+The form of the quantization depends on the choice of boundary conditions; for simplicity, we impose periodic boundary conditions, defining the (N + 1)th atom as equivalent to the first atom. Physically, this corresponds to joining the chain at its ends. The resulting quantization is
+
+  
+    
+      
+        k
+        =
+        
+          k
+          
+            n
+          
+        
+        =
+        
+          
+            
+              2
+              n
+              π
+            
+            
+              N
+              a
+            
+          
+        
+        
+        
+          for
+        
+         
+        n
+        =
+        0
+        ,
+        ±
+        1
+        ,
+        ±
+        2
+        ,
+        …
+        ,
+        ±
+        
+          
+            N
+            2
+          
+        
+        .
+         
+      
+    
+    {\displaystyle k=k_{n}={2n\pi  \over Na}\quad {\hbox{for}}\ n=0,\pm 1,\pm 2,\ldots ,\pm {N \over 2}.\ }
+  
+The upper bound to n comes from the minimum wavelength, which is twice the lattice spacing a, as discussed above.
+The harmonic oscillator eigenvalues or energy levels for the mode ωk are
+
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+        =
+        
+          (
+          
+            
+              1
+              2
+            
+          
+          +
+          n
+          )
+        
+        ℏ
+        
+          ω
+          
+            k
+          
+        
+        
+        
+        
+        n
+        =
+        0
+        ,
+        1
+        ,
+        2
+        ,
+        3
+        ,
+        …
+      
+    
+    {\displaystyle E_{n}=\left({1 \over 2}+n\right)\hbar \omega _{k}\quad \quad \quad n=0,1,2,3,\ldots }
+  
+
+If we ignore the zero-point energy then the levels are evenly spaced at
+
+  
+    
+      
+        ℏ
+        ω
+        ,
+        
+        2
+        ℏ
+        ω
+        ,
+        
+        3
+        ℏ
+        ω
+        ,
+        
+        …
+      
+    
+    {\displaystyle \hbar \omega ,\,2\hbar \omega ,\,3\hbar \omega ,\,\ldots }
+  
+
+So an exact amount of energy ħω, must be supplied to the harmonic oscillator lattice to push it to the next energy level. In comparison to the photon case when the electromagnetic field is quantised, the quantum of vibrational energy is called a phonon.
+All quantum systems show wave-like and particle-like properties. The particle-like properties of the phonon are best understood using the methods of second quantization and operator techniques described later.
+
+
+== Applications ==
+The vibrations of a diatomic molecule are an example of a two-body version of the quantum harmonic oscillator. In this case, the angular frequency is given by
+
+  
+    
+      
+        ω
+        =
+        
+          
+            
+              k
+              μ
+            
+          
+        
+      
+    
+    {\displaystyle \omega ={\sqrt {\frac {k}{\mu }}}}
+  
+
+where μ = m1m2/(m1 + m2) is the reduced mass and is determined by the masses m1, m2 of the two atoms.
+The Hooke's atom is a simple model of the helium atom using the quantum harmonic oscillator
+Modelling phonons, as discussed above
+A charge, q, with mass, m, in a uniform magnetic field, B, is an example of a one-dimensional quantum harmonic oscillator: the Landau quantization.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Quantum Harmonic Oscillator
+Calculation using a noncommutative free monoid: (mathematical version) / (abbreviated version)
+Rationale for choosing the ladder operators
+Live 3D intensity plots of quantum harmonic oscillator
+Driven and damped quantum harmonic oscillator (lecture notes of course "quantum optics in electric circuits")

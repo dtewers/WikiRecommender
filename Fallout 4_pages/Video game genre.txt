@@ -1,0 +1,34 @@
+A video game genre is a classification assigned to a video game based on its gameplay interaction rather than visual or narrative differences. A video game genre is defined by a set of gameplay challenges and are classified independent of their setting or game-world content, unlike other works of fiction such as films or books. For example, a shooter game is still a shooter game, regardless of where it takes place.
+As with nearly all varieties of genre classification, the matter of any individual video game's specific genre is open to personal interpretation. Moreover, each individual game may belong to several genres at once.
+
+
+== History ==
+The first attempt to classify different genres of video games was made by Chris Crawford in his book The Art of Computer Game Design in 1984. In this book, Crawford primarily focused on the player's experience and activities required for gameplay. Here, he also stated that "the state of computer game design is changing quickly. We would therefore expect the taxonomy presented [in this book] to become obsolete or inadequate in a short time." Since then, among other genres, the platformer and 3D shooter genres, which hardly existed at the time, have gained a lot of popularity.
+Though genres were mostly just interesting for game studies in the 1980s, the business of video games expanded in the 1990s and both smaller and independent publishers had little chance of surviving. Because of this, games settled more into set genres that larger publishers and retailers could use for marketing.
+
+
+== Definition ==
+
+Due to "direct and active participation" of the player, video game genres differ from literary and film genres. Though one could state that Space Invaders is a science-fiction video game, such a classification "ignores the differences and similarities which are to be found in the player's experience of the game." In contrast to the visual aesthetics of games, which can vary greatly, it is argued that it is interactivity characteristics that are common to all games. Focusing on these characteristics would allow a more "nuanced, meaningful and critical vocabulary for discussing video games." Regardless, there is little agreement on how game genres are created or classified, resulting in multiple classification schemes.
+Descriptive names of genres take into account the goals of the game, the protagonist and even the perspective offered to the player. For example, a first-person shooter is a game that is played from a first-person perspective and involves the practice of shooting. The term "subgenre" may be used to refer to a category within a genre to further specify the genre of the game under discussion. Whereas "shooter game" is a genre name, "first-person shooter" and "third-person shooter" are common subgenres of the shooter genre. Other examples of such prefixes are real-time, turn based, top-down and side-scrolling.
+Video games may have aspects that don't fall within the genre the game is classified in. However, Aberrations are tolerated to some degree. For example, one of the weapons in a shooter game might be something other than a gun, which may be seen as a "breach" in the game's rules. If a shooter game only featured weapons that aren't guns, it would no longer be accepted as a representative of its genre and the game might fail commercially because of its misleading label.
+The target audience, underlying theme or purpose of a game are sometimes used as a genre identifier, such as with "games for girls," "Christian game" and "Serious game" respectively. However, because these terms do not indicate anything about the gameplay of a video game, these are not considered genres.
+
+
+== In practice ==
+Video game genres vary in specificity, with popular video game reviews using genre names varying from "action" to "baseball." In this practice, basic themes and more fundamental characteristics are used alongside each other.
+A game may combine aspects of multiple genres in such a way that it becomes hard to classify under existing genres. For example, because Grand Theft Auto III combined shooting, driving and roleplaying in an unusual way, it was hard to classify using existing terms. Since then, the term Grand Theft Auto clone has been used to describe games mechanically similar to Grand Theft Auto III. Similarly, the term Roguelike has been developed for games that share similarities with Rogue.
+Elements of the role-playing genre, which focuses on storytelling and character improvements, have been implemented in many different genres of video games. This is because the addition of a story to action, strategy or puzzle video games does not take away from the core gameplay, but adds an incentive other than survival to the experience.
+
+
+== Studies ==
+Studying of video game genres as a discipline has only been done to some extent. As a "historical genre," video game genres developed naturally and are therefore uncategorized. According to Lars Konzack of the University of Copenhagen, "One should not expect that [a formal approach] may fully describe the field of video game genres," though "[t]hat is not to say, that no formal approach is unwelcome or discouraged." Furthermore, Konzack states that "with every new video game, video game genres slowly or radically transform," with most games having small changes, but once in a while, a new game comes along to radically change how a specific genre is perceived.
+Richard van Eck argues that there are multiple ways for categorizing video game genres in use, one of them being the "popular" genre system used by game publishers and the mainstream gaming press. These are used by players as well to interpret the characteristics of individual games. Another way of defining genres are proposed by designers, who have extended and revised the "popular" genre system. Lastly, van Eck claims that academics in various disciplines have approached the topic in their own way and attempted to create a categorization of video games. Though all of these approaches share the objective of making meaningful distinctions, they differ somewhat in purpose. Where publishers and marketers use genres as a "buzzword" to attract sales, academics might attempt to understand "how the issue of genre fits into digital games as extended from a tradition of print-based writing ... film, and other forms of cultural production."
+
+
+== See also ==
+List of video game genres
+Game classification
+
+
+== References ==

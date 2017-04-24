@@ -1,0 +1,75 @@
+Metacritic is a website that aggregates reviews of media products: music albums, games, movies, TV shows, DVDs, and formerly, books. For each product, the scores from each review are averaged. Metacritic was created by Jason Dietz, Marc Doyle, and Julie Doyle Roberts. The site provides an excerpt from each review and hyperlinks to its source. A color of Green, Yellow or Red summarizes the critics' recommendations and therefore the general appeal of the product to reviewers and, to a lesser extent, the public. It is regarded as the video game industry's foremost review aggregator.
+Metacritic's scoring converts each review into a percentage, either mathematically from the mark given, or which the site decides subjectively from a qualitative review. Before being averaged, the scores are weighted according to the critic's fame, stature, and volume of reviews.
+
+
+== History ==
+Metacritic was launched in July 1999 by Marc Doyle, his sister Julie Doyle Roberts, and a classmate from the University of Southern California law school, Jason Dietz. Rotten Tomatoes was already compiling movie reviews, but Doyle, Roberts, and Dietz saw an opportunity to cover a broader range of media. They sold Metacritic to CNET in 2005. CNET and Metacritic are now owned by the CBS Corporation.
+Nick Wingfield of The Wall Street Journal wrote in September 2004: "Mr. Doyle, 36, is now a senior product manager at CNET but he also acts as games editor of Metacritic". Speaking of video games, Doyle said: "A site like ours helps people cut through...unobjective promotional language". "By giving consumers, and web users specifically, early information on the objective quality of a game, not only are they more educated about their choices, but it forces publishers to demand more from their developers, license owners to demand more from their licensees, and eventually, hopefully, the games get better". He added that the review process was not taken as seriously when unconnected magazines and websites provided reviews in isolation.
+In August 2010, the website's appearance was revamped; reaction from users was overwhelmingly negative.
+
+
+== Metascores ==
+Scores are weighted averages. Certain publications are given more significance "because of their stature".
+Games Editor Marc Doyle was interviewed by Keith Stuart of The Guardian to "get a look behind the metascoring process". Stuart wrote: "the metascore phenomenon, namely Metacritic and GameRankings, have become an enormously important element of online games journalism over the past few years". Doyle said that because video games lead to a greater investment of time and money, gamers are more informed about reviews than are fans of film or music; they want to know "whether that hotly anticipated title is going to deliver."
+The ranging of metascores is:
+
+
+== Video games ==
+Metacritic is regarded as the foremost online review aggregation site for the video game industry.
+Nick Wingfield of The Wall Street Journal has written that Metacritic "influence[s] the sales of games and the stocks of video game publishers". He explains its influence as coming from the higher cost of buying video games than music or movie tickets. Many executives say that low scores "can hurt the long-term sales potential". Wingfield wrote that Wall Street pays attention to Metacritic and GameRankings because the sites typically post scores before sales data are publicly available, citing the respective rapid rise and fall in company values after BioShock and Spider-Man 3 were released.
+In an interview with The Guardian, Marc Doyle cited "two major publishers" that "conducted comprehensive statistical surveys through which they've been able to draw a correlation between high metascores and stronger sales" in certain genres. He claimed that an increasing number of businesses and financial analysts use Metacritic as "an early indicator of a game's potential sales and, by extension, the publisher's stock price."
+In 2004, Jason Hall of Warner Bros. began "including 'quality metrics' in contracts with partners licensing its movies for games". If a product does not at least achieve a specific score, some deals require the publisher to pay higher royalties.
+In 2008, Microsoft began using Metacritic averages to de-list underperforming Xbox Live Arcade games.
+
+
+=== Game ranking ===
+These are the top 10 individual games with the highest scores on the site as of 2 April 2017. Because games get separate scores for each platform release, duplicates have been removed and games ranked according to the highest ranked release.
+
+
+=== Best game per year ===
+This a list of the games with the best metascore per year since 1995 (as of 2 April 2017), excluding ports and iOS titles.
+
+
+=== Best exclusive per platform ===
+This list shows the best exclusive game of each platform on Metacritic.
+1 The Legend of Zelda: Ocarina of Time 3D has a higher score, but is not an exclusive (it is a 3DS remake of The Legend of Zelda: Ocarina of Time).
+2 Persona 4 Golden has a higher score, but is not an exclusive (it is a PS Vita port of Persona 4).
+3 The Legend of Zelda: Breath of the Wild has a higher score, but is not an exclusive (it was released to both the Nintendo Switch and the Wii U)
+4 The Last of Us Remastered has a higher score, but it is not an exclusive (it is a PS4 remaster of The Last of Us).
+
+
+=== Criticism ===
+Some game reviewers take issue with the way Metacritic assigns scores. When a reviewer gives a rating of "A", Metacritic assigns it a value of 100, and for "F" a value of zero; some think a score of 50 would be more appropriate. For a "B", Metacritic assigns a value of 67, yet some publishers, developers, and websurfers believe it should be closer to 80, according to a conventional linear scale. Joe Dodson, former editor at Game Revolution, criticized Metacritic and similar sites, for turning reviews into scores that are too low. However, Doyle responded: "I feel that ANY scale simply needs to be converted directly with its lowest possible grade equating to 0, and the highest to 100."
+Doyle said that some publishers want him to include extra critics, and exclude others, usually because they have given a poor review. Another common complaint from US publishers is that British critics should not be reviewing games that are based on American sports like the NFL, NASCAR, or the NBA. Doyle said: "Conversely, many European publishers feel that American critics are not qualified or properly situated to review football, rally, F1, cricket and rugby games...once I've decided to track a publication, I cannot pick and choose which reviews I list on Metacritic based on such individual judgments".
+Publishers often try to persuade Doyle to exclude reviews they feel are unfair, but he said that once a publication is included he refuses to omit any of its reviews. A Washington Post review of Uncharted 4 was assessed by Metacritic with a rating of 40%, despite the original review carrying no score; this was the only "negative" review of the game. Gamers who did not like the review petitioned Metacritic to remove the Post as a trusted source.
+As a result of its perceived negative influence on the industry, several reviewing sites, including Kotaku and Eurogamer have dropped numerical reviews that would appear in Metacritic, instead favoring a qualitative assessment of a game.
+Metacritic has been criticised for how it handles banning users and their reviews, with no notice or formal process for appeal, and users have complained to the Better Business Bureau about the difficulty of contacting the company. Critics and developers have pointed out the website's lack of personal management along with its automatic systems, since a video-game can be 'bombed' (with "troll voting") with 0/10 ratings to damage its reputation. Signal Studios president and creative director Douglas Albright described the website as having "no standards".
+
+
+== Films ==
+Metacritic lists over 9,000 films ranked by aggregate score. As of 15 April 2017, the top 10 movies are:
+
+
+== Television ==
+As of 2 April 2017, the top television shows are:
+
+
+== Music ==
+As of 2 April 2017, the top albums are:
+
+
+== Critic weights ==
+Metacritic has said that it will not reveal the relative weight assigned to each reviewer.
+
+
+== See also ==
+Internet Movie Database (IMDb)
+Rating site
+
+
+== References ==
+
+
+== External links ==
+Official website
+"How We Create the Metascore Magic"

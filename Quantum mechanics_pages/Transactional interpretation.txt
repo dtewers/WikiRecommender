@@ -1,0 +1,48 @@
+The transactional interpretation of quantum mechanics (TIQM) takes the psi and psi* wave functions of the standard quantum formalism to be retarded (forward in time) and advanced (backward in time) waves that form a quantum interaction as a Wheeler–Feynman handshake or transaction. It was first proposed in 1986 by John G. Cramer, who argues that it helps in developing intuition for quantum processes. He also suggests that it avoids the philosophical problems with the Copenhagen interpretation and the role of the observer, and also resolves various quantum paradoxes. TIQM formed a minor plot point in his science fiction novel Einstein's Bridge.
+More recently, he has also argued TIQM to be consistent with the Afshar experiment, while claiming that the Copenhagen interpretation and the many-worlds interpretation are not. The existence of both advanced and retarded waves as admissible solutions to Maxwell's equations was explored in the Wheeler–Feynman absorber theory. Cramer revived their idea of two waves for his transactional interpretation of quantum theory. While the ordinary Schrödinger equation does not admit advanced solutions, its relativistic version does, and these advanced solutions are the ones used by TIQM.
+In TIQM, the source emits a usual (retarded) wave forward in time, but it also emits an advanced wave backward in time; furthermore, the receiver, who is later in time, also emits an advanced wave backward in time and a retarded wave forward in time. A quantum event occurs when a "handshake" exchange of advanced and retarded waves triggers the formation of a transaction in which energy, momentum, angular momentum, etc. are transferred. The quantum mechanism behind transaction formation has been demonstrated explicitly for the case of a photon transfer between atoms in Sect. 5.4 of Carver Mead's book Collective Electrodynamics. In this interpretation, the collapse of the wavefunction does not happen at any specific point in time, but is "atemporal" and occurs along the whole transaction, and the emission/absorption process is time-symmetric. The waves are seen as physically real, rather than a mere mathematical device to record the observer's knowledge as in some other interpretations of quantum mechanics.
+Cramer has used TIQM in teaching quantum mechanics at the University of Washington in Seattle.
+
+
+== Advances over previous interpretations ==
+TIQM is explicitly non-local and, as a consequence, logically consistent with counterfactual definiteness (CFD), the minimum realist assumption. As such it incorporates the non-locality demonstrated by the Bell test experiments and eliminates the observer dependent reality that plagues the Copenhagen Interpretation. Greenberger–Horne–Zeilinger state the key advance over Everett's Relative State Interpretation is to regard the conjugate state vector of the Dirac formalism as ontologically real, incorporating a part of the formalism that, prior to TIQM, had been interpretationally neglected. Having interpreted the conjugate state vector as an advanced wave, it is claimed that the origins of the Born rule follow naturally from the description of a transaction.
+The transactional interpretation has similarities with the two-state vector formalism (TSVF) which has its origin in work by Yakir Aharonov, Peter Bergmann and Joel Lebowitz of 1964.
+Ruth Kastner has developed a new Relativistic Transactional Interpretation (RTI) also called Possibilist Transactional Interpretation (PTI) in which space-time itself emerges by a way of transactions. It has been argued that this relativistic transactional interpretation can provide the quantum dynamics for the causal sets program.
+
+
+== Debate ==
+In 1996, Tim Maudlin proposed a thought experiment involving Wheeler's delayed choice experiment that is generally taken as a refutation of TIQM. However Kastner showed Maudlin's argument is not fatal for TIQM.
+In his book, The Quantum Handshake, Cramer has added a hierarchy to the description of pseudo-time to deal with Maudlin's objection and has pointed out that some of Maudlin's arguments are based on the inappropriate application of Heisenberg's knowledge interpretation to the transactional description.
+Transactional Interpretation faces criticisms. The following is partial list and some replies:
+1. “TI does not generate new predictions / is not testable / has not been tested.”
+TI is an exact interpretation of QM and so its predictions must be the same as QM. Like the many-worlds interpretation (MWI), TI is a "pure" interpretation in that it does not add anything ad hoc but provides a physical referent for a part of the formalism that has lacked one (the advanced states implicitly appearing in the Born rule). Thus the demand often placed on TI for new predictions or testability is a mistaken one that misconstrues the project of interpretation as one of theory modification.
+2. “It is not made clear where in spacetime a transaction occurs.”
+One clear account is given in Cramer (1986), which pictures a transaction as a four-vector standing wave whose endpoints are the emission and absorption events.
+3. “Maudlin (1996, 2002) has demonstrated that TI is inconsistent.”
+Maudlin's probability criticism confused the transactional interpretation with Heisenberg's knowledge interpretation. However, he raised a valid point concerning causally connected possible outcomes, which led Cramer to add hierarchy to the pseudo-time description of transaction formation. Kastner has extended TI to the relativistic domain, and in light of this expansion of the interpretation, it can be shown that the Maudlin Challenge cannot even be mounted, and is therefore nullified; there is no need for the 'hierarchy' proposal of Cramer.
+4. "It is not clear how the transactional interpretation handles the quantum mechanics of more than one particle."
+This issue is addressed in Cramer's 1986 paper, in which he gives many examples of the application of TIQM to multi-particle quantum systems. However, if the question is about the existence of multi-particle wave functions in normal 3D space, Cramer's 2015 book goes into some detail in justifying multi-particle wave functions in 3D space. A criticism of Cramer's 2015 account of dealing with multi-particle quantum systems is found in Kastner 2016, "An Overview of the Transactional Interpretation and its Evolution into the 21st Century, Philosophy Compass (2016) . It observes in particular that the account in Cramer 2015 is necessarily anti-realist about the multi-particle states: if they are only part of a 'map,' then they are not real, and in this form TI becomes an instrumentalist interpretation, contrary to its original spirit. Thus the so-called "retreat" to Hilbert space can instead be seen as a needed expansion of the ontology, rather than a retreat to anti-realism/instrumentalism about the multi-particle states.
+
+
+== See also ==
+Retrocausality
+Quantum entanglement
+Quantum nonlocality
+Wheeler–Feynman absorber theory
+
+
+== References ==
+
+Further reading
+John G. Cramer, The Quantum Handshake: Entanglement, Nonlocality and Transactions, Springer Verlag 2016, ISBN 978-3-319-24642-0.
+Ruth E. Kastner, The Transactional Interpretation of Quantum Mechanics: The Reality of Possibility, Cambridge University Press, 2012.
+Ruth E. Kastner, Understanding Our Unseen Reality: Solving Quantum Riddles, Imperial College Press, 2015.
+Tim Maudlin, Quantum Non-Locality and Relativity, Blackwell Publishers 2002, ISBN 0-631-23220-6 (discusses a gedanken experiment designed to refute the TIQM; this has been refuted in Kastner 2012, Chapter 5)
+Carver A. Mead, Collective Electrodynamics: Quantum Foundations of Electromagnetism, 2000, ISBN 9780262133784.
+John Gribbin, Schrödinger's Kittens and the Search for Reality: solving the quantum mysteries has an overview of Cramer’s interpretation and says that “with any luck at all it will supersede the Copenhagen interpretation as the standard way of thinking about quantum physics for the next generation of scientists.”
+
+
+== External links ==
+Pavel V. Kurakin, George G. Malinetskii, How bees can possibly explain quantum paradoxes, Automates Intelligents (February 2, 2005). (This paper tells about a work attempting to develop TIQM further)
+Kastner has also applied TIQM to other quantum mechanical issues in [1] "The Transactional Interpretation, Counterfactuals, and Weak Values in Quantum Theory" and [2] "The Quantum Liar Experiment in the Transactional Interpretation"
+A generally comprehensible introduction to the Transactional Interpretation can be found in "Quantum Mechanics - the dream stuff is made of" (September 2015)

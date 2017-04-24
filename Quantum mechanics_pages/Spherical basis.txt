@@ -1,0 +1,1497 @@
+"Spherical tensor" redirects to here. For the concept related to operators see tensor operator.
+In pure and applied mathematics, particularly quantum mechanics and computer graphics and their applications, a spherical basis is the basis used to express spherical tensors. The spherical basis closely relates to the description of angular momentum in quantum mechanics and spherical harmonic functions.
+While spherical polar coordinates are one orthogonal coordinate system for expressing vectors and tensors using polar and azimuthal angles and radial distance, the spherical basis are constructed from the standard basis and use complex numbers.
+
+
+== Spherical basis in three dimensions ==
+A vector A in 3D Euclidean space ℝ3 can be expressed in the familiar Cartesian coordinate system in the standard basis ex, ey, ez, and coordinates Ax, Ay, Az:
+
+or any other coordinate system with associated basis set of vectors. From this extend the scalars to allow multiplication by complex numbers. That is to say 
+  
+    
+      
+        
+          
+            C
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbb {C} ^{3}}
+  .
+
+
+=== Basis definition ===
+In the spherical bases denoted e+, e−, e0, and associated coordinates with respect to this basis, denoted A+, A−, A0, the vector A is:
+
+where the spherical basis vectors can be defined in terms of the Cartesian basis using complex-valued coefficients in the xy plane:
+
+in which i denotes the imaginary unit, and one normal to the plane in the z direction:
+
+  
+    
+      
+        
+          
+            e
+          
+          
+            0
+          
+        
+        =
+        
+          
+            e
+          
+          
+            z
+          
+        
+      
+    
+    {\displaystyle \mathbf {e} _{0}=\mathbf {e} _{z}}
+  
+The inverse relations are:
+
+
+=== Commutator definition ===
+While giving a basis in a 3-dimensional space is a valid definition for a spherical tensor, it only covers the case for when the rank 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   is 1. For higher ranks, one may use either the commutator, or rotation definition of a spherical tensor. The commutator definition is given below, any operator 
+  
+    
+      
+        
+          T
+          
+            q
+          
+          
+            (
+            k
+            )
+          
+        
+      
+    
+    {\displaystyle T_{q}^{(k)}}
+   that satisfies the following relations is a spherical tensor :
+
+  
+    
+      
+        [
+        
+          J
+          
+            ±
+          
+        
+        ,
+        
+          T
+          
+            q
+          
+          
+            (
+            k
+            )
+          
+        
+        ]
+        =
+        ℏ
+        
+          
+            (
+            k
+            ∓
+            q
+            )
+            (
+            k
+            ±
+            q
+            +
+            1
+            )
+          
+        
+        
+          T
+          
+            q
+            ±
+            1
+          
+          
+            (
+            k
+            )
+          
+        
+      
+    
+    {\displaystyle [J_{\pm },T_{q}^{(k)}]=\hbar {\sqrt {(k\mp q)(k\pm q+1)}}T_{q\pm 1}^{(k)}}
+  
+
+  
+    
+      
+        [
+        
+          J
+          
+            z
+          
+        
+        ,
+        
+          T
+          
+            q
+          
+          
+            (
+            k
+            )
+          
+        
+        ]
+        =
+        ℏ
+        q
+        
+          T
+          
+            q
+          
+          
+            (
+            k
+            )
+          
+        
+      
+    
+    {\displaystyle [J_{z},T_{q}^{(k)}]=\hbar qT_{q}^{(k)}}
+  
+
+
+=== Rotation definition ===
+Analogous to how the spherical harmonics transform under a rotation, a general spherical tensor obeys the following transformation if the states transform under unitary operator 
+  
+    
+      
+        
+          
+            D
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle {\mathcal {D}}(R)}
+  , where 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   is a 3x3 rotation matrix in SO(3). With the help of Lie algebra one can show these two definitions are equivalent.
+
+  
+    
+      
+        
+          
+            
+              D
+            
+          
+          
+            †
+          
+        
+        (
+        R
+        )
+        
+          T
+          
+            q
+          
+          
+            (
+            k
+            )
+          
+        
+        
+          
+            D
+          
+        
+        (
+        R
+        )
+        =
+        
+          ∑
+          
+            
+              q
+              
+                ′
+              
+            
+            =
+            −
+            k
+          
+          
+            k
+          
+        
+        
+          
+            
+              D
+            
+          
+          
+            q
+            
+              q
+              
+                ′
+              
+            
+          
+          
+            (
+            k
+            )
+          
+        
+        
+          T
+          
+            
+              q
+              
+                ′
+              
+            
+          
+          
+            (
+            k
+            )
+          
+        
+      
+    
+    {\displaystyle {\mathcal {D}}^{\dagger }(R)T_{q}^{(k)}{\mathcal {D}}(R)=\sum _{q^{\prime }=-k}^{k}{\mathcal {D}}_{qq^{\prime }}^{(k)}T_{q^{\prime }}^{(k)}}
+  
+
+
+=== Coordinate vectors ===
+
+For the spherical basis, the coordinates are complex-valued numbers A+, A0, A−, and can be found by substitution of (3B) into (1), or directly calculated from the inner product ⟨, ⟩ (5):
+
+  
+    
+      
+        
+          A
+          
+            0
+          
+        
+        =
+        
+          ⟨
+          
+            
+              e
+            
+            
+              0
+            
+          
+          ,
+          
+            A
+          
+          ⟩
+        
+        =
+        
+          ⟨
+          
+            
+              e
+            
+            
+              z
+            
+          
+          ,
+          
+            A
+          
+          ⟩
+        
+        =
+        
+          A
+          
+            z
+          
+        
+      
+    
+    {\displaystyle A_{0}=\left\langle \mathbf {e} _{0},\mathbf {A} \right\rangle =\left\langle \mathbf {e} _{z},\mathbf {A} \right\rangle =A_{z}}
+  
+with inverse relations:
+
+In general, for two vectors with complex coefficients in the same real-valued orthonormal basis ei, with the property ei·ej = δij, the inner product is:
+
+where · is the usual dot product and the complex conjugate * must be used to keep the magnitude (or "norm") of the vector positive definite.
+
+
+== Properties (three dimensions) ==
+
+
+=== Orthonormality ===
+The spherical basis is an orthonormal basis, since the inner product ⟨, ⟩ (5) of every pair vanishes meaning the basis vectors are all mutually orthogonal:
+
+  
+    
+      
+        
+          ⟨
+          
+            
+              e
+            
+            
+              +
+            
+          
+          ,
+          
+            
+              e
+            
+            
+              −
+            
+          
+          ⟩
+        
+        =
+        
+          ⟨
+          
+            
+              e
+            
+            
+              −
+            
+          
+          ,
+          
+            
+              e
+            
+            
+              0
+            
+          
+          ⟩
+        
+        =
+        
+          ⟨
+          
+            
+              e
+            
+            
+              0
+            
+          
+          ,
+          
+            
+              e
+            
+            
+              +
+            
+          
+          ⟩
+        
+        =
+        0
+      
+    
+    {\displaystyle \left\langle \mathbf {e} _{+},\mathbf {e} _{-}\right\rangle =\left\langle \mathbf {e} _{-},\mathbf {e} _{0}\right\rangle =\left\langle \mathbf {e} _{0},\mathbf {e} _{+}\right\rangle =0}
+  
+and each basis vector is a unit vector:
+
+  
+    
+      
+        
+          ⟨
+          
+            
+              e
+            
+            
+              +
+            
+          
+          ,
+          
+            
+              e
+            
+            
+              +
+            
+          
+          ⟩
+        
+        =
+        
+          ⟨
+          
+            
+              e
+            
+            
+              −
+            
+          
+          ,
+          
+            
+              e
+            
+            
+              −
+            
+          
+          ⟩
+        
+        =
+        
+          ⟨
+          
+            
+              e
+            
+            
+              0
+            
+          
+          ,
+          
+            
+              e
+            
+            
+              0
+            
+          
+          ⟩
+        
+        =
+        1
+      
+    
+    {\displaystyle \left\langle \mathbf {e} _{+},\mathbf {e} _{+}\right\rangle =\left\langle \mathbf {e} _{-},\mathbf {e} _{-}\right\rangle =\left\langle \mathbf {e} _{0},\mathbf {e} _{0}\right\rangle =1}
+  
+hence the need for the normalizing factors of 1/√2.
+
+
+=== Change of basis matrix ===
+
+The defining relations (3A) can be summarized by a transformation matrix U:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      +
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      −
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      0
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          U
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      z
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          U
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  −
+                  
+                    
+                      1
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  −
+                  
+                    
+                      i
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  +
+                  
+                    
+                      1
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  −
+                  
+                    
+                      i
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+            )
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle {\begin{pmatrix}\mathbf {e} _{+}\\\mathbf {e} _{-}\\\mathbf {e} _{0}\end{pmatrix}}=\mathbf {U} {\begin{pmatrix}\mathbf {e} _{x}\\\mathbf {e} _{y}\\\mathbf {e} _{z}\end{pmatrix}}\,,\quad \mathbf {U} ={\begin{pmatrix}-{\frac {1}{\sqrt {2}}}&-{\frac {i}{\sqrt {2}}}&0\\+{\frac {1}{\sqrt {2}}}&-{\frac {i}{\sqrt {2}}}&0\\0&0&1\end{pmatrix}}\,,}
+  
+with inverse:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      z
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            U
+          
+          
+            −
+            1
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      +
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      −
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      e
+                    
+                    
+                      0
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          
+            U
+          
+          
+            −
+            1
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  −
+                  
+                    
+                      1
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  +
+                  
+                    
+                      1
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  +
+                  
+                    
+                      i
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  +
+                  
+                    
+                      i
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+            )
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\begin{pmatrix}\mathbf {e} _{x}\\\mathbf {e} _{y}\\\mathbf {e} _{z}\end{pmatrix}}=\mathbf {U} ^{-1}{\begin{pmatrix}\mathbf {e} _{+}\\\mathbf {e} _{-}\\\mathbf {e} _{0}\end{pmatrix}}\,,\quad \mathbf {U} ^{-1}={\begin{pmatrix}-{\frac {1}{\sqrt {2}}}&+{\frac {1}{\sqrt {2}}}&0\\+{\frac {i}{\sqrt {2}}}&+{\frac {i}{\sqrt {2}}}&0\\0&0&1\end{pmatrix}}\,.}
+  
+It can be seen that U is a unitary matrix, in other words its Hermitian conjugate U† (complex conjugate and matrix transpose) is also the inverse matrix U−1.
+For the coordinates:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      +
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      −
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            U
+          
+          
+            
+              ∗
+            
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      z
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          
+            U
+          
+          
+            
+              ∗
+            
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  −
+                  
+                    
+                      1
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  +
+                  
+                    
+                      i
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  +
+                  
+                    
+                      1
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  +
+                  
+                    
+                      i
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+            )
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle {\begin{pmatrix}A_{+}\\A_{-}\\A_{0}\end{pmatrix}}=\mathbf {U} ^{\mathrm {*} }{\begin{pmatrix}A_{x}\\A_{y}\\A_{z}\end{pmatrix}}\,,\quad \mathbf {U} ^{\mathrm {*} }={\begin{pmatrix}-{\frac {1}{\sqrt {2}}}&+{\frac {i}{\sqrt {2}}}&0\\+{\frac {1}{\sqrt {2}}}&+{\frac {i}{\sqrt {2}}}&0\\0&0&1\end{pmatrix}}\,,}
+  
+and inverse:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      y
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      z
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        (
+        
+          
+            U
+          
+          
+            
+              ∗
+            
+          
+        
+        
+          )
+          
+            −
+            1
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      +
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      −
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        (
+        
+          
+            U
+          
+          
+            
+              ∗
+            
+          
+        
+        
+          )
+          
+            −
+            1
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  −
+                  
+                    
+                      1
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  +
+                  
+                    
+                      1
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  −
+                  
+                    
+                      i
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  −
+                  
+                    
+                      i
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+            )
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\begin{pmatrix}A_{x}\\A_{y}\\A_{z}\end{pmatrix}}=(\mathbf {U} ^{\mathrm {*} })^{-1}{\begin{pmatrix}A_{+}\\A_{-}\\A_{0}\end{pmatrix}}\,,\quad (\mathbf {U} ^{\mathrm {*} })^{-1}={\begin{pmatrix}-{\frac {1}{\sqrt {2}}}&+{\frac {1}{\sqrt {2}}}&0\\-{\frac {i}{\sqrt {2}}}&-{\frac {i}{\sqrt {2}}}&0\\0&0&1\end{pmatrix}}\,.}
+  
+
+
+=== Cross products ===
+Taking cross products of the spherical basis vectors, we find an obvious relation:
+
+  
+    
+      
+        
+          
+            e
+          
+          
+            q
+          
+        
+        ×
+        
+          
+            e
+          
+          
+            q
+          
+        
+        =
+        
+          0
+        
+      
+    
+    {\displaystyle \mathbf {e} _{q}\times \mathbf {e} _{q}={\boldsymbol {0}}}
+  
+where q is a placeholder for +, −, 0, and two less obvious relations:
+
+  
+    
+      
+        
+          
+            e
+          
+          
+            ±
+          
+        
+        ×
+        
+          
+            e
+          
+          
+            ∓
+          
+        
+        =
+        ±
+        i
+        
+          
+            e
+          
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \mathbf {e} _{\pm }\times \mathbf {e} _{\mp }=\pm i\mathbf {e} _{0}}
+  
+
+  
+    
+      
+        
+          
+            e
+          
+          
+            ±
+          
+        
+        ×
+        
+          
+            e
+          
+          
+            0
+          
+        
+        =
+        ±
+        i
+        
+          
+            e
+          
+          
+            ±
+          
+        
+      
+    
+    {\displaystyle \mathbf {e} _{\pm }\times \mathbf {e} _{0}=\pm i\mathbf {e} _{\pm }}
+  
+
+
+=== Inner product in the spherical basis ===
+The inner product between two vectors A and B in the spherical basis follows from the above definition of the inner product:
+
+  
+    
+      
+        
+          ⟨
+          
+            A
+          
+          ,
+          
+            B
+          
+          ⟩
+        
+        =
+        
+          A
+          
+            +
+          
+        
+        
+          B
+          
+            +
+          
+          
+            ⋆
+          
+        
+        +
+        
+          A
+          
+            −
+          
+        
+        
+          B
+          
+            −
+          
+          
+            ⋆
+          
+        
+        +
+        
+          A
+          
+            0
+          
+        
+        
+          B
+          
+            0
+          
+          
+            ⋆
+          
+        
+      
+    
+    {\displaystyle \left\langle \mathbf {A} ,\mathbf {B} \right\rangle =A_{+}B_{+}^{\star }+A_{-}B_{-}^{\star }+A_{0}B_{0}^{\star }}
+  
+
+
+== See also ==
+Wigner–Eckart theorem
+Wigner D matrix
+
+
+== References ==
+
+
+=== Notes ===
+
+S. S. M. Wong (2008). Introductory Nuclear Physics (2nd ed.). John Wiley & Sons. ISBN 35-276-179-14. 
+
+
+== External links ==

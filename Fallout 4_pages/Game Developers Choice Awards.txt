@@ -1,0 +1,314 @@
+The Game Developers Choice Awards are awards annually presented at the Game Developers Conference for outstanding game developers and games. Introduced in 2001, the Game Developers Choice Awards were preceded by the Spotlight Awards, which were presented from 1997 to 1999.
+
+
+== Nomination and voting process ==
+In 2007, gamasutra.com took over management of the awards from the IGDA. An advisory board selected by the editors of gamasutra.com and Game Developer magazine oversees the selection process.
+Nominations are accepted from registered gamasutra.com users, confirmed to be game developers, and from the advisory board. Once the nomination process is complete, the advisory board identifies five finalists for each regular category.
+The recipients of the Lifetime Achievement, Pioneer (formerly known as First Penguin) and Maverick awards are selected by the advisory board. For the other awards, a vote open to all those who participated in the nomination process chooses a recipient from each category's finalists.
+
+
+== List of winners ==
+Note: Events held for awards are held early in the following year. Winners are listed first and highlighted in bold.
+
+
+=== Game of the Year ===
+
+The Game of the Year Award recognizes the overall best game released during the previous calendar year, as interpreted by the members of the Game Developers Conference.
+
+
+=== Best Audio ===
+Best Audio award recognizes the overall excellence of audio in a game, including sound effects, musical composition, sound design and orchestration.
+2000: Diablo II
+2001: Halo: Combat Evolved
+2002: Medal of Honor: Allied Assault
+2003: Call of Duty
+2004: Halo 2
+2005: Guitar Hero
+2006: Guitar Hero II
+2007: BioShock
+2008: Dead Space
+2009: Uncharted 2: Among Thieves
+2010: Red Dead Redemption
+2011: Portal 2
+2012: Journey
+2013: BioShock Infinite
+2014: Alien Isolation
+2015: Crypt of the NecroDancer
+2016: Inside
+
+
+=== Best Debut ===
+The Best Debut Award recognizes the best game from any development studio which released its first publicly available title during the calendar year. This was formally known as the New Studio of the Year Award. In years prior to 2008, the award was awarded to the studio name, as opposed to the game title.
+2000: Valve Corporation / Minh Le / Jess Cliffe (for Counter-Strike)
+2001: Bohemia Interactive (for Operation Flashpoint: Cold War Crisis)
+2002: Retro Studios (for Metroid Prime)
+2003: Infinity Ward (for Call of Duty)
+2004: Crytek (for Far Cry)
+2005: Double Fine Productions (for Psychonauts)
+2006: Iron Lore Entertainment (for Titan Quest)
+2007: Realtime Worlds / Microsoft Game Studios (for Crackdown)
+2008: Media Molecule (for LittleBigPlanet)
+2009: Runic Games (for Torchlight)
+2010: Mojang (for Minecraft)
+2011: Supergiant Games (for Bastion)
+2012: Subset Games (for FTL: Faster Than Light)
+2013: The Fullbright Company (for Gone Home)
+2014: Stoic Studio (for The Banner Saga)
+2015: Moon Studios (for Ori and the Blind Forest)
+2016: Campo Santo (for Firewatch)
+
+
+=== Best Design ===
+Best Design award recognizes the overall excellence of design in a game, including gameplay, mechanics, puzzles, play balancing and scenarios.
+2000: Deus Ex
+2001: Grand Theft Auto III
+2002: Battlefield 1942
+2003: Prince of Persia: The Sands of Time
+2004: Katamari Damacy
+2005: Shadow of the Colossus
+2006: Wii Sports
+2007: Portal
+2008: LittleBigPlanet
+2009: Batman: Arkham Asylum
+2010: Red Dead Redemption
+2011: Portal 2
+2012: Journey
+2013: The Last of Us
+2014: Hearthstone: Heroes of Warcraft
+2015: Rocket League
+2016: Overwatch
+
+
+=== Best Mobile/Handheld Game ===
+Best Mobile/Handheld Game Award recognizes the overall best game commercially released on any handheld platform.
+2007: The Legend of Zelda: Phantom Hourglass
+2008: God of War: Chains of Olympus
+2009: Scribblenauts
+2010: Cut the Rope
+2011: Superbrothers: Sword & Sworcery EP
+2012: The Room
+2013: The Legend of Zelda: A Link Between Worlds
+2014: Monument Valley
+2015: Her Story
+2016: Pokémon Go
+
+
+=== Innovation Award ===
+The Innovation Award recognizes games that demonstrate innovation and push the boundaries of games as an expressive medium. Multiple awards are given each year.
+2000: Counter-Strike; Crazy Taxi; Deus Ex; Jet Grind Radio; No One Lives Forever
+2001: Black and White; Grand Theft Auto III; ICO; Majestic; Rez
+2002: Animal Crossing; Battlefield 1942; Medal of Honor: Allied Assault; The Thing
+2003: EyeToy: Play; Viewtiful Joe; WarioWare, Inc.: Mega Microgame$!
+2004: Donkey Konga; I Love Bees; Katamari Damacy
+2005: Nintendogs; Guitar Hero
+2006: Line Rider; Ōkami; Wii Sports
+2007: Portal
+2008: LittleBigPlanet
+2009: Scribblenauts
+2011: Minecraft
+2012: Journey
+2013: Papers, Please
+2014: Monument Valley
+2015: Her Story
+2016: No Man's Sky
+
+
+=== Best Narrative ===
+Best Narrative award recognizes the quality of writing in a game, including story, plot construction, dialogue and branching narratives.
+2002: Tom Clancy's Splinter Cell
+2003: Star Wars: Knights of the Old Republic
+2004: Half-Life 2
+2005: Psychonauts
+2006: The Legend of Zelda: Twilight Princess
+2007: BioShock
+2008: Fallout 3
+2009: Uncharted 2: Among Thieves
+2010: Mass Effect 2
+2011: Portal 2
+2012: The Walking Dead
+2013: The Last of Us
+2014: Kentucky Route Zero: Episode 3
+2015: Her Story
+2016: Firewatch
+
+
+=== Best Technology ===
+Best Technology award recognizes the overall excellence of technology in a game, including graphics programming, artificial intelligence, networking and physics.
+2004: Half-Life 2
+2005: Nintendogs
+2006: Gears of War
+2007: Crysis
+2008: LittleBigPlanet
+2009: Uncharted 2: Among Thieves
+2010: Red Dead Redemption
+2011: Battlefield 3
+2012: Far Cry 3
+2013: Grand Theft Auto V
+2014: Destiny
+2015: The Witcher 3: Wild Hunt
+2016: Uncharted 4: A Thief's End
+
+
+=== Best Visual Art ===
+Best Visual Art award recognizes the overall excellence of visual art in a game, including animation, modeling, art direction and textures.
+2000: Jet Grind Radio
+2001: ICO
+2002: Kingdom Hearts
+2003: The Legend of Zelda: The Wind Waker
+2004: World of Warcraft
+2005: Shadow of the Colossus
+2006: Gears of War
+2007: BioShock
+2008: Prince of Persia
+2009: Uncharted 2: Among Thieves
+2010: Limbo
+2011: Uncharted 3
+2012: Journey
+2013: BioShock Infinite
+2014: Monument Valley
+2015: Ori and the Blind Forest
+2016: Inside
+
+
+=== Best VR/AR Game ===
+2016: Job Simulator: The 2050 Archives
+
+
+== Special Awards Recipients ==
+
+
+=== Audience Award ===
+These awards are voted by the audience for best game of that year.
+2012: Dishonored
+2013: Kerbal Space Program
+2014: Elite: Dangerous
+2015: Life Is Strange
+2016: Battlefield 1
+
+
+=== The Pioneer Award ===
+Known as the First Penguin award until 2007, the Pioneer Award celebrates individuals who developed a breakthrough technology, game concept or gameplay design.
+2000: Chip Morningstar and Randy Farmer (creators of LucasArts's Habitat)
+2001: Hubert Chardot ("for his risk-taking work on Alone in the Dark")
+2002: David Crane, Larry Kaplan, Jim Levy, Alan Miller, Bob Whitehead (founders of Activision)
+2003: Masaya Matsuura (founder of NanaOn-Sha, pioneer of music/game integration)
+2004: Richard Bartle (co-creator of MUD, ancestor to MMOs)
+2005: Don Woods, Will Crowther (creators of the early text game Adventure)
+2006: Alexey Pajitnov (creator of Tetris)
+2007: Ralph Baer (inventor of the Magnavox Odyssey)
+2008: Alex Rigopulos and Eran Egozy (founders of Harmonix)
+2009: Gabe Newell (founder of Valve Corporation)
+2010: Yu Suzuki
+2011: Dave Theurer
+2012: Steve Russell (creator of Spacewar!)
+2013: Brandon Beck and Marc Merrill (creators of Riot Games)
+2014: David Braben (founder of Frontier Developments, co-creator of the Elite series)
+2015: Markus "Notch" Persson (creator of Minecraft)
+2016: Jordan Mechner (creator of Prince of Persia)
+
+
+=== Ambassador Award ===
+The Ambassador Award is given to individuals within or outside the industry who helped video games "advance to a better place." It replaced the IGDA Award for Community Contribution after 2008.
+2007: Jason Della Rocca
+2008: Tommy Tallarico
+2009: Jerry Holkins, Mike Krahulik and Robert Khoo
+2010: Tim Brengle and Ian Mackenzie (Organizers of the Game Developers Conference volunteer program for 20+ years)
+2011: Kenneth Doroshow and Paul M. Smith (the lawyers in Brown v. Entertainment Merchants Association who argued for the Entertainment Merchants Association in the US Supreme Court.)
+2012: Chris Melissinos (Sun Microsystems)
+2013: Anita Sarkeesian (Feminist Frequency)
+2014: Brenda Romero
+2015: Tracy Fullerton
+2016: Mark DeLoura
+
+
+=== Lifetime Achievement Award ===
+The Lifetime Achievement Award recognizes the achievements of a developer who has impacted games and game development.
+2000: Will Wright (Sim games)
+2001: Yuji Naka (Sonic the Hedgehog)
+2002: Gunpei Yokoi (1941–1997) (Game Boy, Super Mario Land series, Metroid series)
+2003: Mark Cerny (Crash Bandicoot and Spyro the Dragon)
+2004: Eugene Jarvis (Defender and Robotron: 2084)
+2005: Richard Garriott (Ultima)
+2006: Shigeru Miyamoto (creator of Mario, Donkey Kong and The Legend of Zelda)
+2007: Sid Meier (Civilization series and many different simulators)
+2008: Hideo Kojima (Metal Gear series)
+2009: John Carmack (Doom series)
+2010: Peter Molyneux (God games)
+2011: Warren Spector (Deus Ex, System Shock, Thief: The Dark Project)
+2012: Ray Muzyka and Greg Zeschuk (Bioware)
+2013: Ken Kutaragi
+2014: Hironobu Sakaguchi (Final Fantasy series)
+2015: Todd Howard (Bethesda Softworks founder)
+2016: Tim Sweeney (Epic Games founder)
+
+
+== Retired awards ==
+The following award categories have been retired or replaced with a different focus.
+
+
+=== Best Downloadable Game ===
+Best Downloadable Game Award recognizes the overall best game released on console or PC platforms specifically and solely for digital download - with an emphasis on smaller, more 'casual'-friendly titles.
+2007: flOw
+2008: World of Goo
+2009: Flower
+2011: Minecraft
+2012: Bastion
+2013: Journey
+2014: Papers, Please
+
+
+=== Character Design ===
+The Character Design award recognizes the overall excellence of non-licensed character design in a game, including originality, character arc and emotional depth.
+2004: Half-Life 2
+2005: Shadow of the Colossus
+2006: Ōkami
+
+
+=== Excellence in Level Design ===
+2000: American McGee's Alice
+2001: ICO
+2002: Metroid Prime
+
+
+=== Excellence in Programming ===
+2000: The Sims
+2001: Black and White
+2002: Neverwinter Nights
+2003: Prince of Persia: The Sands of Time
+
+
+=== IGDA Award for Community Contribution ===
+The IGDA Award for Community Contribution recognized developers for significant efforts "building community, sharing knowledge, speaking on behalf of developers and/or contributing to the art form of game development". The Ambassador Award replaced it after 2007.
+2000: John Carmack
+2001: Jeff Lander
+2002: Doug Church (Eidos Interactive)
+2003: Ray Muzyka and Greg Zeschuk
+2004: Sheri Graner Ray
+2005: Chris Hecker
+2006: George Sanger
+
+
+=== Original Game Character of the Year ===
+2000: Seaman from Seaman
+2001: Daxter from Jak and Daxter: The Precursor Legacy
+2002: Sly Cooper from Sly Cooper and the Thievius Raccoonus
+2003: HK-47 from Star Wars: Knights of the Old Republic
+
+
+=== Maverick Award ===
+The Maverick Award recognizes the current achievements of a developer who exhibits independence in thought and action while experimenting with alternate/emerging forms of digital games.
+2003: Brian Fiete, Jason Kapalka, and John Vechey (PopCap Games)
+2004: Matt Adams, Ju Row Farr, and Nick Tandavanitj (Blast Theory)
+2005: Mike Dornbrook, Eran Egozy, Greg LoPiccolo, and Alex Rigopulos (Harmonix Music Systems)
+2006: Greg Costikyan
+
+
+=== Best New Social/Online Game ===
+2009: FarmVille
+
+
+== References ==
+
+
+== External links ==
+Official website

@@ -1,0 +1,108 @@
+Celestial mechanics is the branch of astronomy that deals with the motions of celestial objects. Historically, celestial mechanics applies principles of physics (classical mechanics) to astronomical objects, such as stars and planets, to produce ephemeris data. As an astronomical field of study, celestial mechanics includes the sub-fields of Orbital mechanics (astrodynamics), which deals with the orbit of an artificial satellite, and Lunar theory, which deals with the orbit of the Moon.
+
+
+== History ==
+
+Modern analytic celestial mechanics started with Isaac Newton's Principia of 1687. The name "celestial mechanics" is more recent than that. Newton wrote that the field should be called "rational mechanics." The term "dynamics" came in a little later with Gottfried Leibniz, and over a century after Newton, Pierre-Simon Laplace introduced the term "celestial mechanics." Prior to Kepler there was little connection between exact, quantitative prediction of planetary positions, using geometrical or arithmetical techniques, and contemporary discussions of the physical causes of the planets' motion.
+
+
+=== Johannes Kepler ===
+
+Johannes Kepler (1571–1630) was the first to closely integrate the predictive geometrical astronomy, which had been dominant from Ptolemy in the 2nd century to Copernicus, with physical concepts to produce a New Astronomy, Based upon Causes, or Celestial Physics in 1609. His work led to the modern laws of planetary orbits, which he developed using his physical principles and the planetary observations made by Tycho Brahe. Kepler's model greatly improved the accuracy of predictions of planetary motion, years before Isaac Newton developed his law of gravitation in 1686.
+
+
+=== Isaac Newton ===
+Isaac Newton (25 December 1642–31 March 1727) is credited with introducing the idea that the motion of objects in the heavens, such as planets, the Sun, and the Moon, and the motion of objects on the ground, like cannon balls and falling apples, could be described by the same set of physical laws. In this sense he unified celestial and terrestrial dynamics. Using Newton's law of universal gravitation, proving Kepler's Laws for the case of a circular orbit is simple. Elliptical orbits involve more complex calculations, which Newton included in his Principia.
+
+
+=== Joseph-Louis Lagrange ===
+After Newton, Lagrange (25 January 1736–10 April 1813) attempted to solve the three-body problem, analyzed the stability of planetary orbits, and discovered the existence of the Lagrangian points. Lagrange also reformulated the principles of classical mechanics, emphasizing energy more than force and developing a method to use a single polar coordinate equation to describe any orbit, even those that are parabolic and hyperbolic. This is useful for calculating the behaviour of planets and comets and such. More recently, it has also become useful to calculate spacecraft trajectories.
+
+
+=== Simon Newcomb ===
+Simon Newcomb (12 March 1835–11 July 1909) was a Canadian-American astronomer who revised Peter Andreas Hansen's table of lunar positions. In 1877, assisted by George William Hill, he recalculated all the major astronomical constants. After 1884, he conceived with A. M. W. Downing a plan to resolve much international confusion on the subject. By the time he attended a standardisation conference in Paris, France in May 1886, the international consensus was that all ephemerides should be based on Newcomb's calculations. A further conference as late as 1950 confirmed Newcomb's constants as the international standard.
+
+
+=== Albert Einstein ===
+Albert Einstein (14 March 1879–18 April 1955) explained the anomalous precession of Mercury's perihelion in his 1916 paper The Foundation of the General Theory of Relativity. This led astronomers to recognize that Newtonian mechanics did not provide the highest accuracy. Binary pulsars have been observed, the first in 1974, whose orbits not only require the use of General Relativity for their explanation, but whose evolution proves the existence of gravitational radiation, a discovery that led to the 1993 Nobel Physics Prize.
+
+
+== Examples of problems ==
+Celestial motion without additional forces such as thrust of a rocket, is governed by gravitational acceleration of masses due to other masses. A simplification is the n-body problem, where the problem assumes some number n of spherically symmetric masses. In that case, the integration of the accelerations can be well approximated by relatively simple summations.
+Examples:
+4-body problem: spaceflight to Mars (for parts of the flight the influence of one or two bodies is very small, so that there we have a 2- or 3-body problem; see also the patched conic approximation)
+3-body problem:
+Quasi-satellite
+Spaceflight to, and stay at a Lagrangian point
+
+In the case that n=2 (two-body problem), the situation is much simpler than for larger n. Various explicit formulas apply, where in the more general case typically only numerical solutions are possible. It is a useful simplification that is often approximately valid.
+Examples:
+A binary star, e.g., Alpha Centauri (approx. the same mass)
+A binary asteroid, e.g., 90 Antiope (approx. the same mass)
+
+A further simplification is based on the "standard assumptions in astrodynamics", which include that one body, the orbiting body, is much smaller than the other, the central body. This is also often approximately valid.
+Examples:
+Solar system orbiting the center of the Milky Way
+A planet orbiting the Sun
+A moon orbiting a planet
+A spacecraft orbiting Earth, a moon, or a planet (in the latter cases the approximation only applies after arrival at that orbit)
+
+Either instead of, or on top of the previous simplification, we may assume circular orbits, making distance and orbital speeds, and potential and kinetic energies constant in time. This assumption sacrifices accuracy for simplicity, especially for high eccentricity orbits which are by definition non-circular.
+Examples:
+The orbit of the dwarf planet Pluto, ecc. = 0.2488
+The orbit of Mercury, ecc. = 0.2056
+Hohmann transfer orbit
+Gemini 11 flight
+Suborbital flights
+
+
+== Perturbation theory ==
+Perturbation theory comprises mathematical methods that are used to find an approximate solution to a problem which cannot be solved exactly. (It is closely related to methods used in numerical analysis, which are ancient.) The earliest use of perturbation theory was to deal with the otherwise unsolveable mathematical problems of celestial mechanics: Newton's solution for the orbit of the Moon, which moves noticeably differently from a simple Keplerian ellipse because of the competing gravitation of the Earth and the Sun.
+Perturbation methods start with a simplified form of the original problem, which is carefully chosen to be exactly solvable. In celestial mechanics, this is usually a Keplerian ellipse, which is correct when there are only two gravitating bodies (say, the Earth and the Moon), or a circular orbit, which is only correct in special cases of two-body motion, but is often close enough for practical use. The solved, but simplified problem is then "perturbed" to make its starting conditions closer to the real problem, such as including the gravitational attraction of a third body (the Sun). The slight changes that results in, which themselves may have been simplified yet again, are used as corrections. Because of simplifications introduced along every step of the way, the corrections are never perfect, but even one cycle of corrections often provides a remarkably better approximate solution to the real problem.
+There is no requirement to stop at only one cycle of corrections. A partially corrected solution can be re-used as the new starting point for yet another cycle of perturbations and corrections. The common difficulty with the method is that usually the corrections progressively make the new solutions very much more complicated, so each cycle is much more difficult to manage than the previous cycle of corrections. Newton is reported to have said, regarding the problem of the Moon's orbit "It causeth my head to ache."
+This general procedure – starting with a simplified problem and gradually adding corrections that make the starting point of the corrected problem closer to the real situation – is a widely used mathematical tool in advanced sciences and engineering. It is the natural extension of the "guess, check, and fix" method used anciently with numbers.
+
+
+== See also ==
+
+Astrometry is a part of astronomy that deals with measuring the positions of stars and other celestial bodies, their distances and movements.
+Astrodynamics is the study and creation of orbits, especially those of artificial satellites.
+Celestial navigation is a position fixing technique that was the first system devised to help sailors locate themselves on a featureless ocean.
+Dynamics of the celestial spheres concerns pre-Newtonian explanations of the causes of the motions of the stars and planets.
+Gravitation
+Numerical analysis is a branch of mathematics, pioneered by celestial mechanicians, for calculating approximate numerical answers (such as the position of a planet in the sky) which are too difficult to solve down to a general, exact formula.
+Creating a numerical model of the solar system was the original goal of celestial mechanics, and has only been imperfectly achieved. It continues to motivate research.
+An orbit is the path that an object makes, around another object, whilst under the influence of a source of centripetal force, such as gravity.
+Orbital elements are the parameters needed to specify a Newtonian two-body orbit uniquely.
+Osculating orbit is the temporary Keplerian orbit about a central body that an object would continue on, if other perturbations were not present.
+Retrograde motion
+Satellite is an object that orbits another object (known as its primary). The term is often used to describe an artificial satellite (as opposed to natural satellites, or moons). The common noun moon (not capitalized) is used to mean any natural satellite of the other planets.
+Tidal force
+The Jet Propulsion Laboratory Developmental Ephemeris (JPL DE) is a widely used model of the solar system, which combines celestial mechanics with numerical analysis and astronomical and spacecraft data.
+Two solutions, called VSOP82 and VSOP87 are versions one mathematical theory for the orbits and positions of the major planets, which seeks to provide accurate positions over an extended period of time.
+Lunar theory attempts to account for the motions of the Moon.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Encyclopedia:Celestial mechanics Scholarpedia Expert articles
+
+
+== External links ==
+Calvert, James B. (2003-03-28), Celestial Mechanics, University of Denver, retrieved 2006-08-21 
+Astronomy of the Earth's Motion in Space, high-school level educational web site by David P. Stern
+Newtonian Dynamics Undergraduate level course by Richard Fitzpatrick. This includes Langrangian and Hamiltonian Dynamics and applications to celestial mechanics, gravitational potential theory, the 3-body problem and Lunar motion (an example of the 3-body problem with the Sun, Moon, and the Earth).
+Research
+Marshall Hampton's research page: Central configurations in the n-body problem
+Artwork
+Celestial Mechanics is a Planetarium Artwork created by D. S. Hessels and G. Dunne
+Course notes
+Professor Tatum's course notes at the University of Victoria
+Associations
+Italian Celestial Mechanics and Astrodynamics Association
+Simulations

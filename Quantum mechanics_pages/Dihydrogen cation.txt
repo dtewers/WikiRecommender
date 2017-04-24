@@ -1,0 +1,403 @@
+The hydrogen molecular ion, dihydrogen cation, or H+
+2, is the simplest molecular ion. It is composed of two positively charged protons and one negatively charged electron, and can be formed from ionization of a neutral hydrogen molecule. It is of great historical and theoretical interest because, having only one electron, the Schrödinger equation for the system can be solved in a relatively straightforward way due to the lack of electron–electron repulsion (electron correlation). The analytical solutions for the energy eigenvalues are a generalization of the Lambert W function. Thus, the case of clamped nuclei can be completely done analytically using a computer algebra system within an experimental mathematics approach. Consequently, it is included as an example in most quantum chemistry textbooks.
+The first successful quantum mechanical treatment of H+
+2 was published by the Danish physicist Øyvind Burrau in 1927, just one year after the publication of wave mechanics by Erwin Schrödinger. Earlier attempts using the old quantum theory had been published in 1922 by Karel Niessen and Wolfgang Pauli, and in 1925 by Harold Urey. In 1928, Linus Pauling published a review putting together the work of Burrau with the work of Walter Heitler and Fritz London on the hydrogen molecule.
+Bonding in H+
+2 can be described as a covalent one-electron bond, which has a formal bond order of one half.
+The ion is commonly formed in molecular clouds in space, and is important in the chemistry of the interstellar medium.
+
+
+== Quantum mechanical treatment, symmetries, and asymptotics ==
+
+The simplest electronic Schrödinger wave equation for the hydrogen molecular ion H+
+2 is modeled with two fixed nuclear centers, labeled A and B, and one electron. It can be written as
+
+  
+    
+      
+        
+          (
+          −
+          
+            
+              
+                ℏ
+                
+                  2
+                
+              
+              
+                2
+                m
+              
+            
+          
+          
+            ∇
+            
+              2
+            
+          
+          +
+          V
+          )
+        
+        ψ
+        =
+        E
+        ψ
+         
+        ,
+      
+    
+    {\displaystyle \left(-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}+V\right)\psi =E\psi ~,}
+  
+where V is the electron-nuclear Coulomb potential energy function:
+
+  
+    
+      
+        V
+        =
+        −
+        
+          
+            
+              e
+              
+                2
+              
+            
+            
+              4
+              π
+              
+                ε
+                
+                  0
+                
+              
+            
+          
+        
+        
+          (
+          
+            
+              1
+              
+                r
+                
+                  a
+                
+              
+            
+          
+          +
+          
+            
+              1
+              
+                r
+                
+                  b
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle V=-{\frac {e^{2}}{4\pi \varepsilon _{0}}}\left({\frac {1}{r_{a}}}+{\frac {1}{r_{b}}}\right)}
+  
+and E is the (electronic) energy of a given quantum mechanical state (eigenstate), with the electronic state function ψ = ψ(r) depending on the spatial coordinates of the electron. An additive term 1/R, which is constant for fixed internuclear distance R, has been omitted from the potential V, since it merely shifts the eigenvalue. The distances between the electron and the nuclei are denoted ra and rb. In atomic units (ħ = m = e = 4πε0 = 1) the wave equation is
+
+  
+    
+      
+        
+          (
+          
+
+          
+          −
+          
+            
+              
+                1
+                2
+              
+            
+          
+          
+            ∇
+            
+              2
+            
+          
+          +
+          V
+          )
+        
+        ψ
+        =
+        E
+        ψ
+        
+        
+          with
+        
+        
+        V
+        =
+        
+
+        
+        −
+        
+          
+            1
+            
+              r
+              
+                a
+              
+              
+
+              
+            
+          
+        
+        −
+        
+          
+            1
+            
+              r
+              
+                b
+              
+              
+
+              
+            
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \left({}-{\tfrac {1}{2}}\nabla ^{2}+V\right)\psi =E\psi \qquad {\mbox{with}}\qquad V={}-{\frac {1}{r_{a}^{}}}-{\frac {1}{r_{b}^{}}}\;.}
+  
+We can choose the midpoint between the nuclei as the origin of coordinates. It follows from general symmetry principles that the wave functions can be characterized by their symmetry behavior with respect to space inversion (r ↦ −r). There are wave functions ψ+(r), which are symmetric with respect to space inversion, and there are wave functions ψ−(r), which are antisymmetric under this symmetry operation:
+
+  
+    
+      
+        
+          ψ
+          
+            ±
+          
+        
+        (
+        −
+        
+          
+            r
+          
+        
+        )
+        =
+        
+
+        
+        ±
+        
+          ψ
+          
+            ±
+          
+        
+        (
+        
+          
+            r
+          
+        
+        )
+        
+        .
+      
+    
+    {\displaystyle \psi _{\pm }(-{\mathbf {r} })={}\pm \psi _{\pm }({\mathbf {r} })\;.}
+  
+The symmetry-adapted wave functions satisfy the same Schrödinger equation.
+The ground state (the lowest discrete state) of H+
+2 is denoted X2Σ+
+g or 1sσg and it is symmetric. There is also the first excited state A2Σ+
+u (2pσu), which is antisymmetric. (The suffixes g and u are from the German gerade and ungerade) occurring here denote just the symmetry behavior under space inversion. Their use is standard practice for the designation of electronic states of diatomic molecules, whereas for atomic states the terms even and odd are used.
+
+Asymptotically, the (total) eigenenergies E± for these two lowest lying states have the same asymptotic expansion in inverse powers of the inter-nuclear distance R:
+
+  
+    
+      
+        
+          E
+          
+            ±
+          
+        
+        =
+        
+
+        
+        −
+        
+          
+            1
+            2
+          
+        
+        −
+        
+          
+            9
+            
+              4
+              
+                R
+                
+                  4
+                
+              
+            
+          
+        
+        +
+        O
+        (
+        
+          R
+          
+            −
+            6
+          
+        
+        )
+        +
+        ⋯
+      
+    
+    {\displaystyle E_{\pm }={}-{\frac {1}{2}}-{\frac {9}{4R^{4}}}+O(R^{-6})+\cdots }
+  
+The actual difference between these two energies is called the exchange energy splitting and is given by:
+
+  
+    
+      
+        Δ
+        E
+        =
+        
+          E
+          
+            −
+          
+        
+        −
+        
+          E
+          
+            +
+          
+        
+        =
+        
+          
+            4
+            e
+          
+        
+        
+        R
+        
+        
+          e
+          
+            −
+            R
+          
+        
+        
+          [
+          
+          1
+          +
+          
+            
+              1
+              
+                2
+                R
+              
+            
+          
+          +
+          O
+          (
+          
+            R
+            
+              −
+              2
+            
+          
+          )
+          
+          ]
+        
+      
+    
+    {\displaystyle \Delta E=E_{-}-E_{+}={\frac {4}{e}}\,R\,e^{-R}\left[\,1+{\frac {1}{2R}}+O(R^{-2})\,\right]}
+  
+which exponentially vanishes as the inter-nuclear distance R gets greater. The lead term 4/eRe−R was first obtained by the Holstein–Herring method. Similarly, asymptotic expansions in powers of 1/R have been obtained to high order by Cizek et al. for the lowest ten discrete states of the hydrogen molecular ion (clamped nuclei case). For general diatomic and polyatomic molecular systems, the exchange energy is thus very elusive to calculate at large internuclear distances but is nonetheless needed for long-range interactions including studies related to magnetism and charge exchange effects. These are of particular importance in stellar and atmospheric physics.
+The energies for the lowest discrete states are shown in the graph above. These can be obtained to within arbitrary accuracy using computer algebra from the generalized Lambert W function (see eq. (3) in that site and the reference of Scott, Aubert-Frécon, and Grotendorst) but were obtained initially by numerical means to within double precision by the most precise program available, namely ODKIL. The red solid lines are 2Σ+
+g states. The green dashed lines are 2Σ+
+u states. The blue dashed line is a 2Πu state and the pink dotted line is a 2Πg state. Note that although the generalized Lambert W function eigenvalue solutions supersede these asymptotic expansions, in practice, they are most useful near the bond length. These solutions are possible because the partial differential equation of the wave equation here separates into two coupled ordinary differential equations using prolate spheroidal coordinates.
+
+
+== Formation ==
+The dihydrogen ion is formed in nature by the interaction of cosmic rays and the hydrogen molecule. An electron is knocked off leaving the cation behind.
+H2 + cosmic ray → H+
+2 + e− + cosmic ray.
+Cosmic ray particles have enough energy to ionize many molecules before coming to a stop.
+In nature the ion is destroyed by reacting with other hydrogen molecules:
+H+
+2 + H2 → H+
+3 + H.
+The ionization energy of the hydrogen molecule is 15.603 eV. The dissociation energy of the ion is 1.8 eV. High speed electrons also cause ionization of hydrogen molecules with a peak cross section around 50 eV. The peak cross section for ionization for high speed protons is 70000 eV with a cross section of 2.5×10−16 cm2. A cosmic ray proton at lower energy can also strip an electron off a neutral hydrogen molecule to form a neutral hydrogen atom and the dihydrogen cation, (p+ + H2 → H + H+
+2) with a peak cross section at around 8000 eV of 8×10−16 cm2.
+An artificial plasma discharge cell can also produce the ion.
+
+
+== See also ==
+Dirac Delta function model (1D version of H+
+2)
+Di-positronium
+Euler's three-body problem (classical counterpart)
+Few-body systems
+Helium atom
+Helium hydride ion
+Trihydrogen cation
+Triatomic hydrogen
+Lambert W function
+Molecular astrophysics
+Holstein–Herring method
+Three-body problem
+List of quantum-mechanical systems with analytical solutions
+
+
+== References ==
